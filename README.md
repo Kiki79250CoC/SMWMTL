@@ -20,7 +20,7 @@ The left one is the list of Application that SMWMTL can launch, and the right on
 
 The bottom zone is for some tools like Settings, Report bug form and some other features.
 
-![SMWMTL211](https://user-images.githubusercontent.com/54137141/125541753-6015d78a-61ea-4b9f-8eec-bcc4360c4a04.png)
+![SMWMTL211](https://github.com/Kiki79250CoC/SMWMTL/blob/a32d298c62ff3199ba6b8e5f3aa66f46454f8c93/Releases/Images/SMWMTL211.png)
 
 SMWMTL's UI is coherent betweet each windows, not like Windows 10 (^^) and eventually 11. Each Window have a simple design, buttons are on the bottom, and all infos on the space left.
 
