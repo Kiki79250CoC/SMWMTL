@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome to Windows.
 
 You can use the [editor on GitHub](https://github.com/Kiki79250CoC/SMWMTL/edit/Stable/docs/index.md) to maintain and preview the content for your website in Markdown files.
 
