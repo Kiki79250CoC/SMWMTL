@@ -34,7 +34,7 @@ _Updated for SMWMTL 2.11 and 2.10-LTS.2 Releases_
 - **Framework Version :** .NET Framework 4.0.3
 - **RAM               :** At least 50 MB for running apps.
 - **Disk Space        :** At least 150 MB for installation (SMWMTL + Programs included).
-## Recommanded System Requirements :
+## Recommended System Requirements :
 - **OS                :** Windows Vista Service Pack 2 (x64) or Windows 7 Service Pack 1 (x64)
 - **Framework Version :** .NET Framework 4.5 (For some effects like Aero Extension)
 - **RAM               :** At least 100 MB for running apps.
