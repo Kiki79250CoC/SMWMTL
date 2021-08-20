@@ -7,6 +7,7 @@ A : The source code isn't ready at all to be placed in a GitHub repo. Many major
 ⚠️ **HOWEVER !** ⚠️ The latest release is available in the Releases page.
 
 # Super Mario World MultiTools Launcher (SMWMTL)
+![SMWMTL211](https://github.com/Kiki79250CoC/SMWMTL/blob/139db41eb710da966650189d9e9b685ee0f4fb07/Releases/Images/AppBrand/AppBrandLogo.png)
 Super Mario World MultiTools Launcher is a small program writted in VisualBasic.NET under Framework 4.0 (meanwhile, an upgrade to 4.6 is planned for next release), which allows to create Super Mario World Hacks more easily (if you use your own-dumped ROM) by grouping all tools in one place instead of travel into each folder to find what tool you want to use.
 
 ## Why SMWMTL ?
@@ -20,23 +21,24 @@ The left one is the list of Application that SMWMTL can launch, and the right on
 
 The bottom zone is for some tools like Settings, Report bug form and some other features.
 
-![SMWMTL211](https://github.com/Kiki79250CoC/SMWMTL/blob/a32d298c62ff3199ba6b8e5f3aa66f46454f8c93/Releases/Images/SMWMTL211.png)
+![SMWMTL211](https://github.com/Kiki79250CoC/SMWMTL/blob/139db41eb710da966650189d9e9b685ee0f4fb07/Releases/Images/SMWMTL212.png)
 
 SMWMTL's UI is coherent betweet each windows, not like Windows 10 (^^) and eventually 11. Each Window have a simple design, buttons are on the bottom, and all infos on the space left.
 
 # System Requirements :
-_Updated for SMWMTL 2.11 and 2.10-LTS.2 Releases_
+_Updated for SMWMTL 2.1x Releases (LTS included) and above_
 
 **SMWMTL is available for French (France) and English (United States) languages.**
 
 ## Minimum System Requirements :
-- **OS                :** Windows XP Service Pack 3
-- **Framework Version :** .NET Framework 4.0.3
-- **RAM               :** At least 50 MB for running apps.
-- **Disk Space        :** At least 150 MB for installation (SMWMTL + Programs included).
+- **OS                :** Windows XP Service Pack 3 // Windows XP x64 Edition Service Pack 2
+- **Framework Version :** .NET Framework 4.0.30319
+- **RAM               :** At least 128 MB for running apps.
+- **Disk Space        :** At least 128 MB for installation (SMWMTL + Programs included).
+- **Screen Resolution :** 1366x768 Pixels
 ## Recommended System Requirements :
 - **OS                :** Windows Vista Service Pack 2 (x64) or Windows 7 Service Pack 1 (x64)
 - **Framework Version :** .NET Framework 4.5 (For some effects like Aero Extension)
-- **RAM               :** At least 100 MB for running apps.
-- **Disk Space        :** At least 200 MB for installation (SMWMTL + Programs included + A little bit of space for working).
-------------------------
+- **RAM               :** At least 256 MB for running apps.
+- **Disk Space        :** At least 512 MB for installation (SMWMTL + Programs included + A little bit of space for working).
+- **Screen Resolution :** 1600x900 Pixels
