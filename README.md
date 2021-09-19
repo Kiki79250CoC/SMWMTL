@@ -1,10 +1,12 @@
-# ℹ️ **Important Repo information !**
+## ℹ️ **Important Repo information !**
 Q : **Why is this repo empty ?**
 
 A : The source code isn't ready at all to be placed in a GitHub repo. Many major code modifications are required before it can be placed here.
 :warning: However, the LTS version simply **cannot be placed in a repository** **due to code dependencies that will simply not be changed in the source code "Quebec"** (versions 2.1x one), even after the release of the next major release in the Stable branch. When version 2.20 is released, the source code of SMWMTL (Stable Branch) will be pushed to this repo.
 
 ⚠️ **HOWEVER !** ⚠️ The latest release is available in the Releases page.
+
+---
 
 # Super Mario World MultiTools Launcher (SMWMTL)
 ![SMWMTL211](https://github.com/Kiki79250CoC/SMWMTL/blob/139db41eb710da966650189d9e9b685ee0f4fb07/Releases/Images/AppBrand/AppBrandLogo.png)
@@ -21,12 +23,12 @@ The left one is the list of Application that SMWMTL can launch, and the right on
 
 The bottom zone is for some tools like Settings, Report bug form and some other features.
 
-![SMWMTL211](https://github.com/Kiki79250CoC/SMWMTL/blob/139db41eb710da966650189d9e9b685ee0f4fb07/Releases/Images/SMWMTL212.png)
+![SMWMTL211](https://github.com/Kiki79250CoC/SMWMTL/blob/ec0dd14fd07084abfcfc0c6b323f05006062b711/Releases/Images/SMWMTL213.png)
 
 SMWMTL's UI is coherent betweet each windows, not like Windows 10 (^^) and eventually 11. Each Window have a simple design, buttons are on the bottom, and all infos on the space left.
 
 # System Requirements :
-_Updated for SMWMTL 2.1x Releases (LTS included) and above_
+_Updated for SMWMTL 2.13 release (LTS included) and above_
 
 **SMWMTL is available for French (France) and English (United States) languages.**
 
