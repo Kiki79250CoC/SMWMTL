@@ -9,14 +9,16 @@ In this table, you can see if some versions of Windows are supported or not.
 | SMWMTL 1.00³   | Yes (SP3)    | Yes (SP2)     | Yes (SP1) | Yes         | Yes         | No         |
 | SMWMTL 1.10³   | Yes (SP3)    | Yes (SP2)     | Yes (SP1) | Yes         | Yes         | No         |
 | SMWMTL 1.20³   | Yes (SP3)    | Yes (SP2)     | Yes (SP1) | Yes         | Yes         | No         |
-| SMWMTL 2.00    | Yes (SP3)    | Yes (SP2)     | Yes (SP1) | Yes         | 1511-20H2   | No         |
-| SMWMTL 2.01    | Yes (SP3)    | Yes (SP2)     | Yes (SP1) | Yes         | 1511-20H2   | No         |
-| SMWMTL 2.02    | Yes (SP3)    | Yes (SP2)     | Yes (SP1) | Yes         | 1511-2004⁴  | No         |
+||
+| SMWMTL 2.00    | Yes (SP3)    | Yes (SP2)     | Yes (SP1) | Yes         | 1511-20H2⁴  | No         |
+| SMWMTL 2.01    | Yes (SP3)    | Yes (SP2)     | Yes (SP1) | Yes         | 1511-20H2⁴  | No         |
+| SMWMTL 2.02    | Yes (SP3)    | Yes (SP2)     | Yes (SP1) | Yes         | 1511-2004⁵  | No         |
 | SMWMTL 2.03    | Yes (SP3)    | Yes (SP2)     | Yes (SP1) | Yes         | 1511-20H2   | No         |
 | SMWMTL 2.04    | Yes (SP3)    | Yes (SP2)     | Yes (SP1) | Yes         | 1511-20H2   | No         |
 | SMWMTL 2.05    | Yes (SP3)    | Yes (SP2)     | Yes (SP1) | Yes         | 1511-20H2   | No         |
 | SMWMTL 2.06    | Yes (SP3)    | Yes (SP2)     | Yes (SP1) | Yes         | 1511-20H2   | No         |
 | SMWMTL 2.07    | Yes (SP3)    | Yes (SP2)     | Yes (SP1) | Yes         | 1511-20H2   | No         |
+||
 | SMWMTL 2.10    | Yes (SP3)    | Yes (SP2)     | Yes (SP1) | Yes         | 1511-20H2   | No         |
 | SMWMTL 2.11    | Yes (SP3)    | Yes (SP2)     | Yes (SP1) | Yes         | 1511-21H1   | No         |
 | SMWMTL 2.12    | Yes (SP3)    | Yes (SP2)     | Yes (SP1) | Yes         | 1511-21H2   | Partial    |
@@ -35,7 +37,8 @@ In this table, you can see if some versions of Windows are supported or not.
 - ¹ : Windows XP can have some features missing like SMWMTL_Update or built-in application that don't support this OS.
 - ² : Windows 10 1507 can have a broken compatibility with OS detection.
 - ³ : SMWMTL 1.xx help file mentions only Windows 8+ as compatible. These versions can run on XP, Vista and 7 fine.
-- ⁴ : Windows 10 20H2 detection is broken due to Registry Key changes.
+- ⁴ : In these Pre-20H2 released versions, Windows 10 20H2 and above are listed as "Windows 10 2009"
+- ⁵ : Windows 10 20H2 detection is broken due to Registry Key changes.
 
 ## Server Windows versions :
 *For who use Windows Server as main OS (yes, these people exists).*
@@ -46,6 +49,7 @@ In this table, you can see if some versions of Windows are supported or not.
 | SMWMTL 1.00²   | Yes (SP2)             | Yes (SP2) | Yes (SP1) | Yes   | Yes      | Yes   | Yes   | No    |
 | SMWMTL 1.10²   | Yes (SP2)             | Yes (SP2) | Yes (SP1) | Yes   | Yes      | Yes   | Yes   | No    |
 | SMWMTL 1.20²   | Yes (SP2)             | Yes (SP2) | Yes (SP1) | Yes   | Yes      | Yes   | Yes   | No    |
+||
 | SMWMTL 2.00    | Yes (SP2)             | Yes (SP2) | Yes (SP1) | Yes   | Yes      | Yes   | Yes   | No    |
 | SMWMTL 2.01    | Yes (SP2)             | Yes (SP2) | Yes (SP1) | Yes   | Yes      | Yes   | Yes   | No    |
 | SMWMTL 2.02    | Yes (SP2)             | Yes (SP2) | Yes (SP1) | Yes   | Yes      | Yes   | Yes   | No    |
@@ -54,6 +58,7 @@ In this table, you can see if some versions of Windows are supported or not.
 | SMWMTL 2.05    | Yes (SP2)             | Yes (SP2) | Yes (SP1) | Yes   | Yes      | Yes   | Yes   | No    |
 | SMWMTL 2.06    | Yes (SP2)             | Yes (SP2) | Yes (SP1) | Yes   | Yes      | Yes   | Yes   | No    |
 | SMWMTL 2.07    | Yes (SP2)             | Yes (SP2) | Yes (SP1) | Yes   | Yes      | Yes   | Yes   | No    |
+||
 | SMWMTL 2.10    | Yes (SP2)             | Yes (SP2) | Yes (SP1) | Yes   | Yes      | Yes   | Yes   | No    |
 | SMWMTL 2.11    | Yes (SP2)             | Yes (SP2) | Yes (SP1) | Yes   | Yes      | Yes   | Yes   | No    |
 | SMWMTL 2.12    | Yes (SP2)             | Yes (SP2) | Yes (SP1) | Yes   | Yes      | Yes   | Yes   | Yes   |
