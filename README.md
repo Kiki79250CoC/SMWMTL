@@ -23,20 +23,20 @@ The left one is the list of Application that SMWMTL can launch, and the right on
 
 The bottom zone is for some tools like Settings, Report bug form and some other features.
 
-![SMWMTL213](https://github.com/Kiki79250CoC/SMWMTL/blob/ec0dd14fd07084abfcfc0c6b323f05006062b711/Releases/Images/SMWMTL213.png)
+![SMWMTL214](https://github.com/Kiki79250CoC/SMWMTL/blob/f5f8b3f3e118f4d179d495e7cb43337c1ec79843/Releases/Images/SMWMTL214.png)
 
 SMWMTL's UI is coherent betweet each windows, not like Windows 10 (^^) and eventually 11. Each Window have a simple design, buttons are on the bottom, and all infos on the space left.
 
 # System Requirements :
-_This system requirements concerns : SMWMTL 2.00 up to SMWMTL 2.13. LTS Versions included._
+_This system requirements concerns : SMWMTL 2.00 up to SMWMTL 2.14. LTS Versions included._
 
-|                        | Minimal Configuration            | Recommended Configuration                         |
-| ---------------------- | -------------------------------- | ------------------------------------------------- |
-| Operating System       | Windows XP (SP3) / XP x64 (SP2)  | Windows Vista x64 (SP2) / Windows 7 x64 (SP1)     |
-| .NET Framework Version | Version 4.0.30319                | Version 4.5 (for some effect like Aero Extension) |
-| System Memory          | At least 128 MB for running apps | At least 256 MB for running apps                  |
-| Disk space             | At least 128 MB for Installation | 512MB (Installation + Space store your work)      |
-| Screen Resolution      | 1366x768 Pixels                  | 1600x900 Pixels                                   |
+|                        | Minimal Configuration            | Recommended Configuration                       |
+| ---------------------- | -------------------------------- | ----------------------------------------------- |
+| Operating System       | Windows XP (SP3) / XP x64 (SP2)  | Windows Vista (SP2) / Windows 7 (SP1) (all x64) |
+| .NET Framework Version | Version 4.0.30319                | Version 4.5                                     |
+| System Memory          | 128 MB                           | 256 MB                                          |
+| Disk space             | 128 MB                           | 512 MB                                          |
+| Screen Resolution      | 1366x768 Pixels                  | 1600x900 Pixels                                 |
 
 🗣️ **SMWMTL is available for French (France) and English (United States) languages.**
 
