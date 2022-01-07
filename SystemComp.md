@@ -24,6 +24,7 @@ In this table, you can see if some versions of Windows are supported or not.
 | SMWMTL 2.12    | Yes (SP3)    | Yes (SP2)     | Yes (SP1) | Yes         | 1511-21H2   | Partial    |
 | SMWMTL 2.13    | Yes (SP3)    | Yes (SP2)     | Yes (SP1) | Yes         | 1511-21H2   | Yes (RTM)  |
 | SMWMTL 2.14    | Yes (SP3)    | Yes (SP2)     | Yes (SP1) | Yes         | 1511-21H2   | Yes (RTM)  |
+| SMWMTL 2.15    | Yes (SP3)    | Yes (SP2)     | Yes (SP1) | Yes         | 1511-21H2   | Yes (RTM)  |
 ||
 | SMWMTL 2.20 (Beta) | No       | Yes (SP2)     | Yes (SP1) | Yes         | 1511-21H2   | Yes (RTM)  |
 
@@ -35,6 +36,7 @@ In this table, you can see if some versions of Windows are supported or not.
 | SMWMTL 2.10-LTS.3  | Yes (SP3)    | Yes (SP2)     | Yes (SP1) | Yes         | 1511-21H2   | Partial    |
 | SMWMTL 2.10-LTS.4  | Yes (SP3)    | Yes (SP2)     | Yes (SP1) | Yes         | 1511-21H2   | Yes (RTM)  |
 | SMWMTL 2.10-LTS.5  | Yes (SP3)    | Yes (SP2)     | Yes (SP1) | Yes         | 1511-21H2   | Yes (RTM)  |
+| SMWMTL 2.10-LTS.6  | Yes (SP3)    | Yes (SP2)     | Yes (SP1) | Yes         | 1511-21H2   | Yes (RTM)  |
 
 - ¹ : Windows XP can have some features missing like SMWMTL_Update or built-in application that don't support this OS.
 - ² : Windows 10 1507 can have a broken compatibility with OS detection.
@@ -66,6 +68,7 @@ In this table, you can see if some versions of Windows are supported or not.
 | SMWMTL 2.12    | Yes (SP2)             | Yes (SP2) | Yes (SP1) | Yes   | Yes      | Yes   | Yes   | Yes   |
 | SMWMTL 2.13    | Yes (SP2)             | Yes (SP2) | Yes (SP1) | Yes   | Yes      | Yes   | Yes   | Yes   |
 | SMWMTL 2.14    | Yes (SP2)             | Yes (SP2) | Yes (SP1) | Yes   | Yes      | Yes   | Yes   | Yes   |
+| SMWMTL 2.15    | Yes (SP2)             | Yes (SP2) | Yes (SP1) | Yes   | Yes      | Yes   | Yes   | Yes   |
 ||
 | SMWMTL 2.20 (Beta) | No                | Yes (SP2) | Yes (SP1) | Yes   | Yes      | Yes   | Yes   | Yes   |
 
@@ -77,5 +80,6 @@ In this table, you can see if some versions of Windows are supported or not.
 | SMWMTL 2.10-LTS.3  | Yes (SP2)             | Yes (SP2) | Yes (SP1) | Yes   | Yes      | Yes   | Yes   | Yes   |
 | SMWMTL 2.10-LTS.4  | Yes (SP2)             | Yes (SP2) | Yes (SP1) | Yes   | Yes      | Yes   | Yes   | Yes   |
 | SMWMTL 2.10-LTS.5  | Yes (SP2)             | Yes (SP2) | Yes (SP1) | Yes   | Yes      | Yes   | Yes   | Yes   |
+| SMWMTL 2.10-LTS.6  | Yes (SP2)             | Yes (SP2) | Yes (SP1) | Yes   | Yes      | Yes   | Yes   | Yes   |
 
 - ¹ : Like Windows XP, Server 2003 can have some features missing like SMWMTL_Update or built-in application that don't support this OS.
