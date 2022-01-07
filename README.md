@@ -23,17 +23,27 @@ The left one is the list of Application that SMWMTL can launch, and the right on
 
 The bottom zone is for some tools like Settings, Report bug form and some other features.
 
-![SMWMTL214](https://github.com/Kiki79250CoC/SMWMTL/blob/f5f8b3f3e118f4d179d495e7cb43337c1ec79843/Releases/Images/SMWMTL214.png)
+![SMWMTL215](https://github.com/Kiki79250CoC/SMWMTL/blob/b019831be5ba7393e001281792e1e00cec9a0e86/Releases/Images/SMWMTL215.png)
 
 SMWMTL's UI is coherent betweet each windows, not like Windows 10 (^^) and eventually 11. Each Window have a simple design, buttons are on the bottom, and all infos on the space left.
 
 # System Requirements :
-_This system requirements concerns : SMWMTL 2.00 up to SMWMTL 2.14. LTS Versions included._
+_This system requirements concerns : SMWMTL 2.00 up to SMWMTL 2.15. LTS Versions included._
 
 |                        | Minimal Configuration            | Recommended Configuration                       |
 | ---------------------- | -------------------------------- | ----------------------------------------------- |
 | Operating System       | Windows XP (SP3) / XP x64 (SP2)  | Windows Vista (SP2) / Windows 7 (SP1) (all x64) |
 | .NET Framework Version | Version 4.0.30319                | Version 4.5                                     |
+| System Memory          | 128 MB                           | 256 MB                                          |
+| Disk space             | 128 MB                           | 512 MB                                          |
+| Screen Resolution      | 1366x768 Pixels                  | 1600x900 Pixels                                 |
+
+⚠️ **Starting from Version 2.20, System requirements will change ! Here are new requirements :**
+
+|                        | Minimal Configuration            | Recommended Configuration                       |
+| ---------------------- | -------------------------------- | ----------------------------------------------- |
+| Operating System       | Windows Vista SP2 (x64)          | Windows 7 SP1 (x64)                             |
+| .NET Framework Version | Version 4.6                      | Version 4.8                                     |
 | System Memory          | 128 MB                           | 256 MB                                          |
 | Disk space             | 128 MB                           | 512 MB                                          |
 | Screen Resolution      | 1366x768 Pixels                  | 1600x900 Pixels                                 |
