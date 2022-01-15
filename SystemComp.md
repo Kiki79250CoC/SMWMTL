@@ -25,6 +25,7 @@ In this table, you can see if some versions of Windows are supported or not.
 | SMWMTL 2.13    | Yes (SP3)    | Yes (SP2)     | Yes (SP1) | Yes         | 1511-21H2   | Yes (RTM)  |
 | SMWMTL 2.14    | Yes (SP3)    | Yes (SP2)     | Yes (SP1) | Yes         | 1511-21H2   | Yes (RTM)  |
 | SMWMTL 2.15    | Yes (SP3)    | Yes (SP2)     | Yes (SP1) | Yes         | 1511-21H2   | Yes (RTM)  |
+| SMWMTL 2.16    | Yes (SP3)    | Yes (SP2)     | Yes (SP1) | Yes         | 1511-21H2   | Yes (RTM)  |
 ||
 | SMWMTL 2.20 (Beta) | No       | Yes (SP2)     | Yes (SP1) | Yes         | 1511-21H2   | Yes (RTM)  |
 
@@ -69,6 +70,7 @@ In this table, you can see if some versions of Windows are supported or not.
 | SMWMTL 2.13    | Yes (SP2)             | Yes (SP2) | Yes (SP1) | Yes   | Yes      | Yes   | Yes   | Yes   |
 | SMWMTL 2.14    | Yes (SP2)             | Yes (SP2) | Yes (SP1) | Yes   | Yes      | Yes   | Yes   | Yes   |
 | SMWMTL 2.15    | Yes (SP2)             | Yes (SP2) | Yes (SP1) | Yes   | Yes      | Yes   | Yes   | Yes   |
+| SMWMTL 2.16    | Yes (SP2)             | Yes (SP2) | Yes (SP1) | Yes   | Yes      | Yes   | Yes   | Yes   |
 ||
 | SMWMTL 2.20 (Beta) | No                | Yes (SP2) | Yes (SP1) | Yes   | Yes      | Yes   | Yes   | Yes   |
 
