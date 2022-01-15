@@ -23,12 +23,12 @@ The left one is the list of Application that SMWMTL can launch, and the right on
 
 The bottom zone is for some tools like Settings, Report bug form and some other features.
 
-![SMWMTL215](https://github.com/Kiki79250CoC/SMWMTL/blob/b019831be5ba7393e001281792e1e00cec9a0e86/Releases/Images/SMWMTL215.png)
+![SMWMTL216](https://github.com/Kiki79250CoC/SMWMTL/blob/71040fe72a03594ced32188839e0436b61a8a256/Releases/Images/SMWMTL216.png)
 
 SMWMTL's UI is coherent betweet each windows, not like Windows 10 (^^) and eventually 11. Each Window have a simple design, buttons are on the bottom, and all infos on the space left.
 
 # System Requirements :
-_This system requirements concerns : SMWMTL 2.00 up to SMWMTL 2.15. LTS Versions included._
+_This system requirements concerns : SMWMTL 2.00 up to SMWMTL 2.16. LTS Versions included._
 
 |                        | Minimal Configuration            | Recommended Configuration                       |
 | ---------------------- | -------------------------------- | ----------------------------------------------- |
