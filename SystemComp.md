@@ -4,30 +4,30 @@ In this table, you can see if some versions of Windows are supported or not.
 ## Client Windows versions :
 
 ### Stable Releases
-| SMWMTL Version | Windows XP¹  | Windows Vista | Windows 7 | Windows 8.x | Windows 10² | Windows 11 |
-| -------------- | ------------ | ------------- | --------- | ----------- | ----------- | ---------- |
-| SMWMTL 1.00³   | Yes (SP3)    | Yes (SP2)     | Yes (SP1) | Yes         | Yes         | No         |
-| SMWMTL 1.10³   | Yes (SP3)    | Yes (SP2)     | Yes (SP1) | Yes         | Yes         | No         |
-| SMWMTL 1.20³   | Yes (SP3)    | Yes (SP2)     | Yes (SP1) | Yes         | Yes         | No         |
+| SMWMTL Version | Windows XP¹  | Windows Vista | Windows 7 | Windows 8.x | Windows 10² | Windows 11  |
+| -------------- | ------------ | ------------- | --------- | ----------- | ----------- | ----------- |
+| SMWMTL 1.00³   | Yes (SP3)    | Yes (SP2)     | Yes (SP1) | Yes         | Yes         | No          |
+| SMWMTL 1.10³   | Yes (SP3)    | Yes (SP2)     | Yes (SP1) | Yes         | Yes         | No          |
+| SMWMTL 1.20³   | Yes (SP3)    | Yes (SP2)     | Yes (SP1) | Yes         | Yes         | No          |
 ||
-| SMWMTL 2.00    | Yes (SP3)    | Yes (SP2)     | Yes (SP1) | Yes         | 1511-20H2⁴  | No         |
-| SMWMTL 2.01    | Yes (SP3)    | Yes (SP2)     | Yes (SP1) | Yes         | 1511-20H2⁴  | No         |
-| SMWMTL 2.02    | Yes (SP3)    | Yes (SP2)     | Yes (SP1) | Yes         | 1511-2004⁵  | No         |
-| SMWMTL 2.03    | Yes (SP3)    | Yes (SP2)     | Yes (SP1) | Yes         | 1511-20H2   | No         |
-| SMWMTL 2.04    | Yes (SP3)    | Yes (SP2)     | Yes (SP1) | Yes         | 1511-20H2   | No         |
-| SMWMTL 2.05    | Yes (SP3)    | Yes (SP2)     | Yes (SP1) | Yes         | 1511-20H2   | No         |
-| SMWMTL 2.06    | Yes (SP3)    | Yes (SP2)     | Yes (SP1) | Yes         | 1511-20H2   | No         |
-| SMWMTL 2.07    | Yes (SP3)    | Yes (SP2)     | Yes (SP1) | Yes         | 1511-20H2   | No         |
+| SMWMTL 2.00    | Yes (SP3)    | Yes (SP2)     | Yes (SP1) | Yes         | 1511-20H2⁴  | No          |
+| SMWMTL 2.01    | Yes (SP3)    | Yes (SP2)     | Yes (SP1) | Yes         | 1511-20H2⁴  | No          |
+| SMWMTL 2.02    | Yes (SP3)    | Yes (SP2)     | Yes (SP1) | Yes         | 1511-2004⁵  | No          |
+| SMWMTL 2.03    | Yes (SP3)    | Yes (SP2)     | Yes (SP1) | Yes         | 1511-20H2   | No          |
+| SMWMTL 2.04    | Yes (SP3)    | Yes (SP2)     | Yes (SP1) | Yes         | 1511-20H2   | No          |
+| SMWMTL 2.05    | Yes (SP3)    | Yes (SP2)     | Yes (SP1) | Yes         | 1511-20H2   | No          |
+| SMWMTL 2.06    | Yes (SP3)    | Yes (SP2)     | Yes (SP1) | Yes         | 1511-20H2   | No          |
+| SMWMTL 2.07    | Yes (SP3)    | Yes (SP2)     | Yes (SP1) | Yes         | 1511-20H2   | No          |
 ||
-| SMWMTL 2.10    | Yes (SP3)    | Yes (SP2)     | Yes (SP1) | Yes         | 1511-20H2   | No         |
-| SMWMTL 2.11    | Yes (SP3)    | Yes (SP2)     | Yes (SP1) | Yes         | 1511-21H1   | No         |
-| SMWMTL 2.12    | Yes (SP3)    | Yes (SP2)     | Yes (SP1) | Yes         | 1511-21H2   | Partial    |
-| SMWMTL 2.13    | Yes (SP3)    | Yes (SP2)     | Yes (SP1) | Yes         | 1511-21H2   | Yes (RTM)  |
-| SMWMTL 2.14    | Yes (SP3)    | Yes (SP2)     | Yes (SP1) | Yes         | 1511-21H2   | Yes (RTM)  |
-| SMWMTL 2.15    | Yes (SP3)    | Yes (SP2)     | Yes (SP1) | Yes         | 1511-21H2   | Yes (RTM)  |
-| SMWMTL 2.16    | Yes (SP3)    | Yes (SP2)     | Yes (SP1) | Yes         | 1511-21H2   | Yes (RTM)  |
+| SMWMTL 2.10    | Yes (SP3)    | Yes (SP2)     | Yes (SP1) | Yes         | 1511-20H2   | No          |
+| SMWMTL 2.11    | Yes (SP3)    | Yes (SP2)     | Yes (SP1) | Yes         | 1511-21H1   | No          |
+| SMWMTL 2.12    | Yes (SP3)    | Yes (SP2)     | Yes (SP1) | Yes         | 1511-21H2   | Partial     |
+| SMWMTL 2.13    | Yes (SP3)    | Yes (SP2)     | Yes (SP1) | Yes         | 1511-21H2   | Yes (RTM)   |
+| SMWMTL 2.14    | Yes (SP3)    | Yes (SP2)     | Yes (SP1) | Yes         | 1511-21H2   | Yes (RTM)   |
+| SMWMTL 2.15    | Yes (SP3)    | Yes (SP2)     | Yes (SP1) | Yes         | 1511-21H2   | Yes (RTM)   |
+| SMWMTL 2.16    | Yes (SP3)    | Yes (SP2)     | Yes (SP1) | Yes         | 1511-21H2   | Yes (RTM)   |
 ||
-| SMWMTL 2.20 (Beta) | No       | Yes (SP2)     | Yes (SP1) | Yes         | 1511-21H2   | Yes (RTM)  |
+| SMWMTL 2.20 (Beta) | No       | Yes (SP2)     | Yes (SP1) | Yes         | 1507-23H2   | Yes (21H2+) |
 
 ### LTS Releases
 | SMWMTL Version     | Windows XP¹  | Windows Vista | Windows 7 | Windows 8.x | Windows 10² | Windows 11 |
