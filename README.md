@@ -25,31 +25,29 @@ The bottom zone is for some tools like Settings, Report bug form and some other 
 
 ![SMWMTL216](https://github.com/Kiki79250CoC/SMWMTL/blob/71040fe72a03594ced32188839e0436b61a8a256/Releases/Images/SMWMTL216.png)
 
-SMWMTL's UI is coherent betweet each windows, not like Windows 10 (^^) and eventually 11. Each Window have a simple design, buttons are on the bottom, and all infos on the space left.
+# System Requirements:
+_This system requirements concerns : SMWMTL 2.20 and up._
 
-# System Requirements :
+|                         | Minimal Configuration            | Recommended Configuration                       |
+| ----------------------- | -------------------------------- | ----------------------------------------------- |
+| Operating System        | Windows Vista SP2 (x64)          | Windows 7 SP1 (x64)                             |
+| .NET Framework Version  | Version 4.6                      | Version 4.8                                     |
+| System Memory           | 128 MB                           | 256 MB                                          |
+| Disk space              | 128 MB                           | 512 MB                                          |
+| Screen Resolution       | 1366x768 Pixels                  | 1600x900 Pixels                                 |
+
 _This system requirements concerns : SMWMTL 2.00 up to SMWMTL 2.16. LTS Versions included._
 
-|                        | Minimal Configuration            | Recommended Configuration                       |
-| ---------------------- | -------------------------------- | ----------------------------------------------- |
-| Operating System       | Windows XP (SP3) / XP x64 (SP2)  | Windows Vista (SP2) / Windows 7 (SP1) (all x64) |
-| .NET Framework Version | Version 4.0.30319                | Version 4.5                                     |
-| System Memory          | 128 MB                           | 256 MB                                          |
-| Disk space             | 128 MB                           | 512 MB                                          |
-| Screen Resolution      | 1366x768 Pixels                  | 1600x900 Pixels                                 |
-
-⚠️ **Starting from Version 2.20, System requirements will change ! Here are new requirements :**
-
-|                        | Minimal Configuration            | Recommended Configuration                       |
-| ---------------------- | -------------------------------- | ----------------------------------------------- |
-| Operating System       | Windows Vista SP2 (x64)          | Windows 7 SP1 (x64)                             |
-| .NET Framework Version | Version 4.6                      | Version 4.8                                     |
-| System Memory          | 128 MB                           | 256 MB                                          |
-| Disk space             | 128 MB                           | 512 MB                                          |
-| Screen Resolution      | 1366x768 Pixels                  | 1600x900 Pixels                                 |
+|                         | Minimal Configuration            | Recommended Configuration                       |
+| ----------------------- | -------------------------------- | ----------------------------------------------- |
+| Operating System        | Windows XP (SP3) / XP x64 (SP2)  | Windows Vista (SP2) / Windows 7 (SP1) (all x64) |
+| .NET Framework Version  | Version 4.0.30319                | Version 4.5                                     |
+| System Memory           | 128 MB                           | 256 MB                                          |
+| Disk space              | 128 MB                           | 512 MB                                          |
+| Screen Resolution       | 1366x768 Pixels                  | 1600x900 Pixels                                 |
 
 🗣️ **SMWMTL is available for French (France) and English (United States) languages.**
 
-# Compatibility testing :
+# Compatibility testing:
 
 To see what version of SMWMTL is fully compatible with your Systems, [see the System Compatibility page](../Stable/SystemComp.md).
