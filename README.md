@@ -1,3 +1,9 @@
+## SMWMTL 2.20 Development
+***SMWMTL 2.20 Release Candidate 1 is available in the ![Releases](https://github.com/Kiki79250CoC/SMWMTL/releases) Page.***
+![AppBranding](https://github.com/Kiki79250CoC/SMWMTL/blob/543e5caeecbf7b5290c8885f1ad31d8adfbd69a5/Releases/Images/AppBrand/AppBrandLogo_Montr%C3%A9al.png)
+
+---
+
 ## ℹ️ **Important Repo information !**
 Q : **Why is this repo empty ?**
 
