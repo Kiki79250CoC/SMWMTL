@@ -29,7 +29,7 @@ The left one is the list of Application that SMWMTL can launch, and the right on
 
 The bottom zone is for some tools like Settings, Report bug form and some other features.
 
-![SMWMTL216](https://github.com/Kiki79250CoC/SMWMTL/blob/71040fe72a03594ced32188839e0436b61a8a256/Releases/Images/SMWMTL216.png)
+![SMWMTL216](https://github.com/Kiki79250CoC/SMWMTL/blob/5cec8c07a7f481aad978b76b3255ca85fc41bfe6/Releases/Images/SMWMTL217.png)
 
 # System Requirements:
 _This system requirements concerns : SMWMTL 2.20 and up._
@@ -42,7 +42,7 @@ _This system requirements concerns : SMWMTL 2.20 and up._
 | Disk space              | 128 MB                           | 512 MB                                          |
 | Screen Resolution       | 1366x768 Pixels                  | 1600x900 Pixels                                 |
 
-_This system requirements concerns : SMWMTL 2.00 up to SMWMTL 2.16. LTS Versions included._
+_This system requirements concerns : SMWMTL 2.00 up to SMWMTL 2.17. LTS Versions included._
 
 |                         | Minimal Configuration            | Recommended Configuration                       |
 | ----------------------- | -------------------------------- | ----------------------------------------------- |
