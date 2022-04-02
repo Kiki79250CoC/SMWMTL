@@ -1,0 +1,147 @@
+﻿────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+ Super Mario World MultiTools Launcher (SMWMTL)
+ Version $version
+ $CompileDate
+
+ © 2014-$Year •••Kiki79250••• / AstragonQC
+ https://kiki79250.wixsite.com/smwmtl
+ All Rights Reserved.
+
+  ┌──────────┐
+──┤ CONTENTS ├──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  └──────────┘
+
+ 1. Credits
+ 2. Introduction
+ 3. Legal notice
+ 4. Contact information
+
+  ┌────────────┐
+──┤ 1. Credits ├────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  └────────────┘
+
+ Programming : •••Kiki79250••• / AstragonQC
+
+ Used Tools for SMWMTL developement :
+      - Microsoft Visual Studio Community 2022 (IDE)
+      - Notepad++ 8.3.2 (For some extra edits)
+      - Resource Hacker 5.1.8 (For 3rd-Party softwares icons)
+      - GIMP 2.8.22 (Images and icons)
+      - VMWare 15.5.7 (For testing in various Operating Systems)
+
+ Previously used softwares :
+      - Microsoft Visual Basic  2010 Express   (Former IDE - Used from 1.00 up to 2.00 Beta)
+      - Microsoft Visual Studio 2010 Ultimate  (Former IDE - Used from 2.00 Beta up to 2.10 Beta)
+      - Microsoft Visual Studio 2012 Ultimate  (Former IDE - Used for 2.04 release only (yes))
+      - Microsoft Visual Studio Community 2019 (Former IDE - Used from 2.10 Beta to 2.20 Build 1370.00; Still used for 2.10 LTS)
+
+      - VirtualBox 5.2.18 (Former Hypervisor - For testing in various Operating Systems)
+
+ Developed and tested on :
+      - Windows 7 Ultimate SP1                      (64-bit - Developement & Tests)
+
+      - Windows Vista Ultimate SP2                  (64-bit - Tests)
+      - Windows 7 Professional SP1                  (64-bit - Tests)
+      - Windows 7 Ultimate SP1                      (64-bit - Tests (English Language))
+      - Windows 8.1 Pro w/ Update 1                 (64-bit - Tests)
+      - Windows 10 Professional 1507                (64-bit - Tests)
+      - Windows 10 Professional 1909                (64-bit - Tests)
+      - Windows 10 Professional 20H2                (64-bit - Tests)
+      - Windows 10 Professional 21H2                (64-bit - Tests)
+      - Windows 11 Professional 21H2                (64-bit - Tests)
+      - Windows 11 Professional I.Preview 22H2      (64-bit - Tests)
+
+ Third-Party Enhancements, Tools and Softwares :
+      - Icons of Lunar Magic - FuSoYa
+      - Icons of Lunar Expand - FuSoYa
+      - Icons of Snes GFX - Vitor Vilela
+      - Icons of Mario/Luigi Live Palette Editor - JackTheSpades
+      - Icons of HeAdder - Yoshis Fan
+      - Icons of MML Editing Tool - Kipernal
+      - Icons of Level Music Utility - ExoticMatter
+      - Icons of OrganBRR Player - Vitor Vilela
+      - Icons of PIXI Sprite Insertion Tool - JackTheSpades & Tattletale
+      - Icons of SNES SPC700 Player - degrade-factory
+      - Icons of Floating IPS/BPS - Alcaro
+      - Icons of Status Effects - HuFlungDu
+      - Icons of Snes Color Tool - dtothefourth
+      - Icons of Effect Tool - JakesTheSpades
+      - Icons of Asar - Alcaro
+      - Icons of Snes9x - BearOso & OV2
+      - Icons of Bsnes - Near
+      - Icons of Mario Start Editor - TheBiob
+      - Icons of Multiple Midway Points - MarioFanGamer
+      - Icons of Sprite GFX Creator - JakesTheSpades
+      - Icons of Graphics Editor - mzuenni
+      - Icons of YY-CHR - YY
+      - Icons of SMWCustomizer - uyuyuy99
+      - Icons of Iggy/Larry Battle Platform Editor - Smallhacker
+      - Icons of SMW Boss Battle Palette Editor - Smallhacker
+      - Icons of SMW Enemy Name Importer - Smallhacker
+      - Icons of SMW Enemy Name Exporter - Smallhacker
+      - Icons of SMW Misc. Text Editor - Smallhacker
+      - Icons of SMW Player Tilemap Editor - Smallhacker
+      - Icons of SMW Status Bar Editor - Smallhacker
+      - Icons of SMW Thank You Message Importer - Smallhacker
+      - Icons of UberASM - Vitor Vilela
+      - Icons of GradientTool - ExoticMatter
+
+      - Some Icons of Microsoft Windows - Microsoft Corporation
+      - Some Icons of the "Windows 9 Icon Pack" - EatosDesign (DeviantArt)
+
+      - VistaMenu - wyDay
+
+      - All credits for Images Used for Themes are going to their respectire authors.
+
+  ┌─────────────────┐
+──┤ 2. Introduction ├───────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  └─────────────────┘
+
+ Super Mario World MultiTools Launcher is a small program to access all required SMW hacking in one click and quickly. It's a
+ Windows program developed in Visual Basic.NET on .NET Framework 4.0.3 and have a intuivite interface, with some extras features,
+ like a multi-version selector for some programs, and a complete integration with custom executable and architecture selection.
+
+ The project was first started in December 2018, and has been worked on and improved at various times over the past 3 years.
+ Although the program took a substantial amount of time and effort to get a better SMW hacking, and the best hacks ever.
+
+  ┌─────────────────┐
+──┤ 3. Legal Notice ├───────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  └─────────────────┘
+
+ The "Super Mario World MultiTools Launcher" program (hereafter referred to as the "Software") is not official or supported by
+ Nintendo or any other commercial entity.
+
+ The Software is freeware thus it can be distributed freely provided the following conditions hold:
+
+ (1) : The software is only distributed as the stand-alone installer executable file provided by the author, without modifications,
+       files added, removed or modified on the program official website, the official GitHub repo, and other authorized places
+       (Such as the SMWCentral.net website).
+ (2) : No goods, services, or money can be charged for the Software in any form, nor may it be included in conjunction with any
+       other offer or monetary exchange.
+ (3) : The Software is not distributed with or as part of any ROM image in any format. Providing ROMs from a SNES ROM website with
+       this package is illegal, even if your copy is a legal one, dumped from your own cartdrige.
+
+ The Software is provided AS IS, and its use is at your own risk.
+ Anyone mentioned in this document will not be held liable for any damages, direct or otherwise, arising from its use or presence.
+
+  ┌─────────────────────────┐
+──┤ 4. Contact informations ├───────────────────────────────────────────────────────────────────────────────────────────────────────
+  └─────────────────────────┘
+
+ •••Kiki79250••• // Kiki79250CoC // AstragonQC
+ 
+ Website       : https://kiki79250.wixsite.com/smwmtl
+ GitHub Repo   : https://github.com/Kiki79250CoC/SMWMTL
+ Twitter       : https://twitter.com/Kiki79250CoC
+ SMWCentral    : https://www.smwcentral.net/?p=profile&id=30080
+ 
+ Mail          : Kiki79250.coc@gmail.com
+ 
+ Country       : France 
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+ Last Edited : $CompileDate
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────

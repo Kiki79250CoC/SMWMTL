@@ -1,0 +1,160 @@
+
+                 .oooooo..o ooo        ooooo oooooo   oooooo     oooo ooo        ooooo ooooooooooooo ooooo        
+                d8P'    `Y8 `88.       .888'  `888.    `888.     .8'  `88.       .888' 8'   888   `8 `888'        
+                Y88bo.       888b     d'888    `888.   .8888.   .8'    888b     d'888       888       888         
+                 `"Y8888o.   8 Y88. .P  888     `888  .8'`888. .8'     8 Y88. .P  888       888       888         
+                     `"Y88b  8  `888'   888      `888.8'  `888.8'      8  `888'   888       888       888         
+                oo     .d8P  8    Y     888       `888'    `888'       8    Y     888       888       888       o 
+                8""88888P'  o8o        o888o       `8'      `8'       o8o        o888o     o888o     o888ooooood8 
+              ─────────────────────────────────────────────────────────────────────────────────────────────────────
+                Journal des modifications
+
+                                               ┌────────────────────────────────────┐
+───────────────────────────────────────────────┤ Versions 2.10-LTS.x - 2.10.12xx.xx ├───────────────────────────────────────────────
+                                               └────────────────────────────────────┘
+  ┌───────────────────────────────────┐
+──┤ Version 2.10-LTS.7 - 2.10.1211.72 ├─────────────────────────────────────────────────────────────────────────────────────────────
+  └───────────────────────────────────┘
+
+- Corrections de bugs :
+    - Correction d'un bug qui affiche la version de Windows sur la fenêtre "Version de l'OS" même si l'option "Masquer le titre"
+      est désactivé.
+    - Correction d'un bug critique avec Lunar Magic 1 Click To Launch qui n'active pas une option si le chemin est valide lors du
+      chargement des paramètres.
+
+- Modifications :
+    - Changement de la casse du texte de "SnesGFX".
+
+- Autres :
+    - Correction d'une typo en Français sur la fenêtre principale avec l'infobulle du bouton Paramètres lorsque l'option CTRL+Clic
+      est activée.
+    - Correction d'une typo en Français sur le texte de placeholder sur la génération de rapports sur la fenêtre "Suggérer Outil /
+      Mises à jour".
+
+  ┌───────────────────────────────────┐
+──┤ Version 2.10-LTS.6 - 2.10.1211.54 ├─────────────────────────────────────────────────────────────────────────────────────────────
+  └───────────────────────────────────┘
+
+- Améliorations :
+    - Rétroportage de certaines optimisations de l'applications des versions de développement actuelles :
+        - Réduction de la taille de l'application (de 22 Mo à 11.6 Mo).
+
+    - Mise à jour de SMWMTL_Update vers la version 2.10 :
+        - Il ne vous affichera plus d'erreur si le numéro de Build est plus élevé que celle renseignée sur les services de mises à
+          jour. Il affichera simplemen qu'aucune mise à jour n'est disponible à la place.
+        - Ce changement affecte aussi la recherche des mises à jour automatique au démarrage de SMWMTL.
+
+- Modifications :
+    - Le support de la mise à l'échelle via le DPI a été désactivé en raison de nombreux problèmes d'affichage si le DPI est
+      définie à une valeur supérieure à 100%
+    - Changement du nom de "BRR Player" dans les lignes de traduction, parce que ce problam ne s'est jamais appelé "Organ".
+
+    - Modification du graphique du nom de l'application sur la fenêtre d'À propos du logiciel pour refléter le design graphique
+      actuel du logo des versions de développement.
+
+- Corrections de bugs :
+    - Correction d'un problème avec la recherche de mises à jour au démarrage du logiciel :
+        - Le processus téléchargeait les données d'état du serveur de la branche Stable, même si vous exécutiez la version LTS.
+
+  ┌───────────────────────────────────┐
+──┤ Version 2.10-LTS.5 - 2.10.1210.41 ├─────────────────────────────────────────────────────────────────────────────────────────────
+  └───────────────────────────────────┘
+
+- Bugs corrigés :
+    - Fenêtre de première Configuration de SMWMTL :
+        - Correction du bug des boutons transparents avec Windows Classic dans l'OOBE sur Windows XP/Vista/7.
+        - Correction des bugs d'affichage des textes durant la configuration personnalisée du logiciel avec Windows Classic sur
+          Windows XP/Vista/7.
+
+    - Fenêtre Principale :
+        - Correction d'un bug d'affichage du bandeau de mises à jour qui ne s'accordait pas au style Windows Classic sur Windows
+          XP/Vista/7.
+
+    - Fenêtre "Signaler un bug / Crash" :
+        - Correction de la couleur du fond de l'onglet avec le style Windows Classic sur Windows XP/Vista/7.
+
+    - Fenêtre "Suggérer Outils / Mises à jour" :
+        - Correction d'une erreur de développement, un point se glissait après la version dans le texte de suggestion généré.
+
+- Modifications :
+    - Général :
+        - Ajout du support de Lunar Magic 3.31 via LM 1CTL.
+        - Les Séparateurs des boutons de la barre inférieure sont maintenant désactivés par défaut dans le logiciel.
+
+    - Fenêtre "Signaler un bug / Crash" :
+        - Ajout d'un bouton vers le repository GitHub.
+
+    - Fenêtre de notification de fin de support de Windows XP/32 bits :
+        - Changement de l'âge de Windows XP de 19 à 20 ans.
+
+  ┌───────────────────────────────────┐
+──┤ Version 2.10-LTS.4 - 2.10.1210.33 ├─────────────────────────────────────────────────────────────────────────────────────────────
+  └───────────────────────────────────┘
+
+- Corrections de bugs :
+    - Fenêtre "Version de Windows" :
+        - Windows 11 : la détection n'affiche plus "Windows 10" dans l'élément "Nom du système d'exploitation".
+            - La raison pour laquelle ceci se produit est une valeur du Registre qui contient la version de Windows n'a pas
+              été mise à jour pour Windows 11 et affiche toujours "Windows 10".
+
+- Modifications :
+    - Fenêtre "Version de Windows" :
+        - Les valeurs de la mémoire virtuelle sont désormais masquées dans la version 64 bits en raison de valeurs incorrectes.
+          La version 32 bits n'est pas affectée par ce bogue.
+        - Ajout d'une détection préliminaire de la future version 22H1 de Windows 10 & 11.
+
+  ┌───────────────────────────────────┐
+──┤ Version 2.10-LTS.3 - 2.10.1210.26 ├─────────────────────────────────────────────────────────────────────────────────────────────
+  └───────────────────────────────────┘
+
+- Corrections de bugs :
+    - Fenêtre des Paramètres :
+        - Correction de la duplication du texte de détection d'environnements 64 bits à l'ouverture des paramètres pour Snes9x.
+        - Correction d'un bug sur SMWMTL_Update qui ne supprimait pas le fichier de test de téléchargement lorsque le test échoue.
+
+    - Fenêtre de première configuration :
+        - Correction de la boîte de dialogue d'importation des paramètres qui n'était pas traduite en Français.
+        - Correction de la case à cocher "Afficher les séparateurs des boutons" dont le texte était sous l'icône.
+
+- Modifications :
+    - Fenêtre de première configuration :
+        - Modification du texte de la configuration système requise pour l'aligner sur celui du dépot GitHub.
+
+- Ajouts :
+    - Fenêtre "Version de Windows" :
+        - Ajout de la détection préliminaire de Windows 11 et de Windows Server 2022.
+
+  ┌───────────────────────────────────┐
+──┤ Version 2.10-LTS.2 - 2.10.1210.11 ├─────────────────────────────────────────────────────────────────────────────────────────────
+  └───────────────────────────────────┘
+
+- Corrections :
+    - Lunar Magic "1 Click to Launch" :
+        - Correction de la dernière version de LM dans le sélecteur de versions.
+          Il s'est avéré qu'en voulant anticiper la nouvelle version dans la 2.10, la version sortie n'étais pas "3.22", mais
+          "3.30".
+
+    - Fenêtre "Paramètres" :
+        - Correction de la fonction "Afficher les valeurs des paramètres" dans l'onglet "Options de la Barre Inférieure", où il
+          manquait la valeur de l'option "Afficher les séparateurs des boutons".
+
+    - Fenêtre "Version de Windows" :
+        - Correction de la détection de Windows 10 21H1, la valeur de Registre utilisée jusqu'à présent ayant été abandonnée.
+        - Correction de la détection de Windows 10 20H2, le nom de la mise à jour est "November 2020 Update", et non "October..."
+
+    - Fenêtre "Plus d'informations (À propos)"
+        - Correction d'un bug graphique de la partie inférieure survenant sous Windows 10. L'absence des bordures conséquentes
+          de Windows Aero comparé aux précédentes versions de Windows en est la cause.
+        - Correction du Changelog Français, surtout sur la partie concernant SMWMTL 2.10.
+        - Correction du fichier de licence qui affichait encore "Release Candidate 2" alors qu'on est en Version Stable.
+          Ce problème a été du au fait que j'ai mis à jour le mauvais fichier au moment de compiler la version finale de SMWMTL
+          2.10.
+        - Correction de l'onglet de License ou les liens n'étaient pas cliquable.
+
+  ┌───────────────────────────────────┐
+──┤ Version 2.10-LTS.1 - 2.10.1210.00 ├─────────────────────────────────────────────────────────────────────────────────────────────
+  └───────────────────────────────────┘
+
+- Version LTS initiale.
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────

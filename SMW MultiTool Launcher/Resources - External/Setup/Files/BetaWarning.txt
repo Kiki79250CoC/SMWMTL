@@ -1,0 +1,11 @@
+SMWMTL 2.20 - BETA RELEASE
+---------------------------------------------------
+
+WARNING ! This version is a Beta Release ! Please use this version with a LOT of precautions.
+Some features are not coded/finished and may have bugs !
+
+SMWMTL 2.20 - VERSION BETA
+---------------------------------------------------
+
+ATTENTION ! Cette version est une compilation de Beta ! Veuillez l'utiliser avec un TAS de précautions.
+Certaines fonctionnalités ne sont pas codées/finalisés et peut contenit des bugs.

@@ -1,0 +1,813 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{91C2228F-8576-49C1-A83E-5F16174446BD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>SMW_MultiTool_Launcher.My.MyApplication</StartupObject>
+    <RootNamespace>SMW_MultiTool_Launcher</RootNamespace>
+    <AssemblyName>SMWMTL</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>2.20.1557.00</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\AppBrand\AppIcon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>•••Kiki79250••• Approval Watermark.pfx</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>SMWMTL.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Debug\SMWMTL.exe.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.vb</CodeAnalysisModuleSuppressionsFile>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>SMWMTL.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Release\SMWMTL.exe.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.vb</CodeAnalysisModuleSuppressionsFile>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic.Compatibility" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="VistaMenu">
+      <HintPath>Dll\VistaMenu.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="Microsoft.Win32" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="Frm03_Settings.Designer.vb">
+      <DependentUpon>Frm03_Settings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Frm03_Settings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm05_UpdateDetected.Designer.vb">
+      <DependentUpon>Frm05_UpdateDetected.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Frm05_UpdateDetected.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm09_MoreInformations.designer.vb">
+      <DependentUpon>Frm09_MoreInformations.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Frm09_MoreInformations.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm96_HiddenFeatures.Designer.vb">
+      <DependentUpon>Frm96_HiddenFeatures.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Frm96_HiddenFeatures.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDlg01_ResetConfirmation.Designer.vb">
+      <DependentUpon>FrmDlg01_ResetConfirmation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDlg01_ResetConfirmation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm01_Main.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm01_Main.Designer.vb">
+      <DependentUpon>Frm01_Main.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Frm97_LegacyAbout.Designer.vb">
+      <DependentUpon>Frm97_LegacyAbout.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Frm97_LegacyAbout.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm08_SuggestFeature.Designer.vb">
+      <DependentUpon>Frm08_SuggestFeature.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Frm08_SuggestFeature.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm99_TranslateForm.Designer.vb">
+      <DependentUpon>Frm99_TranslateForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Frm99_TranslateForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm98_IndevFeatures.Designer.vb">
+      <DependentUpon>Frm98_IndevFeatures.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Frm98_IndevFeatures.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Y_Recover_LM_GUI.Designer.vb">
+      <DependentUpon>Y_Recover_LM_GUI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Y_Recover_LM_GUI.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm07_BugsFound.Designer.vb">
+      <DependentUpon>Frm07_BugsFound.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Frm07_BugsFound.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Frm04_UpdatesModal.Designer.vb">
+      <DependentUpon>Frm04_UpdatesModal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Frm04_UpdatesModal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm06_OS_Version.Designer.vb">
+      <DependentUpon>Frm06_OS_Version.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Frm06_OS_Version.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm02_About.Designer.vb">
+      <DependentUpon>Frm02_About.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Frm02_About.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Frm02_About.fr.resx">
+      <DependentUpon>Frm02_About.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm03_Settings.fr.resx">
+      <DependentUpon>Frm03_Settings.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm03_Settings.resx">
+      <DependentUpon>Frm03_Settings.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm04_UpdatesModal.fr.resx">
+      <DependentUpon>Frm04_UpdatesModal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm05_UpdateDetected.fr.resx">
+      <DependentUpon>Frm05_UpdateDetected.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm05_UpdateDetected.resx">
+      <DependentUpon>Frm05_UpdateDetected.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm09_MoreInformations.fr.resx">
+      <DependentUpon>Frm09_MoreInformations.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm09_MoreInformations.resx">
+      <DependentUpon>Frm09_MoreInformations.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm96_HiddenFeatures.resx">
+      <DependentUpon>Frm96_HiddenFeatures.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm98_IndevFeatures.fr.resx">
+      <DependentUpon>Frm98_IndevFeatures.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDlg01_ResetConfirmation.fr.resx">
+      <DependentUpon>FrmDlg01_ResetConfirmation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDlg01_ResetConfirmation.resx">
+      <DependentUpon>FrmDlg01_ResetConfirmation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm01_Main.fr.resx">
+      <DependentUpon>Frm01_Main.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm01_Main.resx">
+      <DependentUpon>Frm01_Main.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm97_LegacyAbout.fr.resx">
+      <DependentUpon>Frm97_LegacyAbout.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm97_LegacyAbout.resx">
+      <DependentUpon>Frm97_LegacyAbout.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm08_SuggestFeature.fr.resx">
+      <DependentUpon>Frm08_SuggestFeature.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm08_SuggestFeature.resx">
+      <DependentUpon>Frm08_SuggestFeature.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm99_TranslateForm.fr.resx">
+      <DependentUpon>Frm99_TranslateForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm99_TranslateForm.resx">
+      <DependentUpon>Frm99_TranslateForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm98_IndevFeatures.resx">
+      <DependentUpon>Frm98_IndevFeatures.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Y_Recover_LM_GUI.fr.resx">
+      <DependentUpon>Y_Recover_LM_GUI.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Y_Recover_LM_GUI.resx">
+      <DependentUpon>Y_Recover_LM_GUI.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm07_BugsFound.fr.resx">
+      <DependentUpon>Frm07_BugsFound.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm07_BugsFound.resx">
+      <DependentUpon>Frm07_BugsFound.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm04_UpdatesModal.resx">
+      <DependentUpon>Frm04_UpdatesModal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm06_OS_Version.fr.resx">
+      <DependentUpon>Frm06_OS_Version.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm06_OS_Version.resx">
+      <DependentUpon>Frm06_OS_Version.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm02_About.resx">
+      <DependentUpon>Frm02_About.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Resources - External\GIMP Assets\AppLogo_Long.xcf" />
+    <None Include="Resources - External\GIMP Assets\UI - Icons\16px\BtmBar\SuggestFeature.xcf" />
+    <None Include="Resources - External\GIMP Assets\UI - Icons\16px\Checkboxes\BtmBar_Separators.xcf" />
+    <None Include="Resources - External\GIMP Assets\UI - Icons\16px\SettingsStatusOrb.xcf" />
+    <None Include="Resources - External\GIMP Assets\UI - Icons\16px\Settings_CheckAll.xcf" />
+    <None Include="Resources - External\GIMP Assets\UI - Icons\16px\Settings_IconsVariants.xcf" />
+    <None Include="Resources - External\GIMP Assets\UI - Icons\16px\Shortcut_Default_Icons.xcf" />
+    <None Include="Resources - External\GIMP Assets\UI - Icons\16px\Shortcut_Icons.xcf" />
+    <None Include="Resources - External\GIMP Assets\UI - Icons\16px\SMWMTL_Taskmgr_Icons.xcf" />
+    <None Include="Resources - External\GIMP Assets\UI - Icons\16px\Taskmgr_Icons.xcf" />
+    <None Include="Resources - External\GIMP Assets\UI - Icons\20px\HomeUpdateIcon.xcf" />
+    <None Include="Resources - External\GIMP Assets\UI - Icons\24px\LM_1CTL Icons.xcf" />
+    <None Include="Resources - External\GIMP Assets\UI - Icons\24px\snes9x_Icons.xcf" />
+    <None Include="Resources - External\GIMP Assets\UI - Icons\32px\SMWMTL_Taskmgr_Icons.xcf" />
+    <None Include="Resources - External\GIMP Assets\UI - Icons\32px\Snes9x_Icons.xcf" />
+    <None Include="Resources - External\GIMP Assets\UI - Icons\32px\Taskmgr_Icons.xcf" />
+    <None Include="Resources - External\GIMP Assets\UI - Icons\32px\Winver_Logos.xcf" />
+    <None Include="Resources - External\GIMP Assets\UI - Icons\48px\FirstConfigTips_01.xcf" />
+    <None Include="Resources - External\GIMP Assets\UI - Icons\64px\InitialConfig_Icon.xcf" />
+    <None Include="Resources - External\GIMP Assets\UI - Icons\64px\MoreInformations_Icon.xcf" />
+    <None Include="Resources - External\GIMP Assets\UI - Icons\64px\OSversion_Icon.xcf" />
+    <None Include="Resources - External\GIMP Assets\UI - Icons\64px\Snes9x_Icons64.xcf" />
+    <None Include="Resources - External\GIMP Assets\UI - Icons\64px\SuggestFeature_Icon.xcf" />
+    <None Include="Resources - External\GIMP Assets\UI - Icons\64px\UpdateBadges.xcf" />
+    <None Include="Resources - External\GIMP Assets\UI - Icons\96px\MusicIcon.xcf" />
+    <None Include="Resources - External\GIMP Assets\UI - Icons\96px\VSLogo.xcf" />
+    <None Include="Resources - External\GIMP Assets\UI - Icons\Other\LM_1CTL Numbers.xcf" />
+    <None Include="Resources - External\GIMP Assets\UI - Winver\Banners\Winver_banners.xcf" />
+    <None Include="Resources - External\GIMP Assets\UI - Winver\Banners\Winver_banners_black.xcf" />
+    <None Include="Resources - External\GIMP Assets\UI - Éléments\About_WindowBack.xcf" />
+    <None Include="Resources - External\GIMP Assets\UI - Éléments\HomeUpdateGradients.xcf" />
+    <None Include="Resources - External\GIMP Assets\UI - Éléments\TitleGradients.xcf" />
+    <None Include="Resources - External\GIMP Assets\UI - Éléments\UpdateBack.xcf" />
+    <None Include="Resources - External\GIMP Assets\UI - Éléments\UpdateLogo.xcf" />
+    <None Include="Resources - External\Icons\App Icon\AppIcon.xcf" />
+    <None Include="Resources - External\Icons\Update System Icon\SMWMTLUpdate_Icon.xcf" />
+    <None Include="Resources - External\Icons\Update System Icon\SMWMTL_Update logo.xcf" />
+    <None Include="Resources - External\Icons\Update System Icon\SMWMTL_Update_WinIcon.xcf" />
+    <None Include="Resources - External\Setup\Images\Source\WizModernImage.xcf" />
+    <None Include="Resources - External\Setup\Images\Source\WizModernSmallImage.xcf" />
+    <None Include="•••Kiki79250••• Approval Watermark.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Dll\VistaMenu.dll" />
+    <Content Include="Resources - External\Icons\App Icon\AppIcon.ico" />
+    <Content Include="Resources - External\Icons\Update System Icon\SMWMTL_Update Icon.ico" />
+    <Content Include="Resources - External\Setup\Images\WizModernImage.bmp" />
+    <Content Include="Resources - External\Setup\Images\WizModernSmallImage.bmp" />
+    <Content Include="Resources - External\Setup\SMWMTL_Stable.iss" />
+    <Content Include="Resources - External\Setup\SMWMTL_StableLTS.iss" />
+    <Content Include="Resources - External\Website\FlowerSide_LTS.png" />
+    <Content Include="Resources - External\Website\FlowerSide_Stable.png" />
+    <Content Include="Resources\AppBrand\AppIcon.ico" />
+    <Content Include="Resources\Placeholders\SysIconModify.png" />
+    <Content Include="Resources\Placeholders\SysIconModify64.png" />
+    <Content Include="Resources\Placeholders\SysIconModifyG.png" />
+    <Content Include="Resources\Placeholders\SysIconModifyG64.png" />
+    <Content Include="Resources\Placeholders\SysIconModifyW.png" />
+    <Content Include="Resources\Placeholders\SysIconModifyW64.png" />
+    <Content Include="Resources\UI_Elements\Background Images\UpdateSystem\MainWindow\MW_UpdateSearchBlue.png" />
+    <Content Include="Resources\UI_Elements\Background Images\UpdateSystem\MainWindow\MW_UpdateSearchGreen.png" />
+    <Content Include="Resources\UI_Elements\Background Images\UpdateSystem\MainWindow\MW_UpdateSearchRed.png" />
+    <Content Include="Resources\UI_Elements\Background Images\UpdateSystem\MainWindow\MW_UpdateSearchYellow.png" />
+    <Content Include="Resources\UI_Elements\Background Images\Window Titlebar\TitleBlue.png" />
+    <Content Include="Resources\UI_Elements\Background Images\Window Titlebar\TitleGreen.png" />
+    <Content Include="Resources\UI_Elements\Background Images\Window Titlebar\TitleRed.png" />
+    <Content Include="Resources\UI_Elements\Background Images\Window Titlebar\TitleYellow.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_1CTL_Error.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Other\AppIcon_AddMusicK.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Other\AppIcon_Asar.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Other\AppIcon_Blockreator.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Other\AppIcon_BRRPlayer.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Other\AppIcon_Bsnes.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Other\AppIcon_Effecttool.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Other\AppIcon_Flips.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Other\AppIcon_GPS.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Other\AppIcon_GradientTool.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Other\AppIcon_GraphEdit.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Other\AppIcon_HDMARipper.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Other\AppIcon_HeAdder.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Other\AppIcon_InteractionEdit.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Other\AppIcon_LE.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Other\AppIcon_LvMusUtility.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Other\AppIcon_MarioLPE.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Other\AppIcon_MarioSEditor.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Other\AppIcon_MML_Edit.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Other\AppIcon_MMP.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Other\AppIcon_Mode7T.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Other\AppIcon_PetiteMM.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Other\AppIcon_Pixi.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Other\AppIcon_RLM.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Other\AppIcon_Smallhacker.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Other\AppIcon_SMWCust.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Other\AppIcon_Snes9x.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Other\AppIcon_SnesColorTool.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Other\AppIcon_SnesGFX.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Other\AppIcon_SPC700.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Other\AppIcon_SpriteGFX.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Other\AppIcon_StatusEffects.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Other\AppIcon_UberASM.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Other\AppIcon_YYCHR.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Other\DarkMode\AppIcon_PetiteMM_DarkMode.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Other\DarkMode\AppIcon_Smallhacker_DarkMode.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Other\DarkMode\AppIcon_UberASM_DarkMode.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Snes9x\Color\Snes9x_C_x64.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Snes9x\Color\Snes9x_C_x86.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Snes9x\Purple\Snes9x_x64.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Snes9x\Purple\Snes9x_x86.png" />
+    <Content Include="Resources\UI_Elements\Icons\Bottom Bar\Settings\BtmBar_Separators.png" />
+    <Content Include="Resources\UI_Elements\Icons\Bottom Bar\Settings\Built-in_Winver.png" />
+    <Content Include="Resources\UI_Elements\Icons\Bottom Bar\Taskmgr_Icons\SMWMTL\Dark\Taskmgr_Icon_DBlue.png" />
+    <Content Include="Resources\UI_Elements\Icons\Bottom Bar\Taskmgr_Icons\SMWMTL\Dark\Taskmgr_Icon_DBrown.png" />
+    <Content Include="Resources\UI_Elements\Icons\Bottom Bar\Taskmgr_Icons\SMWMTL\Dark\Taskmgr_Icon_DGray.png" />
+    <Content Include="Resources\UI_Elements\Icons\Bottom Bar\Taskmgr_Icons\SMWMTL\Dark\Taskmgr_Icon_DGreen.png" />
+    <Content Include="Resources\UI_Elements\Icons\Bottom Bar\Taskmgr_Icons\SMWMTL\Dark\Taskmgr_Icon_DOrange.png" />
+    <Content Include="Resources\UI_Elements\Icons\Bottom Bar\Taskmgr_Icons\SMWMTL\Dark\Taskmgr_Icon_DPink.png" />
+    <Content Include="Resources\UI_Elements\Icons\Bottom Bar\Taskmgr_Icons\SMWMTL\Dark\Taskmgr_Icon_DPurple.png" />
+    <Content Include="Resources\UI_Elements\Icons\Bottom Bar\Taskmgr_Icons\SMWMTL\Dark\Taskmgr_Icon_DRed.png" />
+    <Content Include="Resources\UI_Elements\Icons\Bottom Bar\Taskmgr_Icons\SMWMTL\Dark\Taskmgr_Icon_DWhite.png" />
+    <Content Include="Resources\UI_Elements\Icons\Bottom Bar\Taskmgr_Icons\SMWMTL\Dark\Taskmgr_Icon_DYellow.png" />
+    <Content Include="Resources\UI_Elements\Icons\Bottom Bar\Taskmgr_Icons\SMWMTL\Light\Taskmgr_Icon_LBlue.png" />
+    <Content Include="Resources\UI_Elements\Icons\Bottom Bar\Taskmgr_Icons\SMWMTL\Light\Taskmgr_Icon_LBrown.png" />
+    <Content Include="Resources\UI_Elements\Icons\Bottom Bar\Taskmgr_Icons\SMWMTL\Light\Taskmgr_Icon_LGray.png" />
+    <Content Include="Resources\UI_Elements\Icons\Bottom Bar\Taskmgr_Icons\SMWMTL\Light\Taskmgr_Icon_LGreen.png" />
+    <Content Include="Resources\UI_Elements\Icons\Bottom Bar\Taskmgr_Icons\SMWMTL\Light\Taskmgr_Icon_LOrange.png" />
+    <Content Include="Resources\UI_Elements\Icons\Bottom Bar\Taskmgr_Icons\SMWMTL\Light\Taskmgr_Icon_LPink.png" />
+    <Content Include="Resources\UI_Elements\Icons\Bottom Bar\Taskmgr_Icons\SMWMTL\Light\Taskmgr_Icon_LPurple.png" />
+    <Content Include="Resources\UI_Elements\Icons\Bottom Bar\Taskmgr_Icons\SMWMTL\Light\Taskmgr_Icon_LRed.png" />
+    <Content Include="Resources\UI_Elements\Icons\Bottom Bar\Taskmgr_Icons\SMWMTL\Light\Taskmgr_Icon_LWhite.png" />
+    <Content Include="Resources\UI_Elements\Icons\Bottom Bar\Taskmgr_Icons\SMWMTL\Light\Taskmgr_Icon_LYellow.png" />
+    <Content Include="Resources\UI_Elements\Icons\Bottom Bar\Taskmgr_Icons\Windows\Taskmgr_Icon_Win11.png" />
+    <Content Include="Resources\UI_Elements\Icons\Bottom Bar\Winver\Winver_Logo_Win11.png" />
+    <Content Include="Resources\UI_Elements\Icons\More Infos\MusicIcon_Dark.png" />
+    <Content Include="Resources\UI_Elements\Icons\More Infos\VSLogo_Dark.png" />
+    <Content Include="Resources\UI_Elements\Icons\Settings\App_Check\Settings_CbxCheckAll.png" />
+    <Content Include="Resources\UI_Elements\Icons\Settings\App_Check\Settings_CbxUncheckAll.png" />
+    <Content Include="Resources\UI_Elements\Icons\Settings\DArrow_Menu\ExperimentalSettings.png" />
+    <Content Include="Resources\UI_Elements\Icons\Settings\DArrow_Menu\SettingsReload.png" />
+    <Content Include="Resources\UI_Elements\Icons\Settings\DArrow_Menu\Settings_Export.png" />
+    <Content Include="Resources\UI_Elements\Icons\Settings\DArrow_Menu\Settings_Import.png" />
+    <Content Include="Resources\UI_Elements\Icons\Settings\DArrow_Menu\Settings_Reset.png" />
+    <Content Include="Resources\UI_Elements\Icons\Settings\ResetConfirmation.ico" />
+    <Content Include="Resources\UI_Elements\Icons\Settings\UI_UpdateAccessBtn.png" />
+    <Content Include="Resources\UI_Elements\Icons\Sub-Menu Column\Common\DarkMode\Close_DarkMode.png" />
+    <Content Include="Resources\UI_Elements\Icons\Sub-Menu Column\Smallhacker%27s Tools\AppIcon_Smallhacker_LIBPE.png" />
+    <Content Include="Resources\UI_Elements\Icons\Sub-Menu Column\Smallhacker%27s Tools\AppIcon_Smallhacker_SMWBBPE.png" />
+    <Content Include="Resources\UI_Elements\Icons\Sub-Menu Column\Smallhacker%27s Tools\AppIcon_Smallhacker_SMWEN_E.png" />
+    <Content Include="Resources\UI_Elements\Icons\Sub-Menu Column\Smallhacker%27s Tools\AppIcon_Smallhacker_SMWEN_I.png" />
+    <Content Include="Resources\UI_Elements\Icons\Sub-Menu Column\Smallhacker%27s Tools\AppIcon_Smallhacker_SMWMTE.png" />
+    <Content Include="Resources\UI_Elements\Icons\Sub-Menu Column\Smallhacker%27s Tools\AppIcon_Smallhacker_SMWPTE.png" />
+    <Content Include="Resources\UI_Elements\Icons\Sub-Menu Column\Smallhacker%27s Tools\AppIcon_Smallhacker_SMWSBE.png" />
+    <Content Include="Resources\UI_Elements\Icons\Sub-Menu Column\Smallhacker%27s Tools\AppIcon_Smallhacker_SMWTYMI.png" />
+    <Content Include="Resources\UI_Elements\Icons\Title Icon\MoreInformations_Icon.png" />
+    <Content Include="Resources\UI_Elements\Icons\Title Icon\OSversion_Icon.png" />
+    <Content Include="Resources\UI_Elements\Icons\Title Icon\SuggestFeature_Icon.png" />
+    <Content Include="Resources\UI_Elements\Settings Previews\Task Manager Icon\SMWMTL\Dark\Taskmgr_Icon_DBlue32.png" />
+    <Content Include="Resources\UI_Elements\Settings Previews\Task Manager Icon\SMWMTL\Dark\Taskmgr_Icon_DBrown32.png" />
+    <Content Include="Resources\UI_Elements\Settings Previews\Task Manager Icon\SMWMTL\Dark\Taskmgr_Icon_DGray32.png" />
+    <Content Include="Resources\UI_Elements\Settings Previews\Task Manager Icon\SMWMTL\Dark\Taskmgr_Icon_DGreen32.png" />
+    <Content Include="Resources\UI_Elements\Settings Previews\Task Manager Icon\SMWMTL\Dark\Taskmgr_Icon_DOrange32.png" />
+    <Content Include="Resources\UI_Elements\Settings Previews\Task Manager Icon\SMWMTL\Dark\Taskmgr_Icon_DPink32.png" />
+    <Content Include="Resources\UI_Elements\Settings Previews\Task Manager Icon\SMWMTL\Dark\Taskmgr_Icon_DPurple32.png" />
+    <Content Include="Resources\UI_Elements\Settings Previews\Task Manager Icon\SMWMTL\Dark\Taskmgr_Icon_DRed32.png" />
+    <Content Include="Resources\UI_Elements\Settings Previews\Task Manager Icon\SMWMTL\Dark\Taskmgr_Icon_DWhite32.png" />
+    <Content Include="Resources\UI_Elements\Settings Previews\Task Manager Icon\SMWMTL\Dark\Taskmgr_Icon_DYellow32.png" />
+    <Content Include="Resources\UI_Elements\Settings Previews\Task Manager Icon\SMWMTL\Light\Taskmgr_Icon_LBlue32.png" />
+    <Content Include="Resources\UI_Elements\Settings Previews\Task Manager Icon\SMWMTL\Light\Taskmgr_Icon_LBrown32.png" />
+    <Content Include="Resources\UI_Elements\Settings Previews\Task Manager Icon\SMWMTL\Light\Taskmgr_Icon_LGray32.png" />
+    <Content Include="Resources\UI_Elements\Settings Previews\Task Manager Icon\SMWMTL\Light\Taskmgr_Icon_LGreen32.png" />
+    <Content Include="Resources\UI_Elements\Settings Previews\Task Manager Icon\SMWMTL\Light\Taskmgr_Icon_LOrange32.png" />
+    <Content Include="Resources\UI_Elements\Settings Previews\Task Manager Icon\SMWMTL\Light\Taskmgr_Icon_LPink32.png" />
+    <Content Include="Resources\UI_Elements\Settings Previews\Task Manager Icon\SMWMTL\Light\Taskmgr_Icon_LPurple32.png" />
+    <Content Include="Resources\UI_Elements\Settings Previews\Task Manager Icon\SMWMTL\Light\Taskmgr_Icon_LRed32.png" />
+    <Content Include="Resources\UI_Elements\Settings Previews\Task Manager Icon\SMWMTL\Light\Taskmgr_Icon_LWhite32.png" />
+    <Content Include="Resources\UI_Elements\Settings Previews\Task Manager Icon\SMWMTL\Light\Taskmgr_Icon_LYellow32.png" />
+    <Content Include="Resources\UI_Elements\Settings Previews\Task Manager Icon\Windows\Taskmgr_Icon_Win11_32.png" />
+    <Content Include="Resources\UI_Elements\Settings Previews\Task Manager Icon\Windows\Taskmgr_Icon_Win8_10_32.png" />
+    <Content Include="Resources\UI_Elements\Settings Previews\Task Manager Icon\Windows\Taskmgr_Icon_WinVista_7_32.png" />
+    <Content Include="Resources\UI_Elements\Settings Previews\Windows Version Icon\Winver_LogoL_Apple.png" />
+    <Content Include="Resources\UI_Elements\Settings Previews\Windows Version Icon\Winver_LogoL_Debian.png" />
+    <Content Include="Resources\UI_Elements\Settings Previews\Windows Version Icon\Winver_LogoL_ReactOS.png" />
+    <Content Include="Resources\UI_Elements\Settings Previews\Windows Version Icon\Winver_LogoL_Ubuntu.png" />
+    <Content Include="Resources\UI_Elements\Settings Previews\Windows Version Icon\Winver_LogoL_Win10.png" />
+    <Content Include="Resources\UI_Elements\Settings Previews\Windows Version Icon\Winver_LogoL_Win10X.png" />
+    <Content Include="Resources\UI_Elements\Settings Previews\Windows Version Icon\Winver_LogoL_Win11.png" />
+    <Content Include="Resources\UI_Elements\Settings Previews\Windows Version Icon\Winver_LogoL_Win1x2x.png" />
+    <Content Include="Resources\UI_Elements\Settings Previews\Windows Version Icon\Winver_LogoL_Win3xNT4.png" />
+    <Content Include="Resources\UI_Elements\Settings Previews\Windows Version Icon\Winver_LogoL_Win7.png" />
+    <Content Include="Resources\UI_Elements\Settings Previews\Windows Version Icon\Winver_LogoL_Win7Flat.png" />
+    <Content Include="Resources\UI_Elements\Settings Previews\Windows Version Icon\Winver_LogoL_Win8.png" />
+    <Content Include="Resources\UI_Elements\Settings Previews\Windows Version Icon\Winver_LogoL_Win8Colored.png" />
+    <Content Include="Resources\UI_Elements\Settings Previews\Windows Version Icon\Winver_LogoL_Win9x2000.png" />
+    <Content Include="Resources\UI_Elements\Settings Previews\Windows Version Icon\Winver_LogoL_WinLive.png" />
+    <Content Include="Resources\UI_Elements\Settings Previews\Windows Version Icon\Winver_LogoL_WinLonghorn.png" />
+    <Content Include="Resources\UI_Elements\Settings Previews\Windows Version Icon\Winver_LogoL_WinMC.png" />
+    <Content Include="Resources\UI_Elements\Settings Previews\Windows Version Icon\Winver_LogoL_WinME.png" />
+    <Content Include="Resources\UI_Elements\Settings Previews\Windows Version Icon\Winver_LogoL_WinVista.png" />
+    <Content Include="Resources\UI_Elements\Settings Previews\Windows Version Icon\Winver_LogoL_WinWhistler.png" />
+    <Content Include="Resources\UI_Elements\Settings Previews\Windows Version Icon\Winver_LogoL_WinXP.png" />
+    <Content Include="Resources\UI_Elements\Settings Previews\Windows Version Icon\Winver_LogoL_WinXP_MCE.png" />
+    <Content Include="Resources\UI_Elements\UI_GraphicAssets\UI_LightElements\UI_BorderLineBottomLight.png" />
+    <Content Include="Resources\UI_Elements\UI_GraphicAssets\UI_LightElements\UI_BottomBarLight.png" />
+    <Content Include="Resources\UI_Elements\UI_GraphicAssets\UI_LightElements\UI_ButtonSeparatorLight.png" />
+    <Content Include="Resources\UI_Elements\UI_GraphicAssets\UI_Gradients\GradientLine_White.png" />
+    <Content Include="Resources\UI_Elements\UI_GraphicAssets\UI_Gradients\GradientLine_White_V.png" />
+    <Content Include="Resources\UI_Elements\UI_GraphicAssets\UI_Gradients\Update System\UI_UpdatePopupGradient.png" />
+    <Content Include="Resources\UI_Elements\UI_GraphicAssets\UI_Gradients\Update System\UI_UpdatePopupGradient_Light.png" />
+    <Content Include="Resources\UI_Elements\UI_GraphicAssets\UpdateNotification_Modal\UpdateLogo_Dark.png" />
+    <Content Include="Resources\UI_Elements\UI_GraphicAssets\UpdateNotification_Modal\UpdateLogo_Light.png" />
+    <Content Include="Resources\UI_Elements\Windows Versions Assets\DarkUI\Winver_banner_Win10W.png" />
+    <Content Include="Resources\UI_Elements\Windows Versions Assets\DarkUI\Winver_banner_Win11W.png" />
+    <Content Include="Resources\UI_Elements\Windows Versions Assets\DarkUI\Winver_banner_Win7W.png" />
+    <Content Include="Resources\UI_Elements\Windows Versions Assets\DarkUI\Winver_banner_Win81W.png" />
+    <Content Include="Resources\UI_Elements\Windows Versions Assets\DarkUI\Winver_banner_Win8W.png" />
+    <Content Include="Resources\UI_Elements\Windows Versions Assets\DarkUI\Winver_banner_WinSvr2008R2W.png" />
+    <Content Include="Resources\UI_Elements\Windows Versions Assets\DarkUI\Winver_banner_WinSvr2008W.png" />
+    <Content Include="Resources\UI_Elements\Windows Versions Assets\DarkUI\Winver_banner_WinSvr2012R2W.png" />
+    <Content Include="Resources\UI_Elements\Windows Versions Assets\DarkUI\Winver_banner_WinSvr2012W.png" />
+    <Content Include="Resources\UI_Elements\Windows Versions Assets\DarkUI\Winver_banner_WinSvr2016W.png" />
+    <Content Include="Resources\UI_Elements\Windows Versions Assets\DarkUI\Winver_banner_WinSvr2019W.png" />
+    <Content Include="Resources\UI_Elements\Windows Versions Assets\DarkUI\Winver_banner_WinSvr2022W.png" />
+    <Content Include="Resources\UI_Elements\Windows Versions Assets\DarkUI\Winver_banner_WinUnknownW.png" />
+    <Content Include="Resources\UI_Elements\Windows Versions Assets\DarkUI\Winver_banner_WinVistaW.png" />
+    <Content Include="Resources\UI_Elements\Windows Versions Assets\LightUI\Winver_banner_Win10B.png" />
+    <Content Include="Resources\UI_Elements\Windows Versions Assets\LightUI\Winver_banner_Win11B.png" />
+    <Content Include="Resources\UI_Elements\Windows Versions Assets\LightUI\Winver_banner_Win7B.png" />
+    <Content Include="Resources\UI_Elements\Windows Versions Assets\LightUI\Winver_banner_Win81B.png" />
+    <Content Include="Resources\UI_Elements\Windows Versions Assets\LightUI\Winver_banner_Win8B.png" />
+    <Content Include="Resources\UI_Elements\Windows Versions Assets\LightUI\Winver_banner_WinSvr2008B.png" />
+    <Content Include="Resources\UI_Elements\Windows Versions Assets\LightUI\Winver_banner_WinSvr2008R2B.png" />
+    <Content Include="Resources\UI_Elements\Windows Versions Assets\LightUI\Winver_banner_WinSvr2012B.png" />
+    <Content Include="Resources\UI_Elements\Windows Versions Assets\LightUI\Winver_banner_WinSvr2012R2B.png" />
+    <Content Include="Resources\UI_Elements\Windows Versions Assets\LightUI\Winver_banner_WinSvr2016B.png" />
+    <Content Include="Resources\UI_Elements\Windows Versions Assets\LightUI\Winver_banner_WinSvr2019B.png" />
+    <Content Include="Resources\UI_Elements\Windows Versions Assets\LightUI\Winver_banner_WinSvr2022B.png" />
+    <Content Include="Resources\UI_Elements\Windows Versions Assets\LightUI\Winver_banner_WinUnknownB.png" />
+    <Content Include="Resources\UI_Elements\Windows Versions Assets\LightUI\Winver_banner_WinVistaB.png" />
+    <None Include="Resources\AppBrand\About_Logo.png" />
+    <None Include="Resources\AppBrand\About_LogoLTS.png" />
+    <Content Include="Resources\AppBrand\Blank16x16.ico" />
+    <Content Include="Resources\AppBrand\Kiki79250CoC.png" />
+    <Content Include="Resources\AppBrand\Logo210.png" />
+    <None Include="Resources\TXT Files\SMWMTL_Changelog.txt" />
+    <None Include="Resources\TXT Files\SMWMTL_Changelog_fr.txt" />
+    <None Include="Resources\TXT Files\SMWMTL_Changelog_LTS.txt" />
+    <None Include="Resources\TXT Files\SMWMTL_Changelog_LTS_fr.txt" />
+    <Content Include="Resources\TXT Files\SMWMTL_License.txt" />
+    <None Include="Resources\TXT Files\SMWMTL_License_fr.txt" />
+    <Content Include="Resources\UI_Elements\Background Images\AboutWindow\About_WindowBack.png" />
+    <Content Include="Resources\UI_Elements\Background Images\UpdateSystem\UpdateBackBleu.png" />
+    <Content Include="Resources\UI_Elements\Background Images\UpdateSystem\UpdateBackJaune.png" />
+    <Content Include="Resources\UI_Elements\Background Images\UpdateSystem\UpdateBackRouge.png" />
+    <Content Include="Resources\UI_Elements\Background Images\UpdateSystem\UpdateBackVert.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_100.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_101.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_102.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_103.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_110.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_111.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_120.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_130.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_131.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_140.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_141.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_142.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_143.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_150.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_151.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_160.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_161.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_162.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_163.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_164.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_165.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_170.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_171.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_180.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_181.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_182.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_190.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_191.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_200.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_201.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_210.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_211.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_212.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_220.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_221.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_222.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_230.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_231.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_232.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_240.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_241.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_242.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_243.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_250.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_251.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_252.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_253.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_300.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_301.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_302.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_303.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_304.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_310.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_311.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_320.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_321.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_330.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_331.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_NEWER.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_NORMAL.png" />
+    <Content Include="Resources\UI_Elements\Icons\Bottom Bar\Bug.png" />
+    <Content Include="Resources\UI_Elements\Icons\Bottom Bar\Help.png" />
+    <Content Include="Resources\UI_Elements\Icons\Bottom Bar\Info.png" />
+    <Content Include="Resources\UI_Elements\Icons\Bottom Bar\list.png" />
+    <Content Include="Resources\UI_Elements\Icons\Bottom Bar\settings.png" />
+    <Content Include="Resources\UI_Elements\Icons\Bottom Bar\Taskmgr_Icons\Windows\Taskmgr_Icon_Win8_10.png" />
+    <Content Include="Resources\UI_Elements\Icons\Bottom Bar\Taskmgr_Icons\Windows\Taskmgr_Icon_WinVista_7.png" />
+    <Content Include="Resources\UI_Elements\Icons\Bottom Bar\Update.png" />
+    <Content Include="Resources\UI_Elements\Icons\Bottom Bar\Winver\Winver_Logo_Apple.png" />
+    <Content Include="Resources\UI_Elements\Icons\Bottom Bar\Winver\Winver_Logo_Debian.png" />
+    <Content Include="Resources\UI_Elements\Icons\Bottom Bar\Winver\Winver_Logo_ReactOS.png" />
+    <Content Include="Resources\UI_Elements\Icons\Bottom Bar\Winver\Winver_Logo_Ubuntu.png" />
+    <Content Include="Resources\UI_Elements\Icons\Bottom Bar\Winver\Winver_Logo_Win10.png" />
+    <Content Include="Resources\UI_Elements\Icons\Bottom Bar\Winver\Winver_Logo_Win10X.png" />
+    <Content Include="Resources\UI_Elements\Icons\Bottom Bar\Winver\Winver_Logo_Win1x2x.png" />
+    <Content Include="Resources\UI_Elements\Icons\Bottom Bar\Winver\Winver_Logo_Win2000.png" />
+    <Content Include="Resources\UI_Elements\Icons\Bottom Bar\Winver\Winver_Logo_Win7.png" />
+    <Content Include="Resources\UI_Elements\Icons\Bottom Bar\Winver\Winver_Logo_Win7Flat.png" />
+    <Content Include="Resources\UI_Elements\Icons\Bottom Bar\Winver\Winver_Logo_Win8.png" />
+    <Content Include="Resources\UI_Elements\Icons\Bottom Bar\Winver\Winver_Logo_Win8Colored.png" />
+    <Content Include="Resources\UI_Elements\Icons\Bottom Bar\Winver\Winver_Logo_Win9x.png" />
+    <Content Include="Resources\UI_Elements\Icons\Bottom Bar\Winver\Winver_Logo_WinLive.png" />
+    <Content Include="Resources\UI_Elements\Icons\Bottom Bar\Winver\Winver_Logo_WinLonghorn.png" />
+    <Content Include="Resources\UI_Elements\Icons\Bottom Bar\Winver\Winver_Logo_WinMC.png" />
+    <Content Include="Resources\UI_Elements\Icons\Bottom Bar\Winver\Winver_Logo_WinME.png" />
+    <Content Include="Resources\UI_Elements\Icons\Bottom Bar\Winver\Winver_Logo_WinVista.png" />
+    <Content Include="Resources\UI_Elements\Icons\Bottom Bar\Winver\Winver_Logo_WinWhistler.png" />
+    <Content Include="Resources\UI_Elements\Icons\Bottom Bar\Winver\Winver_Logo_WinXP.png" />
+    <Content Include="Resources\UI_Elements\Icons\Bottom Bar\Winver\Winver_Logo_WinXP_MCE.png" />
+    <Content Include="Resources\UI_Elements\Icons\More Infos\MusicIcon.png" />
+    <Content Include="Resources\UI_Elements\Icons\More Infos\VSLogo.png" />
+    <Content Include="Resources\UI_Elements\Icons\Report Bugs\GitHub_16.png" />
+    <Content Include="Resources\UI_Elements\Icons\Report Bugs\Twitter_16.png" />
+    <Content Include="Resources\UI_Elements\Icons\Report Bugs\Youtube_16.png" />
+    <Content Include="Resources\UI_Elements\Icons\Settings\SettingsCancel.png" />
+    <Content Include="Resources\UI_Elements\Icons\Settings\SettingsOK.png" />
+    <Content Include="Resources\UI_Elements\Icons\Settings\UI_DownArrow.png" />
+    <Content Include="Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Default_1.png" />
+    <Content Include="Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Default_2.png" />
+    <Content Include="Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Default_3.png" />
+    <Content Include="Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Default_4.png" />
+    <Content Include="Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Default_5.png" />
+    <Content Include="Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Default_6.png" />
+    <Content Include="Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Foreground.png" />
+    <Content Include="Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Icon_AMK.png" />
+    <Content Include="Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Icon_Asar.png" />
+    <Content Include="Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Icon_Blockreator.png" />
+    <Content Include="Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Icon_EffectTool.png" />
+    <Content Include="Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Icon_FLIPS.png" />
+    <Content Include="Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Icon_GPS.png" />
+    <Content Include="Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Icon_GradientTool.png" />
+    <Content Include="Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Icon_GraphEdit.png" />
+    <Content Include="Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Icon_H-DMA.png" />
+    <Content Include="Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Icon_HA.png" />
+    <Content Include="Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Icon_Interaction.png" />
+    <Content Include="Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Icon_LE.png" />
+    <Content Include="Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Icon_LM.png" />
+    <Content Include="Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Icon_LMU.png" />
+    <Content Include="Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Icon_M7M.png" />
+    <Content Include="Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Icon_MLLP.png" />
+    <Content Include="Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Icon_MML.png" />
+    <Content Include="Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Icon_MMP.png" />
+    <Content Include="Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Icon_Molester.png" />
+    <Content Include="Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Icon_MSE.png" />
+    <Content Include="Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Icon_Organ.png" />
+    <Content Include="Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Icon_PIXI.png" />
+    <Content Include="Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Icon_RLM.png" />
+    <Content Include="Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Icon_SGFXC.png" />
+    <Content Include="Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Icon_SHTools.png" />
+    <Content Include="Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Icon_SMWC.png" />
+    <Content Include="Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Icon_Snes9x.png" />
+    <Content Include="Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Icon_Snes9xC.png" />
+    <Content Include="Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Icon_SnesGFX.png" />
+    <Content Include="Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Icon_SPCPlayer.png" />
+    <Content Include="Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Icon_SPCT.png" />
+    <Content Include="Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Icon_StatusEffects.png" />
+    <Content Include="Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Icon_UASM.png" />
+    <Content Include="Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Icon_YYCHR.png" />
+    <Content Include="Resources\UI_Elements\Icons\Sub-Menu Column\AddMusicK\Via_CMD.png" />
+    <Content Include="Resources\UI_Elements\Icons\Sub-Menu Column\AddMusicK\Via_GUI.png" />
+    <Content Include="Resources\UI_Elements\Icons\Sub-Menu Column\AddMusicK\Via_OpenFolder.png" />
+    <Content Include="Resources\UI_Elements\Icons\Sub-Menu Column\Common\Close.png" />
+    <Content Include="Resources\UI_Elements\Icons\Sub-Menu Column\Common\Kill_Process.png" />
+    <Content Include="Resources\UI_Elements\Icons\Sub-Menu Column\Common\Run.png" />
+    <Content Include="Resources\UI_Elements\Icons\Sub-Menu Column\PIXI\PixiConfig.png" />
+    <Content Include="Resources\UI_Elements\Icons\Update System\Main Window\HomeUpdateAvailable.png" />
+    <Content Include="Resources\UI_Elements\Icons\Update System\Main Window\HomeUpdateError.png" />
+    <Content Include="Resources\UI_Elements\Icons\Update System\Main Window\HomeUpdateNoUpdate.png" />
+    <Content Include="Resources\UI_Elements\Icons\Update System\Main Window\HomeUpdateSearching.png" />
+    <Content Include="Resources\UI_Elements\Icons\Update System\UpdateModal\UI_Badge_EngineLogo.png" />
+    <Content Include="Resources\UI_Elements\Icons\Update System\UpdateModal\UI_Badge_Error.png" />
+    <Content Include="Resources\UI_Elements\Icons\Update System\UpdateModal\UI_Badge_OK.png" />
+    <Content Include="Resources\UI_Elements\Icons\Update System\UpdateModal\UI_Badge_Search.png" />
+    <Content Include="Resources\UI_Elements\Icons\Update System\UpdateModal\UI_Badge_Warning.png" />
+    <Content Include="Resources\UI_Elements\Icons\Update System\UpdateModal\UI_Icon_DownloadUpdate.png" />
+    <Content Include="Resources\UI_Elements\Icons\Update System\UpdateModal\UI_Icon_InstallUpdate.png" />
+    <Content Include="Resources\UI_Elements\UI_GraphicAssets\UI_CheckBox\CbxUnderOption.png" />
+    <Content Include="Resources\UI_Elements\UI_GraphicAssets\UI_CheckBox\CbxUnderOptionL.png" />
+    <Content Include="Resources\UI_Elements\UI_GraphicAssets\UI_CheckBox\CbxUnderOptionUnavailable.png" />
+    <Content Include="Resources\UI_Elements\UI_GraphicAssets\UI_CheckBox\CbxUnderOptionUnavailableL.png" />
+    <Content Include="Resources\UI_Elements\UI_GraphicAssets\UI_DarkElements\UI_BorderLineBottom.png" />
+    <Content Include="Resources\UI_Elements\UI_GraphicAssets\UI_DarkElements\UI_BottomBar.png" />
+    <Content Include="Resources\UI_Elements\UI_GraphicAssets\UI_DarkElements\UI_ButtonSeparator.png" />
+    <Content Include="Resources\UI_Elements\UI_GraphicAssets\UI_Gradients\GradientLine_Black.png" />
+    <Content Include="Resources\UI_Elements\UI_GraphicAssets\UI_Gradients\GradientLine_Black_V.png" />
+    <Content Include="Resources\UI_Elements\UI_GraphicAssets\UI_Gradients\GradientLine_Gray.png" />
+    <Content Include="Resources\UI_Elements\UI_GraphicAssets\UI_Gradients\GradientLine_Gray_V.png" />
+    <Content Include="Resources\UI_Elements\UI_GraphicAssets\UI_WindowMasks\Win_10\UI_LeftMask_10.png" />
+    <Content Include="Resources\UI_Elements\UI_GraphicAssets\UI_WindowMasks\Win_10\UI_RightMask_10.png" />
+    <Content Include="Resources\UI_Elements\UI_GraphicAssets\UI_WindowMasks\Win_10\UI_TabMask_10.png" />
+    <Content Include="Resources\UI_Elements\UI_GraphicAssets\UI_WindowMasks\Win_11\UI_LeftMask_11.png" />
+    <Content Include="Resources\UI_Elements\UI_GraphicAssets\UI_WindowMasks\Win_11\UI_RightMask_11.png" />
+    <Content Include="Resources\UI_Elements\UI_GraphicAssets\UI_WindowMasks\Win_11\UI_TabMask_11.png" />
+    <Content Include="Resources\UI_Elements\UI_GraphicAssets\UI_WindowMasks\Win_7_Vista\UI_LeftMask_7.png" />
+    <Content Include="Resources\UI_Elements\UI_GraphicAssets\UI_WindowMasks\Win_7_Vista\UI_RightMask_7.png" />
+    <Content Include="Resources\UI_Elements\UI_GraphicAssets\UI_WindowMasks\Win_7_Vista\UI_TabMask_7.png" />
+    <Content Include="Resources\UI_Elements\UI_GraphicAssets\UI_WindowMasks\Win_8.x\UI_LeftMask_8.png" />
+    <Content Include="Resources\UI_Elements\UI_GraphicAssets\UI_WindowMasks\Win_8.x\UI_RightMask_8.png" />
+    <Content Include="Resources\UI_Elements\UI_GraphicAssets\UI_WindowMasks\Win_8.x\UI_TabMask_8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6 %28x86 et x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

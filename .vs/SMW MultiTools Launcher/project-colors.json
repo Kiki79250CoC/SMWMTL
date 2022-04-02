@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "91c2228f-8576-49c1-a83e-5f16174446bd": {
+      "ProjectGuid": "91c2228f-8576-49c1-a83e-5f16174446bd",
+      "DisplayName": "SMW MultiTools Launcher",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

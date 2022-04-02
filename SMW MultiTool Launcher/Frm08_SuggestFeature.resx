@@ -1,0 +1,1143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ToolName_Title.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ToolName_Title.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="ToolName_Title.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 76</value>
+  </data>
+  <data name="ToolName_Title.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 13</value>
+  </data>
+  <data name="ToolName_Title.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ToolName_Title.Text" xml:space="preserve">
+    <value>Tool Name:</value>
+  </data>
+  <data name="&gt;&gt;ToolName_Title.Name" xml:space="preserve">
+    <value>ToolName_Title</value>
+  </data>
+  <data name="&gt;&gt;ToolName_Title.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolName_Title.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ToolName_Title.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="Link_Title.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Link_Title.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Link_Title.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 170</value>
+  </data>
+  <data name="Link_Title.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 13</value>
+  </data>
+  <data name="Link_Title.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Link_Title.Text" xml:space="preserve">
+    <value>Link:</value>
+  </data>
+  <data name="&gt;&gt;Link_Title.Name" xml:space="preserve">
+    <value>Link_Title</value>
+  </data>
+  <data name="&gt;&gt;Link_Title.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Link_Title.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Link_Title.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="ToolName_TextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="ToolName_TextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="ToolName_TextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>333, 13</value>
+  </data>
+  <data name="ToolName_TextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;ToolName_TextBox.Name" xml:space="preserve">
+    <value>ToolName_TextBox</value>
+  </data>
+  <data name="&gt;&gt;ToolName_TextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolName_TextBox.Parent" xml:space="preserve">
+    <value>ToolName_TextBoxBorder</value>
+  </data>
+  <data name="&gt;&gt;ToolName_TextBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Link_TextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="Link_TextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="Link_TextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>513, 13</value>
+  </data>
+  <data name="Link_TextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;Link_TextBox.Name" xml:space="preserve">
+    <value>Link_TextBox</value>
+  </data>
+  <data name="&gt;&gt;Link_TextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Link_TextBox.Parent" xml:space="preserve">
+    <value>Link_TextBoxBorder</value>
+  </data>
+  <data name="&gt;&gt;Link_TextBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ToSuggestFileBtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="ToSuggestFileBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ToSuggestFileBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 3</value>
+  </data>
+  <data name="ToSuggestFileBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 3, 5, 3</value>
+  </data>
+  <data name="ToSuggestFileBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 24</value>
+  </data>
+  <data name="ToSuggestFileBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="ToSuggestFileBtn.Text" xml:space="preserve">
+    <value>Create suggestion file</value>
+  </data>
+  <data name="&gt;&gt;ToSuggestFileBtn.Name" xml:space="preserve">
+    <value>ToSuggestFileBtn</value>
+  </data>
+  <data name="&gt;&gt;ToSuggestFileBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToSuggestFileBtn.Parent" xml:space="preserve">
+    <value>UI_ButtonsPanel2</value>
+  </data>
+  <data name="&gt;&gt;ToSuggestFileBtn.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="AppVersion_Title.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="AppVersion_Title.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="AppVersion_Title.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="AppVersion_Title.Location" type="System.Drawing.Point, System.Drawing">
+    <value>358, 76</value>
+  </data>
+  <data name="AppVersion_Title.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 13</value>
+  </data>
+  <data name="AppVersion_Title.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="AppVersion_Title.Text" xml:space="preserve">
+    <value>App version:</value>
+  </data>
+  <data name="&gt;&gt;AppVersion_Title.Name" xml:space="preserve">
+    <value>AppVersion_Title</value>
+  </data>
+  <data name="&gt;&gt;AppVersion_Title.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AppVersion_Title.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;AppVersion_Title.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="AppVersion_TextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="AppVersion_TextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="AppVersion_TextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 13</value>
+  </data>
+  <data name="AppVersion_TextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;AppVersion_TextBox.Name" xml:space="preserve">
+    <value>AppVersion_TextBox</value>
+  </data>
+  <data name="&gt;&gt;AppVersion_TextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AppVersion_TextBox.Parent" xml:space="preserve">
+    <value>AppVersion_TextBoxBorder</value>
+  </data>
+  <data name="&gt;&gt;AppVersion_TextBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="SuggestedBy_Title.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="SuggestedBy_Title.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="SuggestedBy_Title.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 123</value>
+  </data>
+  <data name="SuggestedBy_Title.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 13</value>
+  </data>
+  <data name="SuggestedBy_Title.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="SuggestedBy_Title.Text" xml:space="preserve">
+    <value>Suggested by:</value>
+  </data>
+  <data name="&gt;&gt;SuggestedBy_Title.Name" xml:space="preserve">
+    <value>SuggestedBy_Title</value>
+  </data>
+  <data name="&gt;&gt;SuggestedBy_Title.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SuggestedBy_Title.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SuggestedBy_Title.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="SuggestedBy_TextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="SuggestedBy_TextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="SuggestedBy_TextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>333, 13</value>
+  </data>
+  <data name="SuggestedBy_TextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;SuggestedBy_TextBox.Name" xml:space="preserve">
+    <value>SuggestedBy_TextBox</value>
+  </data>
+  <data name="&gt;&gt;SuggestedBy_TextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SuggestedBy_TextBox.Parent" xml:space="preserve">
+    <value>SuggestedBy_TextBoxBorder</value>
+  </data>
+  <data name="&gt;&gt;SuggestedBy_TextBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="SuggestionResult_TextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="SuggestionResult_TextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="SuggestionResult_TextBox.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="SuggestionResult_TextBox.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="SuggestionResult_TextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>513, 146</value>
+  </data>
+  <data name="SuggestionResult_TextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="SuggestionResult_TextBox.Text" xml:space="preserve">
+    <value>A text containing the suggestion will appear here!</value>
+  </data>
+  <data name="&gt;&gt;SuggestionResult_TextBox.Name" xml:space="preserve">
+    <value>SuggestionResult_TextBox</value>
+  </data>
+  <data name="&gt;&gt;SuggestionResult_TextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SuggestionResult_TextBox.Parent" xml:space="preserve">
+    <value>SuggestionResult_TextBoxBorder</value>
+  </data>
+  <data name="&gt;&gt;SuggestionResult_TextBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="SaveToTXTFileBtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="SaveToTXTFileBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="SaveToTXTFileBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 3</value>
+  </data>
+  <data name="SaveToTXTFileBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 3, 5, 3</value>
+  </data>
+  <data name="SaveToTXTFileBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 24</value>
+  </data>
+  <data name="SaveToTXTFileBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="SaveToTXTFileBtn.Text" xml:space="preserve">
+    <value>Save to file</value>
+  </data>
+  <data name="&gt;&gt;SaveToTXTFileBtn.Name" xml:space="preserve">
+    <value>SaveToTXTFileBtn</value>
+  </data>
+  <data name="&gt;&gt;SaveToTXTFileBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SaveToTXTFileBtn.Parent" xml:space="preserve">
+    <value>UI_ButtonsPanel2</value>
+  </data>
+  <data name="&gt;&gt;SaveToTXTFileBtn.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="CopyBtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="CopyBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="CopyBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>149, 3</value>
+  </data>
+  <data name="CopyBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 3, 5, 3</value>
+  </data>
+  <data name="CopyBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 24</value>
+  </data>
+  <data name="CopyBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="CopyBtn.Text" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="&gt;&gt;CopyBtn.Name" xml:space="preserve">
+    <value>CopyBtn</value>
+  </data>
+  <data name="&gt;&gt;CopyBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CopyBtn.Parent" xml:space="preserve">
+    <value>UI_ButtonsPanel2</value>
+  </data>
+  <data name="&gt;&gt;CopyBtn.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="CloseBtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="CloseBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="CloseBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 3</value>
+  </data>
+  <data name="CloseBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 3, 0, 3</value>
+  </data>
+  <data name="CloseBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 24</value>
+  </data>
+  <data name="CloseBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="CloseBtn.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="&gt;&gt;CloseBtn.Name" xml:space="preserve">
+    <value>CloseBtn</value>
+  </data>
+  <data name="&gt;&gt;CloseBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CloseBtn.Parent" xml:space="preserve">
+    <value>UI_ButtonsPanel</value>
+  </data>
+  <data name="&gt;&gt;CloseBtn.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="OptionalMsg_TextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="OptionalMsg_TextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="OptionalMsg_TextBox.MaxLength" type="System.Int32, mscorlib">
+    <value>2000</value>
+  </data>
+  <data name="OptionalMsg_TextBox.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="OptionalMsg_TextBox.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="OptionalMsg_TextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>513, 66</value>
+  </data>
+  <data name="OptionalMsg_TextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;OptionalMsg_TextBox.Name" xml:space="preserve">
+    <value>OptionalMsg_TextBox</value>
+  </data>
+  <data name="&gt;&gt;OptionalMsg_TextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OptionalMsg_TextBox.Parent" xml:space="preserve">
+    <value>OptionalMsg_TextBoxBorder</value>
+  </data>
+  <data name="&gt;&gt;OptionalMsg_TextBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Gradient1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="Gradient1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 315</value>
+  </data>
+  <data name="Gradient1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>523, 1</value>
+  </data>
+  <data name="Gradient1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="Gradient1.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;Gradient1.Name" xml:space="preserve">
+    <value>Gradient1</value>
+  </data>
+  <data name="&gt;&gt;Gradient1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Gradient1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Gradient1.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="OptionalMsg_CharCount.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="OptionalMsg_CharCount.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="OptionalMsg_CharCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>403, 217</value>
+  </data>
+  <data name="OptionalMsg_CharCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 13</value>
+  </data>
+  <data name="OptionalMsg_CharCount.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="OptionalMsg_CharCount.Text" xml:space="preserve">
+    <value>2000 / 2000</value>
+  </data>
+  <data name="OptionalMsg_CharCount.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="&gt;&gt;OptionalMsg_CharCount.Name" xml:space="preserve">
+    <value>OptionalMsg_CharCount</value>
+  </data>
+  <data name="&gt;&gt;OptionalMsg_CharCount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OptionalMsg_CharCount.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;OptionalMsg_CharCount.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="OptionalMsg_Title.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="OptionalMsg_Title.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="OptionalMsg_Title.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 217</value>
+  </data>
+  <data name="OptionalMsg_Title.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 13</value>
+  </data>
+  <data name="OptionalMsg_Title.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="OptionalMsg_Title.Text" xml:space="preserve">
+    <value>Optional message:</value>
+  </data>
+  <data name="&gt;&gt;OptionalMsg_Title.Name" xml:space="preserve">
+    <value>OptionalMsg_Title</value>
+  </data>
+  <data name="&gt;&gt;OptionalMsg_Title.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OptionalMsg_Title.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;OptionalMsg_Title.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <metadata name="SaveToTXTFileDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>4, 4</value>
+  </metadata>
+  <data name="SaveToTXTFileDialog.Filter" xml:space="preserve">
+    <value>TextFile (*.txt)|*.txt</value>
+  </data>
+  <data name="UI_StatPanel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="UI_StatPanel.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <metadata name="UI_HeaderBorder.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="UI_HeaderBorder.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <data name="UI_HeaderBorder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 64</value>
+  </data>
+  <data name="UI_HeaderBorder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>547, 2</value>
+  </data>
+  <data name="UI_HeaderBorder.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;UI_HeaderBorder.Name" xml:space="preserve">
+    <value>UI_HeaderBorder</value>
+  </data>
+  <data name="&gt;&gt;UI_HeaderBorder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UI_HeaderBorder.Parent" xml:space="preserve">
+    <value>UI_StatPanel</value>
+  </data>
+  <data name="&gt;&gt;UI_HeaderBorder.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="UI_StatPanel_Icon.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="UI_StatPanel_Icon.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="UI_StatPanel_Icon.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 8</value>
+  </data>
+  <data name="UI_StatPanel_Icon.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 48</value>
+  </data>
+  <data name="UI_StatPanel_Icon.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="UI_StatPanel_Icon.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;UI_StatPanel_Icon.Name" xml:space="preserve">
+    <value>UI_StatPanel_Icon</value>
+  </data>
+  <data name="&gt;&gt;UI_StatPanel_Icon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UI_StatPanel_Icon.Parent" xml:space="preserve">
+    <value>UI_StatPanel</value>
+  </data>
+  <data name="&gt;&gt;UI_StatPanel_Icon.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="UI_StatPanel_Description.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="UI_StatPanel_Description.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="UI_StatPanel_Description.Location" type="System.Drawing.Point, System.Drawing">
+    <value>59, 37</value>
+  </data>
+  <data name="UI_StatPanel_Description.Size" type="System.Drawing.Size, System.Drawing">
+    <value>477, 13</value>
+  </data>
+  <data name="UI_StatPanel_Description.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="UI_StatPanel_Description.Text" xml:space="preserve">
+    <value>You want to suggest a new feature? Create a suggestion file and send it to me!</value>
+  </data>
+  <data name="&gt;&gt;UI_StatPanel_Description.Name" xml:space="preserve">
+    <value>UI_StatPanel_Description</value>
+  </data>
+  <data name="&gt;&gt;UI_StatPanel_Description.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UI_StatPanel_Description.Parent" xml:space="preserve">
+    <value>UI_StatPanel</value>
+  </data>
+  <data name="&gt;&gt;UI_StatPanel_Description.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="UI_StatPanel_Title.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="UI_StatPanel_Title.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 15.75pt, style=Bold</value>
+  </data>
+  <data name="UI_StatPanel_Title.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="UI_StatPanel_Title.Location" type="System.Drawing.Point, System.Drawing">
+    <value>56, 8</value>
+  </data>
+  <data name="UI_StatPanel_Title.Size" type="System.Drawing.Size, System.Drawing">
+    <value>480, 30</value>
+  </data>
+  <data name="UI_StatPanel_Title.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="UI_StatPanel_Title.Text" xml:space="preserve">
+    <value>Suggest Tool / Update</value>
+  </data>
+  <data name="&gt;&gt;UI_StatPanel_Title.Name" xml:space="preserve">
+    <value>UI_StatPanel_Title</value>
+  </data>
+  <data name="&gt;&gt;UI_StatPanel_Title.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UI_StatPanel_Title.Parent" xml:space="preserve">
+    <value>UI_StatPanel</value>
+  </data>
+  <data name="&gt;&gt;UI_StatPanel_Title.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="UI_StatPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="UI_StatPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>547, 66</value>
+  </data>
+  <data name="UI_StatPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="&gt;&gt;UI_StatPanel.Name" xml:space="preserve">
+    <value>UI_StatPanel</value>
+  </data>
+  <data name="&gt;&gt;UI_StatPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UI_StatPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;UI_StatPanel.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="UI_BtmBar_Panel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <data name="UI_ButtonsPanel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="UI_ButtonsPanel.FlowDirection" type="System.Windows.Forms.FlowDirection, System.Windows.Forms">
+    <value>RightToLeft</value>
+  </data>
+  <data name="UI_ButtonsPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>433, 10</value>
+  </data>
+  <data name="UI_ButtonsPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 30</value>
+  </data>
+  <data name="UI_ButtonsPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;UI_ButtonsPanel.Name" xml:space="preserve">
+    <value>UI_ButtonsPanel</value>
+  </data>
+  <data name="&gt;&gt;UI_ButtonsPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UI_ButtonsPanel.Parent" xml:space="preserve">
+    <value>UI_BtmBar_Panel</value>
+  </data>
+  <data name="&gt;&gt;UI_ButtonsPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="UI_ButtonsPanel2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <data name="UI_Separator1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="UI_Separator1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="UI_Separator1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="UI_Separator1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>142, 4</value>
+  </data>
+  <data name="UI_Separator1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 4, 5, 4</value>
+  </data>
+  <data name="UI_Separator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>2, 22</value>
+  </data>
+  <data name="UI_Separator1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="UI_Separator1.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;UI_Separator1.Name" xml:space="preserve">
+    <value>UI_Separator1</value>
+  </data>
+  <data name="&gt;&gt;UI_Separator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UI_Separator1.Parent" xml:space="preserve">
+    <value>UI_ButtonsPanel2</value>
+  </data>
+  <data name="&gt;&gt;UI_Separator1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="UI_ButtonsPanel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 10</value>
+  </data>
+  <data name="UI_ButtonsPanel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>417, 30</value>
+  </data>
+  <data name="UI_ButtonsPanel2.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;UI_ButtonsPanel2.Name" xml:space="preserve">
+    <value>UI_ButtonsPanel2</value>
+  </data>
+  <data name="&gt;&gt;UI_ButtonsPanel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UI_ButtonsPanel2.Parent" xml:space="preserve">
+    <value>UI_BtmBar_Panel</value>
+  </data>
+  <data name="&gt;&gt;UI_ButtonsPanel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="UI_BtmBar_Panel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 508</value>
+  </data>
+  <data name="UI_BtmBar_Panel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>547, 48</value>
+  </data>
+  <data name="UI_BtmBar_Panel.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="&gt;&gt;UI_BtmBar_Panel.Name" xml:space="preserve">
+    <value>UI_BtmBar_Panel</value>
+  </data>
+  <data name="&gt;&gt;UI_BtmBar_Panel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UI_BtmBar_Panel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;UI_BtmBar_Panel.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="ToolName_TextBoxBorder.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="ToolName_TextBoxBorder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 92</value>
+  </data>
+  <data name="ToolName_TextBoxBorder.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="ToolName_TextBoxBorder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>343, 23</value>
+  </data>
+  <data name="ToolName_TextBoxBorder.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;ToolName_TextBoxBorder.Name" xml:space="preserve">
+    <value>ToolName_TextBoxBorder</value>
+  </data>
+  <data name="&gt;&gt;ToolName_TextBoxBorder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolName_TextBoxBorder.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ToolName_TextBoxBorder.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="AppVersion_TextBoxBorder.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="AppVersion_TextBoxBorder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>361, 92</value>
+  </data>
+  <data name="AppVersion_TextBoxBorder.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="AppVersion_TextBoxBorder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 23</value>
+  </data>
+  <data name="AppVersion_TextBoxBorder.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;AppVersion_TextBoxBorder.Name" xml:space="preserve">
+    <value>AppVersion_TextBoxBorder</value>
+  </data>
+  <data name="&gt;&gt;AppVersion_TextBoxBorder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AppVersion_TextBoxBorder.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;AppVersion_TextBoxBorder.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="SuggestedBy_TextBoxBorder.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="SuggestedBy_TextBoxBorder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 139</value>
+  </data>
+  <data name="SuggestedBy_TextBoxBorder.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="SuggestedBy_TextBoxBorder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>343, 23</value>
+  </data>
+  <data name="SuggestedBy_TextBoxBorder.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;SuggestedBy_TextBoxBorder.Name" xml:space="preserve">
+    <value>SuggestedBy_TextBoxBorder</value>
+  </data>
+  <data name="&gt;&gt;SuggestedBy_TextBoxBorder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SuggestedBy_TextBoxBorder.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SuggestedBy_TextBoxBorder.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Link_TextBoxBorder.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="Link_TextBoxBorder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 186</value>
+  </data>
+  <data name="Link_TextBoxBorder.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="Link_TextBoxBorder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>523, 23</value>
+  </data>
+  <data name="Link_TextBoxBorder.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;Link_TextBoxBorder.Name" xml:space="preserve">
+    <value>Link_TextBoxBorder</value>
+  </data>
+  <data name="&gt;&gt;Link_TextBoxBorder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Link_TextBoxBorder.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Link_TextBoxBorder.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="SuggestionResult_TextBoxBorder.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="SuggestionResult_TextBoxBorder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 340</value>
+  </data>
+  <data name="SuggestionResult_TextBoxBorder.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="SuggestionResult_TextBoxBorder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>523, 156</value>
+  </data>
+  <data name="SuggestionResult_TextBoxBorder.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;SuggestionResult_TextBoxBorder.Name" xml:space="preserve">
+    <value>SuggestionResult_TextBoxBorder</value>
+  </data>
+  <data name="&gt;&gt;SuggestionResult_TextBoxBorder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SuggestionResult_TextBoxBorder.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SuggestionResult_TextBoxBorder.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="NewVersion_Checkbox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="NewVersion_Checkbox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>364, 142</value>
+  </data>
+  <data name="NewVersion_Checkbox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 18</value>
+  </data>
+  <data name="NewVersion_Checkbox.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="NewVersion_Checkbox.Text" xml:space="preserve">
+    <value>This is a new version</value>
+  </data>
+  <data name="&gt;&gt;NewVersion_Checkbox.Name" xml:space="preserve">
+    <value>NewVersion_Checkbox</value>
+  </data>
+  <data name="&gt;&gt;NewVersion_Checkbox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NewVersion_Checkbox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;NewVersion_Checkbox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="OptionalMsg_TextBoxBorder.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="OptionalMsg_TextBoxBorder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 233</value>
+  </data>
+  <data name="OptionalMsg_TextBoxBorder.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="OptionalMsg_TextBoxBorder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>523, 76</value>
+  </data>
+  <data name="OptionalMsg_TextBoxBorder.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;OptionalMsg_TextBoxBorder.Name" xml:space="preserve">
+    <value>OptionalMsg_TextBoxBorder</value>
+  </data>
+  <data name="&gt;&gt;OptionalMsg_TextBoxBorder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OptionalMsg_TextBoxBorder.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;OptionalMsg_TextBoxBorder.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="SuggestionResult_TextBoxTitle.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="SuggestionResult_TextBoxTitle.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="SuggestionResult_TextBoxTitle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 324</value>
+  </data>
+  <data name="SuggestionResult_TextBoxTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 13</value>
+  </data>
+  <data name="SuggestionResult_TextBoxTitle.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="SuggestionResult_TextBoxTitle.Text" xml:space="preserve">
+    <value>Suggestion file result:</value>
+  </data>
+  <data name="&gt;&gt;SuggestionResult_TextBoxTitle.Name" xml:space="preserve">
+    <value>SuggestionResult_TextBoxTitle</value>
+  </data>
+  <data name="&gt;&gt;SuggestionResult_TextBoxTitle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SuggestionResult_TextBoxTitle.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SuggestionResult_TextBoxTitle.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>31</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>547, 556</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Suggest Tool / Update</value>
+  </data>
+  <data name="&gt;&gt;SaveToTXTFileDialog.Name" xml:space="preserve">
+    <value>SaveToTXTFileDialog</value>
+  </data>
+  <data name="&gt;&gt;SaveToTXTFileDialog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SaveFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Frm08_SuggestFeature</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
