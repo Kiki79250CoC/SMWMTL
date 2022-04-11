@@ -1,22 +1,11 @@
-## SMWMTL 2.20 Development
-***SMWMTL 2.20 Release Candidate 2 is available in the ![Releases](https://github.com/Kiki79250CoC/SMWMTL/releases) Page.***
-![AppBranding](https://github.com/Kiki79250CoC/SMWMTL/blob/543e5caeecbf7b5290c8885f1ad31d8adfbd69a5/Releases/Images/AppBrand/AppBrandLogo_Montr%C3%A9al.png)
-
----
-
-## ℹ️ **Important Repo information !**
-Q : **Why is this repo empty ?**
-
-A : The source code isn't ready at all to be placed in a GitHub repo. Many major code modifications are required before it can be placed here.
-:warning: However, the LTS version simply **cannot be placed in a repository** **due to code dependencies that will simply not be changed in the source code "Quebec"** (versions 2.1x one), even after the release of the next major release in the Stable branch. When version 2.20 is released, the source code of SMWMTL (Stable Branch) will be pushed to this repo.
-
-⚠️ **HOWEVER !** ⚠️ The latest release is available in the Releases page.
+## SMWMTL 2.20 Development:
+SMWMTL 2.20 Release Candidate 2 is available in the ![Releases](https://github.com/Kiki79250CoC/SMWMTL/releases) page.
 
 ---
 
 # Super Mario World MultiTools Launcher (SMWMTL)
-![AppBranding](https://github.com/Kiki79250CoC/SMWMTL/blob/139db41eb710da966650189d9e9b685ee0f4fb07/Releases/Images/AppBrand/AppBrandLogo.png)
-Super Mario World MultiTools Launcher is a small program writted in VisualBasic.NET under Framework 4.0 (meanwhile, an upgrade to 4.6 is planned for next release), which allows to create Super Mario World Hacks more easily (if you use your own-dumped ROM) by grouping all tools in one place instead of travel into each folder to find what tool you want to use.
+![AppBranding](https://github.com/Kiki79250CoC/SMWMTL/blob/543e5caeecbf7b5290c8885f1ad31d8adfbd69a5/Releases/Images/AppBrand/AppBrandLogo_Montr%C3%A9al.png)
+Super Mario World MultiTools Launcher is a small program writted in VisualBasic.NET under Framework 4.6, which allows to create Super Mario World Hacks more easily (if you use your own-dumped ROM) by grouping all tools in one place instead of travel into each folder to find what tool you want to use.
 
 ## Why SMWMTL ?
 
@@ -31,7 +20,10 @@ The bottom zone is for some tools like Settings, Report bug form and some other 
 
 ![SMWMTL216](https://github.com/Kiki79250CoC/SMWMTL/blob/5cec8c07a7f481aad978b76b3255ca85fc41bfe6/Releases/Images/SMWMTL217.png)
 
-# System Requirements:
+## Source code location:
+The source code of SMWMTL is located on ![another repo](https://github.com/Kiki79250CoC/SMW-MultiTools-Launcher).
+
+## System Requirements:
 _This system requirements concerns : SMWMTL 2.20 and up._
 
 |                         | Minimal Configuration            | Recommended Configuration                       |
@@ -54,6 +46,5 @@ _This system requirements concerns : SMWMTL 2.00 up to SMWMTL 2.17. LTS Versions
 
 🗣️ **SMWMTL is available for French (France) and English (United States) languages.**
 
-# Compatibility testing:
-
+## Compatibility testing:
 To see what version of SMWMTL is fully compatible with your Systems, [see the System Compatibility page](../Stable/SystemComp.md).
