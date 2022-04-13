@@ -1,0 +1,561 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="OK_Btn.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Right</value>
+  </data>
+  <data name="OK_Btn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="OK_Btn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>353, 3</value>
+  </data>
+  <data name="OK_Btn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 25</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="OK_Btn.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="OK_Btn.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="&gt;&gt;OK_Btn.Name" xml:space="preserve">
+    <value>OK_Btn</value>
+  </data>
+  <data name="&gt;&gt;OK_Btn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OK_Btn.Parent" xml:space="preserve">
+    <value>None01</value>
+  </data>
+  <data name="&gt;&gt;OK_Btn.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="LegacyAbout_TabControl.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="About_GroupBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Right</value>
+  </data>
+  <data name="AboutText.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="AboutText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="AboutText.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="AboutText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 17</value>
+  </data>
+  <data name="AboutText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>272, 375</value>
+  </data>
+  <data name="AboutText.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="AboutText.Text" xml:space="preserve">
+    <value>This program, addressed to the creators of hacks Super Mario World, is in no way affiliated with Nintendo Co. Ltd or other company related to it.
+
+The author of the software does not guarantee the slightest damage and other bad intentions that you do and cannot be held responsible for anything which results from its use or presence.
+
+The creators of the software in it, neither are they dependent on Nintendo Co. Ltd. nor dependent on this same company.
+
+• • •
+
+Version SVER - STATE Release
+Build BUILDN (COMPLETEVER)
+Compiled on ACD
+© 2014-ACYEAR ATHR
+
+-
+
+Program refused on Dec 29 2018 in the "Tools" category of the SMWC.com website.
+
+Any partial or total reproduction of this software is prohibited.</value>
+  </data>
+  <data name="AboutText.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;AboutText.Name" xml:space="preserve">
+    <value>AboutText</value>
+  </data>
+  <data name="&gt;&gt;AboutText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AboutText.Parent" xml:space="preserve">
+    <value>About_GroupBox</value>
+  </data>
+  <data name="&gt;&gt;AboutText.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="About_GroupBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="About_GroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>141, 6</value>
+  </data>
+  <data name="About_GroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>284, 398</value>
+  </data>
+  <data name="About_GroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="About_GroupBox.Text" xml:space="preserve">
+    <value>APP_TITLE</value>
+  </data>
+  <data name="&gt;&gt;About_GroupBox.Name" xml:space="preserve">
+    <value>About_GroupBox</value>
+  </data>
+  <data name="&gt;&gt;About_GroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;About_GroupBox.Parent" xml:space="preserve">
+    <value>About_TabPage</value>
+  </data>
+  <data name="&gt;&gt;About_GroupBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="App_Logo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="App_Logo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 13</value>
+  </data>
+  <data name="App_Logo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 102</value>
+  </data>
+  <data name="App_Logo.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="App_Logo.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;App_Logo.Name" xml:space="preserve">
+    <value>App_Logo</value>
+  </data>
+  <data name="&gt;&gt;App_Logo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;App_Logo.Parent" xml:space="preserve">
+    <value>About_TabPage</value>
+  </data>
+  <data name="&gt;&gt;App_Logo.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="PDP_Pic.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="PDP_Pic.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="PDP_Pic.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 276</value>
+  </data>
+  <data name="PDP_Pic.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 128</value>
+  </data>
+  <data name="PDP_Pic.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="PDP_Pic.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;PDP_Pic.Name" xml:space="preserve">
+    <value>PDP_Pic</value>
+  </data>
+  <data name="&gt;&gt;PDP_Pic.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PDP_Pic.Parent" xml:space="preserve">
+    <value>About_TabPage</value>
+  </data>
+  <data name="&gt;&gt;PDP_Pic.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="About_TabPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="About_TabPage.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="About_TabPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>431, 410</value>
+  </data>
+  <data name="About_TabPage.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="About_TabPage.Text" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="&gt;&gt;About_TabPage.Name" xml:space="preserve">
+    <value>About_TabPage</value>
+  </data>
+  <data name="&gt;&gt;About_TabPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;About_TabPage.Parent" xml:space="preserve">
+    <value>LegacyAbout_TabControl</value>
+  </data>
+  <data name="&gt;&gt;About_TabPage.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="LegacyAbout_TabControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="LegacyAbout_TabControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>439, 436</value>
+  </data>
+  <data name="LegacyAbout_TabControl.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;LegacyAbout_TabControl.Name" xml:space="preserve">
+    <value>LegacyAbout_TabControl</value>
+  </data>
+  <data name="&gt;&gt;LegacyAbout_TabControl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LegacyAbout_TabControl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LegacyAbout_TabControl.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Deco2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <data name="Deco2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Deco2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 481</value>
+  </data>
+  <data name="Deco2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>441, 5</value>
+  </data>
+  <data name="Deco2.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;Deco2.Name" xml:space="preserve">
+    <value>Deco2</value>
+  </data>
+  <data name="&gt;&gt;Deco2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Deco2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Deco2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Deco1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Right</value>
+  </data>
+  <data name="Deco1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Deco1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>449, 24</value>
+  </data>
+  <data name="Deco1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>4, 457</value>
+  </data>
+  <data name="Deco1.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;Deco1.Name" xml:space="preserve">
+    <value>Deco1</value>
+  </data>
+  <data name="&gt;&gt;Deco1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Deco1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Deco1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Z_BottomTabControl.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <data name="None01.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="None01.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="None01.Size" type="System.Drawing.Size, System.Drawing">
+    <value>431, 30</value>
+  </data>
+  <data name="None01.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="None01.Text" xml:space="preserve">
+    <value>Tamer</value>
+  </data>
+  <data name="&gt;&gt;None01.Name" xml:space="preserve">
+    <value>None01</value>
+  </data>
+  <data name="&gt;&gt;None01.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;None01.Parent" xml:space="preserve">
+    <value>Z_BottomTabControl</value>
+  </data>
+  <data name="&gt;&gt;None01.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Z_BottomTabControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 426</value>
+  </data>
+  <data name="Z_BottomTabControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>439, 56</value>
+  </data>
+  <data name="Z_BottomTabControl.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;Z_BottomTabControl.Name" xml:space="preserve">
+    <value>Z_BottomTabControl</value>
+  </data>
+  <data name="&gt;&gt;Z_BottomTabControl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Z_BottomTabControl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Z_BottomTabControl.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Deco4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="Deco4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAAQAAAA4CAYAAADaSVmoAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAACwwAAAsMAT9AIsgAAAAGYktHRAD/AP8A/6C9p5MAAAAHdElNRQfkCh4BKhoovJRc
+        AAAAHWlUWHRDb21tZW50AAAAAABDcmVhdGVkIHdpdGggR0lNUGQuZQcAAAE1SURBVDhPfdJJTsMwFAbg
+        dwFYcIvEmUPSNE3SqqAy3AyJbfdtJsehwBVgwU3KOeCFBf5rJHbWJ+vN9PC4/br3XXptmulNv/CCcGfC
+        rWfADcMzwsZ16IBw7TDUtYY1w4iwEoLUHmBpQmk7NCAUDBJhwdAj5D8AdUwgT8E1QHincHF2TlEQavh4
+        e6fP41FD4UU0NL2GMrgk1QJUYUJjJwHilMZ+0FDGMxMyBqVhEU0/APLQiJEFCSmE2VQHpk392ADPgJnL
+        0P4HmTMBNPcXREgK55GJgKEDsD0a6hbAcnm3MPW5Zex2btkkd3sTdhoWtkX9CQibtw9QuMIAn7PUELQI
+        +RwQytgn2eAVJgHJFiqt0pCGDnqpMj6HHiGPGaD9qohISYBlxTAArFYBjQpirK98OjxNsKVvz5OBeF1A
+        K94AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="Deco4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Deco4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>448, 419</value>
+  </data>
+  <data name="Deco4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>4, 56</value>
+  </data>
+  <data name="Deco4.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="Deco4.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="&gt;&gt;Deco4.Name" xml:space="preserve">
+    <value>Deco4</value>
+  </data>
+  <data name="&gt;&gt;Deco4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Deco4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Deco4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Deco3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="Deco3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAAQAAAA4CAYAAADaSVmoAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAACwwAAAsMAT9AIsgAAAAGYktHRAD/AP8A/6C9p5MAAAAHdElNRQfkCh4BKg4yZkAh
+        AAAAHWlUWHRDb21tZW50AAAAAABDcmVhdGVkIHdpdGggR0lNUGQuZQcAAAG+SURBVDhPZdJdkpNAFAXg
+        swF90FUE6G4aCCFACCHJOOPPwqzydd5n8gfEUbfgWKUrGdcxHkJ3gvrAy1eX27f7XHzQCm+VwLftFh8/
+        3T6f4auF94Sbv8BXuJYDeOdLvCF8sXBDuBIeHixcK4mVR9hseujKK8LRwloIlK6L9t7ASkrMh7AUEjPH
+        Q2OhIuSE2sLCk8gIBwslIT2BmcNCfQb2SB0xBIXUlRd4/eIlXvELfN3Dr8cf+Pn9Eb+fnswvKkAuAzTb
+        gwEdYeZHaHcWgjEKPcZxX/cw7yCMcTw0PcyCGLNwcoH8BAmh7SHl/1nQVRhIeEKqBz1iFRLHaC1EMsSk
+        m8MeG4rgVHUBTyNm1QVcjYkg7AxEzj8QExKvA3O5yf/gI2Gf1r5H4iiCT9j3MO3AkWg2ux4yvngyEszW
+        vHpOmI4G2RaeIDio7+57mHNherjrYcGVypwRDhYq7mnmOkzfwDJQyIU7gEgjVzxlY5quYkapuQ5nmIaM
+        QaHemjnWObMd+6h3ZtJ1wShjjWZv7rIqYxQJ1+FgYcGKNCSY6y+rCEUeoK0tLEPMC0JjYa1Rlj6Ore1x
+        pVAtFR4+d3D7/AeY+Ejm67j0/wAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="Deco3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Deco3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 419</value>
+  </data>
+  <data name="Deco3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>4, 56</value>
+  </data>
+  <data name="Deco3.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="Deco3.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="&gt;&gt;Deco3.Name" xml:space="preserve">
+    <value>Deco3</value>
+  </data>
+  <data name="&gt;&gt;Deco3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Deco3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Deco3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>34</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>461, 493</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Legacy • About</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Frm97_LegacyAbout</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

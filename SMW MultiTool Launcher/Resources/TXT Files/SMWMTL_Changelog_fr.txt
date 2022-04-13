@@ -1,0 +1,698 @@
+
+                 .oooooo..o ooo        ooooo oooooo   oooooo     oooo ooo        ooooo ooooooooooooo ooooo        
+                d8P'    `Y8 `88.       .888'  `888.    `888.     .8'  `88.       .888' 8'   888   `8 `888'        
+                Y88bo.       888b     d'888    `888.   .8888.   .8'    888b     d'888       888       888         
+                 `"Y8888o.   8 Y88. .P  888     `888  .8'`888. .8'     8 Y88. .P  888       888       888         
+                     `"Y88b  8  `888'   888      `888.8'  `888.8'      8  `888'   888       888       888         
+                oo     .d8P  8    Y     888       `888'    `888'       8    Y     888       888       888       o 
+                8""88888P'  o8o        o888o       `8'      `8'       o8o        o888o     o888o     o888ooooood8 
+              ─────────────────────────────────────────────────────────────────────────────────────────────────────
+                Journal des modifications
+
+                                                  ┌──────────────────────────────┐
+──────────────────────────────────────────────────┤ Versions 2.2x - 2.2x.150x.xx ├──────────────────────────────────────────────────
+                                                  └──────────────────────────────┘
+  ┌─────────────────────────────┐
+──┤ Version 2.20 - 2.20.1600.00 ├───────────────────────────────────────────────────────────────────────────────────────────────────
+  └─────────────────────────────┘
+
+
+
+                                                  ┌──────────────────────────────┐
+──────────────────────────────────────────────────┤ Versions 2.1x - 2.1x.12xx.xx ├──────────────────────────────────────────────────
+                                                  └──────────────────────────────┘
+  ┌─────────────────────────────┐
+──┤ Version 2.17 - 2.17.1201.72 ├───────────────────────────────────────────────────────────────────────────────────────────────────
+  └─────────────────────────────┘
+
+- Corrections de bugs :
+
+    - Correction d'un bug qui affiche la version de Windows sur la fenêtre "Version de l'OS" même si l'option "Masquer le titre"
+      est désactivé.
+
+    - Correction d'un bug critique avec Lunar Magic 1 Click To Launch qui n'active pas une option si le chemin est valide lors du
+      chargement des paramètres.
+
+- Modifications :
+
+    - Changement de la casse du texte de "SnesGFX"
+
+- Autres :
+
+    - Correction d'une typo en Français sur la fenêtre principale avec l'infobulle du bouton Paramètres lorsque l'option CTRL+Clic
+      est activée.
+
+    - Correction d'une typo en Français sur le texte de placeholder sur la génération de rapports sur la fenêtre "Suggérer Outil /
+      Mises à jour".
+
+  ┌─────────────────────────────┐
+──┤ Version 2.16 - 2.16.1201.60 ├───────────────────────────────────────────────────────────────────────────────────────────────────
+  └─────────────────────────────┘
+
+- Modifications :
+    - Mise à jour du numéro de version en l'augmentant de 1 en raison d'un bogue étrange avec le système de mise à jour renvoyant
+      une erreur 404 lorsque les chaînes de fichiers sont "2.15".
+
+- Autre :
+    - Défini un nouveau record entre deux mises à jour (4 jours).
+
+  ┌─────────────────────────────┐
+──┤ Version 2.15 - 2.15.1201.56 ├───────────────────────────────────────────────────────────────────────────────────────────────────
+  └─────────────────────────────┘
+
+- Améliorations :
+    - Rétroportage de certaines optimisations de l'applications des versions de développement actuelles :
+        - Réduction de la taille de l'application (de 22 Mo à 11.6 Mo).
+
+    - Mise à jour de SMWMTL_Update vers la version 2.10 :
+        - Il ne vous affichera plus d'erreur si le numéro de Build est plus élevé que celle renseignée sur les services de mises à
+          jour. Il affichera simplemen qu'aucune mise à jour n'est disponible à la place.
+        - Ce changement affecte aussi la recherche des mises à jour automatique au démarrage de SMWMTL.
+
+- Modifications :
+    - Le support de la mise à l'échelle via le DPI a été désactivé en raison de nombreux problèmes d'affichage si le DPI est
+      définie à une valeur supérieure à 100%
+    - Changement du nom de "BRR Player" dans les lignes de traduction, parce que ce problam ne s'est jamais appelé "Organ".
+
+    - Modification du graphique du nom de l'application sur la fenêtre d'À propos du logiciel pour refléter le design graphique
+      actuel du logo des versions de développement.
+
+- Corrections de bugs :
+    - Correction d'un problème avec la recherche de mises à jour au démarrage du logiciel :
+        - Le processus téléchargeait les données d'état du serveur de la branche Stable, même si vous exécutiez la version LTS.
+
+  ┌─────────────────────────────┐
+──┤ Version 2.14 - 2.14.1200.41 ├───────────────────────────────────────────────────────────────────────────────────────────────────
+  └─────────────────────────────┘
+
+- Bugs corrigés :
+    - Fenêtre de première Configuration de SMWMTL :
+        - Correction du bug des boutons transparents avec Windows Classic dans l'OOBE sur Windows XP/Vista/7.
+        - Correction des bugs d'affichage des textes durant la configuration personnalisée du logiciel avec Windows Classic sur
+          Windows XP/Vista/7.
+
+    - Fenêtre Principale :
+        - Correction d'un bug d'affichage du bandeau de mises à jour qui ne s'accordait pas au style Windows Classic sur Windows
+          XP/Vista/7.
+
+    - Fenêtre "Signaler un bug / Crash" :
+        - Correction de la couleur du fond de l'onglet avec le style Windows Classic sur Windows XP/Vista/7.
+
+    - Fenêtre "Suggérer Outils / Mises à jour" :
+        - Correction d'une erreur de développement, un point se glissait après la version dans le texte de suggestion généré.
+
+- Modifications :
+    - Général :
+        - Ajout du support de Lunar Magic 3.31 via LM 1CTL.
+        - Les Séparateurs des boutons de la barre inférieure sont maintenant désactivés par défaut dans le logiciel.
+
+    - Fenêtre "Signaler un bug / Crash" :
+        - Ajout d'un bouton vers le repository GitHub.
+
+    - Fenêtre de notification de fin de support de Windows XP/32 bits :
+        - Changement de l'âge de Windows XP de 19 à 20 ans.
+
+  ┌─────────────────────────────┐
+──┤ Version 2.13 - 2.13.1200.33 ├───────────────────────────────────────────────────────────────────────────────────────────────────
+  └─────────────────────────────┘
+
+- Corrections de bugs :
+    - Fenêtre "Version de Windows" :
+        - Windows 11 : la détection n'affiche plus "Windows 10" dans l'élément "Nom du système d'exploitation".
+            - La raison pour laquelle ceci se produit est une valeur du Registre qui contient la version de Windows n'a pas
+              été mise à jour pour Windows 11 et affiche toujours "Windows 10".
+
+- Modifications :
+    - Fenêtre "Version de Windows" :
+        - Les valeurs de la mémoire virtuelle sont désormais masquées dans la version 64 bits en raison de valeurs incorrectes.
+          La version 32 bits n'est pas affectée par ce bogue.
+        - Ajout d'une détection préliminaire de la future version 22H1 de Windows 10 & 11.
+
+  ┌─────────────────────────────┐
+──┤ Version 2.12 - 2.12.1200.26 ├───────────────────────────────────────────────────────────────────────────────────────────────────
+  └─────────────────────────────┘
+
+- Corrections de bugs :
+    - Fenêtre des Paramètres :
+        - Correction de la duplication du texte de détection d'environnements 64 bits à l'ouverture des paramètres pour Snes9x.
+        - Correction d'un bug sur SMWMTL_Update qui ne supprimait pas le fichier de test de téléchargement lorsque le test échoue.
+
+    - Fenêtre de première configuration :
+        - Correction de la boîte de dialogue d'importation des paramètres qui n'était pas traduite en Français.
+        - Correction de la case à cocher "Afficher les séparateurs des boutons" dont le texte était sous l'icône.
+
+- Modifications :
+    - Fenêtre de première configuration :
+        - Modification du texte de la configuration système requise pour l'aligner sur celui du dépot GitHub.
+
+- Ajouts :
+    - Fenêtre "Version de Windows" :
+        - Ajout de la détection préliminaire de Windows 11 et de Windows Server 2022.
+
+  ┌─────────────────────────────┐
+──┤ Version 2.11 - 2.11.1200.11 ├───────────────────────────────────────────────────────────────────────────────────────────────────
+  └─────────────────────────────┘
+
+- Corrections :
+    - Lunar Magic "1 Click to Launch" :
+        - Correction de la dernière version de LM dans le sélecteur de versions.
+          Il s'est avéré qu'en voulant anticiper la nouvelle version dans la 2.10, la version sortie n'étais pas "3.22", mais
+          "3.30".
+
+    - Fenêtre "Paramètres" :
+        - Correction de la fonction "Afficher les valeurs des paramètres" dans l'onglet "Options de la Barre Inférieure", où il
+          manquait la valeur de l'option "Afficher les séparateurs des boutons".
+
+    - Fenêtre "Version de Windows" :
+        - Correction de la détection de Windows 10 21H1, la valeur de Registre utilisée jusqu'à présent ayant été abandonnée.
+        - Correction de la détection de Windows 10 20H2, le nom de la mise à jour est "November 2020 Update", et non "October..."
+
+    - Fenêtre "Plus d'informations (À propos)"
+        - Correction d'un bug graphique de la partie inférieure survenant sous Windows 10. L'absence des bordures conséquentes
+          de Windows Aero comparé aux précédentes versions de Windows en est la cause.
+        - Correction du Changelog Français, surtout sur la partie concernant SMWMTL 2.10.
+        - Correction du fichier de licence qui affichait encore "Release Candidate 2" alors qu'on est en Version Stable.
+          Ce problème a été du au fait que j'ai mis à jour le mauvais fichier au moment de compiler la version finale de SMWMTL
+          2.10.
+        - Correction de l'onglet de License ou les liens n'étaient pas cliquable.
+
+  ┌─────────────────────────────┐
+──┤ Version 2.10 - 2.10.1200.00 ├───────────────────────────────────────────────────────────────────────────────────────────────────
+  └─────────────────────────────┘
+
+- Bugs corrigés :
+    - Fenêtre principale :
+        - Tous les Raccourcis clavier sont de retour !
+
+    - Paramètres :
+        - Chargement des Paramètres :
+            - Lorsque la fenêtre Paramètres s'ouvre, une requête Internet est envoyée même si l'option "Rechercher les mises à jour
+              au démarrage" est désactivée.
+
+    - Fonctionnalités globales de l'application :
+        - Correction d'un bug avec la capture d'écran en mode fenêtré sous Windows Vista/7, Windows Aero n'affiche pas exactement
+          la même chose que Windows Basic dans Visual Studio…
+            - Ce bug sera officiellement corrigé dans la version 2.20, lorsque le .NET Framework passera de la version 4.0 à 4.6
+              après la fin du support de Windows XP.
+
+        - Ajout d'une option pour améliorer l'apparence lorsque le thème Windows Classic est sélectionné sous Windows Vista & 7.
+
+- Améliorations :
+    - Fonctionnalités globales de l'application :
+        - Amélioration de l'intégration avec Windows Aero.
+        - La version 64 bits de SMWMTL est enfin arrivée !
+            - SMWMTL 2.1x sera la dernière version de SMWMTL à être compilée en 32 bits, et est donc la dernière version à prendre
+              en charge l'architecture x86.
+
+        - Processus de démarrage de l'application modifié.
+            - Le logiciel vérifie maintenant si le fichier de paramètres existe pour éviter toute mauvaise configuration.
+                - Si le fichier de configuration n'a pas été trouvé, il définit automatiquement un ensemble de paramètres pour
+                  créer ce fichier et démarre l'OOBE de l'application.
+
+    - Fenêtre principale :
+        - La fenêtre principale a subi une refonte majeure.
+        - Ajout d'une septième colonne à la liste des programmes lancables.
+        - Amélioration du texte et des traductions de l'info-bulle.
+        - Ajout de nouveaux raccourcis clavier :
+            - CTRL + P pour charger les paramètres.
+            - CTRL + SHIFT + P pour charger les paramètres et contourner la recherche de mise à jour.
+            - CTRL + MAJ + SUPPR pour redémarrer rapidement SMWMTL.
+            - CTRL + 1 à CTRL + 6 pour lancer les raccourcis présents dans la fenêtre principale.
+            - Tous ces raccourcis peuvent être désactivés individuellement dans les paramètres de SMWMTL.
+
+        - Ajout d'une fonction "Afficher un texte sur la barre de titre".
+            - Vous pouvez choisir d'afficher votre nom d'utilisateur, la date et l'heure ou un texte personnalisé.
+
+        - Changement de la façon dont SMWMTL démarre les applications, qui ne seront plus gérées par des invites CMD cachées.
+            - Ce changement permet d'augmenter la vitesse de démarrage de certaines applications d'au moins 40 à 50%.
+
+        - Ajout d'une tonne de nouvelles icônes pour le bouton "Version de Windows :
+            - Windows 1.x / 2.x
+            - Windows 3.x / 9x / NT4
+            - Windows ME
+            - Microsoft Whistler
+            - Windows Media Center XP
+            - Microsoft Longhorn
+            - Windows Live
+            - Windows Media Center (Vista +)
+            - Windows 7 "flat" (Ou Windows 8 DP)
+            - Windows 8.x coloré
+            - Windows 10 (logo Fluent Design)
+            - Logo ReactOS
+            - Logo Ubuntu
+            - Logo Debian
+            - Logo Apple
+
+        - La détection des mises à jour au démarrage a été modifiée.
+            - Nouvelle méthode basée sur le nouveau moteur de recherche de mise à jour.
+            - Lorsque l'icône de la barre d'état système est activée, une bulle de notification apparaît au lieu de la boîte de
+              message traditionnelle. Cette boîte de message est cependant toujours affichée si l'icône de la barre d'état système
+              est désactivée.
+
+        - Ajout de raccourcis personnalisés :
+            - Vous pouvez définir jusqu'à 6 raccourcis sur la liste.
+            - Les raccourcis ont également la possibilité de se lancer avec une application telle que Lunar Magic ou YY-CHR.
+
+    - Fenêtre Paramètres :
+        - La fenêtre des paramètres a été entièrement repensée.
+            - Les paramètres ont été réorganisés pour donner plus de cohérence.
+            - Le chemin de l'exécutable est maintenant affiché dans chaque page.
+
+        - Ajout d'un bouton pour annuler les modifications non enregistrées et recharger les paramètres aux dernières valeurs
+          enregistrées.
+            - Le chargement et l'enregistrement des paramètres ont été restructurés en raison de l'ajout du bouton de rechargement
+              des paramètres.
+
+        - Ajout d'une option pour verrouiller la fenêtre principale au premier plan sur votre écran.
+        - Barre inférieure :
+            - Tous les boutons de la Barre inférieure peuvent être masqués individuellement.
+            - Ajout d'une fonction de séparateurs sur les boutons de la Barre Inférieure. Cette option peut être désactivée.
+
+        - Options des icônes de la barre inférieure :
+            - Les options des Icônes des boutons ont été remaniés de sorte à ce que leur réglage soit moins désordonné et simplifié.
+
+        - Thèmes :
+            - Les thèmes sont enfin arrivés ! Vous pouvez choisir entre 8 nouveaux thèmes.
+            - Cchaque thème, vous pouvez choisir entre 2 variantes (sauf pour les thèmes Classique, Sombre et "l'Extension" Windows
+              Basic).
+
+       - Lunar Magic "1 Click to Launch" :
+            - Ajout d'une option lorsque LM 1CTL est activé pour afficher le menu de sélection de version de LM lorsque maintenez la
+              la touche CTRL enfoncée si Lunar Magic 1CTL est activé.
+
+        - Améliorations de SMWMTL_Update :
+            - SMWMTL_Update mis à niveau vers la version 2 !
+                - La nouvelle version du moteur de recherche de mise à jour ne provoque plus de freeze sur votre logiciel en local.
+                - Cette nouvelle version peut également télécharger les nouvelles mises à jour et les installer !
+
+    - Fenêtre "À propos de SMWMTL" :
+        - Fenêtre entièrement repensée, avec uniquement des informations importantes, telles que la version, le numéro de build,
+          l'architecutre et la version du .NET Framework utilisée par le logiciel.
+            - Un bouton pour accéder à la boîte Legacy About (des versions 2.0x) peut être activé dans les paramètres du logiciel.
+
+        - La version de Windows n'est plus affichée par défaut. Vous pouvez l'activer dans les paramètres de l'application.
+
+    - Fenêtre "Suggérer un outil / Mise à jour" :
+        - Fenêtre renommée de "Suggérer une application / un programme" à "Suggérer un outil / Mise à jour".
+        - Le processus de téléchargement des problèmes signalés et des listes de mises à jour suggérées est désormais le même que
+          celui de la méthode SMWMTL_Update.
+            - Plus de freeze de l'application pendant ce processus.
+
+        - La fenêtre n'est plus à l'avant plan par défaut.
+
+    - Fenêtre "Version de Windows" :
+        - Cette fenêtre a subi une refonte quasi-intégrale.
+        - Ajout de quelques valeurs :
+            - Version complète.
+            - ID du SKU du système d'exploitation.
+
+        - Détection des Service Packs et des principales versions de Windows 10 recodée de zéro.
+        - Ajout d'un bouton pour lancer MSINFO32.EXE.
+
+    - Signaler un bug / Crash :
+        - Ajout de boutons avec des liens vers YouTube et Twitter.
+
+    - Recover Lunar Magic GUI Edition :
+        - L'interface graphique a été révisée.
+            - La sortie de la console est masquée par défaut. Il peut être affiché dans le menu "Sortie de la console".
+            - L'apparence est plus "professionnelle" et claire.
+
+    - Out-of-Box Experience (OOBE) :
+        - Design de la fenêtre intégralement refaite.
+            - Nouvelle musique OOBE.
+
+    - Application globale :
+        - Ajout d'une option pour définir l'opacité de la fenêtre,
+            - Il ne peut être défini que sur la fenêtre principale, toutes les fenêtres sauf les paramètres une ou sur toutes les
+              fenêtres.
+
+    - Importation / exportation des paramètres :
+        - La méthode d'importation / exportation a complètement changé. Cette nouvelle méthode est basée sur un fichier, au lieu
+          d'un code bizarre.
+
+    - Procédure de réinitialisation des paramètres :
+        - Suppression des boîtes de message de sur-avertissement dans le processus de réinitialisation des paramètres.
+        - Ajout d'un bouton dans la boîte de message de confirmation de réinitialisation pour exporter les paramètres actuels avant
+          d'effectuer une réinitialisation de ces derniers.
+
+- Fonctionnalités supprimées:
+    - Paramètres :
+        - L'option "Masquer de la barre des tâches" a été supprimée en raison de plantages au démarrage sur toutes les versions
+          de Windows.
+
+- Autre :
+    - Prise en charge SMWMTL:
+        - Annonce de la fin du support de la branche Windows NT 5.x et de l'architecture x86.
+
+    - Support général des applications:
+        - Certaines applications ne sont plus incluses dans SMWMTL.
+          La version 2.20 supprimera complètement toutes les applications de l'exécutable et vous permettra de choisir votre
+          PROPRE copie de ces logiciels au lieu de mes copies dont on ne sait pas trop où elles ont traîné, avec ma propre
+          configuration (et aussi éviter les virus potentiels).
+            - Lunar Magic
+            - LMSW
+            - Header Magic
+            - Lunar Expand
+            - Snes9x
+            - Asar
+            - UberASM
+            - SPC700 Player
+            - Organ BRR Player
+            - Level Music Utility
+            - Floating IPS/BPS
+            - Les outils de Smallhacker
+
+    - Ajout de nouveaux logiciels lancables.
+        - GradientTool
+        - H-DMA Gradient Ripper
+        - M7Map
+        - Gopher Popcorn Stew
+        - Sprite GFX Creator
+
+                                                  ┌──────────────────────────────┐
+──────────────────────────────────────────────────┤ Versions 2.0x - 2.0x.060x.xx ├──────────────────────────────────────────────────
+                                                  └──────────────────────────────┘
+  ┌────────────────────────────┐
+──┤ Version 2.07 - 2.07.601.70 ├────────────────────────────────────────────────────────────────────────────────────────────────────
+  └────────────────────────────┘
+
+- Bugs corrigés :
+    - Modification du Système de Mises à jour pour prendre en compte les numéros de Build à 4 chiffres des futures versions 2.1x
+
+- Améliorations :
+    - Amélioration de la vitesse d'exécution du processus de recherche des mises à jour.
+
+- Autre :
+    - Suppression de code de fonctions inutilisés dans les versions 2.0x.
+    - Suppression de l'onglet "Thèmes" des Paramètres (car non implantés dans les versions 2.0x).
+    - Correction du Changelog Français (La prochaine fois j'éviterai de l'écrire uniquement en Anglais et de tout retraduire sur
+      Google Trad pour gagner du temps)...
+
+  ┌────────────────────────────┐
+──┤ Version 2.06 - 2.06.601.64 ├────────────────────────────────────────────────────────────────────────────────────────────────────
+  └────────────────────────────┘
+
+- Bugs corrigés :
+    - Correction d'un bug de la 2.05 avec le texte .NET Framework 4.5 qui ne s'affichait pas correctement dans les deux langues.
+    - Correction de bugs à partir de 2.00 avec les boîtes de texte enrichi de la fenêtre "GPL":
+        - La version affiche désormais la valeur 2.06 dans les deux langues au lieu de 2.00 Build 600 en français et 2.00
+          Build 594 en anglais.
+        - Ces zones de texte enrichi ne sont plus modifiables.
+
+    - Correction d'un bug avec le nom de l'exécutable de l'éditeur de configuration de PIXI.
+    - Correction d'un bug avec le nom de l'exécutable de Effect Tool.
+    - Les info-bulles des boutons Lunar Magic Sub affichent désormais les versions correctes.
+
+- Améliorations :
+    - Importation des icônes des boutons Lunar Magic Sub à partir de la version 2.10 Beta (v3.11, 3.20 et 3.21).
+    - Préparation de la détection du système d'exploitation pour Windows 10 21H1 (2103?) Mise à jour de mai 2021.
+    - Remplacement des images Snes9x 64x64 par les images de la 2.10, simplement parce que les images réelles sont comme des
+      décharges publiques.
+
+- Fonctionnalités supprimées :
+    - Suppression des fonctionnalités d'importation/exportation en raison de l'horrible méthode utilisée...
+        - Cette fonctionnalité sera de retour dans la version 2.10 avec une méthode plus simple et plus fiable.
+
+- Mise à jour des programmes existants :
+    - Asar :
+        - Version 1.71 => Version 1.81
+
+    - AddMusicK :
+        - Version 1.0.7 => Version 1.0.8 (vraiment cette fois)
+
+    - PIXI Sprite Insertion Tool :
+        - Version 1.31 => Version 1.32
+
+  ┌────────────────────────────┐
+──┤ Version 2.05 - 2.05.601.59 ├────────────────────────────────────────────────────────────────────────────────────────────────────
+  └────────────────────────────┘
+
+- Statut du support :
+    - Implémentation de la fenêtre «Le support de Windows XP et l'architecture x86 sera bientôt terminé».
+    - Le numéro de Build s'incrémente de 600 à 601.
+
+- Bugs corrigés :
+    - Correction du texte concernant Windows 10 dans les paramètres qui n'était pas traduit en Français.
+
+- Mise à jour des programmes existants :
+    - PIXI Sprite Insertion Tool :
+        - Version 1.3 => Version 1.31
+
+- Autre :
+    - Mise à niveau de l'outil de développement de SMWMTL (encore) (de Visual Studio 2012 à Visual Studio 2019).
+
+  ┌────────────────────────────┐
+──┤ Version 2.04 - 2.04.600.45 ├────────────────────────────────────────────────────────────────────────────────────────────────────
+  └────────────────────────────┘
+
+- Améliorations :
+    - Si aucune connexion Internet n'est détectée, l'onglet "Problèmes connus / Mises à jour suggérées" ne s'affichera plus.
+
+- Bugs corrigés :
+    - Correction de la détection de l'OS pour Windows 10 20H2 (la valeur "ReleaseId" du registre utilisée pour détecter la version
+      majeure de Windows 10 est "2009" au lieu de la valeur "DisplayVersion" qui est "20H2".
+    - Correction d'un bug de la 2.02 de la zone de texte du journal des modifications dans SMWMTL Update (Vous pouvez supprimer le
+      texte et écrire tout ce que vous voulez à la place).
+    - Correction du bug du menu de l'icône d'état système qui n'étais pas traduit).
+
+- Mise à jour des programmes existants :
+    - AddMusicK :
+        - Version 1.0.7 => 1.0.8
+
+- Autre :
+    - Mise à niveau de l'outil de développement de SMWMTL (de Visual Studio 2010 à Visual Studio 2012).
+
+  ┌────────────────────────────┐
+──┤ Version 2.03 - 2.03.600.38 ├────────────────────────────────────────────────────────────────────────────────────────────────────
+  └────────────────────────────┘
+
+- Bugs corrigés :
+    - Correction de mots / caractères supplémentaires inutiles pour l'édition dans la fenêtre intégrée «À propos de Windows» sur
+      Windows Vista (toutes les éditions) et Windows XP x64 (professionnel).
+    - Correction d'un bug de texte sur les systèmes d'exploitation Windows XP pour l'indisponibilité de la mise à jour SMWMTL sur
+      ces systèmes. Le texte par défaut ne disparaît pas lorsqu'il détecte un système d'exploitation Windows XP.
+    - Correction de l'onglet Mise à jour apparaissant sur les systèmes d'exploitation Windows XP si vous définissez la compatibilité
+      avec les anciennes versions de Windows (2000 ou NT4).
+    - Correction de la détection du système d'exploitation de la version majeure de Windows 10 20H2 (Put*in Microsoft, pourquoi ne
+      l'appelez-vous pas "2009" ? (en raison d'une confusion avec POSReady 2009 certainement)).
+    - Correction de la détection du système d'exploitation de Windows Vista si la version de Vista est "6003" en raison des mises à
+      jour de Windows Server 2008.
+    - Correction de l'image de l'option "Détecter automatiquement la version Windows" sur les systèmes d'exploitation Windows XP.
+    - Correction de l'OOBE :
+        - Texte mis à jour pour Lunar Magic "1 Click to Launch" avec les versions correctes.
+        - Correction du texte du titre sur Windows XP x64, Windows Vista et Windows 7.
+        - Case à cocher "Rechercher les mises à jour au démarrage de SMWMTL" désactivée sur les systèmes d'exploitation Windows XP.
+    - Suppression des caractères "®" et "™" de Windows Vista dans l'édition Windows dans la fenêtre "À propos de SMWMTL".
+
+- Mise à jour des programmes existants :
+    - Lunar Magic :
+        - Versions 3.10, 3.11, 3.20 => 3.11, 3.20, 3.21
+
+    - AddMusicK :
+        - Version 1.0.6 => 1.0.7
+
+  ┌────────────────────────────┐
+──┤ Version 2.02 - 2.02.600.25 ├────────────────────────────────────────────────────────────────────────────────────────────────────
+  └────────────────────────────┘
+
+- Modifications :
+    - Modification de la zone de texte dans SMWMTL Update qui détecte désormais les liens.
+
+- Bugs corrigés :
+    - Correction du problème qui entraînait le non-lancement de Header Magic avec les instances de LM sur Windows 7.
+        - Vous pouvez toutefois maintenir la touche "Majuscule" pour ne pas lancer Header Magic avec LM.
+    - Correction de la vérification du paramètre de l'OS pour que l'option "étendre Aero/couleur de la fenêtre" ne puisse pas causer
+      de problème avec toutes les versions de Windows NT inférieurs à 6.0 (Windows XP (NT 5.1), Server 2003/XP x64 (NT 5.2).
+
+- Optimisation de l'utilisation disque de SMWMTL.
+    - Suppression des dossiers de sources des programmes lançables par le logiciel pour économiser de l'espace disque.
+
+- Mise à jour des programmes existants :
+    - Lunar Magic :
+        - Version 3.04, 3.10, 3.11 -> 3.10, 3.11, 3.20
+
+    - Effect Tool :
+        - Version 2.0.1 -> 3.0.0
+
+    - PIXI Sprite Insertion Tool :
+        - Version 1.2.14 -> 1.3.0
+
+  ┌────────────────────────────┐
+──┤ Version 2.01 - 2.01.600.15 ├────────────────────────────────────────────────────────────────────────────────────────────────────
+  └────────────────────────────┘
+
+- Bugs corrigés :
+    - Correction de l'exception .NET de Recover Lunar Magic GUI.
+    - Correction du premier démarrage de l'application (l'OOBE ne s'affichait pas et SMWMTL se lançait avec une configuration
+      erronnée).
+    - Correction des textes "Aucune suggestion trouvée" dans "Suggérer une application/Mise à jour".
+    - Correction du bug dans la fenêtre d'importation des paramètres (une valeur ne pouvait pas être définie).
+
+- Modifications :
+    - L'option "Masquer SMWMTL de la barre des tâches" a été désactivée à cause de plantages sur toutes les versions de Windows.
+    - Supression des fichiers inutilisés dans l'application.
+    - La taille de l'application à légèrement réduit (6,62 Mo -> 5,95 Mo).
+    - Correction des versions dans cette section.
+
+  ┌────────────────────────────┐
+──┤ Version 2.00 - 2.00.600.00 ├────────────────────────────────────────────────────────────────────────────────────────────────────
+  └────────────────────────────┘
+
+- Nouveautés :
+    - Application complètement redesignée :
+        - Nouveaux designs de l'interface :
+            - Design classique (présent depuis V.1.00).
+            - Couleur/Aero étendue sur la fenêtre.
+            - Couleur/Aero étendue avec des bordures.
+
+    - Les fenêtres inaccessible/inutiles supprimés :
+        - Autres dispositions de la fenêtre principale (mode liste, texte...)
+        - Sélecteur de disposition de la fenêtre princ.
+        - Asar GUI Edition.
+        - Journal des modifications de la version.
+        - Options de processus.
+        - Sous-menus de Lunar Magic et AddMusicK de la version 1.00, inutilisés depuis la 1.10.
+
+    - Fenêtre principale de l'application :
+        - Les boutons de l'applications sont maintenant sur le design classique de Windows.
+        - La barre de menus à été supprimée.
+            - Les fonctions de cette barre ont été déplacés en bas de l'application.
+        - La colonne droite dispose de 4 colonnes au lieu de 2 sur la version 1.20.
+        - La colonne gauche dispose de 6 colonnes du aux logiciels rajoutés en version 2.00.
+        - Le bouton "Annuler" de certaines applications est modifié en un bouton "Fermer" plus petit.
+
+    - Fenêtre "À propos" :        
+        - Ajout d'un onglet "Historique des versions" migré depuis le fichier d'aide.
+            - Un EasterEgg est inclus.
+        - Votre version de Windows est maintenant visible en bas de la fenêtre.
+
+    - Fenêtre "Suggérer Application/Mise à jour" :            
+        - Ajout d'un onglet "problèmes connus/bugs signalés" pour empêcher les signalements en doublons à plusieurs moments.
+        - Ajout d'une limite du commentaire à 2000 caractères pour éviter les commentaires trop longs.
+        - Le bouton "Exporter en TXT" est fonctionnel.
+
+    - Options de personnalisation :            
+        - Ajout d'un assistant de première configuration pour la première utilisation de la V.2.00
+            - Ajout aussi d'une musique d'OOBE.
+        - Les paramètres sont accessibles via un bouton sur la fenêtre principale (en bas à droite).
+            - Vous pourrez personnaliser les icônes, fenêtres et autres trucs.
+
+    - Nouvelle fenêtre "À propos de Windows" :        
+        - Détecte de Windows 2000 à Windows 10 2009.
+
+    - Nouvelles fonctionnalités des logiciels intégrés:
+        - Lunar Magic :
+            - Lunar Magic "1 Click To Launch" : Vous pouvez choisir quelle version vous voulez lancer instantanément au lieu
+              d'afficher le menu de sélection de version.
+
+        - Snes9x :
+            - Vous pouvez désormais choisir entre la version x86 et x64.
+
+    - Ajout du bouton "Réduire" sur la fenêtre principale et la possibilité de le désactiver.
+    - Ajout d'une détection des mises à jour de l'appli.
+
+- Fonctionnalités modifiés :
+    - Les langues sont sur une version unifiée au lieu de version séparées avant.
+    - Le lien de téléchargement à migré de Google Drive à MediaFire.
+    - Le fichier d'aide séparé n'a pas été mis à jour parce que ce fichier n'est plus supporté et qu'il sera complètement migré au
+      sein-même de l'appli lors de la version 2.10.
+
+- Bugs corrigés :
+    - L'ordre des tabulations corrigés sur la fenêtre principale.
+    - L'ordre des tabulations corrigés sur la fenêtre "Suggérer application/Mise à jour".
+
+- Mise à jour des programmes existants :
+    - Lunar Magic :
+        - Version 3.03, 3.04, 3.10 -> 3.04, 3.10, 3.11
+
+    - Asar ASM Patcher :
+        - Version 1.60 -> 1.71
+
+    - Petite MM :
+        - Version 2.00 -> 3.00
+
+- Nouveautés de logiciels prévus :
+    - Recover Lunar Magic est enfin arrivé !
+        - Avec une version graphique EXCLUSIVE !
+        - Version 1.4 Par Parasite
+
+- Nouveaux logiciels :
+    - Mario/Luigi Live Palette Editor :
+        - Version 1.2 Par JakesTheSpades
+    - Blockreator :
+        - Version 1.3 Par Kipernal & Major Flare
+    - Effect Tool :
+        - Version 2.0.1 Par JakesTheSpades
+    - Interaction Editor :
+        - Version 1.0 Par The Biob
+    - HeAdder :
+        - Version 1.0 Par Yoshis Fan
+    - PIXI Sprite Insertion Tool :
+        - Version 1.2.14 Par JackTheSpades & Tattletale
+    - Tile Molester :
+        - Version 0.19 Par SnowBro
+    - Multiple Midway Points :
+        - Version 1.7 Par MarioFanGamer
+
+                                                  ┌──────────────────────────────┐
+──────────────────────────────────────────────────┤ Versions 1.xx - 1.xx.0xxx.00 ├──────────────────────────────────────────────────
+                                                  └──────────────────────────────┘
+  ┌────────────────────────────┐
+──┤ Version 1.20 - 1.20.330.00 ├────────────────────────────────────────────────────────────────────────────────────────────────────
+  └────────────────────────────┘
+
+- Nouveautés :
+    - La version française dispose du fichier d'aide traduit.
+
+- Bugs corrigés :
+    - Certains éléments Microsoft PowerPacks cause des plantages du logiciel.
+
+- Mise à jour des logiciels existants :
+    - Lunar Magic :
+        - Versions 3.02; 3.03; 3.04 -> 3.03; 3.04; 3.10
+
+    - LMSW :
+        - Version 1.05 -> 1.10
+
+  ┌────────────────────────────┐
+──┤ Version 1.10 - 1.10.202.00 ├────────────────────────────────────────────────────────────────────────────────────────────────────
+  └────────────────────────────┘
+
+- Nouveautés de l'interface utilisateur :
+
+    - Les programmes ne s'ouvrent plus dans une fenêtre à part.
+    - Plus complet et propre.
+
+- Autres nouveautés :
+
+    - Version Française (fr-FR) disponible !
+
+- Mise à jour des logiciels existants :
+
+    - Lunar Magic :
+        - Versions 2.53;3.00 -> Versions 3.02;3.03;3.04
+
+    - Asar :
+        - Version 1.61 -> Version 1.71
+
+    - SNES9x :
+        - Version 1.58 -> Version 1.60
+
+- Nouveaux logiciels :
+
+    - SNES GFX
+        - Version 2.62 - Par Vitor Vilela
+    - Organ BRR Player
+        - Version 1.0 - Par Vitor Vilela
+    - SPC Tool
+        - Version 0.70 build 52 - Par Alpha-II Productions
+    - Mario Start Editor
+        - Version 1.2 - Par TheBiob
+
+  ┌───────────────────────────┐
+──┤ Version 1.00 - 1.00.95.00 ├─────────────────────────────────────────────────────────────────────────────────────────────────────
+  └───────────────────────────┘
+
+- Version initiale
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────

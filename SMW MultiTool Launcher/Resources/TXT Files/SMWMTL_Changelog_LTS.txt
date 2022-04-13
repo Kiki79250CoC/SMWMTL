@@ -1,0 +1,153 @@
+
+                 .oooooo..o ooo        ooooo oooooo   oooooo     oooo ooo        ooooo ooooooooooooo ooooo        
+                d8P'    `Y8 `88.       .888'  `888.    `888.     .8'  `88.       .888' 8'   888   `8 `888'        
+                Y88bo.       888b     d'888    `888.   .8888.   .8'    888b     d'888       888       888         
+                 `"Y8888o.   8 Y88. .P  888     `888  .8'`888. .8'     8 Y88. .P  888       888       888         
+                     `"Y88b  8  `888'   888      `888.8'  `888.8'      8  `888'   888       888       888         
+                oo     .d8P  8    Y     888       `888'    `888'       8    Y     888       888       888       o 
+                8""88888P'  o8o        o888o       `8'      `8'       o8o        o888o     o888o     o888ooooood8 
+              ─────────────────────────────────────────────────────────────────────────────────────────────────────
+                Version changelog
+
+                                               ┌────────────────────────────────────┐
+───────────────────────────────────────────────┤ Versions 2.10-LTS.x - 2.10.12xx.xx ├───────────────────────────────────────────────
+                                               └────────────────────────────────────┘
+  ┌───────────────────────────────────┐
+──┤ Version 2.10-LTS.7 - 2.10.1211.72 ├─────────────────────────────────────────────────────────────────────────────────────────────
+  └───────────────────────────────────┘
+
+- Bug fixes :
+    - Fixed a bug that still shows your OS Version on title even if "Hide window title" option is enabled.
+    - Fixed a critical bug with Lunar Magic 1 Click to Launch that does not enable option if slot path is valid on loading.
+
+- Modifications :
+    - Changed case for "SnesGFX" text.
+
+- Other :
+    - Fixed typo in French in Main window's Settings button tooltip when CTRL+Click is enabled.
+    - Fixed typo in French in default placeholder text in "Suggest Tool/Update" window.
+
+  ┌───────────────────────────────────┐
+──┤ Version 2.10-LTS.6 - 2.10.1211.54 ├─────────────────────────────────────────────────────────────────────────────────────────────
+  └───────────────────────────────────┘
+
+- Improvements :
+    - Backporting application optimisations from current development versions :
+        - Reduced application size (From 22 MB to 11.6 MB).
+
+    - Updated SMWMTL_Update to version 2.10 :
+        - It'll no longer displays you an error if the current build number is higher than the one known by the server, it'll
+          display that no updates are available instead.
+        - This change also affect update search at startup.
+
+- Modifications :
+
+    - Disabled DPI Scaling support due to several UI Problems when DPI is higher than 100%.
+    - Changed "BRR Player" strings, because this program was never called "Organ".
+    - Modified About screen Application name graphic to reflect the actual logo design from development versions.
+
+- Bug fixes :
+    - Fixed a problem with update search at program startup :
+        - Search process download data for server status for Stable release even if your version is a LTS one.
+
+  ┌───────────────────────────────────┐
+──┤ Version 2.10-LTS.5 - 2.10.1210.41 ├─────────────────────────────────────────────────────────────────────────────────────────────
+  └───────────────────────────────────┘
+
+- Fixed bugs :
+    - First Configuration window :
+        - Fixed a bug with transparent buttons on OOBE with Windows Classic Theme on Windows XP/Vista/7.
+        - Fixed a display bug with category name Texts during Personalized configuration with Windows Classic Theme.
+
+    - Main window :
+        - Fixed a display bug with the Update banner that displays it in White instead of Windows Classic selected color.
+
+    - "Report Bug / Crash" window :
+        - Fixed tab background color to accomodate with Windows Classic design on Windows XP/Vista/7.
+
+    - "Suggest Tool / Update" window :
+        - Fixed a development error, a point is added after the version in the generated suggestion text.
+
+- Modifications :
+    - General :
+        - Added support for Lunar Magic 3.31 in LM 1CTL.
+        - Separators in bottom bar option is now disabled by default.
+
+    - "Report Bug / Crash" window :
+        - Added a button leading to the GitHub Repo.
+
+    - Windows XP/32-bit end of support notification window :
+        - Changing Windows XP age from 19 to 20 years old.
+
+  ┌───────────────────────────────────┐
+──┤ Version 2.10-LTS.4 - 2.10.1210.33 ├─────────────────────────────────────────────────────────────────────────────────────────────
+  └───────────────────────────────────┘
+
+- Bug fixes :
+    - "OS Version" window :
+        - Windows 11 : detection no longer shows "Windows 10" in the "Operating System name" item.
+            - The reason this is happening is a registry value that contains the version of Windows has not been updated to
+              Windows 11 and still displays "Windows 10". 
+
+- Modifications :
+    - "OS Version" window :
+        - Virtual Memory values are now hidden in 64-bit release due to incorrect values. 32-bit release is not affected
+          by this bug.
+
+        - Added a preliminary detection of the future version 22H1 of Windows 10 & 11.
+
+  ┌───────────────────────────────────┐
+──┤ Version 2.10-LTS.3 - 2.10.1210.26 ├─────────────────────────────────────────────────────────────────────────────────────────────
+  └───────────────────────────────────┘
+
+- Bug Fixes :
+    - Settings window :
+        - Fixed text duplication with 64-bit environments detection when Settings opens for Snes9x.
+        - Fixed a bug on SMWMTL_Update which did not delete the download test file when the test fails.
+
+    - First Configuration window :
+        - Fixed the import settings dialog that was not translated in French.
+        - Fixed text overlapped by icon in the "Show Buttons Separators" checkbox in French.
+
+- Modifications :
+    - First Configuration window :
+        - Changed the text of the system requirements to align with those of the GitHub repository.
+
+- Additions :
+    - "Windows Version" window :
+        - Added preliminary Windows 11 and Windows Server 2022 detection.
+
+  ┌───────────────────────────────────┐
+──┤ Version 2.10-LTS.2 - 2.10.1210.11 ├─────────────────────────────────────────────────────────────────────────────────────────────
+  └───────────────────────────────────┘
+
+- Bug fixes :
+    - Lunar Magic "1 Click to Launch" :
+        - Fixed last Lunar Magic version in version selector.
+          I wanted to preshot the May 1st new "minor" version of Lunar Magic as FusoYa said, but there's no "Version 3.22"...
+          I tried and I failed.
+
+    - "Settings" window :
+        - Fixed "Show settings values" function in the "Bottom Bar Options" tab, where the value to the setting "Show buttons
+          separators" was missing.
+
+    - "Windows Version" window :
+        - Fixed OS detection for Windows 10 21H1, the "ReleaseID" registry value was now deprecated in favor to the bring new
+          "DisplayVersion" registry value.
+        - Fixed OS detection for Windows 10 20H2, the name of the 20H2 update (November 2020 Update) was not correct.
+
+    - "More Informations (About)" window :
+        - Fixed a graphic bug on the bottom part that occurs on Windows 10. Borders without the width like previous Windows
+          versions was the cause of this issue.
+        - Fixed French changelog, especially for part about version 2.10.
+        - Fixed License file who still showing "2.10 Release Candidate 2" instead of just "2.10". This problem occured just
+          because I don't updated the right file when compiling the final SMWMTL 2.10 release.
+        - Fixed "License" tab, where links were not clickable.
+
+  ┌───────────────────────────────────┐
+──┤ Version 2.10-LTS.1 - 2.10.1210.00 ├─────────────────────────────────────────────────────────────────────────────────────────────
+  └───────────────────────────────────┘
+
+- Initial LTS Release.
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────

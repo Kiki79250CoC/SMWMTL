@@ -1,0 +1,1296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="AppIcon_GraphEdit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Other\AppIcon_GraphEdit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LM_101" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_101.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_Badge_OK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Update System\UpdateModal\UI_Badge_OK.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Winver_banner_Win8W" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Windows Versions Assets\DarkUI\Winver_banner_Win8W.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Taskmgr_Icon_LPink32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Settings Previews\Task Manager Icon\SMWMTL\Light\Taskmgr_Icon_LPink32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppIcon_Flips" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Other\AppIcon_Flips.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LM_302" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_302.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LM_320" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_320.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppIcon_AddMusicK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Other\AppIcon_AddMusicK.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Taskmgr_Icon_DWhite" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Bottom Bar\Taskmgr_Icons\SMWMTL\Dark\Taskmgr_Icon_DWhite.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_Badge_Search" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Update System\UpdateModal\UI_Badge_Search.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shortcut_Icon_StatusEffects" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Icon_StatusEffects.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Taskmgr_Icon_DGreen32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Settings Previews\Task Manager Icon\SMWMTL\Dark\Taskmgr_Icon_DGreen32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Snes9x_C_x64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Snes9x\Color\Snes9x_C_x64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Taskmgr_Icon_DGray32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Settings Previews\Task Manager Icon\SMWMTL\Dark\Taskmgr_Icon_DGray32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Taskmgr_Icon_LGray" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Bottom Bar\Taskmgr_Icons\SMWMTL\Light\Taskmgr_Icon_LGray.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HomeUpdateError" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Update System\Main Window\HomeUpdateError.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Winver_banner_WinVistaW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Windows Versions Assets\DarkUI\Winver_banner_WinVistaW.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_RightMask_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\UI_GraphicAssets\UI_WindowMasks\Win_8.x\UI_RightMask_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Winver_Logo_Win2000" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Bottom Bar\Winver\Winver_Logo_Win2000.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HomeUpdateAvailable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Update System\Main Window\HomeUpdateAvailable.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Taskmgr_Icon_LGreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Bottom Bar\Taskmgr_Icons\SMWMTL\Light\Taskmgr_Icon_LGreen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LM_142" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_142.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Winver_banner_WinSvr2022W" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Windows Versions Assets\DarkUI\Winver_banner_WinSvr2022W.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UpdateBackJaune" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Background Images\UpdateSystem\UpdateBackJaune.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Winver_LogoL_Win7Flat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Settings Previews\Windows Version Icon\Winver_LogoL_Win7Flat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LM_304" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_304.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LM_250" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_250.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LM_120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_120.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Winver_Logo_ReactOS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Bottom Bar\Winver\Winver_Logo_ReactOS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Update" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Bottom Bar\Update.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LM_241" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_241.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Winver_banner_Win81W" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Windows Versions Assets\DarkUI\Winver_banner_Win81W.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shortcut_Icon_YYCHR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Icon_YYCHR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GradientLine_Gray" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\UI_GraphicAssets\UI_Gradients\GradientLine_Gray.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shortcut_Default_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Default_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Winver_Logo_Win8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Bottom Bar\Winver\Winver_Logo_Win8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppIcon_StatusEffects" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Other\AppIcon_StatusEffects.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppIcon_SPC700" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Other\AppIcon_SPC700.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Winver_Logo_WinXP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Bottom Bar\Winver\Winver_Logo_WinXP.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_RightMask_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\UI_GraphicAssets\UI_WindowMasks\Win_7_Vista\UI_RightMask_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppIcon_MMP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Other\AppIcon_MMP.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_UpdatePopupGradient" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\UI_GraphicAssets\UI_Gradients\Update System\UI_UpdatePopupGradient.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Winver_banner_Win10B" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Windows Versions Assets\LightUI\Winver_banner_Win10B.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Taskmgr_Icon_LOrange32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Settings Previews\Task Manager Icon\SMWMTL\Light\Taskmgr_Icon_LOrange32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shortcut_Icon_SPCPlayer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Icon_SPCPlayer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shortcut_Icon_MSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Icon_MSE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_Icon_DownloadUpdate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Update System\UpdateModal\UI_Icon_DownloadUpdate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="APP_VERSION_COMPLETE" xml:space="preserve">
+    <value>2.20.1561.00-rc3bld-06</value>
+  </data>
+  <data name="Shortcut_Default_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Default_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shortcut_Default_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Default_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GradientLine_Black_V" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\UI_GraphicAssets\UI_Gradients\GradientLine_Black_V.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shortcut_Foreground" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Foreground.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GradientLine_White" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\UI_GraphicAssets\UI_Gradients\GradientLine_White.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TitleYellow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Background Images\Window Titlebar\TitleYellow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shortcut_Icon_SPCT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Icon_SPCT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shortcut_Icon_Snes9xC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Icon_Snes9xC.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LM_164" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_164.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Taskmgr_Icon_DWhite32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Settings Previews\Task Manager Icon\SMWMTL\Dark\Taskmgr_Icon_DWhite32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppIcon_Bsnes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Other\AppIcon_Bsnes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_RightMask_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\UI_GraphicAssets\UI_WindowMasks\Win_10\UI_RightMask_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shortcut_Icon_EffectTool" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Icon_EffectTool.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppIcon_Asar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Other\AppIcon_Asar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Built-in_Winver" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Bottom Bar\Settings\Built-in_Winver.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Winver_banner_Win10W" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Windows Versions Assets\DarkUI\Winver_banner_Win10W.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Winver_Logo_WinVista" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Bottom Bar\Winver\Winver_Logo_WinVista.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GradientLine_Black" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\UI_GraphicAssets\UI_Gradients\GradientLine_Black.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LM_143" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_143.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppIcon_Smallhacker_SMWPTE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Sub-Menu Column\Smallhacker's Tools\AppIcon_Smallhacker_SMWPTE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppIcon_Blockreator" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Other\AppIcon_Blockreator.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppIcon_HeAdder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Other\AppIcon_HeAdder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="APP_VERSION_WITHZERO" xml:space="preserve">
+    <value>02.20</value>
+  </data>
+  <data name="APP_CODENAME" xml:space="preserve">
+    <value>Montréal</value>
+  </data>
+  <data name="Winver_LogoL_WinME" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Settings Previews\Windows Version Icon\Winver_LogoL_WinME.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LM_111" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_111.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppIcon_Smallhacker_SMWEN_I" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Sub-Menu Column\Smallhacker's Tools\AppIcon_Smallhacker_SMWEN_I.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Winver_banner_WinSvr2008R2B" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Windows Versions Assets\LightUI\Winver_banner_WinSvr2008R2B.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Taskmgr_Icon_DPink32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Settings Previews\Task Manager Icon\SMWMTL\Dark\Taskmgr_Icon_DPink32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Winver_Logo_Apple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Bottom Bar\Winver\Winver_Logo_Apple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LM_212" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_212.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GradientLine_White_V" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\UI_GraphicAssets\UI_Gradients\GradientLine_White_V.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_Badge_Warning" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Update System\UpdateModal\UI_Badge_Warning.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Winver_LogoL_Win8Colored" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Settings Previews\Windows Version Icon\Winver_LogoL_Win8Colored.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Taskmgr_Icon_DRed32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Settings Previews\Task Manager Icon\SMWMTL\Dark\Taskmgr_Icon_DRed32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LM_190" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_190.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Taskmgr_Icon_LBlue32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Settings Previews\Task Manager Icon\SMWMTL\Light\Taskmgr_Icon_LBlue32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppIcon_Smallhacker_SMWMTE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Sub-Menu Column\Smallhacker's Tools\AppIcon_Smallhacker_SMWMTE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Winver_banner_Win8B" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Windows Versions Assets\LightUI\Winver_banner_Win8B.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Bottom Bar\Info.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UpdateLogo_Light" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\UI_GraphicAssets\UpdateNotification_Modal\UpdateLogo_Light.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppIcon_SMWCust" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Other\AppIcon_SMWCust.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Snes9x_x64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Snes9x\Purple\Snes9x_x64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LM_211" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_211.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Winver_Logo_Win8Colored" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Bottom Bar\Winver\Winver_Logo_Win8Colored.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LM_230" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_230.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Winver_banner_WinSvr2016W" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Windows Versions Assets\DarkUI\Winver_banner_WinSvr2016W.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LM_201" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_201.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SysIconModify" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Placeholders\SysIconModify.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SysIconModifyW64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Placeholders\SysIconModifyW64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shortcut_Icon_Snes9x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Icon_Snes9x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LM_232" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_232.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppIcon_Smallhacker_LIBPE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Sub-Menu Column\Smallhacker's Tools\AppIcon_Smallhacker_LIBPE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LM_1CTL_Error" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_1CTL_Error.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="APP_VERSION_BUILD" xml:space="preserve">
+    <value>1561.00</value>
+    <comment>UPDATE ASSEMBLY VERSION NUMBER INFO !!!</comment>
+  </data>
+  <data name="AppIcon_Smallhacker" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Other\AppIcon_Smallhacker.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppIcon_Smallhacker_SMWEN_E" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Sub-Menu Column\Smallhacker's Tools\AppIcon_Smallhacker_SMWEN_E.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LM_130" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_130.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shortcut_Icon_LM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Icon_LM.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Winver_banner_Win11B" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Windows Versions Assets\LightUI\Winver_banner_Win11B.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UpdateBackVert" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Background Images\UpdateSystem\UpdateBackVert.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_LeftMask_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\UI_GraphicAssets\UI_WindowMasks\Win_10\UI_LeftMask_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LM_310" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_310.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LM_301" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_301.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Close" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Sub-Menu Column\Common\Close.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HomeUpdateSearching" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Update System\Main Window\HomeUpdateSearching.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SuggestFeature_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Title Icon\SuggestFeature_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BtmBar_Separators" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Bottom Bar\Settings\BtmBar_Separators.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Winver_LogoL_Debian" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Settings Previews\Windows Version Icon\Winver_LogoL_Debian.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Taskmgr_Icon_LPurple32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Settings Previews\Task Manager Icon\SMWMTL\Light\Taskmgr_Icon_LPurple32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RELEASE_STATE" xml:space="preserve">
+    <value>Release Candidate 3</value>
+  </data>
+  <data name="LM_141" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_141.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SMWMTL_Changelog_LTS_fr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TXT files\SMWMTL_Changelog_LTS_fr.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Winver_Logo_Win10X" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Bottom Bar\Winver\Winver_Logo_Win10X.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shortcut_Icon_UASM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Icon_UASM.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LM_162" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_162.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TitleBlue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Background Images\Window Titlebar\TitleBlue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppIcon_MarioLPE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Other\AppIcon_MarioLPE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shortcut_Icon_Interaction" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Icon_Interaction.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SMWMTL_Changelog_fr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TXT files\SMWMTL_Changelog_fr.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="AppIcon_Smallhacker_SMWTYMI" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Sub-Menu Column\Smallhacker's Tools\AppIcon_Smallhacker_SMWTYMI.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SMWMTL_License" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TXT files\SMWMTL_License.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Taskmgr_Icon_DBrown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Bottom Bar\Taskmgr_Icons\SMWMTL\Dark\Taskmgr_Icon_DBrown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Winver_banner_WinSvr2012B" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Windows Versions Assets\LightUI\Winver_banner_WinSvr2012B.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LM_110" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_110.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Winver_Logo_Win7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Bottom Bar\Winver\Winver_Logo_Win7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CbxUnderOptionL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\UI_GraphicAssets\UI_CheckBox\CbxUnderOptionL.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LM_243" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_243.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VSLogo_Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\ui_elements\icons\more infos\vslogo_dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LM_NEWER" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_NEWER.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Winver_LogoL_Ubuntu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Settings Previews\Windows Version Icon\Winver_LogoL_Ubuntu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Winver_Logo_Debian" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Bottom Bar\Winver\Winver_Logo_Debian.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shortcut_Icon_GraphEdit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Icon_GraphEdit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppIcon_Pixi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Other\AppIcon_Pixi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Winver_LogoL_WinWhistler" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Settings Previews\Windows Version Icon\Winver_LogoL_WinWhistler.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LM_161" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_161.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GradientLine_Gray_V" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\UI_GraphicAssets\UI_Gradients\GradientLine_Gray_V.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Winver_banner_WinSvr2019W" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Windows Versions Assets\DarkUI\Winver_banner_WinSvr2019W.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Taskmgr_Icon_DPurple32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Settings Previews\Task Manager Icon\SMWMTL\Dark\Taskmgr_Icon_DPurple32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SysIconModify64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Placeholders\SysIconModify64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shortcut_Icon_H_DMA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Icon_H-DMA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Winver_LogoL_Apple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Settings Previews\Windows Version Icon\Winver_LogoL_Apple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LM_330" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_330.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Taskmgr_Icon_WinVista_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Bottom Bar\Taskmgr_Icons\Windows\Taskmgr_Icon_WinVista_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Winver_banner_WinSvr2008R2W" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Windows Versions Assets\DarkUI\Winver_banner_WinSvr2008R2W.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shortcut_Icon_GradientTool" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Icon_GradientTool.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Winver_Logo_WinXP_MCE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Bottom Bar\Winver\Winver_Logo_WinXP_MCE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Winver_banner_WinSvr2008W" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Windows Versions Assets\DarkUI\Winver_banner_WinSvr2008W.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Winver_banner_WinSvr2019B" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Windows Versions Assets\LightUI\Winver_banner_WinSvr2019B.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppIcon_Effecttool" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Other\AppIcon_Effecttool.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CbxUnderOptionUnavailableL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\UI_GraphicAssets\UI_CheckBox\CbxUnderOptionUnavailableL.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Twitter_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Report Bugs\Twitter_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppIcon_Snes9x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Other\AppIcon_Snes9x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shortcut_Icon_MMP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Icon_MMP.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Taskmgr_Icon_DOrange32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Settings Previews\Task Manager Icon\SMWMTL\Dark\Taskmgr_Icon_DOrange32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Winver_banner_WinSvr2012R2W" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Windows Versions Assets\DarkUI\Winver_banner_WinSvr2012R2W.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shortcut_Icon_SnesGFX" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Icon_SnesGFX.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_TabMask_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\UI_GraphicAssets\UI_WindowMasks\Win_10\UI_TabMask_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Winver_Logo_Win7Flat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Bottom Bar\Winver\Winver_Logo_Win7Flat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LM_240" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_240.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Winver_Logo_WinWhistler" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Bottom Bar\Winver\Winver_Logo_WinWhistler.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LM_140" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_140.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Winver_LogoL_WinMC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Settings Previews\Windows Version Icon\Winver_LogoL_WinMC.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppIcon_MML_Edit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Other\AppIcon_MML_Edit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HomeUpdateNoUpdate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Update System\Main Window\HomeUpdateNoUpdate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Winver_LogoL_Win1x2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Settings Previews\Windows Version Icon\Winver_LogoL_Win1x2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BUILD_DATE_YEAR" xml:space="preserve">
+    <value>2022</value>
+  </data>
+  <data name="SysIconModifyG64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Placeholders\SysIconModifyG64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Winver_Logo_Win9x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Bottom Bar\Winver\Winver_Logo_Win9x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Winver_LogoL_WinXP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Settings Previews\Windows Version Icon\Winver_LogoL_WinXP.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Winver_Logo_Win11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Bottom Bar\Winver\Winver_Logo_Win11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BUILD_DATE_DAY" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="UpdateLogo_Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\UI_GraphicAssets\UpdateNotification_Modal\UpdateLogo_Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Winver_Logo_WinMC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Bottom Bar\Winver\Winver_Logo_WinMC.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="YouTube_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Report Bugs\Youtube_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CbxUnderOption" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\UI_GraphicAssets\UI_CheckBox\CbxUnderOption.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Taskmgr_Icon_LRed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Bottom Bar\Taskmgr_Icons\SMWMTL\Light\Taskmgr_Icon_LRed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shortcut_Icon_Organ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Icon_Organ.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppIcon_LE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Other\AppIcon_LE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shortcut_Icon_SGFXC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Icon_SGFXC.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UPDATE_ENGINE_VERSION" xml:space="preserve">
+    <value>3.00</value>
+  </data>
+  <data name="LM_103" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_103.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Taskmgr_Icon_DGray" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Bottom Bar\Taskmgr_Icons\SMWMTL\Dark\Taskmgr_Icon_DGray.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_Badge_EngineLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Update System\UpdateModal\UI_Badge_EngineLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LM_231" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_231.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LM_191" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_191.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Winver_Logo_WinME" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Bottom Bar\Winver\Winver_Logo_WinME.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UpdateBackBleu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Background Images\UpdateSystem\UpdateBackBleu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_Badge_Error" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Update System\UpdateModal\UI_Badge_Error.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Winver_LogoL_Win10X" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Settings Previews\Windows Version Icon\Winver_LogoL_Win10X.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Winver_banner_WinSvr2022B" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Windows Versions Assets\LightUI\Winver_banner_WinSvr2022B.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Winver_banner_Win7B" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Windows Versions Assets\LightUI\Winver_banner_Win7B.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Taskmgr_Icon_Win8_10_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Settings Previews\Task Manager Icon\Windows\Taskmgr_Icon_Win8_10_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Winver_LogoL_WinLonghorn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Settings Previews\Windows Version Icon\Winver_LogoL_WinLonghorn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kiki79250CoC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AppBrand\Kiki79250CoC.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shortcut_Icon_MLLP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Icon_MLLP.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Winver_LogoL_WinLive" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Settings Previews\Windows Version Icon\Winver_LogoL_WinLive.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_TabMask_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\UI_GraphicAssets\UI_WindowMasks\Win_8.x\UI_TabMask_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Winver_Logo_WinLonghorn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Bottom Bar\Winver\Winver_Logo_WinLonghorn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Via_GUI" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Sub-Menu Column\AddMusicK\Via_GUI.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LM_165" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_165.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LM_163" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_163.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppIcon_BRRPlayer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Other\AppIcon_BRRPlayer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_LeftMask_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\UI_GraphicAssets\UI_WindowMasks\Win_8.x\UI_LeftMask_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppIcon_Mode7T" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Other\AppIcon_Mode7T.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Taskmgr_Icon_DRed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Bottom Bar\Taskmgr_Icons\SMWMTL\Dark\Taskmgr_Icon_DRed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kill_Process" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Sub-Menu Column\Common\Kill_Process.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LM_210" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_210.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="settings" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Bottom Bar\settings.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="list" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Bottom Bar\list.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppIcon_GPS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Other\AppIcon_GPS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shortcut_Icon_RLM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Icon_RLM.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SysIconModifyG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Placeholders\SysIconModifyG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="About_WindowBack" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Background Images\AboutWindow\About_WindowBack.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Taskmgr_Icon_LBrown32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Settings Previews\Task Manager Icon\SMWMTL\Light\Taskmgr_Icon_LBrown32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MW_UpdateSearchBlue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Background Images\UpdateSystem\MainWindow\MW_UpdateSearchBlue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LM_180" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_180.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Taskmgr_Icon_DYellow32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Settings Previews\Task Manager Icon\SMWMTL\Dark\Taskmgr_Icon_DYellow32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="About_LogoLTS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AppBrand\About_LogoLTS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shortcut_Icon_HA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Icon_HA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SysIconModifyW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Placeholders\SysIconModifyW.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppIcon_LvMusUtility" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Other\AppIcon_LvMusUtility.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SMWMTL_License_fr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TXT files\SMWMTL_License_fr.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="UI_LeftMask_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\UI_GraphicAssets\UI_WindowMasks\Win_11\UI_LeftMask_11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Winver_Logo_Ubuntu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Bottom Bar\Winver\Winver_Logo_Ubuntu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_TabMask_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\UI_GraphicAssets\UI_WindowMasks\Win_7_Vista\UI_TabMask_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LM_303" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_303.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LM_182" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_182.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_UpdatePopupGradient_Light" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\UI_GraphicAssets\UI_Gradients\Update System\UI_UpdatePopupGradient_Light.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Taskmgr_Icon_LBrown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Bottom Bar\Taskmgr_Icons\SMWMTL\Light\Taskmgr_Icon_LBrown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Winver_LogoL_Win10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Settings Previews\Windows Version Icon\Winver_LogoL_Win10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LM_151" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_151.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GitHub_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Report Bugs\GitHub_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_RightMask_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\UI_GraphicAssets\UI_WindowMasks\Win_11\UI_RightMask_11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BUILD_DATE_MONTH" xml:space="preserve">
+    <value>04</value>
+  </data>
+  <data name="Shortcut_Icon_Asar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Icon_Asar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bug" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Bottom Bar\Bug.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shortcut_Icon_GPS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Icon_GPS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Taskmgr_Icon_LPink" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Bottom Bar\Taskmgr_Icons\SMWMTL\Light\Taskmgr_Icon_LPink.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shortcut_Icon_Molester" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Icon_Molester.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Winver_LogoL_Win3xNT4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Settings Previews\Windows Version Icon\Winver_LogoL_Win3xNT4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LM_220" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_220.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Winver_Logo_Win1x2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Bottom Bar\Winver\Winver_Logo_Win1x2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Winver_banner_WinVistaB" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Windows Versions Assets\LightUI\Winver_banner_WinVistaB.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Taskmgr_Icon_LYellow32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Settings Previews\Task Manager Icon\SMWMTL\Light\Taskmgr_Icon_LYellow32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_Icon_InstallUpdate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Update System\UpdateModal\UI_Icon_InstallUpdate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Taskmgr_Icon_LPurple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Bottom Bar\Taskmgr_Icons\SMWMTL\Light\Taskmgr_Icon_LPurple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Winver_banner_WinSvr2012R2B" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Windows Versions Assets\LightUI\Winver_banner_WinSvr2012R2B.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LM_171" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_171.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Winver_banner_Win11W" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Windows Versions Assets\DarkUI\Winver_banner_Win11W.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IS_LTS" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="AppIcon_SnesGFX" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Other\AppIcon_SnesGFX.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LM_251" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_251.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppIcon_YYCHR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Other\AppIcon_YYCHR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VSLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\More Infos\VSLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Taskmgr_Icon_WinVista_7_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Settings Previews\Task Manager Icon\Windows\Taskmgr_Icon_WinVista_7_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Taskmgr_Icon_DYellow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Bottom Bar\Taskmgr_Icons\SMWMTL\Dark\Taskmgr_Icon_DYellow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Winver_banner_WinUnknownB" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Windows Versions Assets\LightUI\Winver_banner_WinUnknownB.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MW_UpdateSearchGreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Background Images\UpdateSystem\MainWindow\MW_UpdateSearchGreen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LM_170" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_170.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Taskmgr_Icon_Win8_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Bottom Bar\Taskmgr_Icons\Windows\Taskmgr_Icon_Win8_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OSversion_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Title Icon\OSversion_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Winver_banner_Win81B" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Windows Versions Assets\LightUI\Winver_banner_Win81B.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shortcut_Icon_LE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Icon_LE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Taskmgr_Icon_DOrange" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Bottom Bar\Taskmgr_Icons\SMWMTL\Dark\Taskmgr_Icon_DOrange.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LM_331" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_331.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Taskmgr_Icon_LYellow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Bottom Bar\Taskmgr_Icons\SMWMTL\Light\Taskmgr_Icon_LYellow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Winver_LogoL_Win7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Settings Previews\Windows Version Icon\Winver_LogoL_Win7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppIcon_Smallhacker_SMWSBE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Sub-Menu Column\Smallhacker's Tools\AppIcon_Smallhacker_SMWSBE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Winver_Logo_Win10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Bottom Bar\Winver\Winver_Logo_Win10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SMWMTL_Changelog_LTS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TXT files\SMWMTL_Changelog_LTS.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="About_Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AppBrand\About_Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MW_UpdateSearchRed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Background Images\UpdateSystem\MainWindow\MW_UpdateSearchRed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LM_NORMAL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_NORMAL.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Winver_banner_WinSvr2012W" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Windows Versions Assets\DarkUI\Winver_banner_WinSvr2012W.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SMWMTL_Changelog" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TXT files\SMWMTL_Changelog.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="LM_150" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_150.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shortcut_Icon_Blockreator" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Icon_Blockreator.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="APP_VERSION" xml:space="preserve">
+    <value>2.20</value>
+    <comment>MEMO :</comment>
+  </data>
+  <data name="Run" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Sub-Menu Column\Common\Run.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Taskmgr_Icon_DPink" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Bottom Bar\Taskmgr_Icons\SMWMTL\Dark\Taskmgr_Icon_DPink.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Via_OpenFolder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Sub-Menu Column\AddMusicK\Via_OpenFolder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shortcut_Icon_SMWC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Icon_SMWC.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppIcon_GradientTool" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Other\AppIcon_GradientTool.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Taskmgr_Icon_LBlue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Bottom Bar\Taskmgr_Icons\SMWMTL\Light\Taskmgr_Icon_LBlue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MoreInformations_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Title Icon\MoreInformations_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_BottomBar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\UI_GraphicAssets\UI_DarkElements\UI_BottomBar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="APP_AUTHOR" xml:space="preserve">
+    <value>•••Kiki79250••• // AstragonQC</value>
+  </data>
+  <data name="Taskmgr_Icon_LWhite" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Bottom Bar\Taskmgr_Icons\SMWMTL\Light\Taskmgr_Icon_LWhite.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Winver_LogoL_WinVista" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Settings Previews\Windows Version Icon\Winver_LogoL_WinVista.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Snes9x_C_x86" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Snes9x\Color\Snes9x_C_x86.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Taskmgr_Icon_Win11_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Settings Previews\Task Manager Icon\Windows\Taskmgr_Icon_Win11_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shortcut_Icon_MML" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Icon_MML.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_DownArrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Settings\UI_DownArrow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppIcon_SpriteGFX" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Other\AppIcon_SpriteGFX.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppIcon_Smallhacker_SMWBBPE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Sub-Menu Column\Smallhacker's Tools\AppIcon_Smallhacker_SMWBBPE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LM_242" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_242.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shortcut_Icon_PIXI" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Icon_PIXI.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shortcut_Icon_LMU" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Icon_LMU.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Taskmgr_Icon_DBlue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Bottom Bar\Taskmgr_Icons\SMWMTL\Dark\Taskmgr_Icon_DBlue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Taskmgr_Icon_LGreen32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Settings Previews\Task Manager Icon\SMWMTL\Light\Taskmgr_Icon_LGreen32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LM_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BUILD_DATE_COMBINED" xml:space="preserve">
+    <value>120422</value>
+  </data>
+  <data name="TitleRed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Background Images\Window Titlebar\TitleRed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shortcut_Default_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Default_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LM_102" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_102.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Winver_banner_WinSvr2016B" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Windows Versions Assets\LightUI\Winver_banner_WinSvr2016B.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CbxUnderOptionUnavailable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\UI_GraphicAssets\UI_CheckBox\CbxUnderOptionUnavailable.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppIcon_UberASM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Other\AppIcon_UberASM.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Winver_banner_WinSvr2008B" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Windows Versions Assets\LightUI\Winver_banner_WinSvr2008B.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Winver_LogoL_Win11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Settings Previews\Windows Version Icon\Winver_LogoL_Win11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LM_311" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_311.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Winver_banner_WinUnknownW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Windows Versions Assets\DarkUI\Winver_banner_WinUnknownW.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Taskmgr_Icon_DBrown32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Settings Previews\Task Manager Icon\SMWMTL\Dark\Taskmgr_Icon_DBrown32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LM_321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_321.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Taskmgr_Icon_LOrange" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Bottom Bar\Taskmgr_Icons\SMWMTL\Light\Taskmgr_Icon_LOrange.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SettingsOK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Settings\SettingsOK.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_TabMask_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\UI_GraphicAssets\UI_WindowMasks\Win_11\UI_TabMask_11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppIcon_HDMARipper" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Other\AppIcon_HDMARipper.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LM_181" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_181.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shortcut_Default_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Default_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LM_160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_160.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LM_200" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_200.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LM_222" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_222.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Winver_Logo_WinLive" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Bottom Bar\Winver\Winver_Logo_WinLive.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LM_252" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_252.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Taskmgr_Icon_DPurple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Bottom Bar\Taskmgr_Icons\SMWMTL\Dark\Taskmgr_Icon_DPurple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PixiConfig" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Sub-Menu Column\PIXI\PixiConfig.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Blank16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AppBrand\Blank16x16.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LM_131" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_131.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppIcon_MarioSEditor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Other\AppIcon_MarioSEditor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TitleGreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Background Images\Window Titlebar\TitleGreen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Winver_LogoL_Win9x2000" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Settings Previews\Windows Version Icon\Winver_LogoL_Win9x2000.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Taskmgr_Icon_Win11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Bottom Bar\Taskmgr_Icons\Windows\Taskmgr_Icon_Win11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LM_300" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_300.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LM_221" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_221.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Winver_LogoL_WinXP_MCE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Settings Previews\Windows Version Icon\Winver_LogoL_WinXP_MCE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppIcon_PetiteMM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Other\AppIcon_PetiteMM.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Logo210" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AppBrand\Logo210.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_BorderLineBottom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\UI_GraphicAssets\UI_DarkElements\UI_BorderLineBottom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MW_UpdateSearchYellow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Background Images\UpdateSystem\MainWindow\MW_UpdateSearchYellow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Taskmgr_Icon_DBlue32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Settings Previews\Task Manager Icon\SMWMTL\Dark\Taskmgr_Icon_DBlue32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Winver_LogoL_Win8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Settings Previews\Windows Version Icon\Winver_LogoL_Win8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AppBrand\AppIcon.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Taskmgr_Icon_LGray32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Settings Previews\Task Manager Icon\SMWMTL\Light\Taskmgr_Icon_LGray32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_ButtonSeparator" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\UI_GraphicAssets\UI_DarkElements\UI_ButtonSeparator.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Taskmgr_Icon_LWhite32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Settings Previews\Task Manager Icon\SMWMTL\Light\Taskmgr_Icon_LWhite32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_LeftMask_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\UI_GraphicAssets\UI_WindowMasks\Win_7_Vista\UI_LeftMask_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Taskmgr_Icon_LRed32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Settings Previews\Task Manager Icon\SMWMTL\Light\Taskmgr_Icon_LRed32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppIcon_SnesColorTool" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Other\AppIcon_SnesColorTool.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Winver_banner_Win7W" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Windows Versions Assets\DarkUI\Winver_banner_Win7W.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppIcon_InteractionEdit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Other\AppIcon_InteractionEdit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Via_CMD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Sub-Menu Column\AddMusicK\Via_CMD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Winver_LogoL_ReactOS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Settings Previews\Windows Version Icon\Winver_LogoL_ReactOS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UpdateBackRouge" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Background Images\UpdateSystem\UpdateBackRouge.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LM_253" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_253.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shortcut_Icon_SHTools" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Icon_SHTools.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shortcut_Icon_FLIPS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Icon_FLIPS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppIcon_RLM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Other\AppIcon_RLM.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Taskmgr_Icon_DGreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Bottom Bar\Taskmgr_Icons\SMWMTL\Dark\Taskmgr_Icon_DGreen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shortcut_Default_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Default_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Snes9x_x86" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Snes9x\Purple\Snes9x_x86.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shortcut_Icon_M7M" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Icon_M7M.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SettingsCancel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Settings\SettingsCancel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shortcut_Icon_AMK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Icon_AMK.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Help" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Bottom Bar\Help.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_BorderLineBottomLight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\UI_GraphicAssets\UI_LightElements\UI_BorderLineBottomLight.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_BottomBarLight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\UI_GraphicAssets\UI_LightElements\UI_BottomBarLight.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_ButtonSeparatorLight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\UI_GraphicAssets\UI_LightElements\UI_ButtonSeparatorLight.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Close_DarkMode" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Sub-Menu Column\Common\DarkMode\Close_DarkMode.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ExperimentalSettings" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Settings\DArrow_Menu\ExperimentalSettings.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SettingsReload" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Settings\DArrow_Menu\SettingsReload.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Settings_Export" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Settings\DArrow_Menu\Settings_Export.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Settings_Import" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Settings\DArrow_Menu\Settings_Import.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Settings_Reset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Settings\DArrow_Menu\Settings_Reset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_Icon_SearchUpdate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Update System\UpdateModal\UI_Icon_SearchUpdate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppIcon_PetiteMM_DarkMode" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Other\DarkMode\AppIcon_PetiteMM_DarkMode.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppIcon_Smallhacker_DarkMode" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Other\DarkMode\AppIcon_Smallhacker_DarkMode.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppIcon_UberASM_DarkMode" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Application Column\Other\DarkMode\AppIcon_UberASM_DarkMode.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Settings_CbxCheckAll" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Settings\App_Check\Settings_CbxCheckAll.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Settings_CbxUncheckAll" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Settings\App_Check\Settings_CbxUncheckAll.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_UpdateAccessBtn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_Elements\Icons\Settings\UI_UpdateAccessBtn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

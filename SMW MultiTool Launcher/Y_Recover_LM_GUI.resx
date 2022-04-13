@@ -1,0 +1,1092 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="FileToUnlock_Text.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 22</value>
+  </data>
+  <data name="FileToUnlock_Text.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 13</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="FileToUnlock_Text.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="FileToUnlock_Text.Text" xml:space="preserve">
+    <value>Locked ROM:</value>
+  </data>
+  <data name="FileToUnlock_Text.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;FileToUnlock_Text.Name" xml:space="preserve">
+    <value>FileToUnlock_Text</value>
+  </data>
+  <data name="&gt;&gt;FileToUnlock_Text.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FileToUnlock_Text.Parent" xml:space="preserve">
+    <value>Informations_Groupbox</value>
+  </data>
+  <data name="&gt;&gt;FileToUnlock_Text.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="UnlockedFile_Text.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="UnlockedFile_Text.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 48</value>
+  </data>
+  <data name="UnlockedFile_Text.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 13</value>
+  </data>
+  <data name="UnlockedFile_Text.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="UnlockedFile_Text.Text" xml:space="preserve">
+    <value>Unlock to:</value>
+  </data>
+  <data name="UnlockedFile_Text.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;UnlockedFile_Text.Name" xml:space="preserve">
+    <value>UnlockedFile_Text</value>
+  </data>
+  <data name="&gt;&gt;UnlockedFile_Text.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UnlockedFile_Text.Parent" xml:space="preserve">
+    <value>Informations_Groupbox</value>
+  </data>
+  <data name="&gt;&gt;UnlockedFile_Text.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="FileToUnlock_TextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="FileToUnlock_TextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>125, 19</value>
+  </data>
+  <data name="FileToUnlock_TextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>376, 20</value>
+  </data>
+  <data name="FileToUnlock_TextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;FileToUnlock_TextBox.Name" xml:space="preserve">
+    <value>FileToUnlock_TextBox</value>
+  </data>
+  <data name="&gt;&gt;FileToUnlock_TextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FileToUnlock_TextBox.Parent" xml:space="preserve">
+    <value>Informations_Groupbox</value>
+  </data>
+  <data name="&gt;&gt;FileToUnlock_TextBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="UnlockedFile_TextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="UnlockedFile_TextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>125, 45</value>
+  </data>
+  <data name="UnlockedFile_TextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>376, 20</value>
+  </data>
+  <data name="UnlockedFile_TextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;UnlockedFile_TextBox.Name" xml:space="preserve">
+    <value>UnlockedFile_TextBox</value>
+  </data>
+  <data name="&gt;&gt;UnlockedFile_TextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UnlockedFile_TextBox.Parent" xml:space="preserve">
+    <value>Informations_Groupbox</value>
+  </data>
+  <data name="&gt;&gt;UnlockedFile_TextBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ROM_To_Unlock_BrowseBtn.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="ROM_To_Unlock_BrowseBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>506, 18</value>
+  </data>
+  <data name="ROM_To_Unlock_BrowseBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 22</value>
+  </data>
+  <data name="ROM_To_Unlock_BrowseBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="ROM_To_Unlock_BrowseBtn.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="&gt;&gt;ROM_To_Unlock_BrowseBtn.Name" xml:space="preserve">
+    <value>ROM_To_Unlock_BrowseBtn</value>
+  </data>
+  <data name="&gt;&gt;ROM_To_Unlock_BrowseBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ROM_To_Unlock_BrowseBtn.Parent" xml:space="preserve">
+    <value>Informations_Groupbox</value>
+  </data>
+  <data name="&gt;&gt;ROM_To_Unlock_BrowseBtn.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Unlocked_ROM_BrowseBtn.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="Unlocked_ROM_BrowseBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>506, 44</value>
+  </data>
+  <data name="Unlocked_ROM_BrowseBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 22</value>
+  </data>
+  <data name="Unlocked_ROM_BrowseBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="Unlocked_ROM_BrowseBtn.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="&gt;&gt;Unlocked_ROM_BrowseBtn.Name" xml:space="preserve">
+    <value>Unlocked_ROM_BrowseBtn</value>
+  </data>
+  <data name="&gt;&gt;Unlocked_ROM_BrowseBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Unlocked_ROM_BrowseBtn.Parent" xml:space="preserve">
+    <value>Informations_Groupbox</value>
+  </data>
+  <data name="&gt;&gt;Unlocked_ROM_BrowseBtn.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="RecoverBtn.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="RecoverBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="RecoverBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>534, 18</value>
+  </data>
+  <data name="RecoverBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 48</value>
+  </data>
+  <data name="RecoverBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="RecoverBtn.Text" xml:space="preserve">
+    <value>Recover</value>
+  </data>
+  <data name="&gt;&gt;RecoverBtn.Name" xml:space="preserve">
+    <value>RecoverBtn</value>
+  </data>
+  <data name="&gt;&gt;RecoverBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RecoverBtn.Parent" xml:space="preserve">
+    <value>Informations_Groupbox</value>
+  </data>
+  <data name="&gt;&gt;RecoverBtn.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ConsoleOutput_RichTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="ConsoleOutput_RichTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lucida Console, 9.75pt</value>
+  </data>
+  <data name="ConsoleOutput_RichTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 16</value>
+  </data>
+  <data name="ConsoleOutput_RichTextBox.ScrollBars" type="System.Windows.Forms.RichTextBoxScrollBars, System.Windows.Forms">
+    <value>ForcedVertical</value>
+  </data>
+  <data name="ConsoleOutput_RichTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>623, 0</value>
+  </data>
+  <data name="ConsoleOutput_RichTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="ConsoleOutput_RichTextBox.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;ConsoleOutput_RichTextBox.Name" xml:space="preserve">
+    <value>ConsoleOutput_RichTextBox</value>
+  </data>
+  <data name="&gt;&gt;ConsoleOutput_RichTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ConsoleOutput_RichTextBox.Parent" xml:space="preserve">
+    <value>ConsoleOutput_Groupbox</value>
+  </data>
+  <data name="&gt;&gt;ConsoleOutput_RichTextBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ConsoleOutput_Groupbox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="ConsoleOutput_Groupbox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 88</value>
+  </data>
+  <data name="ConsoleOutput_Groupbox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>635, 0</value>
+  </data>
+  <data name="ConsoleOutput_Groupbox.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="ConsoleOutput_Groupbox.Text" xml:space="preserve">
+    <value>Output :</value>
+  </data>
+  <data name="&gt;&gt;ConsoleOutput_Groupbox.Name" xml:space="preserve">
+    <value>ConsoleOutput_Groupbox</value>
+  </data>
+  <data name="&gt;&gt;ConsoleOutput_Groupbox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ConsoleOutput_Groupbox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ConsoleOutput_Groupbox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Informations_Groupbox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="Informations_Groupbox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 9</value>
+  </data>
+  <data name="Informations_Groupbox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>635, 72</value>
+  </data>
+  <data name="Informations_Groupbox.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="Informations_Groupbox.Text" xml:space="preserve">
+    <value>File informations</value>
+  </data>
+  <data name="&gt;&gt;Informations_Groupbox.Name" xml:space="preserve">
+    <value>Informations_Groupbox</value>
+  </data>
+  <data name="&gt;&gt;Informations_Groupbox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Informations_Groupbox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Informations_Groupbox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="StatusBar.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>495, 5</value>
+  </metadata>
+  <data name="StatusBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 90</value>
+  </data>
+  <data name="StatusBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>659, 24</value>
+  </data>
+  <data name="StatusBar.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="StatusBar.Text" xml:space="preserve">
+    <value>StatusStrip1</value>
+  </data>
+  <data name="&gt;&gt;StatusBar.Name" xml:space="preserve">
+    <value>StatusBar</value>
+  </data>
+  <data name="&gt;&gt;StatusBar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.StatusStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StatusBar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;StatusBar.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ConsoleOutputZoom_Text.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 19</value>
+  </data>
+  <data name="ConsoleOutputZoom_Text.Text" xml:space="preserve">
+    <value>Console output Zoom : XX</value>
+  </data>
+  <data name="ConsoleOutputZoom_Text.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="ConsoleOutputZoom_Text.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="UnlockStatus_Text.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="UnlockStatus_Text.Size" type="System.Drawing.Size, System.Drawing">
+    <value>644, 19</value>
+  </data>
+  <data name="UnlockStatus_Text.Text" xml:space="preserve">
+    <value>UNLOCK_STAT</value>
+  </data>
+  <data name="UnlockStatus_Text.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <metadata name="OpenLockedROM.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>5, 5</value>
+  </metadata>
+  <data name="OpenLockedROM.Filter" xml:space="preserve">
+    <value>Super Mario World ROMs (*.smc;*.sfc)|*.smc;*.sfc</value>
+  </data>
+  <data name="OpenLockedROM.Title" xml:space="preserve">
+    <value>Select your restricted ROM file...</value>
+  </data>
+  <metadata name="SaveUnlockedROM.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>130, 5</value>
+  </metadata>
+  <data name="SaveUnlockedROM.Filter" xml:space="preserve">
+    <value>Super Mario World ROMs (*.smc;*.sfc)|*.smc;*.sfc</value>
+  </data>
+  <metadata name="ExportConsoleOutput.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>263, 5</value>
+  </metadata>
+  <data name="ExportConsoleOutput.Filter" xml:space="preserve">
+    <value>TextFile (*.txt)|*.txt</value>
+  </data>
+  <metadata name="MainMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>409, 5</value>
+  </metadata>
+  <data name="Menu_MenuItem.Text" xml:space="preserve">
+    <value>Menu</value>
+  </data>
+  <data name="ShowConsoleOutput_MenuItem.Text" xml:space="preserve">
+    <value>Show console output</value>
+  </data>
+  <data name="ClearConsoleOutput_MenuItem.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="ClearConsoleOutput_MenuItem.Text" xml:space="preserve">
+    <value>Clear console output</value>
+  </data>
+  <data name="Separator2.Text" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="ConsoleOutput_Submenu.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="ConsoleOutput_Submenu.Text" xml:space="preserve">
+    <value>Console output zoom</value>
+  </data>
+  <data name="ResetZoom_MenuItem.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="ResetZoom_MenuItem.Text" xml:space="preserve">
+    <value>Reset zoom</value>
+  </data>
+  <data name="Separator3.Text" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="ExportConsoleOutput_MenuItem.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <metadata name="MenuItems_Icons.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>575, 5</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>32</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>659, 114</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAUAEBAQAAEABAAoAQAAVgAAACAgEAABAAQA6AIAAH4BAABAQBAAAQAEAGgKAABmBAAAgIAQAAEA
+        BABoKAAAzg4AAAAAEAABAAQAMgQAADY3AAAoAAAAEAAAACAAAAABAAQAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAD/IgAA//8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAACIiAAAAAAAiIiIgEREAAiIiIiIAAQAiIiIAABABAAAiICIBAAEAAA
+        AgIBEREQAAAAIiAQAAAAAAACAgECAAAAAAICACIAAAAAAgICIAAAAAAiIiIgAAAAACIiIgAAAAACIiIg
+        AAAAACIiIAAAAAAAAAAAAAAA+H8AAOABAADAAAAAgAAAAAAAAAAAAAAA4AAAAPgBAAD8AQAA/AEAAPwD
+        AAD4AwAA+AcAAPAPAADgHwAA4H8AACgAAAAgAAAAQAAAAAEABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAP8iAAD//wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACIiIiIAAAAAAAAAAAAAAAAi
+        IiIiAAAAAAAAAAAAACIiIiIiIiIAEREREQAAAAAiIiIiIiIiABEREREAAAAiIiIiIiIiIiIAAAARAAAA
+        IiIiIiIiIiIiAAAAEQAAIiIiIiIiAAAAABEAABEAACIiIiIiIgAAAAARAAARAAAAACIiIgAiIgARAAAA
+        EQAAAAAiIiIAIiIAEQAAABEAAAAAAAAiACIAERERERERAAAAAAAAIgAiABEREREREQAAAAAAAAAiIiIA
+        EQAAAAAAAAAAAAAAIiIiABEAAAAAAAAAAAAAAAAiACIAEQAiAAAAAAAAAAAAIgAiABEAIgAAAAAAAAAA
+        ACIAIgAAIiIAAAAAAAAAAAAiACIAACIiAAAAAAAAAAAAIgAiACIiAAAAAAAAAAAAACIAIgAiIgAAAAAA
+        AAAAACIiIiIiIiIAAAAAAAAAAAAiIiIiIiIiAAAAAAAAAAAAIiIiIiIiAAAAAAAAAAAAACIiIiIiIgAA
+        AAAAAAAAACIiIiIiIgAAAAAAAAAAAAAiIiIiIiIAAAAAAAAAAAAiIiIiIgAAAAAAAAAAAAAAIiIiIiIA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/wD///8A///wAAAP8AAAD8AAAAPAA
+        AADAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAD8AAAA/AAAAP/AAAP/wAAD//AAA//wAAP/8AAD//AAA//w
+        AA//8AAP/8AAD//AAA//wAA//8AAP/8AAP//AAD//AAD//wAA//8AD///AA//ygAAABAAAAAgAAAAAEA
+        BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8iAAD//wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIiIiIiIiIiIAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAiIiIiIiIiIgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACIiIiIiIiIi
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIiIiIiIiIiIAAAAAAAAAAAAAAAAAAAAAAAAAACIiIiIiIiIi
+        IiIiIiIiAAAREREREREREQAAAAAAAAAAIiIiIiIiIiIiIiIiIiIAABERERERERERAAAAAAAAAAAiIiIi
+        IiIiIiIiIiIiIgAAEREREREREREAAAAAAAAAACIiIiIiIiIiIiIiIiIiAAAREREREREREQAAAAAAACIi
+        IiIiIiIiIiIiIiIiIiIiIgAAAAAAABERAAAAAAAAIiIiIiIiIiIiIiIiIiIiIiIiAAAAAAAAEREAAAAA
+        AAAiIiIiIiIiIiIiIiIiIiIiIiIAAAAAAAAREQAAAAAAACIiIiIiIiIiIiIiIiIiIiIiIgAAAAAAABER
+        AAAAACIiIiIiIiIiIiIiIgAAAAAAAAAAEREAAAAAEREAAAAAIiIiIiIiIiIiIiIiAAAAAAAAAAAREQAA
+        AAAREQAAAAAiIiIiIiIiIiIiIiIAAAAAAAAAABERAAAAABERAAAAACIiIiIiIiIiIiIiIgAAAAAAAAAA
+        EREAAAAAEREAAAAAAAAAACIiIiIiIgAAIiIiIgAAEREAAAAAAAAREQAAAAAAAAAAIiIiIiIiAAAiIiIi
+        AAAREQAAAAAAABERAAAAAAAAAAAiIiIiIiIAACIiIiIAABERAAAAAAAAEREAAAAAAAAAACIiIiIiIgAA
+        IiIiIgAAEREAAAAAAAAREQAAAAAAAAAAAAAAACIiAAAiIgAAERERERERERERERERAAAAAAAAAAAAAAAA
+        IiIAACIiAAAREREREREREREREREAAAAAAAAAAAAAAAAiIgAAIiIAABEREREREREREREREQAAAAAAAAAA
+        AAAAACIiAAAiIgAAERERERERERERERERAAAAAAAAAAAAAAAAAAAiIiIiIiIAABERAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAACIiIiIiIgAAEREAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIiIiIiIiAAAREQAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAiIiIiIiIAABERAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIiIAACIiAAAREQAA
+        IiIAAAAAAAAAAAAAAAAAAAAAAAAiIgAAIiIAABERAAAiIgAAAAAAAAAAAAAAAAAAAAAAACIiAAAiIgAA
+        EREAACIiAAAAAAAAAAAAAAAAAAAAAAAAIiIAACIiAAAREQAAIiIAAAAAAAAAAAAAAAAAAAAAAAAiIgAA
+        IiIAAAAAIiIiIgAAAAAAAAAAAAAAAAAAAAAAACIiAAAiIgAAAAAiIiIiAAAAAAAAAAAAAAAAAAAAAAAA
+        IiIAACIiAAAAACIiIiIAAAAAAAAAAAAAAAAAAAAAAAAiIgAAIiIAAAAAIiIiIgAAAAAAAAAAAAAAAAAA
+        AAAAACIiAAAiIgAAIiIiIgAAAAAAAAAAAAAAAAAAAAAAAAAAIiIAACIiAAAiIiIiAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAiIgAAIiIAACIiIiIAAAAAAAAAAAAAAAAAAAAAAAAAACIiAAAiIgAAIiIiIgAAAAAAAAAA
+        AAAAAAAAAAAAACIiIiIiIiIiIiIiIiIiAAAAAAAAAAAAAAAAAAAAAAAAIiIiIiIiIiIiIiIiIiIAAAAA
+        AAAAAAAAAAAAAAAAAAAiIiIiIiIiIiIiIiIiIgAAAAAAAAAAAAAAAAAAAAAAACIiIiIiIiIiIiIiIiIi
+        AAAAAAAAAAAAAAAAAAAAAAAAIiIiIiIiIiIiIiIiAAAAAAAAAAAAAAAAAAAAAAAAAAAiIiIiIiIiIiIi
+        IiIAAAAAAAAAAAAAAAAAAAAAAAAAACIiIiIiIiIiIiIiIgAAAAAAAAAAAAAAAAAAAAAAAAAAIiIiIiIi
+        IiIiIiIiAAAAAAAAAAAAAAAAAAAAAAAAIiIiIiIiIiIiIiIiAAAAAAAAAAAAAAAAAAAAAAAAAAAiIiIi
+        IiIiIiIiIiIAAAAAAAAAAAAAAAAAAAAAAAAAACIiIiIiIiIiIiIiIgAAAAAAAAAAAAAAAAAAAAAAAAAA
+        IiIiIiIiIiIiIiIiAAAAAAAAAAAAAAAAAAAAAAAAIiIiIiIiIiIiIgAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAiIiIiIiIiIiIiAAAAAAAAAAAAAAAAAAAAAAAAAAAAACIiIiIiIiIiIiIAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAIiIiIiIiIiIiIgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///AAD///////8AAP///////wAA//
+        //////AAD//////wAAAAAAAP//AAAAAAAA//8AAAAAAAD//wAAAAAAAP/wAAAAAAAAD/AAAAAAAAAP8A
+        AAAAAAAA/wAAAAAAAADwAAAAAAAAAPAAAAAAAAAA8AAAAAAAAADwAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/8AAAAAAAAP/w
+        AAAAAAAA//AAAAAAAAD/8AAAAAAAAP//8AAAAAAP///wAAAAAA////AAAAAAD///8AAAAAAP////AAAA
+        AA////8AAAAAD////wAAAAAP////AAAAAA////8AAAAAD////wAAAAAP////AAAAAA////8AAAAAD///
+        /wAAAAD/////AAAAAP////8AAAAA/////wAAAAD////wAAAAAP////AAAAAA////8AAAAAD////wAAAA
+        AP////AAAAAP////8AAAAA/////wAAAAD/////AAAAAP////AAAAAP////8AAAAA/////wAAAAD/////
+        AAAAAP////AAAAAP////8AAAAA/////wAAAAD/////AAAAAP////8AAAD//////wAAAP//////AAAA//
+        ////8AAAD////ygAAACAAAAAAAEAAAEABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8iAAD/
+        /wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACIiIiIiIiIiIiIiIiIi
+        IiIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAiIiIiIiIiIiIi
+        IiIiIiIiAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIiIiIiIi
+        IiIiIiIiIiIiIgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACIi
+        IiIiIiIiIiIiIiIiIiIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAiIiIiIiIiIiIiIiIiIiIiAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAIiIiIiIiIiIiIiIiIiIiIgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAACIiIiIiIiIiIiIiIiIiIiIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAiIiIiIiIiIiIiIiIiIiIiAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAACIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIAAAAAEREREREREREREREREREREQAA
+        AAAAAAAAAAAAAAAAAAAiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiAAAAABERERERERERERERERER
+        EREAAAAAAAAAAAAAAAAAAAAAIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIgAAAAARERERERERERER
+        ERERERERAAAAAAAAAAAAAAAAAAAAACIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIAAAAAERERERER
+        EREREREREREREQAAAAAAAAAAAAAAAAAAAAAiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiAAAAABER
+        EREREREREREREREREREAAAAAAAAAAAAAAAAAAAAAIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIgAA
+        AAARERERERERERERERERERERAAAAAAAAAAAAAAAAAAAAACIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi
+        IiIAAAAAEREREREREREREREREREREQAAAAAAAAAAAAAAAAAAAAAiIiIiIiIiIiIiIiIiIiIiIiIiIiIi
+        IiIiIiIiAAAAABEREREREREREREREREREREAAAAAAAAAAAAAAAAiIiIiIiIiIiIiIiIiIiIiIiIiIiIi
+        IiIiIiIiIiIiIiIiIiIAAAAAAAAAAAAAAAARERERAAAAAAAAAAAAAAAAIiIiIiIiIiIiIiIiIiIiIiIi
+        IiIiIiIiIiIiIiIiIiIiIiIiAAAAAAAAAAAAAAAAEREREQAAAAAAAAAAAAAAACIiIiIiIiIiIiIiIiIi
+        IiIiIiIiIiIiIiIiIiIiIiIiIiIiIgAAAAAAAAAAAAAAABEREREAAAAAAAAAAAAAAAAiIiIiIiIiIiIi
+        IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIAAAAAAAAAAAAAAAARERERAAAAAAAAAAAAAAAAIiIiIiIi
+        IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiAAAAAAAAAAAAAAAAEREREQAAAAAAAAAAAAAAACIi
+        IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIgAAAAAAAAAAAAAAABEREREAAAAAAAAAAAAA
+        AAAiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIAAAAAAAAAAAAAAAARERERAAAAAAAA
+        AAAAAAAAIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiAAAAAAAAAAAAAAAAEREREQAA
+        AAAAAAAAIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiAAAAAAAAAAAAAAAAAAAAABEREREAAAAAAAAAABER
+        EREAAAAAAAAAACIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIgAAAAAAAAAAAAAAAAAAAAARERERAAAAAAAA
+        AAARERERAAAAAAAAAAAiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIAAAAAAAAAAAAAAAAAAAAAEREREQAA
+        AAAAAAAAEREREQAAAAAAAAAAIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiAAAAAAAAAAAAAAAAAAAAABER
+        EREAAAAAAAAAABEREREAAAAAAAAAACIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIgAAAAAAAAAAAAAAAAAA
+        AAARERERAAAAAAAAAAARERERAAAAAAAAAAAiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIAAAAAAAAAAAAA
+        AAAAAAAAEREREQAAAAAAAAAAEREREQAAAAAAAAAAIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiAAAAAAAA
+        AAAAAAAAAAAAABEREREAAAAAAAAAABEREREAAAAAAAAAACIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIgAA
+        AAAAAAAAAAAAAAAAAAARERERAAAAAAAAAAARERERAAAAAAAAAAAAAAAAAAAAACIiIiIiIiIiIiIiIgAA
+        AAAiIiIiIiIiIgAAAAARERERAAAAAAAAAAAAAAAAEREREQAAAAAAAAAAAAAAAAAAAAAiIiIiIiIiIiIi
+        IiIAAAAAIiIiIiIiIiIAAAAAEREREQAAAAAAAAAAAAAAABEREREAAAAAAAAAAAAAAAAAAAAAIiIiIiIi
+        IiIiIiIiAAAAACIiIiIiIiIiAAAAABEREREAAAAAAAAAAAAAAAARERERAAAAAAAAAAAAAAAAAAAAACIi
+        IiIiIiIiIiIiIgAAAAAiIiIiIiIiIgAAAAARERERAAAAAAAAAAAAAAAAEREREQAAAAAAAAAAAAAAAAAA
+        AAAiIiIiIiIiIiIiIiIAAAAAIiIiIiIiIiIAAAAAEREREQAAAAAAAAAAAAAAABEREREAAAAAAAAAAAAA
+        AAAAAAAAIiIiIiIiIiIiIiIiAAAAACIiIiIiIiIiAAAAABEREREAAAAAAAAAAAAAAAARERERAAAAAAAA
+        AAAAAAAAAAAAACIiIiIiIiIiIiIiIgAAAAAiIiIiIiIiIgAAAAARERERAAAAAAAAAAAAAAAAEREREQAA
+        AAAAAAAAAAAAAAAAAAAiIiIiIiIiIiIiIiIAAAAAIiIiIiIiIiIAAAAAEREREQAAAAAAAAAAAAAAABER
+        EREAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAiIiIiAAAAACIiIiIAAAAAERERERERERERERERERERERER
+        ERERERERAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIiIiIgAAAAAiIiIiAAAAABERERERERERERERERER
+        EREREREREREREQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACIiIiIAAAAAIiIiIgAAAAARERERERERERER
+        EREREREREREREREREREAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAiIiIiAAAAACIiIiIAAAAAERERERER
+        ERERERERERERERERERERERERAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIiIiIgAAAAAiIiIiAAAAABER
+        EREREREREREREREREREREREREREREQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACIiIiIAAAAAIiIiIgAA
+        AAAREREREREREREREREREREREREREREREREAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAiIiIiAAAAACIi
+        IiIAAAAAERERERERERERERERERERERERERERERERAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIiIiIgAA
+        AAAiIiIiAAAAABEREREREREREREREREREREREREREREREQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAiIiIiIiIiIiIiIiIAAAAAEREREQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAIiIiIiIiIiIiIiIiAAAAABEREREAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAACIiIiIiIiIiIiIiIgAAAAARERERAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAiIiIiIiIiIiIiIiIAAAAAEREREQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAIiIiIiIiIiIiIiIiAAAAABEREREAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAACIiIiIiIiIiIiIiIgAAAAARERERAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAiIiIiIiIiIiIiIiIAAAAAEREREQAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIiIiIiIiIiIiIiIiAAAAABEREREAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAiIiIiAAAAACIiIiIAAAAAEREREQAA
+        AAAiIiIiAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIiIiIgAAAAAiIiIiAAAAABER
+        EREAAAAAIiIiIgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACIiIiIAAAAAIiIiIgAA
+        AAARERERAAAAACIiIiIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAiIiIiAAAAACIi
+        IiIAAAAAEREREQAAAAAiIiIiAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIiIiIgAA
+        AAAiIiIiAAAAABEREREAAAAAIiIiIgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACIi
+        IiIAAAAAIiIiIgAAAAARERERAAAAACIiIiIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAiIiIiAAAAACIiIiIAAAAAEREREQAAAAAiIiIiAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAIiIiIgAAAAAiIiIiAAAAABEREREAAAAAIiIiIgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAACIiIiIAAAAAIiIiIgAAAAAAAAAAIiIiIiIiIiIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAiIiIiAAAAACIiIiIAAAAAAAAAACIiIiIiIiIiAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAIiIiIgAAAAAiIiIiAAAAAAAAAAAiIiIiIiIiIgAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAACIiIiIAAAAAIiIiIgAAAAAAAAAAIiIiIiIiIiIAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAiIiIiAAAAACIiIiIAAAAAAAAAACIiIiIiIiIiAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIiIiIgAAAAAiIiIiAAAAAAAAAAAiIiIiIiIiIgAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACIiIiIAAAAAIiIiIgAAAAAAAAAAIiIiIiIi
+        IiIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAiIiIiAAAAACIiIiIAAAAAAAAAACIi
+        IiIiIiIiAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIiIiIgAAAAAiIiIiAAAAACIi
+        IiIiIiIiAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACIiIiIAAAAAIiIiIgAA
+        AAAiIiIiIiIiIgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAiIiIiAAAAACIi
+        IiIAAAAAIiIiIiIiIiIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIiIiIgAA
+        AAAiIiIiAAAAACIiIiIiIiIiAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACIi
+        IiIAAAAAIiIiIgAAAAAiIiIiIiIiIgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAiIiIiAAAAACIiIiIAAAAAIiIiIiIiIiIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAIiIiIgAAAAAiIiIiAAAAACIiIiIiIiIiAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAACIiIiIAAAAAIiIiIgAAAAAiIiIiIiIiIgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAACIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIgAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAACIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIgAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi
+        IiIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAiIiIiIiIiIiIiIiIiIiIiIiIiIiIi
+        IiIiIiIiAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIiIiIiIiIiIiIiIiIiIiIiIi
+        IiIiIiIiAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACIiIiIiIiIiIiIiIiIi
+        IiIiIiIiIiIiIgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAiIiIiIiIiIiIi
+        IiIiIiIiIiIiIiIiIiIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIiIiIiIi
+        IiIiIiIiIiIiIiIiIiIiIiIiAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACIi
+        IiIiIiIiIiIiIiIiIiIiIiIiIiIiIgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAACIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAACIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAACIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIgAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIgAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAiIiIiIiIiIiIiIiIiIiIiIiIiIiIi
+        IiIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAiIiIiIiIiIiIiIiIiIiIiIiIiIgAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIiIiIiIiIiIiIiIiIiIiIiIi
+        IiIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACIiIiIiIiIiIiIiIiIi
+        IiIiIiIiAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAiIiIiIiIiIiIi
+        IiIiIiIiIiIiIgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIiIiIiIi
+        IiIiIiIiIiIiIiIiIiIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACIi
+        IiIiIiIiIiIiIiIiIiIiIiIiAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAiIiIiIiIiIiIiIiIiIiIiIiIiIgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAIiIiIiIiIiIiIiIiIiIiIiIiIiIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//////wAAAAD///////////////8AAAAA////////////
+        ////AAAAAP///////////////wAAAAD///////////////8AAAAA////////////////AAAAAP//////
+        /////////wAAAAD///////////////8AAAAA/////////////wAAAAAAAAAAAAAAAP////8AAAAAAAAA
+        AAAAAAD/////AAAAAAAAAAAAAAAA/////wAAAAAAAAAAAAAAAP////8AAAAAAAAAAAAAAAD/////AAAA
+        AAAAAAAAAAAA/////wAAAAAAAAAAAAAAAP////8AAAAAAAAAAAAAAAD///8AAAAAAAAAAAAAAAAAAP//
+        AAAAAAAAAAAAAAAAAAD//wAAAAAAAAAAAAAAAAAA//8AAAAAAAAAAAAAAAAAAP//AAAAAAAAAAAAAAAA
+        AAD//wAAAAAAAAAAAAAAAAAA//8AAAAAAAAAAAAAAAAAAP//AAAAAAAAAAAAAAAAAAD/AAAAAAAAAAAA
+        AAAAAAAA/wAAAAAAAAAAAAAAAAAAAP8AAAAAAAAAAAAAAAAAAAD/AAAAAAAAAAAAAAAAAAAA/wAAAAAA
+        AAAAAAAAAAAAAP8AAAAAAAAAAAAAAAAAAAD/AAAAAAAAAAAAAAAAAAAA/wAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAD///8AAAAAAAAAAAAAAAAA////AAAAAAAAAAAAAAAAAP///wAAAAAAAAAAAAAA
+        AAD///8AAAAAAAAAAAAAAAAA////AAAAAAAAAAAAAAAAAP///wAAAAAAAAAAAAAAAAD///8AAAAAAAAA
+        AAAAAAAA////AAAAAAAAAAAAAAAAAP//////AAAAAAAAAAAAAP///////wAAAAAAAAAAAAD///////8A
+        AAAAAAAAAAAA////////AAAAAAAAAAAAAP///////wAAAAAAAAAAAAD///////8AAAAAAAAAAAAA////
+        ////AAAAAAAAAAAAAP///////wAAAAAAAAAAAAD/////////AAAAAAAAAAAA/////////wAAAAAAAAAA
+        AP////////8AAAAAAAAAAAD/////////AAAAAAAAAAAA/////////wAAAAAAAAAAAP////////8AAAAA
+        AAAAAAD/////////AAAAAAAAAAAA/////////wAAAAAAAAAAAP////////8AAAAAAAAAAAD/////////
+        AAAAAAAAAAAA/////////wAAAAAAAAAAAP////////8AAAAAAAAAAAD/////////AAAAAAAAAAAA////
+        /////wAAAAAAAAAAAP////////8AAAAAAAAAAAD/////////AAAAAAAAAAAA/////////wAAAAAAAAAA
+        //////////8AAAAAAAAAAP//////////AAAAAAAAAAD//////////wAAAAAAAAAA//////////8AAAAA
+        AAAAAP//////////AAAAAAAAAAD//////////wAAAAAAAAAA//////////8AAAAAAAAAAP////////8A
+        AAAAAAAAAAD/////////AAAAAAAAAAAA/////////wAAAAAAAAAAAP////////8AAAAAAAAAAAD/////
+        ////AAAAAAAAAAAA/////////wAAAAAAAAAAAP////////8AAAAAAAAAAAD/////////AAAAAAAAAAAA
+        /////////wAAAAAAAAAA//////////8AAAAAAAAAAP//////////AAAAAAAAAAD//////////wAAAAAA
+        AAAA//////////8AAAAAAAAAAP//////////AAAAAAAAAAD//////////wAAAAAAAAAA//////////8A
+        AAAAAAAAAP////////8AAAAAAAAAAP//////////AAAAAAAAAAD//////////wAAAAAAAAAA////////
+        //8AAAAAAAAAAP//////////AAAAAAAAAAD//////////wAAAAAAAAAA//////////8AAAAAAAAAAP//
+        ////////AAAAAAAAAAD/////////AAAAAAAAAAD//////////wAAAAAAAAAA//////////8AAAAAAAAA
+        AP//////////AAAAAAAAAAD//////////wAAAAAAAAAA//////////8AAAAAAAAAAP//////////AAAA
+        AAAAAAD//////////wAAAAAAAAAA//////////8AAAAAAAD/////////////AAAAAAAA////////////
+        /wAAAAAAAP////////////8AAAAAAAD/////////////AAAAAAAA/////////////wAAAAAAAP//////
+        //////8AAAAAAAD/////////////AAAAAAAA/////////4lQTkcNChoKAAAADUlIRFIAAAEAAAABAAgG
+        AAAAXHKoZgAAA/lJREFUeJzt3dFtAlEMAMG76CpJ/zWllaQHjOQ8dqYAcgKy8o/NfZ3vd/sB4u7tB+B1
+        X9sPAOwRAAgTAAgTAAgTAAgTAAgTAAgTAAgTAAgTAAgTAAgTAAgTAAgTAAgTAAj7hF3u0T2AX9cERu79
+        b9D+ExzMBABhAgBhAgBhAgBhAgBhAgBhAgBhAgBhAgBhAgBhAgBhAgBhAgBhAgBhAgBhdqndEzjaG+4R
+        pP8HTAAQJgAQJgAQJgAQJgAQJgAQJgAQJgAQJgAQJgAQJgAQJgAQJgAQJgAQJgAQlt6FfhP3BA5Wvydg
+        AoAwAYAwAYAwAYAwAYAwAYAwAYAwAYAwAYAwAYAwAYAwAYAwAYAwAYAwAYCwo3eZ/wn3AMJOvydgAoAw
+        AYAwAYAwAYAwAYAwAYAwAYAwAYAwAYAwAYAwAYAwAYAwAYAwAYAwAYAw9wD2rd4TmO6zn/73p9wDAI4l
+        ABAmABAmABAmABAmABAmABAmABAmABAmABAmABAmABAmABAmABAmABD2bD8ATGzfE3jDPYTpRYPRO2AC
+        gDABgDABgDABgDABgDABgDABgDABgDABgDABgDABgDABgDABgDABgDABgDD3ADja93wff2R6D2CbCQDC
+        BADCBADCBADCBADCBADCBADCBADCBADCBADCBADCBADCBADCBADCBADChtvQXNfs991P3yef7tNP9/l/
+        fINH74AJAMIEAMIEAMIEAMIEAMIEAMIEAMIEAMIEAMIEAMIEAMIEAMIEAMIEAMIEAMI+YZt6daN+us+/
+        /fv02/v8zEzvIZgAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIOy5lvfp
+        p6b78HWn3xOY7sNv276nYAKAMAGAMAGAMAGAMAGAMAGAMAGAMAGAMAGAMAGAMAGAMAGAMAGAMAGAMAGA
+        sGf6AvbxZ7b38bdN9/nr9wSmTAAQJgAQJgAQJgAQJgAQJgAQJgAQJgAQJgAQJgAQJgAQJgAQJgAQJgAQ
+        JgAQ9lzXNdqIvu9rtJHtnsBM/f07/R7CNhMAhAkAhAkAhAkAhAkAhAkAhAkAhAkAhAkAhAkAhAkAhAkA
+        hAkAhAkAhAkAhD1veA33BHjZdJ//2+c/YgKAMAGAMAGAMAGAMAGAMAGAMAGAMAGAMAGAMAGAMAGAMAGA
+        MAGAMAGAMAGAsE/4dfXVjfD6PYLpPj9jo0/ABABhAgBhAgBhAgBhAgBhAgBhAgBhAgBhAgBhAgBhAgBh
+        AgBhAgBhAgBhAgBhtrnn4hcBfIdOZgKAMAGAMAGAMAGAMAGAMAGAMAGAMAGAMAGAMAGAMAGAMAGAMAGA
+        MAGAMAGAsD+8ckZB0qlXsgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Recover Lunar Magic GUI</value>
+  </data>
+  <data name="&gt;&gt;ConsoleOutputZoom_Text.Name" xml:space="preserve">
+    <value>ConsoleOutputZoom_Text</value>
+  </data>
+  <data name="&gt;&gt;ConsoleOutputZoom_Text.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UnlockStatus_Text.Name" xml:space="preserve">
+    <value>UnlockStatus_Text</value>
+  </data>
+  <data name="&gt;&gt;UnlockStatus_Text.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OpenLockedROM.Name" xml:space="preserve">
+    <value>OpenLockedROM</value>
+  </data>
+  <data name="&gt;&gt;OpenLockedROM.Type" xml:space="preserve">
+    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SaveUnlockedROM.Name" xml:space="preserve">
+    <value>SaveUnlockedROM</value>
+  </data>
+  <data name="&gt;&gt;SaveUnlockedROM.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SaveFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ExportConsoleOutput.Name" xml:space="preserve">
+    <value>ExportConsoleOutput</value>
+  </data>
+  <data name="&gt;&gt;ExportConsoleOutput.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SaveFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MainMenu.Name" xml:space="preserve">
+    <value>MainMenu</value>
+  </data>
+  <data name="&gt;&gt;MainMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MainMenu, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Menu_MenuItem.Name" xml:space="preserve">
+    <value>Menu_MenuItem</value>
+  </data>
+  <data name="&gt;&gt;Menu_MenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ResetWindow_MenuItem.Name" xml:space="preserve">
+    <value>ResetWindow_MenuItem</value>
+  </data>
+  <data name="&gt;&gt;ResetWindow_MenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ShowStatusBar_MenuItem.Name" xml:space="preserve">
+    <value>ShowStatusBar_MenuItem</value>
+  </data>
+  <data name="&gt;&gt;ShowStatusBar_MenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Separator1.Name" xml:space="preserve">
+    <value>Separator1</value>
+  </data>
+  <data name="&gt;&gt;Separator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Close_MenuItem.Name" xml:space="preserve">
+    <value>Close_MenuItem</value>
+  </data>
+  <data name="&gt;&gt;Close_MenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ConsoleOutput_MenuItem.Name" xml:space="preserve">
+    <value>ConsoleOutput_MenuItem</value>
+  </data>
+  <data name="&gt;&gt;ConsoleOutput_MenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ShowConsoleOutput_MenuItem.Name" xml:space="preserve">
+    <value>ShowConsoleOutput_MenuItem</value>
+  </data>
+  <data name="&gt;&gt;ShowConsoleOutput_MenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ClearConsoleOutput_MenuItem.Name" xml:space="preserve">
+    <value>ClearConsoleOutput_MenuItem</value>
+  </data>
+  <data name="&gt;&gt;ClearConsoleOutput_MenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Separator2.Name" xml:space="preserve">
+    <value>Separator2</value>
+  </data>
+  <data name="&gt;&gt;Separator2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ConsoleOutput_Submenu.Name" xml:space="preserve">
+    <value>ConsoleOutput_Submenu</value>
+  </data>
+  <data name="&gt;&gt;ConsoleOutput_Submenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Zoom1x_MenuItem.Name" xml:space="preserve">
+    <value>Zoom1x_MenuItem</value>
+  </data>
+  <data name="&gt;&gt;Zoom1x_MenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Zoom2x_MenuItem.Name" xml:space="preserve">
+    <value>Zoom2x_MenuItem</value>
+  </data>
+  <data name="&gt;&gt;Zoom2x_MenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Zoom3x_MenuItem.Name" xml:space="preserve">
+    <value>Zoom3x_MenuItem</value>
+  </data>
+  <data name="&gt;&gt;Zoom3x_MenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Zoom4x_MenuItem.Name" xml:space="preserve">
+    <value>Zoom4x_MenuItem</value>
+  </data>
+  <data name="&gt;&gt;Zoom4x_MenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Zoom5x_MenuItem.Name" xml:space="preserve">
+    <value>Zoom5x_MenuItem</value>
+  </data>
+  <data name="&gt;&gt;Zoom5x_MenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Zoom6x_MenuItem.Name" xml:space="preserve">
+    <value>Zoom6x_MenuItem</value>
+  </data>
+  <data name="&gt;&gt;Zoom6x_MenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Zoom7x_MenuItem.Name" xml:space="preserve">
+    <value>Zoom7x_MenuItem</value>
+  </data>
+  <data name="&gt;&gt;Zoom7x_MenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Zoom8x_MenuItem.Name" xml:space="preserve">
+    <value>Zoom8x_MenuItem</value>
+  </data>
+  <data name="&gt;&gt;Zoom8x_MenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Zoom9x_MenuItem.Name" xml:space="preserve">
+    <value>Zoom9x_MenuItem</value>
+  </data>
+  <data name="&gt;&gt;Zoom9x_MenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Zoom10x_MenuItem.Name" xml:space="preserve">
+    <value>Zoom10x_MenuItem</value>
+  </data>
+  <data name="&gt;&gt;Zoom10x_MenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Separator5.Name" xml:space="preserve">
+    <value>Separator5</value>
+  </data>
+  <data name="&gt;&gt;Separator5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CustomZoom_MenuItem.Name" xml:space="preserve">
+    <value>CustomZoom_MenuItem</value>
+  </data>
+  <data name="&gt;&gt;CustomZoom_MenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ResetZoom_MenuItem.Name" xml:space="preserve">
+    <value>ResetZoom_MenuItem</value>
+  </data>
+  <data name="&gt;&gt;ResetZoom_MenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Separator3.Name" xml:space="preserve">
+    <value>Separator3</value>
+  </data>
+  <data name="&gt;&gt;Separator3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ExportConsoleOutput_MenuItem.Name" xml:space="preserve">
+    <value>ExportConsoleOutput_MenuItem</value>
+  </data>
+  <data name="&gt;&gt;ExportConsoleOutput_MenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Help_MenuItem.Name" xml:space="preserve">
+    <value>Help_MenuItem</value>
+  </data>
+  <data name="&gt;&gt;Help_MenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;HowToUse_MenuItem.Name" xml:space="preserve">
+    <value>HowToUse_MenuItem</value>
+  </data>
+  <data name="&gt;&gt;HowToUse_MenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Separator4.Name" xml:space="preserve">
+    <value>Separator4</value>
+  </data>
+  <data name="&gt;&gt;Separator4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;About_MenuItem.Name" xml:space="preserve">
+    <value>About_MenuItem</value>
+  </data>
+  <data name="&gt;&gt;About_MenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItems_Icons.Name" xml:space="preserve">
+    <value>MenuItems_Icons</value>
+  </data>
+  <data name="&gt;&gt;MenuItems_Icons.Type" xml:space="preserve">
+    <value>wyDay.Controls.VistaMenu, VistaMenu, Version=1.9.1.0, Culture=neutral, PublicKeyToken=fd9c5de33f4a31ac</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Y_Recover_LM_GUI</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ExportConsoleOutput_MenuItem.Text" xml:space="preserve">
+    <value>Export console output (.txt)</value>
+  </data>
+  <data name="ConsoleOutput_MenuItem.Text" xml:space="preserve">
+    <value>Console output</value>
+  </data>
+  <data name="Help_MenuItem.Text" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <metadata name="MenuItems_Icons.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>575, 5</value>
+  </metadata>
+  <data name="ResetWindow_MenuItem.Text" xml:space="preserve">
+    <value>Reset this window</value>
+  </data>
+  <data name="ShowStatusBar_MenuItem.Text" xml:space="preserve">
+    <value>Show status bar</value>
+  </data>
+  <data name="ShowStatusBar_MenuItem.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Separator1.Text" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="Close_MenuItem.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Zoom1x_MenuItem.Text" xml:space="preserve">
+    <value>1x Zoom</value>
+  </data>
+  <data name="Zoom2x_MenuItem.Text" xml:space="preserve">
+    <value>2x Zoom</value>
+  </data>
+  <data name="Zoom3x_MenuItem.Text" xml:space="preserve">
+    <value>3x Zoom</value>
+  </data>
+  <data name="Zoom4x_MenuItem.Text" xml:space="preserve">
+    <value>4x Zoom</value>
+  </data>
+  <data name="Zoom5x_MenuItem.Text" xml:space="preserve">
+    <value>5x Zoom</value>
+  </data>
+  <data name="Zoom6x_MenuItem.Text" xml:space="preserve">
+    <value>6x Zoom</value>
+  </data>
+  <data name="Zoom7x_MenuItem.Text" xml:space="preserve">
+    <value>7x Zoom</value>
+  </data>
+  <data name="Zoom8x_MenuItem.Text" xml:space="preserve">
+    <value>8x Zoom</value>
+  </data>
+  <data name="Zoom9x_MenuItem.Text" xml:space="preserve">
+    <value>9x Zoom</value>
+  </data>
+  <data name="Zoom10x_MenuItem.Text" xml:space="preserve">
+    <value>10x Zoom</value>
+  </data>
+  <data name="Separator5.Text" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="Separator5.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="CustomZoom_MenuItem.Text" xml:space="preserve">
+    <value>Custom</value>
+  </data>
+  <data name="CustomZoom_MenuItem.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="HowToUse_MenuItem.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="HowToUse_MenuItem.Text" xml:space="preserve">
+    <value>How to use?</value>
+  </data>
+  <data name="Separator4.Text" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="About_MenuItem.Text" xml:space="preserve">
+    <value>About Recover LM GUI</value>
+  </data>
+</root>

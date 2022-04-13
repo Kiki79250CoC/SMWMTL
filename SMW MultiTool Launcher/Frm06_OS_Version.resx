@@ -1,0 +1,1379 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="UI_ButtonsPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>380, 10</value>
+  </data>
+  <data name="&gt;&gt;UI_HeaderBorder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Text5.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="WindowsPlatform_Value.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="Text3.Text" xml:space="preserve">
+    <value>Service Pack:</value>
+  </data>
+  <data name="&gt;&gt;OS_Winver_Image.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;WindowsPlatform_Value.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="WindowsVersion_Value.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="Text3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="OK_Btn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="UI_StatPanel.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="TotalRAM_Value.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="TotalRAM_Value.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="AvailableRAM_Value.Text" xml:space="preserve">
+    <value>8888,88 MB</value>
+  </data>
+  <data name="&gt;&gt;Text13.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;UI_StatPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;WindowsUsername_Value.Name" xml:space="preserve">
+    <value>WindowsUsername_Value</value>
+  </data>
+  <data name="&gt;&gt;Title1.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;OK_Btn.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Text4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;WindowsVersion_Value.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Text9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 387</value>
+  </data>
+  <data name="UI_StatPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="&gt;&gt;Text6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;WindowsServicePack_Value.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="Text14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 13</value>
+  </data>
+  <data name="&gt;&gt;OK_Btn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;WindowsComputerName_Value.Name" xml:space="preserve">
+    <value>WindowsComputerName_Value</value>
+  </data>
+  <data name="Deco1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>500, 1</value>
+  </data>
+  <data name="&gt;&gt;WindowsPlatform_Value.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="UI_BtmBar_Panel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>524, 48</value>
+  </data>
+  <data name="&gt;&gt;MSINFO32_Btn.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="WindowsVersion_Value.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="WindowsPlatform_Value.Location" type="System.Drawing.Point, System.Drawing">
+    <value>216, 307</value>
+  </data>
+  <data name="&gt;&gt;WindowsArch_Value.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Text6.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="WindowsUsername_Value.Location" type="System.Drawing.Point, System.Drawing">
+    <value>216, 427</value>
+  </data>
+  <data name="Text14.Text" xml:space="preserve">
+    <value>Computer name:</value>
+  </data>
+  <data name="&gt;&gt;MSINFO32_Btn.Name" xml:space="preserve">
+    <value>MSINFO32_Btn</value>
+  </data>
+  <data name="&gt;&gt;MegabyteUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TotalRAM_Value.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="WindowsCompleteVersion_Value.Location" type="System.Drawing.Point, System.Drawing">
+    <value>216, 291</value>
+  </data>
+  <data name="Text2.Text" xml:space="preserve">
+    <value>Edition:</value>
+  </data>
+  <data name="&gt;&gt;Text5.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;UI_BtmBar_Panel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;MSINFO32_Btn.Parent" xml:space="preserve">
+    <value>UI_ButtonsPanel2</value>
+  </data>
+  <data name="WindowsArch_Value.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="&gt;&gt;WindowsLanguage_Value.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="WindowsCompleteVersion_Value.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="AvailableRAM_Value.Size" type="System.Drawing.Size, System.Drawing">
+    <value>296, 13</value>
+  </data>
+  <data name="MegabyteUnit.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="WindowsVersion_Value.Location" type="System.Drawing.Point, System.Drawing">
+    <value>216, 219</value>
+  </data>
+  <data name="&gt;&gt;UI_StatPanel_Description.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MegabyteUnit.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="WindowsArch_Value.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="WindowsServicePack_Value.Location" type="System.Drawing.Point, System.Drawing">
+    <value>216, 251</value>
+  </data>
+  <data name="UI_StatPanel_Icon.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Text1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 219</value>
+  </data>
+  <data name="OK_Btn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 25</value>
+  </data>
+  <data name="Text8.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="&gt;&gt;WindowsEdition_Value.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Text2.Name" xml:space="preserve">
+    <value>Text2</value>
+  </data>
+  <data name="&gt;&gt;Title2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="Text5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 13</value>
+  </data>
+  <data name="Text6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="OS_Winver_Image.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 96</value>
+  </data>
+  <data name="&gt;&gt;Text3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;UI_ButtonsPanel.Name" xml:space="preserve">
+    <value>UI_ButtonsPanel</value>
+  </data>
+  <data name="&gt;&gt;UI_ButtonsPanel2.Parent" xml:space="preserve">
+    <value>UI_BtmBar_Panel</value>
+  </data>
+  <data name="&gt;&gt;MicrosoftCopyright_Value.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Text10.Name" xml:space="preserve">
+    <value>Text10</value>
+  </data>
+  <data name="&gt;&gt;Text2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="OK_Btn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 0, 3</value>
+  </data>
+  <data name="UI_StatPanel_Description.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="OK_Btn.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="WindowsVersion_Value.Text" xml:space="preserve">
+    <value>WINDOWS_VERSION</value>
+  </data>
+  <data name="WindowsArch_Value.Text" xml:space="preserve">
+    <value>64-bit</value>
+  </data>
+  <data name="&gt;&gt;Text10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UI_StatPanel_Title.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Text13.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="TotalRAM_Value.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;Text10.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="AvailableRAM_Value.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="WindowsArch_Value.Size" type="System.Drawing.Size, System.Drawing">
+    <value>296, 13</value>
+  </data>
+  <data name="TotalRAM_Value.Text" xml:space="preserve">
+    <value>8888,88 MB</value>
+  </data>
+  <data name="&gt;&gt;UI_StatPanel_Title.Name" xml:space="preserve">
+    <value>UI_StatPanel_Title</value>
+  </data>
+  <data name="WindowsVersion_Value.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="Title2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 188</value>
+  </data>
+  <data name="UI_ButtonsPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;MemoriesTimer.Name" xml:space="preserve">
+    <value>MemoriesTimer</value>
+  </data>
+  <data name="WindowsLanguage_Value.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;Text1.Name" xml:space="preserve">
+    <value>Text1</value>
+  </data>
+  <data name="WindowsComputerName_Value.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;MegabyteUnit.Name" xml:space="preserve">
+    <value>MegabyteUnit</value>
+  </data>
+  <data name="UI_ButtonsPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 30</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>524, 520</value>
+  </data>
+  <data name="Title1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 72</value>
+  </data>
+  <data name="WindowsEdition_Value.Location" type="System.Drawing.Point, System.Drawing">
+    <value>216, 235</value>
+  </data>
+  <data name="&gt;&gt;Text3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="WindowsComputerName_Value.Size" type="System.Drawing.Size, System.Drawing">
+    <value>296, 13</value>
+  </data>
+  <data name="&gt;&gt;UI_StatPanel_Description.Name" xml:space="preserve">
+    <value>UI_StatPanel_Description</value>
+  </data>
+  <data name="&gt;&gt;Text7.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="WindowsCompleteVersion_Value.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Text9.Text" xml:space="preserve">
+    <value>Available Physical Memory:</value>
+  </data>
+  <data name="Text10.Text" xml:space="preserve">
+    <value>Total Physical Memory:</value>
+  </data>
+  <data name="WindowsComputerName_Value.Text" xml:space="preserve">
+    <value>COMPUTER_NAME</value>
+  </data>
+  <data name="TotalRAM_Value.Location" type="System.Drawing.Point, System.Drawing">
+    <value>216, 403</value>
+  </data>
+  <data name="&gt;&gt;UI_ButtonsPanel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="UI_StatPanel_Icon.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="Text5.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="&gt;&gt;TotalRAM_Value.Name" xml:space="preserve">
+    <value>TotalRAM_Value</value>
+  </data>
+  <data name="UI_ButtonsPanel2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <data name="WindowsNTVersion_Value.Size" type="System.Drawing.Size, System.Drawing">
+    <value>296, 13</value>
+  </data>
+  <data name="&gt;&gt;UI_BtmBar_Panel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Text1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MSINFO32_Btn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 25</value>
+  </data>
+  <data name="&gt;&gt;Text4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Text1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="WindowsEdition_Value.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="WindowsVersion_Value.Size" type="System.Drawing.Size, System.Drawing">
+    <value>296, 13</value>
+  </data>
+  <data name="AvailableRAM_Value.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;Deco1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="WindowsLanguage_Value.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;WindowsNTVersion_Value.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UI_HeaderBorder.Parent" xml:space="preserve">
+    <value>UI_StatPanel</value>
+  </data>
+  <data name="&gt;&gt;Text9.Name" xml:space="preserve">
+    <value>Text9</value>
+  </data>
+  <data name="WindowsComputerName_Value.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="UI_StatPanel_Icon.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 48</value>
+  </data>
+  <data name="&gt;&gt;UI_StatPanel_Description.Parent" xml:space="preserve">
+    <value>UI_StatPanel</value>
+  </data>
+  <data name="OS_Winver_Image.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="Text13.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;UI_BtmBar_Panel.Name" xml:space="preserve">
+    <value>UI_BtmBar_Panel</value>
+  </data>
+  <data name="UI_StatPanel_Title.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Text10.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="Text5.Text" xml:space="preserve">
+    <value>Operating System Complete Version:</value>
+  </data>
+  <data name="&gt;&gt;WindowsCompleteVersion_Value.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="WindowsArch_Value.Location" type="System.Drawing.Point, System.Drawing">
+    <value>216, 323</value>
+  </data>
+  <data name="TotalRAM_Value.Size" type="System.Drawing.Size, System.Drawing">
+    <value>296, 13</value>
+  </data>
+  <data name="Text6.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="&gt;&gt;WindowsServicePack_Value.Name" xml:space="preserve">
+    <value>WindowsServicePack_Value</value>
+  </data>
+  <data name="&gt;&gt;Text8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Text14.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="MicrosoftCopyright_Value.Text" xml:space="preserve">
+    <value>MICROSOFT_COPYRIGHT</value>
+  </data>
+  <data name="Text4.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;Text14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Title2.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;UI_ButtonsPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="AvailableRAM_Value.Location" type="System.Drawing.Point, System.Drawing">
+    <value>216, 387</value>
+  </data>
+  <data name="&gt;&gt;WindowsEdition_Value.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;WindowsCompleteVersion_Value.Name" xml:space="preserve">
+    <value>WindowsCompleteVersion_Value</value>
+  </data>
+  <data name="&gt;&gt;WindowsVersion_Value.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="Text5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 291</value>
+  </data>
+  <data name="Text9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 13</value>
+  </data>
+  <data name="&gt;&gt;WindowsUsername_Value.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="Text13.Text" xml:space="preserve">
+    <value>Username:</value>
+  </data>
+  <data name="WindowsEdition_Value.Text" xml:space="preserve">
+    <value>EDITION</value>
+  </data>
+  <data name="WindowsComputerName_Value.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;UI_StatPanel_Icon.Name" xml:space="preserve">
+    <value>UI_StatPanel_Icon</value>
+  </data>
+  <data name="OS_Winver_Image.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;WindowsUsername_Value.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AvailableRAM_Value.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;UI_StatPanel_Title.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="OS_Winver_Image.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;WindowsEdition_Value.Name" xml:space="preserve">
+    <value>WindowsEdition_Value</value>
+  </data>
+  <data name="&gt;&gt;Text14.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;UI_HeaderBorder.Name" xml:space="preserve">
+    <value>UI_HeaderBorder</value>
+  </data>
+  <data name="MegabyteUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lucida Console, 8.25pt</value>
+  </data>
+  <data name="WindowsArch_Value.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="Text9.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="&gt;&gt;UI_StatPanel.Name" xml:space="preserve">
+    <value>UI_StatPanel</value>
+  </data>
+  <data name="UI_BtmBar_Panel.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="Text3.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;WindowsVersion_Value.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="WindowsUsername_Value.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="UI_StatPanel_Icon.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 8</value>
+  </data>
+  <data name="UI_StatPanel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="UI_StatPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>524, 66</value>
+  </data>
+  <data name="Title2.Text" xml:space="preserve">
+    <value>More informations and details :</value>
+  </data>
+  <data name="UI_ButtonsPanel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>364, 30</value>
+  </data>
+  <data name="&gt;&gt;UI_ButtonsPanel.Parent" xml:space="preserve">
+    <value>UI_BtmBar_Panel</value>
+  </data>
+  <data name="WindowsCompleteVersion_Value.Text" xml:space="preserve">
+    <value>OS_COMPLETEVERSION</value>
+  </data>
+  <data name="WindowsUsername_Value.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;WindowsArch_Value.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UI_BtmBar_Panel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MicrosoftCopyright_Value.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="WindowsPlatform_Value.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="Text4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 275</value>
+  </data>
+  <data name="Text1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="MSINFO32_Btn.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="WindowsPlatform_Value.Size" type="System.Drawing.Size, System.Drawing">
+    <value>296, 13</value>
+  </data>
+  <data name="&gt;&gt;WindowsLanguage_Value.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="MSINFO32_Btn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 3, 0, 3</value>
+  </data>
+  <data name="&gt;&gt;WindowsComputerName_Value.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="Deco1.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="AvailableRAM_Value.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="UI_StatPanel_Icon.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="Text2.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="&gt;&gt;UI_StatPanel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Title2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Text9.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="Text7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 13</value>
+  </data>
+  <data name="&gt;&gt;UI_StatPanel_Title.Parent" xml:space="preserve">
+    <value>UI_StatPanel</value>
+  </data>
+  <data name="WindowsLanguage_Value.Text" xml:space="preserve">
+    <value>COMPUTER_LANGUAGE</value>
+  </data>
+  <data name="Text7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 323</value>
+  </data>
+  <data name="&gt;&gt;Title1.Name" xml:space="preserve">
+    <value>Title1</value>
+  </data>
+  <data name="&gt;&gt;Text7.Name" xml:space="preserve">
+    <value>Text7</value>
+  </data>
+  <data name="OS_Winver_Image.Size" type="System.Drawing.Size, System.Drawing">
+    <value>500, 80</value>
+  </data>
+  <data name="MicrosoftCopyright_Value.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="MicrosoftCopyright_Value.Size" type="System.Drawing.Size, System.Drawing">
+    <value>296, 13</value>
+  </data>
+  <data name="Text13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 13</value>
+  </data>
+  <data name="&gt;&gt;WindowsNTVersion_Value.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="UI_HeaderBorder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 64</value>
+  </data>
+  <data name="Text2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 13</value>
+  </data>
+  <data name="&gt;&gt;MegabyteUnit.Parent" xml:space="preserve">
+    <value>UI_BtmBar_Panel</value>
+  </data>
+  <data name="&gt;&gt;WindowsPlatform_Value.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Text6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 307</value>
+  </data>
+  <data name="&gt;&gt;UI_ButtonsPanel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="UI_ButtonsPanel.FlowDirection" type="System.Windows.Forms.FlowDirection, System.Windows.Forms">
+    <value>RightToLeft</value>
+  </data>
+  <data name="WindowsNTVersion_Value.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;Text7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;AvailableRAM_Value.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;WindowsServicePack_Value.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="Text7.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="UI_StatPanel_Description.Size" type="System.Drawing.Size, System.Drawing">
+    <value>454, 13</value>
+  </data>
+  <data name="Text7.Text" xml:space="preserve">
+    <value>Operating System Architecture:</value>
+  </data>
+  <data name="&gt;&gt;UI_StatPanel_Icon.Parent" xml:space="preserve">
+    <value>UI_StatPanel</value>
+  </data>
+  <data name="Text5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="MegabyteUnit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 9, 3, 0</value>
+  </data>
+  <data name="&gt;&gt;WindowsLanguage_Value.Name" xml:space="preserve">
+    <value>WindowsLanguage_Value</value>
+  </data>
+  <data name="&gt;&gt;OK_Btn.Parent" xml:space="preserve">
+    <value>UI_ButtonsPanel</value>
+  </data>
+  <data name="&gt;&gt;Text6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Text14.Name" xml:space="preserve">
+    <value>Text14</value>
+  </data>
+  <data name="&gt;&gt;Text8.Name" xml:space="preserve">
+    <value>Text8</value>
+  </data>
+  <data name="&gt;&gt;WindowsArch_Value.Name" xml:space="preserve">
+    <value>WindowsArch_Value</value>
+  </data>
+  <data name="WindowsPlatform_Value.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Text8.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="Text14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 443</value>
+  </data>
+  <data name="MSINFO32_Btn.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;Text6.Name" xml:space="preserve">
+    <value>Text6</value>
+  </data>
+  <data name="&gt;&gt;Text2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Text2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="WindowsNTVersion_Value.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="Text4.Text" xml:space="preserve">
+    <value>Operating System Version:</value>
+  </data>
+  <data name="UI_StatPanel_Description.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="Text4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 13</value>
+  </data>
+  <data name="&gt;&gt;WindowsEdition_Value.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="MicrosoftCopyright_Value.Location" type="System.Drawing.Point, System.Drawing">
+    <value>216, 363</value>
+  </data>
+  <data name="Title2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="&gt;&gt;MemoriesTimer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Deco1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="&gt;&gt;UI_ButtonsPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="WindowsPlatform_Value.Text" xml:space="preserve">
+    <value>OS_PLATFORM</value>
+  </data>
+  <data name="OK_Btn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>58, 3</value>
+  </data>
+  <data name="MicrosoftCopyright_Value.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="Text6.Text" xml:space="preserve">
+    <value>Operating System Platform:</value>
+  </data>
+  <data name="WindowsPlatform_Value.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="&gt;&gt;UI_StatPanel_Icon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Text7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Frm06_OS_Version</value>
+  </data>
+  <data name="MSINFO32_Btn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 3</value>
+  </data>
+  <data name="WindowsServicePack_Value.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;OS_Winver_Image.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;AvailableRAM_Value.Name" xml:space="preserve">
+    <value>AvailableRAM_Value</value>
+  </data>
+  <data name="Text8.Text" xml:space="preserve">
+    <value>Operating System language:</value>
+  </data>
+  <data name="&gt;&gt;WindowsCompleteVersion_Value.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;AvailableRAM_Value.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Title1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;WindowsArch_Value.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="UI_HeaderBorder.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;Text2.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="WindowsComputerName_Value.Location" type="System.Drawing.Point, System.Drawing">
+    <value>216, 443</value>
+  </data>
+  <data name="WindowsNTVersion_Value.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="MegabyteUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>348, 21</value>
+  </data>
+  <data name="Text1.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;Text1.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="Deco1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="UI_ButtonsPanel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 10</value>
+  </data>
+  <data name="&gt;&gt;Deco1.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="WindowsCompleteVersion_Value.Size" type="System.Drawing.Size, System.Drawing">
+    <value>296, 13</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAIAEBAAAAEACABoBQAAJgAAABAQAAABACAAaAQAAI4FAAAoAAAAEAAAACAAAAABAAgAAAAAAAAB
+        AAAAAAAAAAAAAAABAAAAAQAAAAAAAF19WgBgfWQAr3UXAJhzNgDCewsAkX9eAKF8QQA9jjsAOINDADuR
+        TgA6mF0APKRtAEuBVgBagmwAWJd3AHONeQBBtHoAw4ERAMKEEQDNjxAAxIkZAM+QEQDMlRsA3JoSANmf
+        JADRnDIAoIFCAKyLUACVgWIAn45wAJ+UfwCik3gA3qlDANalTwDlsFEAwp5oANywbADnvX4A6b9/ADVK
+        pQA/TaAAJUa+AFVknwBpbp0ARU+iAFBzrgBfc6kAQGGxAC9fygAiQNcAJVLVACZe1gAnXtoAKV7bACt0
+        3AAret4AKWXjAC138AA8r4EAO4e6AHmXiQB3m44AfJiKAEKmgQBCt48AQr2PAGepiwBuqJIAd6qUAEmH
+        rQBejasAWpWuAFKAugBMkbcAUJGwAG2GowBpi6cAb5GpAHSXoQBJw5sATsCcAF7FpgBVzKcAasuuAHvI
+        rwBpz7IAetC4AB6W3gA9jcAAPJfDADeTyQA9pswALIPgAC2O6gAtk+QALpbxAC6k6AAtvu4AI6z/ACSv
+        /gAmtPsAJbX9ACW6/wAwsvYAMLP4AGu10AArxPoAL8f5ACjF/wAsyf0AOM78ACzT/wBFz/kARdT+AEjU
+        /ABH3P8AZdf6AHTj/wB64f8Ah5iJAI2YkQCLn5wApp+ZAIKkmQC3oYEAg5igAICbpACCnaUAkZ+iAIOl
+        sQCJq7gAqaijAMKqhwDry5kA38ShAPfbrgCH3McAkuLNAKLy3wCS6P8Ao+H3AKXv/wD/8cwAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAA////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEpbWUcAAAAAAAAAAAAA
+        f25tZ2RkPAAAAB0EHiAbFXlxcW9tZVgAAAAABRIWGSMfand1c25lAAAAAAMSFyInfYKOjHZ0cEsAAAAH
+        FholhoeBjYN/T0hGAAAAIBghJoiPhAA/RUMPDgAAAAAGHCSFewB8i4lWUBEQAAAAMC5MTVpceopXUkEM
+        DQAAAC86YGltYn5VVFA7CwkAAAAANjhfYWhORFNCDAoIeAAAACo0N11eST5APQAAAQIAAAAtMjM1OTEA
+        AAAAAAAAAAAAACwpKCsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//wAA/w8AAPwHAAAABwAAgAcAAIAD
+        AACAAwAAgIMAAMEBAADAAQAAwAEAAOAAAADgDAAA4H8AAPD/AAD//wAAKAAAABAAAAAgAAAAAQAgAAAA
+        AABABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAwURDjhPdhpz
+        pMcdhcLhG3m12BVZha8JHitLAAAAAAAAAAAAAAAABwUCGQAAAAIAAAAAAAAAAAAAAAEaCQAyG0tcjSzL
+        //8oxf//Jbr//ySv/v8jrP//GXOu2QAAAAoAAAAAAAAAAGBDFKqAUgXNVTgDkFM3BImBWAXAw4cU+T1P
+        RJVBzvn5RdT+/zjO/P8rxPr/JrT7/x6W3v8GFBo8AAAAAAAAAABCLQ5uwnsL/8OBEf/PkBH/2Z8k/+Ww
+        Uf9oVzeiT6jI1nrh//9l1/r/SNT8/y3I/P8ltf3/DjpRfwAAAAAAAAAAFxEIL690FfzChBH/zJUb/9al
+        T//pv3//o4ZdxUR3iail7///kuj//3Tj//9H3P//LNP//xlvmMIAAAAAAAAAAAAAAQOMXxfQzY8Q/9Gc
+        Mv/csGz/68uZ/93Bm+9EXWGWouH3/GGPoL00X2ycJ11soxxukLkXZ5fIAgQGGAAAAAAAAAAAWz4Pjtya
+        Ev/eqUP/571+//fbrv//8cz/WlhOhCI9PX9BaVWvYJyC2VWffuQ5hF7WJVs9wQkTDTkAAAAAAAAAAA8L
+        BytfRRWvlmwhyLiPUNuylGfJa19VmA8bLltTgnK4ovLf/4fcx/9pz7L/ScOb/0G0ev8iTCyhAAAAAAAA
+        AAABAwgWFT6g0BZFk78bQ3CjE0h1oRWDuNQfmMXcPmBbmZLizf960Lj/XsWm/0K3j/88pGz/L2083AAA
+        AAsAAAAAAAAAABo3hLItd/D/Lpbx/zCz+P8vx/n/LL7u/SVLWZF3x633asuu/07AnP88r4H/Ophd/ziD
+        Q/8LFQ1AAAAAAAAAAAAPHEZtKV7b/yt63v8tk+T/LqTo/zCy9v8fU3mjUJZ70lXMp/9CvY//PKVu/zuR
+        Tv89jjv/HDsghgAAAAAAAAAABgkXLiNEvvwmXtb/K3Tc/yyD4P8tjur/JF6oyTJpVak8pH33HlA5lxMu
+        HWoULxh3IEwcuSNMKbgAAAAAAAAAAAAAAAMZJo3OIkDX/yVS1f8nXtr/KWXj/ydZyPUQHyVbBg4IIQAA
+        AAAAAAAAAAAAAAAAAAECBQMUAAAAAAAAAAAAAAAABQYdOg4WYp4VJ4zRGDCY3hQpergIES9UAAAAAwAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//wAA/AcAADADAAAAAwAAAAMAAAADAAAAAQAAgAEAAIAB
+        AACAAAAAwAAAAMAAAADAAAAAwBwAAOA/AAD//wAA
+</value>
+  </data>
+  <data name="&gt;&gt;OS_Winver_Image.Name" xml:space="preserve">
+    <value>OS_Winver_Image</value>
+  </data>
+  <data name="Text13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 427</value>
+  </data>
+  <data name="&gt;&gt;UI_HeaderBorder.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;WindowsUsername_Value.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="WindowsServicePack_Value.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="Text3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 13</value>
+  </data>
+  <data name="Text4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="&gt;&gt;Text9.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="MicrosoftCopyright_Value.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;WindowsNTVersion_Value.Name" xml:space="preserve">
+    <value>WindowsNTVersion_Value</value>
+  </data>
+  <data name="UI_BtmBar_Panel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 472</value>
+  </data>
+  <data name="&gt;&gt;Text8.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="UI_HeaderBorder.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;Text5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TotalRAM_Value.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="Title1.Text" xml:space="preserve">
+    <value>Your Windows version :</value>
+  </data>
+  <data name="&gt;&gt;WindowsLanguage_Value.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Text7.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="&gt;&gt;Text4.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="WindowsUsername_Value.Size" type="System.Drawing.Size, System.Drawing">
+    <value>296, 13</value>
+  </data>
+  <data name="WindowsServicePack_Value.Text" xml:space="preserve">
+    <value>SERVICE_PACK</value>
+  </data>
+  <data name="UI_ButtonsPanel2.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="WindowsEdition_Value.Size" type="System.Drawing.Size, System.Drawing">
+    <value>296, 13</value>
+  </data>
+  <data name="UI_StatPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;WindowsCompleteVersion_Value.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Text2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 235</value>
+  </data>
+  <data name="MSINFO32_Btn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Title1.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="&gt;&gt;WindowsServicePack_Value.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TotalRAM_Value.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;WindowsNTVersion_Value.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Text14.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="Text6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 13</value>
+  </data>
+  <data name="WindowsUsername_Value.Text" xml:space="preserve">
+    <value>USERNAME</value>
+  </data>
+  <data name="&gt;&gt;Text9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="WindowsEdition_Value.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="&gt;&gt;Text10.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Your OS Version • </value>
+  </data>
+  <data name="Text10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 403</value>
+  </data>
+  <data name="&gt;&gt;Text7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Text9.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="WindowsLanguage_Value.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;Text8.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;UI_StatPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Title2.Name" xml:space="preserve">
+    <value>Title2</value>
+  </data>
+  <data name="MSINFO32_Btn.Text" xml:space="preserve">
+    <value>Advanced System Informations</value>
+  </data>
+  <data name="Text8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 13</value>
+  </data>
+  <data name="&gt;&gt;Text5.Name" xml:space="preserve">
+    <value>Text5</value>
+  </data>
+  <data name="UI_StatPanel_Description.Text" xml:space="preserve">
+    <value>Here are some informations about your computer and your OS.</value>
+  </data>
+  <data name="UI_StatPanel_Title.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;Deco1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="UI_BtmBar_Panel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <data name="WindowsNTVersion_Value.Location" type="System.Drawing.Point, System.Drawing">
+    <value>216, 275</value>
+  </data>
+  <data name="&gt;&gt;Text3.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="UI_StatPanel_Title.Location" type="System.Drawing.Point, System.Drawing">
+    <value>56, 8</value>
+  </data>
+  <data name="WindowsCompleteVersion_Value.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;WindowsComputerName_Value.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="UI_StatPanel_Title.Size" type="System.Drawing.Size, System.Drawing">
+    <value>457, 30</value>
+  </data>
+  <data name="&gt;&gt;MSINFO32_Btn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="WindowsNTVersion_Value.Text" xml:space="preserve">
+    <value>OS_VERSION</value>
+  </data>
+  <data name="MegabyteUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="Title2.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="&gt;&gt;OK_Btn.Name" xml:space="preserve">
+    <value>OK_Btn</value>
+  </data>
+  <data name="&gt;&gt;Title2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Text1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 13</value>
+  </data>
+  <data name="&gt;&gt;MicrosoftCopyright_Value.Name" xml:space="preserve">
+    <value>MicrosoftCopyright_Value</value>
+  </data>
+  <data name="WindowsServicePack_Value.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;Text13.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="UI_StatPanel_Title.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="Title1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="Title1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="WindowsLanguage_Value.Size" type="System.Drawing.Size, System.Drawing">
+    <value>296, 13</value>
+  </data>
+  <data name="Title1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>504, 21</value>
+  </data>
+  <data name="Deco1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 182</value>
+  </data>
+  <data name="&gt;&gt;UI_ButtonsPanel2.Name" xml:space="preserve">
+    <value>UI_ButtonsPanel2</value>
+  </data>
+  <data name="WindowsCompleteVersion_Value.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;UI_StatPanel_Description.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Text13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Text8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 339</value>
+  </data>
+  <data name="UI_StatPanel_Title.Text" xml:space="preserve">
+    <value>Your OS Version</value>
+  </data>
+  <data name="WindowsLanguage_Value.Location" type="System.Drawing.Point, System.Drawing">
+    <value>216, 339</value>
+  </data>
+  <data name="WindowsEdition_Value.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="Text10.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Text13.Name" xml:space="preserve">
+    <value>Text13</value>
+  </data>
+  <data name="UI_StatPanel_Description.Location" type="System.Drawing.Point, System.Drawing">
+    <value>59, 37</value>
+  </data>
+  <data name="&gt;&gt;Text3.Name" xml:space="preserve">
+    <value>Text3</value>
+  </data>
+  <data name="WindowsServicePack_Value.Size" type="System.Drawing.Size, System.Drawing">
+    <value>296, 13</value>
+  </data>
+  <data name="&gt;&gt;WindowsPlatform_Value.Name" xml:space="preserve">
+    <value>WindowsPlatform_Value</value>
+  </data>
+  <data name="&gt;&gt;Text5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="MSINFO32_Btn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="&gt;&gt;OS_Winver_Image.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;WindowsVersion_Value.Name" xml:space="preserve">
+    <value>WindowsVersion_Value</value>
+  </data>
+  <data name="Text3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 251</value>
+  </data>
+  <data name="UI_ButtonsPanel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="&gt;&gt;TotalRAM_Value.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;WindowsComputerName_Value.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Text4.Name" xml:space="preserve">
+    <value>Text4</value>
+  </data>
+  <data name="Text10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 13</value>
+  </data>
+  <data name="UI_StatPanel_Description.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="MegabyteUnit.Text" xml:space="preserve">
+    <value>MB</value>
+  </data>
+  <data name="WindowsUsername_Value.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="Text14.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="Title2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;MicrosoftCopyright_Value.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="OK_Btn.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="Title1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;Deco1.Name" xml:space="preserve">
+    <value>Deco1</value>
+  </data>
+  <data name="UI_HeaderBorder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>524, 2</value>
+  </data>
+  <data name="&gt;&gt;UI_StatPanel_Icon.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Text1.Text" xml:space="preserve">
+    <value>Operating System Name:</value>
+  </data>
+  <data name="MegabyteUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 11</value>
+  </data>
+  <data name="UI_StatPanel_Title.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 15.75pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;Title1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Title2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>504, 21</value>
+  </data>
+  <data name="OK_Btn.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <metadata name="MemoriesTimer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>5, 3</value>
+  </metadata>
+  <metadata name="UI_HeaderBorder.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="UI_BtmBar_Panel.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>30</value>
+  </metadata>
+  <metadata name="UI_StatPanel_Icon.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>

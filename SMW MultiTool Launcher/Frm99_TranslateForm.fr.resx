@@ -1,0 +1,773 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="UI00_ConfigFileMissing.Size" type="System.Drawing.Size, System.Drawing">
+    <value>491, 26</value>
+  </data>
+  <data name="UI00_ConfigFileMissing.Text" xml:space="preserve">
+    <value>Le fichier "$SFL" est manquant dans le dossier du programme.
+Veuillez vérifier si le fichier est bien présent, ou rendez-vous sur le site pour obtenir une copie du fichier.</value>
+  </data>
+  <data name="UI00_UnsupportedOS.Size" type="System.Drawing.Size, System.Drawing">
+    <value>263, 13</value>
+  </data>
+  <data name="UI00_UnsupportedOS.Text" xml:space="preserve">
+    <value>Le système d'exploitation actuel n'est pas supporté par</value>
+  </data>
+  <data name="UI01_LegacyUpdatePopupText01.Size" type="System.Drawing.Size, System.Drawing">
+    <value>330, 13</value>
+  </data>
+  <data name="UI01_LegacyUpdatePopupText01.Text" xml:space="preserve">
+    <value>Bonne nouvelle ! Une nouvelle version de SMWMTL est disponible !</value>
+  </data>
+  <data name="UI01_LegacyUpdatePopupText02.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 13</value>
+  </data>
+  <data name="UI01_LegacyUpdatePopupText02.Text" xml:space="preserve">
+    <value>Version actuelle :</value>
+  </data>
+  <data name="UI01_LegacyUpdatePopupText03.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 13</value>
+  </data>
+  <data name="UI01_LegacyUpdatePopupText03.Text" xml:space="preserve">
+    <value>Nouvelle version :</value>
+  </data>
+  <data name="UI01_LegacyUpdatePopupText04.Size" type="System.Drawing.Size, System.Drawing">
+    <value>454, 13</value>
+  </data>
+  <data name="UI01_LegacyUpdatePopupText04.Text" xml:space="preserve">
+    <value>Mettrez à jour SMWMTL pour profiter de nouvelles fonctionnalités et autre corrections de bugs.</value>
+  </data>
+  <data name="UI01_LegacyBalloonTipTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>216, 13</value>
+  </data>
+  <data name="UI01_LegacyBalloonTipTitle.Text" xml:space="preserve">
+    <value>Mise à jour vers la version $VER disponible !</value>
+  </data>
+  <data name="UI01_KillProcess.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 13</value>
+  </data>
+  <data name="UI01_KillProcess.Text" xml:space="preserve">
+    <value>Tuer le processus</value>
+  </data>
+  <data name="UI01_CloseSubMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 13</value>
+  </data>
+  <data name="UI01_CloseSubMenu.Text" xml:space="preserve">
+    <value>Fermer le sous-menu</value>
+  </data>
+  <data name="UI01_ShellCommand.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 13</value>
+  </data>
+  <data name="UI01_ShellCommand.Text" xml:space="preserve">
+    <value>Commande :</value>
+  </data>
+  <data name="UI01_ForTestingPurposes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 13</value>
+  </data>
+  <data name="UI01_ForTestingPurposes.Text" xml:space="preserve">
+    <value>À des fins d'évaluation uniquement</value>
+  </data>
+  <data name="UI01_CloseSubMenuDesc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 13</value>
+  </data>
+  <data name="UI01_CloseSubMenuDesc.Text" xml:space="preserve">
+    <value>Cela ferme juste le sous menu</value>
+  </data>
+  <data name="UI01_ShowBottomButtonsBtnDesc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>262, 13</value>
+  </data>
+  <data name="UI01_ShowBottomButtonsBtnDesc.Text" xml:space="preserve">
+    <value>Cliquez pour afficher les boutons de la barre inférieure.</value>
+  </data>
+  <data name="UI01_HideBottomButtonsBtnDesc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>267, 13</value>
+  </data>
+  <data name="UI01_HideBottomButtonsBtnDesc.Text" xml:space="preserve">
+    <value>Cliquez pour masquer les boutons de la barre inférieure.</value>
+  </data>
+  <data name="UI01_AboutProgramBtnDesc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>306, 13</value>
+  </data>
+  <data name="UI01_AboutProgramBtnDesc.Text" xml:space="preserve">
+    <value>Affiche les informations concernant votre version de SMWMTL.</value>
+  </data>
+  <data name="UI01_TaskmgrBtnDesc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 13</value>
+  </data>
+  <data name="UI01_TaskmgrBtnDesc.Text" xml:space="preserve">
+    <value>Ouvre le Gestionnaire des Tâches de Windows.</value>
+  </data>
+  <data name="UI01_WinverBtnDesc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>423, 13</value>
+  </data>
+  <data name="UI01_WinverBtnDesc.Text" xml:space="preserve">
+    <value>Afficher votre version actuelle de Windows avec quelques informations supplémentaires.</value>
+  </data>
+  <data name="UI01_ReportCrashBtnDesc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>461, 13</value>
+  </data>
+  <data name="UI01_ReportCrashBtnDesc.Text" xml:space="preserve">
+    <value>Trouvez quoi faire lorsque vous souhaitez faire remonter un bug ou un plantage dans SMWMTL.</value>
+  </data>
+  <data name="UI01_SuggestUpdateBtnDesc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>384, 13</value>
+  </data>
+  <data name="UI01_SuggestUpdateBtnDesc.Text" xml:space="preserve">
+    <value>Créer un fichier de suggestion pour demander l'ajout une nouvelle fonctionnalité.</value>
+  </data>
+  <data name="UI01_HelpBtnDesc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 13</value>
+  </data>
+  <data name="UI01_HelpBtnDesc.Text" xml:space="preserve">
+    <value>Accéder au fichier d'aide de SMWMTL</value>
+  </data>
+  <data name="UI01_SettingsBtnDesc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>399, 13</value>
+  </data>
+  <data name="UI01_SettingsBtnDesc.Text" xml:space="preserve">
+    <value>Ouvre les paramètres de SMWMTL pour le personnaliser comme vous le souhaitez.</value>
+  </data>
+  <data name="UI01_Smallhacker.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 13</value>
+  </data>
+  <data name="UI01_Smallhacker.Text" xml:space="preserve">
+    <value>Outils de Smallhacker</value>
+  </data>
+  <data name="UI01_SelectedArch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 13</value>
+  </data>
+  <data name="UI01_SelectedArch.Text" xml:space="preserve">
+    <value>Architecture sélectionnée :</value>
+  </data>
+  <data name="UI01_OpenSubMenuDesc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 13</value>
+  </data>
+  <data name="UI01_OpenSubMenuDesc.Text" xml:space="preserve">
+    <value>Ouvre son sous-menu</value>
+  </data>
+  <data name="UI01_FolderPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 13</value>
+  </data>
+  <data name="UI01_FolderPath.Text" xml:space="preserve">
+    <value>Chemin du dossier :</value>
+  </data>
+  <data name="UI01_ExecutablePath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 13</value>
+  </data>
+  <data name="UI01_ExecutablePath.Text" xml:space="preserve">
+    <value>Chemin de l'exécutable :</value>
+  </data>
+  <data name="UI01_ShowBottomButtonsBtnTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 13</value>
+  </data>
+  <data name="UI01_ShowBottomButtonsBtnTitle.Text" xml:space="preserve">
+    <value>Afficher les éléments de la barre inférieure</value>
+  </data>
+  <data name="UI01_HideBottomButtonsBtnTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 13</value>
+  </data>
+  <data name="UI01_HideBottomButtonsBtnTitle.Text" xml:space="preserve">
+    <value>Masquer les éléments de la barre inférieure</value>
+  </data>
+  <data name="UI01_AboutProgramBtnTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 13</value>
+  </data>
+  <data name="UI01_AboutProgramBtnTitle.Text" xml:space="preserve">
+    <value>À propos de SMW MultiTools Launcher</value>
+  </data>
+  <data name="UI01_TaskmgrBtnTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 13</value>
+  </data>
+  <data name="UI01_TaskmgrBtnTitle.Text" xml:space="preserve">
+    <value>Gestionnaire des tâches</value>
+  </data>
+  <data name="UI01_WinverBtnTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 13</value>
+  </data>
+  <data name="UI01_WinverBtnTitle.Text" xml:space="preserve">
+    <value>Version de l'OS</value>
+  </data>
+  <data name="UI01_ReportCrashBtnTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 13</value>
+  </data>
+  <data name="UI01_ReportCrashBtnTitle.Text" xml:space="preserve">
+    <value>Signaler un Bug / Crash</value>
+  </data>
+  <data name="UI01_SuggestUpdateBtnTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 13</value>
+  </data>
+  <data name="UI01_SuggestUpdateBtnTitle.Text" xml:space="preserve">
+    <value>Suggérer un Outil / Mise à jour</value>
+  </data>
+  <data name="UI01_HelpBtnTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 13</value>
+  </data>
+  <data name="UI01_HelpBtnTitle.Text" xml:space="preserve">
+    <value>Aide de SMWMTL</value>
+  </data>
+  <data name="UI01_SettingsBtnTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 13</value>
+  </data>
+  <data name="UI01_SettingsBtnTitle.Text" xml:space="preserve">
+    <value>Paramètres de SMWMTL</value>
+  </data>
+  <data name="UI01_OpenConfig.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 13</value>
+  </data>
+  <data name="UI01_OpenConfig.Text" xml:space="preserve">
+    <value>Ouvrir le configurateur</value>
+  </data>
+  <data name="UI01_RunApp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 13</value>
+  </data>
+  <data name="UI01_RunApp.Text" xml:space="preserve">
+    <value>Lancer le programme</value>
+  </data>
+  <data name="UI01_OpenFolder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 13</value>
+  </data>
+  <data name="UI01_OpenFolder.Text" xml:space="preserve">
+    <value>Ouvrir le dossier</value>
+  </data>
+  <data name="UI01_ViaGUI.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 13</value>
+  </data>
+  <data name="UI01_ViaGUI.Text" xml:space="preserve">
+    <value>Via la version graphique</value>
+  </data>
+  <data name="UI01_ViaCMD.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 13</value>
+  </data>
+  <data name="UI01_ViaCMD.Text" xml:space="preserve">
+    <value>Via la version en ligne de commande</value>
+  </data>
+  <data name="UI01_ShortcutError.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 13</value>
+  </data>
+  <data name="UI01_ShortcutError.Text" xml:space="preserve">
+    <value>Erreur d'exécution du raccourci</value>
+  </data>
+  <data name="UI01_ShortcutTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 13</value>
+  </data>
+  <data name="UI01_ShortcutTitle.Text" xml:space="preserve">
+    <value>Raccourci</value>
+  </data>
+  <data name="UI01_ShortcutPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 13</value>
+  </data>
+  <data name="UI01_ShortcutPath.Text" xml:space="preserve">
+    <value>Chemin du raccourci :</value>
+  </data>
+  <data name="UI01_ShortcutManagedByWindows.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 13</value>
+  </data>
+  <data name="UI01_ShortcutManagedByWindows.Text" xml:space="preserve">
+    <value>Raccourci géré par Windows</value>
+  </data>
+  <data name="UI01_ShortcutLaunchWith.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 13</value>
+  </data>
+  <data name="UI01_ShortcutLaunchWith.Text" xml:space="preserve">
+    <value>Lancé avec</value>
+  </data>
+  <data name="UI01_LM1CTL_PathError.Size" type="System.Drawing.Size, System.Drawing">
+    <value>357, 13</value>
+  </data>
+  <data name="UI01_LM1CTL_PathError.Text" xml:space="preserve">
+    <value>Erreur : Le chemin de l'exécutable pour le slot sélectionné ne mène à rien !</value>
+  </data>
+  <data name="UI01_SelectedLMSlot.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 13</value>
+  </data>
+  <data name="UI01_SelectedLMSlot.Text" xml:space="preserve">
+    <value>Slot sélectionné :</value>
+  </data>
+  <data name="UI01_UpdateSearchState_Available.Size" type="System.Drawing.Size, System.Drawing">
+    <value>314, 13</value>
+  </data>
+  <data name="UI01_UpdateSearchState_Available.Text" xml:space="preserve">
+    <value>Une mise à jour vers la version $VER (Build $BLD) est disponible.</value>
+  </data>
+  <data name="UI01_UpdateSearchState_Failed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>194, 13</value>
+  </data>
+  <data name="UI01_UpdateSearchState_Failed.Text" xml:space="preserve">
+    <value>La recherche de mises à jour à échoué.</value>
+  </data>
+  <data name="UI01_ProgramErrorTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 13</value>
+  </data>
+  <data name="UI01_ProgramErrorTitle.Text" xml:space="preserve">
+    <value>Erreur de programme</value>
+  </data>
+  <data name="UI01_UpdateSearchState_NotAvailable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 13</value>
+  </data>
+  <data name="UI01_UpdateSearchState_NotAvailable.Text" xml:space="preserve">
+    <value>Aucune mise à jour disponible.</value>
+  </data>
+  <data name="UI01_UpdateSearchState_InProgress.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 13</value>
+  </data>
+  <data name="UI01_UpdateSearchState_InProgress.Text" xml:space="preserve">
+    <value>Recherche de mises à jour en cours...</value>
+  </data>
+  <data name="UI02_UnableCheckUpdates.Size" type="System.Drawing.Size, System.Drawing">
+    <value>385, 13</value>
+  </data>
+  <data name="UI02_UnableCheckUpdates.Text" xml:space="preserve">
+    <value>Impossible de vérifier les mises à jour. Veuillez véfifier votre connexion à Internet.</value>
+  </data>
+  <data name="UI02_UpdateNotFound.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 13</value>
+  </data>
+  <data name="UI02_UpdateNotFound.Text" xml:space="preserve">
+    <value>SMWMTL est actuellement à jour.</value>
+  </data>
+  <data name="UI02_UpdateFound.Size" type="System.Drawing.Size, System.Drawing">
+    <value>226, 13</value>
+  </data>
+  <data name="UI02_UpdateFound.Text" xml:space="preserve">
+    <value>Une mise à jour est disponible pour SMWMTL.</value>
+  </data>
+  <data name="UI02_UpdateSearch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>142, 13</value>
+  </data>
+  <data name="UI02_UpdateSearch.Text" xml:space="preserve">
+    <value>Recherche de mises à jour...</value>
+  </data>
+  <data name="UI03_DevModeToggleOffConfirmDesc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 26</value>
+  </data>
+  <data name="UI03_DevModeToggleOffConfirmDesc.Text" xml:space="preserve">
+    <value>Le mode développeur a été désactivé.
+SMWMTL va maintenant redémarrer.</value>
+  </data>
+  <data name="UI03_SettingsAppliedDesc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>303, 26</value>
+  </data>
+  <data name="UI03_SettingsAppliedDesc.Text" xml:space="preserve">
+    <value>Les paramètres de l'application ont été appliqués avec succès.
+SMWMTL va maintenant redémarrer.</value>
+  </data>
+  <data name="UI03_DevModeToggleOnConfirmDesc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 26</value>
+  </data>
+  <data name="UI03_DevModeToggleOnConfirmDesc.Text" xml:space="preserve">
+    <value>Le mode développeur a été activé.
+SMWMTL va maintenant redémarrer.</value>
+  </data>
+  <data name="UI03_DevModeToggleTitleText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 13</value>
+  </data>
+  <data name="UI03_DevModeToggleTitleText.Text" xml:space="preserve">
+    <value>Mode développeur</value>
+  </data>
+  <data name="UI03_DevModeEnabledTitleText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 13</value>
+  </data>
+  <data name="UI03_DevModeEnabledTitleText.Text" xml:space="preserve">
+    <value>MODE DÉVELOPPEUR ACTIVÉ</value>
+  </data>
+  <data name="UI03_DevModeToggleOffRequestDesc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 13</value>
+  </data>
+  <data name="UI03_DevModeToggleOffRequestDesc.Text" xml:space="preserve">
+    <value>Voulez-vous désactiver le mode développeur ?</value>
+  </data>
+  <data name="UI03_SettingsAppliedTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 13</value>
+  </data>
+  <data name="UI03_SettingsAppliedTitle.Text" xml:space="preserve">
+    <value>Paramètres appliqués</value>
+  </data>
+  <data name="UI03_DevModeToggleOnRequestDesc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>211, 13</value>
+  </data>
+  <data name="UI03_DevModeToggleOnRequestDesc.Text" xml:space="preserve">
+    <value>Voulez-vous activer le mode développeur ?</value>
+  </data>
+  <data name="UI03_DWM_WinVista.Size" type="System.Drawing.Size, System.Drawing">
+    <value>286, 13</value>
+  </data>
+  <data name="UI03_DWM_WinVista.Text" xml:space="preserve">
+    <value>Étendre Windows Aero dans la zone cliente de l'application</value>
+  </data>
+  <data name="UI03_SettingsExportSuccessDesc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>318, 13</value>
+  </data>
+  <data name="UI03_SettingsExportSuccessDesc.Text" xml:space="preserve">
+    <value>Les paramètres de l'application ont été exportés avec succès vers</value>
+  </data>
+  <data name="UI03_SettingsResetDesc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>308, 26</value>
+  </data>
+  <data name="UI03_SettingsResetDesc.Text" xml:space="preserve">
+    <value>Les paramètres de l'application ont été réinitialisés avec succès.
+SMWMTL va maintenant redémarrer.</value>
+  </data>
+  <data name="UI03_SettingsExportSuccessTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 13</value>
+  </data>
+  <data name="UI03_SettingsExportSuccessTitle.Text" xml:space="preserve">
+    <value>Paramètres exportés</value>
+  </data>
+  <data name="UI03_DWM_Win8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>392, 13</value>
+  </data>
+  <data name="UI03_DWM_Win8.Text" xml:space="preserve">
+    <value>Étendre la couleur d'accentuation des fenêtre dans la zone cliente de l'application</value>
+  </data>
+  <data name="UI03_SettingsIMportSuccessDesc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>297, 26</value>
+  </data>
+  <data name="UI03_SettingsIMportSuccessDesc.Text" xml:space="preserve">
+    <value>Les paramètres de l'application ont été importés avec succès.
+SMWMTL va maintenant redémarrer.</value>
+  </data>
+  <data name="UI03_SettingsImportSuccessTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 13</value>
+  </data>
+  <data name="UI03_SettingsImportSuccessTitle.Text" xml:space="preserve">
+    <value>Paramètres importés</value>
+  </data>
+  <data name="UI03_SettingsResetTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 13</value>
+  </data>
+  <data name="UI03_SettingsResetTitle.Text" xml:space="preserve">
+    <value>Paramètres réinitialisés</value>
+  </data>
+  <data name="UI03_FormattingCodes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>384, 208</value>
+  </data>
+  <data name="UI03_FormattingCodes.Text" xml:space="preserve">
+    <value>Codes de formatage :
+
+"$RS" -&gt; Type de version (par example "Stable")
+"$MV" -&gt; Version majeure (par example "2.10")
+"$BN" -&gt; Numéro de build (par example "1200.00")
+"$CV" -&gt; Version complète (par example "2.10.1200.00-rtmbld-08")
+"$BDD" -&gt; Jour de la date de Build (par example "13")
+"$BDM" -&gt; Mois de la date de Build (par example "04" ("04" pour "Avril"))
+"$BDY" -&gt; Année de la date de Build (par example "2021")
+"$BDV" -&gt; Date de Build format verbal (par example "13 Avril 2021")
+"$BDC" -&gt; Date de Build combinée (par example "130421")
+"$ABS" -&gt; Chaîne de version (Celle que vous voyez dans la fenêtre "À propos")
+"$CN" -&gt; Nom de code de la version (par example "Québec")
+
+Vous pouvez écrire ces codes dans la zone de texte personnalisé.
+(Ces codes sont sensible à la casse, donc écrivez-les en MAJUSCULES).</value>
+  </data>
+  <data name="UI04_UpdateInstallOnAppClose.Size" type="System.Drawing.Size, System.Drawing">
+    <value>263, 13</value>
+  </data>
+  <data name="UI04_UpdateInstallOnAppClose.Text" xml:space="preserve">
+    <value>La mise à jour s'installera à la fermeture de l'application</value>
+  </data>
+  <data name="UI04_UpdateInstalling.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 13</value>
+  </data>
+  <data name="UI04_UpdateInstalling.Text" xml:space="preserve">
+    <value>Installation...</value>
+  </data>
+  <data name="UI04_UpdateDownloading.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 13</value>
+  </data>
+  <data name="UI04_UpdateDownloading.Text" xml:space="preserve">
+    <value>Téléchargement...</value>
+  </data>
+  <data name="UI04_StatPanel_DescSearchFailed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>373, 13</value>
+  </data>
+  <data name="UI04_StatPanel_DescSearchFailed.Text" xml:space="preserve">
+    <value>Une erreur s'est produite pendant le processus de recherche des mises à jour.</value>
+  </data>
+  <data name="UI04_StatPanel_TitleSearchFailed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 13</value>
+  </data>
+  <data name="UI04_StatPanel_TitleSearchFailed.Text" xml:space="preserve">
+    <value>Une erreur est survenue...</value>
+  </data>
+  <data name="UI04_UpdateEngineVersion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 13</value>
+  </data>
+  <data name="UI04_UpdateEngineVersion.Text" xml:space="preserve">
+    <value>Version de SMWMTL_Update :</value>
+  </data>
+  <data name="UI04_AppCurrentVersion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>142, 13</value>
+  </data>
+  <data name="UI04_AppCurrentVersion.Text" xml:space="preserve">
+    <value>Votre version de SMWMTL :</value>
+  </data>
+  <data name="UI04_DownloadedText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 13</value>
+  </data>
+  <data name="UI04_DownloadedText.Text" xml:space="preserve">
+    <value>téléchargés</value>
+  </data>
+  <data name="UI04_UpdateCheckInProgress.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 13</value>
+  </data>
+  <data name="UI04_UpdateCheckInProgress.Text" xml:space="preserve">
+    <value>Recherche en cours...</value>
+  </data>
+  <data name="UI04_MegabyteUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 13</value>
+  </data>
+  <data name="UI04_MegabyteUnit.Text" xml:space="preserve">
+    <value>Mo</value>
+  </data>
+  <data name="UI04_UpdateLastCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 13</value>
+  </data>
+  <data name="UI04_UpdateLastCheck.Text" xml:space="preserve">
+    <value>Dernière recherche de mises à jour :</value>
+  </data>
+  <data name="UI04_NewerVersion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 13</value>
+  </data>
+  <data name="UI04_NewerVersion.Text" xml:space="preserve">
+    <value>Version la plus récente disponible :</value>
+  </data>
+  <data name="UI04_StatPanel_DescNoUpdate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>469, 13</value>
+  </data>
+  <data name="UI04_StatPanel_DescNoUpdate.Text" xml:space="preserve">
+    <value>Bonne nouvelle ! Votre installation de SMWMTL est à jour. Aucune action supplémentaire requise.</value>
+  </data>
+  <data name="UI04_StatPanel_DescUpdatesFound.Size" type="System.Drawing.Size, System.Drawing">
+    <value>435, 13</value>
+  </data>
+  <data name="UI04_StatPanel_DescUpdatesFound.Text" xml:space="preserve">
+    <value>Voici quelques informations sur les modifications apportées avec cette nouvelle mise à jour.</value>
+  </data>
+  <data name="UI04_StatPanel_DescSearch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>490, 13</value>
+  </data>
+  <data name="UI04_StatPanel_DescSearch.Text" xml:space="preserve">
+    <value>Veuillez patienter pendant que SMWMTL recherche si une nouvelle version du logiciel est disponible...</value>
+  </data>
+  <data name="UI04_StatPanel_DescHome.Size" type="System.Drawing.Size, System.Drawing">
+    <value>557, 13</value>
+  </data>
+  <data name="UI04_StatPanel_DescHome.Text" xml:space="preserve">
+    <value>Cliquez sur "Rechercher les mises à jour" pour rechercher les nouvelles mises à jour pour SMW MultiTools Launcher.</value>
+  </data>
+  <data name="UI04_ErrorWhenDownloadingData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>317, 13</value>
+  </data>
+  <data name="UI04_ErrorWhenDownloadingData.Text" xml:space="preserve">
+    <value>Une erreur est survenue pendant le téléchargement des données.</value>
+  </data>
+  <data name="UI04_CurrentVersion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 13</value>
+  </data>
+  <data name="UI04_CurrentVersion.Text" xml:space="preserve">
+    <value>Version actuelle :</value>
+  </data>
+  <data name="UI04_StatPanel_TitleNoUpdate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 13</value>
+  </data>
+  <data name="UI04_StatPanel_TitleNoUpdate.Text" xml:space="preserve">
+    <value>Aucune mise à jour disponible</value>
+  </data>
+  <data name="UI04_StatPanel_TitleUpdatesFound.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 13</value>
+  </data>
+  <data name="UI04_StatPanel_TitleUpdatesFound.Text" xml:space="preserve">
+    <value>Une nouvelle version de SMWMTL est disponible !</value>
+  </data>
+  <data name="UI04_StatPanel_TitleSearch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 13</value>
+  </data>
+  <data name="UI04_StatPanel_TitleSearch.Text" xml:space="preserve">
+    <value>Recherche de nouvelles mises à jour...</value>
+  </data>
+  <data name="UI04_StatPanel_TitleHome.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 13</value>
+  </data>
+  <data name="UI04_StatPanel_TitleHome.Text" xml:space="preserve">
+    <value>Prêt à rechercher des mises à jour...</value>
+  </data>
+  <data name="UI04_MainTextDesc01.Size" type="System.Drawing.Size, System.Drawing">
+    <value>771, 26</value>
+  </data>
+  <data name="UI04_MainTextDesc01.Text" xml:space="preserve">
+    <value>La recherche de mise à jour est un processus utile qui vous aide à maintenir SMWMTL à jour. Il vérifie si une version plus récente du logiciel est disponible ou non.
+Si oui, cette mise à jour vous sera proposée.</value>
+  </data>
+  <data name="UI04_MainTextTitle01.Size" type="System.Drawing.Size, System.Drawing">
+    <value>222, 13</value>
+  </data>
+  <data name="UI04_MainTextTitle01.Text" xml:space="preserve">
+    <value>Qu'est-ce que la recherche des mises à jour ?</value>
+  </data>
+  <data name="UI05_IsAvailableText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 13</value>
+  </data>
+  <data name="UI05_IsAvailableText.Text" xml:space="preserve">
+    <value>est disponible !</value>
+  </data>
+  <data name="UI0A_FeatureUpdate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 13</value>
+  </data>
+  <data name="UI0A_FeatureUpdate.Text" xml:space="preserve">
+    <value>Mise à jour de fonctionnalités :</value>
+  </data>
+  <data name="UI0A_TradLine_01.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 13</value>
+  </data>
+  <data name="UI0A_TradLine_01.Text" xml:space="preserve">
+    <value>Erreur</value>
+  </data>
+  <data name="UI0A_TradLine_02.Size" type="System.Drawing.Size, System.Drawing">
+    <value>362, 13</value>
+  </data>
+  <data name="UI0A_TradLine_02.Text" xml:space="preserve">
+    <value>Une erreur est survenue lors de la tentative d'exécution de MSINFO32.EXE</value>
+  </data>
+  <data name="RlmGUI_TradLine01.Size" type="System.Drawing.Size, System.Drawing">
+    <value>231, 13</value>
+  </data>
+  <data name="RlmGUI_TradLine01.Text" xml:space="preserve">
+    <value>Interface Graphique pour Recover Lunar Magic</value>
+  </data>
+  <data name="RlmGUI_AboutTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 13</value>
+  </data>
+  <data name="RlmGUI_AboutTitle.Text" xml:space="preserve">
+    <value>À propos de Recover LM GUI</value>
+  </data>
+  <data name="RlmGUI_Done.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 13</value>
+  </data>
+  <data name="RlmGUI_Done.Text" xml:space="preserve">
+    <value>Terminé.</value>
+  </data>
+  <data name="RlmGUI_OutputZoom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 13</value>
+  </data>
+  <data name="RlmGUI_OutputZoom.Text" xml:space="preserve">
+    <value>Zoom de la sortie de la console :</value>
+  </data>
+</root>
