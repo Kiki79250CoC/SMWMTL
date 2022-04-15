@@ -39,9 +39,13 @@ Public Class Frm04_UpdatesModal
 
         End Select
 
-        ' Updates module v3 - Deselect "Update pending" if more than 6 hours after last check.
-        If My.Settings.UPDATE_PENDING = True And Now > My.Settings.LAST_UPDATE_CHECK_DATE.AddHours(6) Then
+        ' Disable "Update pending" if last check is +6 hours or if last checked version number is < / = than current
+        If My.Settings.UPDATE_PENDING = True And Now > My.Settings.LAST_UPDATE_CHECK_DATE.AddHours(6) OrElse My.Settings.UPDATE_PENDING = True And My.Settings.UPDATE_FOUND_CVERSION <= $"{My.Resources.APP_VERSION_WITHZERO}.{My.Resources.APP_VERSION_BUILD}" Then
+
             My.Settings.UPDATE_PENDING = False
+            My.Settings.UPDATE_PENDING_DOWNLOAD = False
+            My.Settings.UPDATE_PENDING_INSTALLATION = False
+
         End If
 
         ' Displaying Versions numbers for Application (A.BB.CCCC.DD) and Update engine (E.FF)

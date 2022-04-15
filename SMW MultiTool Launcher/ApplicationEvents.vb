@@ -76,7 +76,7 @@ Namespace My
             End If
 
             ' Disable "Update pending" if last check is +6 hours or if last checked version number is < / = than current
-            If Settings.UPDATE_PENDING = True And Now > Settings.LAST_UPDATE_CHECK_DATE.AddHours(6) OrElse Settings.UPDATE_PENDING = True And Settings.UPDATE_FOUND_CVERSION <= Resources.APP_VERSION_WITHZERO Then
+            If Settings.UPDATE_PENDING = True And Now > Settings.LAST_UPDATE_CHECK_DATE.AddHours(6) OrElse Settings.UPDATE_PENDING = True And Settings.UPDATE_FOUND_CVERSION <= $"{Resources.APP_VERSION_WITHZERO}.{Resources.APP_VERSION_BUILD}" Then
 
                 Settings.UPDATE_PENDING = False
                 Settings.UPDATE_PENDING_DOWNLOAD = False
