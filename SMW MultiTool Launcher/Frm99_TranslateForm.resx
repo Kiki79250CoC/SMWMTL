@@ -2627,13 +2627,13 @@ You can write these codes in the custom Title text field.
     <value>6, 517</value>
   </data>
   <data name="UI04_UpdateInstallOnAppClose.Size" type="System.Drawing.Size, System.Drawing">
-    <value>204, 13</value>
+    <value>233, 13</value>
   </data>
   <data name="UI04_UpdateInstallOnAppClose.TabIndex" type="System.Int32, mscorlib">
     <value>29</value>
   </data>
   <data name="UI04_UpdateInstallOnAppClose.Text" xml:space="preserve">
-    <value>Update will install when application closes</value>
+    <value>This update will install at next application startup</value>
   </data>
   <data name="UI04_UpdateInstallOnAppClose.Visible" type="System.Boolean, mscorlib">
     <value>False</value>

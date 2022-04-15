@@ -151,7 +151,6 @@ Partial Class Frm99_TranslateForm
         '
         'TabControl
         '
-        resources.ApplyResources(Me.TabControl, "TabControl")
         Me.TabControl.Controls.Add(Me.TabPage0)
         Me.TabControl.Controls.Add(Me.TabPage1)
         Me.TabControl.Controls.Add(Me.TabPage2)
@@ -160,14 +159,15 @@ Partial Class Frm99_TranslateForm
         Me.TabControl.Controls.Add(Me.TabPage5)
         Me.TabControl.Controls.Add(Me.TabPage6)
         Me.TabControl.Controls.Add(Me.TabPage7)
+        resources.ApplyResources(Me.TabControl, "TabControl")
         Me.TabControl.Name = "TabControl"
         Me.TabControl.SelectedIndex = 0
         '
         'TabPage0
         '
-        resources.ApplyResources(Me.TabPage0, "TabPage0")
         Me.TabPage0.Controls.Add(Me.UI00_ConfigFileMissing)
         Me.TabPage0.Controls.Add(Me.UI00_UnsupportedOS)
+        resources.ApplyResources(Me.TabPage0, "TabPage0")
         Me.TabPage0.Name = "TabPage0"
         Me.TabPage0.UseVisualStyleBackColor = True
         '
@@ -183,7 +183,6 @@ Partial Class Frm99_TranslateForm
         '
         'TabPage1
         '
-        resources.ApplyResources(Me.TabPage1, "TabPage1")
         Me.TabPage1.Controls.Add(Me.UI01_LegacyUpdatePopupText01)
         Me.TabPage1.Controls.Add(Me.UI01_LegacyUpdatePopupText02)
         Me.TabPage1.Controls.Add(Me.UI01_LegacyUpdatePopupText03)
@@ -234,6 +233,7 @@ Partial Class Frm99_TranslateForm
         Me.TabPage1.Controls.Add(Me.UI01_ProgramErrorTitle)
         Me.TabPage1.Controls.Add(Me.UI01_UpdateSearchState_NotAvailable)
         Me.TabPage1.Controls.Add(Me.UI01_UpdateSearchState_InProgress)
+        resources.ApplyResources(Me.TabPage1, "TabPage1")
         Me.TabPage1.Name = "TabPage1"
         Me.TabPage1.UseVisualStyleBackColor = True
         '
@@ -491,11 +491,11 @@ Partial Class Frm99_TranslateForm
         '
         'TabPage2
         '
-        resources.ApplyResources(Me.TabPage2, "TabPage2")
         Me.TabPage2.Controls.Add(Me.UI02_UnableCheckUpdates)
         Me.TabPage2.Controls.Add(Me.UI02_UpdateNotFound)
         Me.TabPage2.Controls.Add(Me.UI02_UpdateFound)
         Me.TabPage2.Controls.Add(Me.UI02_UpdateSearch)
+        resources.ApplyResources(Me.TabPage2, "TabPage2")
         Me.TabPage2.Name = "TabPage2"
         Me.TabPage2.UseVisualStyleBackColor = True
         '
@@ -521,7 +521,6 @@ Partial Class Frm99_TranslateForm
         '
         'TabPage3
         '
-        resources.ApplyResources(Me.TabPage3, "TabPage3")
         Me.TabPage3.Controls.Add(Me.UI03_DevModeToggleOffConfirmDesc)
         Me.TabPage3.Controls.Add(Me.UI03_SettingsAppliedDesc)
         Me.TabPage3.Controls.Add(Me.UI03_DevModeToggleOnConfirmDesc)
@@ -540,6 +539,7 @@ Partial Class Frm99_TranslateForm
         Me.TabPage3.Controls.Add(Me.UI03_SettingsImportSuccessTitle)
         Me.TabPage3.Controls.Add(Me.UI03_SettingsResetTitle)
         Me.TabPage3.Controls.Add(Me.UI03_FormattingCodes)
+        resources.ApplyResources(Me.TabPage3, "TabPage3")
         Me.TabPage3.Name = "TabPage3"
         Me.TabPage3.UseVisualStyleBackColor = True
         '
@@ -638,7 +638,6 @@ Partial Class Frm99_TranslateForm
         '
         'TabPage4
         '
-        resources.ApplyResources(Me.TabPage4, "TabPage4")
         Me.TabPage4.Controls.Add(Me.UI04_UpdateInstallOnAppClose)
         Me.TabPage4.Controls.Add(Me.UI04_UpdateInstalling)
         Me.TabPage4.Controls.Add(Me.UI04_UpdateDownloading)
@@ -663,6 +662,7 @@ Partial Class Frm99_TranslateForm
         Me.TabPage4.Controls.Add(Me.UI04_StatPanel_TitleHome)
         Me.TabPage4.Controls.Add(Me.UI04_MainTextDesc01)
         Me.TabPage4.Controls.Add(Me.UI04_MainTextTitle01)
+        resources.ApplyResources(Me.TabPage4, "TabPage4")
         Me.TabPage4.Name = "TabPage4"
         Me.TabPage4.UseVisualStyleBackColor = True
         '
@@ -683,16 +683,16 @@ Partial Class Frm99_TranslateForm
         '
         'UI04_StatPanel_DescSearchFailed
         '
-        resources.ApplyResources(Me.UI04_StatPanel_DescSearchFailed, "UI04_StatPanel_DescSearchFailed")
         Me.UI04_StatPanel_DescSearchFailed.AutoEllipsis = True
+        resources.ApplyResources(Me.UI04_StatPanel_DescSearchFailed, "UI04_StatPanel_DescSearchFailed")
         Me.UI04_StatPanel_DescSearchFailed.BackColor = System.Drawing.Color.Transparent
         Me.UI04_StatPanel_DescSearchFailed.ForeColor = System.Drawing.SystemColors.ControlText
         Me.UI04_StatPanel_DescSearchFailed.Name = "UI04_StatPanel_DescSearchFailed"
         '
         'UI04_StatPanel_TitleSearchFailed
         '
-        resources.ApplyResources(Me.UI04_StatPanel_TitleSearchFailed, "UI04_StatPanel_TitleSearchFailed")
         Me.UI04_StatPanel_TitleSearchFailed.AutoEllipsis = True
+        resources.ApplyResources(Me.UI04_StatPanel_TitleSearchFailed, "UI04_StatPanel_TitleSearchFailed")
         Me.UI04_StatPanel_TitleSearchFailed.BackColor = System.Drawing.Color.Transparent
         Me.UI04_StatPanel_TitleSearchFailed.ForeColor = System.Drawing.SystemColors.ControlText
         Me.UI04_StatPanel_TitleSearchFailed.Name = "UI04_StatPanel_TitleSearchFailed"
@@ -709,120 +709,120 @@ Partial Class Frm99_TranslateForm
         '
         'UI04_DownloadedText
         '
-        resources.ApplyResources(Me.UI04_DownloadedText, "UI04_DownloadedText")
         Me.UI04_DownloadedText.AutoEllipsis = True
+        resources.ApplyResources(Me.UI04_DownloadedText, "UI04_DownloadedText")
         Me.UI04_DownloadedText.BackColor = System.Drawing.Color.Transparent
         Me.UI04_DownloadedText.ForeColor = System.Drawing.SystemColors.ControlText
         Me.UI04_DownloadedText.Name = "UI04_DownloadedText"
         '
         'UI04_UpdateCheckInProgress
         '
-        resources.ApplyResources(Me.UI04_UpdateCheckInProgress, "UI04_UpdateCheckInProgress")
         Me.UI04_UpdateCheckInProgress.AutoEllipsis = True
+        resources.ApplyResources(Me.UI04_UpdateCheckInProgress, "UI04_UpdateCheckInProgress")
         Me.UI04_UpdateCheckInProgress.BackColor = System.Drawing.Color.Transparent
         Me.UI04_UpdateCheckInProgress.ForeColor = System.Drawing.SystemColors.ControlText
         Me.UI04_UpdateCheckInProgress.Name = "UI04_UpdateCheckInProgress"
         '
         'UI04_MegabyteUnit
         '
-        resources.ApplyResources(Me.UI04_MegabyteUnit, "UI04_MegabyteUnit")
         Me.UI04_MegabyteUnit.AutoEllipsis = True
+        resources.ApplyResources(Me.UI04_MegabyteUnit, "UI04_MegabyteUnit")
         Me.UI04_MegabyteUnit.BackColor = System.Drawing.Color.Transparent
         Me.UI04_MegabyteUnit.ForeColor = System.Drawing.SystemColors.ControlText
         Me.UI04_MegabyteUnit.Name = "UI04_MegabyteUnit"
         '
         'UI04_UpdateLastCheck
         '
-        resources.ApplyResources(Me.UI04_UpdateLastCheck, "UI04_UpdateLastCheck")
         Me.UI04_UpdateLastCheck.AutoEllipsis = True
+        resources.ApplyResources(Me.UI04_UpdateLastCheck, "UI04_UpdateLastCheck")
         Me.UI04_UpdateLastCheck.BackColor = System.Drawing.Color.Transparent
         Me.UI04_UpdateLastCheck.ForeColor = System.Drawing.SystemColors.ControlText
         Me.UI04_UpdateLastCheck.Name = "UI04_UpdateLastCheck"
         '
         'UI04_NewerVersion
         '
-        resources.ApplyResources(Me.UI04_NewerVersion, "UI04_NewerVersion")
         Me.UI04_NewerVersion.AutoEllipsis = True
+        resources.ApplyResources(Me.UI04_NewerVersion, "UI04_NewerVersion")
         Me.UI04_NewerVersion.BackColor = System.Drawing.Color.Transparent
         Me.UI04_NewerVersion.ForeColor = System.Drawing.SystemColors.ControlText
         Me.UI04_NewerVersion.Name = "UI04_NewerVersion"
         '
         'UI04_StatPanel_DescNoUpdate
         '
-        resources.ApplyResources(Me.UI04_StatPanel_DescNoUpdate, "UI04_StatPanel_DescNoUpdate")
         Me.UI04_StatPanel_DescNoUpdate.AutoEllipsis = True
+        resources.ApplyResources(Me.UI04_StatPanel_DescNoUpdate, "UI04_StatPanel_DescNoUpdate")
         Me.UI04_StatPanel_DescNoUpdate.BackColor = System.Drawing.Color.Transparent
         Me.UI04_StatPanel_DescNoUpdate.ForeColor = System.Drawing.SystemColors.ControlText
         Me.UI04_StatPanel_DescNoUpdate.Name = "UI04_StatPanel_DescNoUpdate"
         '
         'UI04_StatPanel_DescUpdatesFound
         '
-        resources.ApplyResources(Me.UI04_StatPanel_DescUpdatesFound, "UI04_StatPanel_DescUpdatesFound")
         Me.UI04_StatPanel_DescUpdatesFound.AutoEllipsis = True
+        resources.ApplyResources(Me.UI04_StatPanel_DescUpdatesFound, "UI04_StatPanel_DescUpdatesFound")
         Me.UI04_StatPanel_DescUpdatesFound.BackColor = System.Drawing.Color.Transparent
         Me.UI04_StatPanel_DescUpdatesFound.ForeColor = System.Drawing.SystemColors.ControlText
         Me.UI04_StatPanel_DescUpdatesFound.Name = "UI04_StatPanel_DescUpdatesFound"
         '
         'UI04_StatPanel_DescSearch
         '
-        resources.ApplyResources(Me.UI04_StatPanel_DescSearch, "UI04_StatPanel_DescSearch")
         Me.UI04_StatPanel_DescSearch.AutoEllipsis = True
+        resources.ApplyResources(Me.UI04_StatPanel_DescSearch, "UI04_StatPanel_DescSearch")
         Me.UI04_StatPanel_DescSearch.BackColor = System.Drawing.Color.Transparent
         Me.UI04_StatPanel_DescSearch.ForeColor = System.Drawing.SystemColors.ControlText
         Me.UI04_StatPanel_DescSearch.Name = "UI04_StatPanel_DescSearch"
         '
         'UI04_StatPanel_DescHome
         '
-        resources.ApplyResources(Me.UI04_StatPanel_DescHome, "UI04_StatPanel_DescHome")
         Me.UI04_StatPanel_DescHome.AutoEllipsis = True
+        resources.ApplyResources(Me.UI04_StatPanel_DescHome, "UI04_StatPanel_DescHome")
         Me.UI04_StatPanel_DescHome.BackColor = System.Drawing.Color.Transparent
         Me.UI04_StatPanel_DescHome.ForeColor = System.Drawing.SystemColors.ControlText
         Me.UI04_StatPanel_DescHome.Name = "UI04_StatPanel_DescHome"
         '
         'UI04_ErrorWhenDownloadingData
         '
-        resources.ApplyResources(Me.UI04_ErrorWhenDownloadingData, "UI04_ErrorWhenDownloadingData")
         Me.UI04_ErrorWhenDownloadingData.AutoEllipsis = True
+        resources.ApplyResources(Me.UI04_ErrorWhenDownloadingData, "UI04_ErrorWhenDownloadingData")
         Me.UI04_ErrorWhenDownloadingData.BackColor = System.Drawing.Color.Transparent
         Me.UI04_ErrorWhenDownloadingData.ForeColor = System.Drawing.SystemColors.ControlText
         Me.UI04_ErrorWhenDownloadingData.Name = "UI04_ErrorWhenDownloadingData"
         '
         'UI04_CurrentVersion
         '
-        resources.ApplyResources(Me.UI04_CurrentVersion, "UI04_CurrentVersion")
         Me.UI04_CurrentVersion.AutoEllipsis = True
+        resources.ApplyResources(Me.UI04_CurrentVersion, "UI04_CurrentVersion")
         Me.UI04_CurrentVersion.BackColor = System.Drawing.Color.Transparent
         Me.UI04_CurrentVersion.ForeColor = System.Drawing.SystemColors.ControlText
         Me.UI04_CurrentVersion.Name = "UI04_CurrentVersion"
         '
         'UI04_StatPanel_TitleNoUpdate
         '
-        resources.ApplyResources(Me.UI04_StatPanel_TitleNoUpdate, "UI04_StatPanel_TitleNoUpdate")
         Me.UI04_StatPanel_TitleNoUpdate.AutoEllipsis = True
+        resources.ApplyResources(Me.UI04_StatPanel_TitleNoUpdate, "UI04_StatPanel_TitleNoUpdate")
         Me.UI04_StatPanel_TitleNoUpdate.BackColor = System.Drawing.Color.Transparent
         Me.UI04_StatPanel_TitleNoUpdate.ForeColor = System.Drawing.SystemColors.ControlText
         Me.UI04_StatPanel_TitleNoUpdate.Name = "UI04_StatPanel_TitleNoUpdate"
         '
         'UI04_StatPanel_TitleUpdatesFound
         '
-        resources.ApplyResources(Me.UI04_StatPanel_TitleUpdatesFound, "UI04_StatPanel_TitleUpdatesFound")
         Me.UI04_StatPanel_TitleUpdatesFound.AutoEllipsis = True
+        resources.ApplyResources(Me.UI04_StatPanel_TitleUpdatesFound, "UI04_StatPanel_TitleUpdatesFound")
         Me.UI04_StatPanel_TitleUpdatesFound.BackColor = System.Drawing.Color.Transparent
         Me.UI04_StatPanel_TitleUpdatesFound.ForeColor = System.Drawing.SystemColors.ControlText
         Me.UI04_StatPanel_TitleUpdatesFound.Name = "UI04_StatPanel_TitleUpdatesFound"
         '
         'UI04_StatPanel_TitleSearch
         '
-        resources.ApplyResources(Me.UI04_StatPanel_TitleSearch, "UI04_StatPanel_TitleSearch")
         Me.UI04_StatPanel_TitleSearch.AutoEllipsis = True
+        resources.ApplyResources(Me.UI04_StatPanel_TitleSearch, "UI04_StatPanel_TitleSearch")
         Me.UI04_StatPanel_TitleSearch.BackColor = System.Drawing.Color.Transparent
         Me.UI04_StatPanel_TitleSearch.ForeColor = System.Drawing.SystemColors.ControlText
         Me.UI04_StatPanel_TitleSearch.Name = "UI04_StatPanel_TitleSearch"
         '
         'UI04_StatPanel_TitleHome
         '
-        resources.ApplyResources(Me.UI04_StatPanel_TitleHome, "UI04_StatPanel_TitleHome")
         Me.UI04_StatPanel_TitleHome.AutoEllipsis = True
+        resources.ApplyResources(Me.UI04_StatPanel_TitleHome, "UI04_StatPanel_TitleHome")
         Me.UI04_StatPanel_TitleHome.BackColor = System.Drawing.Color.Transparent
         Me.UI04_StatPanel_TitleHome.ForeColor = System.Drawing.SystemColors.ControlText
         Me.UI04_StatPanel_TitleHome.Name = "UI04_StatPanel_TitleHome"
@@ -839,8 +839,8 @@ Partial Class Frm99_TranslateForm
         '
         'TabPage5
         '
-        resources.ApplyResources(Me.TabPage5, "TabPage5")
         Me.TabPage5.Controls.Add(Me.UI05_IsAvailableText)
+        resources.ApplyResources(Me.TabPage5, "TabPage5")
         Me.TabPage5.Name = "TabPage5"
         Me.TabPage5.UseVisualStyleBackColor = True
         '
@@ -851,10 +851,10 @@ Partial Class Frm99_TranslateForm
         '
         'TabPage6
         '
-        resources.ApplyResources(Me.TabPage6, "TabPage6")
         Me.TabPage6.Controls.Add(Me.UI0A_FeatureUpdate)
         Me.TabPage6.Controls.Add(Me.UI0A_TradLine_01)
         Me.TabPage6.Controls.Add(Me.UI0A_TradLine_02)
+        resources.ApplyResources(Me.TabPage6, "TabPage6")
         Me.TabPage6.Name = "TabPage6"
         Me.TabPage6.UseVisualStyleBackColor = True
         '
@@ -877,11 +877,11 @@ Partial Class Frm99_TranslateForm
         '
         'TabPage7
         '
-        resources.ApplyResources(Me.TabPage7, "TabPage7")
         Me.TabPage7.Controls.Add(Me.RlmGUI_TradLine01)
         Me.TabPage7.Controls.Add(Me.RlmGUI_AboutTitle)
         Me.TabPage7.Controls.Add(Me.RlmGUI_Done)
         Me.TabPage7.Controls.Add(Me.RlmGUI_OutputZoom)
+        resources.ApplyResources(Me.TabPage7, "TabPage7")
         Me.TabPage7.Name = "TabPage7"
         Me.TabPage7.UseVisualStyleBackColor = True
         '

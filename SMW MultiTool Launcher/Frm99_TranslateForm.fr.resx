@@ -581,7 +581,7 @@ Vous pouvez écrire ces codes dans la zone de texte personnalisé.
     <value>263, 13</value>
   </data>
   <data name="UI04_UpdateInstallOnAppClose.Text" xml:space="preserve">
-    <value>La mise à jour s'installera à la fermeture de l'application</value>
+    <value>La mise à jour s'installera au prochain lancement de l'application</value>
   </data>
   <data name="UI04_UpdateInstalling.Size" type="System.Drawing.Size, System.Drawing">
     <value>66, 13</value>
