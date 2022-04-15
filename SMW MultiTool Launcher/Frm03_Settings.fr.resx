@@ -644,7 +644,7 @@
     <value>Fenêtre "Mises à jour logicielles"</value>
   </data>
   <data name="AppOption_UpdateAutomaticInstallSilentMode.Text" xml:space="preserve">
-    <value>Installer la mise à jour silencieusement après la fermeture du programme</value>
+    <value>Installer la mise à jour silencieusement prochain démarrage de SMWMTL</value>
   </data>
   <data name="AppOption_UpdateAutomaticDownload.Text" xml:space="preserve">
     <value>Télécharger automatiquement la mise à jour lorsqu'une nouvelle version est disponible</value>

@@ -6634,7 +6634,7 @@
     <value>511</value>
   </data>
   <data name="AppOption_UpdateAutomaticInstallSilentMode.Text" xml:space="preserve">
-    <value>Install this update in silent mode after closing program</value>
+    <value>Install this update silently the next time SMWMTL is started</value>
   </data>
   <data name="&gt;&gt;AppOption_UpdateAutomaticInstallSilentMode.Name" xml:space="preserve">
     <value>AppOption_UpdateAutomaticInstallSilentMode</value>
