@@ -1,5 +1,5 @@
 ## SMWMTL 2.20 Development:
-SMWMTL 2.20 Release Candidate 2 is available in the ![Releases](https://github.com/Kiki79250CoC/SMWMTL/releases) page.
+SMWMTL 2.20 Release Candidate 3 is available in the ![Releases](https://github.com/Kiki79250CoC/SMWMTL/releases) page.
 
 ---
 
