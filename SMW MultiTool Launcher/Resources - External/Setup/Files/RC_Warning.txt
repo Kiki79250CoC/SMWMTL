@@ -1,12 +1,12 @@
-SMWMTL 2.20 - RELEASE CANDIDATE 2
-COMPILE DATE : MARCH 17, 2022
+SMWMTL 2.20 - RELEASE CANDIDATE 3
+COMPILE DATE : APRIL 17, 2022
 ---------------------------------------------------
 
 WARNING ! This version is a Beta Release ! Please use this version with a LOT of precautions.
 Some features may have bugs !
 
-SMWMTL 2.20 - VERSION CANDIDATE 2
-DATE DE COMPILATION : 17 MARS 2022
+SMWMTL 2.20 - VERSION CANDIDATE 3
+DATE DE COMPILATION : 17 AVRIL 2022
 ---------------------------------------------------
 
 ATTENTION ! Cette version est une compilation de Beta ! Veuillez l'utiliser avec un TAS de précautions.
