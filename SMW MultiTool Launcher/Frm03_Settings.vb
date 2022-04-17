@@ -1385,7 +1385,11 @@ Public Class Frm03_Settings
         AppOption_LMslot1_SelectExecutable.Enabled = AppOption_EnableLMSlot1.Checked
     End Sub
     Private Sub AppOption_LMslot1_Name_TextChanged(sender As Object, e As EventArgs) Handles AppOption_LMslot1_Name.TextChanged
-        AppOption_LM1CTL_VersionSelector.Items(0) = AppOption_LMslot1_Name.Text
+        AppOption_LM1CTL_VersionSelector.Items(0) = If(AppOption_LMslot1_Name.Text = Nothing, "Lunar Magic (Slot 1)", AppOption_LMslot1_Name.Text)
+
+        For Each LaunchWithItems As ComboBox In {AppOption_Shortcut1_LaunchWith, AppOption_Shortcut2_LaunchWith, AppOption_Shortcut3_LaunchWith, AppOption_Shortcut4_LaunchWith, AppOption_Shortcut5_LaunchWith, AppOption_Shortcut6_LaunchWith}
+            LaunchWithItems.Items(1) = If(AppOption_LMslot1_Name.Text = Nothing, "Lunar Magic (Slot 1)", $"LM Slot 1 • {AppOption_LMslot1_Name.Text}")
+        Next
     End Sub
     Private Sub AppOption_LMslot1_SelectExecutable_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles AppOption_LMslot1_SelectExecutable.LinkClicked
         Dim result As DialogResult = SelectApplicationExecutable_OpenFileBox.ShowDialog()
@@ -1403,7 +1407,11 @@ Public Class Frm03_Settings
         AppOption_LMslot2_SelectExecutable.Enabled = AppOption_EnableLMSlot2.Checked
     End Sub
     Private Sub AppOption_LMslot2_Name_TextChanged(sender As Object, e As EventArgs) Handles AppOption_LMslot2_Name.TextChanged
-        AppOption_LM1CTL_VersionSelector.Items(1) = AppOption_LMslot2_Name.Text
+        AppOption_LM1CTL_VersionSelector.Items(1) = If(AppOption_LMslot2_Name.Text = Nothing, "Lunar Magic (Slot 2)", AppOption_LMslot2_Name.Text)
+
+        For Each LaunchWithItems As ComboBox In {AppOption_Shortcut1_LaunchWith, AppOption_Shortcut2_LaunchWith, AppOption_Shortcut3_LaunchWith, AppOption_Shortcut4_LaunchWith, AppOption_Shortcut5_LaunchWith, AppOption_Shortcut6_LaunchWith}
+            LaunchWithItems.Items(2) = If(AppOption_LMslot2_Name.Text = Nothing, "Lunar Magic (Slot 2)", $"LM Slot 2 • {AppOption_LMslot2_Name.Text}")
+        Next
     End Sub
     Private Sub AppOption_LMslot2_SelectExecutable_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles AppOption_LMslot2_SelectExecutable.LinkClicked
         Dim result As DialogResult = SelectApplicationExecutable_OpenFileBox.ShowDialog()
@@ -1421,7 +1429,11 @@ Public Class Frm03_Settings
         AppOption_LMslot3_SelectExecutable.Enabled = AppOption_EnableLMSlot3.Checked
     End Sub
     Private Sub AppOption_LMslot3_Name_TextChanged(sender As Object, e As EventArgs) Handles AppOption_LMslot3_Name.TextChanged
-        AppOption_LM1CTL_VersionSelector.Items(2) = AppOption_LMslot3_Name.Text
+        AppOption_LM1CTL_VersionSelector.Items(2) = If(AppOption_LMslot3_Name.Text = Nothing, "Lunar Magic (Slot 3)", AppOption_LMslot3_Name.Text)
+
+        For Each LaunchWithItems As ComboBox In {AppOption_Shortcut1_LaunchWith, AppOption_Shortcut2_LaunchWith, AppOption_Shortcut3_LaunchWith, AppOption_Shortcut4_LaunchWith, AppOption_Shortcut5_LaunchWith, AppOption_Shortcut6_LaunchWith}
+            LaunchWithItems.Items(3) = If(AppOption_LMslot3_Name.Text = Nothing, "Lunar Magic (Slot 3)", $"LM Slot 3 • {AppOption_LMslot3_Name.Text}")
+        Next
     End Sub
     Private Sub AppOption_LMslot3_SelectExecutable_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles AppOption_LMslot3_SelectExecutable.LinkClicked
         Dim result As DialogResult = SelectApplicationExecutable_OpenFileBox.ShowDialog()

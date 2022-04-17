@@ -1678,6 +1678,7 @@ Partial Class Frm03_Settings
         'AppOption_Shortcut4_LaunchWith
         '
         Me.AppOption_Shortcut4_LaunchWith.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.AppOption_Shortcut4_LaunchWith.DropDownWidth = 200
         resources.ApplyResources(Me.AppOption_Shortcut4_LaunchWith, "AppOption_Shortcut4_LaunchWith")
         Me.AppOption_Shortcut4_LaunchWith.FormattingEnabled = True
         Me.AppOption_Shortcut4_LaunchWith.Items.AddRange(New Object() {resources.GetString("AppOption_Shortcut4_LaunchWith.Items"), resources.GetString("AppOption_Shortcut4_LaunchWith.Items1"), resources.GetString("AppOption_Shortcut4_LaunchWith.Items2"), resources.GetString("AppOption_Shortcut4_LaunchWith.Items3"), resources.GetString("AppOption_Shortcut4_LaunchWith.Items4"), resources.GetString("AppOption_Shortcut4_LaunchWith.Items5"), resources.GetString("AppOption_Shortcut4_LaunchWith.Items6"), resources.GetString("AppOption_Shortcut4_LaunchWith.Items7"), resources.GetString("AppOption_Shortcut4_LaunchWith.Items8"), resources.GetString("AppOption_Shortcut4_LaunchWith.Items9"), resources.GetString("AppOption_Shortcut4_LaunchWith.Items10"), resources.GetString("AppOption_Shortcut4_LaunchWith.Items11")})
@@ -1737,6 +1738,7 @@ Partial Class Frm03_Settings
         'AppOption_Shortcut6_LaunchWith
         '
         Me.AppOption_Shortcut6_LaunchWith.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.AppOption_Shortcut6_LaunchWith.DropDownWidth = 200
         resources.ApplyResources(Me.AppOption_Shortcut6_LaunchWith, "AppOption_Shortcut6_LaunchWith")
         Me.AppOption_Shortcut6_LaunchWith.FormattingEnabled = True
         Me.AppOption_Shortcut6_LaunchWith.Items.AddRange(New Object() {resources.GetString("AppOption_Shortcut6_LaunchWith.Items"), resources.GetString("AppOption_Shortcut6_LaunchWith.Items1"), resources.GetString("AppOption_Shortcut6_LaunchWith.Items2"), resources.GetString("AppOption_Shortcut6_LaunchWith.Items3"), resources.GetString("AppOption_Shortcut6_LaunchWith.Items4"), resources.GetString("AppOption_Shortcut6_LaunchWith.Items5"), resources.GetString("AppOption_Shortcut6_LaunchWith.Items6"), resources.GetString("AppOption_Shortcut6_LaunchWith.Items7"), resources.GetString("AppOption_Shortcut6_LaunchWith.Items8"), resources.GetString("AppOption_Shortcut6_LaunchWith.Items9"), resources.GetString("AppOption_Shortcut6_LaunchWith.Items10"), resources.GetString("AppOption_Shortcut6_LaunchWith.Items11")})
@@ -1790,6 +1792,7 @@ Partial Class Frm03_Settings
         'AppOption_Shortcut3_LaunchWith
         '
         Me.AppOption_Shortcut3_LaunchWith.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.AppOption_Shortcut3_LaunchWith.DropDownWidth = 200
         resources.ApplyResources(Me.AppOption_Shortcut3_LaunchWith, "AppOption_Shortcut3_LaunchWith")
         Me.AppOption_Shortcut3_LaunchWith.FormattingEnabled = True
         Me.AppOption_Shortcut3_LaunchWith.Items.AddRange(New Object() {resources.GetString("AppOption_Shortcut3_LaunchWith.Items"), resources.GetString("AppOption_Shortcut3_LaunchWith.Items1"), resources.GetString("AppOption_Shortcut3_LaunchWith.Items2"), resources.GetString("AppOption_Shortcut3_LaunchWith.Items3"), resources.GetString("AppOption_Shortcut3_LaunchWith.Items4"), resources.GetString("AppOption_Shortcut3_LaunchWith.Items5"), resources.GetString("AppOption_Shortcut3_LaunchWith.Items6"), resources.GetString("AppOption_Shortcut3_LaunchWith.Items7"), resources.GetString("AppOption_Shortcut3_LaunchWith.Items8"), resources.GetString("AppOption_Shortcut3_LaunchWith.Items9"), resources.GetString("AppOption_Shortcut3_LaunchWith.Items10"), resources.GetString("AppOption_Shortcut3_LaunchWith.Items11")})
@@ -1851,6 +1854,7 @@ Partial Class Frm03_Settings
         'AppOption_Shortcut5_LaunchWith
         '
         Me.AppOption_Shortcut5_LaunchWith.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.AppOption_Shortcut5_LaunchWith.DropDownWidth = 200
         resources.ApplyResources(Me.AppOption_Shortcut5_LaunchWith, "AppOption_Shortcut5_LaunchWith")
         Me.AppOption_Shortcut5_LaunchWith.FormattingEnabled = True
         Me.AppOption_Shortcut5_LaunchWith.Items.AddRange(New Object() {resources.GetString("AppOption_Shortcut5_LaunchWith.Items"), resources.GetString("AppOption_Shortcut5_LaunchWith.Items1"), resources.GetString("AppOption_Shortcut5_LaunchWith.Items2"), resources.GetString("AppOption_Shortcut5_LaunchWith.Items3"), resources.GetString("AppOption_Shortcut5_LaunchWith.Items4"), resources.GetString("AppOption_Shortcut5_LaunchWith.Items5"), resources.GetString("AppOption_Shortcut5_LaunchWith.Items6"), resources.GetString("AppOption_Shortcut5_LaunchWith.Items7"), resources.GetString("AppOption_Shortcut5_LaunchWith.Items8"), resources.GetString("AppOption_Shortcut5_LaunchWith.Items9"), resources.GetString("AppOption_Shortcut5_LaunchWith.Items10"), resources.GetString("AppOption_Shortcut5_LaunchWith.Items11")})
@@ -1929,6 +1933,7 @@ Partial Class Frm03_Settings
         'AppOption_Shortcut2_LaunchWith
         '
         Me.AppOption_Shortcut2_LaunchWith.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.AppOption_Shortcut2_LaunchWith.DropDownWidth = 200
         resources.ApplyResources(Me.AppOption_Shortcut2_LaunchWith, "AppOption_Shortcut2_LaunchWith")
         Me.AppOption_Shortcut2_LaunchWith.FormattingEnabled = True
         Me.AppOption_Shortcut2_LaunchWith.Items.AddRange(New Object() {resources.GetString("AppOption_Shortcut2_LaunchWith.Items"), resources.GetString("AppOption_Shortcut2_LaunchWith.Items1"), resources.GetString("AppOption_Shortcut2_LaunchWith.Items2"), resources.GetString("AppOption_Shortcut2_LaunchWith.Items3"), resources.GetString("AppOption_Shortcut2_LaunchWith.Items4"), resources.GetString("AppOption_Shortcut2_LaunchWith.Items5"), resources.GetString("AppOption_Shortcut2_LaunchWith.Items6"), resources.GetString("AppOption_Shortcut2_LaunchWith.Items7"), resources.GetString("AppOption_Shortcut2_LaunchWith.Items8"), resources.GetString("AppOption_Shortcut2_LaunchWith.Items9"), resources.GetString("AppOption_Shortcut2_LaunchWith.Items10"), resources.GetString("AppOption_Shortcut2_LaunchWith.Items11")})
@@ -1982,6 +1987,7 @@ Partial Class Frm03_Settings
         'AppOption_Shortcut1_LaunchWith
         '
         Me.AppOption_Shortcut1_LaunchWith.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.AppOption_Shortcut1_LaunchWith.DropDownWidth = 200
         resources.ApplyResources(Me.AppOption_Shortcut1_LaunchWith, "AppOption_Shortcut1_LaunchWith")
         Me.AppOption_Shortcut1_LaunchWith.FormattingEnabled = True
         Me.AppOption_Shortcut1_LaunchWith.Items.AddRange(New Object() {resources.GetString("AppOption_Shortcut1_LaunchWith.Items"), resources.GetString("AppOption_Shortcut1_LaunchWith.Items1"), resources.GetString("AppOption_Shortcut1_LaunchWith.Items2"), resources.GetString("AppOption_Shortcut1_LaunchWith.Items3"), resources.GetString("AppOption_Shortcut1_LaunchWith.Items4"), resources.GetString("AppOption_Shortcut1_LaunchWith.Items5"), resources.GetString("AppOption_Shortcut1_LaunchWith.Items6"), resources.GetString("AppOption_Shortcut1_LaunchWith.Items7"), resources.GetString("AppOption_Shortcut1_LaunchWith.Items8"), resources.GetString("AppOption_Shortcut1_LaunchWith.Items9"), resources.GetString("AppOption_Shortcut1_LaunchWith.Items10"), resources.GetString("AppOption_Shortcut1_LaunchWith.Items11")})
