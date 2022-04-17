@@ -620,12 +620,7 @@ Public Class Frm01_Main
                     Case True
                         Shortcut_1.Enabled = True
 
-                        Dim Shortcut1_ToolTip As New ToolTip With {
-                            .Active = True,
-                            .AutoPopDelay = 5000,
-                            .InitialDelay = 500,
-                            .ToolTipTitle = $"{Frm99_TranslateForm.UI01_ShortcutTitle.Text} {Shortcut_1.Tag}"
-                        }
+                        Dim Shortcut1_ToolTip As New ToolTip With {.Active = True, .AutoPopDelay = 5000, .InitialDelay = 500, .ToolTipTitle = $"{Frm99_TranslateForm.UI01_ShortcutTitle.Text} {Shortcut_1.Tag}"}
 
 #Region "                            'Launch with' setting "
 
@@ -794,12 +789,7 @@ Public Class Frm01_Main
                     Case True
                         Shortcut_2.Enabled = True
 
-                        Dim Shortcut2_ToolTip As New ToolTip With {
-                            .Active = True,
-                            .AutoPopDelay = 5000,
-                            .InitialDelay = 500,
-                            .ToolTipTitle = $"{Frm99_TranslateForm.UI01_ShortcutTitle.Text} {Shortcut_2.Tag}"
-                        }
+                        Dim Shortcut2_ToolTip As New ToolTip With {.Active = True, .AutoPopDelay = 5000, .InitialDelay = 500, .ToolTipTitle = $"{Frm99_TranslateForm.UI01_ShortcutTitle.Text} {Shortcut_2.Tag}"}
 
 #Region "                            'Launch with' setting "
 
@@ -968,12 +958,7 @@ Public Class Frm01_Main
                     Case True
                         Shortcut_3.Enabled = True
 
-                        Dim Shortcut3_ToolTip As New ToolTip With {
-                            .Active = True,
-                            .AutoPopDelay = 5000,
-                            .InitialDelay = 500,
-                            .ToolTipTitle = $"{Frm99_TranslateForm.UI01_ShortcutTitle.Text} {Shortcut_3.Tag}"
-                        }
+                        Dim Shortcut3_ToolTip As New ToolTip With {.Active = True, .AutoPopDelay = 5000, .InitialDelay = 500, .ToolTipTitle = $"{Frm99_TranslateForm.UI01_ShortcutTitle.Text} {Shortcut_3.Tag}"}
 
 #Region "                            'Launch with' setting "
 
@@ -1142,12 +1127,7 @@ Public Class Frm01_Main
                     Case True
                         Shortcut_4.Enabled = True
 
-                        Dim Shortcut4_ToolTip As New ToolTip With {
-                            .Active = True,
-                            .AutoPopDelay = 5000,
-                            .InitialDelay = 500,
-                            .ToolTipTitle = $"{Frm99_TranslateForm.UI01_ShortcutTitle.Text} {Shortcut_4.Tag}"
-                        }
+                        Dim Shortcut4_ToolTip As New ToolTip With {.Active = True, .AutoPopDelay = 5000, .InitialDelay = 500, .ToolTipTitle = $"{Frm99_TranslateForm.UI01_ShortcutTitle.Text} {Shortcut_4.Tag}"}
 
 #Region "                            'Launch with' setting "
 
@@ -1316,12 +1296,7 @@ Public Class Frm01_Main
                     Case True
                         Shortcut_5.Enabled = True
 
-                        Dim Shortcut5_ToolTip As New ToolTip With {
-                            .Active = True,
-                            .AutoPopDelay = 5000,
-                            .InitialDelay = 500,
-                            .ToolTipTitle = $"{Frm99_TranslateForm.UI01_ShortcutTitle.Text} {Shortcut_5.Tag}"
-                        }
+                        Dim Shortcut5_ToolTip As New ToolTip With {.Active = True, .AutoPopDelay = 5000, .InitialDelay = 500, .ToolTipTitle = $"{Frm99_TranslateForm.UI01_ShortcutTitle.Text} {Shortcut_5.Tag}"}
 
 #Region "                            'Launch with' setting "
 
@@ -1490,12 +1465,7 @@ Public Class Frm01_Main
                     Case True
                         Shortcut_6.Enabled = True
 
-                        Dim Shortcut6_ToolTip As New ToolTip With {
-                            .Active = True,
-                            .AutoPopDelay = 5000,
-                            .InitialDelay = 500,
-                            .ToolTipTitle = $"{Frm99_TranslateForm.UI01_ShortcutTitle.Text} {Shortcut_6.Tag}"
-                        }
+                        Dim Shortcut6_ToolTip As New ToolTip With {.Active = True, .AutoPopDelay = 5000, .InitialDelay = 500, .ToolTipTitle = $"{Frm99_TranslateForm.UI01_ShortcutTitle.Text} {Shortcut_6.Tag}"}
 
 #Region "                            'Launch with' setting "
 
