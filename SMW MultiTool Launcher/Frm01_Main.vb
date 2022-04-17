@@ -1810,7 +1810,7 @@ Public Class Frm01_Main
 
         End Select
 
-        Dim LM_SubBtn1_ToolTip As New ToolTip With {.Active = True, .AutoPopDelay = 5000, .InitialDelay = 500, .ToolTipTitle = $"{LM_Button.Tag} • Slot 1 ({My.Settings.LM_SLOT1_NAME})"}
+        Dim LM_SubBtn1_ToolTip As New ToolTip With {.Active = True, .AutoPopDelay = 5000, .InitialDelay = 500, .ToolTipTitle = $"{LM_Button.Tag} • Slot 1{If(My.Settings.LM_SLOT1_NAME = Nothing, "", $" ({My.Settings.LM_SLOT1_NAME})")}"}
         LM_SubBtn1_ToolTip.SetToolTip(LM_Option_1, $"{Frm99_TranslateForm.UI01_ExecutablePath.Text} {My.Settings.LM_SLOT1_PATH}")
 
         ' Lunar Magic - Slot 2
@@ -1959,7 +1959,7 @@ Public Class Frm01_Main
 
         End Select
 
-        Dim LM_SubBtn2_ToolTip As New ToolTip With {.Active = True, .AutoPopDelay = 5000, .InitialDelay = 500, .ToolTipTitle = $"{LM_Button.Tag} • Slot 2 ({My.Settings.LM_SLOT2_NAME})"}
+        Dim LM_SubBtn2_ToolTip As New ToolTip With {.Active = True, .AutoPopDelay = 5000, .InitialDelay = 500, .ToolTipTitle = $"{LM_Button.Tag} • Slot 2{If(My.Settings.LM_SLOT2_NAME = Nothing, "", $" ({My.Settings.LM_SLOT2_NAME})")}"}
         LM_SubBtn2_ToolTip.SetToolTip(LM_Option_2, $"{Frm99_TranslateForm.UI01_ExecutablePath.Text} {My.Settings.LM_SLOT2_PATH}")
 
         ' Lunar Magic - Slot 3
@@ -2108,7 +2108,7 @@ Public Class Frm01_Main
 
         End Select
 
-        Dim LM_SubBtn3_ToolTip As New ToolTip With {.Active = True, .AutoPopDelay = 5000, .InitialDelay = 500, .ToolTipTitle = $"{LM_Button.Tag} • Slot 3 ({My.Settings.LM_SLOT3_NAME})"}
+        Dim LM_SubBtn3_ToolTip As New ToolTip With {.Active = True, .AutoPopDelay = 5000, .InitialDelay = 500, .ToolTipTitle = $"{LM_Button.Tag} • Slot 3{If(My.Settings.LM_SLOT3_NAME = Nothing, "", $" ({My.Settings.LM_SLOT3_NAME})")}"}
         LM_SubBtn3_ToolTip.SetToolTip(LM_Option_3, $"{Frm99_TranslateForm.UI01_ExecutablePath.Text} {My.Settings.LM_SLOT3_PATH}")
 
         ' Lunar Magic - Main button
@@ -2124,7 +2124,7 @@ Public Class Frm01_Main
             Case True
                 Select Case My.Settings.LM_1CTL_SELECTED_VERSION
                     Case 0
-                        LM_MainBtn_ToolTip.ToolTipTitle = $"{LM_Button.Tag} • {Frm99_TranslateForm.UI01_SelectedLMSlot.Text} 1 ({My.Settings.LM_SLOT1_NAME})"
+                        LM_MainBtn_ToolTip.ToolTipTitle = $"{LM_Button.Tag} • {Frm99_TranslateForm.UI01_SelectedLMSlot.Text} 1{If(My.Settings.LM_SLOT1_NAME = Nothing, "", $" ({My.Settings.LM_SLOT1_NAME})")}"
                         LM_MainBtn_ToolTip.SetToolTip(LM_Button, $"{Frm99_TranslateForm.UI01_ExecutablePath.Text} {My.Settings.LM_SLOT1_PATH}")
                         LM_Button.Image = LM_Option_1.Image
 
@@ -2136,7 +2136,7 @@ Public Class Frm01_Main
                         End Select
 
                     Case 1
-                        LM_MainBtn_ToolTip.ToolTipTitle = $"{LM_Button.Tag} • {Frm99_TranslateForm.UI01_SelectedLMSlot.Text} 2 ({My.Settings.LM_SLOT2_NAME})"
+                        LM_MainBtn_ToolTip.ToolTipTitle = $"{LM_Button.Tag} • {Frm99_TranslateForm.UI01_SelectedLMSlot.Text} 2{If(My.Settings.LM_SLOT2_NAME = Nothing, "", $" ({My.Settings.LM_SLOT2_NAME})")}"
                         LM_MainBtn_ToolTip.SetToolTip(LM_Button, $"{Frm99_TranslateForm.UI01_ExecutablePath.Text} {My.Settings.LM_SLOT2_PATH}")
                         LM_Button.Image = LM_Option_2.Image
 
@@ -2148,7 +2148,7 @@ Public Class Frm01_Main
                         End Select
 
                     Case 2
-                        LM_MainBtn_ToolTip.ToolTipTitle = $"{LM_Button.Tag} • {Frm99_TranslateForm.UI01_SelectedLMSlot.Text} 3 ({My.Settings.LM_SLOT3_PATH})"
+                        LM_MainBtn_ToolTip.ToolTipTitle = $"{LM_Button.Tag} • {Frm99_TranslateForm.UI01_SelectedLMSlot.Text} 3{If(My.Settings.LM_SLOT3_NAME = Nothing, "", $" ({My.Settings.LM_SLOT3_NAME})")}"
                         LM_MainBtn_ToolTip.SetToolTip(LM_Button, $"{Frm99_TranslateForm.UI01_ExecutablePath.Text} {My.Settings.LM_SLOT3_PATH}")
                         LM_Button.Image = LM_Option_3.Image
 

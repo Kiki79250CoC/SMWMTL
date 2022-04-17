@@ -7165,13 +7165,13 @@
     <value>13</value>
   </data>
   <data name="AppOption_LM1CTL_VersionSelector.Items" xml:space="preserve">
-    <value>SLOT_1</value>
+    <value>Lunar Magic (Slot 1)</value>
   </data>
   <data name="AppOption_LM1CTL_VersionSelector.Items1" xml:space="preserve">
-    <value>SLOT_2</value>
+    <value>Lunar Magic (Slot 2)</value>
   </data>
   <data name="AppOption_LM1CTL_VersionSelector.Items2" xml:space="preserve">
-    <value>SLOT_3</value>
+    <value>Lunar Magic (Slot 3)</value>
   </data>
   <data name="AppOption_LM1CTL_VersionSelector.Location" type="System.Drawing.Point, System.Drawing">
     <value>9, 80</value>
