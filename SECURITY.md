@@ -47,7 +47,7 @@ However, there's an exception for the last release of a codebase (like 1.20 and 
 
 | Version            | Release Date       | End of Support date | Support state            |
 | ------------------ | ------------------ | ------------------- | ------------------------ |
-| 2.20 RC3           | 17 April 2022      | 17 May 2022         | Soon                     |
+| 2.20 RC3           | 17 April 2022      | 17 May 2022         | Supported                |
 | 2.20 RC2           | 17 March 2022      | 17 May 2022         | Supported                |
 | 2.20 RC1           | 17 February 2022   | 17 May 2022         | Supported                |
 ||
