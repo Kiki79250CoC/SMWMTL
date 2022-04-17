@@ -36,7 +36,13 @@ Namespace My
                 Case True
                     Select Case GetFileVersionInfo($"{Application.Info.DirectoryPath}\UpdatePkg.exe").ToString
                         Case Is <= $"{Resources.APP_VERSION}.{Resources.APP_VERSION_BUILD}"
-                            IO.File.Delete($"{Application.Info.DirectoryPath}\UpdatePkg.exe")
+                            Try
+
+                                IO.File.Delete($"{Application.Info.DirectoryPath}\UpdatePkg.exe")
+
+                            Catch ex As Exception
+
+                            End Try
 
                         Case Is > $"{Resources.APP_VERSION}.{Resources.APP_VERSION_BUILD}"
                             Select Case Settings.UPDATE_SILENT_INSTALL
