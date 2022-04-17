@@ -634,13 +634,13 @@ Public Class Frm01_Main
                                 Shortcut1_ToolTip.ToolTipTitle += $" • {Frm99_TranslateForm.UI01_ShortcutManagedByWindows.Text}"
 
                             Case 1
-                                Shortcut1_ToolTip.ToolTipTitle += $" • {Frm99_TranslateForm.UI01_ShortcutLaunchWith.Text} Lunar Magic (Slot 1 • {My.Settings.LM_SLOT1_NAME})"
+                                Shortcut1_ToolTip.ToolTipTitle += $" • {Frm99_TranslateForm.UI01_ShortcutLaunchWith.Text} Lunar Magic (Slot 1{If(My.Settings.LM_SLOT1_NAME = Nothing, "", $" • {My.Settings.LM_SLOT1_NAME}")})"
 
                             Case 2
-                                Shortcut1_ToolTip.ToolTipTitle += $" • {Frm99_TranslateForm.UI01_ShortcutLaunchWith.Text} Lunar Magic (Slot 2 • {My.Settings.LM_SLOT2_NAME})"
+                                Shortcut1_ToolTip.ToolTipTitle += $" • {Frm99_TranslateForm.UI01_ShortcutLaunchWith.Text} Lunar Magic (Slot 2{If(My.Settings.LM_SLOT2_NAME = Nothing, "", $" • {My.Settings.LM_SLOT2_NAME}")})"
 
                             Case 3
-                                Shortcut1_ToolTip.ToolTipTitle += $" • {Frm99_TranslateForm.UI01_ShortcutLaunchWith.Text} Lunar Magic (Slot 3 • {My.Settings.LM_SLOT3_NAME})"
+                                Shortcut1_ToolTip.ToolTipTitle += $" • {Frm99_TranslateForm.UI01_ShortcutLaunchWith.Text} Lunar Magic (Slot 3{If(My.Settings.LM_SLOT3_NAME = Nothing, "", $" • {My.Settings.LM_SLOT3_NAME}")})"
 
                             Case 4
                                 Shortcut1_ToolTip.ToolTipTitle += $" • {Frm99_TranslateForm.UI01_ShortcutLaunchWith.Text} Level Music Utility"
@@ -808,13 +808,13 @@ Public Class Frm01_Main
                                 Shortcut2_ToolTip.ToolTipTitle += $" • {Frm99_TranslateForm.UI01_ShortcutManagedByWindows.Text}"
 
                             Case 1
-                                Shortcut2_ToolTip.ToolTipTitle += $" • {Frm99_TranslateForm.UI01_ShortcutLaunchWith.Text} Lunar Magic (Slot 1 • {My.Settings.LM_SLOT1_NAME})"
+                                Shortcut2_ToolTip.ToolTipTitle += $" • {Frm99_TranslateForm.UI01_ShortcutLaunchWith.Text} Lunar Magic (Slot 1{If(My.Settings.LM_SLOT1_NAME = Nothing, "", $" • {My.Settings.LM_SLOT1_NAME}")})"
 
                             Case 2
-                                Shortcut2_ToolTip.ToolTipTitle += $" • {Frm99_TranslateForm.UI01_ShortcutLaunchWith.Text} Lunar Magic (Slot 2 • {My.Settings.LM_SLOT2_NAME})"
+                                Shortcut2_ToolTip.ToolTipTitle += $" • {Frm99_TranslateForm.UI01_ShortcutLaunchWith.Text} Lunar Magic (Slot 2{If(My.Settings.LM_SLOT2_NAME = Nothing, "", $" • {My.Settings.LM_SLOT2_NAME}")})"
 
                             Case 3
-                                Shortcut2_ToolTip.ToolTipTitle += $" • {Frm99_TranslateForm.UI01_ShortcutLaunchWith.Text} Lunar Magic (Slot 3 • {My.Settings.LM_SLOT3_NAME})"
+                                Shortcut2_ToolTip.ToolTipTitle += $" • {Frm99_TranslateForm.UI01_ShortcutLaunchWith.Text} Lunar Magic (Slot 3{If(My.Settings.LM_SLOT3_NAME = Nothing, "", $" • {My.Settings.LM_SLOT3_NAME}")})"
 
                             Case 4
                                 Shortcut2_ToolTip.ToolTipTitle += $" • {Frm99_TranslateForm.UI01_ShortcutLaunchWith.Text} Level Music Utility"
@@ -982,13 +982,13 @@ Public Class Frm01_Main
                                 Shortcut3_ToolTip.ToolTipTitle += $" • {Frm99_TranslateForm.UI01_ShortcutManagedByWindows.Text}"
 
                             Case 1
-                                Shortcut3_ToolTip.ToolTipTitle += $" • {Frm99_TranslateForm.UI01_ShortcutLaunchWith.Text} Lunar Magic (Slot 1 • {My.Settings.LM_SLOT1_NAME})"
+                                Shortcut3_ToolTip.ToolTipTitle += $" • {Frm99_TranslateForm.UI01_ShortcutLaunchWith.Text} Lunar Magic (Slot 1{If(My.Settings.LM_SLOT1_NAME = Nothing, "", $" • {My.Settings.LM_SLOT1_NAME}")})"
 
                             Case 2
-                                Shortcut3_ToolTip.ToolTipTitle += $" • {Frm99_TranslateForm.UI01_ShortcutLaunchWith.Text} Lunar Magic (Slot 2 • {My.Settings.LM_SLOT2_NAME})"
+                                Shortcut3_ToolTip.ToolTipTitle += $" • {Frm99_TranslateForm.UI01_ShortcutLaunchWith.Text} Lunar Magic (Slot 2{If(My.Settings.LM_SLOT2_NAME = Nothing, "", $" • {My.Settings.LM_SLOT2_NAME}")})"
 
                             Case 3
-                                Shortcut3_ToolTip.ToolTipTitle += $" • {Frm99_TranslateForm.UI01_ShortcutLaunchWith.Text} Lunar Magic (Slot 3 • {My.Settings.LM_SLOT3_NAME})"
+                                Shortcut3_ToolTip.ToolTipTitle += $" • {Frm99_TranslateForm.UI01_ShortcutLaunchWith.Text} Lunar Magic (Slot 3{If(My.Settings.LM_SLOT3_NAME = Nothing, "", $" • {My.Settings.LM_SLOT3_NAME}")})"
 
                             Case 4
                                 Shortcut3_ToolTip.ToolTipTitle += $" • {Frm99_TranslateForm.UI01_ShortcutLaunchWith.Text} Level Music Utility"
@@ -1156,13 +1156,13 @@ Public Class Frm01_Main
                                 Shortcut4_ToolTip.ToolTipTitle += $" • {Frm99_TranslateForm.UI01_ShortcutManagedByWindows.Text}"
 
                             Case 1
-                                Shortcut4_ToolTip.ToolTipTitle += $" • {Frm99_TranslateForm.UI01_ShortcutLaunchWith.Text} Lunar Magic (Slot 1 • {My.Settings.LM_SLOT1_NAME})"
+                                Shortcut4_ToolTip.ToolTipTitle += $" • {Frm99_TranslateForm.UI01_ShortcutLaunchWith.Text} Lunar Magic (Slot 1{If(My.Settings.LM_SLOT1_NAME = Nothing, "", $" • {My.Settings.LM_SLOT1_NAME}")})"
 
                             Case 2
-                                Shortcut4_ToolTip.ToolTipTitle += $" • {Frm99_TranslateForm.UI01_ShortcutLaunchWith.Text} Lunar Magic (Slot 2 • {My.Settings.LM_SLOT2_NAME})"
+                                Shortcut4_ToolTip.ToolTipTitle += $" • {Frm99_TranslateForm.UI01_ShortcutLaunchWith.Text} Lunar Magic (Slot 2{If(My.Settings.LM_SLOT2_NAME = Nothing, "", $" • {My.Settings.LM_SLOT2_NAME}")})"
 
                             Case 3
-                                Shortcut4_ToolTip.ToolTipTitle += $" • {Frm99_TranslateForm.UI01_ShortcutLaunchWith.Text} Lunar Magic (Slot 3 • {My.Settings.LM_SLOT3_NAME})"
+                                Shortcut4_ToolTip.ToolTipTitle += $" • {Frm99_TranslateForm.UI01_ShortcutLaunchWith.Text} Lunar Magic (Slot 3{If(My.Settings.LM_SLOT3_NAME = Nothing, "", $" • {My.Settings.LM_SLOT3_NAME}")})"
 
                             Case 4
                                 Shortcut4_ToolTip.ToolTipTitle += $" • {Frm99_TranslateForm.UI01_ShortcutLaunchWith.Text} Level Music Utility"
@@ -1330,13 +1330,13 @@ Public Class Frm01_Main
                                 Shortcut5_ToolTip.ToolTipTitle += $" • {Frm99_TranslateForm.UI01_ShortcutManagedByWindows.Text}"
 
                             Case 1
-                                Shortcut5_ToolTip.ToolTipTitle += $" • {Frm99_TranslateForm.UI01_ShortcutLaunchWith.Text} Lunar Magic (Slot 1 • {My.Settings.LM_SLOT1_NAME})"
+                                Shortcut5_ToolTip.ToolTipTitle += $" • {Frm99_TranslateForm.UI01_ShortcutLaunchWith.Text} Lunar Magic (Slot 1{If(My.Settings.LM_SLOT1_NAME = Nothing, "", $" • {My.Settings.LM_SLOT1_NAME}")})"
 
                             Case 2
-                                Shortcut5_ToolTip.ToolTipTitle += $" • {Frm99_TranslateForm.UI01_ShortcutLaunchWith.Text} Lunar Magic (Slot 2 • {My.Settings.LM_SLOT2_NAME})"
+                                Shortcut5_ToolTip.ToolTipTitle += $" • {Frm99_TranslateForm.UI01_ShortcutLaunchWith.Text} Lunar Magic (Slot 2{If(My.Settings.LM_SLOT2_NAME = Nothing, "", $" • {My.Settings.LM_SLOT2_NAME}")})"
 
                             Case 3
-                                Shortcut5_ToolTip.ToolTipTitle += $" • {Frm99_TranslateForm.UI01_ShortcutLaunchWith.Text} Lunar Magic (Slot 3 • {My.Settings.LM_SLOT3_NAME})"
+                                Shortcut5_ToolTip.ToolTipTitle += $" • {Frm99_TranslateForm.UI01_ShortcutLaunchWith.Text} Lunar Magic (Slot 3{If(My.Settings.LM_SLOT3_NAME = Nothing, "", $" • {My.Settings.LM_SLOT3_NAME}")})"
 
                             Case 4
                                 Shortcut5_ToolTip.ToolTipTitle += $" • {Frm99_TranslateForm.UI01_ShortcutLaunchWith.Text} Level Music Utility"
@@ -1504,13 +1504,13 @@ Public Class Frm01_Main
                                 Shortcut6_ToolTip.ToolTipTitle += $" • {Frm99_TranslateForm.UI01_ShortcutManagedByWindows.Text}"
 
                             Case 1
-                                Shortcut6_ToolTip.ToolTipTitle += $" • {Frm99_TranslateForm.UI01_ShortcutLaunchWith.Text} Lunar Magic (Slot 1 • {My.Settings.LM_SLOT1_NAME})"
+                                Shortcut6_ToolTip.ToolTipTitle += $" • {Frm99_TranslateForm.UI01_ShortcutLaunchWith.Text} Lunar Magic (Slot 1{If(My.Settings.LM_SLOT1_NAME = Nothing, "", $" • {My.Settings.LM_SLOT1_NAME}")})"
 
                             Case 2
-                                Shortcut6_ToolTip.ToolTipTitle += $" • {Frm99_TranslateForm.UI01_ShortcutLaunchWith.Text} Lunar Magic (Slot 2 • {My.Settings.LM_SLOT2_NAME})"
+                                Shortcut6_ToolTip.ToolTipTitle += $" • {Frm99_TranslateForm.UI01_ShortcutLaunchWith.Text} Lunar Magic (Slot 2{If(My.Settings.LM_SLOT2_NAME = Nothing, "", $" • {My.Settings.LM_SLOT2_NAME}")})"
 
                             Case 3
-                                Shortcut6_ToolTip.ToolTipTitle += $" • {Frm99_TranslateForm.UI01_ShortcutLaunchWith.Text} Lunar Magic (Slot 3 • {My.Settings.LM_SLOT3_NAME})"
+                                Shortcut6_ToolTip.ToolTipTitle += $" • {Frm99_TranslateForm.UI01_ShortcutLaunchWith.Text} Lunar Magic (Slot 3{If(My.Settings.LM_SLOT3_NAME = Nothing, "", $" • {My.Settings.LM_SLOT3_NAME}")})"
 
                             Case 4
                                 Shortcut6_ToolTip.ToolTipTitle += $" • {Frm99_TranslateForm.UI01_ShortcutLaunchWith.Text} Level Music Utility"

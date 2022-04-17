@@ -409,6 +409,9 @@
   <data name="Text_018.Text" xml:space="preserve">
     <value>Chemin du raccourci :</value>
   </data>
+  <data name="AppOption_Shortcut4_Icon.Items" xml:space="preserve">
+    <value>Défaut</value>
+  </data>
   <data name="AppOption_Shortcut4_Icon.Items23" xml:space="preserve">
     <value>Snes9x (Violet)</value>
   </data>
@@ -454,6 +457,9 @@
   <data name="AppOption_Shortcut6_SelectFile.Text" xml:space="preserve">
     <value>Parcourir...</value>
   </data>
+  <data name="AppOption_Shortcut6_Icon.Items" xml:space="preserve">
+    <value>Défaut</value>
+  </data>
   <data name="AppOption_Shortcut6_Icon.Items23" xml:space="preserve">
     <value>Snes9x (Violet)</value>
   </data>
@@ -477,6 +483,9 @@
   </data>
   <data name="AppOption_Shortcut3_SelectFile.Text" xml:space="preserve">
     <value>Parcourir...</value>
+  </data>
+  <data name="AppOption_Shortcut3_Icon.Items" xml:space="preserve">
+    <value>Défaut</value>
   </data>
   <data name="AppOption_Shortcut3_Icon.Items23" xml:space="preserve">
     <value>Snes9x (Violet)</value>
@@ -535,6 +544,9 @@
   <data name="Text_023.Text" xml:space="preserve">
     <value>Icône :</value>
   </data>
+  <data name="AppOption_Shortcut5_Icon.Items" xml:space="preserve">
+    <value>Défaut</value>
+  </data>
   <data name="AppOption_Shortcut5_Icon.Items23" xml:space="preserve">
     <value>Snes9x (Violet)</value>
   </data>
@@ -558,6 +570,9 @@
   </data>
   <data name="AppOption_EnableCustomShortcut_2.Text" xml:space="preserve">
     <value>Activer le raccourci personnalisé 2</value>
+  </data>
+  <data name="AppOption_Shortcut2_Icon.Items" xml:space="preserve">
+    <value>Défaut</value>
   </data>
   <data name="AppOption_Shortcut2_Icon.Items23" xml:space="preserve">
     <value>Snes9x (Violet)</value>
@@ -594,6 +609,9 @@
   </data>
   <data name="AppOption_Shortcut1_SelectFile.Text" xml:space="preserve">
     <value>Parcourir...</value>
+  </data>
+  <data name="AppOption_Shortcut1_Icon.Items" xml:space="preserve">
+    <value>Défaut</value>
   </data>
   <data name="AppOption_Shortcut1_Icon.Items23" xml:space="preserve">
     <value>Snes9x (Violet)</value>
