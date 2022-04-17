@@ -182,7 +182,6 @@ Partial Class Frm08_SuggestFeature
         '
         'SaveToTXTFileDialog
         '
-        Me.SaveToTXTFileDialog.CheckFileExists = True
         Me.SaveToTXTFileDialog.DefaultExt = "txt"
         Me.SaveToTXTFileDialog.FileName = "Suggestion.txt"
         resources.ApplyResources(Me.SaveToTXTFileDialog, "SaveToTXTFileDialog")
