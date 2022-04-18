@@ -12,7 +12,7 @@
 				<requestedExecutionLevel level="asInvoker" uiAccess="false" />
 			</requestedPrivileges>
 		</security>
-	</trustInfo>	
+	</trustInfo>
 
 	<compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
 		<application>
@@ -22,14 +22,14 @@
 			<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}"/> <!--  Compatibility with Windows 8.1   (NT 6.3)   -->
 			<supportedOS Id="{8e0f7a12-bfb3-4FE8-B9A5-48fd50a15a9a}"/> <!--  Compatibility with Windows 10/11 (NT 10.0)  -->	
 		</application>
-	</compatibility>	
+	</compatibility>
 
 	<application xmlns="urn:schemas-microsoft-com:asm.v3">
 		<windowsSettings>
 			<dpiAware xmlns="http://schemas.microsoft.com/SMI/2005/WindowsSettings">false</dpiAware>
 			<longPathAware xmlns="http://schemas.microsoft.com/SMI/2016/WindowsSettings">true</longPathAware>
 		</windowsSettings>
-	</application>  
+	</application>
 
 	<dependency>
 		<dependentAssembly>
