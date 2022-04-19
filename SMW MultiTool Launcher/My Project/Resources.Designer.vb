@@ -118,7 +118,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Recherche une chaîne localisée semblable à 1500.00.
+        '''  Recherche une chaîne localisée semblable à 1575.00.
         '''</summary>
         Friend ReadOnly Property APP_VERSION_BUILD() As String
             Get
@@ -127,7 +127,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Recherche une chaîne localisée semblable à 2.20.1500.00-rc4bld-02.
+        '''  Recherche une chaîne localisée semblable à 2.20.1575.00-rc4bld-02.
         '''</summary>
         Friend ReadOnly Property APP_VERSION_COMPLETE() As String
             Get
