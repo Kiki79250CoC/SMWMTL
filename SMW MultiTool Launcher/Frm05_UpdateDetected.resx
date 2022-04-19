@@ -550,10 +550,7 @@
     <value>4</value>
   </data>
   <data name="UI_Changelog_TextBox.Text" xml:space="preserve">
-    <value>┌──────────────────────────────────────────────────────────────────────────────────────────────────────┐
-│ SMW MultiTools Launcher • Journal des modifications de la mise à jour                                │
-│ Version 2.20-RC2 • 17 Avril 2022                                                                     │
-└──────────────────────────────────────────────────────────────────────────────────────────────────────┘</value>
+    <value />
   </data>
   <data name="&gt;&gt;UI_Changelog_TextBox.Name" xml:space="preserve">
     <value>UI_Changelog_TextBox</value>
