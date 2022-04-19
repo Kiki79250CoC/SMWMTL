@@ -199,7 +199,7 @@
     <value>0, 64</value>
   </data>
   <data name="UI_HeaderBorder.Size" type="System.Drawing.Size, System.Drawing">
-    <value>584, 2</value>
+    <value>577, 2</value>
   </data>
   <data name="UI_HeaderBorder.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -283,7 +283,7 @@
     <value>59, 37</value>
   </data>
   <data name="UI_StatPanel_Description.Size" type="System.Drawing.Size, System.Drawing">
-    <value>514, 13</value>
+    <value>507, 13</value>
   </data>
   <data name="UI_StatPanel_Description.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -307,7 +307,7 @@
     <value>0, 0</value>
   </data>
   <data name="UI_StatPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>584, 66</value>
+    <value>577, 66</value>
   </data>
   <data name="UI_StatPanel.TabIndex" type="System.Int32, mscorlib">
     <value>33</value>
@@ -337,7 +337,7 @@
     <value>0, 0</value>
   </data>
   <data name="UI_BtmBar_PanelBorder.Size" type="System.Drawing.Size, System.Drawing">
-    <value>584, 2</value>
+    <value>577, 2</value>
   </data>
   <data name="UI_BtmBar_PanelBorder.TabIndex" type="System.Int32, mscorlib">
     <value>32</value>
@@ -430,7 +430,7 @@
     <value>RightToLeft</value>
   </data>
   <data name="UI_ButtonsPanel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 10</value>
+    <value>5, 10</value>
   </data>
   <data name="UI_ButtonsPanel.Size" type="System.Drawing.Size, System.Drawing">
     <value>561, 30</value>
@@ -454,7 +454,7 @@
     <value>0, 321</value>
   </data>
   <data name="UI_BtmBar_Panel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>584, 48</value>
+    <value>577, 48</value>
   </data>
   <data name="UI_BtmBar_Panel.TabIndex" type="System.Int32, mscorlib">
     <value>34</value>
@@ -508,7 +508,7 @@
     <value>12, 95</value>
   </data>
   <data name="UI_UpdateGraphicLine01.Size" type="System.Drawing.Size, System.Drawing">
-    <value>560, 1</value>
+    <value>553, 1</value>
   </data>
   <data name="UI_UpdateGraphicLine01.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>StretchImage</value>
@@ -535,7 +535,7 @@
     <value>Fill</value>
   </data>
   <data name="UI_Changelog_TextBox.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 8.25pt</value>
+    <value>Lucida Console, 6.75pt</value>
   </data>
   <data name="UI_Changelog_TextBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 4</value>
@@ -544,13 +544,16 @@
     <value>ForcedVertical</value>
   </data>
   <data name="UI_Changelog_TextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>550, 201</value>
+    <value>543, 201</value>
   </data>
   <data name="UI_Changelog_TextBox.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
   <data name="UI_Changelog_TextBox.Text" xml:space="preserve">
-    <value />
+    <value>┌──────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│ SMW MultiTools Launcher • Journal des modifications de la mise à jour                                │
+│ Version 2.20-RC2 • 17 Avril 2022                                                                     │
+└──────────────────────────────────────────────────────────────────────────────────────────────────────┘</value>
   </data>
   <data name="&gt;&gt;UI_Changelog_TextBox.Name" xml:space="preserve">
     <value>UI_Changelog_TextBox</value>
@@ -571,7 +574,7 @@
     <value>4, 4, 4, 4</value>
   </data>
   <data name="UI_ChangelogPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>560, 211</value>
+    <value>553, 211</value>
   </data>
   <data name="UI_ChangelogPanel.TabIndex" type="System.Int32, mscorlib">
     <value>36</value>
@@ -595,7 +598,7 @@
     <value>29</value>
   </metadata>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>584, 369</value>
+    <value>577, 369</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>

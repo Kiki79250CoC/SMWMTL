@@ -2773,7 +2773,7 @@ Public Class Frm01_Main
             My.Settings.UPDATE_FOUND_CVERSION_WITHOUT_BUILDNBR = e.Result
 
             Frm05_UpdateDetected.UI_UpdateText_NewVersion.Text = $"{e.Result} {Frm99_TranslateForm.UI05_IsAvailableText.Text}"
-            Frm05_UpdateDetected.UI_Changelog_TextBox.Text = My.Settings.UPDATE_FOUND_CHANGELOG.Replace($"─", Nothing).Replace($"│", Nothing).Replace($"┌", Nothing).Replace($"┐", Nothing).Replace($"└", Nothing).Replace($"┘", Nothing).Trim().Replace($"SMW MultiTools Launcher", " SMW MultiTools Launcher")
+            Frm05_UpdateDetected.UI_Changelog_TextBox.Text = My.Settings.UPDATE_FOUND_CHANGELOG
 
             UpdateSearchState_Pic.Image = My.Resources.HomeUpdateAvailable
             UpdateSearchState_Label.Text = Frm99_TranslateForm.UI01_UpdateSearchState_Available.Text.Replace("$VER", e.Result).Replace("$BLD", My.Settings.UPDATE_FOUND_CVERSION.TrimStart("0").Replace(e.Result, Nothing).TrimStart("."))
