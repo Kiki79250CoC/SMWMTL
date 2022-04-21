@@ -20,8 +20,9 @@ However, there's an exception for the last release of a codebase (like 1.20 and 
 | ------------------ | ------------------ | ------------------- | ------------------------ |
 | 2.20               | 10 May 2022        | -                   | Soon                     |
 ||
-|        2.10-LTS.8  | 10 May 2022        | -                   | Soon                     |
-| 2.17 • 2.10-LTS.7  | 08 March 2022      | 13 June 2023        | Supported (Last Release) |
+|        2.10-LTS.9  | 10 May 2022        | -                   | Soon                     |
+| 2.18 • 2.10-LTS.8  | 21 April 2022      | 13 June 2023        | Supported                |
+| 2.17 • 2.10-LTS.7  | 08 March 2022      | 09 May 2023         | Supported                |
 | 2.16               | 15 January 2022    | 11 April 2023       | Supported                |
 | 2.15 • 2.10-LTS.6  | 11 January 2022    | 11 April 2023       | Supported (LTS Only)     |
 | 2.14 • 2.10-LTS.5  | 10 November 2021   | 14 February 2023    | Supported                |
