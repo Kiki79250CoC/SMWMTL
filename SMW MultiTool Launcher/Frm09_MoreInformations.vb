@@ -85,14 +85,16 @@ Public Class Frm09_MoreInformations
         ' Dynamic values
         Select Case My.Computer.Info.InstalledUICulture.ToString.Contains("fr")
             Case True
-                Licence_TextBox.Text = My.Resources.SMWMTL_License_fr.Replace("$version", $"{My.Resources.APP_VERSION} (Build {My.Resources.APP_VERSION_BUILD}{If(My.Settings.IS_PRERELEASE = True, $" • {My.Resources.RELEASE_STATE}", "")})").Replace("$Year", $"{If(Year(Now) > My.Resources.BUILD_DATE_YEAR, Year(Now), My.Resources.BUILD_DATE_YEAR)}").Replace("$CompileDate", $"{CultureInfo.CurrentCulture.TextInfo.ToTitleCase(CompileDate.ToString("dd MMMM yyyy", CultureInfo.CreateSpecificCulture(If(My.Computer.Info.InstalledUICulture.ToString().Contains("fr"), "fr-FR", "en-US"))))}")
+                Licence_TextBox.Text = My.Resources.SMWMTL_License_fr.Replace("$version", $"{My.Resources.APP_VERSION} (Build {My.Resources.APP_VERSION_BUILD}{If(My.Settings.IS_PRERELEASE = True, $" • {My.Resources.RELEASE_STATE}", "")})").Replace("$Author", My.Resources.APP_AUTHOR).Replace("$Year", $"{If(Year(Now) > My.Resources.BUILD_DATE_YEAR, Year(Now), My.Resources.BUILD_DATE_YEAR)}").Replace("$CompileDate", $"{CultureInfo.CurrentCulture.TextInfo.ToTitleCase(CompileDate.ToString("dd MMMM yyyy", CultureInfo.CreateSpecificCulture(If(My.Computer.Info.InstalledUICulture.ToString().Contains("fr"), "fr-FR", "en-US"))))}")
                 Changelog_TextBox.Text = If(My.Resources.IS_LTS = "True", My.Resources.SMWMTL_Changelog_LTS_fr, My.Resources.SMWMTL_Changelog_fr)
 
             Case False
-                Licence_TextBox.Text = My.Resources.SMWMTL_License.Replace("$version", $"{My.Resources.APP_VERSION} (Build {My.Resources.APP_VERSION_BUILD}{If(My.Settings.IS_PRERELEASE = True, $" • {My.Resources.RELEASE_STATE}", "")})").Replace("$Year", $"{If(Year(Now) > My.Resources.BUILD_DATE_YEAR, Year(Now), My.Resources.BUILD_DATE_YEAR)}").Replace("$CompileDate", $"{CultureInfo.CurrentCulture.TextInfo.ToTitleCase(CompileDate.ToString("dd MMMM yyyy", CultureInfo.CreateSpecificCulture(If(My.Computer.Info.InstalledUICulture.ToString().Contains("fr"), "fr-FR", "en-US"))))}")
+                Licence_TextBox.Text = My.Resources.SMWMTL_License.Replace("$version", $"{My.Resources.APP_VERSION} (Build {My.Resources.APP_VERSION_BUILD}{If(My.Settings.IS_PRERELEASE = True, $" • {My.Resources.RELEASE_STATE}", "")})").Replace("$Author", My.Resources.APP_AUTHOR).Replace("$Year", $"{If(Year(Now) > My.Resources.BUILD_DATE_YEAR, Year(Now), My.Resources.BUILD_DATE_YEAR)}").Replace("$CompileDate", $"{CultureInfo.CurrentCulture.TextInfo.ToTitleCase(CompileDate.ToString("dd MMMM yyyy", CultureInfo.CreateSpecificCulture(If(My.Computer.Info.InstalledUICulture.ToString().Contains("fr"), "fr-FR", "en-US"))))}")
                 Changelog_TextBox.Text = If(My.Resources.IS_LTS = "True", My.Resources.SMWMTL_Changelog_LTS, My.Resources.SMWMTL_Changelog)
 
         End Select
+
+        LegalNotice_Text02.Text = LegalNotice_Text02.Text.Replace("$Author$", My.Resources.APP_AUTHOR)
 
         Developement_Tool_GroupBox_Text.Text = Developement_Tool_GroupBox_Text.Text.Replace("BUILDN", My.Resources.APP_VERSION_BUILD).Trim()
 

@@ -4,7 +4,7 @@
  Version $version
  $CompileDate
 
- © 2014-$Year •••Kiki79250••• / AstragonQC
+ © 2014-$Year $Author
  https://kiki79250.wixsite.com/smwmtl
  All Rights Reserved.
 
@@ -21,7 +21,7 @@
 ──┤ 1. Credits ├────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
   └────────────┘
 
- Programming : •••Kiki79250••• / AstragonQC
+ Programming : $Author
 
  Used Tools for SMWMTL developement :
       - Microsoft Visual Studio Community 2022 (IDE)
@@ -129,7 +129,7 @@
 ──┤ 4. Contact informations ├───────────────────────────────────────────────────────────────────────────────────────────────────────
   └─────────────────────────┘
 
- •••Kiki79250••• // Kiki79250CoC // AstragonQC
+ $Author
  
  Website       : https://kiki79250.wixsite.com/smwmtl
  GitHub Repo   : https://github.com/Kiki79250CoC/SMWMTL
