@@ -118,7 +118,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Recherche une chaîne localisée semblable à 1576.00.
+        '''  Recherche une chaîne localisée semblable à 1580.00.
         '''</summary>
         Friend ReadOnly Property APP_VERSION_BUILD() As String
             Get
@@ -127,7 +127,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Recherche une chaîne localisée semblable à 2.20.1576.00-rc4bld-03.
+        '''  Recherche une chaîne localisée semblable à 2.20.1580.00-rc4bld-04.
         '''</summary>
         Friend ReadOnly Property APP_VERSION_COMPLETE() As String
             Get
@@ -625,7 +625,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Recherche une chaîne localisée semblable à 230422.
+        '''  Recherche une chaîne localisée semblable à 240422.
         '''</summary>
         Friend ReadOnly Property BUILD_DATE_COMBINED() As String
             Get
@@ -634,7 +634,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Recherche une chaîne localisée semblable à 23.
+        '''  Recherche une chaîne localisée semblable à 24.
         '''</summary>
         Friend ReadOnly Property BUILD_DATE_DAY() As String
             Get
@@ -2181,7 +2181,7 @@ Namespace My.Resources
         ''' Version $version
         ''' $CompileDate
         '''
-        ''' © 2014-$Year •••Kiki79250••• / AstragonQC
+        ''' © 2014-$Year $Author
         ''' https://kiki79250.wixsite.com/smwmtl
         ''' All Rights Reserved.
         '''
@@ -2190,7 +2190,8 @@ Namespace My.Resources
         '''  └──────────┘
         '''
         ''' 1. Credits
-        ''' 2 [le reste de la chaîne a été tronqué]&quot;;.
+        ''' 2. Introduction
+        ''' 3. L [le reste de la chaîne a été tronqué]&quot;;.
         '''</summary>
         Friend ReadOnly Property SMWMTL_License() As String
             Get
@@ -2205,7 +2206,7 @@ Namespace My.Resources
         ''' Version $version
         ''' $CompileDate
         '''
-        ''' © 2014-$Year •••Kiki79250••• / AstragonQC
+        ''' © 2014-$Year $Author
         ''' https://kiki79250.wixsite.com/smwmtl
         ''' Tous droits réservés.
         '''
@@ -2214,7 +2215,8 @@ Namespace My.Resources
         '''  └─────────┘
         '''
         ''' 1. Crédits
-        ''' 2. [le reste de la chaîne a été tronqué]&quot;;.
+        ''' 2. Introduction
+        ''' 3. Me [le reste de la chaîne a été tronqué]&quot;;.
         '''</summary>
         Friend ReadOnly Property SMWMTL_License_fr() As String
             Get
