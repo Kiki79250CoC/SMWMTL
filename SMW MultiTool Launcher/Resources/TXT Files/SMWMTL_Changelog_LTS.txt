@@ -13,6 +13,19 @@
 ───────────────────────────────────────────────┤ Versions 2.10-LTS.x - 2.10.12xx.xx ├───────────────────────────────────────────────
                                                └────────────────────────────────────┘
   ┌───────────────────────────────────┐
+──┤ Version 2.10-LTS.8 - 2.10.1211.81 ├─────────────────────────────────────────────────────────────────────────────────────────────
+  └───────────────────────────────────┘
+
+- Bug fixes :
+    - "Settings" window :
+        - Fixed a bug in SMWMTL_Update which prevented the download of the changelog on OSes whose display language is neither
+          English nor French.
+
+- Modifications :
+    - Updated SMWMTL_Update to version 2.11.
+        - Added support for TLS 1.2 after Dropbox dropped support for the TLS 1.0 protocol used by .NET Framework 4.0.
+
+  ┌───────────────────────────────────┐
 ──┤ Version 2.10-LTS.7 - 2.10.1211.72 ├─────────────────────────────────────────────────────────────────────────────────────────────
   └───────────────────────────────────┘
 

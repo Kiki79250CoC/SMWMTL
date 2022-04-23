@@ -22,26 +22,34 @@
 ──────────────────────────────────────────────────┤ Versions 2.1x - 2.1x.12xx.xx ├──────────────────────────────────────────────────
                                                   └──────────────────────────────┘
   ┌─────────────────────────────┐
+──┤ Version 2.18 - 2.18.1201.81 ├───────────────────────────────────────────────────────────────────────────────────────────────────
+  └─────────────────────────────┘
+
+- Corrections de bugs :
+    - Fenêtre "Paramètres" :
+        - Correction d'un bug dans SMWMTL_Update qui empêchait le téléchargement du Changelog sur les systèmes d'exploitations dont
+          la langue d'affichage n'est ni le Français, ni l'anglais.
+
+- Modifications :
+    - Mis à jour SMWMTL_Update vers la version 2.11.
+        - Ajout du support du TLS 1.2 après l'abandon du support par Dropbox du protocole TLS 1.0 utilisé par .NET Framework 4.0.
+
+  ┌─────────────────────────────┐
 ──┤ Version 2.17 - 2.17.1201.72 ├───────────────────────────────────────────────────────────────────────────────────────────────────
   └─────────────────────────────┘
 
 - Corrections de bugs :
-
     - Correction d'un bug qui affiche la version de Windows sur la fenêtre "Version de l'OS" même si l'option "Masquer le titre"
       est désactivé.
-
     - Correction d'un bug critique avec Lunar Magic 1 Click To Launch qui n'active pas une option si le chemin est valide lors du
       chargement des paramètres.
 
 - Modifications :
-
     - Changement de la casse du texte de "SnesGFX"
 
 - Autres :
-
     - Correction d'une typo en Français sur la fenêtre principale avec l'infobulle du bouton Paramètres lorsque l'option CTRL+Clic
       est activée.
-
     - Correction d'une typo en Français sur le texte de placeholder sur la génération de rapports sur la fenêtre "Suggérer Outil /
       Mises à jour".
 
