@@ -344,6 +344,11 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="Resources - External\GIMP Assets\AppLogo_Long.xcf" />
+    <None Include="Resources - External\GIMP Assets\UI - Elements\About_WindowBack.xcf" />
+    <None Include="Resources - External\GIMP Assets\UI - Elements\HomeUpdateGradients.xcf" />
+    <None Include="Resources - External\GIMP Assets\UI - Elements\TitleGradients.xcf" />
+    <None Include="Resources - External\GIMP Assets\UI - Elements\UpdateBack.xcf" />
+    <None Include="Resources - External\GIMP Assets\UI - Elements\UpdateLogo.xcf" />
     <None Include="Resources - External\GIMP Assets\UI - Icons\16px\BtmBar\SuggestFeature.xcf" />
     <None Include="Resources - External\GIMP Assets\UI - Icons\16px\Checkboxes\BtmBar_Separators.xcf" />
     <None Include="Resources - External\GIMP Assets\UI - Icons\16px\SettingsStatusOrb.xcf" />
