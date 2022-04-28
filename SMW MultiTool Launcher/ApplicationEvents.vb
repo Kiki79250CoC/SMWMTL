@@ -94,7 +94,7 @@ Namespace My
 
             ' Enable the Pre-Release mode is this build is a beta one
             Select Case Resources.RELEASE_STATE
-                Case "Stable", "Stable LTS"
+                Case "Pre-Stable", "Stable", "Stable LTS"
                     Settings.IS_PRERELEASE = False
 
                 Case Else
