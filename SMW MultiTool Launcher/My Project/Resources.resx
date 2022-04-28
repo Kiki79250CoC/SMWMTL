@@ -263,7 +263,7 @@
     <value>..\Resources\UI_Elements\Icons\Update System\UpdateModal\UI_Icon_DownloadUpdate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="APP_VERSION_COMPLETE" xml:space="preserve">
-    <value>2.20.1580.00-rc4bld-04</value>
+    <value>2.20.1595.00-pstabld-01</value>
   </data>
   <data name="Shortcut_Default_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Default_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -428,7 +428,7 @@
     <value>..\Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_1CTL_Error.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="APP_VERSION_BUILD" xml:space="preserve">
-    <value>1580.00</value>
+    <value>1595.00</value>
     <comment>UPDATE ASSEMBLY VERSION NUMBER INFO !!!</comment>
   </data>
   <data name="AppIcon_Smallhacker" type="System.Resources.ResXFileRef, System.Windows.Forms">
@@ -477,7 +477,7 @@
     <value>..\Resources\UI_Elements\Settings Previews\Task Manager Icon\SMWMTL\Light\Taskmgr_Icon_LPurple32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="RELEASE_STATE" xml:space="preserve">
-    <value>Release Candidate 4</value>
+    <value>Pre-Stable</value>
   </data>
   <data name="LM_141" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_141.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -660,7 +660,7 @@
     <value>..\Resources\UI_Elements\Icons\Bottom Bar\Winver\Winver_Logo_Win11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="BUILD_DATE_DAY" xml:space="preserve">
-    <value>24</value>
+    <value>28</value>
   </data>
   <data name="UpdateLogo_Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\UI_Elements\UI_GraphicAssets\UpdateNotification_Modal\UpdateLogo_Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -1054,7 +1054,7 @@
     <value>..\Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="BUILD_DATE_COMBINED" xml:space="preserve">
-    <value>240422</value>
+    <value>280422</value>
   </data>
   <data name="TitleRed" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\UI_Elements\Background Images\Window Titlebar\TitleRed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
