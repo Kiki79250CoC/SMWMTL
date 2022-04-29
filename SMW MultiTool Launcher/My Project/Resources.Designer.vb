@@ -118,7 +118,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Recherche une chaîne localisée semblable à 1595.00.
+        '''  Recherche une chaîne localisée semblable à 1596.00.
         '''</summary>
         Friend ReadOnly Property APP_VERSION_BUILD() As String
             Get
@@ -127,7 +127,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Recherche une chaîne localisée semblable à 2.20.1595.00-pstabld-01.
+        '''  Recherche une chaîne localisée semblable à 2.20.1596.00-pstabld-02.
         '''</summary>
         Friend ReadOnly Property APP_VERSION_COMPLETE() As String
             Get
@@ -625,7 +625,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Recherche une chaîne localisée semblable à 280422.
+        '''  Recherche une chaîne localisée semblable à 300422.
         '''</summary>
         Friend ReadOnly Property BUILD_DATE_COMBINED() As String
             Get
@@ -634,7 +634,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Recherche une chaîne localisée semblable à 28.
+        '''  Recherche une chaîne localisée semblable à 30.
         '''</summary>
         Friend ReadOnly Property BUILD_DATE_DAY() As String
             Get
