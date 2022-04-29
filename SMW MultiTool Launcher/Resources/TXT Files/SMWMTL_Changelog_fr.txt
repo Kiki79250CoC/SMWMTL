@@ -16,7 +16,242 @@
 ──┤ Version 2.20 - 2.20.1600.00 ├───────────────────────────────────────────────────────────────────────────────────────────────────
   └─────────────────────────────┘
 
+- Changements techniques liés à l'application :
+    - .NET Framework :
+        - Mis à niveau la version du .NET Framework utilisé de 4.0 à 4.6.
 
+    - Compatibilité de l'architecture du Processeur :
+        - Retrait du support pour les processeur 32 bits (x86). SMWMTL est dorénavant exclusivement en 64 bits.
+
+    - Compatibilité du Système d'exploitation :
+        - Retrait du support pour tous les systèmes d'exploitations Windows basées sur le Noyau NT 5.x.
+
+    - Système de réglages entièrement refait de zéro :
+        - Les paramètres utilisent désormais des types de valeurs plus adaptées.
+        - Les anciens fichiers de paramètres venant des versions 2.1x sont incompatibles avec cette version de SMWMTL.
+
+    - Autre :
+        - Mise à niveau de l'outil de développement de SMWMTL (de Visual Studio 2019 à Visual Studio 2022).
+        - Le Code source de SMWMTL est désormais accessible sur GitHub.
+
+- Changements et améliorations :
+    - Général :
+        - Réalisé tout un tas d'optimisations dans le code en global.
+        - Réécrit et nettoyé le code de démarrage de l'application.
+        - Changement du code de chargement et de sauvegarde des paramètres pour tenter d'erradiquer pour de bon la nécessité de
+          redémarrer une seconde fois SMWMTL afin que les paramètres soient correctement appliqués.
+        - Mis à jour certaines informations concernant l'Assembly :
+            - Modification de l'emplacement des paramètres dans LocalAppData de "•••Kiki79250•••" vers "AstragonQC_Softwares".
+            - Modification du Copyright de "•••Kiki79250•••" à "•••Kiki79250••• // AstragonQC".
+            - Modification de la marque commerciale de "•••Kiki79250•••" vers "AstragonQC Softwares".
+
+        - Ajout d'une gestion des exceptions au niveau de l'application pour toutes les erreurs non-gérées restantes.
+        - Réduit drastiquement le nombre de valeurs utilisées pour l'exécution du code afin de le rendre plus rapide, simple et
+          propre.
+        - Mis à jour la police du logo de l'application de "Uni Sans" vers "Nexa".
+        - Mis à jour l'icône de l'application pour en réduire la taille et la rendre moins floue.
+        - Réduit la taille de l'application de plus de 4 fois (de 22 à 5 Mo).
+        - Ajout du support d'un mode sombre pour plusieurs fenêtres de SMWMTL.
+            - Peut être activé dans les Paramètres.
+
+        - L'option d'extension de Windows Aero/Couleur d'accentuation ne s'applique désormais que lorsque le DWM est actif.
+        - Suppression des anciens fichiers d'aide (*.chm) qui n'avaient pas été mis à jour depuis la version 1.20.
+        - Paramètres ajoutés dans l'application :
+            - Activation le mode sombre.
+            - Nombre de colonnes affichées sur la fenêtre principale.
+            - Afficher/Masquer les boutons des 34 applications supportées.
+            - Afficher la chaîne de version dans la fenêtre d'à propos.
+            - Désactivation des nouvelles pop-up de notification de mise à jour disponible.
+            - Utiliser les anciennes pop-up de notification de mise à jour disponible.
+            - Afficher le module de recherche de mises à jour sur la fenêtre d'à propos.
+            - Afficher la version du moteur de recherche de mises à joru sur la fenêtre d'à propos.
+            - Utiliser une boîte d'à propos basée sur Shell32.
+
+        - Paramètres supprimées de l'application :
+            - Bordures de fenêtre style "Aero" lorsque l'extension du DWM est activé.
+            - Masquage du bouton Réduire sur la fenêtre principale.
+            - Afficher la version de Windows sur la fenêtre d'à propos.
+            - Affichage des valeurs des Paramètres.
+            - La recherche de mise à jour lors de l'ouverture des Paramètres.
+            - Le raccourci clavier "CTRL+MAJ+P".
+
+        - Paramètres modifiés :
+            - Modification du paramètre par défaut pour la couleur de la ligne de l'icône du Gestionnaire des Tâches de "Bleu"
+              (2) à "Vert" (1).
+            - Le support des Thèmes a été désactivé dans cette version. Je suis en train de travailler pour fournir des thèmes
+              sympas qui ne sont pas juste là à faire gonfler la taille de l'application.
+
+        - Toutes les applications ont été dissociées de SMWMTL. Vous devez désormais fournir vos propres copies des programmes
+          pour les utiliser au travers de SMWMTL.
+        - Suppression des DLL de RTA Glass Effect et de BetterSplitButton.
+        - Ajout de la DLL "VistaMenu" pour l'affichage des icônes sur les menus de l'icône de la Zone de notification système et
+          du menu "▼".
+        - Harmonisé tous les titres de fenêtres en remplaçant "-" par "•".
+        - Suppression de la fenêtre de l'arrêt de support de Windows XP et de l'architecture 32 bits.
+
+    - Fenêtre principale :
+        - Ajout de la possibilité de masquer les boutons des applications non désirés de la fenêtre principale.
+            - Vous pouvez aller dans Paramètres > Launcher et décocher les boutons non désirés.
+
+        - Ajout de la possibilité de masquer les boutons du sous-menu des Outils de Smallhacker.
+            - Vous pouvez aller dans Paramètres > Applications > Outils de Smallhacker pour cocher et décocher les boutons non
+              désirés.
+
+        - Ajout de la possibilité de réduire le nombre de colonnes affichées pour les applications.
+            - Vous pouvez allez dans Paramètres > Launcher pour modifier cette option.
+
+        - Ajout du support pour une 8ème colonne dans la liste des applications.
+        - Support des applications lançables :
+            - Retrait du support de SPCTool et de TileMolester.
+            - Ajout du support de Bsnes et de SNES Color Tool.
+
+        - Texte personnalisé dans le titre de l'application :
+            - Modification de certains codes de formattage :
+                - "$BD" --> "$BDD" - Jour de la date de compilation.
+                - "$BM" --> "$BDM" - Mois de la date de compilation.
+                - "$BY" --> "$BDY" - Année de la date de compilation.
+                - "$CB" --> "$BDC" - Date de compilation combinée.
+
+            - Ajout de certains codes de formattage :
+                - "$BDV" - Date de compilation en format verbal.
+                    - Affiche la date de compilation de la version actuelle de SMWMTL au format verbal classique.
+                - "$ABS" - Chaîne de version de l'application.
+                    - Affiche la chaîne de version complète de l'application.
+
+        - Bouton "Version de l'OS" :
+            - Ajout d'une icône pour les utilisateurs de Windows 11.
+
+        - Bouton "Gestionnaire des Tâches" :
+            - Icône personnalisable remaniée (des premières versions 2.0x) à de nouvelles versions.
+            - Ajout de l'icône du Gestionnaire des Tâches pour les utilisateurs de Windows 11.
+
+        - Icône de la zone de notification système :
+            - Menu clic droit :
+                - Utilise désormais le design système.
+                - Suppression de l'option "Ouvrir les Paramètres sans rechercher les mises à jour".
+                - Ajout d'une option pour directement accéder à SMWMTL_Update lorsqu'une mise à jour est disponible.
+
+        - Mis à jour de certaines icônes des boutons de la barre inférieure.
+        - Suppression du raccourci clavier "CTRL+MAJ+P" suite à la suppression de la fonction liée.
+        - Mis à jour l'icône "Tuer le processus" pour le sous-menu de SMW Customizer.
+        - Mis à jour les icônes "Via version Graphique" et "Via version CMD" pour le sous-menu d'AddMusicK.
+        - Le texte de titre personnalisé peut être désormais complètement vide.
+        - Ajout d'une correction pour ne pas afficher le "•" lorsque le texte de titre personnalisé est vide.
+        - Ajout d'un mode sombre expérimental pour la fenêtre principale.
+            - Pour l'activer, activez le mode sombre dans l'application et allez dans Paramètres > "▼" > Paramètres Expérimentaux.
+
+        - Modification des boutons de Slot de Lunar Magic pour permettre de ne pas mettre de nom et masquer les parenthèses si le
+          nom du slot est vide.
+        - Modification des boutons des raccourcis pour masquer certains caractères inutiles si le nom du slot de Lunar Magic est
+          vide.
+
+    - Fenêtre "À Propos de SMWMTL" :
+        - Design totalement révisé.
+            - L'image de fond ne s'affiche désormais seulement derrière le logo de l'application.
+
+        - Remplacement de la version de Windows par un module de recherche des mises à jour qui détecte si une nouvelle mise à
+          jour est disponible, comme Firefox.
+            - Cette fonctionnalité est activée par défaut mais peut être désactivée dans les Paramètres de SMWMTL.
+
+        - La chaîne de version est désormais masquée par défaut, et peut être réaffichée si vous activez l'option dans les
+          Paramètres.
+        - Suppression des boutons en doublon, n'en laissant qu'un seul pour accéder à la fenêtre "Plus d'informations".
+        - Ajout de la possibilité de copier la chaîne de version en cliquant dessus.
+        - Ajout d'une option pour afficher la version du moteur de recherche de mises à jour. Ceci peut être activée dans les
+          Paramètres.
+        - Suppression de valeurs obsolète/inutiles :
+            - Version du .NET Framework utilisé.
+            - Indication 32/64 bits, vu que SMWMTL est uniquement en 64 bits.
+            - État de la version.
+
+    - Fenêtre "Paramètres" :
+        - La fenêtre des Paramètres a été complètement remodelée pour une facilité d'utilisation accrue.
+        - Déplacement des boutons d'en bas à gauche vers un menu "▼".
+        - Ajout d'un bouton pour accéder à la fenêtre "Mises à jour logicielles".
+        - Suppression du bouton "Aide" sur la fenêtre, qui ne menait à nulle part de réellement utile.
+        - Suppression de la fonctionnalité des valeurs des paramètres, cette fonction était inutile".
+        - Suppression de l'état de chargement des Paramètres, également inutile.
+        - Suppression des images d'aperçu pour toutes les options, chaque fonctionnalité est facilement compréhensible d'elle-même.
+        - Suppression des conseils qui apparaissaient sous certains paramètres.
+        - Réduction de la taille des prévisualisation des icônes à 32x32 pixels.
+        - Les paramètres liés au DWM sont désormais automatiquement gérés en fonction de l'état d'activation du DWM.
+            - Si le DWM est activé, l'option "Améliorations visuelles pour Windows Classic" sera désactivée.
+            - Si le DWM est désactivé, les options qui se réfèrent au DWMAPI seront désactivées.
+
+        - Optimisation de l'exécution de l'importation et de l'exportation des Paramètres.
+        - Remplacement de la fenêtre de confirmation de l'écrasement de fichier lors de l'exportation des paramètres par celui de
+          l'explorateur.
+        - Modification des avertissements de réinitialisation des Paramètres.
+            - Suppression de l'étape de confirmation par la saisie du mot "CONFIRMER" dans une boîte de texte.
+            - Simplification de l'exportation des Paramètres.
+
+        - Modification de la liste "Lancer avec" des raccourcis personnalisés pour afficher le nom des slots de Lunar Magic.
+
+    - Fenêtre "Mise à jour logicielles" :
+        - Maintenant séparé des Paramètres.
+        - Mis à jour du moteur de recherche de mise à jour vers la version 3.00 :
+            - Plus efficace lorsque le processus de recherche de mises à jour est en cours.
+            - Se rappelle désormais lorsqu'une mise à jour est disponible, ceci évite de cliquer sur "Rechercher les mises à jour"
+              à chaque fois que vous ouvrez cette fenêtre.
+
+        - Ajout de la date et l'heure de la dernière recherche.
+        - Pop-up de disponibilité d'une nouvelle mise à jour révisé.
+        - L'installation d'une mise à jour de l'application est désormais automatique lorsque vous cliquez sur le bouton "Installer
+          la mise à jour".
+        - La mise à jour peut aussi se faire automatiquement lors du prochain lancement de SMWMTL.
+
+    - Fenêtre "Version de l'OS" :
+        - Le logo de Windows est désormais monochrome et et s'adapte en fonction du mode clair/sombre.
+        - Ajout de la détection avec Windows 11 et Windows Server 2022.
+        - Suppression des valeurs de la mémoire virtuelle, qui sont buguées en 64 bits.
+        - Suppression de la valeur numérique de la plateforme de Windows.
+        - Suppression du code de détection et des ressources graphiques de Windows XP.
+        - Modification de la détection des Windows 10/11 pour permettre la détection de toutes les versions existantes.
+        - Le processus de détection est désormais (presque) invulnérable au mode de compatibilité (seul le nom de l'OS est affecté).
+        - Windows Server 2016, 2019 et 2022 utilise désormais le même code de vérification du Copyright que les versions clientes
+          de Windows.
+
+    - Fenêtre "Signaler un bug/crash" :
+        - Modification de l'icône du bouton "Twitter".
+        - Ajout d'un bouton pour accéder au dépôt GitHub.
+        - Ajout d'un paragraphe qui informe qu'il est possible de rapporter des bugs sur le dépôt.
+        - Ajout d'une info à propos du futur changement de pseudo.
+
+    - Fenêtre "Suggérer un outil/mise à jour" :
+        - Suppression de la page "Problèmes connus/Mises à jour suggérées", car elles ne sont jamais mises à jour.
+        - Suppression du bouton "Créer suggestion pour MP sur SMWC.net", ce bouton étant juste un doublon du bouton "Créer fichier
+          de Suggestion".
+        - Modification de l'option "Nouvelle version" en remplaçant la boîte de texte par une case à cocher. Cochez-là juste pour
+          signifier qu'il s'agisse d'une nouvelle version.
+        - Renommage du bouton "Exporter dans un TXT" en "Exporter dans un fichier".
+
+    - Fenêtre "Plus d'informations" :
+        - Ajout d'une traduction française pour le fichier de Licence.
+        - Les fichiers des Changelogs sont désormais intégrés au sein de l'exécutable de SMWMTL.
+            - Il est possible que les anciens fichiers abandonnés trainent encore dans le dossier d'installation du logiciel.
+              Ces anciens fichiers peuvent être supprimés sans problème. Si vous avez des doutes, désinstallez tout, videz le
+              contenu du dossier et installez la nouvelle version.
+
+        - Effectué quelques modifications au fichier de Licence :
+            - SMWMTL définit dynamiquement la version actuelle, la date de compilation, l'année du Copyright et l'auteur lors du
+              chargement.
+
+        - Effectué un redesign des fichiers de Licence et de Changelog.
+        - Suppression de la partie "Musique de première configuration" de la section "Autres crédits".
+
+    - Fenêtre de Première Configuration :
+        - La fenêtre de Première Configuration a été supprimée, pas réellement pertinence quant à la simplicité de SMWMTL.
+
+    - Fenêtre "À Propos (Hérité)" :
+        - Mis à jour le code au nouveau système des Paramètres.
+        - Mis à jour la valeur de l'auteur d'une valeur statique à une valeur dynamique basée sur les valeurs centralisées de
+          l'application.
+        - Mis à jour la valeur de la date de compilation avec le même code que sur la fenêtre "À Propos" actuelle.
+
+    - "Recover Lunar Magic" GUI Edition :
+        - Mis à jour le code avec la prise en compte de la dissociation des applications.
+        - Corrdction de quelques défauts de l'interface utilisateur.
+        - Corrections de quelques fautes de texte.
 
                                                   ┌──────────────────────────────┐
 ──────────────────────────────────────────────────┤ Versions 2.1x - 2.1x.12xx.xx ├──────────────────────────────────────────────────

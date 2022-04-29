@@ -16,7 +16,225 @@
 ──┤ Version 2.20 - 2.20.1600.00 ├───────────────────────────────────────────────────────────────────────────────────────────────────
   └─────────────────────────────┘
 
+- Application technical changes :
+    - .NET Framework :
+        - Upgraded .NET Framework version to 4.6.
 
+    - CPU Architecture compatibility :
+        - Removed support for 32-bit (x86) CPUs. SMWMTL is now only available in 64-bit.
+
+    - Operating System compatibility :
+        - Removed support for all NT 5.x-based Windows Operating Systems.
+
+    - Completely revamped settings system :
+        - Now use appropriate data type to reduce code for use them.
+        - Old settings files from 2.1x are incompatible with this version of SMWMTL.
+
+    - Other :
+        - Upgraded SMWMTL's developement tool (from Visual Studio 2019 to Visual Studio 2022).
+        - SMWMTL source code is now accessible on GitHub.
+
+- Changes and improvements :
+    - General :
+        - Did A LOT of code optimization.
+        - Rewrited and cleaned application start code.
+        - Changed the code used to load and save the settings to try to eradicate for good the fact of manually restarting the
+          software so that the settings are properly applied.
+        - Updated some Assembly informations :
+            - Changed settings file location in LocalAppData from "•••Kiki79250•••" to "AstragonQC_Softwares".
+            - Changed Assembly Copyright from "•••Kiki79250•••" to "•••Kiki79250••• // AstragonQC".
+            - Changed Assembly trademark from "•••Kiki79250•••" to "AstragonQC Softwares".
+
+        - Added an Application-level Exception handler for all remaining unhandled exceptions.
+        - Reduced drastically number of values used for code execution to make it faster, simpler and cleaner.
+        - Updated application logo font from "Uni Sans" to "Nexa".
+        - Updated application icon to reduce blurry effect and his size.
+        - Reduced application size by 4.4 times (From 22 to 5 MB).
+        - Added Dark mode support for several Windows in SMWMTL.
+            - You can enable this feature in Settings.
+
+        - Aero/Window accent color option now applies only if DWM is enabled.
+        - Removed old CHM files that wasn't updated since Release 1.20.
+        - Settings added to Application :
+            - Enable Dark mode.
+            - Displayed columns number.
+            - Show/hide options for all 34 application buttons.
+            - Show version string in about window.
+            - Disable "new update available" notification pop-ups.
+            - Use legacy "new update available" notification pop-ups.
+            - Display update search module in about window.
+            - Display update search engine version in about window.
+            - Use shell32-based about window.
+
+        - Removed settings from application :
+            - Aero-like window borders when DWM Extension is enabled.
+            - Hide Minimize button in main window.
+            - Show Windows version in about window.
+            - Show settings values.
+            - Search update when Settings opens.
+            - CTRL+SHIFT+P keyboard shortcut.
+
+        - Modified settings :
+            - Modified default value for Task Manager Icon line color from "Blue" (2) to "Green" (1).
+            - Themes support has been disabled in this version. I'm working to provide cool themes that are not just there to
+              bloat application size.
+
+        - All applications were separated from SMWMTL. You now have to provide your own program copies to use through SMWMTL.
+        - Removed RTA Glass Effect and BetterSplitButton DLLs.
+        - Harmonized all windows titles by changing "-" to "•".
+        - Added VistaMenu DLL to display icons in system tray and down arrow menus.
+        - Removed Windows XP/32-bit end of support notification window.
+
+    - Main window :
+        - Added ability to hide unwanted application buttons as you want.
+            - You can go to Settings > Launcher and uncheck unwanted buttons.
+
+        - Added ability to hide unwanted sub-buttons in "Smallhacker's Tools" section.
+            - You can go to Settings > Applications > Smallhacker's Tools to check and uncheck unwanted buttons.
+
+        - Added ability to reduce how many columns are displayed.
+            - You can to to Settings > Launcher to modify this option.
+
+        - Added support for a 8th column in the Applications list.
+        - Launchable applications support :
+            - Removed support for SPCTool and TileMolester.
+            - Added support for Bsnes and SNES Color Tool.
+
+        - Custom Text in title :
+            - Modified some formatting codes :
+                - "$BD" --> "$BDD" - Build date day.
+                - "$BM" --> "$BDM" - Build date month.
+                - "$BY" --> "$BDY" - Build date year.
+                - "$CB" --> "$BDC" - Build date combined.
+
+            - Added some formatting codes :
+                - "$BDV" - Build date verbose.
+                    - Displays the build date in a verbal format.
+                - "$ABS" - Application build string.
+                    - Displays the whole build string.
+
+        - "OS Version" button :
+            - Added an Icon for Windows 11 users.
+
+        - "Task Manager" button :
+            - Revamped Customizable Icon (from 2.0x early days) to newer versions.
+            - Added Task Manager Icon for Windows 11 users.
+
+        - System tray icon :
+            - Right click menu :
+                - Now use the system design.
+                - Removed option "Load settigs without search updates".
+                - Added an option to directly open SMWMTL_Update when a new update is available.
+
+        - Updated some bottom bar button icons.
+        - Removed "CTRL+SHIFT+P" keyboard shortcut due to the removal of the linked function.
+        - Updated "Kill Process" icon for "SMW Customizer" sub-menu.
+        - Updated "Via GUI version" and "Via CMD version" for "AddMusicK" sub-menu icons.
+        - Custom title text can now be completely empty.
+        - Added a fix for not displaying the "•" when custom title text is blank.
+        - Added an experimental dark theme for Main window.
+            - Enable it in Settings > Arrow menu > Experimental Settings".
+
+        - Modified Lunar Magic slot buttons to permits to set a blank name and hide parentheses if slot name is blank.
+        - Modified Shortcuts buttons to hide extra characters if Lunar Magic slot is blank.
+
+    - "About SMWMTL" window :
+        - Completly revamped design.
+            - Background image is now only behind Application branding logo.
+
+        - Replaced the Windows version info with an update search module that detects if a new update is available, like Firefox.
+            - This is enabled by default but can be disabled in Settings.
+
+        - The version string is now hidden by default but can be showed if you enable the option in Settings.
+        - Removed duplicate buttons, leaving only one to access the "More informations" window.
+        - Added ability to copy Build string when clicking on it.
+        - Added an option to show update system engine version. This can be enabled in Settings.
+        - Removed some obsolete/unnecessary values :
+            - Version of .NET Framework used.
+            - 32/64-bit information, since this version is x64 only.
+            - Release state.
+
+    - "SMWMTL settings" window :
+        - Settings window got completly remodeled for more ease of use.
+        - Moved bottom left buttons to a down arrow menu.
+        - Added button to access "Software updates" window.
+        - Removed "Help" buttons, they don't lead to anything useful.
+        - Removed Settings values feature, this one is useless.
+        - Removed Settings load status. Also useless.
+        - Removed picture previews for all options, each feature is easily comprehensive from themselves.
+        - Removed tips that appears with some settings.
+        - Reduced icon previews size to 32x32 pixels.
+        - DWM-related settings are automatically managed from DWM activation state.
+            - If DWM is enabled, Visual enhancements for Windows Classic option is disabled.
+            - If DWM is disabled, all effects that use the DWMAPI are disabled.
+
+        - Optimized Settings import and export execution.
+        - Replaced Settings exportation overwrite confirmation dialog with the Explorer one.
+        - Modified reset settings warning modal :
+            - Removed confirmation step by entering "CONFIRM" in a text box.
+            - Simplified settings exportation.
+
+        - Modified Custom shortcuts "Launch with" list to display Lunar Magic slots name.
+
+    - "Software updates" window :
+        - Now separated from Settings.
+        - Updated Search engine to version 3.00 :
+            - More efficient when Searching process is running.
+            - Now it remember when an update is available, this avoid you from click on "Search for updates" every time you open
+              this window.
+
+        - Added last update search date and time.
+        - Update availability notification pop-up revised.
+        - Application update installation is now automatic when you press the Install Update button.
+        - Update installation can now also be done silently the next time you start SMWMTL.
+
+    - "OS Version" window :
+        - Windows logo is now monochrome and adapt in function of light/dark mode preference.
+        - Added Windows 11 and Windows Server 2022 OS detection.
+        - Removed Virtual memory values, they are buggy in 64-bit.
+        - Removed detection code and graphical assets for Windows XP.
+        - Removed numeric value for Windows Platform (Win32NT).
+        - Modified Windows 10/11 major version value to detect all existing and future versions (1507 included).
+        - Detection process is (almost) invulnerable to compatibility mode (only OS name is affected).
+        - Windows Server 2016, 2019 and 2022 now use the same Copyright year checking as client Windows versions.
+
+    - "Report bug/crash" window :
+        - Tweaked "Twitter" button icon.
+        - Added "GitHub repo" button.
+        - Added a paragraph to inform that is possible to report bugs in the repo.
+        - Added an info about future username change.
+
+    - "Suggest feature/update" window :
+        - Removed "Kwnon problems/Suggested updates" page, I never update these lists.
+        - Removed "Create suggestion for SMWC.net Private Message", this button is a duplicate of the "Create suggestion file" one.
+        - Modified "New version" field by replacing text box by a checkbox. Just check it to say that this is a new version.
+        - Modified "Save to TXT file" button text to simply "Save to file".
+
+    - "More informations" window
+        - Added French translation for License file.
+        - Changelog files are now integrated directly inside SMWMTL's main executable.
+            - It's possible that the old deprecated files remains in your application installation folder.
+              These old files can be deleted safely. If you have some doubts, you can uninstall older version, wipe all applcation
+              folder's content and re-install SMWMTL.
+
+        - Did some modifications to License files.
+            - Now dynamically sets current version, compilation date, copyright year and author when loaded.
+
+        - Redesigned Changelog and License files.
+        - Removed "OOBE Music" part from "Other Credits" section.
+
+    - OOBE :
+        - OOBE has been removed. useless and space waste.
+
+    - "Legacy about" window :
+        - Updated code to new settings system.
+        - Updated Author name value from static to the centralized dynamic value used in current about box.
+        - Updated Compile date value to use the same code as in current about box.
+
+    - "Recover Lunar Magic" GUI Edition :
+        - Updated code with executable externalization.
+        - Fixed some UI defaults.
+        - Fixed some typos.
 
                                                   ┌──────────────────────────────┐
 ──────────────────────────────────────────────────┤ Versions 2.1x - 2.1x.12xx.xx ├──────────────────────────────────────────────────
