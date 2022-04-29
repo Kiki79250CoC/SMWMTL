@@ -1830,7 +1830,6 @@ Partial Class Frm01_Main
         resources.ApplyResources(Me.SubMenu_TabPanel, "SubMenu_TabPanel")
         Me.SubMenu_TabPanel.BackColor = System.Drawing.SystemColors.Window
         Me.SubMenu_TabPanel.Controls.Add(Me.Shortcut_GradientLine)
-        Me.SubMenu_TabPanel.Controls.Add(Me.OptionsText)
         Me.SubMenu_TabPanel.Controls.Add(Me.SubMenu_AppTitle)
         Me.SubMenu_TabPanel.Controls.Add(Me.FlowLayoutPanel1)
         Me.SubMenu_TabPanel.Controls.Add(Me.SubMenu_Gradient2)
@@ -1849,6 +1848,7 @@ Partial Class Frm01_Main
         Me.SubMenu_TabPanel.Controls.Add(Me.Shortcut_PlaceHolder5)
         Me.SubMenu_TabPanel.Controls.Add(Me.Shortcut_PlaceHolder4)
         Me.SubMenu_TabPanel.Controls.Add(Me.Shortcut_PlaceHolder3)
+        Me.SubMenu_TabPanel.Controls.Add(Me.OptionsText)
         Me.SubMenu_TabPanel.Name = "SubMenu_TabPanel"
         '
         'Frm01_Main
