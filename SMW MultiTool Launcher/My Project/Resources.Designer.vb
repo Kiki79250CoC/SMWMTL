@@ -100,7 +100,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Recherche une chaîne localisée semblable à Montréal.
+        '''  Recherche une chaîne localisée semblable à Laval.
         '''</summary>
         Friend ReadOnly Property APP_CODENAME() As String
             Get
@@ -118,7 +118,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Recherche une chaîne localisée semblable à 1600.00.
+        '''  Recherche une chaîne localisée semblable à 1700.00.
         '''</summary>
         Friend ReadOnly Property APP_VERSION_BUILD() As String
             Get
@@ -127,7 +127,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Recherche une chaîne localisée semblable à 2.20.1600.00-rtmbld-01.
+        '''  Recherche une chaîne localisée semblable à 2.20.1700.00-am1bld-01.
         '''</summary>
         Friend ReadOnly Property APP_VERSION_COMPLETE() As String
             Get
@@ -1600,7 +1600,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Recherche une chaîne localisée semblable à Stable.
+        '''  Recherche une chaîne localisée semblable à Alpha (Milestone 1).
         '''</summary>
         Friend ReadOnly Property RELEASE_STATE() As String
             Get
