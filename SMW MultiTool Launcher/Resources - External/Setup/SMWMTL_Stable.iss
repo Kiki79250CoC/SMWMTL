@@ -1,8 +1,8 @@
 
 #define MyAppName "Super Mario World MultiTools Launcher Release Candidate 4"
 #define MyShortAppName "SMW MultiTools Launcher RC4"
-#define MyAppVersion "2.20.1580.00"
-#define MyShortAppVersion "2.20-RC4"
+#define MyAppVersion "2.20.1600.00"
+#define MyShortAppVersion "2.20"
 #define MyAppPublisher "AstragonQC Softwares"
 #define MyAppURL "https://kiki79250.wixsite.com/smwmtl"
 #define MyAppExeName "SMWMTL.exe"
