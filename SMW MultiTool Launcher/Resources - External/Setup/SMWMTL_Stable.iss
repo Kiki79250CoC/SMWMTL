@@ -1,6 +1,6 @@
 
-#define MyAppName "Super Mario World MultiTools Launcher Release Candidate 4"
-#define MyShortAppName "SMW MultiTools Launcher RC4"
+#define MyAppName "Super Mario World MultiTools Launcher"
+#define MyShortAppName "SMW MultiTools Launcher"
 #define MyAppVersion "2.20.1600.00"
 #define MyShortAppVersion "2.20"
 #define MyAppPublisher "AstragonQC Softwares"
@@ -23,8 +23,8 @@ AppUpdatesURL={#MyAppURL}
 DefaultDirName={autopf}\{#MyShortAppName}
 
 ; External Links
-InfoBeforeFile=S:\SMWMTL Dev\SMW MultiTool Launcher\Resources - External\Setup\Files\RC_Warning.txt
-LicenseFile=S:\SMWMTL Dev\SMW MultiTool Launcher\Resources - External\Setup\Files\LICENSE SMWMTL_B.txt
+;InfoBeforeFile=S:\SMWMTL Dev\SMW MultiTool Launcher\Resources - External\Setup\Files\RC_Warning.txt
+LicenseFile=S:\SMWMTL Dev\SMW MultiTool Launcher\Resources - External\Setup\Files\LICENSE SMWMTL.txt
 
 SetupIconFile=S:\SMWMTL Dev\SMW MultiTool Launcher\Resources - External\Setup\Icons\Install_Icon.ico
 
