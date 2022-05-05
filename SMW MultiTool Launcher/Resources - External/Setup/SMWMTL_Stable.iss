@@ -1,11 +1,15 @@
 
 #define MyAppName "Super Mario World MultiTools Launcher"
 #define MyShortAppName "SMW MultiTools Launcher"
+#define MyAppExeName "SMWMTL.exe"
+
 #define MyAppVersion "2.20.1600.00"
 #define MyShortAppVersion "2.20"
+
 #define MyAppPublisher "AstragonQC Softwares"
 #define MyAppURL "https://kiki79250.wixsite.com/smwmtl"
-#define MyAppExeName "SMWMTL.exe"
+
+#define MyDateTimeString GetDateTimeString('yyyy', '', '')
 
 [Setup]
 
@@ -36,6 +40,10 @@ OutputDir=C:\Users\Kylian\Desktop
 OutputBaseFilename=SMWMTL_{#MyShortAppVersion}_win64
 VersionInfoVersion={#MyAppVersion}
 
+AppCopyright=Copyright © 2018-{#MyDateTimeString} {#MyAppPublisher}
+VersionInfoOriginalFileName=SMWMTL_{#MyShortAppVersion}_win64.exe
+VersionInfoDescription={#MyShortAppName} v{#MyShortAppVersion} Setup
+
 ArchitecturesAllowed=x64
 MinVersion=0,6.0.6002
 
@@ -45,8 +53,8 @@ WizardResizable=no
 WizardSizePercent=150,100
 
 DisableWelcomePage=no
-DisableDirPage = no
-DisableProgramGroupPage = no
+DisableDirPage=no
+DisableProgramGroupPage=no
 
 ; Uninstaller Options
 UninstallDisplayName={#MyShortAppName}
