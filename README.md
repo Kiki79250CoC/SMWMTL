@@ -1,8 +1,3 @@
-## SMWMTL 2.20 Development:
-SMWMTL 2.20 Release Candidate 4 is available in the ![Releases](https://github.com/Kiki79250CoC/SMWMTL/releases) page.
-
----
-
 # Super Mario World MultiTools Launcher (SMWMTL)
 ![AppBranding](https://github.com/Kiki79250CoC/SMWMTL/blob/543e5caeecbf7b5290c8885f1ad31d8adfbd69a5/Releases/Images/AppBrand/AppBrandLogo_Montr%C3%A9al.png)
 Super Mario World MultiTools Launcher is a small program writted in VisualBasic.NET under Framework 4.6, which allows to create Super Mario World Hacks more easily (if you use your own-dumped ROM) by grouping all tools in one place instead of travel into each folder to find what tool you want to use.
