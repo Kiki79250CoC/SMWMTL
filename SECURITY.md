@@ -18,9 +18,9 @@ However, there's an exception for the last release of a codebase (like 1.20 and 
 
 | Version            | Release Date       | End of Support date | Support state            |
 | ------------------ | ------------------ | ------------------- | ------------------------ |
-| 2.20               | 10 May 2022        | -                   | Soon                     |
+| 2.20               | 10 May 2022        | -                   | Supported                |
 ||
-|        2.10-LTS.9  | 10 May 2022        | -                   | Soon                     |
+|        2.10-LTS.9  | 10 May 2022        | -                   | Supported                |
 | 2.18 • 2.10-LTS.8  | 21 April 2022      | 13 June 2023        | Supported                |
 | 2.17 • 2.10-LTS.7  | 08 March 2022      | 09 May 2023         | Supported                |
 | 2.16               | 15 January 2022    | 11 April 2023       | Supported                |
