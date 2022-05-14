@@ -2346,8 +2346,8 @@ Public Class Frm01_Main
 
         ' Graphic Editor
         Dim GraphEdit_ToolTip As New ToolTip With {.Active = True, .AutoPopDelay = 5000, .InitialDelay = 500, .ToolTipTitle = GraphEdit_Button.Tag}
-        GraphEdit_ToolTip.SetToolTip(GraphEdit_Button, $"{Frm99_TranslateForm.UI01_ExecutablePath.Text} {My.Settings.SPRITEGFXCREATOR_PATH}")
-        GraphEdit_Button.Enabled = IO.File.Exists(My.Settings.SPRITEGFXCREATOR_PATH)
+        GraphEdit_ToolTip.SetToolTip(GraphEdit_Button, $"{Frm99_TranslateForm.UI01_ExecutablePath.Text} {My.Settings.GRAPHICEDITOR_PATH}")
+        GraphEdit_Button.Enabled = IO.File.Exists(My.Settings.GRAPHICEDITOR_PATH)
 
         ' ---------------------------------------------------------------------------------------------------------------------
         ' YY-CHR
