@@ -20,7 +20,7 @@
     - Fenêtre Principale :
         - Correction d'un bug visuel qui faisait disparaître une partie de la bordure de la section 'Applications' si le nombre de
           colonnes n'est pas à sa valeur par défaut (7).
-        - Correction d'un bug avec le bouton "Editeur graphique" qui utilisait le mauvais paramètre pour s'activer ou non.
+        - Correction d'un bug avec le bouton "Graphic Editor" qui utilisait le mauvais paramètre pour s'activer ou non.
 
   ┌─────────────────────────────┐
 ──┤ Version 2.20 - 2.20.1600.00 ├───────────────────────────────────────────────────────────────────────────────────────────────────
