@@ -30,6 +30,7 @@ In this table, you can see if some versions of Windows are supported or not.
 | SMWMTL 2.18    | Yes (SP3)       | Yes (SP2)     | Yes (SP1) | Yes         | 1511-21H2   | Yes (RTM)   |
 ||
 | SMWMTL 2.20    | No              | Yes (SP2)     | Yes (SP1) | Yes         | Yes         | Yes         |
+| SMWMTL 2.21    | No              | Yes (SP2)     | Yes (SP1) | Yes         | Yes         | Yes         |
 
 ### LTS Releases
 | SMWMTL Version     | Windows XP¹  | Windows Vista | Windows 7 | Windows 8.x | Windows 10² | Windows 11 |
@@ -80,6 +81,7 @@ In this table, you can see if some versions of Windows are supported or not.
 | SMWMTL 2.18    | Yes (SP2)             | Yes (SP2) | Yes (SP1) | Yes   | Yes      | Yes   | Yes   | Yes   |
 ||
 | SMWMTL 2.20    | No                    | Yes (SP2) | Yes (SP1) | Yes   | Yes      | Yes   | Yes   | Yes   |
+| SMWMTL 2.21    | No                    | Yes (SP2) | Yes (SP1) | Yes   | Yes      | Yes   | Yes   | Yes   |
 
 ### LTS Releases
 | SMWMTL Version     | Windows Server 2003¹  | 2008      | 2008 R2   | 2012  | 2012 R2  | 2016  | 2019  | 2022  |

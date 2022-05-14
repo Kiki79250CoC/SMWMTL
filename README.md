@@ -16,10 +16,10 @@ The left one is the list of Application that SMWMTL can launch, and the right on
 
 The bottom zone is for some tools like Settings, Report bug form and some other features.
 
-![SMWMTL216](https://github.com/Kiki79250CoC/SMWMTL/blob/2e588ab35d943455f2b7f5c64b5c1dcffe753bed/Releases/Images/SMWMTL218.png)
+![SMWMTL221](https://github.com/Kiki79250CoC/SMWMTL/blob/4493507b23cc8e014fb47d6722d7c527922a1738/Releases/Images/SMWMTL221.png)
 
 ## System Requirements:
-_This system requirements concerns : SMWMTL 2.20 and up._
+### SMWMTL 2.20 and up
 
 |                         | Minimal Configuration            | Recommended Configuration                       |
 | ----------------------- | -------------------------------- | ----------------------------------------------- |
@@ -29,7 +29,7 @@ _This system requirements concerns : SMWMTL 2.20 and up._
 | Disk space              | 128 MB                           | 512 MB                                          |
 | Screen Resolution       | 1366x768 Pixels                  | 1600x900 Pixels                                 |
 
-_This system requirements concerns : SMWMTL 2.00 up to SMWMTL 2.18. LTS Versions included._
+### SMWMTL 2.00 up to SMWMTL 2.18 (2.10-LTS.x versions included)
 
 |                         | Minimal Configuration            | Recommended Configuration                       |
 | ----------------------- | -------------------------------- | ----------------------------------------------- |
@@ -42,4 +42,4 @@ _This system requirements concerns : SMWMTL 2.00 up to SMWMTL 2.18. LTS Versions
 🗣️ **SMWMTL is available for French (France) and English (United States) languages.**
 
 ## Compatibility testing:
-To see what version of SMWMTL is fully compatible with your Systems, [see the System Compatibility page](../Stable/SystemComp.md).
+To see what version of SMWMTL is fully compatible with your Systems, see the [System Compatibility Testing](../Stable/SystemComp.md) page.

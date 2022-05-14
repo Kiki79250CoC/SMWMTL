@@ -18,6 +18,7 @@ However, there's an exception for the last release of a codebase (like 1.20 and 
 
 | Version            | Release Date       | End of Support date | Support state            |
 | ------------------ | ------------------ | ------------------- | ------------------------ |
+| 2.21               | 15 May 2022        | -                   | Supported                |
 | 2.20               | 10 May 2022        | -                   | Supported                |
 ||
 |        2.10-LTS.9  | 10 May 2022        | -                   | Supported                |
@@ -48,10 +49,10 @@ However, there's an exception for the last release of a codebase (like 1.20 and 
 
 | Version            | Release Date       | End of Support date | Support state            |
 | ------------------ | ------------------ | ------------------- | ------------------------ |
-| 2.20 RC4           | 24 April 2022      | 17 May 2022         | Supported                |
-| 2.20 RC3           | 17 April 2022      | 17 May 2022         | Supported                |
-| 2.20 RC2           | 17 March 2022      | 17 May 2022         | Supported                |
-| 2.20 RC1           | 17 February 2022   | 17 May 2022         | Supported                |
+| 2.20 RC4           | 24 April 2022      | 17 May 2022         | Support Ended            |
+| 2.20 RC3           | 17 April 2022      | 17 May 2022         | Support Ended            |
+| 2.20 RC2           | 17 March 2022      | 17 May 2022         | Support Ended            |
+| 2.20 RC1           | 17 February 2022   | 17 May 2022         | Support Ended            |
 ||
 | 2.10 RC2           | 20 March 2021      | 20 April 2021       | Support Ended            |
 | 2.10 RC1           | 24 February 2021   | 20 April 2021       | Support Ended            |
