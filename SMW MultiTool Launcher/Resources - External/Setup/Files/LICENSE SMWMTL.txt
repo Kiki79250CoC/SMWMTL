@@ -1,4 +1,4 @@
-Super Mario World Multi Tools Launcher - Version 2.20 (May 10, 2022)
+Super Mario World Multi Tools Launcher - Version 2.21 (May 15, 2022)
 
 SMWMTL is a multi program that responds the problem of the multitude of icons allowing your programs to hack SMW in a simpler and faster way.
 
@@ -12,7 +12,7 @@ This program (the launcher) is not affiliated with Nintendo, but contains softwa
 
 =====
 
-Super Mario World Multi Tools Launcher - Version 2.20 (10 Mai 2022)
+Super Mario World Multi Tools Launcher - Version 2.21 (15 Mai 2022)
 
 SMWMTL est un multi programme qui répond au problème de la multitude d'icônes permettant à vos programmes de hacker SMW de manière plus simple et plus rapide.
 
