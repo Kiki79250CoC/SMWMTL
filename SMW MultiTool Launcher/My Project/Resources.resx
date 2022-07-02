@@ -263,7 +263,7 @@
     <value>..\Resources\UI_Elements\Icons\Update System\UpdateModal\UI_Icon_DownloadUpdate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="APP_VERSION_COMPLETE" xml:space="preserve">
-    <value>2.21.1600.12-rv1bld-02</value>
+    <value>2.22.1600.21-rv2bld-01</value>
   </data>
   <data name="Shortcut_Default_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Default_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -332,7 +332,7 @@
     <value>..\Resources\UI_Elements\Icons\Application Column\Other\AppIcon_HeAdder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="APP_VERSION_WITHZERO" xml:space="preserve">
-    <value>02.21</value>
+    <value>02.22</value>
   </data>
   <data name="APP_CODENAME" xml:space="preserve">
     <value>Montréal</value>
@@ -428,7 +428,7 @@
     <value>..\Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_1CTL_Error.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="APP_VERSION_BUILD" xml:space="preserve">
-    <value>1600.12</value>
+    <value>1600.21</value>
     <comment>UPDATE ASSEMBLY VERSION NUMBER INFO !!!</comment>
   </data>
   <data name="AppIcon_Smallhacker" type="System.Resources.ResXFileRef, System.Windows.Forms">
@@ -981,7 +981,7 @@
     <value>..\Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Icon_Blockreator.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="APP_VERSION" xml:space="preserve">
-    <value>2.21</value>
+    <value>2.22</value>
     <comment>MEMO :</comment>
   </data>
   <data name="Run" type="System.Resources.ResXFileRef, System.Windows.Forms">
