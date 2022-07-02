@@ -625,7 +625,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Recherche une chaîne localisée semblable à 150522.
+        '''  Recherche une chaîne localisée semblable à 020722.
         '''</summary>
         Friend ReadOnly Property BUILD_DATE_COMBINED() As String
             Get
@@ -634,7 +634,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Recherche une chaîne localisée semblable à 15.
+        '''  Recherche une chaîne localisée semblable à 02.
         '''</summary>
         Friend ReadOnly Property BUILD_DATE_DAY() As String
             Get
@@ -643,7 +643,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Recherche une chaîne localisée semblable à 05.
+        '''  Recherche une chaîne localisée semblable à 07.
         '''</summary>
         Friend ReadOnly Property BUILD_DATE_MONTH() As String
             Get
