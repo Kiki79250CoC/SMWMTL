@@ -6,7 +6,7 @@ Public Class Frm02_About
 #Region "        Values "
 
     ' Software Compilation date
-    ReadOnly CompileDate As Date = $"{My.Resources.BUILD_DATE_DAY}/{My.Resources.BUILD_DATE_MONTH}/{My.Resources.BUILD_DATE_YEAR}"
+    ReadOnly CompileDate As New DateTime(My.Resources.BUILD_DATE_YEAR, My.Resources.BUILD_DATE_MONTH, My.Resources.BUILD_DATE_DAY)
 
     ' Required WebBrowsers for UpdateSearch.
     Private UpdateWC1 As WebClient ' Step 1

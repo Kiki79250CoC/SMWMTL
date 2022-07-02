@@ -46,7 +46,7 @@ Public Class Frm01_Main
     ReadOnly WSHNetwork = CreateObject("WScript.Network")
 
     ' Software Compilation date
-    ReadOnly CompileDate As Date = $"{My.Resources.BUILD_DATE_DAY}/{My.Resources.BUILD_DATE_MONTH}/{My.Resources.BUILD_DATE_YEAR}"
+    ReadOnly CompileDate As New DateTime(My.Resources.BUILD_DATE_YEAR, My.Resources.BUILD_DATE_MONTH, My.Resources.BUILD_DATE_DAY)
 
     ' Required WebBrowsers for Update search.
     Private UpdateWC1 As WebClient ' Step 1

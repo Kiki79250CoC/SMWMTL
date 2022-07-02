@@ -14,7 +14,7 @@ Public Class Frm09_MoreInformations
     ReadOnly Win_BuildNbr As String = Environment.OSVersion.Version.Build
 
     ' Software compile date
-    ReadOnly CompileDate As Date = $"{My.Resources.BUILD_DATE_DAY}/{My.Resources.BUILD_DATE_MONTH}/{My.Resources.BUILD_DATE_YEAR}"
+    ReadOnly CompileDate As New DateTime(My.Resources.BUILD_DATE_YEAR, My.Resources.BUILD_DATE_MONTH, My.Resources.BUILD_DATE_DAY)
 
 #End Region
 
