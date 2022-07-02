@@ -20,6 +20,10 @@
     - Correction d'un bug critique empêchant SMWMTL d'être démarré sur les systèmes dont la date n'est pas affichée au format
       JJ/MM/AAAA.
 
+- Modifications :
+    - Modification de la date de compilation pour s'afficher dans le format Américain sur les systèmes non-français (Parce que
+      généralement chez les non-français, SMWMTL est affiché en anglais.
+
   ┌─────────────────────────────┐
 ──┤ Version 2.21 - 2.21.1600.12 ├───────────────────────────────────────────────────────────────────────────────────────────────────
   └─────────────────────────────┘

@@ -19,6 +19,10 @@
 - Bug Fixes :
     - Fixed a critical bug that prevents to run SMWMTL on OSes that are not using date in DD/MM/YYYY format.
 
+- Modifications :
+    - Tweaked Compile date to display in American format (July 02, 2022) on non-french systems (normally for you, non-french,
+      SMWMTL is displayed in english, so...).
+
   ┌─────────────────────────────┐
 ──┤ Version 2.21 - 2.21.1600.12 ├───────────────────────────────────────────────────────────────────────────────────────────────────
   └─────────────────────────────┘
