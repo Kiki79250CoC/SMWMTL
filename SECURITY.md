@@ -18,10 +18,12 @@ However, there's an exception for the last release of a codebase (like 1.20 and 
 
 | Version            | Release Date       | End of Support date | Support state            |
 | ------------------ | ------------------ | ------------------- | ------------------------ |
-| 2.21               | 15 May 2022        | -                   | Supported                |
-| 2.20               | 10 May 2022        | -                   | Supported                |
+| 2.22               | 02 July 2022       | -                   | Supported                |
+| 2.21               | 10 May 2022        | 8 Août 2023         | Supported                |
+| 2.20               | 10 May 2022        | 8 Août 2023         | Supported                |
 ||
-|        2.10-LTS.9  | 10 May 2022        | -                   | Supported                |
+|        2.10-LTS.10 | 02 July 2022       | -                   | Supported                |
+|        2.10-LTS.9  | 10 May 2022        | 8 Août 2023         | Supported                |
 | 2.18 • 2.10-LTS.8  | 21 April 2022      | 13 June 2023        | Supported                |
 | 2.17 • 2.10-LTS.7  | 08 March 2022      | 09 May 2023         | Supported                |
 | 2.16               | 15 January 2022    | 11 April 2023       | Supported                |
@@ -30,9 +32,9 @@ However, there's an exception for the last release of a codebase (like 1.20 and 
 | 2.13 • 2.10-LTS.4  | 19 September 2021  | 13 December 2022    | Supported                |
 | 2.12 • 2.10-LTS.3  | 10 August 2021     | 11 October 2022     | Supported                |
 | 2.11 • 2.10-LTS.2  | 16 June 2021       | 13 September 2022   | Supported                |
-| 2.10 • 2.10-LTS.1  | 13 April 2021      | 12 July 2022        | Supported                |
+| 2.10 • 2.10-LTS.1  | 13 April 2021      | 12 July 2022        | Supported End Soon       |
 ||
-| 2.07               | 09 March 2021      | 11 March 2025       | Supported (Last Release) |
+| 2.07               | 09 March 2021      | 11 March 2025       | Support Ended            |
 | 2.06               | 09 February 2021   | 12 April 2022       | Support Ended            |
 | 2.05               | 07 January 2021    | 08 March 2022       | Support Ended            |
 | 2.04               | 04 November 2020   | 08 February 2022    | Support Ended            |
