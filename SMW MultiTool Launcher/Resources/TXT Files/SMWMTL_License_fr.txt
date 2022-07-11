@@ -45,10 +45,11 @@
       - Windows 7 Professionnel SP1                 (64 bits - Tests)
       - Windows 7 Édition Intégrale SP1             (64 bits - Tests (Langue anglaise))
       - Windows 8.1 Pro w/ Update 1                 (64 bits - Tests)
-      - Windows 10 Professional 1507                (64 bits - Tests)
+      - Windows 10 Professionnel 1507               (64 bits - Tests)
       - Windows 10 Professionnel 1909               (64 bits - Tests)
       - Windows 10 Professionnel 20H2               (64 bits - Tests)
-      - Windows 10 Professionnel 21H1               (64 bits - Tests)
+      - Windows 10 Professionnel 21H2               (64 bits - Tests)
+      - Windows 10 Professionnel 21H2               (64 bits - Tests (Langue anglaise))
       - Windows 11 Professionnel 21H2               (64 bits - Tests)
       - Windows 11 Professional I.Preview 22H2      (64 bits - Tests)
 

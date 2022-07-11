@@ -6,7 +6,7 @@ Public Class Frm02_About
 #Region "        Values "
 
     ' Software Compilation date
-    ReadOnly CompileDate As Date = $"{My.Resources.BUILD_DATE_DAY}/{My.Resources.BUILD_DATE_MONTH}/{My.Resources.BUILD_DATE_YEAR}"
+    ReadOnly CompileDate As New DateTime(My.Resources.BUILD_DATE_YEAR, My.Resources.BUILD_DATE_MONTH, My.Resources.BUILD_DATE_DAY)
 
     ' Required WebBrowsers for UpdateSearch.
     Private UpdateWC1 As WebClient ' Step 1
@@ -34,7 +34,7 @@ Public Class Frm02_About
 
         AppVersion_Label.Text = $"Version {My.Resources.APP_VERSION} • Build {My.Resources.APP_VERSION_BUILD} ({My.Resources.APP_VERSION}.{My.Resources.APP_VERSION_BUILD}{If(My.Settings.IS_PRERELEASE = True, $" ({My.Resources.APP_VERSION_COMPLETE.Replace($"{My.Resources.APP_VERSION}.{My.Resources.APP_VERSION_BUILD}-", "")})", "")})"
 
-        AppCompil_Label.Text += $" {CultureInfo.CurrentCulture.TextInfo.ToTitleCase(CompileDate.ToString("dd MMMM yyyy", CultureInfo.CreateSpecificCulture(If(My.Computer.Info.InstalledUICulture.ToString().Contains("fr"), "fr-FR", "en-US"))))}"
+        AppCompil_Label.Text += $" {CultureInfo.CurrentCulture.TextInfo.ToTitleCase(CompileDate.ToString(If(My.Computer.Info.InstalledUICulture.ToString().Contains("fr"), "dd MMMM yyyy", "MMMM dd, yyyy"), CultureInfo.CreateSpecificCulture(If(My.Computer.Info.InstalledUICulture.ToString().Contains("fr"), "fr-FR", "en-US"))))}"
 
         AppVersionStringLabel.Text = $"{My.Application.Info.AssemblyName}_{My.Resources.APP_CODENAME}_{My.Resources.APP_VERSION_COMPLETE}_x{If(Environment.Is64BitProcess = True, "64", "86")}_{My.Resources.BUILD_DATE_COMBINED}"
 

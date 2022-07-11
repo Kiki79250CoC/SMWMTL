@@ -13,6 +13,18 @@
 ──────────────────────────────────────────────────┤ Versions 2.2x - 2.2x.160x.xx ├──────────────────────────────────────────────────
                                                   └──────────────────────────────┘
   ┌─────────────────────────────┐
+──┤ Version 2.22 - 2.22.1600.21 ├───────────────────────────────────────────────────────────────────────────────────────────────────
+  └─────────────────────────────┘
+
+- Correction de bugs :
+    - Correction d'un bug critique empêchant SMWMTL d'être démarré sur les systèmes dont la date n'est pas affichée au format
+      JJ/MM/AAAA.
+
+- Modifications :
+    - Modification de la date de compilation pour s'afficher dans le format Américain sur les systèmes non-français (Parce que
+      généralement chez les non-français, SMWMTL est affiché en anglais.
+
+  ┌─────────────────────────────┐
 ──┤ Version 2.21 - 2.20.1600.12 ├───────────────────────────────────────────────────────────────────────────────────────────────────
   └─────────────────────────────┘
 

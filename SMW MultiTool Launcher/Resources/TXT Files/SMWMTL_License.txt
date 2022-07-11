@@ -49,6 +49,7 @@
       - Windows 10 Professional 1909                (64-bit - Tests)
       - Windows 10 Professional 20H2                (64-bit - Tests)
       - Windows 10 Professional 21H2                (64-bit - Tests)
+      - Windows 10 Professional 21H2                (64-bit - Tests (English Language))
       - Windows 11 Professional 21H2                (64-bit - Tests)
       - Windows 11 Professional I.Preview 22H2      (64-bit - Tests)
 

@@ -36,7 +36,7 @@ Public Class Frm97_LegacyAbout
     ReadOnly DisplayYear As String = My.Resources.BUILD_DATE_YEAR
 
     ' Software Compilation date
-    ReadOnly CompileDate As Date = $"{My.Resources.BUILD_DATE_DAY}/{My.Resources.BUILD_DATE_MONTH}/{My.Resources.BUILD_DATE_YEAR}"
+    ReadOnly CompileDate As New DateTime(My.Resources.BUILD_DATE_YEAR, My.Resources.BUILD_DATE_MONTH, My.Resources.BUILD_DATE_DAY)
 
 #End Region
 
@@ -141,7 +141,7 @@ Public Class Frm97_LegacyAbout
         End Select
 
         ' Replacing values
-        AboutText.Text = AboutText.Text.Replace("BUILDN", My.Resources.APP_VERSION_BUILD).Replace("COMPLETEVER", $"{My.Resources.APP_VERSION}.{My.Resources.APP_VERSION_BUILD}").Replace("SVER", My.Resources.APP_VERSION).Replace("STATE", My.Resources.RELEASE_STATE).Replace("ACD", $"{CultureInfo.CurrentCulture.TextInfo.ToTitleCase(CompileDate.ToString("dd MMMM yyyy", CultureInfo.CreateSpecificCulture(If(My.Computer.Info.InstalledUICulture.ToString().Contains("fr"), "fr-FR", "en-US"))))}").Replace("ACYEAR", If(Year_in_Digits >= DisplayYear, Year_in_Digits, DisplayYear)).Replace("ATHR", My.Resources.APP_AUTHOR).Trim()
+        AboutText.Text = AboutText.Text.Replace("BUILDN", My.Resources.APP_VERSION_BUILD).Replace("COMPLETEVER", $"{My.Resources.APP_VERSION}.{My.Resources.APP_VERSION_BUILD}").Replace("SVER", My.Resources.APP_VERSION).Replace("STATE", My.Resources.RELEASE_STATE).Replace("ACD", $"{CultureInfo.CurrentCulture.TextInfo.ToTitleCase(CompileDate.ToString(If(My.Computer.Info.InstalledUICulture.ToString().Contains("fr"), "dd MMMM yyyy", "MMMM dd, yyyy"), CultureInfo.CreateSpecificCulture(If(My.Computer.Info.InstalledUICulture.ToString().Contains("fr"), "fr-FR", "en-US"))))}").Replace("ACYEAR", If(Year_in_Digits >= DisplayYear, Year_in_Digits, DisplayYear)).Replace("ATHR", My.Resources.APP_AUTHOR).Trim()
 
     End Sub
 

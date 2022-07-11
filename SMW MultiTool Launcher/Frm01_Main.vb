@@ -46,7 +46,7 @@ Public Class Frm01_Main
     ReadOnly WSHNetwork = CreateObject("WScript.Network")
 
     ' Software Compilation date
-    ReadOnly CompileDate As Date = $"{My.Resources.BUILD_DATE_DAY}/{My.Resources.BUILD_DATE_MONTH}/{My.Resources.BUILD_DATE_YEAR}"
+    ReadOnly CompileDate As New DateTime(My.Resources.BUILD_DATE_YEAR, My.Resources.BUILD_DATE_MONTH, My.Resources.BUILD_DATE_DAY)
 
     ' Required WebBrowsers for Update search.
     Private UpdateWC1 As WebClient ' Step 1
@@ -282,7 +282,7 @@ Public Class Frm01_Main
                         Text = Text.Replace("$BDD", My.Resources.BUILD_DATE_DAY)
                         Text = Text.Replace("$BDM", My.Resources.BUILD_DATE_MONTH)
                         Text = Text.Replace("$BDY", My.Resources.BUILD_DATE_YEAR)
-                        Text = Text.Replace("$BDV", CultureInfo.CurrentCulture.TextInfo.ToTitleCase(CompileDate.ToString("dd MMMM yyyy", CultureInfo.CreateSpecificCulture(If(My.Computer.Info.InstalledUICulture.ToString().Contains("fr"), "fr-FR", "en-US")))))
+                        Text = Text.Replace("$BDV", CultureInfo.CurrentCulture.TextInfo.ToTitleCase(CompileDate.ToString(If(My.Computer.Info.InstalledUICulture.ToString().Contains("fr"), "dd MMMM yyyy", "MMMM dd, yyyy"), CultureInfo.CreateSpecificCulture(If(My.Computer.Info.InstalledUICulture.ToString().Contains("fr"), "fr-FR", "en-US")))))
                         Text = Text.Replace("$BDC", My.Resources.BUILD_DATE_COMBINED)
                         Text = Text.Replace("$ABS", $"{My.Application.Info.AssemblyName}_{My.Resources.APP_CODENAME}_{My.Resources.APP_VERSION_COMPLETE}_x{If(Environment.Is64BitProcess = True, "64", "86")}_{My.Resources.BUILD_DATE_COMBINED}")
                         Text = Text.Replace("$CN", My.Resources.APP_CODENAME)
