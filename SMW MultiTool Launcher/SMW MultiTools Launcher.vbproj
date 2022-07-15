@@ -98,6 +98,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.VisualBasic.Compatibility" />
+    <Reference Include="SMWMTLextensions">
+      <HintPath>Dll\SMWMTLextensions.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.configuration" />
     <Reference Include="System.Data" />
@@ -108,9 +111,6 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="VistaMenu">
-      <HintPath>Dll\VistaMenu.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Import Include="Microsoft.VisualBasic" />
@@ -391,7 +391,7 @@
     <None Include="•••Kiki79250••• Approval Watermark.pfx" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Dll\VistaMenu.dll" />
+    <Content Include="Dll\SMWMTLextensions.dll" />
     <Content Include="Resources - External\Icons\App Icon\AppIcon.ico" />
     <Content Include="Resources - External\Icons\Update System Icon\SMWMTL_Update Icon.ico" />
     <Content Include="Resources - External\Setup\Images\WizModernImage.bmp" />

@@ -198,7 +198,7 @@ Partial Class Frm01_Main
         Me.SysTray_Menu_Separator02 = New System.Windows.Forms.MenuItem()
         Me.SysTray_Menu_RestartApplication = New System.Windows.Forms.MenuItem()
         Me.SysTray_Menu_CloseApplication = New System.Windows.Forms.MenuItem()
-        Me.SysTray_MenuIcons = New wyDay.Controls.VistaMenu(Me.components)
+        Me.SysTray_MenuIcons = New SMWMTLextensions.Controls.VistaMenu(Me.components)
         Me.Applications_TabPanel = New System.Windows.Forms.Panel()
         Me.SubMenu_TabPanel = New System.Windows.Forms.Panel()
         Me.SubMenu_TabControl.SuspendLayout()
@@ -2070,7 +2070,7 @@ Partial Class Frm01_Main
     Friend WithEvents UnusedBtn35 As Button
     Friend WithEvents SysTray_Menu As ContextMenu
     Friend WithEvents SysTray_Menu_OpenSettings As MenuItem
-    Friend WithEvents SysTray_MenuIcons As wyDay.Controls.VistaMenu
+    Friend WithEvents SysTray_MenuIcons As SMWMTLextensions.Controls.VistaMenu
     Friend WithEvents SysTray_Menu_Separator02 As MenuItem
     Friend WithEvents SysTray_Menu_RestartApplication As MenuItem
     Friend WithEvents SysTray_Menu_CloseApplication As MenuItem

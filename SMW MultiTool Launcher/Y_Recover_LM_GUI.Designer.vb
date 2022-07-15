@@ -70,7 +70,7 @@ Partial Class Y_Recover_LM_GUI
         Me.HowToUse_MenuItem = New System.Windows.Forms.MenuItem()
         Me.Separator4 = New System.Windows.Forms.MenuItem()
         Me.About_MenuItem = New System.Windows.Forms.MenuItem()
-        Me.MenuItems_Icons = New wyDay.Controls.VistaMenu(Me.components)
+        Me.MenuItems_Icons = New SMWMTLextensions.Controls.VistaMenu(Me.components)
         Me.ConsoleOutput_Groupbox.SuspendLayout()
         Me.Informations_Groupbox.SuspendLayout()
         Me.StatusBar.SuspendLayout()
@@ -417,5 +417,5 @@ Partial Class Y_Recover_LM_GUI
     Friend WithEvents Zoom3x_MenuItem As MenuItem
     Friend WithEvents Zoom7x_MenuItem As MenuItem
     Friend WithEvents Zoom8x_MenuItem As MenuItem
-    Friend WithEvents MenuItems_Icons As wyDay.Controls.VistaMenu
+    Friend WithEvents MenuItems_Icons As SMWMTLextensions.Controls.VistaMenu
 End Class
