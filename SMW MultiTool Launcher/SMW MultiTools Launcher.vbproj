@@ -54,7 +54,7 @@
     <SignAssembly>true</SignAssembly>
   </PropertyGroup>
   <PropertyGroup>
-    <AssemblyOriginatorKeyFile>•••Kiki79250••• Approval Watermark.pfx</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>AstragonQC_SigningWatermark.pfx</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <PropertyGroup>
     <SignManifests>false</SignManifests>
@@ -333,6 +333,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
+    <None Include="AstragonQC_SigningWatermark.pfx" />
     <None Include="My Project\app.manifest" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
@@ -388,7 +389,6 @@
     <None Include="Resources - External\Icons\Update System Icon\SMWMTL_Update_WinIcon.xcf" />
     <None Include="Resources - External\Setup\Images\Source\WizModernImage.xcf" />
     <None Include="Resources - External\Setup\Images\Source\WizModernSmallImage.xcf" />
-    <None Include="•••Kiki79250••• Approval Watermark.pfx" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Dll\SMWMTLextensions.dll" />
