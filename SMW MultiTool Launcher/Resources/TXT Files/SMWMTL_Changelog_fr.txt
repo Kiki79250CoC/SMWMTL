@@ -13,6 +13,26 @@
 ──────────────────────────────────────────────────┤ Versions 2.2x - 2.2x.160x.xx ├──────────────────────────────────────────────────
                                                   └──────────────────────────────┘
   ┌─────────────────────────────┐
+──┤ Version 2.23 - 2.23.1600.32 ├───────────────────────────────────────────────────────────────────────────────────────────────────
+  └─────────────────────────────┘
+
+- Corrections de bugs :
+    - Correction des actifs échangés pour les aperçus des logos de Windows ME et Windows 2000 dans le paramètre du bouton "Version
+      de Windows" dans les paramètres de SMWMTL.
+    - Correction d'un mot manquant dans la description de la fenêtre "Version de OS" en français.
+    - Correction des boutons qui ne s'affichaient pas correctement avec le thème Windows Classic sur plusieurs fenêtres de SMWMTL
+      dans Windows Vista/7.
+    - Correction d'un bug de couleur dans la fenêtre principale affichant l'arrière-plan en blanc au lieu de la couleur par défaut
+      de Windows Classic.
+    - Correction d'un bogue sur Windows Vista/7 qui applique les améliorations de Windows Classic si l'option était activée et que
+      DWM était activé.
+    - Correction d'une faute de frappe qui persistait depuis SMWMTL 1.10 (oui) dans l'ancienne fenêtre À propos, le rejet de SMWMTL
+      en décembre 2018 s'est produit sur SMWC.net, et non sur SMWC.com...
+
+- Ajouts :
+    - Ajout de la prise en charge de la future version de Lunar Magic (en supposant qu'elle s'appellera v3.40).
+
+  ┌─────────────────────────────┐
 ──┤ Version 2.22 - 2.22.1600.21 ├───────────────────────────────────────────────────────────────────────────────────────────────────
   └─────────────────────────────┘
 

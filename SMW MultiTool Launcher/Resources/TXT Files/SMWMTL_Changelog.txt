@@ -13,6 +13,22 @@
 ──────────────────────────────────────────────────┤ Versions 2.2x - 2.2x.160x.xx ├──────────────────────────────────────────────────
                                                   └──────────────────────────────┘
   ┌─────────────────────────────┐
+──┤ Version 2.23 - 2.23.1600.32 ├───────────────────────────────────────────────────────────────────────────────────────────────────
+  └─────────────────────────────┘
+
+- Bug fixes :
+    - Fixed swapped assets for Windows ME and Windows 2000 logo previews in "Windows Version" button setting in SMWMTL settings.
+    - Fixed a missing word in "OS Version" description in French.
+    - Fixed buttons not displaying correctly with Windows Classic Theme on several SMWMTL windows in Windows Vista/7.
+    - Fixed a color bug in Main Window displaying background in white instead of default Windows Classic color.
+    - Fixed a bug on Windows Vista/7 which apply Windows Classic enhancements if option was enabled and DWM was enabled.
+    - Fixed a typo that persisted from SMWMTL 1.10 (yes) in legacy About window, SMWMTL rejection in December 2018 happened on
+      SMWC.net, and not SMWC.com...
+
+- Additions :
+    - Adding support for future Lunar Magic release (Guessing it will be called v3.40).
+
+  ┌─────────────────────────────┐
 ──┤ Version 2.22 - 2.22.1600.21 ├───────────────────────────────────────────────────────────────────────────────────────────────────
   └─────────────────────────────┘
 
