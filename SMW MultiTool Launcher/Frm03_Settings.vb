@@ -116,7 +116,11 @@ Public Class Frm03_Settings
         For Each ImgBx As PictureBox In {Z99_UIDeco01, Z99_UIDeco02, Z99_UIDeco03, Z99_UIDeco04}
             Select Case My.Settings.WIN_CLASSIC_ENHANCEMENTS
                 Case True
-                    ImgBx.Visible = False
+                    Select Case AeroEnabled()
+                        Case False
+                            ImgBx.Visible = False
+
+                    End Select
 
                 Case False
                     ImgBx.Visible = True
@@ -928,10 +932,10 @@ Public Class Frm03_Settings
                         WinverIcon_Preview.Image = My.Resources.Winver_LogoL_Win3xNT4
 
                     Case 6
-                        WinverIcon_Preview.Image = My.Resources.Winver_LogoL_Win9x2000
+                        WinverIcon_Preview.Image = My.Resources.Winver_LogoL_WinME
 
                     Case 7
-                        WinverIcon_Preview.Image = My.Resources.Winver_LogoL_WinME
+                        WinverIcon_Preview.Image = My.Resources.Winver_LogoL_Win9x2000
 
                     Case 8
                         WinverIcon_Preview.Image = My.Resources.Winver_LogoL_WinWhistler

@@ -607,19 +607,17 @@ Partial Class Frm03_Settings
         Me.UI_MainSettingsTab.Controls.Add(Me.UI_SettingsTab06)
         Me.UI_MainSettingsTab.Name = "UI_MainSettingsTab"
         Me.UI_MainSettingsTab.SelectedIndex = 0
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_MainSettingsTab, resources.GetString("UI_MainSettingsTab.ToolTip"))
         '
         'UI_SettingsTab01
         '
-        resources.ApplyResources(Me.UI_SettingsTab01, "UI_SettingsTab01")
         Me.UI_SettingsTab01.Controls.Add(Me.UI_Tab01_Title02)
         Me.UI_SettingsTab01.Controls.Add(Me.UI_Tab01_Cat04)
         Me.UI_SettingsTab01.Controls.Add(Me.UI_Tab01_Cat03)
         Me.UI_SettingsTab01.Controls.Add(Me.UI_Tab01_Cat02)
         Me.UI_SettingsTab01.Controls.Add(Me.UI_Tab01_Title01)
         Me.UI_SettingsTab01.Controls.Add(Me.UI_Tab01_Cat01)
+        resources.ApplyResources(Me.UI_SettingsTab01, "UI_SettingsTab01")
         Me.UI_SettingsTab01.Name = "UI_SettingsTab01"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_SettingsTab01, resources.GetString("UI_SettingsTab01.ToolTip"))
         Me.UI_SettingsTab01.UseVisualStyleBackColor = True
         '
         'UI_Tab01_Title02
@@ -627,7 +625,6 @@ Partial Class Frm03_Settings
         resources.ApplyResources(Me.UI_Tab01_Title02, "UI_Tab01_Title02")
         Me.UI_Tab01_Title02.ForeColor = System.Drawing.SystemColors.HotTrack
         Me.UI_Tab01_Title02.Name = "UI_Tab01_Title02"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab01_Title02, resources.GetString("UI_Tab01_Title02.ToolTip"))
         '
         'UI_Tab01_Cat04
         '
@@ -636,13 +633,11 @@ Partial Class Frm03_Settings
         Me.UI_Tab01_Cat04.Controls.Add(Me.AppOption_Theme)
         Me.UI_Tab01_Cat04.Name = "UI_Tab01_Cat04"
         Me.UI_Tab01_Cat04.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab01_Cat04, resources.GetString("UI_Tab01_Cat04.ToolTip"))
         '
         'Text_003
         '
         resources.ApplyResources(Me.Text_003, "Text_003")
         Me.Text_003.Name = "Text_003"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Text_003, resources.GetString("Text_003.ToolTip"))
         '
         'AppOption_Theme
         '
@@ -651,7 +646,6 @@ Partial Class Frm03_Settings
         Me.AppOption_Theme.FormattingEnabled = True
         Me.AppOption_Theme.Items.AddRange(New Object() {resources.GetString("AppOption_Theme.Items")})
         Me.AppOption_Theme.Name = "AppOption_Theme"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_Theme, resources.GetString("AppOption_Theme.ToolTip"))
         '
         'UI_Tab01_Cat03
         '
@@ -664,7 +658,6 @@ Partial Class Frm03_Settings
         Me.UI_Tab01_Cat03.Controls.Add(Me.Text_001)
         Me.UI_Tab01_Cat03.Name = "UI_Tab01_Cat03"
         Me.UI_Tab01_Cat03.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab01_Cat03, resources.GetString("UI_Tab01_Cat03.ToolTip"))
         '
         'AppOption_OpacityValue
         '
@@ -675,20 +668,17 @@ Partial Class Frm03_Settings
         Me.AppOption_OpacityValue.Name = "AppOption_OpacityValue"
         Me.AppOption_OpacityValue.TickFrequency = 5
         Me.AppOption_OpacityValue.TickStyle = System.Windows.Forms.TickStyle.None
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_OpacityValue, resources.GetString("AppOption_OpacityValue.ToolTip"))
         Me.AppOption_OpacityValue.Value = 100
         '
         'AppOption_OpacityPercentage
         '
         resources.ApplyResources(Me.AppOption_OpacityPercentage, "AppOption_OpacityPercentage")
         Me.AppOption_OpacityPercentage.Name = "AppOption_OpacityPercentage"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_OpacityPercentage, resources.GetString("AppOption_OpacityPercentage.ToolTip"))
         '
         'Text_002
         '
         resources.ApplyResources(Me.Text_002, "Text_002")
         Me.Text_002.Name = "Text_002"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Text_002, resources.GetString("Text_002.ToolTip"))
         '
         'AppOption_AppOpacityApplyMode
         '
@@ -696,20 +686,17 @@ Partial Class Frm03_Settings
         Me.AppOption_AppOpacityApplyMode.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.AppOption_AppOpacityApplyMode.Items.AddRange(New Object() {resources.GetString("AppOption_AppOpacityApplyMode.Items"), resources.GetString("AppOption_AppOpacityApplyMode.Items1"), resources.GetString("AppOption_AppOpacityApplyMode.Items2")})
         Me.AppOption_AppOpacityApplyMode.Name = "AppOption_AppOpacityApplyMode"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_AppOpacityApplyMode, resources.GetString("AppOption_AppOpacityApplyMode.ToolTip"))
         '
         'AppOption_AppOpacity
         '
         resources.ApplyResources(Me.AppOption_AppOpacity, "AppOption_AppOpacity")
         Me.AppOption_AppOpacity.Name = "AppOption_AppOpacity"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_AppOpacity, resources.GetString("AppOption_AppOpacity.ToolTip"))
         Me.AppOption_AppOpacity.UseVisualStyleBackColor = True
         '
         'Text_001
         '
         resources.ApplyResources(Me.Text_001, "Text_001")
         Me.Text_001.Name = "Text_001"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Text_001, resources.GetString("Text_001.ToolTip"))
         '
         'UI_Tab01_Cat02
         '
@@ -726,7 +713,6 @@ Partial Class Frm03_Settings
         Me.UI_Tab01_Cat02.Controls.Add(Me.AppOption_LockAtTopMost)
         Me.UI_Tab01_Cat02.Name = "UI_Tab01_Cat02"
         Me.UI_Tab01_Cat02.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab01_Cat02, resources.GetString("UI_Tab01_Cat02.ToolTip"))
         '
         'AppOption_CustomTextFormattingCodes
         '
@@ -734,19 +720,16 @@ Partial Class Frm03_Settings
         Me.AppOption_CustomTextFormattingCodes.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline
         Me.AppOption_CustomTextFormattingCodes.Name = "AppOption_CustomTextFormattingCodes"
         Me.AppOption_CustomTextFormattingCodes.TabStop = True
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_CustomTextFormattingCodes, resources.GetString("AppOption_CustomTextFormattingCodes.ToolTip"))
         '
         'AppOption_TitleCustomText
         '
         resources.ApplyResources(Me.AppOption_TitleCustomText, "AppOption_TitleCustomText")
         Me.AppOption_TitleCustomText.Name = "AppOption_TitleCustomText"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_TitleCustomText, resources.GetString("AppOption_TitleCustomText.ToolTip"))
         '
         'ChrCount01
         '
         resources.ApplyResources(Me.ChrCount01, "ChrCount01")
         Me.ChrCount01.Name = "ChrCount01"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.ChrCount01, resources.GetString("ChrCount01.ToolTip"))
         '
         'AppOption_AdditionalTitleTextType
         '
@@ -754,30 +737,26 @@ Partial Class Frm03_Settings
         Me.AppOption_AdditionalTitleTextType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.AppOption_AdditionalTitleTextType.Items.AddRange(New Object() {resources.GetString("AppOption_AdditionalTitleTextType.Items"), resources.GetString("AppOption_AdditionalTitleTextType.Items1"), resources.GetString("AppOption_AdditionalTitleTextType.Items2")})
         Me.AppOption_AdditionalTitleTextType.Name = "AppOption_AdditionalTitleTextType"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_AdditionalTitleTextType, resources.GetString("AppOption_AdditionalTitleTextType.ToolTip"))
         '
         'AppOption_CustomTitleText
         '
         resources.ApplyResources(Me.AppOption_CustomTitleText, "AppOption_CustomTitleText")
         Me.AppOption_CustomTitleText.ForeColor = System.Drawing.SystemColors.ControlText
         Me.AppOption_CustomTitleText.Name = "AppOption_CustomTitleText"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_CustomTitleText, resources.GetString("AppOption_CustomTitleText.ToolTip"))
         Me.AppOption_CustomTitleText.UseVisualStyleBackColor = True
         '
         'UI_Tab01_Cat02_UnderOption01
         '
-        resources.ApplyResources(Me.UI_Tab01_Cat02_UnderOption01, "UI_Tab01_Cat02_UnderOption01")
         Me.UI_Tab01_Cat02_UnderOption01.Image = Global.SMW_MultiTool_Launcher.My.Resources.Resources.CbxUnderOptionUnavailable
+        resources.ApplyResources(Me.UI_Tab01_Cat02_UnderOption01, "UI_Tab01_Cat02_UnderOption01")
         Me.UI_Tab01_Cat02_UnderOption01.Name = "UI_Tab01_Cat02_UnderOption01"
         Me.UI_Tab01_Cat02_UnderOption01.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab01_Cat02_UnderOption01, resources.GetString("UI_Tab01_Cat02_UnderOption01.ToolTip"))
         '
         'AppOption_HideTitle
         '
         resources.ApplyResources(Me.AppOption_HideTitle, "AppOption_HideTitle")
         Me.AppOption_HideTitle.ForeColor = System.Drawing.SystemColors.ControlText
         Me.AppOption_HideTitle.Name = "AppOption_HideTitle"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_HideTitle, resources.GetString("AppOption_HideTitle.ToolTip"))
         Me.AppOption_HideTitle.UseVisualStyleBackColor = True
         '
         'AppOption_ShowBlankIcon
@@ -785,7 +764,6 @@ Partial Class Frm03_Settings
         resources.ApplyResources(Me.AppOption_ShowBlankIcon, "AppOption_ShowBlankIcon")
         Me.AppOption_ShowBlankIcon.ForeColor = System.Drawing.SystemColors.ControlText
         Me.AppOption_ShowBlankIcon.Name = "AppOption_ShowBlankIcon"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_ShowBlankIcon, resources.GetString("AppOption_ShowBlankIcon.ToolTip"))
         Me.AppOption_ShowBlankIcon.UseVisualStyleBackColor = True
         '
         'AppOption_HideIcon
@@ -793,7 +771,6 @@ Partial Class Frm03_Settings
         resources.ApplyResources(Me.AppOption_HideIcon, "AppOption_HideIcon")
         Me.AppOption_HideIcon.ForeColor = System.Drawing.SystemColors.ControlText
         Me.AppOption_HideIcon.Name = "AppOption_HideIcon"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_HideIcon, resources.GetString("AppOption_HideIcon.ToolTip"))
         Me.AppOption_HideIcon.UseVisualStyleBackColor = True
         '
         'AppOption_LockAtTopMost
@@ -801,7 +778,6 @@ Partial Class Frm03_Settings
         resources.ApplyResources(Me.AppOption_LockAtTopMost, "AppOption_LockAtTopMost")
         Me.AppOption_LockAtTopMost.ForeColor = System.Drawing.SystemColors.ControlText
         Me.AppOption_LockAtTopMost.Name = "AppOption_LockAtTopMost"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_LockAtTopMost, resources.GetString("AppOption_LockAtTopMost.ToolTip"))
         Me.AppOption_LockAtTopMost.UseVisualStyleBackColor = True
         '
         'UI_Tab01_Title01
@@ -809,7 +785,6 @@ Partial Class Frm03_Settings
         resources.ApplyResources(Me.UI_Tab01_Title01, "UI_Tab01_Title01")
         Me.UI_Tab01_Title01.ForeColor = System.Drawing.SystemColors.HotTrack
         Me.UI_Tab01_Title01.Name = "UI_Tab01_Title01"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab01_Title01, resources.GetString("UI_Tab01_Title01.ToolTip"))
         '
         'UI_Tab01_Cat01
         '
@@ -820,14 +795,12 @@ Partial Class Frm03_Settings
         Me.UI_Tab01_Cat01.ForeColor = System.Drawing.SystemColors.ControlText
         Me.UI_Tab01_Cat01.Name = "UI_Tab01_Cat01"
         Me.UI_Tab01_Cat01.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab01_Cat01, resources.GetString("UI_Tab01_Cat01.ToolTip"))
         '
         'AppOption_DarkThemeToggle
         '
         resources.ApplyResources(Me.AppOption_DarkThemeToggle, "AppOption_DarkThemeToggle")
         Me.AppOption_DarkThemeToggle.ForeColor = System.Drawing.SystemColors.ControlText
         Me.AppOption_DarkThemeToggle.Name = "AppOption_DarkThemeToggle"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_DarkThemeToggle, resources.GetString("AppOption_DarkThemeToggle.ToolTip"))
         Me.AppOption_DarkThemeToggle.UseVisualStyleBackColor = True
         '
         'AppOption_WinClassicEnhancements
@@ -835,7 +808,6 @@ Partial Class Frm03_Settings
         resources.ApplyResources(Me.AppOption_WinClassicEnhancements, "AppOption_WinClassicEnhancements")
         Me.AppOption_WinClassicEnhancements.ForeColor = System.Drawing.SystemColors.ControlText
         Me.AppOption_WinClassicEnhancements.Name = "AppOption_WinClassicEnhancements"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_WinClassicEnhancements, resources.GetString("AppOption_WinClassicEnhancements.ToolTip"))
         Me.AppOption_WinClassicEnhancements.UseVisualStyleBackColor = True
         '
         'AppOption_DWMExtension
@@ -843,18 +815,16 @@ Partial Class Frm03_Settings
         resources.ApplyResources(Me.AppOption_DWMExtension, "AppOption_DWMExtension")
         Me.AppOption_DWMExtension.ForeColor = System.Drawing.SystemColors.ControlText
         Me.AppOption_DWMExtension.Name = "AppOption_DWMExtension"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_DWMExtension, resources.GetString("AppOption_DWMExtension.ToolTip"))
         Me.AppOption_DWMExtension.UseVisualStyleBackColor = True
         '
         'UI_SettingsTab02
         '
-        resources.ApplyResources(Me.UI_SettingsTab02, "UI_SettingsTab02")
         Me.UI_SettingsTab02.Controls.Add(Me.UI_Tab02_Title01)
         Me.UI_SettingsTab02.Controls.Add(Me.UI_Tab02_Cat03)
         Me.UI_SettingsTab02.Controls.Add(Me.UI_Tab02_Cat02)
         Me.UI_SettingsTab02.Controls.Add(Me.UI_Tab02_Cat01)
+        resources.ApplyResources(Me.UI_SettingsTab02, "UI_SettingsTab02")
         Me.UI_SettingsTab02.Name = "UI_SettingsTab02"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_SettingsTab02, resources.GetString("UI_SettingsTab02.ToolTip"))
         Me.UI_SettingsTab02.UseVisualStyleBackColor = True
         '
         'UI_Tab02_Title01
@@ -862,7 +832,6 @@ Partial Class Frm03_Settings
         resources.ApplyResources(Me.UI_Tab02_Title01, "UI_Tab02_Title01")
         Me.UI_Tab02_Title01.ForeColor = System.Drawing.SystemColors.HotTrack
         Me.UI_Tab02_Title01.Name = "UI_Tab02_Title01"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab02_Title01, resources.GetString("UI_Tab02_Title01.ToolTip"))
         '
         'UI_Tab02_Cat03
         '
@@ -889,31 +858,27 @@ Partial Class Frm03_Settings
         Me.UI_Tab02_Cat03.Controls.Add(Me.AppOption_DisplayWinverButton)
         Me.UI_Tab02_Cat03.Name = "UI_Tab02_Cat03"
         Me.UI_Tab02_Cat03.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab02_Cat03, resources.GetString("UI_Tab02_Cat03.ToolTip"))
         '
         'Shell32AboutIcon
         '
-        resources.ApplyResources(Me.Shell32AboutIcon, "Shell32AboutIcon")
         Me.Shell32AboutIcon.Image = Global.SMW_MultiTool_Launcher.My.Resources.Resources.Via_GUI
+        resources.ApplyResources(Me.Shell32AboutIcon, "Shell32AboutIcon")
         Me.Shell32AboutIcon.Name = "Shell32AboutIcon"
         Me.Shell32AboutIcon.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Shell32AboutIcon, resources.GetString("Shell32AboutIcon.ToolTip"))
         '
         'AppOption_UseShell32About
         '
         resources.ApplyResources(Me.AppOption_UseShell32About, "AppOption_UseShell32About")
         Me.AppOption_UseShell32About.AutoEllipsis = True
         Me.AppOption_UseShell32About.Name = "AppOption_UseShell32About"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_UseShell32About, resources.GetString("AppOption_UseShell32About.ToolTip"))
         Me.AppOption_UseShell32About.UseVisualStyleBackColor = True
         '
         'UI_Tab02_Cat03_UnderOption02
         '
-        resources.ApplyResources(Me.UI_Tab02_Cat03_UnderOption02, "UI_Tab02_Cat03_UnderOption02")
         Me.UI_Tab02_Cat03_UnderOption02.Image = Global.SMW_MultiTool_Launcher.My.Resources.Resources.CbxUnderOption
+        resources.ApplyResources(Me.UI_Tab02_Cat03_UnderOption02, "UI_Tab02_Cat03_UnderOption02")
         Me.UI_Tab02_Cat03_UnderOption02.Name = "UI_Tab02_Cat03_UnderOption02"
         Me.UI_Tab02_Cat03_UnderOption02.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab02_Cat03_UnderOption02, resources.GetString("UI_Tab02_Cat03_UnderOption02.ToolTip"))
         '
         'UI_Tab02_Cat04
         '
@@ -925,36 +890,31 @@ Partial Class Frm03_Settings
         Me.UI_Tab02_Cat04.Controls.Add(Me.AppOption_HideBottomBtns)
         Me.UI_Tab02_Cat04.Name = "UI_Tab02_Cat04"
         Me.UI_Tab02_Cat04.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab02_Cat04, resources.GetString("UI_Tab02_Cat04.ToolTip"))
         '
         'BtmBarSeparatorsIcon
         '
-        resources.ApplyResources(Me.BtmBarSeparatorsIcon, "BtmBarSeparatorsIcon")
         Me.BtmBarSeparatorsIcon.Image = Global.SMW_MultiTool_Launcher.My.Resources.Resources.BtmBar_Separators
+        resources.ApplyResources(Me.BtmBarSeparatorsIcon, "BtmBarSeparatorsIcon")
         Me.BtmBarSeparatorsIcon.Name = "BtmBarSeparatorsIcon"
         Me.BtmBarSeparatorsIcon.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.BtmBarSeparatorsIcon, resources.GetString("BtmBarSeparatorsIcon.ToolTip"))
         '
         'AppOption_BtmBarSeparators
         '
         resources.ApplyResources(Me.AppOption_BtmBarSeparators, "AppOption_BtmBarSeparators")
         Me.AppOption_BtmBarSeparators.Name = "AppOption_BtmBarSeparators"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_BtmBarSeparators, resources.GetString("AppOption_BtmBarSeparators.ToolTip"))
         Me.AppOption_BtmBarSeparators.UseVisualStyleBackColor = True
         '
         'HideBottomBtnsIcon
         '
-        resources.ApplyResources(Me.HideBottomBtnsIcon, "HideBottomBtnsIcon")
         Me.HideBottomBtnsIcon.Image = Global.SMW_MultiTool_Launcher.My.Resources.Resources.list
+        resources.ApplyResources(Me.HideBottomBtnsIcon, "HideBottomBtnsIcon")
         Me.HideBottomBtnsIcon.Name = "HideBottomBtnsIcon"
         Me.HideBottomBtnsIcon.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.HideBottomBtnsIcon, resources.GetString("HideBottomBtnsIcon.ToolTip"))
         '
         'AppOption_HideBottomBtns
         '
         resources.ApplyResources(Me.AppOption_HideBottomBtns, "AppOption_HideBottomBtns")
         Me.AppOption_HideBottomBtns.Name = "AppOption_HideBottomBtns"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_HideBottomBtns, resources.GetString("AppOption_HideBottomBtns.ToolTip"))
         Me.AppOption_HideBottomBtns.UseVisualStyleBackColor = True
         '
         'AboutButtonIcon
@@ -963,63 +923,55 @@ Partial Class Frm03_Settings
         Me.AboutButtonIcon.Image = Global.SMW_MultiTool_Launcher.My.Resources.Resources.Info
         Me.AboutButtonIcon.Name = "AboutButtonIcon"
         Me.AboutButtonIcon.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AboutButtonIcon, resources.GetString("AboutButtonIcon.ToolTip"))
         '
         'TaskmgrButtonIcon
         '
-        resources.ApplyResources(Me.TaskmgrButtonIcon, "TaskmgrButtonIcon")
         Me.TaskmgrButtonIcon.Image = Global.SMW_MultiTool_Launcher.My.Resources.Resources.Taskmgr_Icon_Win11
+        resources.ApplyResources(Me.TaskmgrButtonIcon, "TaskmgrButtonIcon")
         Me.TaskmgrButtonIcon.Name = "TaskmgrButtonIcon"
         Me.TaskmgrButtonIcon.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.TaskmgrButtonIcon, resources.GetString("TaskmgrButtonIcon.ToolTip"))
         '
         'BuiltInWinverButtonIcon
         '
-        resources.ApplyResources(Me.BuiltInWinverButtonIcon, "BuiltInWinverButtonIcon")
         Me.BuiltInWinverButtonIcon.Image = Global.SMW_MultiTool_Launcher.My.Resources.Resources.Built_in_Winver
+        resources.ApplyResources(Me.BuiltInWinverButtonIcon, "BuiltInWinverButtonIcon")
         Me.BuiltInWinverButtonIcon.Name = "BuiltInWinverButtonIcon"
         Me.BuiltInWinverButtonIcon.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.BuiltInWinverButtonIcon, resources.GetString("BuiltInWinverButtonIcon.ToolTip"))
         '
         'WinverButtonIcon
         '
-        resources.ApplyResources(Me.WinverButtonIcon, "WinverButtonIcon")
         Me.WinverButtonIcon.Image = Global.SMW_MultiTool_Launcher.My.Resources.Resources.Winver_Logo_Win7
+        resources.ApplyResources(Me.WinverButtonIcon, "WinverButtonIcon")
         Me.WinverButtonIcon.Name = "WinverButtonIcon"
         Me.WinverButtonIcon.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.WinverButtonIcon, resources.GetString("WinverButtonIcon.ToolTip"))
         '
         'ReportCrashButtonIcon
         '
-        resources.ApplyResources(Me.ReportCrashButtonIcon, "ReportCrashButtonIcon")
         Me.ReportCrashButtonIcon.Image = Global.SMW_MultiTool_Launcher.My.Resources.Resources.Bug
+        resources.ApplyResources(Me.ReportCrashButtonIcon, "ReportCrashButtonIcon")
         Me.ReportCrashButtonIcon.Name = "ReportCrashButtonIcon"
         Me.ReportCrashButtonIcon.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.ReportCrashButtonIcon, resources.GetString("ReportCrashButtonIcon.ToolTip"))
         '
         'SuggestUpdateButtonIcon
         '
-        resources.ApplyResources(Me.SuggestUpdateButtonIcon, "SuggestUpdateButtonIcon")
         Me.SuggestUpdateButtonIcon.Image = Global.SMW_MultiTool_Launcher.My.Resources.Resources.Update
+        resources.ApplyResources(Me.SuggestUpdateButtonIcon, "SuggestUpdateButtonIcon")
         Me.SuggestUpdateButtonIcon.Name = "SuggestUpdateButtonIcon"
         Me.SuggestUpdateButtonIcon.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.SuggestUpdateButtonIcon, resources.GetString("SuggestUpdateButtonIcon.ToolTip"))
         '
         'HelpButtonIcon
         '
-        resources.ApplyResources(Me.HelpButtonIcon, "HelpButtonIcon")
         Me.HelpButtonIcon.Image = Global.SMW_MultiTool_Launcher.My.Resources.Resources.Help
+        resources.ApplyResources(Me.HelpButtonIcon, "HelpButtonIcon")
         Me.HelpButtonIcon.Name = "HelpButtonIcon"
         Me.HelpButtonIcon.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.HelpButtonIcon, resources.GetString("HelpButtonIcon.ToolTip"))
         '
         'UI_Tab02_Cat03_UnderOption01
         '
-        resources.ApplyResources(Me.UI_Tab02_Cat03_UnderOption01, "UI_Tab02_Cat03_UnderOption01")
         Me.UI_Tab02_Cat03_UnderOption01.Image = Global.SMW_MultiTool_Launcher.My.Resources.Resources.CbxUnderOptionUnavailable
+        resources.ApplyResources(Me.UI_Tab02_Cat03_UnderOption01, "UI_Tab02_Cat03_UnderOption01")
         Me.UI_Tab02_Cat03_UnderOption01.Name = "UI_Tab02_Cat03_UnderOption01"
         Me.UI_Tab02_Cat03_UnderOption01.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab02_Cat03_UnderOption01, resources.GetString("UI_Tab02_Cat03_UnderOption01.ToolTip"))
         '
         'AppOption_BuiltInAboutWindows_Prewiew
         '
@@ -1027,14 +979,12 @@ Partial Class Frm03_Settings
         Me.AppOption_BuiltInAboutWindows_Prewiew.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline
         Me.AppOption_BuiltInAboutWindows_Prewiew.Name = "AppOption_BuiltInAboutWindows_Prewiew"
         Me.AppOption_BuiltInAboutWindows_Prewiew.TabStop = True
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_BuiltInAboutWindows_Prewiew, resources.GetString("AppOption_BuiltInAboutWindows_Prewiew.ToolTip"))
         '
         'AppOption_DisplayReportCrashButton
         '
         resources.ApplyResources(Me.AppOption_DisplayReportCrashButton, "AppOption_DisplayReportCrashButton")
         Me.AppOption_DisplayReportCrashButton.AutoEllipsis = True
         Me.AppOption_DisplayReportCrashButton.Name = "AppOption_DisplayReportCrashButton"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_DisplayReportCrashButton, resources.GetString("AppOption_DisplayReportCrashButton.ToolTip"))
         Me.AppOption_DisplayReportCrashButton.UseVisualStyleBackColor = True
         '
         'AppOption_DisplayAboutButton
@@ -1044,7 +994,6 @@ Partial Class Frm03_Settings
         Me.AppOption_DisplayAboutButton.Checked = True
         Me.AppOption_DisplayAboutButton.CheckState = System.Windows.Forms.CheckState.Checked
         Me.AppOption_DisplayAboutButton.Name = "AppOption_DisplayAboutButton"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_DisplayAboutButton, resources.GetString("AppOption_DisplayAboutButton.ToolTip"))
         Me.AppOption_DisplayAboutButton.UseVisualStyleBackColor = True
         '
         'AppOption_DisplayTaskmgrButton
@@ -1052,7 +1001,6 @@ Partial Class Frm03_Settings
         resources.ApplyResources(Me.AppOption_DisplayTaskmgrButton, "AppOption_DisplayTaskmgrButton")
         Me.AppOption_DisplayTaskmgrButton.AutoEllipsis = True
         Me.AppOption_DisplayTaskmgrButton.Name = "AppOption_DisplayTaskmgrButton"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_DisplayTaskmgrButton, resources.GetString("AppOption_DisplayTaskmgrButton.ToolTip"))
         Me.AppOption_DisplayTaskmgrButton.UseVisualStyleBackColor = True
         '
         'AppOption_DisplayHelpButton
@@ -1060,7 +1008,6 @@ Partial Class Frm03_Settings
         resources.ApplyResources(Me.AppOption_DisplayHelpButton, "AppOption_DisplayHelpButton")
         Me.AppOption_DisplayHelpButton.AutoEllipsis = True
         Me.AppOption_DisplayHelpButton.Name = "AppOption_DisplayHelpButton"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_DisplayHelpButton, resources.GetString("AppOption_DisplayHelpButton.ToolTip"))
         Me.AppOption_DisplayHelpButton.UseVisualStyleBackColor = True
         '
         'AppOption_DisplaySuggestUpdateButton
@@ -1068,7 +1015,6 @@ Partial Class Frm03_Settings
         resources.ApplyResources(Me.AppOption_DisplaySuggestUpdateButton, "AppOption_DisplaySuggestUpdateButton")
         Me.AppOption_DisplaySuggestUpdateButton.AutoEllipsis = True
         Me.AppOption_DisplaySuggestUpdateButton.Name = "AppOption_DisplaySuggestUpdateButton"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_DisplaySuggestUpdateButton, resources.GetString("AppOption_DisplaySuggestUpdateButton.ToolTip"))
         Me.AppOption_DisplaySuggestUpdateButton.UseVisualStyleBackColor = True
         '
         'AppOption_BuiltInWinver
@@ -1076,7 +1022,6 @@ Partial Class Frm03_Settings
         resources.ApplyResources(Me.AppOption_BuiltInWinver, "AppOption_BuiltInWinver")
         Me.AppOption_BuiltInWinver.AutoEllipsis = True
         Me.AppOption_BuiltInWinver.Name = "AppOption_BuiltInWinver"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_BuiltInWinver, resources.GetString("AppOption_BuiltInWinver.ToolTip"))
         Me.AppOption_BuiltInWinver.UseVisualStyleBackColor = True
         '
         'AppOption_DisplayWinverButton
@@ -1084,7 +1029,6 @@ Partial Class Frm03_Settings
         resources.ApplyResources(Me.AppOption_DisplayWinverButton, "AppOption_DisplayWinverButton")
         Me.AppOption_DisplayWinverButton.AutoEllipsis = True
         Me.AppOption_DisplayWinverButton.Name = "AppOption_DisplayWinverButton"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_DisplayWinverButton, resources.GetString("AppOption_DisplayWinverButton.ToolTip"))
         Me.AppOption_DisplayWinverButton.UseVisualStyleBackColor = True
         '
         'UI_Tab02_Cat02
@@ -1100,61 +1044,53 @@ Partial Class Frm03_Settings
         Me.UI_Tab02_Cat02.Controls.Add(Me.AppOption_TaskmgrIconBackColor)
         Me.UI_Tab02_Cat02.Name = "UI_Tab02_Cat02"
         Me.UI_Tab02_Cat02.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab02_Cat02, resources.GetString("UI_Tab02_Cat02.ToolTip"))
         '
         'Text_006
         '
         resources.ApplyResources(Me.Text_006, "Text_006")
         Me.Text_006.Name = "Text_006"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Text_006, resources.GetString("Text_006.ToolTip"))
         '
         'Text_005
         '
         resources.ApplyResources(Me.Text_005, "Text_005")
         Me.Text_005.Name = "Text_005"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Text_005, resources.GetString("Text_005.ToolTip"))
         '
         'TaskmgrIcon_Preview
         '
-        resources.ApplyResources(Me.TaskmgrIcon_Preview, "TaskmgrIcon_Preview")
         Me.TaskmgrIcon_Preview.Image = Global.SMW_MultiTool_Launcher.My.Resources.Resources.SysIconModify64
+        resources.ApplyResources(Me.TaskmgrIcon_Preview, "TaskmgrIcon_Preview")
         Me.TaskmgrIcon_Preview.Name = "TaskmgrIcon_Preview"
         Me.TaskmgrIcon_Preview.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.TaskmgrIcon_Preview, resources.GetString("TaskmgrIcon_Preview.ToolTip"))
         '
         'Taskmgr_CurrentOSIcon
         '
-        resources.ApplyResources(Me.Taskmgr_CurrentOSIcon, "Taskmgr_CurrentOSIcon")
         Me.Taskmgr_CurrentOSIcon.Image = Global.SMW_MultiTool_Launcher.My.Resources.Resources.SysIconModify
+        resources.ApplyResources(Me.Taskmgr_CurrentOSIcon, "Taskmgr_CurrentOSIcon")
         Me.Taskmgr_CurrentOSIcon.Name = "Taskmgr_CurrentOSIcon"
         Me.Taskmgr_CurrentOSIcon.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Taskmgr_CurrentOSIcon, resources.GetString("Taskmgr_CurrentOSIcon.ToolTip"))
         '
         'AppOption_TaskmgrIconBasedOnCurrentOS
         '
         resources.ApplyResources(Me.AppOption_TaskmgrIconBasedOnCurrentOS, "AppOption_TaskmgrIconBasedOnCurrentOS")
         Me.AppOption_TaskmgrIconBasedOnCurrentOS.AutoEllipsis = True
         Me.AppOption_TaskmgrIconBasedOnCurrentOS.Name = "AppOption_TaskmgrIconBasedOnCurrentOS"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_TaskmgrIconBasedOnCurrentOS, resources.GetString("AppOption_TaskmgrIconBasedOnCurrentOS.ToolTip"))
         Me.AppOption_TaskmgrIconBasedOnCurrentOS.UseVisualStyleBackColor = True
         '
         'AppOption_TaskmgrIconLineColor
         '
-        resources.ApplyResources(Me.AppOption_TaskmgrIconLineColor, "AppOption_TaskmgrIconLineColor")
         Me.AppOption_TaskmgrIconLineColor.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.AppOption_TaskmgrIconLineColor.FormattingEnabled = True
         Me.AppOption_TaskmgrIconLineColor.Items.AddRange(New Object() {resources.GetString("AppOption_TaskmgrIconLineColor.Items"), resources.GetString("AppOption_TaskmgrIconLineColor.Items1"), resources.GetString("AppOption_TaskmgrIconLineColor.Items2"), resources.GetString("AppOption_TaskmgrIconLineColor.Items3"), resources.GetString("AppOption_TaskmgrIconLineColor.Items4"), resources.GetString("AppOption_TaskmgrIconLineColor.Items5"), resources.GetString("AppOption_TaskmgrIconLineColor.Items6"), resources.GetString("AppOption_TaskmgrIconLineColor.Items7"), resources.GetString("AppOption_TaskmgrIconLineColor.Items8"), resources.GetString("AppOption_TaskmgrIconLineColor.Items9")})
+        resources.ApplyResources(Me.AppOption_TaskmgrIconLineColor, "AppOption_TaskmgrIconLineColor")
         Me.AppOption_TaskmgrIconLineColor.Name = "AppOption_TaskmgrIconLineColor"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_TaskmgrIconLineColor, resources.GetString("AppOption_TaskmgrIconLineColor.ToolTip"))
         '
         'AppOption_TaskmgrIconBackColor
         '
-        resources.ApplyResources(Me.AppOption_TaskmgrIconBackColor, "AppOption_TaskmgrIconBackColor")
         Me.AppOption_TaskmgrIconBackColor.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.AppOption_TaskmgrIconBackColor.FormattingEnabled = True
         Me.AppOption_TaskmgrIconBackColor.Items.AddRange(New Object() {resources.GetString("AppOption_TaskmgrIconBackColor.Items"), resources.GetString("AppOption_TaskmgrIconBackColor.Items1")})
+        resources.ApplyResources(Me.AppOption_TaskmgrIconBackColor, "AppOption_TaskmgrIconBackColor")
         Me.AppOption_TaskmgrIconBackColor.Name = "AppOption_TaskmgrIconBackColor"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_TaskmgrIconBackColor, resources.GetString("AppOption_TaskmgrIconBackColor.ToolTip"))
         '
         'UI_Tab02_Cat01
         '
@@ -1167,56 +1103,49 @@ Partial Class Frm03_Settings
         Me.UI_Tab02_Cat01.Controls.Add(Me.AppOption_WinverIcon)
         Me.UI_Tab02_Cat01.Name = "UI_Tab02_Cat01"
         Me.UI_Tab02_Cat01.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab02_Cat01, resources.GetString("UI_Tab02_Cat01.ToolTip"))
         '
         'WinverIcon_Preview
         '
-        resources.ApplyResources(Me.WinverIcon_Preview, "WinverIcon_Preview")
         Me.WinverIcon_Preview.Image = Global.SMW_MultiTool_Launcher.My.Resources.Resources.SysIconModify64
+        resources.ApplyResources(Me.WinverIcon_Preview, "WinverIcon_Preview")
         Me.WinverIcon_Preview.Name = "WinverIcon_Preview"
         Me.WinverIcon_Preview.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.WinverIcon_Preview, resources.GetString("WinverIcon_Preview.ToolTip"))
         '
         'Winver_CurrentOSIcon
         '
-        resources.ApplyResources(Me.Winver_CurrentOSIcon, "Winver_CurrentOSIcon")
         Me.Winver_CurrentOSIcon.Image = Global.SMW_MultiTool_Launcher.My.Resources.Resources.SysIconModify
+        resources.ApplyResources(Me.Winver_CurrentOSIcon, "Winver_CurrentOSIcon")
         Me.Winver_CurrentOSIcon.Name = "Winver_CurrentOSIcon"
         Me.Winver_CurrentOSIcon.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Winver_CurrentOSIcon, resources.GetString("Winver_CurrentOSIcon.ToolTip"))
         '
         'AppOption_WinverIconBasedOnCurrentOS
         '
         resources.ApplyResources(Me.AppOption_WinverIconBasedOnCurrentOS, "AppOption_WinverIconBasedOnCurrentOS")
         Me.AppOption_WinverIconBasedOnCurrentOS.Name = "AppOption_WinverIconBasedOnCurrentOS"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_WinverIconBasedOnCurrentOS, resources.GetString("AppOption_WinverIconBasedOnCurrentOS.ToolTip"))
         Me.AppOption_WinverIconBasedOnCurrentOS.UseVisualStyleBackColor = True
         '
         'Text_004
         '
         resources.ApplyResources(Me.Text_004, "Text_004")
         Me.Text_004.Name = "Text_004"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Text_004, resources.GetString("Text_004.ToolTip"))
         '
         'AppOption_WinverIcon
         '
-        resources.ApplyResources(Me.AppOption_WinverIcon, "AppOption_WinverIcon")
         Me.AppOption_WinverIcon.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.AppOption_WinverIcon.FormattingEnabled = True
         Me.AppOption_WinverIcon.Items.AddRange(New Object() {resources.GetString("AppOption_WinverIcon.Items"), resources.GetString("AppOption_WinverIcon.Items1"), resources.GetString("AppOption_WinverIcon.Items2"), resources.GetString("AppOption_WinverIcon.Items3"), resources.GetString("AppOption_WinverIcon.Items4"), resources.GetString("AppOption_WinverIcon.Items5"), resources.GetString("AppOption_WinverIcon.Items6"), resources.GetString("AppOption_WinverIcon.Items7"), resources.GetString("AppOption_WinverIcon.Items8"), resources.GetString("AppOption_WinverIcon.Items9"), resources.GetString("AppOption_WinverIcon.Items10"), resources.GetString("AppOption_WinverIcon.Items11"), resources.GetString("AppOption_WinverIcon.Items12"), resources.GetString("AppOption_WinverIcon.Items13"), resources.GetString("AppOption_WinverIcon.Items14"), resources.GetString("AppOption_WinverIcon.Items15"), resources.GetString("AppOption_WinverIcon.Items16"), resources.GetString("AppOption_WinverIcon.Items17"), resources.GetString("AppOption_WinverIcon.Items18"), resources.GetString("AppOption_WinverIcon.Items19"), resources.GetString("AppOption_WinverIcon.Items20"), resources.GetString("AppOption_WinverIcon.Items21")})
+        resources.ApplyResources(Me.AppOption_WinverIcon, "AppOption_WinverIcon")
         Me.AppOption_WinverIcon.Name = "AppOption_WinverIcon"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_WinverIcon, resources.GetString("AppOption_WinverIcon.ToolTip"))
         '
         'UI_SettingsTab03
         '
-        resources.ApplyResources(Me.UI_SettingsTab03, "UI_SettingsTab03")
         Me.UI_SettingsTab03.Controls.Add(Me.UI_Tab03_Cat03)
         Me.UI_SettingsTab03.Controls.Add(Me.UI_Tab03_Cat04)
         Me.UI_SettingsTab03.Controls.Add(Me.UI_Tab03_Cat01)
         Me.UI_SettingsTab03.Controls.Add(Me.UI_Tab03_Cat02)
         Me.UI_SettingsTab03.Controls.Add(Me.UI_Tab03_Title01)
+        resources.ApplyResources(Me.UI_SettingsTab03, "UI_SettingsTab03")
         Me.UI_SettingsTab03.Name = "UI_SettingsTab03"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_SettingsTab03, resources.GetString("UI_SettingsTab03.ToolTip"))
         Me.UI_SettingsTab03.UseVisualStyleBackColor = True
         '
         'UI_Tab03_Cat03
@@ -1226,14 +1155,12 @@ Partial Class Frm03_Settings
         Me.UI_Tab03_Cat03.ForeColor = System.Drawing.SystemColors.ControlText
         Me.UI_Tab03_Cat03.Name = "UI_Tab03_Cat03"
         Me.UI_Tab03_Cat03.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab03_Cat03, resources.GetString("UI_Tab03_Cat03.ToolTip"))
         '
         'AppOption_ShowSystrayIcon
         '
         resources.ApplyResources(Me.AppOption_ShowSystrayIcon, "AppOption_ShowSystrayIcon")
         Me.AppOption_ShowSystrayIcon.ForeColor = System.Drawing.SystemColors.ControlText
         Me.AppOption_ShowSystrayIcon.Name = "AppOption_ShowSystrayIcon"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_ShowSystrayIcon, resources.GetString("AppOption_ShowSystrayIcon.ToolTip"))
         Me.AppOption_ShowSystrayIcon.UseVisualStyleBackColor = True
         '
         'UI_Tab03_Cat04
@@ -1248,48 +1175,41 @@ Partial Class Frm03_Settings
         Me.UI_Tab03_Cat04.ForeColor = System.Drawing.SystemColors.ControlText
         Me.UI_Tab03_Cat04.Name = "UI_Tab03_Cat04"
         Me.UI_Tab03_Cat04.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab03_Cat04, resources.GetString("UI_Tab03_Cat04.ToolTip"))
         '
         'AppOption_OpenAboutDialogKeyboardShortcut
         '
         resources.ApplyResources(Me.AppOption_OpenAboutDialogKeyboardShortcut, "AppOption_OpenAboutDialogKeyboardShortcut")
         Me.AppOption_OpenAboutDialogKeyboardShortcut.Name = "AppOption_OpenAboutDialogKeyboardShortcut"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_OpenAboutDialogKeyboardShortcut, resources.GetString("AppOption_OpenAboutDialogKeyboardShortcut.ToolTip"))
         Me.AppOption_OpenAboutDialogKeyboardShortcut.UseVisualStyleBackColor = False
         '
         'AppOption_OpenSuggestUpdateKeyboardShortcut
         '
         resources.ApplyResources(Me.AppOption_OpenSuggestUpdateKeyboardShortcut, "AppOption_OpenSuggestUpdateKeyboardShortcut")
         Me.AppOption_OpenSuggestUpdateKeyboardShortcut.Name = "AppOption_OpenSuggestUpdateKeyboardShortcut"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_OpenSuggestUpdateKeyboardShortcut, resources.GetString("AppOption_OpenSuggestUpdateKeyboardShortcut.ToolTip"))
         Me.AppOption_OpenSuggestUpdateKeyboardShortcut.UseVisualStyleBackColor = True
         '
         'AppOption_OpenHelpKeyboardShortcut
         '
         resources.ApplyResources(Me.AppOption_OpenHelpKeyboardShortcut, "AppOption_OpenHelpKeyboardShortcut")
         Me.AppOption_OpenHelpKeyboardShortcut.Name = "AppOption_OpenHelpKeyboardShortcut"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_OpenHelpKeyboardShortcut, resources.GetString("AppOption_OpenHelpKeyboardShortcut.ToolTip"))
         Me.AppOption_OpenHelpKeyboardShortcut.UseVisualStyleBackColor = True
         '
         'AppOption_CustomShortcutsKeyboardShortcut
         '
         resources.ApplyResources(Me.AppOption_CustomShortcutsKeyboardShortcut, "AppOption_CustomShortcutsKeyboardShortcut")
         Me.AppOption_CustomShortcutsKeyboardShortcut.Name = "AppOption_CustomShortcutsKeyboardShortcut"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_CustomShortcutsKeyboardShortcut, resources.GetString("AppOption_CustomShortcutsKeyboardShortcut.ToolTip"))
         Me.AppOption_CustomShortcutsKeyboardShortcut.UseVisualStyleBackColor = True
         '
         'AppOption_OpenSettingsKeyboardShortcut
         '
         resources.ApplyResources(Me.AppOption_OpenSettingsKeyboardShortcut, "AppOption_OpenSettingsKeyboardShortcut")
         Me.AppOption_OpenSettingsKeyboardShortcut.Name = "AppOption_OpenSettingsKeyboardShortcut"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_OpenSettingsKeyboardShortcut, resources.GetString("AppOption_OpenSettingsKeyboardShortcut.ToolTip"))
         Me.AppOption_OpenSettingsKeyboardShortcut.UseVisualStyleBackColor = True
         '
         'AppOption_QuickRestartKeyboardShortcut
         '
         resources.ApplyResources(Me.AppOption_QuickRestartKeyboardShortcut, "AppOption_QuickRestartKeyboardShortcut")
         Me.AppOption_QuickRestartKeyboardShortcut.Name = "AppOption_QuickRestartKeyboardShortcut"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_QuickRestartKeyboardShortcut, resources.GetString("AppOption_QuickRestartKeyboardShortcut.ToolTip"))
         Me.AppOption_QuickRestartKeyboardShortcut.UseVisualStyleBackColor = True
         '
         'UI_Tab03_Cat01
@@ -1338,12 +1258,11 @@ Partial Class Frm03_Settings
         Me.UI_Tab03_Cat01.Controls.Add(Me.Text_007)
         Me.UI_Tab03_Cat01.Name = "UI_Tab03_Cat01"
         Me.UI_Tab03_Cat01.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab03_Cat01, resources.GetString("UI_Tab03_Cat01.ToolTip"))
         '
         'AppOption_DisplayBtn_UncheckAll
         '
-        resources.ApplyResources(Me.AppOption_DisplayBtn_UncheckAll, "AppOption_DisplayBtn_UncheckAll")
         Me.AppOption_DisplayBtn_UncheckAll.Image = Global.SMW_MultiTool_Launcher.My.Resources.Resources.Settings_CbxUncheckAll
+        resources.ApplyResources(Me.AppOption_DisplayBtn_UncheckAll, "AppOption_DisplayBtn_UncheckAll")
         Me.AppOption_DisplayBtn_UncheckAll.Name = "AppOption_DisplayBtn_UncheckAll"
         Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_DisplayBtn_UncheckAll, resources.GetString("AppOption_DisplayBtn_UncheckAll.ToolTip"))
         Me.AppOption_DisplayBtn_UncheckAll.UseVisualStyleBackColor = True
@@ -1353,13 +1272,12 @@ Partial Class Frm03_Settings
         resources.ApplyResources(Me.AppOption_DisplayCompleteVersionOnMainWindow, "AppOption_DisplayCompleteVersionOnMainWindow")
         Me.AppOption_DisplayCompleteVersionOnMainWindow.ForeColor = System.Drawing.SystemColors.ControlText
         Me.AppOption_DisplayCompleteVersionOnMainWindow.Name = "AppOption_DisplayCompleteVersionOnMainWindow"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_DisplayCompleteVersionOnMainWindow, resources.GetString("AppOption_DisplayCompleteVersionOnMainWindow.ToolTip"))
         Me.AppOption_DisplayCompleteVersionOnMainWindow.UseVisualStyleBackColor = True
         '
         'AppOption_DisplayBtn_CheckAll
         '
-        resources.ApplyResources(Me.AppOption_DisplayBtn_CheckAll, "AppOption_DisplayBtn_CheckAll")
         Me.AppOption_DisplayBtn_CheckAll.Image = Global.SMW_MultiTool_Launcher.My.Resources.Resources.Settings_CbxCheckAll
+        resources.ApplyResources(Me.AppOption_DisplayBtn_CheckAll, "AppOption_DisplayBtn_CheckAll")
         Me.AppOption_DisplayBtn_CheckAll.Name = "AppOption_DisplayBtn_CheckAll"
         Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_DisplayBtn_CheckAll, resources.GetString("AppOption_DisplayBtn_CheckAll.ToolTip"))
         Me.AppOption_DisplayBtn_CheckAll.UseVisualStyleBackColor = True
@@ -1424,7 +1342,6 @@ Partial Class Frm03_Settings
         '
         resources.ApplyResources(Me.AppOption_DisplayBtn_Btn35, "AppOption_DisplayBtn_Btn35")
         Me.AppOption_DisplayBtn_Btn35.Name = "AppOption_DisplayBtn_Btn35"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_DisplayBtn_Btn35, resources.GetString("AppOption_DisplayBtn_Btn35.ToolTip"))
         Me.AppOption_DisplayBtn_Btn35.UseVisualStyleBackColor = True
         '
         'AppOption_DisplayBtn_GradientTool
@@ -1487,7 +1404,6 @@ Partial Class Frm03_Settings
         '
         resources.ApplyResources(Me.AppOption_DisplayBtn_Btn34, "AppOption_DisplayBtn_Btn34")
         Me.AppOption_DisplayBtn_Btn34.Name = "AppOption_DisplayBtn_Btn34"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_DisplayBtn_Btn34, resources.GetString("AppOption_DisplayBtn_Btn34.ToolTip"))
         Me.AppOption_DisplayBtn_Btn34.UseVisualStyleBackColor = True
         '
         'AppOption_DisplayBtn_EffectTools
@@ -1646,7 +1562,6 @@ Partial Class Frm03_Settings
         '
         resources.ApplyResources(Me.Text_008, "Text_008")
         Me.Text_008.Name = "Text_008"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Text_008, resources.GetString("Text_008.ToolTip"))
         '
         'AppOption_ColumnsNumberComboBox
         '
@@ -1655,13 +1570,11 @@ Partial Class Frm03_Settings
         Me.AppOption_ColumnsNumberComboBox.FormattingEnabled = True
         Me.AppOption_ColumnsNumberComboBox.Items.AddRange(New Object() {resources.GetString("AppOption_ColumnsNumberComboBox.Items"), resources.GetString("AppOption_ColumnsNumberComboBox.Items1"), resources.GetString("AppOption_ColumnsNumberComboBox.Items2"), resources.GetString("AppOption_ColumnsNumberComboBox.Items3"), resources.GetString("AppOption_ColumnsNumberComboBox.Items4")})
         Me.AppOption_ColumnsNumberComboBox.Name = "AppOption_ColumnsNumberComboBox"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_ColumnsNumberComboBox, resources.GetString("AppOption_ColumnsNumberComboBox.ToolTip"))
         '
         'Text_007
         '
         resources.ApplyResources(Me.Text_007, "Text_007")
         Me.Text_007.Name = "Text_007"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Text_007, resources.GetString("Text_007.ToolTip"))
         '
         'UI_Tab03_Cat02
         '
@@ -1671,14 +1584,12 @@ Partial Class Frm03_Settings
         Me.UI_Tab03_Cat02.ForeColor = System.Drawing.SystemColors.ControlText
         Me.UI_Tab03_Cat02.Name = "UI_Tab03_Cat02"
         Me.UI_Tab03_Cat02.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab03_Cat02, resources.GetString("UI_Tab03_Cat02.ToolTip"))
         '
         'AppOption_EnableLegacyAboutBox
         '
         resources.ApplyResources(Me.AppOption_EnableLegacyAboutBox, "AppOption_EnableLegacyAboutBox")
         Me.AppOption_EnableLegacyAboutBox.ForeColor = System.Drawing.SystemColors.ControlText
         Me.AppOption_EnableLegacyAboutBox.Name = "AppOption_EnableLegacyAboutBox"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_EnableLegacyAboutBox, resources.GetString("AppOption_EnableLegacyAboutBox.ToolTip"))
         Me.AppOption_EnableLegacyAboutBox.UseVisualStyleBackColor = True
         '
         'AppOption_HideVersionStringInAboutBox
@@ -1686,7 +1597,6 @@ Partial Class Frm03_Settings
         resources.ApplyResources(Me.AppOption_HideVersionStringInAboutBox, "AppOption_HideVersionStringInAboutBox")
         Me.AppOption_HideVersionStringInAboutBox.ForeColor = System.Drawing.SystemColors.ControlText
         Me.AppOption_HideVersionStringInAboutBox.Name = "AppOption_HideVersionStringInAboutBox"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_HideVersionStringInAboutBox, resources.GetString("AppOption_HideVersionStringInAboutBox.ToolTip"))
         Me.AppOption_HideVersionStringInAboutBox.UseVisualStyleBackColor = True
         '
         'UI_Tab03_Title01
@@ -1694,11 +1604,9 @@ Partial Class Frm03_Settings
         resources.ApplyResources(Me.UI_Tab03_Title01, "UI_Tab03_Title01")
         Me.UI_Tab03_Title01.ForeColor = System.Drawing.SystemColors.HotTrack
         Me.UI_Tab03_Title01.Name = "UI_Tab03_Title01"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab03_Title01, resources.GetString("UI_Tab03_Title01.ToolTip"))
         '
         'UI_SettingsTab04
         '
-        resources.ApplyResources(Me.UI_SettingsTab04, "UI_SettingsTab04")
         Me.UI_SettingsTab04.Controls.Add(Me.UI_Tab04_Cat05)
         Me.UI_SettingsTab04.Controls.Add(Me.UI_Tab04_Cat07)
         Me.UI_SettingsTab04.Controls.Add(Me.UI_Tab04_Cat04)
@@ -1707,8 +1615,8 @@ Partial Class Frm03_Settings
         Me.UI_SettingsTab04.Controls.Add(Me.UI_Tab04_Cat02)
         Me.UI_SettingsTab04.Controls.Add(Me.UI_Tab04_Cat01)
         Me.UI_SettingsTab04.Controls.Add(Me.UI_Tab04_Title01)
+        resources.ApplyResources(Me.UI_SettingsTab04, "UI_SettingsTab04")
         Me.UI_SettingsTab04.Name = "UI_SettingsTab04"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_SettingsTab04, resources.GetString("UI_SettingsTab04.ToolTip"))
         Me.UI_SettingsTab04.UseVisualStyleBackColor = True
         '
         'UI_Tab04_Cat05
@@ -1724,19 +1632,16 @@ Partial Class Frm03_Settings
         Me.UI_Tab04_Cat05.Controls.Add(Me.AppOption_Shortcut4_LaunchWith)
         Me.UI_Tab04_Cat05.Name = "UI_Tab04_Cat05"
         Me.UI_Tab04_Cat05.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab04_Cat05, resources.GetString("UI_Tab04_Cat05.ToolTip"))
         '
         'AppOption_Shortcut4_Path
         '
         resources.ApplyResources(Me.AppOption_Shortcut4_Path, "AppOption_Shortcut4_Path")
         Me.AppOption_Shortcut4_Path.Name = "AppOption_Shortcut4_Path"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_Shortcut4_Path, resources.GetString("AppOption_Shortcut4_Path.ToolTip"))
         '
         'AppOption_EnableCustomShortcut_4
         '
         resources.ApplyResources(Me.AppOption_EnableCustomShortcut_4, "AppOption_EnableCustomShortcut_4")
         Me.AppOption_EnableCustomShortcut_4.Name = "AppOption_EnableCustomShortcut_4"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_EnableCustomShortcut_4, resources.GetString("AppOption_EnableCustomShortcut_4.ToolTip"))
         Me.AppOption_EnableCustomShortcut_4.UseVisualStyleBackColor = False
         '
         'AppOption_Shortcut4_SelectFile
@@ -1745,13 +1650,11 @@ Partial Class Frm03_Settings
         Me.AppOption_Shortcut4_SelectFile.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline
         Me.AppOption_Shortcut4_SelectFile.Name = "AppOption_Shortcut4_SelectFile"
         Me.AppOption_Shortcut4_SelectFile.TabStop = True
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_Shortcut4_SelectFile, resources.GetString("AppOption_Shortcut4_SelectFile.ToolTip"))
         '
         'Text_018
         '
         resources.ApplyResources(Me.Text_018, "Text_018")
         Me.Text_018.Name = "Text_018"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Text_018, resources.GetString("Text_018.ToolTip"))
         '
         'AppOption_Shortcut4_Icon
         '
@@ -1761,29 +1664,25 @@ Partial Class Frm03_Settings
         Me.AppOption_Shortcut4_Icon.FormattingEnabled = True
         Me.AppOption_Shortcut4_Icon.Items.AddRange(New Object() {resources.GetString("AppOption_Shortcut4_Icon.Items"), resources.GetString("AppOption_Shortcut4_Icon.Items1"), resources.GetString("AppOption_Shortcut4_Icon.Items2"), resources.GetString("AppOption_Shortcut4_Icon.Items3"), resources.GetString("AppOption_Shortcut4_Icon.Items4"), resources.GetString("AppOption_Shortcut4_Icon.Items5"), resources.GetString("AppOption_Shortcut4_Icon.Items6"), resources.GetString("AppOption_Shortcut4_Icon.Items7"), resources.GetString("AppOption_Shortcut4_Icon.Items8"), resources.GetString("AppOption_Shortcut4_Icon.Items9"), resources.GetString("AppOption_Shortcut4_Icon.Items10"), resources.GetString("AppOption_Shortcut4_Icon.Items11"), resources.GetString("AppOption_Shortcut4_Icon.Items12"), resources.GetString("AppOption_Shortcut4_Icon.Items13"), resources.GetString("AppOption_Shortcut4_Icon.Items14"), resources.GetString("AppOption_Shortcut4_Icon.Items15"), resources.GetString("AppOption_Shortcut4_Icon.Items16"), resources.GetString("AppOption_Shortcut4_Icon.Items17"), resources.GetString("AppOption_Shortcut4_Icon.Items18"), resources.GetString("AppOption_Shortcut4_Icon.Items19"), resources.GetString("AppOption_Shortcut4_Icon.Items20"), resources.GetString("AppOption_Shortcut4_Icon.Items21"), resources.GetString("AppOption_Shortcut4_Icon.Items22"), resources.GetString("AppOption_Shortcut4_Icon.Items23"), resources.GetString("AppOption_Shortcut4_Icon.Items24"), resources.GetString("AppOption_Shortcut4_Icon.Items25"), resources.GetString("AppOption_Shortcut4_Icon.Items26"), resources.GetString("AppOption_Shortcut4_Icon.Items27"), resources.GetString("AppOption_Shortcut4_Icon.Items28"), resources.GetString("AppOption_Shortcut4_Icon.Items29"), resources.GetString("AppOption_Shortcut4_Icon.Items30"), resources.GetString("AppOption_Shortcut4_Icon.Items31"), resources.GetString("AppOption_Shortcut4_Icon.Items32"), resources.GetString("AppOption_Shortcut4_Icon.Items33"), resources.GetString("AppOption_Shortcut4_Icon.Items34")})
         Me.AppOption_Shortcut4_Icon.Name = "AppOption_Shortcut4_Icon"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_Shortcut4_Icon, resources.GetString("AppOption_Shortcut4_Icon.ToolTip"))
         '
         'Text_019
         '
         resources.ApplyResources(Me.Text_019, "Text_019")
         Me.Text_019.Name = "Text_019"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Text_019, resources.GetString("Text_019.ToolTip"))
         '
         'Text_020
         '
         resources.ApplyResources(Me.Text_020, "Text_020")
         Me.Text_020.Name = "Text_020"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Text_020, resources.GetString("Text_020.ToolTip"))
         '
         'AppOption_Shortcut4_LaunchWith
         '
-        resources.ApplyResources(Me.AppOption_Shortcut4_LaunchWith, "AppOption_Shortcut4_LaunchWith")
         Me.AppOption_Shortcut4_LaunchWith.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.AppOption_Shortcut4_LaunchWith.DropDownWidth = 200
+        resources.ApplyResources(Me.AppOption_Shortcut4_LaunchWith, "AppOption_Shortcut4_LaunchWith")
         Me.AppOption_Shortcut4_LaunchWith.FormattingEnabled = True
         Me.AppOption_Shortcut4_LaunchWith.Items.AddRange(New Object() {resources.GetString("AppOption_Shortcut4_LaunchWith.Items"), resources.GetString("AppOption_Shortcut4_LaunchWith.Items1"), resources.GetString("AppOption_Shortcut4_LaunchWith.Items2"), resources.GetString("AppOption_Shortcut4_LaunchWith.Items3"), resources.GetString("AppOption_Shortcut4_LaunchWith.Items4"), resources.GetString("AppOption_Shortcut4_LaunchWith.Items5"), resources.GetString("AppOption_Shortcut4_LaunchWith.Items6"), resources.GetString("AppOption_Shortcut4_LaunchWith.Items7"), resources.GetString("AppOption_Shortcut4_LaunchWith.Items8"), resources.GetString("AppOption_Shortcut4_LaunchWith.Items9"), resources.GetString("AppOption_Shortcut4_LaunchWith.Items10"), resources.GetString("AppOption_Shortcut4_LaunchWith.Items11")})
         Me.AppOption_Shortcut4_LaunchWith.Name = "AppOption_Shortcut4_LaunchWith"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_Shortcut4_LaunchWith, resources.GetString("AppOption_Shortcut4_LaunchWith.ToolTip"))
         '
         'UI_Tab04_Cat07
         '
@@ -1798,32 +1697,27 @@ Partial Class Frm03_Settings
         Me.UI_Tab04_Cat07.Controls.Add(Me.Text_026)
         Me.UI_Tab04_Cat07.Name = "UI_Tab04_Cat07"
         Me.UI_Tab04_Cat07.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab04_Cat07, resources.GetString("UI_Tab04_Cat07.ToolTip"))
         '
         'AppOption_Shortcut6_Path
         '
         resources.ApplyResources(Me.AppOption_Shortcut6_Path, "AppOption_Shortcut6_Path")
         Me.AppOption_Shortcut6_Path.Name = "AppOption_Shortcut6_Path"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_Shortcut6_Path, resources.GetString("AppOption_Shortcut6_Path.ToolTip"))
         '
         'AppOption_EnableCustomShortcut_6
         '
         resources.ApplyResources(Me.AppOption_EnableCustomShortcut_6, "AppOption_EnableCustomShortcut_6")
         Me.AppOption_EnableCustomShortcut_6.Name = "AppOption_EnableCustomShortcut_6"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_EnableCustomShortcut_6, resources.GetString("AppOption_EnableCustomShortcut_6.ToolTip"))
         Me.AppOption_EnableCustomShortcut_6.UseVisualStyleBackColor = False
         '
         'Text_024
         '
         resources.ApplyResources(Me.Text_024, "Text_024")
         Me.Text_024.Name = "Text_024"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Text_024, resources.GetString("Text_024.ToolTip"))
         '
         'Text_025
         '
         resources.ApplyResources(Me.Text_025, "Text_025")
         Me.Text_025.Name = "Text_025"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Text_025, resources.GetString("Text_025.ToolTip"))
         '
         'AppOption_Shortcut6_SelectFile
         '
@@ -1831,7 +1725,6 @@ Partial Class Frm03_Settings
         Me.AppOption_Shortcut6_SelectFile.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline
         Me.AppOption_Shortcut6_SelectFile.Name = "AppOption_Shortcut6_SelectFile"
         Me.AppOption_Shortcut6_SelectFile.TabStop = True
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_Shortcut6_SelectFile, resources.GetString("AppOption_Shortcut6_SelectFile.ToolTip"))
         '
         'AppOption_Shortcut6_Icon
         '
@@ -1841,23 +1734,20 @@ Partial Class Frm03_Settings
         Me.AppOption_Shortcut6_Icon.FormattingEnabled = True
         Me.AppOption_Shortcut6_Icon.Items.AddRange(New Object() {resources.GetString("AppOption_Shortcut6_Icon.Items"), resources.GetString("AppOption_Shortcut6_Icon.Items1"), resources.GetString("AppOption_Shortcut6_Icon.Items2"), resources.GetString("AppOption_Shortcut6_Icon.Items3"), resources.GetString("AppOption_Shortcut6_Icon.Items4"), resources.GetString("AppOption_Shortcut6_Icon.Items5"), resources.GetString("AppOption_Shortcut6_Icon.Items6"), resources.GetString("AppOption_Shortcut6_Icon.Items7"), resources.GetString("AppOption_Shortcut6_Icon.Items8"), resources.GetString("AppOption_Shortcut6_Icon.Items9"), resources.GetString("AppOption_Shortcut6_Icon.Items10"), resources.GetString("AppOption_Shortcut6_Icon.Items11"), resources.GetString("AppOption_Shortcut6_Icon.Items12"), resources.GetString("AppOption_Shortcut6_Icon.Items13"), resources.GetString("AppOption_Shortcut6_Icon.Items14"), resources.GetString("AppOption_Shortcut6_Icon.Items15"), resources.GetString("AppOption_Shortcut6_Icon.Items16"), resources.GetString("AppOption_Shortcut6_Icon.Items17"), resources.GetString("AppOption_Shortcut6_Icon.Items18"), resources.GetString("AppOption_Shortcut6_Icon.Items19"), resources.GetString("AppOption_Shortcut6_Icon.Items20"), resources.GetString("AppOption_Shortcut6_Icon.Items21"), resources.GetString("AppOption_Shortcut6_Icon.Items22"), resources.GetString("AppOption_Shortcut6_Icon.Items23"), resources.GetString("AppOption_Shortcut6_Icon.Items24"), resources.GetString("AppOption_Shortcut6_Icon.Items25"), resources.GetString("AppOption_Shortcut6_Icon.Items26"), resources.GetString("AppOption_Shortcut6_Icon.Items27"), resources.GetString("AppOption_Shortcut6_Icon.Items28"), resources.GetString("AppOption_Shortcut6_Icon.Items29"), resources.GetString("AppOption_Shortcut6_Icon.Items30"), resources.GetString("AppOption_Shortcut6_Icon.Items31"), resources.GetString("AppOption_Shortcut6_Icon.Items32"), resources.GetString("AppOption_Shortcut6_Icon.Items33"), resources.GetString("AppOption_Shortcut6_Icon.Items34")})
         Me.AppOption_Shortcut6_Icon.Name = "AppOption_Shortcut6_Icon"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_Shortcut6_Icon, resources.GetString("AppOption_Shortcut6_Icon.ToolTip"))
         '
         'AppOption_Shortcut6_LaunchWith
         '
-        resources.ApplyResources(Me.AppOption_Shortcut6_LaunchWith, "AppOption_Shortcut6_LaunchWith")
         Me.AppOption_Shortcut6_LaunchWith.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.AppOption_Shortcut6_LaunchWith.DropDownWidth = 200
+        resources.ApplyResources(Me.AppOption_Shortcut6_LaunchWith, "AppOption_Shortcut6_LaunchWith")
         Me.AppOption_Shortcut6_LaunchWith.FormattingEnabled = True
         Me.AppOption_Shortcut6_LaunchWith.Items.AddRange(New Object() {resources.GetString("AppOption_Shortcut6_LaunchWith.Items"), resources.GetString("AppOption_Shortcut6_LaunchWith.Items1"), resources.GetString("AppOption_Shortcut6_LaunchWith.Items2"), resources.GetString("AppOption_Shortcut6_LaunchWith.Items3"), resources.GetString("AppOption_Shortcut6_LaunchWith.Items4"), resources.GetString("AppOption_Shortcut6_LaunchWith.Items5"), resources.GetString("AppOption_Shortcut6_LaunchWith.Items6"), resources.GetString("AppOption_Shortcut6_LaunchWith.Items7"), resources.GetString("AppOption_Shortcut6_LaunchWith.Items8"), resources.GetString("AppOption_Shortcut6_LaunchWith.Items9"), resources.GetString("AppOption_Shortcut6_LaunchWith.Items10"), resources.GetString("AppOption_Shortcut6_LaunchWith.Items11")})
         Me.AppOption_Shortcut6_LaunchWith.Name = "AppOption_Shortcut6_LaunchWith"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_Shortcut6_LaunchWith, resources.GetString("AppOption_Shortcut6_LaunchWith.ToolTip"))
         '
         'Text_026
         '
         resources.ApplyResources(Me.Text_026, "Text_026")
         Me.Text_026.Name = "Text_026"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Text_026, resources.GetString("Text_026.ToolTip"))
         '
         'UI_Tab04_Cat04
         '
@@ -1872,13 +1762,11 @@ Partial Class Frm03_Settings
         Me.UI_Tab04_Cat04.Controls.Add(Me.AppOption_EnableCustomShortcut_3)
         Me.UI_Tab04_Cat04.Name = "UI_Tab04_Cat04"
         Me.UI_Tab04_Cat04.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab04_Cat04, resources.GetString("UI_Tab04_Cat04.ToolTip"))
         '
         'AppOption_Shortcut3_Path
         '
         resources.ApplyResources(Me.AppOption_Shortcut3_Path, "AppOption_Shortcut3_Path")
         Me.AppOption_Shortcut3_Path.Name = "AppOption_Shortcut3_Path"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_Shortcut3_Path, resources.GetString("AppOption_Shortcut3_Path.ToolTip"))
         '
         'AppOption_Shortcut3_SelectFile
         '
@@ -1886,7 +1774,6 @@ Partial Class Frm03_Settings
         Me.AppOption_Shortcut3_SelectFile.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline
         Me.AppOption_Shortcut3_SelectFile.Name = "AppOption_Shortcut3_SelectFile"
         Me.AppOption_Shortcut3_SelectFile.TabStop = True
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_Shortcut3_SelectFile, resources.GetString("AppOption_Shortcut3_SelectFile.ToolTip"))
         '
         'AppOption_Shortcut3_Icon
         '
@@ -1896,41 +1783,35 @@ Partial Class Frm03_Settings
         Me.AppOption_Shortcut3_Icon.FormattingEnabled = True
         Me.AppOption_Shortcut3_Icon.Items.AddRange(New Object() {resources.GetString("AppOption_Shortcut3_Icon.Items"), resources.GetString("AppOption_Shortcut3_Icon.Items1"), resources.GetString("AppOption_Shortcut3_Icon.Items2"), resources.GetString("AppOption_Shortcut3_Icon.Items3"), resources.GetString("AppOption_Shortcut3_Icon.Items4"), resources.GetString("AppOption_Shortcut3_Icon.Items5"), resources.GetString("AppOption_Shortcut3_Icon.Items6"), resources.GetString("AppOption_Shortcut3_Icon.Items7"), resources.GetString("AppOption_Shortcut3_Icon.Items8"), resources.GetString("AppOption_Shortcut3_Icon.Items9"), resources.GetString("AppOption_Shortcut3_Icon.Items10"), resources.GetString("AppOption_Shortcut3_Icon.Items11"), resources.GetString("AppOption_Shortcut3_Icon.Items12"), resources.GetString("AppOption_Shortcut3_Icon.Items13"), resources.GetString("AppOption_Shortcut3_Icon.Items14"), resources.GetString("AppOption_Shortcut3_Icon.Items15"), resources.GetString("AppOption_Shortcut3_Icon.Items16"), resources.GetString("AppOption_Shortcut3_Icon.Items17"), resources.GetString("AppOption_Shortcut3_Icon.Items18"), resources.GetString("AppOption_Shortcut3_Icon.Items19"), resources.GetString("AppOption_Shortcut3_Icon.Items20"), resources.GetString("AppOption_Shortcut3_Icon.Items21"), resources.GetString("AppOption_Shortcut3_Icon.Items22"), resources.GetString("AppOption_Shortcut3_Icon.Items23"), resources.GetString("AppOption_Shortcut3_Icon.Items24"), resources.GetString("AppOption_Shortcut3_Icon.Items25"), resources.GetString("AppOption_Shortcut3_Icon.Items26"), resources.GetString("AppOption_Shortcut3_Icon.Items27"), resources.GetString("AppOption_Shortcut3_Icon.Items28"), resources.GetString("AppOption_Shortcut3_Icon.Items29"), resources.GetString("AppOption_Shortcut3_Icon.Items30"), resources.GetString("AppOption_Shortcut3_Icon.Items31"), resources.GetString("AppOption_Shortcut3_Icon.Items32"), resources.GetString("AppOption_Shortcut3_Icon.Items33"), resources.GetString("AppOption_Shortcut3_Icon.Items34")})
         Me.AppOption_Shortcut3_Icon.Name = "AppOption_Shortcut3_Icon"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_Shortcut3_Icon, resources.GetString("AppOption_Shortcut3_Icon.ToolTip"))
         '
         'Text_017
         '
         resources.ApplyResources(Me.Text_017, "Text_017")
         Me.Text_017.Name = "Text_017"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Text_017, resources.GetString("Text_017.ToolTip"))
         '
         'AppOption_Shortcut3_LaunchWith
         '
-        resources.ApplyResources(Me.AppOption_Shortcut3_LaunchWith, "AppOption_Shortcut3_LaunchWith")
         Me.AppOption_Shortcut3_LaunchWith.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.AppOption_Shortcut3_LaunchWith.DropDownWidth = 200
+        resources.ApplyResources(Me.AppOption_Shortcut3_LaunchWith, "AppOption_Shortcut3_LaunchWith")
         Me.AppOption_Shortcut3_LaunchWith.FormattingEnabled = True
         Me.AppOption_Shortcut3_LaunchWith.Items.AddRange(New Object() {resources.GetString("AppOption_Shortcut3_LaunchWith.Items"), resources.GetString("AppOption_Shortcut3_LaunchWith.Items1"), resources.GetString("AppOption_Shortcut3_LaunchWith.Items2"), resources.GetString("AppOption_Shortcut3_LaunchWith.Items3"), resources.GetString("AppOption_Shortcut3_LaunchWith.Items4"), resources.GetString("AppOption_Shortcut3_LaunchWith.Items5"), resources.GetString("AppOption_Shortcut3_LaunchWith.Items6"), resources.GetString("AppOption_Shortcut3_LaunchWith.Items7"), resources.GetString("AppOption_Shortcut3_LaunchWith.Items8"), resources.GetString("AppOption_Shortcut3_LaunchWith.Items9"), resources.GetString("AppOption_Shortcut3_LaunchWith.Items10"), resources.GetString("AppOption_Shortcut3_LaunchWith.Items11")})
         Me.AppOption_Shortcut3_LaunchWith.Name = "AppOption_Shortcut3_LaunchWith"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_Shortcut3_LaunchWith, resources.GetString("AppOption_Shortcut3_LaunchWith.ToolTip"))
         '
         'Text_016
         '
         resources.ApplyResources(Me.Text_016, "Text_016")
         Me.Text_016.Name = "Text_016"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Text_016, resources.GetString("Text_016.ToolTip"))
         '
         'Text_015
         '
         resources.ApplyResources(Me.Text_015, "Text_015")
         Me.Text_015.Name = "Text_015"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Text_015, resources.GetString("Text_015.ToolTip"))
         '
         'AppOption_EnableCustomShortcut_3
         '
         resources.ApplyResources(Me.AppOption_EnableCustomShortcut_3, "AppOption_EnableCustomShortcut_3")
         Me.AppOption_EnableCustomShortcut_3.Name = "AppOption_EnableCustomShortcut_3"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_EnableCustomShortcut_3, resources.GetString("AppOption_EnableCustomShortcut_3.ToolTip"))
         Me.AppOption_EnableCustomShortcut_3.UseVisualStyleBackColor = False
         '
         'UI_Tab04_Cat06
@@ -1946,26 +1827,22 @@ Partial Class Frm03_Settings
         Me.UI_Tab04_Cat06.Controls.Add(Me.Text_022)
         Me.UI_Tab04_Cat06.Name = "UI_Tab04_Cat06"
         Me.UI_Tab04_Cat06.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab04_Cat06, resources.GetString("UI_Tab04_Cat06.ToolTip"))
         '
         'AppOption_Shortcut5_Path
         '
         resources.ApplyResources(Me.AppOption_Shortcut5_Path, "AppOption_Shortcut5_Path")
         Me.AppOption_Shortcut5_Path.Name = "AppOption_Shortcut5_Path"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_Shortcut5_Path, resources.GetString("AppOption_Shortcut5_Path.ToolTip"))
         '
         'AppOption_EnableCustomShortcut_5
         '
         resources.ApplyResources(Me.AppOption_EnableCustomShortcut_5, "AppOption_EnableCustomShortcut_5")
         Me.AppOption_EnableCustomShortcut_5.Name = "AppOption_EnableCustomShortcut_5"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_EnableCustomShortcut_5, resources.GetString("AppOption_EnableCustomShortcut_5.ToolTip"))
         Me.AppOption_EnableCustomShortcut_5.UseVisualStyleBackColor = False
         '
         'Text_021
         '
         resources.ApplyResources(Me.Text_021, "Text_021")
         Me.Text_021.Name = "Text_021"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Text_021, resources.GetString("Text_021.ToolTip"))
         '
         'AppOption_Shortcut5_SelectFile
         '
@@ -1973,23 +1850,20 @@ Partial Class Frm03_Settings
         Me.AppOption_Shortcut5_SelectFile.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline
         Me.AppOption_Shortcut5_SelectFile.Name = "AppOption_Shortcut5_SelectFile"
         Me.AppOption_Shortcut5_SelectFile.TabStop = True
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_Shortcut5_SelectFile, resources.GetString("AppOption_Shortcut5_SelectFile.ToolTip"))
         '
         'AppOption_Shortcut5_LaunchWith
         '
-        resources.ApplyResources(Me.AppOption_Shortcut5_LaunchWith, "AppOption_Shortcut5_LaunchWith")
         Me.AppOption_Shortcut5_LaunchWith.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.AppOption_Shortcut5_LaunchWith.DropDownWidth = 200
+        resources.ApplyResources(Me.AppOption_Shortcut5_LaunchWith, "AppOption_Shortcut5_LaunchWith")
         Me.AppOption_Shortcut5_LaunchWith.FormattingEnabled = True
         Me.AppOption_Shortcut5_LaunchWith.Items.AddRange(New Object() {resources.GetString("AppOption_Shortcut5_LaunchWith.Items"), resources.GetString("AppOption_Shortcut5_LaunchWith.Items1"), resources.GetString("AppOption_Shortcut5_LaunchWith.Items2"), resources.GetString("AppOption_Shortcut5_LaunchWith.Items3"), resources.GetString("AppOption_Shortcut5_LaunchWith.Items4"), resources.GetString("AppOption_Shortcut5_LaunchWith.Items5"), resources.GetString("AppOption_Shortcut5_LaunchWith.Items6"), resources.GetString("AppOption_Shortcut5_LaunchWith.Items7"), resources.GetString("AppOption_Shortcut5_LaunchWith.Items8"), resources.GetString("AppOption_Shortcut5_LaunchWith.Items9"), resources.GetString("AppOption_Shortcut5_LaunchWith.Items10"), resources.GetString("AppOption_Shortcut5_LaunchWith.Items11")})
         Me.AppOption_Shortcut5_LaunchWith.Name = "AppOption_Shortcut5_LaunchWith"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_Shortcut5_LaunchWith, resources.GetString("AppOption_Shortcut5_LaunchWith.ToolTip"))
         '
         'Text_023
         '
         resources.ApplyResources(Me.Text_023, "Text_023")
         Me.Text_023.Name = "Text_023"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Text_023, resources.GetString("Text_023.ToolTip"))
         '
         'AppOption_Shortcut5_Icon
         '
@@ -1999,13 +1873,11 @@ Partial Class Frm03_Settings
         Me.AppOption_Shortcut5_Icon.FormattingEnabled = True
         Me.AppOption_Shortcut5_Icon.Items.AddRange(New Object() {resources.GetString("AppOption_Shortcut5_Icon.Items"), resources.GetString("AppOption_Shortcut5_Icon.Items1"), resources.GetString("AppOption_Shortcut5_Icon.Items2"), resources.GetString("AppOption_Shortcut5_Icon.Items3"), resources.GetString("AppOption_Shortcut5_Icon.Items4"), resources.GetString("AppOption_Shortcut5_Icon.Items5"), resources.GetString("AppOption_Shortcut5_Icon.Items6"), resources.GetString("AppOption_Shortcut5_Icon.Items7"), resources.GetString("AppOption_Shortcut5_Icon.Items8"), resources.GetString("AppOption_Shortcut5_Icon.Items9"), resources.GetString("AppOption_Shortcut5_Icon.Items10"), resources.GetString("AppOption_Shortcut5_Icon.Items11"), resources.GetString("AppOption_Shortcut5_Icon.Items12"), resources.GetString("AppOption_Shortcut5_Icon.Items13"), resources.GetString("AppOption_Shortcut5_Icon.Items14"), resources.GetString("AppOption_Shortcut5_Icon.Items15"), resources.GetString("AppOption_Shortcut5_Icon.Items16"), resources.GetString("AppOption_Shortcut5_Icon.Items17"), resources.GetString("AppOption_Shortcut5_Icon.Items18"), resources.GetString("AppOption_Shortcut5_Icon.Items19"), resources.GetString("AppOption_Shortcut5_Icon.Items20"), resources.GetString("AppOption_Shortcut5_Icon.Items21"), resources.GetString("AppOption_Shortcut5_Icon.Items22"), resources.GetString("AppOption_Shortcut5_Icon.Items23"), resources.GetString("AppOption_Shortcut5_Icon.Items24"), resources.GetString("AppOption_Shortcut5_Icon.Items25"), resources.GetString("AppOption_Shortcut5_Icon.Items26"), resources.GetString("AppOption_Shortcut5_Icon.Items27"), resources.GetString("AppOption_Shortcut5_Icon.Items28"), resources.GetString("AppOption_Shortcut5_Icon.Items29"), resources.GetString("AppOption_Shortcut5_Icon.Items30"), resources.GetString("AppOption_Shortcut5_Icon.Items31"), resources.GetString("AppOption_Shortcut5_Icon.Items32"), resources.GetString("AppOption_Shortcut5_Icon.Items33"), resources.GetString("AppOption_Shortcut5_Icon.Items34")})
         Me.AppOption_Shortcut5_Icon.Name = "AppOption_Shortcut5_Icon"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_Shortcut5_Icon, resources.GetString("AppOption_Shortcut5_Icon.ToolTip"))
         '
         'Text_022
         '
         resources.ApplyResources(Me.Text_022, "Text_022")
         Me.Text_022.Name = "Text_022"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Text_022, resources.GetString("Text_022.ToolTip"))
         '
         'UI_Tab04_Cat03
         '
@@ -2020,13 +1892,11 @@ Partial Class Frm03_Settings
         Me.UI_Tab04_Cat03.Controls.Add(Me.Text_013)
         Me.UI_Tab04_Cat03.Name = "UI_Tab04_Cat03"
         Me.UI_Tab04_Cat03.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab04_Cat03, resources.GetString("UI_Tab04_Cat03.ToolTip"))
         '
         'AppOption_Shortcut2_Path
         '
         resources.ApplyResources(Me.AppOption_Shortcut2_Path, "AppOption_Shortcut2_Path")
         Me.AppOption_Shortcut2_Path.Name = "AppOption_Shortcut2_Path"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_Shortcut2_Path, resources.GetString("AppOption_Shortcut2_Path.ToolTip"))
         '
         'AppOption_Shortcut2_SelectFile
         '
@@ -2034,13 +1904,11 @@ Partial Class Frm03_Settings
         Me.AppOption_Shortcut2_SelectFile.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline
         Me.AppOption_Shortcut2_SelectFile.Name = "AppOption_Shortcut2_SelectFile"
         Me.AppOption_Shortcut2_SelectFile.TabStop = True
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_Shortcut2_SelectFile, resources.GetString("AppOption_Shortcut2_SelectFile.ToolTip"))
         '
         'AppOption_EnableCustomShortcut_2
         '
         resources.ApplyResources(Me.AppOption_EnableCustomShortcut_2, "AppOption_EnableCustomShortcut_2")
         Me.AppOption_EnableCustomShortcut_2.Name = "AppOption_EnableCustomShortcut_2"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_EnableCustomShortcut_2, resources.GetString("AppOption_EnableCustomShortcut_2.ToolTip"))
         Me.AppOption_EnableCustomShortcut_2.UseVisualStyleBackColor = False
         '
         'AppOption_Shortcut2_Icon
@@ -2051,35 +1919,30 @@ Partial Class Frm03_Settings
         Me.AppOption_Shortcut2_Icon.FormattingEnabled = True
         Me.AppOption_Shortcut2_Icon.Items.AddRange(New Object() {resources.GetString("AppOption_Shortcut2_Icon.Items"), resources.GetString("AppOption_Shortcut2_Icon.Items1"), resources.GetString("AppOption_Shortcut2_Icon.Items2"), resources.GetString("AppOption_Shortcut2_Icon.Items3"), resources.GetString("AppOption_Shortcut2_Icon.Items4"), resources.GetString("AppOption_Shortcut2_Icon.Items5"), resources.GetString("AppOption_Shortcut2_Icon.Items6"), resources.GetString("AppOption_Shortcut2_Icon.Items7"), resources.GetString("AppOption_Shortcut2_Icon.Items8"), resources.GetString("AppOption_Shortcut2_Icon.Items9"), resources.GetString("AppOption_Shortcut2_Icon.Items10"), resources.GetString("AppOption_Shortcut2_Icon.Items11"), resources.GetString("AppOption_Shortcut2_Icon.Items12"), resources.GetString("AppOption_Shortcut2_Icon.Items13"), resources.GetString("AppOption_Shortcut2_Icon.Items14"), resources.GetString("AppOption_Shortcut2_Icon.Items15"), resources.GetString("AppOption_Shortcut2_Icon.Items16"), resources.GetString("AppOption_Shortcut2_Icon.Items17"), resources.GetString("AppOption_Shortcut2_Icon.Items18"), resources.GetString("AppOption_Shortcut2_Icon.Items19"), resources.GetString("AppOption_Shortcut2_Icon.Items20"), resources.GetString("AppOption_Shortcut2_Icon.Items21"), resources.GetString("AppOption_Shortcut2_Icon.Items22"), resources.GetString("AppOption_Shortcut2_Icon.Items23"), resources.GetString("AppOption_Shortcut2_Icon.Items24"), resources.GetString("AppOption_Shortcut2_Icon.Items25"), resources.GetString("AppOption_Shortcut2_Icon.Items26"), resources.GetString("AppOption_Shortcut2_Icon.Items27"), resources.GetString("AppOption_Shortcut2_Icon.Items28"), resources.GetString("AppOption_Shortcut2_Icon.Items29"), resources.GetString("AppOption_Shortcut2_Icon.Items30"), resources.GetString("AppOption_Shortcut2_Icon.Items31"), resources.GetString("AppOption_Shortcut2_Icon.Items32"), resources.GetString("AppOption_Shortcut2_Icon.Items33"), resources.GetString("AppOption_Shortcut2_Icon.Items34")})
         Me.AppOption_Shortcut2_Icon.Name = "AppOption_Shortcut2_Icon"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_Shortcut2_Icon, resources.GetString("AppOption_Shortcut2_Icon.ToolTip"))
         '
         'Text_012
         '
         resources.ApplyResources(Me.Text_012, "Text_012")
         Me.Text_012.Name = "Text_012"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Text_012, resources.GetString("Text_012.ToolTip"))
         '
         'Text_014
         '
         resources.ApplyResources(Me.Text_014, "Text_014")
         Me.Text_014.Name = "Text_014"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Text_014, resources.GetString("Text_014.ToolTip"))
         '
         'AppOption_Shortcut2_LaunchWith
         '
-        resources.ApplyResources(Me.AppOption_Shortcut2_LaunchWith, "AppOption_Shortcut2_LaunchWith")
         Me.AppOption_Shortcut2_LaunchWith.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.AppOption_Shortcut2_LaunchWith.DropDownWidth = 200
+        resources.ApplyResources(Me.AppOption_Shortcut2_LaunchWith, "AppOption_Shortcut2_LaunchWith")
         Me.AppOption_Shortcut2_LaunchWith.FormattingEnabled = True
         Me.AppOption_Shortcut2_LaunchWith.Items.AddRange(New Object() {resources.GetString("AppOption_Shortcut2_LaunchWith.Items"), resources.GetString("AppOption_Shortcut2_LaunchWith.Items1"), resources.GetString("AppOption_Shortcut2_LaunchWith.Items2"), resources.GetString("AppOption_Shortcut2_LaunchWith.Items3"), resources.GetString("AppOption_Shortcut2_LaunchWith.Items4"), resources.GetString("AppOption_Shortcut2_LaunchWith.Items5"), resources.GetString("AppOption_Shortcut2_LaunchWith.Items6"), resources.GetString("AppOption_Shortcut2_LaunchWith.Items7"), resources.GetString("AppOption_Shortcut2_LaunchWith.Items8"), resources.GetString("AppOption_Shortcut2_LaunchWith.Items9"), resources.GetString("AppOption_Shortcut2_LaunchWith.Items10"), resources.GetString("AppOption_Shortcut2_LaunchWith.Items11")})
         Me.AppOption_Shortcut2_LaunchWith.Name = "AppOption_Shortcut2_LaunchWith"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_Shortcut2_LaunchWith, resources.GetString("AppOption_Shortcut2_LaunchWith.ToolTip"))
         '
         'Text_013
         '
         resources.ApplyResources(Me.Text_013, "Text_013")
         Me.Text_013.Name = "Text_013"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Text_013, resources.GetString("Text_013.ToolTip"))
         '
         'UI_Tab04_Cat02
         '
@@ -2094,13 +1957,11 @@ Partial Class Frm03_Settings
         Me.UI_Tab04_Cat02.Controls.Add(Me.AppOption_EnableCustomShortcut_1)
         Me.UI_Tab04_Cat02.Name = "UI_Tab04_Cat02"
         Me.UI_Tab04_Cat02.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab04_Cat02, resources.GetString("UI_Tab04_Cat02.ToolTip"))
         '
         'AppOption_Shortcut1_Path
         '
         resources.ApplyResources(Me.AppOption_Shortcut1_Path, "AppOption_Shortcut1_Path")
         Me.AppOption_Shortcut1_Path.Name = "AppOption_Shortcut1_Path"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_Shortcut1_Path, resources.GetString("AppOption_Shortcut1_Path.ToolTip"))
         '
         'AppOption_Shortcut1_SelectFile
         '
@@ -2108,7 +1969,6 @@ Partial Class Frm03_Settings
         Me.AppOption_Shortcut1_SelectFile.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline
         Me.AppOption_Shortcut1_SelectFile.Name = "AppOption_Shortcut1_SelectFile"
         Me.AppOption_Shortcut1_SelectFile.TabStop = True
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_Shortcut1_SelectFile, resources.GetString("AppOption_Shortcut1_SelectFile.ToolTip"))
         '
         'AppOption_Shortcut1_Icon
         '
@@ -2118,41 +1978,35 @@ Partial Class Frm03_Settings
         Me.AppOption_Shortcut1_Icon.FormattingEnabled = True
         Me.AppOption_Shortcut1_Icon.Items.AddRange(New Object() {resources.GetString("AppOption_Shortcut1_Icon.Items"), resources.GetString("AppOption_Shortcut1_Icon.Items1"), resources.GetString("AppOption_Shortcut1_Icon.Items2"), resources.GetString("AppOption_Shortcut1_Icon.Items3"), resources.GetString("AppOption_Shortcut1_Icon.Items4"), resources.GetString("AppOption_Shortcut1_Icon.Items5"), resources.GetString("AppOption_Shortcut1_Icon.Items6"), resources.GetString("AppOption_Shortcut1_Icon.Items7"), resources.GetString("AppOption_Shortcut1_Icon.Items8"), resources.GetString("AppOption_Shortcut1_Icon.Items9"), resources.GetString("AppOption_Shortcut1_Icon.Items10"), resources.GetString("AppOption_Shortcut1_Icon.Items11"), resources.GetString("AppOption_Shortcut1_Icon.Items12"), resources.GetString("AppOption_Shortcut1_Icon.Items13"), resources.GetString("AppOption_Shortcut1_Icon.Items14"), resources.GetString("AppOption_Shortcut1_Icon.Items15"), resources.GetString("AppOption_Shortcut1_Icon.Items16"), resources.GetString("AppOption_Shortcut1_Icon.Items17"), resources.GetString("AppOption_Shortcut1_Icon.Items18"), resources.GetString("AppOption_Shortcut1_Icon.Items19"), resources.GetString("AppOption_Shortcut1_Icon.Items20"), resources.GetString("AppOption_Shortcut1_Icon.Items21"), resources.GetString("AppOption_Shortcut1_Icon.Items22"), resources.GetString("AppOption_Shortcut1_Icon.Items23"), resources.GetString("AppOption_Shortcut1_Icon.Items24"), resources.GetString("AppOption_Shortcut1_Icon.Items25"), resources.GetString("AppOption_Shortcut1_Icon.Items26"), resources.GetString("AppOption_Shortcut1_Icon.Items27"), resources.GetString("AppOption_Shortcut1_Icon.Items28"), resources.GetString("AppOption_Shortcut1_Icon.Items29"), resources.GetString("AppOption_Shortcut1_Icon.Items30"), resources.GetString("AppOption_Shortcut1_Icon.Items31"), resources.GetString("AppOption_Shortcut1_Icon.Items32"), resources.GetString("AppOption_Shortcut1_Icon.Items33"), resources.GetString("AppOption_Shortcut1_Icon.Items34")})
         Me.AppOption_Shortcut1_Icon.Name = "AppOption_Shortcut1_Icon"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_Shortcut1_Icon, resources.GetString("AppOption_Shortcut1_Icon.ToolTip"))
         '
         'Text_011
         '
         resources.ApplyResources(Me.Text_011, "Text_011")
         Me.Text_011.Name = "Text_011"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Text_011, resources.GetString("Text_011.ToolTip"))
         '
         'AppOption_Shortcut1_LaunchWith
         '
-        resources.ApplyResources(Me.AppOption_Shortcut1_LaunchWith, "AppOption_Shortcut1_LaunchWith")
         Me.AppOption_Shortcut1_LaunchWith.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.AppOption_Shortcut1_LaunchWith.DropDownWidth = 200
+        resources.ApplyResources(Me.AppOption_Shortcut1_LaunchWith, "AppOption_Shortcut1_LaunchWith")
         Me.AppOption_Shortcut1_LaunchWith.FormattingEnabled = True
         Me.AppOption_Shortcut1_LaunchWith.Items.AddRange(New Object() {resources.GetString("AppOption_Shortcut1_LaunchWith.Items"), resources.GetString("AppOption_Shortcut1_LaunchWith.Items1"), resources.GetString("AppOption_Shortcut1_LaunchWith.Items2"), resources.GetString("AppOption_Shortcut1_LaunchWith.Items3"), resources.GetString("AppOption_Shortcut1_LaunchWith.Items4"), resources.GetString("AppOption_Shortcut1_LaunchWith.Items5"), resources.GetString("AppOption_Shortcut1_LaunchWith.Items6"), resources.GetString("AppOption_Shortcut1_LaunchWith.Items7"), resources.GetString("AppOption_Shortcut1_LaunchWith.Items8"), resources.GetString("AppOption_Shortcut1_LaunchWith.Items9"), resources.GetString("AppOption_Shortcut1_LaunchWith.Items10"), resources.GetString("AppOption_Shortcut1_LaunchWith.Items11")})
         Me.AppOption_Shortcut1_LaunchWith.Name = "AppOption_Shortcut1_LaunchWith"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_Shortcut1_LaunchWith, resources.GetString("AppOption_Shortcut1_LaunchWith.ToolTip"))
         '
         'Text_010
         '
         resources.ApplyResources(Me.Text_010, "Text_010")
         Me.Text_010.Name = "Text_010"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Text_010, resources.GetString("Text_010.ToolTip"))
         '
         'Text_009
         '
         resources.ApplyResources(Me.Text_009, "Text_009")
         Me.Text_009.Name = "Text_009"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Text_009, resources.GetString("Text_009.ToolTip"))
         '
         'AppOption_EnableCustomShortcut_1
         '
         resources.ApplyResources(Me.AppOption_EnableCustomShortcut_1, "AppOption_EnableCustomShortcut_1")
         Me.AppOption_EnableCustomShortcut_1.Name = "AppOption_EnableCustomShortcut_1"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_EnableCustomShortcut_1, resources.GetString("AppOption_EnableCustomShortcut_1.ToolTip"))
         Me.AppOption_EnableCustomShortcut_1.UseVisualStyleBackColor = False
         '
         'UI_Tab04_Cat01
@@ -2161,13 +2015,11 @@ Partial Class Frm03_Settings
         Me.UI_Tab04_Cat01.Controls.Add(Me.AppOption_EnableCustomShortcuts)
         Me.UI_Tab04_Cat01.Name = "UI_Tab04_Cat01"
         Me.UI_Tab04_Cat01.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab04_Cat01, resources.GetString("UI_Tab04_Cat01.ToolTip"))
         '
         'AppOption_EnableCustomShortcuts
         '
         resources.ApplyResources(Me.AppOption_EnableCustomShortcuts, "AppOption_EnableCustomShortcuts")
         Me.AppOption_EnableCustomShortcuts.Name = "AppOption_EnableCustomShortcuts"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_EnableCustomShortcuts, resources.GetString("AppOption_EnableCustomShortcuts.ToolTip"))
         Me.AppOption_EnableCustomShortcuts.UseVisualStyleBackColor = False
         '
         'UI_Tab04_Title01
@@ -2175,17 +2027,15 @@ Partial Class Frm03_Settings
         resources.ApplyResources(Me.UI_Tab04_Title01, "UI_Tab04_Title01")
         Me.UI_Tab04_Title01.ForeColor = System.Drawing.SystemColors.HotTrack
         Me.UI_Tab04_Title01.Name = "UI_Tab04_Title01"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab04_Title01, resources.GetString("UI_Tab04_Title01.ToolTip"))
         '
         'UI_SettingsTab05
         '
-        resources.ApplyResources(Me.UI_SettingsTab05, "UI_SettingsTab05")
         Me.UI_SettingsTab05.Controls.Add(Me.UI_Tab05_Cat03)
         Me.UI_SettingsTab05.Controls.Add(Me.UI_Tab05_Cat02)
         Me.UI_SettingsTab05.Controls.Add(Me.UI_Tab05_Title01)
         Me.UI_SettingsTab05.Controls.Add(Me.UI_Tab05_Cat01)
+        resources.ApplyResources(Me.UI_SettingsTab05, "UI_SettingsTab05")
         Me.UI_SettingsTab05.Name = "UI_SettingsTab05"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_SettingsTab05, resources.GetString("UI_SettingsTab05.ToolTip"))
         Me.UI_SettingsTab05.UseVisualStyleBackColor = True
         '
         'UI_Tab05_Cat03
@@ -2198,36 +2048,31 @@ Partial Class Frm03_Settings
         Me.UI_Tab05_Cat03.ForeColor = System.Drawing.SystemColors.ControlText
         Me.UI_Tab05_Cat03.Name = "UI_Tab05_Cat03"
         Me.UI_Tab05_Cat03.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab05_Cat03, resources.GetString("UI_Tab05_Cat03.ToolTip"))
         '
         'AppOption_UpdateAutomaticInstallSilentMode
         '
         resources.ApplyResources(Me.AppOption_UpdateAutomaticInstallSilentMode, "AppOption_UpdateAutomaticInstallSilentMode")
         Me.AppOption_UpdateAutomaticInstallSilentMode.AutoEllipsis = True
         Me.AppOption_UpdateAutomaticInstallSilentMode.Name = "AppOption_UpdateAutomaticInstallSilentMode"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_UpdateAutomaticInstallSilentMode, resources.GetString("AppOption_UpdateAutomaticInstallSilentMode.ToolTip"))
         Me.AppOption_UpdateAutomaticInstallSilentMode.UseVisualStyleBackColor = True
         '
         'UI_Tab04_Cat03_UnderOption01
         '
-        resources.ApplyResources(Me.UI_Tab04_Cat03_UnderOption01, "UI_Tab04_Cat03_UnderOption01")
         Me.UI_Tab04_Cat03_UnderOption01.Image = Global.SMW_MultiTool_Launcher.My.Resources.Resources.CbxUnderOptionUnavailable
+        resources.ApplyResources(Me.UI_Tab04_Cat03_UnderOption01, "UI_Tab04_Cat03_UnderOption01")
         Me.UI_Tab04_Cat03_UnderOption01.Name = "UI_Tab04_Cat03_UnderOption01"
         Me.UI_Tab04_Cat03_UnderOption01.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab04_Cat03_UnderOption01, resources.GetString("UI_Tab04_Cat03_UnderOption01.ToolTip"))
         '
         'AppOption_UpdateAutomaticDownload
         '
         resources.ApplyResources(Me.AppOption_UpdateAutomaticDownload, "AppOption_UpdateAutomaticDownload")
         Me.AppOption_UpdateAutomaticDownload.Name = "AppOption_UpdateAutomaticDownload"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_UpdateAutomaticDownload, resources.GetString("AppOption_UpdateAutomaticDownload.ToolTip"))
         Me.AppOption_UpdateAutomaticDownload.UseVisualStyleBackColor = True
         '
         'AppOption_UpdateAutomaticInstall
         '
         resources.ApplyResources(Me.AppOption_UpdateAutomaticInstall, "AppOption_UpdateAutomaticInstall")
         Me.AppOption_UpdateAutomaticInstall.Name = "AppOption_UpdateAutomaticInstall"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_UpdateAutomaticInstall, resources.GetString("AppOption_UpdateAutomaticInstall.ToolTip"))
         Me.AppOption_UpdateAutomaticInstall.UseVisualStyleBackColor = True
         '
         'UI_Tab05_Cat02
@@ -2238,20 +2083,17 @@ Partial Class Frm03_Settings
         Me.UI_Tab05_Cat02.ForeColor = System.Drawing.SystemColors.ControlText
         Me.UI_Tab05_Cat02.Name = "UI_Tab05_Cat02"
         Me.UI_Tab05_Cat02.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab05_Cat02, resources.GetString("UI_Tab05_Cat02.ToolTip"))
         '
         'AppOption_DisplayUpdateSearchVersionOnAboutWindow
         '
         resources.ApplyResources(Me.AppOption_DisplayUpdateSearchVersionOnAboutWindow, "AppOption_DisplayUpdateSearchVersionOnAboutWindow")
         Me.AppOption_DisplayUpdateSearchVersionOnAboutWindow.Name = "AppOption_DisplayUpdateSearchVersionOnAboutWindow"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_DisplayUpdateSearchVersionOnAboutWindow, resources.GetString("AppOption_DisplayUpdateSearchVersionOnAboutWindow.ToolTip"))
         Me.AppOption_DisplayUpdateSearchVersionOnAboutWindow.UseVisualStyleBackColor = True
         '
         'AppOption_DisplayUpdateSearchModuleOnAboutWindow
         '
         resources.ApplyResources(Me.AppOption_DisplayUpdateSearchModuleOnAboutWindow, "AppOption_DisplayUpdateSearchModuleOnAboutWindow")
         Me.AppOption_DisplayUpdateSearchModuleOnAboutWindow.Name = "AppOption_DisplayUpdateSearchModuleOnAboutWindow"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_DisplayUpdateSearchModuleOnAboutWindow, resources.GetString("AppOption_DisplayUpdateSearchModuleOnAboutWindow.ToolTip"))
         Me.AppOption_DisplayUpdateSearchModuleOnAboutWindow.UseVisualStyleBackColor = True
         '
         'UI_Tab05_Title01
@@ -2259,7 +2101,6 @@ Partial Class Frm03_Settings
         resources.ApplyResources(Me.UI_Tab05_Title01, "UI_Tab05_Title01")
         Me.UI_Tab05_Title01.ForeColor = System.Drawing.SystemColors.HotTrack
         Me.UI_Tab05_Title01.Name = "UI_Tab05_Title01"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab05_Title01, resources.GetString("UI_Tab05_Title01.ToolTip"))
         '
         'UI_Tab05_Cat01
         '
@@ -2272,54 +2113,47 @@ Partial Class Frm03_Settings
         Me.UI_Tab05_Cat01.ForeColor = System.Drawing.SystemColors.ControlText
         Me.UI_Tab05_Cat01.Name = "UI_Tab05_Cat01"
         Me.UI_Tab05_Cat01.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab05_Cat01, resources.GetString("UI_Tab05_Cat01.ToolTip"))
         '
         'AppOption_UseLegacyUpdatePopups
         '
         resources.ApplyResources(Me.AppOption_UseLegacyUpdatePopups, "AppOption_UseLegacyUpdatePopups")
         Me.AppOption_UseLegacyUpdatePopups.AutoEllipsis = True
         Me.AppOption_UseLegacyUpdatePopups.Name = "AppOption_UseLegacyUpdatePopups"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_UseLegacyUpdatePopups, resources.GetString("AppOption_UseLegacyUpdatePopups.ToolTip"))
         Me.AppOption_UseLegacyUpdatePopups.UseVisualStyleBackColor = True
         '
         'UI_Tab04_Cat01_UnderOption02
         '
-        resources.ApplyResources(Me.UI_Tab04_Cat01_UnderOption02, "UI_Tab04_Cat01_UnderOption02")
         Me.UI_Tab04_Cat01_UnderOption02.Image = Global.SMW_MultiTool_Launcher.My.Resources.Resources.CbxUnderOptionUnavailableL
+        resources.ApplyResources(Me.UI_Tab04_Cat01_UnderOption02, "UI_Tab04_Cat01_UnderOption02")
         Me.UI_Tab04_Cat01_UnderOption02.Name = "UI_Tab04_Cat01_UnderOption02"
         Me.UI_Tab04_Cat01_UnderOption02.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab04_Cat01_UnderOption02, resources.GetString("UI_Tab04_Cat01_UnderOption02.ToolTip"))
         '
         'AppOption_UpdateAtStartup_DiscreteMode
         '
         resources.ApplyResources(Me.AppOption_UpdateAtStartup_DiscreteMode, "AppOption_UpdateAtStartup_DiscreteMode")
         Me.AppOption_UpdateAtStartup_DiscreteMode.AutoEllipsis = True
         Me.AppOption_UpdateAtStartup_DiscreteMode.Name = "AppOption_UpdateAtStartup_DiscreteMode"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_UpdateAtStartup_DiscreteMode, resources.GetString("AppOption_UpdateAtStartup_DiscreteMode.ToolTip"))
         Me.AppOption_UpdateAtStartup_DiscreteMode.UseVisualStyleBackColor = True
         '
         'UI_Tab04_Cat01_UnderOption01
         '
-        resources.ApplyResources(Me.UI_Tab04_Cat01_UnderOption01, "UI_Tab04_Cat01_UnderOption01")
         Me.UI_Tab04_Cat01_UnderOption01.Image = Global.SMW_MultiTool_Launcher.My.Resources.Resources.CbxUnderOptionUnavailable
+        resources.ApplyResources(Me.UI_Tab04_Cat01_UnderOption01, "UI_Tab04_Cat01_UnderOption01")
         Me.UI_Tab04_Cat01_UnderOption01.Name = "UI_Tab04_Cat01_UnderOption01"
         Me.UI_Tab04_Cat01_UnderOption01.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab04_Cat01_UnderOption01, resources.GetString("UI_Tab04_Cat01_UnderOption01.ToolTip"))
         '
         'AppOption_SearchUpdateAtAppStart
         '
         resources.ApplyResources(Me.AppOption_SearchUpdateAtAppStart, "AppOption_SearchUpdateAtAppStart")
         Me.AppOption_SearchUpdateAtAppStart.Name = "AppOption_SearchUpdateAtAppStart"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_SearchUpdateAtAppStart, resources.GetString("AppOption_SearchUpdateAtAppStart.ToolTip"))
         Me.AppOption_SearchUpdateAtAppStart.UseVisualStyleBackColor = False
         '
         'UI_SettingsTab06
         '
-        resources.ApplyResources(Me.UI_SettingsTab06, "UI_SettingsTab06")
         Me.UI_SettingsTab06.Controls.Add(Me.UI_Tab06_ApplicationTabControl)
         Me.UI_SettingsTab06.Controls.Add(Me.UI_Tab06_Title01)
+        resources.ApplyResources(Me.UI_SettingsTab06, "UI_SettingsTab06")
         Me.UI_SettingsTab06.Name = "UI_SettingsTab06"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_SettingsTab06, resources.GetString("UI_SettingsTab06.ToolTip"))
         Me.UI_SettingsTab06.UseVisualStyleBackColor = True
         '
         'UI_Tab06_ApplicationTabControl
@@ -2334,17 +2168,15 @@ Partial Class Frm03_Settings
         Me.UI_Tab06_ApplicationTabControl.Name = "UI_Tab06_ApplicationTabControl"
         Me.UI_Tab06_ApplicationTabControl.SelectedIndex = 0
         Me.UI_Tab06_ApplicationTabControl.SizeMode = System.Windows.Forms.TabSizeMode.FillToRight
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab06_ApplicationTabControl, resources.GetString("UI_Tab06_ApplicationTabControl.ToolTip"))
         '
         'UI_Tab06_Tab01_LunarMagic
         '
-        resources.ApplyResources(Me.UI_Tab06_Tab01_LunarMagic, "UI_Tab06_Tab01_LunarMagic")
         Me.UI_Tab06_Tab01_LunarMagic.Controls.Add(Me.UI_Tab06_Cat01_SubCat04)
         Me.UI_Tab06_Tab01_LunarMagic.Controls.Add(Me.UI_Tab06_Cat01_SubCat03)
         Me.UI_Tab06_Tab01_LunarMagic.Controls.Add(Me.UI_Tab06_Cat01_SubCat01)
         Me.UI_Tab06_Tab01_LunarMagic.Controls.Add(Me.UI_Tab06_Cat01_SubCat02)
+        resources.ApplyResources(Me.UI_Tab06_Tab01_LunarMagic, "UI_Tab06_Tab01_LunarMagic")
         Me.UI_Tab06_Tab01_LunarMagic.Name = "UI_Tab06_Tab01_LunarMagic"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab06_Tab01_LunarMagic, resources.GetString("UI_Tab06_Tab01_LunarMagic.ToolTip"))
         Me.UI_Tab06_Tab01_LunarMagic.UseVisualStyleBackColor = True
         '
         'UI_Tab06_Cat01_SubCat04
@@ -2356,20 +2188,17 @@ Partial Class Frm03_Settings
         Me.UI_Tab06_Cat01_SubCat04.Controls.Add(Me.Text_036)
         Me.UI_Tab06_Cat01_SubCat04.Name = "UI_Tab06_Cat01_SubCat04"
         Me.UI_Tab06_Cat01_SubCat04.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab06_Cat01_SubCat04, resources.GetString("UI_Tab06_Cat01_SubCat04.ToolTip"))
         '
         'AppOption_LM1CTL_DisplaySelectorOnCTRLClick
         '
         resources.ApplyResources(Me.AppOption_LM1CTL_DisplaySelectorOnCTRLClick, "AppOption_LM1CTL_DisplaySelectorOnCTRLClick")
         Me.AppOption_LM1CTL_DisplaySelectorOnCTRLClick.Name = "AppOption_LM1CTL_DisplaySelectorOnCTRLClick"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_LM1CTL_DisplaySelectorOnCTRLClick, resources.GetString("AppOption_LM1CTL_DisplaySelectorOnCTRLClick.ToolTip"))
         Me.AppOption_LM1CTL_DisplaySelectorOnCTRLClick.UseVisualStyleBackColor = True
         '
         'AppOption_EnableLM1CTL
         '
         resources.ApplyResources(Me.AppOption_EnableLM1CTL, "AppOption_EnableLM1CTL")
         Me.AppOption_EnableLM1CTL.Name = "AppOption_EnableLM1CTL"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_EnableLM1CTL, resources.GetString("AppOption_EnableLM1CTL.ToolTip"))
         Me.AppOption_EnableLM1CTL.UseVisualStyleBackColor = True
         '
         'AppOption_LM1CTL_VersionSelector
@@ -2379,13 +2208,11 @@ Partial Class Frm03_Settings
         Me.AppOption_LM1CTL_VersionSelector.FormattingEnabled = True
         Me.AppOption_LM1CTL_VersionSelector.Items.AddRange(New Object() {resources.GetString("AppOption_LM1CTL_VersionSelector.Items"), resources.GetString("AppOption_LM1CTL_VersionSelector.Items1"), resources.GetString("AppOption_LM1CTL_VersionSelector.Items2")})
         Me.AppOption_LM1CTL_VersionSelector.Name = "AppOption_LM1CTL_VersionSelector"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_LM1CTL_VersionSelector, resources.GetString("AppOption_LM1CTL_VersionSelector.ToolTip"))
         '
         'Text_036
         '
         resources.ApplyResources(Me.Text_036, "Text_036")
         Me.Text_036.Name = "Text_036"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Text_036, resources.GetString("Text_036.ToolTip"))
         '
         'UI_Tab06_Cat01_SubCat03
         '
@@ -2401,20 +2228,17 @@ Partial Class Frm03_Settings
         Me.UI_Tab06_Cat01_SubCat03.Controls.Add(Me.Text_034)
         Me.UI_Tab06_Cat01_SubCat03.Name = "UI_Tab06_Cat01_SubCat03"
         Me.UI_Tab06_Cat01_SubCat03.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab06_Cat01_SubCat03, resources.GetString("UI_Tab06_Cat01_SubCat03.ToolTip"))
         '
         'AppOption_EnableHeaderMagicLMSlot3
         '
         resources.ApplyResources(Me.AppOption_EnableHeaderMagicLMSlot3, "AppOption_EnableHeaderMagicLMSlot3")
         Me.AppOption_EnableHeaderMagicLMSlot3.Name = "AppOption_EnableHeaderMagicLMSlot3"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_EnableHeaderMagicLMSlot3, resources.GetString("AppOption_EnableHeaderMagicLMSlot3.ToolTip"))
         Me.AppOption_EnableHeaderMagicLMSlot3.UseVisualStyleBackColor = True
         '
         'AppOption_EnableLMSlot3
         '
         resources.ApplyResources(Me.AppOption_EnableLMSlot3, "AppOption_EnableLMSlot3")
         Me.AppOption_EnableLMSlot3.Name = "AppOption_EnableLMSlot3"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_EnableLMSlot3, resources.GetString("AppOption_EnableLMSlot3.ToolTip"))
         Me.AppOption_EnableLMSlot3.UseVisualStyleBackColor = True
         '
         'AppOption_LMslot3_SelectExecutable
@@ -2423,46 +2247,39 @@ Partial Class Frm03_Settings
         Me.AppOption_LMslot3_SelectExecutable.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline
         Me.AppOption_LMslot3_SelectExecutable.Name = "AppOption_LMslot3_SelectExecutable"
         Me.AppOption_LMslot3_SelectExecutable.TabStop = True
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_LMslot3_SelectExecutable, resources.GetString("AppOption_LMslot3_SelectExecutable.ToolTip"))
         '
         'AppOption_LMslot3_Path
         '
         resources.ApplyResources(Me.AppOption_LMslot3_Path, "AppOption_LMslot3_Path")
         Me.AppOption_LMslot3_Path.Name = "AppOption_LMslot3_Path"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_LMslot3_Path, resources.GetString("AppOption_LMslot3_Path.ToolTip"))
         '
         'Text_035
         '
         resources.ApplyResources(Me.Text_035, "Text_035")
         Me.Text_035.Name = "Text_035"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Text_035, resources.GetString("Text_035.ToolTip"))
         '
         'Text_033
         '
         resources.ApplyResources(Me.Text_033, "Text_033")
         Me.Text_033.Name = "Text_033"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Text_033, resources.GetString("Text_033.ToolTip"))
         '
         'AppOption_LMslot3_Name
         '
         resources.ApplyResources(Me.AppOption_LMslot3_Name, "AppOption_LMslot3_Name")
         Me.AppOption_LMslot3_Name.Name = "AppOption_LMslot3_Name"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_LMslot3_Name, resources.GetString("AppOption_LMslot3_Name.ToolTip"))
         '
         'AppOption_LMslot3_Version
         '
         resources.ApplyResources(Me.AppOption_LMslot3_Version, "AppOption_LMslot3_Version")
         Me.AppOption_LMslot3_Version.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.AppOption_LMslot3_Version.FormattingEnabled = True
-        Me.AppOption_LMslot3_Version.Items.AddRange(New Object() {resources.GetString("AppOption_LMslot3_Version.Items"), resources.GetString("AppOption_LMslot3_Version.Items1"), resources.GetString("AppOption_LMslot3_Version.Items2"), resources.GetString("AppOption_LMslot3_Version.Items3"), resources.GetString("AppOption_LMslot3_Version.Items4"), resources.GetString("AppOption_LMslot3_Version.Items5"), resources.GetString("AppOption_LMslot3_Version.Items6"), resources.GetString("AppOption_LMslot3_Version.Items7"), resources.GetString("AppOption_LMslot3_Version.Items8"), resources.GetString("AppOption_LMslot3_Version.Items9"), resources.GetString("AppOption_LMslot3_Version.Items10"), resources.GetString("AppOption_LMslot3_Version.Items11"), resources.GetString("AppOption_LMslot3_Version.Items12"), resources.GetString("AppOption_LMslot3_Version.Items13"), resources.GetString("AppOption_LMslot3_Version.Items14"), resources.GetString("AppOption_LMslot3_Version.Items15"), resources.GetString("AppOption_LMslot3_Version.Items16"), resources.GetString("AppOption_LMslot3_Version.Items17"), resources.GetString("AppOption_LMslot3_Version.Items18"), resources.GetString("AppOption_LMslot3_Version.Items19"), resources.GetString("AppOption_LMslot3_Version.Items20"), resources.GetString("AppOption_LMslot3_Version.Items21"), resources.GetString("AppOption_LMslot3_Version.Items22"), resources.GetString("AppOption_LMslot3_Version.Items23"), resources.GetString("AppOption_LMslot3_Version.Items24"), resources.GetString("AppOption_LMslot3_Version.Items25"), resources.GetString("AppOption_LMslot3_Version.Items26"), resources.GetString("AppOption_LMslot3_Version.Items27"), resources.GetString("AppOption_LMslot3_Version.Items28"), resources.GetString("AppOption_LMslot3_Version.Items29"), resources.GetString("AppOption_LMslot3_Version.Items30"), resources.GetString("AppOption_LMslot3_Version.Items31"), resources.GetString("AppOption_LMslot3_Version.Items32"), resources.GetString("AppOption_LMslot3_Version.Items33"), resources.GetString("AppOption_LMslot3_Version.Items34"), resources.GetString("AppOption_LMslot3_Version.Items35"), resources.GetString("AppOption_LMslot3_Version.Items36"), resources.GetString("AppOption_LMslot3_Version.Items37"), resources.GetString("AppOption_LMslot3_Version.Items38"), resources.GetString("AppOption_LMslot3_Version.Items39"), resources.GetString("AppOption_LMslot3_Version.Items40"), resources.GetString("AppOption_LMslot3_Version.Items41"), resources.GetString("AppOption_LMslot3_Version.Items42"), resources.GetString("AppOption_LMslot3_Version.Items43"), resources.GetString("AppOption_LMslot3_Version.Items44"), resources.GetString("AppOption_LMslot3_Version.Items45"), resources.GetString("AppOption_LMslot3_Version.Items46"), resources.GetString("AppOption_LMslot3_Version.Items47"), resources.GetString("AppOption_LMslot3_Version.Items48"), resources.GetString("AppOption_LMslot3_Version.Items49"), resources.GetString("AppOption_LMslot3_Version.Items50"), resources.GetString("AppOption_LMslot3_Version.Items51"), resources.GetString("AppOption_LMslot3_Version.Items52"), resources.GetString("AppOption_LMslot3_Version.Items53"), resources.GetString("AppOption_LMslot3_Version.Items54"), resources.GetString("AppOption_LMslot3_Version.Items55"), resources.GetString("AppOption_LMslot3_Version.Items56"), resources.GetString("AppOption_LMslot3_Version.Items57"), resources.GetString("AppOption_LMslot3_Version.Items58")})
+        Me.AppOption_LMslot3_Version.Items.AddRange(New Object() {resources.GetString("AppOption_LMslot3_Version.Items"), resources.GetString("AppOption_LMslot3_Version.Items1"), resources.GetString("AppOption_LMslot3_Version.Items2"), resources.GetString("AppOption_LMslot3_Version.Items3"), resources.GetString("AppOption_LMslot3_Version.Items4"), resources.GetString("AppOption_LMslot3_Version.Items5"), resources.GetString("AppOption_LMslot3_Version.Items6"), resources.GetString("AppOption_LMslot3_Version.Items7"), resources.GetString("AppOption_LMslot3_Version.Items8"), resources.GetString("AppOption_LMslot3_Version.Items9"), resources.GetString("AppOption_LMslot3_Version.Items10"), resources.GetString("AppOption_LMslot3_Version.Items11"), resources.GetString("AppOption_LMslot3_Version.Items12"), resources.GetString("AppOption_LMslot3_Version.Items13"), resources.GetString("AppOption_LMslot3_Version.Items14"), resources.GetString("AppOption_LMslot3_Version.Items15"), resources.GetString("AppOption_LMslot3_Version.Items16"), resources.GetString("AppOption_LMslot3_Version.Items17"), resources.GetString("AppOption_LMslot3_Version.Items18"), resources.GetString("AppOption_LMslot3_Version.Items19"), resources.GetString("AppOption_LMslot3_Version.Items20"), resources.GetString("AppOption_LMslot3_Version.Items21"), resources.GetString("AppOption_LMslot3_Version.Items22"), resources.GetString("AppOption_LMslot3_Version.Items23"), resources.GetString("AppOption_LMslot3_Version.Items24"), resources.GetString("AppOption_LMslot3_Version.Items25"), resources.GetString("AppOption_LMslot3_Version.Items26"), resources.GetString("AppOption_LMslot3_Version.Items27"), resources.GetString("AppOption_LMslot3_Version.Items28"), resources.GetString("AppOption_LMslot3_Version.Items29"), resources.GetString("AppOption_LMslot3_Version.Items30"), resources.GetString("AppOption_LMslot3_Version.Items31"), resources.GetString("AppOption_LMslot3_Version.Items32"), resources.GetString("AppOption_LMslot3_Version.Items33"), resources.GetString("AppOption_LMslot3_Version.Items34"), resources.GetString("AppOption_LMslot3_Version.Items35"), resources.GetString("AppOption_LMslot3_Version.Items36"), resources.GetString("AppOption_LMslot3_Version.Items37"), resources.GetString("AppOption_LMslot3_Version.Items38"), resources.GetString("AppOption_LMslot3_Version.Items39"), resources.GetString("AppOption_LMslot3_Version.Items40"), resources.GetString("AppOption_LMslot3_Version.Items41"), resources.GetString("AppOption_LMslot3_Version.Items42"), resources.GetString("AppOption_LMslot3_Version.Items43"), resources.GetString("AppOption_LMslot3_Version.Items44"), resources.GetString("AppOption_LMslot3_Version.Items45"), resources.GetString("AppOption_LMslot3_Version.Items46"), resources.GetString("AppOption_LMslot3_Version.Items47"), resources.GetString("AppOption_LMslot3_Version.Items48"), resources.GetString("AppOption_LMslot3_Version.Items49"), resources.GetString("AppOption_LMslot3_Version.Items50"), resources.GetString("AppOption_LMslot3_Version.Items51"), resources.GetString("AppOption_LMslot3_Version.Items52"), resources.GetString("AppOption_LMslot3_Version.Items53"), resources.GetString("AppOption_LMslot3_Version.Items54"), resources.GetString("AppOption_LMslot3_Version.Items55"), resources.GetString("AppOption_LMslot3_Version.Items56"), resources.GetString("AppOption_LMslot3_Version.Items57"), resources.GetString("AppOption_LMslot3_Version.Items58"), resources.GetString("AppOption_LMslot3_Version.Items59")})
         Me.AppOption_LMslot3_Version.Name = "AppOption_LMslot3_Version"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_LMslot3_Version, resources.GetString("AppOption_LMslot3_Version.ToolTip"))
         '
         'Text_034
         '
         resources.ApplyResources(Me.Text_034, "Text_034")
         Me.Text_034.Name = "Text_034"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Text_034, resources.GetString("Text_034.ToolTip"))
         '
         'UI_Tab06_Cat01_SubCat01
         '
@@ -2478,13 +2295,11 @@ Partial Class Frm03_Settings
         Me.UI_Tab06_Cat01_SubCat01.Controls.Add(Me.Text_028)
         Me.UI_Tab06_Cat01_SubCat01.Name = "UI_Tab06_Cat01_SubCat01"
         Me.UI_Tab06_Cat01_SubCat01.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab06_Cat01_SubCat01, resources.GetString("UI_Tab06_Cat01_SubCat01.ToolTip"))
         '
         'AppOption_EnableLMSlot1
         '
         resources.ApplyResources(Me.AppOption_EnableLMSlot1, "AppOption_EnableLMSlot1")
         Me.AppOption_EnableLMSlot1.Name = "AppOption_EnableLMSlot1"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_EnableLMSlot1, resources.GetString("AppOption_EnableLMSlot1.ToolTip"))
         Me.AppOption_EnableLMSlot1.UseVisualStyleBackColor = True
         '
         'AppOption_LMslot1_SelectExecutable
@@ -2493,53 +2308,45 @@ Partial Class Frm03_Settings
         Me.AppOption_LMslot1_SelectExecutable.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline
         Me.AppOption_LMslot1_SelectExecutable.Name = "AppOption_LMslot1_SelectExecutable"
         Me.AppOption_LMslot1_SelectExecutable.TabStop = True
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_LMslot1_SelectExecutable, resources.GetString("AppOption_LMslot1_SelectExecutable.ToolTip"))
         '
         'AppOption_EnableHeaderMagicLMSlot1
         '
         resources.ApplyResources(Me.AppOption_EnableHeaderMagicLMSlot1, "AppOption_EnableHeaderMagicLMSlot1")
         Me.AppOption_EnableHeaderMagicLMSlot1.Name = "AppOption_EnableHeaderMagicLMSlot1"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_EnableHeaderMagicLMSlot1, resources.GetString("AppOption_EnableHeaderMagicLMSlot1.ToolTip"))
         Me.AppOption_EnableHeaderMagicLMSlot1.UseVisualStyleBackColor = True
         '
         'AppOption_LMslot1_Path
         '
         resources.ApplyResources(Me.AppOption_LMslot1_Path, "AppOption_LMslot1_Path")
         Me.AppOption_LMslot1_Path.Name = "AppOption_LMslot1_Path"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_LMslot1_Path, resources.GetString("AppOption_LMslot1_Path.ToolTip"))
         '
         'Text_029
         '
         resources.ApplyResources(Me.Text_029, "Text_029")
         Me.Text_029.Name = "Text_029"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Text_029, resources.GetString("Text_029.ToolTip"))
         '
         'Text_027
         '
         resources.ApplyResources(Me.Text_027, "Text_027")
         Me.Text_027.Name = "Text_027"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Text_027, resources.GetString("Text_027.ToolTip"))
         '
         'AppOption_LMslot1_Name
         '
         resources.ApplyResources(Me.AppOption_LMslot1_Name, "AppOption_LMslot1_Name")
         Me.AppOption_LMslot1_Name.Name = "AppOption_LMslot1_Name"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_LMslot1_Name, resources.GetString("AppOption_LMslot1_Name.ToolTip"))
         '
         'AppOption_LMslot1_Version
         '
         resources.ApplyResources(Me.AppOption_LMslot1_Version, "AppOption_LMslot1_Version")
         Me.AppOption_LMslot1_Version.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.AppOption_LMslot1_Version.FormattingEnabled = True
-        Me.AppOption_LMslot1_Version.Items.AddRange(New Object() {resources.GetString("AppOption_LMslot1_Version.Items"), resources.GetString("AppOption_LMslot1_Version.Items1"), resources.GetString("AppOption_LMslot1_Version.Items2"), resources.GetString("AppOption_LMslot1_Version.Items3"), resources.GetString("AppOption_LMslot1_Version.Items4"), resources.GetString("AppOption_LMslot1_Version.Items5"), resources.GetString("AppOption_LMslot1_Version.Items6"), resources.GetString("AppOption_LMslot1_Version.Items7"), resources.GetString("AppOption_LMslot1_Version.Items8"), resources.GetString("AppOption_LMslot1_Version.Items9"), resources.GetString("AppOption_LMslot1_Version.Items10"), resources.GetString("AppOption_LMslot1_Version.Items11"), resources.GetString("AppOption_LMslot1_Version.Items12"), resources.GetString("AppOption_LMslot1_Version.Items13"), resources.GetString("AppOption_LMslot1_Version.Items14"), resources.GetString("AppOption_LMslot1_Version.Items15"), resources.GetString("AppOption_LMslot1_Version.Items16"), resources.GetString("AppOption_LMslot1_Version.Items17"), resources.GetString("AppOption_LMslot1_Version.Items18"), resources.GetString("AppOption_LMslot1_Version.Items19"), resources.GetString("AppOption_LMslot1_Version.Items20"), resources.GetString("AppOption_LMslot1_Version.Items21"), resources.GetString("AppOption_LMslot1_Version.Items22"), resources.GetString("AppOption_LMslot1_Version.Items23"), resources.GetString("AppOption_LMslot1_Version.Items24"), resources.GetString("AppOption_LMslot1_Version.Items25"), resources.GetString("AppOption_LMslot1_Version.Items26"), resources.GetString("AppOption_LMslot1_Version.Items27"), resources.GetString("AppOption_LMslot1_Version.Items28"), resources.GetString("AppOption_LMslot1_Version.Items29"), resources.GetString("AppOption_LMslot1_Version.Items30"), resources.GetString("AppOption_LMslot1_Version.Items31"), resources.GetString("AppOption_LMslot1_Version.Items32"), resources.GetString("AppOption_LMslot1_Version.Items33"), resources.GetString("AppOption_LMslot1_Version.Items34"), resources.GetString("AppOption_LMslot1_Version.Items35"), resources.GetString("AppOption_LMslot1_Version.Items36"), resources.GetString("AppOption_LMslot1_Version.Items37"), resources.GetString("AppOption_LMslot1_Version.Items38"), resources.GetString("AppOption_LMslot1_Version.Items39"), resources.GetString("AppOption_LMslot1_Version.Items40"), resources.GetString("AppOption_LMslot1_Version.Items41"), resources.GetString("AppOption_LMslot1_Version.Items42"), resources.GetString("AppOption_LMslot1_Version.Items43"), resources.GetString("AppOption_LMslot1_Version.Items44"), resources.GetString("AppOption_LMslot1_Version.Items45"), resources.GetString("AppOption_LMslot1_Version.Items46"), resources.GetString("AppOption_LMslot1_Version.Items47"), resources.GetString("AppOption_LMslot1_Version.Items48"), resources.GetString("AppOption_LMslot1_Version.Items49"), resources.GetString("AppOption_LMslot1_Version.Items50"), resources.GetString("AppOption_LMslot1_Version.Items51"), resources.GetString("AppOption_LMslot1_Version.Items52"), resources.GetString("AppOption_LMslot1_Version.Items53"), resources.GetString("AppOption_LMslot1_Version.Items54"), resources.GetString("AppOption_LMslot1_Version.Items55"), resources.GetString("AppOption_LMslot1_Version.Items56"), resources.GetString("AppOption_LMslot1_Version.Items57"), resources.GetString("AppOption_LMslot1_Version.Items58")})
+        Me.AppOption_LMslot1_Version.Items.AddRange(New Object() {resources.GetString("AppOption_LMslot1_Version.Items"), resources.GetString("AppOption_LMslot1_Version.Items1"), resources.GetString("AppOption_LMslot1_Version.Items2"), resources.GetString("AppOption_LMslot1_Version.Items3"), resources.GetString("AppOption_LMslot1_Version.Items4"), resources.GetString("AppOption_LMslot1_Version.Items5"), resources.GetString("AppOption_LMslot1_Version.Items6"), resources.GetString("AppOption_LMslot1_Version.Items7"), resources.GetString("AppOption_LMslot1_Version.Items8"), resources.GetString("AppOption_LMslot1_Version.Items9"), resources.GetString("AppOption_LMslot1_Version.Items10"), resources.GetString("AppOption_LMslot1_Version.Items11"), resources.GetString("AppOption_LMslot1_Version.Items12"), resources.GetString("AppOption_LMslot1_Version.Items13"), resources.GetString("AppOption_LMslot1_Version.Items14"), resources.GetString("AppOption_LMslot1_Version.Items15"), resources.GetString("AppOption_LMslot1_Version.Items16"), resources.GetString("AppOption_LMslot1_Version.Items17"), resources.GetString("AppOption_LMslot1_Version.Items18"), resources.GetString("AppOption_LMslot1_Version.Items19"), resources.GetString("AppOption_LMslot1_Version.Items20"), resources.GetString("AppOption_LMslot1_Version.Items21"), resources.GetString("AppOption_LMslot1_Version.Items22"), resources.GetString("AppOption_LMslot1_Version.Items23"), resources.GetString("AppOption_LMslot1_Version.Items24"), resources.GetString("AppOption_LMslot1_Version.Items25"), resources.GetString("AppOption_LMslot1_Version.Items26"), resources.GetString("AppOption_LMslot1_Version.Items27"), resources.GetString("AppOption_LMslot1_Version.Items28"), resources.GetString("AppOption_LMslot1_Version.Items29"), resources.GetString("AppOption_LMslot1_Version.Items30"), resources.GetString("AppOption_LMslot1_Version.Items31"), resources.GetString("AppOption_LMslot1_Version.Items32"), resources.GetString("AppOption_LMslot1_Version.Items33"), resources.GetString("AppOption_LMslot1_Version.Items34"), resources.GetString("AppOption_LMslot1_Version.Items35"), resources.GetString("AppOption_LMslot1_Version.Items36"), resources.GetString("AppOption_LMslot1_Version.Items37"), resources.GetString("AppOption_LMslot1_Version.Items38"), resources.GetString("AppOption_LMslot1_Version.Items39"), resources.GetString("AppOption_LMslot1_Version.Items40"), resources.GetString("AppOption_LMslot1_Version.Items41"), resources.GetString("AppOption_LMslot1_Version.Items42"), resources.GetString("AppOption_LMslot1_Version.Items43"), resources.GetString("AppOption_LMslot1_Version.Items44"), resources.GetString("AppOption_LMslot1_Version.Items45"), resources.GetString("AppOption_LMslot1_Version.Items46"), resources.GetString("AppOption_LMslot1_Version.Items47"), resources.GetString("AppOption_LMslot1_Version.Items48"), resources.GetString("AppOption_LMslot1_Version.Items49"), resources.GetString("AppOption_LMslot1_Version.Items50"), resources.GetString("AppOption_LMslot1_Version.Items51"), resources.GetString("AppOption_LMslot1_Version.Items52"), resources.GetString("AppOption_LMslot1_Version.Items53"), resources.GetString("AppOption_LMslot1_Version.Items54"), resources.GetString("AppOption_LMslot1_Version.Items55"), resources.GetString("AppOption_LMslot1_Version.Items56"), resources.GetString("AppOption_LMslot1_Version.Items57"), resources.GetString("AppOption_LMslot1_Version.Items58"), resources.GetString("AppOption_LMslot1_Version.Items59")})
         Me.AppOption_LMslot1_Version.Name = "AppOption_LMslot1_Version"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_LMslot1_Version, resources.GetString("AppOption_LMslot1_Version.ToolTip"))
         '
         'Text_028
         '
         resources.ApplyResources(Me.Text_028, "Text_028")
         Me.Text_028.Name = "Text_028"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Text_028, resources.GetString("Text_028.ToolTip"))
         '
         'UI_Tab06_Cat01_SubCat02
         '
@@ -2555,20 +2362,17 @@ Partial Class Frm03_Settings
         Me.UI_Tab06_Cat01_SubCat02.Controls.Add(Me.Text_031)
         Me.UI_Tab06_Cat01_SubCat02.Name = "UI_Tab06_Cat01_SubCat02"
         Me.UI_Tab06_Cat01_SubCat02.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab06_Cat01_SubCat02, resources.GetString("UI_Tab06_Cat01_SubCat02.ToolTip"))
         '
         'AppOption_EnableHeaderMagicLMSlot2
         '
         resources.ApplyResources(Me.AppOption_EnableHeaderMagicLMSlot2, "AppOption_EnableHeaderMagicLMSlot2")
         Me.AppOption_EnableHeaderMagicLMSlot2.Name = "AppOption_EnableHeaderMagicLMSlot2"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_EnableHeaderMagicLMSlot2, resources.GetString("AppOption_EnableHeaderMagicLMSlot2.ToolTip"))
         Me.AppOption_EnableHeaderMagicLMSlot2.UseVisualStyleBackColor = True
         '
         'AppOption_EnableLMSlot2
         '
         resources.ApplyResources(Me.AppOption_EnableLMSlot2, "AppOption_EnableLMSlot2")
         Me.AppOption_EnableLMSlot2.Name = "AppOption_EnableLMSlot2"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_EnableLMSlot2, resources.GetString("AppOption_EnableLMSlot2.ToolTip"))
         Me.AppOption_EnableLMSlot2.UseVisualStyleBackColor = True
         '
         'AppOption_LMslot2_SelectExecutable
@@ -2577,55 +2381,47 @@ Partial Class Frm03_Settings
         Me.AppOption_LMslot2_SelectExecutable.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline
         Me.AppOption_LMslot2_SelectExecutable.Name = "AppOption_LMslot2_SelectExecutable"
         Me.AppOption_LMslot2_SelectExecutable.TabStop = True
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_LMslot2_SelectExecutable, resources.GetString("AppOption_LMslot2_SelectExecutable.ToolTip"))
         '
         'AppOption_LMslot2_Path
         '
         resources.ApplyResources(Me.AppOption_LMslot2_Path, "AppOption_LMslot2_Path")
         Me.AppOption_LMslot2_Path.Name = "AppOption_LMslot2_Path"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_LMslot2_Path, resources.GetString("AppOption_LMslot2_Path.ToolTip"))
         '
         'Text_032
         '
         resources.ApplyResources(Me.Text_032, "Text_032")
         Me.Text_032.Name = "Text_032"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Text_032, resources.GetString("Text_032.ToolTip"))
         '
         'Text_030
         '
         resources.ApplyResources(Me.Text_030, "Text_030")
         Me.Text_030.Name = "Text_030"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Text_030, resources.GetString("Text_030.ToolTip"))
         '
         'AppOption_LMslot2_Name
         '
         resources.ApplyResources(Me.AppOption_LMslot2_Name, "AppOption_LMslot2_Name")
         Me.AppOption_LMslot2_Name.Name = "AppOption_LMslot2_Name"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_LMslot2_Name, resources.GetString("AppOption_LMslot2_Name.ToolTip"))
         '
         'AppOption_LMslot2_Version
         '
         resources.ApplyResources(Me.AppOption_LMslot2_Version, "AppOption_LMslot2_Version")
         Me.AppOption_LMslot2_Version.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.AppOption_LMslot2_Version.FormattingEnabled = True
-        Me.AppOption_LMslot2_Version.Items.AddRange(New Object() {resources.GetString("AppOption_LMslot2_Version.Items"), resources.GetString("AppOption_LMslot2_Version.Items1"), resources.GetString("AppOption_LMslot2_Version.Items2"), resources.GetString("AppOption_LMslot2_Version.Items3"), resources.GetString("AppOption_LMslot2_Version.Items4"), resources.GetString("AppOption_LMslot2_Version.Items5"), resources.GetString("AppOption_LMslot2_Version.Items6"), resources.GetString("AppOption_LMslot2_Version.Items7"), resources.GetString("AppOption_LMslot2_Version.Items8"), resources.GetString("AppOption_LMslot2_Version.Items9"), resources.GetString("AppOption_LMslot2_Version.Items10"), resources.GetString("AppOption_LMslot2_Version.Items11"), resources.GetString("AppOption_LMslot2_Version.Items12"), resources.GetString("AppOption_LMslot2_Version.Items13"), resources.GetString("AppOption_LMslot2_Version.Items14"), resources.GetString("AppOption_LMslot2_Version.Items15"), resources.GetString("AppOption_LMslot2_Version.Items16"), resources.GetString("AppOption_LMslot2_Version.Items17"), resources.GetString("AppOption_LMslot2_Version.Items18"), resources.GetString("AppOption_LMslot2_Version.Items19"), resources.GetString("AppOption_LMslot2_Version.Items20"), resources.GetString("AppOption_LMslot2_Version.Items21"), resources.GetString("AppOption_LMslot2_Version.Items22"), resources.GetString("AppOption_LMslot2_Version.Items23"), resources.GetString("AppOption_LMslot2_Version.Items24"), resources.GetString("AppOption_LMslot2_Version.Items25"), resources.GetString("AppOption_LMslot2_Version.Items26"), resources.GetString("AppOption_LMslot2_Version.Items27"), resources.GetString("AppOption_LMslot2_Version.Items28"), resources.GetString("AppOption_LMslot2_Version.Items29"), resources.GetString("AppOption_LMslot2_Version.Items30"), resources.GetString("AppOption_LMslot2_Version.Items31"), resources.GetString("AppOption_LMslot2_Version.Items32"), resources.GetString("AppOption_LMslot2_Version.Items33"), resources.GetString("AppOption_LMslot2_Version.Items34"), resources.GetString("AppOption_LMslot2_Version.Items35"), resources.GetString("AppOption_LMslot2_Version.Items36"), resources.GetString("AppOption_LMslot2_Version.Items37"), resources.GetString("AppOption_LMslot2_Version.Items38"), resources.GetString("AppOption_LMslot2_Version.Items39"), resources.GetString("AppOption_LMslot2_Version.Items40"), resources.GetString("AppOption_LMslot2_Version.Items41"), resources.GetString("AppOption_LMslot2_Version.Items42"), resources.GetString("AppOption_LMslot2_Version.Items43"), resources.GetString("AppOption_LMslot2_Version.Items44"), resources.GetString("AppOption_LMslot2_Version.Items45"), resources.GetString("AppOption_LMslot2_Version.Items46"), resources.GetString("AppOption_LMslot2_Version.Items47"), resources.GetString("AppOption_LMslot2_Version.Items48"), resources.GetString("AppOption_LMslot2_Version.Items49"), resources.GetString("AppOption_LMslot2_Version.Items50"), resources.GetString("AppOption_LMslot2_Version.Items51"), resources.GetString("AppOption_LMslot2_Version.Items52"), resources.GetString("AppOption_LMslot2_Version.Items53"), resources.GetString("AppOption_LMslot2_Version.Items54"), resources.GetString("AppOption_LMslot2_Version.Items55"), resources.GetString("AppOption_LMslot2_Version.Items56"), resources.GetString("AppOption_LMslot2_Version.Items57"), resources.GetString("AppOption_LMslot2_Version.Items58")})
+        Me.AppOption_LMslot2_Version.Items.AddRange(New Object() {resources.GetString("AppOption_LMslot2_Version.Items"), resources.GetString("AppOption_LMslot2_Version.Items1"), resources.GetString("AppOption_LMslot2_Version.Items2"), resources.GetString("AppOption_LMslot2_Version.Items3"), resources.GetString("AppOption_LMslot2_Version.Items4"), resources.GetString("AppOption_LMslot2_Version.Items5"), resources.GetString("AppOption_LMslot2_Version.Items6"), resources.GetString("AppOption_LMslot2_Version.Items7"), resources.GetString("AppOption_LMslot2_Version.Items8"), resources.GetString("AppOption_LMslot2_Version.Items9"), resources.GetString("AppOption_LMslot2_Version.Items10"), resources.GetString("AppOption_LMslot2_Version.Items11"), resources.GetString("AppOption_LMslot2_Version.Items12"), resources.GetString("AppOption_LMslot2_Version.Items13"), resources.GetString("AppOption_LMslot2_Version.Items14"), resources.GetString("AppOption_LMslot2_Version.Items15"), resources.GetString("AppOption_LMslot2_Version.Items16"), resources.GetString("AppOption_LMslot2_Version.Items17"), resources.GetString("AppOption_LMslot2_Version.Items18"), resources.GetString("AppOption_LMslot2_Version.Items19"), resources.GetString("AppOption_LMslot2_Version.Items20"), resources.GetString("AppOption_LMslot2_Version.Items21"), resources.GetString("AppOption_LMslot2_Version.Items22"), resources.GetString("AppOption_LMslot2_Version.Items23"), resources.GetString("AppOption_LMslot2_Version.Items24"), resources.GetString("AppOption_LMslot2_Version.Items25"), resources.GetString("AppOption_LMslot2_Version.Items26"), resources.GetString("AppOption_LMslot2_Version.Items27"), resources.GetString("AppOption_LMslot2_Version.Items28"), resources.GetString("AppOption_LMslot2_Version.Items29"), resources.GetString("AppOption_LMslot2_Version.Items30"), resources.GetString("AppOption_LMslot2_Version.Items31"), resources.GetString("AppOption_LMslot2_Version.Items32"), resources.GetString("AppOption_LMslot2_Version.Items33"), resources.GetString("AppOption_LMslot2_Version.Items34"), resources.GetString("AppOption_LMslot2_Version.Items35"), resources.GetString("AppOption_LMslot2_Version.Items36"), resources.GetString("AppOption_LMslot2_Version.Items37"), resources.GetString("AppOption_LMslot2_Version.Items38"), resources.GetString("AppOption_LMslot2_Version.Items39"), resources.GetString("AppOption_LMslot2_Version.Items40"), resources.GetString("AppOption_LMslot2_Version.Items41"), resources.GetString("AppOption_LMslot2_Version.Items42"), resources.GetString("AppOption_LMslot2_Version.Items43"), resources.GetString("AppOption_LMslot2_Version.Items44"), resources.GetString("AppOption_LMslot2_Version.Items45"), resources.GetString("AppOption_LMslot2_Version.Items46"), resources.GetString("AppOption_LMslot2_Version.Items47"), resources.GetString("AppOption_LMslot2_Version.Items48"), resources.GetString("AppOption_LMslot2_Version.Items49"), resources.GetString("AppOption_LMslot2_Version.Items50"), resources.GetString("AppOption_LMslot2_Version.Items51"), resources.GetString("AppOption_LMslot2_Version.Items52"), resources.GetString("AppOption_LMslot2_Version.Items53"), resources.GetString("AppOption_LMslot2_Version.Items54"), resources.GetString("AppOption_LMslot2_Version.Items55"), resources.GetString("AppOption_LMslot2_Version.Items56"), resources.GetString("AppOption_LMslot2_Version.Items57"), resources.GetString("AppOption_LMslot2_Version.Items58"), resources.GetString("AppOption_LMslot2_Version.Items59")})
         Me.AppOption_LMslot2_Version.Name = "AppOption_LMslot2_Version"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_LMslot2_Version, resources.GetString("AppOption_LMslot2_Version.ToolTip"))
         '
         'Text_031
         '
         resources.ApplyResources(Me.Text_031, "Text_031")
         Me.Text_031.Name = "Text_031"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Text_031, resources.GetString("Text_031.ToolTip"))
         '
         'UI_Tab06_Tab02_Snes9xBsnes
         '
-        resources.ApplyResources(Me.UI_Tab06_Tab02_Snes9xBsnes, "UI_Tab06_Tab02_Snes9xBsnes")
         Me.UI_Tab06_Tab02_Snes9xBsnes.Controls.Add(Me.UI_Tab06_Cat02_SubCat03)
         Me.UI_Tab06_Tab02_Snes9xBsnes.Controls.Add(Me.UI_Tab06_Cat02_SubCat02)
         Me.UI_Tab06_Tab02_Snes9xBsnes.Controls.Add(Me.UI_Tab06_Cat02_SubCat01)
+        resources.ApplyResources(Me.UI_Tab06_Tab02_Snes9xBsnes, "UI_Tab06_Tab02_Snes9xBsnes")
         Me.UI_Tab06_Tab02_Snes9xBsnes.Name = "UI_Tab06_Tab02_Snes9xBsnes"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab06_Tab02_Snes9xBsnes, resources.GetString("UI_Tab06_Tab02_Snes9xBsnes.ToolTip"))
         Me.UI_Tab06_Tab02_Snes9xBsnes.UseVisualStyleBackColor = True
         '
         'UI_Tab06_Cat02_SubCat03
@@ -2637,7 +2433,6 @@ Partial Class Frm03_Settings
         Me.UI_Tab06_Cat02_SubCat03.Controls.Add(Me.AppOption_BsnesExecutable)
         Me.UI_Tab06_Cat02_SubCat03.Name = "UI_Tab06_Cat02_SubCat03"
         Me.UI_Tab06_Cat02_SubCat03.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab06_Cat02_SubCat03, resources.GetString("UI_Tab06_Cat02_SubCat03.ToolTip"))
         '
         'AppOption_SelectBsnesExecutable
         '
@@ -2645,19 +2440,16 @@ Partial Class Frm03_Settings
         Me.AppOption_SelectBsnesExecutable.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline
         Me.AppOption_SelectBsnesExecutable.Name = "AppOption_SelectBsnesExecutable"
         Me.AppOption_SelectBsnesExecutable.TabStop = True
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_SelectBsnesExecutable, resources.GetString("AppOption_SelectBsnesExecutable.ToolTip"))
         '
         'Text_041
         '
         resources.ApplyResources(Me.Text_041, "Text_041")
         Me.Text_041.Name = "Text_041"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Text_041, resources.GetString("Text_041.ToolTip"))
         '
         'AppOption_BsnesExecutable
         '
         resources.ApplyResources(Me.AppOption_BsnesExecutable, "AppOption_BsnesExecutable")
         Me.AppOption_BsnesExecutable.Name = "AppOption_BsnesExecutable"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_BsnesExecutable, resources.GetString("AppOption_BsnesExecutable.ToolTip"))
         '
         'UI_Tab06_Cat02_SubCat02
         '
@@ -2674,22 +2466,19 @@ Partial Class Frm03_Settings
         Me.UI_Tab06_Cat02_SubCat02.Controls.Add(Me.AppOption_Snes9x_x86Executable)
         Me.UI_Tab06_Cat02_SubCat02.Name = "UI_Tab06_Cat02_SubCat02"
         Me.UI_Tab06_Cat02_SubCat02.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab06_Cat02_SubCat02, resources.GetString("UI_Tab06_Cat02_SubCat02.ToolTip"))
         '
         'Text_040
         '
         resources.ApplyResources(Me.Text_040, "Text_040")
         Me.Text_040.Name = "Text_040"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Text_040, resources.GetString("Text_040.ToolTip"))
         '
         'AppOption_Snes9x_SelectedArch
         '
-        resources.ApplyResources(Me.AppOption_Snes9x_SelectedArch, "AppOption_Snes9x_SelectedArch")
         Me.AppOption_Snes9x_SelectedArch.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.AppOption_Snes9x_SelectedArch.FormattingEnabled = True
         Me.AppOption_Snes9x_SelectedArch.Items.AddRange(New Object() {resources.GetString("AppOption_Snes9x_SelectedArch.Items"), resources.GetString("AppOption_Snes9x_SelectedArch.Items1")})
+        resources.ApplyResources(Me.AppOption_Snes9x_SelectedArch, "AppOption_Snes9x_SelectedArch")
         Me.AppOption_Snes9x_SelectedArch.Name = "AppOption_Snes9x_SelectedArch"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_Snes9x_SelectedArch, resources.GetString("AppOption_Snes9x_SelectedArch.ToolTip"))
         '
         'AppOption_Snes9x_Selectx64Executable
         '
@@ -2697,7 +2486,6 @@ Partial Class Frm03_Settings
         Me.AppOption_Snes9x_Selectx64Executable.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline
         Me.AppOption_Snes9x_Selectx64Executable.Name = "AppOption_Snes9x_Selectx64Executable"
         Me.AppOption_Snes9x_Selectx64Executable.TabStop = True
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_Snes9x_Selectx64Executable, resources.GetString("AppOption_Snes9x_Selectx64Executable.ToolTip"))
         '
         'AppOption_Snes9x_Selectx86Executable
         '
@@ -2705,38 +2493,32 @@ Partial Class Frm03_Settings
         Me.AppOption_Snes9x_Selectx86Executable.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline
         Me.AppOption_Snes9x_Selectx86Executable.Name = "AppOption_Snes9x_Selectx86Executable"
         Me.AppOption_Snes9x_Selectx86Executable.TabStop = True
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_Snes9x_Selectx86Executable, resources.GetString("AppOption_Snes9x_Selectx86Executable.ToolTip"))
         '
         'Text_039
         '
         resources.ApplyResources(Me.Text_039, "Text_039")
         Me.Text_039.Name = "Text_039"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Text_039, resources.GetString("Text_039.ToolTip"))
         '
         'AppOption_Snes9x_UseColoredIcon
         '
         resources.ApplyResources(Me.AppOption_Snes9x_UseColoredIcon, "AppOption_Snes9x_UseColoredIcon")
         Me.AppOption_Snes9x_UseColoredIcon.Name = "AppOption_Snes9x_UseColoredIcon"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_Snes9x_UseColoredIcon, resources.GetString("AppOption_Snes9x_UseColoredIcon.ToolTip"))
         Me.AppOption_Snes9x_UseColoredIcon.UseVisualStyleBackColor = True
         '
         'AppOption_Snes9x_x64Executable
         '
         resources.ApplyResources(Me.AppOption_Snes9x_x64Executable, "AppOption_Snes9x_x64Executable")
         Me.AppOption_Snes9x_x64Executable.Name = "AppOption_Snes9x_x64Executable"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_Snes9x_x64Executable, resources.GetString("AppOption_Snes9x_x64Executable.ToolTip"))
         '
         'Text_038
         '
         resources.ApplyResources(Me.Text_038, "Text_038")
         Me.Text_038.Name = "Text_038"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Text_038, resources.GetString("Text_038.ToolTip"))
         '
         'AppOption_Snes9x_x86Executable
         '
         resources.ApplyResources(Me.AppOption_Snes9x_x86Executable, "AppOption_Snes9x_x86Executable")
         Me.AppOption_Snes9x_x86Executable.Name = "AppOption_Snes9x_x86Executable"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_Snes9x_x86Executable, resources.GetString("AppOption_Snes9x_x86Executable.ToolTip"))
         '
         'UI_Tab06_Cat02_SubCat01
         '
@@ -2746,26 +2528,22 @@ Partial Class Frm03_Settings
         Me.UI_Tab06_Cat02_SubCat01.Controls.Add(Me.AppOption_SnesEmuSelector)
         Me.UI_Tab06_Cat02_SubCat01.Name = "UI_Tab06_Cat02_SubCat01"
         Me.UI_Tab06_Cat02_SubCat01.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab06_Cat02_SubCat01, resources.GetString("UI_Tab06_Cat02_SubCat01.ToolTip"))
         '
         'Text_037
         '
         resources.ApplyResources(Me.Text_037, "Text_037")
         Me.Text_037.Name = "Text_037"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Text_037, resources.GetString("Text_037.ToolTip"))
         '
         'AppOption_SnesEmuSelector
         '
-        resources.ApplyResources(Me.AppOption_SnesEmuSelector, "AppOption_SnesEmuSelector")
         Me.AppOption_SnesEmuSelector.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.AppOption_SnesEmuSelector.FormattingEnabled = True
         Me.AppOption_SnesEmuSelector.Items.AddRange(New Object() {resources.GetString("AppOption_SnesEmuSelector.Items"), resources.GetString("AppOption_SnesEmuSelector.Items1"), resources.GetString("AppOption_SnesEmuSelector.Items2")})
+        resources.ApplyResources(Me.AppOption_SnesEmuSelector, "AppOption_SnesEmuSelector")
         Me.AppOption_SnesEmuSelector.Name = "AppOption_SnesEmuSelector"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_SnesEmuSelector, resources.GetString("AppOption_SnesEmuSelector.ToolTip"))
         '
         'UI_Tab06_Tab03_SmallHackerTools
         '
-        resources.ApplyResources(Me.UI_Tab06_Tab03_SmallHackerTools, "UI_Tab06_Tab03_SmallHackerTools")
         Me.UI_Tab06_Tab03_SmallHackerTools.Controls.Add(Me.UI_Tab06_Cat03_SubCat04)
         Me.UI_Tab06_Tab03_SmallHackerTools.Controls.Add(Me.UI_Tab06_Cat03_SubCat01)
         Me.UI_Tab06_Tab03_SmallHackerTools.Controls.Add(Me.UI_Tab06_Cat03_SubCat10)
@@ -2774,8 +2552,8 @@ Partial Class Frm03_Settings
         Me.UI_Tab06_Tab03_SmallHackerTools.Controls.Add(Me.UI_Tab06_Cat03_SubCat03)
         Me.UI_Tab06_Tab03_SmallHackerTools.Controls.Add(Me.UI_Tab06_Cat03_SubCat07)
         Me.UI_Tab06_Tab03_SmallHackerTools.Controls.Add(Me.UI_Tab06_Cat03_SubCat02)
+        resources.ApplyResources(Me.UI_Tab06_Tab03_SmallHackerTools, "UI_Tab06_Tab03_SmallHackerTools")
         Me.UI_Tab06_Tab03_SmallHackerTools.Name = "UI_Tab06_Tab03_SmallHackerTools"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab06_Tab03_SmallHackerTools, resources.GetString("UI_Tab06_Tab03_SmallHackerTools.ToolTip"))
         Me.UI_Tab06_Tab03_SmallHackerTools.UseVisualStyleBackColor = True
         '
         'UI_Tab06_Cat03_SubCat04
@@ -2786,7 +2564,6 @@ Partial Class Frm03_Settings
         Me.UI_Tab06_Cat03_SubCat04.Controls.Add(Me.UI_Tab06_Cat03_SubCat06)
         Me.UI_Tab06_Cat03_SubCat04.Name = "UI_Tab06_Cat03_SubCat04"
         Me.UI_Tab06_Cat03_SubCat04.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab06_Cat03_SubCat04, resources.GetString("UI_Tab06_Cat03_SubCat04.ToolTip"))
         '
         'UI_Tab06_Cat03_SubCat05
         '
@@ -2797,7 +2574,6 @@ Partial Class Frm03_Settings
         Me.UI_Tab06_Cat03_SubCat05.Controls.Add(Me.AppOption_SMWENI_Path)
         Me.UI_Tab06_Cat03_SubCat05.Name = "UI_Tab06_Cat03_SubCat05"
         Me.UI_Tab06_Cat03_SubCat05.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab06_Cat03_SubCat05, resources.GetString("UI_Tab06_Cat03_SubCat05.ToolTip"))
         '
         'AppOption_SMWENI_SelectPath
         '
@@ -2805,19 +2581,16 @@ Partial Class Frm03_Settings
         Me.AppOption_SMWENI_SelectPath.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline
         Me.AppOption_SMWENI_SelectPath.Name = "AppOption_SMWENI_SelectPath"
         Me.AppOption_SMWENI_SelectPath.TabStop = True
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_SMWENI_SelectPath, resources.GetString("AppOption_SMWENI_SelectPath.ToolTip"))
         '
         'Text_045
         '
         resources.ApplyResources(Me.Text_045, "Text_045")
         Me.Text_045.Name = "Text_045"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Text_045, resources.GetString("Text_045.ToolTip"))
         '
         'AppOption_SMWENI_Path
         '
         resources.ApplyResources(Me.AppOption_SMWENI_Path, "AppOption_SMWENI_Path")
         Me.AppOption_SMWENI_Path.Name = "AppOption_SMWENI_Path"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_SMWENI_Path, resources.GetString("AppOption_SMWENI_Path.ToolTip"))
         '
         'UI_Tab06_Cat03_SubCat06
         '
@@ -2828,7 +2601,6 @@ Partial Class Frm03_Settings
         Me.UI_Tab06_Cat03_SubCat06.Controls.Add(Me.AppOption_SMWENE_Path)
         Me.UI_Tab06_Cat03_SubCat06.Name = "UI_Tab06_Cat03_SubCat06"
         Me.UI_Tab06_Cat03_SubCat06.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab06_Cat03_SubCat06, resources.GetString("UI_Tab06_Cat03_SubCat06.ToolTip"))
         '
         'AppOption_SMWENE_SelectPath
         '
@@ -2836,19 +2608,16 @@ Partial Class Frm03_Settings
         Me.AppOption_SMWENE_SelectPath.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline
         Me.AppOption_SMWENE_SelectPath.Name = "AppOption_SMWENE_SelectPath"
         Me.AppOption_SMWENE_SelectPath.TabStop = True
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_SMWENE_SelectPath, resources.GetString("AppOption_SMWENE_SelectPath.ToolTip"))
         '
         'Text_046
         '
         resources.ApplyResources(Me.Text_046, "Text_046")
         Me.Text_046.Name = "Text_046"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Text_046, resources.GetString("Text_046.ToolTip"))
         '
         'AppOption_SMWENE_Path
         '
         resources.ApplyResources(Me.AppOption_SMWENE_Path, "AppOption_SMWENE_Path")
         Me.AppOption_SMWENE_Path.Name = "AppOption_SMWENE_Path"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_SMWENE_Path, resources.GetString("AppOption_SMWENE_Path.ToolTip"))
         '
         'UI_Tab06_Cat03_SubCat01
         '
@@ -2865,13 +2634,11 @@ Partial Class Frm03_Settings
         Me.UI_Tab06_Cat03_SubCat01.Controls.Add(Me.AppOption_DisplayBtn_ILBPE)
         Me.UI_Tab06_Cat03_SubCat01.Name = "UI_Tab06_Cat03_SubCat01"
         Me.UI_Tab06_Cat03_SubCat01.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab06_Cat03_SubCat01, resources.GetString("UI_Tab06_Cat03_SubCat01.ToolTip"))
         '
         'Text_042
         '
         resources.ApplyResources(Me.Text_042, "Text_042")
         Me.Text_042.Name = "Text_042"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Text_042, resources.GetString("Text_042.ToolTip"))
         '
         'AppOption_DisplayBtn_SMWTYMI
         '
@@ -2946,7 +2713,6 @@ Partial Class Frm03_Settings
         Me.UI_Tab06_Cat03_SubCat10.Controls.Add(Me.AppOption_SMWTYMI_Path)
         Me.UI_Tab06_Cat03_SubCat10.Name = "UI_Tab06_Cat03_SubCat10"
         Me.UI_Tab06_Cat03_SubCat10.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab06_Cat03_SubCat10, resources.GetString("UI_Tab06_Cat03_SubCat10.ToolTip"))
         '
         'AppOption_SMWTYMI_SelectPath
         '
@@ -2954,19 +2720,16 @@ Partial Class Frm03_Settings
         Me.AppOption_SMWTYMI_SelectPath.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline
         Me.AppOption_SMWTYMI_SelectPath.Name = "AppOption_SMWTYMI_SelectPath"
         Me.AppOption_SMWTYMI_SelectPath.TabStop = True
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_SMWTYMI_SelectPath, resources.GetString("AppOption_SMWTYMI_SelectPath.ToolTip"))
         '
         'Text_050
         '
         resources.ApplyResources(Me.Text_050, "Text_050")
         Me.Text_050.Name = "Text_050"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Text_050, resources.GetString("Text_050.ToolTip"))
         '
         'AppOption_SMWTYMI_Path
         '
         resources.ApplyResources(Me.AppOption_SMWTYMI_Path, "AppOption_SMWTYMI_Path")
         Me.AppOption_SMWTYMI_Path.Name = "AppOption_SMWTYMI_Path"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_SMWTYMI_Path, resources.GetString("AppOption_SMWTYMI_Path.ToolTip"))
         '
         'UI_Tab06_Cat03_SubCat09
         '
@@ -2977,7 +2740,6 @@ Partial Class Frm03_Settings
         Me.UI_Tab06_Cat03_SubCat09.Controls.Add(Me.AppOption_SMWSBE_Path)
         Me.UI_Tab06_Cat03_SubCat09.Name = "UI_Tab06_Cat03_SubCat09"
         Me.UI_Tab06_Cat03_SubCat09.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab06_Cat03_SubCat09, resources.GetString("UI_Tab06_Cat03_SubCat09.ToolTip"))
         '
         'AppOption_SMWSBE_SelectPath
         '
@@ -2985,19 +2747,16 @@ Partial Class Frm03_Settings
         Me.AppOption_SMWSBE_SelectPath.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline
         Me.AppOption_SMWSBE_SelectPath.Name = "AppOption_SMWSBE_SelectPath"
         Me.AppOption_SMWSBE_SelectPath.TabStop = True
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_SMWSBE_SelectPath, resources.GetString("AppOption_SMWSBE_SelectPath.ToolTip"))
         '
         'Text_049
         '
         resources.ApplyResources(Me.Text_049, "Text_049")
         Me.Text_049.Name = "Text_049"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Text_049, resources.GetString("Text_049.ToolTip"))
         '
         'AppOption_SMWSBE_Path
         '
         resources.ApplyResources(Me.AppOption_SMWSBE_Path, "AppOption_SMWSBE_Path")
         Me.AppOption_SMWSBE_Path.Name = "AppOption_SMWSBE_Path"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_SMWSBE_Path, resources.GetString("AppOption_SMWSBE_Path.ToolTip"))
         '
         'UI_Tab06_Cat03_SubCat08
         '
@@ -3008,7 +2767,6 @@ Partial Class Frm03_Settings
         Me.UI_Tab06_Cat03_SubCat08.Controls.Add(Me.AppOption_SMWPTE_Path)
         Me.UI_Tab06_Cat03_SubCat08.Name = "UI_Tab06_Cat03_SubCat08"
         Me.UI_Tab06_Cat03_SubCat08.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab06_Cat03_SubCat08, resources.GetString("UI_Tab06_Cat03_SubCat08.ToolTip"))
         '
         'AppOption_SMWPTE_SelectPath
         '
@@ -3016,19 +2774,16 @@ Partial Class Frm03_Settings
         Me.AppOption_SMWPTE_SelectPath.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline
         Me.AppOption_SMWPTE_SelectPath.Name = "AppOption_SMWPTE_SelectPath"
         Me.AppOption_SMWPTE_SelectPath.TabStop = True
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_SMWPTE_SelectPath, resources.GetString("AppOption_SMWPTE_SelectPath.ToolTip"))
         '
         'Text_048
         '
         resources.ApplyResources(Me.Text_048, "Text_048")
         Me.Text_048.Name = "Text_048"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Text_048, resources.GetString("Text_048.ToolTip"))
         '
         'AppOption_SMWPTE_Path
         '
         resources.ApplyResources(Me.AppOption_SMWPTE_Path, "AppOption_SMWPTE_Path")
         Me.AppOption_SMWPTE_Path.Name = "AppOption_SMWPTE_Path"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_SMWPTE_Path, resources.GetString("AppOption_SMWPTE_Path.ToolTip"))
         '
         'UI_Tab06_Cat03_SubCat03
         '
@@ -3039,7 +2794,6 @@ Partial Class Frm03_Settings
         Me.UI_Tab06_Cat03_SubCat03.Controls.Add(Me.AppOption_SMWBBPE_Path)
         Me.UI_Tab06_Cat03_SubCat03.Name = "UI_Tab06_Cat03_SubCat03"
         Me.UI_Tab06_Cat03_SubCat03.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab06_Cat03_SubCat03, resources.GetString("UI_Tab06_Cat03_SubCat03.ToolTip"))
         '
         'AppOption_SMWBBPE_SelectPath
         '
@@ -3047,19 +2801,16 @@ Partial Class Frm03_Settings
         Me.AppOption_SMWBBPE_SelectPath.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline
         Me.AppOption_SMWBBPE_SelectPath.Name = "AppOption_SMWBBPE_SelectPath"
         Me.AppOption_SMWBBPE_SelectPath.TabStop = True
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_SMWBBPE_SelectPath, resources.GetString("AppOption_SMWBBPE_SelectPath.ToolTip"))
         '
         'Text_044
         '
         resources.ApplyResources(Me.Text_044, "Text_044")
         Me.Text_044.Name = "Text_044"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Text_044, resources.GetString("Text_044.ToolTip"))
         '
         'AppOption_SMWBBPE_Path
         '
         resources.ApplyResources(Me.AppOption_SMWBBPE_Path, "AppOption_SMWBBPE_Path")
         Me.AppOption_SMWBBPE_Path.Name = "AppOption_SMWBBPE_Path"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_SMWBBPE_Path, resources.GetString("AppOption_SMWBBPE_Path.ToolTip"))
         '
         'UI_Tab06_Cat03_SubCat07
         '
@@ -3070,7 +2821,6 @@ Partial Class Frm03_Settings
         Me.UI_Tab06_Cat03_SubCat07.Controls.Add(Me.AppOption_SMWMTE_Path)
         Me.UI_Tab06_Cat03_SubCat07.Name = "UI_Tab06_Cat03_SubCat07"
         Me.UI_Tab06_Cat03_SubCat07.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab06_Cat03_SubCat07, resources.GetString("UI_Tab06_Cat03_SubCat07.ToolTip"))
         '
         'AppOption_SMWMTE_SelectPath
         '
@@ -3078,19 +2828,16 @@ Partial Class Frm03_Settings
         Me.AppOption_SMWMTE_SelectPath.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline
         Me.AppOption_SMWMTE_SelectPath.Name = "AppOption_SMWMTE_SelectPath"
         Me.AppOption_SMWMTE_SelectPath.TabStop = True
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_SMWMTE_SelectPath, resources.GetString("AppOption_SMWMTE_SelectPath.ToolTip"))
         '
         'Text_047
         '
         resources.ApplyResources(Me.Text_047, "Text_047")
         Me.Text_047.Name = "Text_047"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Text_047, resources.GetString("Text_047.ToolTip"))
         '
         'AppOption_SMWMTE_Path
         '
         resources.ApplyResources(Me.AppOption_SMWMTE_Path, "AppOption_SMWMTE_Path")
         Me.AppOption_SMWMTE_Path.Name = "AppOption_SMWMTE_Path"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_SMWMTE_Path, resources.GetString("AppOption_SMWMTE_Path.ToolTip"))
         '
         'UI_Tab06_Cat03_SubCat02
         '
@@ -3101,7 +2848,6 @@ Partial Class Frm03_Settings
         Me.UI_Tab06_Cat03_SubCat02.Controls.Add(Me.AppOption_ILBPE_Path)
         Me.UI_Tab06_Cat03_SubCat02.Name = "UI_Tab06_Cat03_SubCat02"
         Me.UI_Tab06_Cat03_SubCat02.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab06_Cat03_SubCat02, resources.GetString("UI_Tab06_Cat03_SubCat02.ToolTip"))
         '
         'AppOption_ILBPE_SelectPath
         '
@@ -3109,23 +2855,19 @@ Partial Class Frm03_Settings
         Me.AppOption_ILBPE_SelectPath.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline
         Me.AppOption_ILBPE_SelectPath.Name = "AppOption_ILBPE_SelectPath"
         Me.AppOption_ILBPE_SelectPath.TabStop = True
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_ILBPE_SelectPath, resources.GetString("AppOption_ILBPE_SelectPath.ToolTip"))
         '
         'Text_043
         '
         resources.ApplyResources(Me.Text_043, "Text_043")
         Me.Text_043.Name = "Text_043"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Text_043, resources.GetString("Text_043.ToolTip"))
         '
         'AppOption_ILBPE_Path
         '
         resources.ApplyResources(Me.AppOption_ILBPE_Path, "AppOption_ILBPE_Path")
         Me.AppOption_ILBPE_Path.Name = "AppOption_ILBPE_Path"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_ILBPE_Path, resources.GetString("AppOption_ILBPE_Path.ToolTip"))
         '
         'UI_Tab06_Tab04_OtherApps1
         '
-        resources.ApplyResources(Me.UI_Tab06_Tab04_OtherApps1, "UI_Tab06_Tab04_OtherApps1")
         Me.UI_Tab06_Tab04_OtherApps1.Controls.Add(Me.UI_Tab06_Cat04_SubCat10)
         Me.UI_Tab06_Tab04_OtherApps1.Controls.Add(Me.UI_Tab06_Cat04_SubCat09)
         Me.UI_Tab06_Tab04_OtherApps1.Controls.Add(Me.UI_Tab06_Cat04_SubCat08)
@@ -3136,8 +2878,8 @@ Partial Class Frm03_Settings
         Me.UI_Tab06_Tab04_OtherApps1.Controls.Add(Me.UI_Tab06_Cat04_SubCat03)
         Me.UI_Tab06_Tab04_OtherApps1.Controls.Add(Me.UI_Tab06_Cat04_SubCat02)
         Me.UI_Tab06_Tab04_OtherApps1.Controls.Add(Me.UI_Tab06_Cat04_SubCat01)
+        resources.ApplyResources(Me.UI_Tab06_Tab04_OtherApps1, "UI_Tab06_Tab04_OtherApps1")
         Me.UI_Tab06_Tab04_OtherApps1.Name = "UI_Tab06_Tab04_OtherApps1"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab06_Tab04_OtherApps1, resources.GetString("UI_Tab06_Tab04_OtherApps1.ToolTip"))
         Me.UI_Tab06_Tab04_OtherApps1.UseVisualStyleBackColor = True
         '
         'UI_Tab06_Cat04_SubCat10
@@ -3149,7 +2891,6 @@ Partial Class Frm03_Settings
         Me.UI_Tab06_Cat04_SubCat10.Controls.Add(Me.AppOption_BRRPlayer_Path)
         Me.UI_Tab06_Cat04_SubCat10.Name = "UI_Tab06_Cat04_SubCat10"
         Me.UI_Tab06_Cat04_SubCat10.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab06_Cat04_SubCat10, resources.GetString("UI_Tab06_Cat04_SubCat10.ToolTip"))
         '
         'AppOption_BRRPlayer_SelectPath
         '
@@ -3157,19 +2898,16 @@ Partial Class Frm03_Settings
         Me.AppOption_BRRPlayer_SelectPath.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline
         Me.AppOption_BRRPlayer_SelectPath.Name = "AppOption_BRRPlayer_SelectPath"
         Me.AppOption_BRRPlayer_SelectPath.TabStop = True
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_BRRPlayer_SelectPath, resources.GetString("AppOption_BRRPlayer_SelectPath.ToolTip"))
         '
         'Text_061
         '
         resources.ApplyResources(Me.Text_061, "Text_061")
         Me.Text_061.Name = "Text_061"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Text_061, resources.GetString("Text_061.ToolTip"))
         '
         'AppOption_BRRPlayer_Path
         '
         resources.ApplyResources(Me.AppOption_BRRPlayer_Path, "AppOption_BRRPlayer_Path")
         Me.AppOption_BRRPlayer_Path.Name = "AppOption_BRRPlayer_Path"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_BRRPlayer_Path, resources.GetString("AppOption_BRRPlayer_Path.ToolTip"))
         '
         'UI_Tab06_Cat04_SubCat09
         '
@@ -3180,7 +2918,6 @@ Partial Class Frm03_Settings
         Me.UI_Tab06_Cat04_SubCat09.Controls.Add(Me.AppOption_LvMusUtil_Path)
         Me.UI_Tab06_Cat04_SubCat09.Name = "UI_Tab06_Cat04_SubCat09"
         Me.UI_Tab06_Cat04_SubCat09.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab06_Cat04_SubCat09, resources.GetString("UI_Tab06_Cat04_SubCat09.ToolTip"))
         '
         'AppOption_LvMusUtil_SelectPath
         '
@@ -3188,19 +2925,16 @@ Partial Class Frm03_Settings
         Me.AppOption_LvMusUtil_SelectPath.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline
         Me.AppOption_LvMusUtil_SelectPath.Name = "AppOption_LvMusUtil_SelectPath"
         Me.AppOption_LvMusUtil_SelectPath.TabStop = True
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_LvMusUtil_SelectPath, resources.GetString("AppOption_LvMusUtil_SelectPath.ToolTip"))
         '
         'Text_060
         '
         resources.ApplyResources(Me.Text_060, "Text_060")
         Me.Text_060.Name = "Text_060"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Text_060, resources.GetString("Text_060.ToolTip"))
         '
         'AppOption_LvMusUtil_Path
         '
         resources.ApplyResources(Me.AppOption_LvMusUtil_Path, "AppOption_LvMusUtil_Path")
         Me.AppOption_LvMusUtil_Path.Name = "AppOption_LvMusUtil_Path"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_LvMusUtil_Path, resources.GetString("AppOption_LvMusUtil_Path.ToolTip"))
         '
         'UI_Tab06_Cat04_SubCat08
         '
@@ -3214,7 +2948,6 @@ Partial Class Frm03_Settings
         Me.UI_Tab06_Cat04_SubCat08.Controls.Add(Me.AppOption_AMK_CMD_Path)
         Me.UI_Tab06_Cat04_SubCat08.Name = "UI_Tab06_Cat04_SubCat08"
         Me.UI_Tab06_Cat04_SubCat08.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab06_Cat04_SubCat08, resources.GetString("UI_Tab06_Cat04_SubCat08.ToolTip"))
         '
         'AppOption_AMK_GUI_SelectPath
         '
@@ -3222,19 +2955,16 @@ Partial Class Frm03_Settings
         Me.AppOption_AMK_GUI_SelectPath.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline
         Me.AppOption_AMK_GUI_SelectPath.Name = "AppOption_AMK_GUI_SelectPath"
         Me.AppOption_AMK_GUI_SelectPath.TabStop = True
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_AMK_GUI_SelectPath, resources.GetString("AppOption_AMK_GUI_SelectPath.ToolTip"))
         '
         'Text_059
         '
         resources.ApplyResources(Me.Text_059, "Text_059")
         Me.Text_059.Name = "Text_059"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Text_059, resources.GetString("Text_059.ToolTip"))
         '
         'AppOption_AMK_GUI_Path
         '
         resources.ApplyResources(Me.AppOption_AMK_GUI_Path, "AppOption_AMK_GUI_Path")
         Me.AppOption_AMK_GUI_Path.Name = "AppOption_AMK_GUI_Path"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_AMK_GUI_Path, resources.GetString("AppOption_AMK_GUI_Path.ToolTip"))
         '
         'AppOption_AMK_CMD_SelectPath
         '
@@ -3242,19 +2972,16 @@ Partial Class Frm03_Settings
         Me.AppOption_AMK_CMD_SelectPath.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline
         Me.AppOption_AMK_CMD_SelectPath.Name = "AppOption_AMK_CMD_SelectPath"
         Me.AppOption_AMK_CMD_SelectPath.TabStop = True
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_AMK_CMD_SelectPath, resources.GetString("AppOption_AMK_CMD_SelectPath.ToolTip"))
         '
         'Text_058
         '
         resources.ApplyResources(Me.Text_058, "Text_058")
         Me.Text_058.Name = "Text_058"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Text_058, resources.GetString("Text_058.ToolTip"))
         '
         'AppOption_AMK_CMD_Path
         '
         resources.ApplyResources(Me.AppOption_AMK_CMD_Path, "AppOption_AMK_CMD_Path")
         Me.AppOption_AMK_CMD_Path.Name = "AppOption_AMK_CMD_Path"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_AMK_CMD_Path, resources.GetString("AppOption_AMK_CMD_Path.ToolTip"))
         '
         'UI_Tab06_Cat04_SubCat07
         '
@@ -3265,7 +2992,6 @@ Partial Class Frm03_Settings
         Me.UI_Tab06_Cat04_SubCat07.Controls.Add(Me.AppOption_MMLEdit_Path)
         Me.UI_Tab06_Cat04_SubCat07.Name = "UI_Tab06_Cat04_SubCat07"
         Me.UI_Tab06_Cat04_SubCat07.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab06_Cat04_SubCat07, resources.GetString("UI_Tab06_Cat04_SubCat07.ToolTip"))
         '
         'AppOption_MMLEdit_SelectPath
         '
@@ -3273,19 +2999,16 @@ Partial Class Frm03_Settings
         Me.AppOption_MMLEdit_SelectPath.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline
         Me.AppOption_MMLEdit_SelectPath.Name = "AppOption_MMLEdit_SelectPath"
         Me.AppOption_MMLEdit_SelectPath.TabStop = True
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_MMLEdit_SelectPath, resources.GetString("AppOption_MMLEdit_SelectPath.ToolTip"))
         '
         'Text_057
         '
         resources.ApplyResources(Me.Text_057, "Text_057")
         Me.Text_057.Name = "Text_057"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Text_057, resources.GetString("Text_057.ToolTip"))
         '
         'AppOption_MMLEdit_Path
         '
         resources.ApplyResources(Me.AppOption_MMLEdit_Path, "AppOption_MMLEdit_Path")
         Me.AppOption_MMLEdit_Path.Name = "AppOption_MMLEdit_Path"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_MMLEdit_Path, resources.GetString("AppOption_MMLEdit_Path.ToolTip"))
         '
         'UI_Tab06_Cat04_SubCat06
         '
@@ -3296,7 +3019,6 @@ Partial Class Frm03_Settings
         Me.UI_Tab06_Cat04_SubCat06.Controls.Add(Me.AppOption_HdmaGR_Path)
         Me.UI_Tab06_Cat04_SubCat06.Name = "UI_Tab06_Cat04_SubCat06"
         Me.UI_Tab06_Cat04_SubCat06.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab06_Cat04_SubCat06, resources.GetString("UI_Tab06_Cat04_SubCat06.ToolTip"))
         '
         'AppOption_HdmaGR_SelectPath
         '
@@ -3304,19 +3026,16 @@ Partial Class Frm03_Settings
         Me.AppOption_HdmaGR_SelectPath.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline
         Me.AppOption_HdmaGR_SelectPath.Name = "AppOption_HdmaGR_SelectPath"
         Me.AppOption_HdmaGR_SelectPath.TabStop = True
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_HdmaGR_SelectPath, resources.GetString("AppOption_HdmaGR_SelectPath.ToolTip"))
         '
         'Text_056
         '
         resources.ApplyResources(Me.Text_056, "Text_056")
         Me.Text_056.Name = "Text_056"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Text_056, resources.GetString("Text_056.ToolTip"))
         '
         'AppOption_HdmaGR_Path
         '
         resources.ApplyResources(Me.AppOption_HdmaGR_Path, "AppOption_HdmaGR_Path")
         Me.AppOption_HdmaGR_Path.Name = "AppOption_HdmaGR_Path"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_HdmaGR_Path, resources.GetString("AppOption_HdmaGR_Path.ToolTip"))
         '
         'UI_Tab06_Cat04_SubCat05
         '
@@ -3327,7 +3046,6 @@ Partial Class Frm03_Settings
         Me.UI_Tab06_Cat04_SubCat05.Controls.Add(Me.AppOption_HeAdder_Path)
         Me.UI_Tab06_Cat04_SubCat05.Name = "UI_Tab06_Cat04_SubCat05"
         Me.UI_Tab06_Cat04_SubCat05.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab06_Cat04_SubCat05, resources.GetString("UI_Tab06_Cat04_SubCat05.ToolTip"))
         '
         'AppOption_HeAdder_SelectPath
         '
@@ -3335,19 +3053,16 @@ Partial Class Frm03_Settings
         Me.AppOption_HeAdder_SelectPath.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline
         Me.AppOption_HeAdder_SelectPath.Name = "AppOption_HeAdder_SelectPath"
         Me.AppOption_HeAdder_SelectPath.TabStop = True
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_HeAdder_SelectPath, resources.GetString("AppOption_HeAdder_SelectPath.ToolTip"))
         '
         'Text_055
         '
         resources.ApplyResources(Me.Text_055, "Text_055")
         Me.Text_055.Name = "Text_055"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Text_055, resources.GetString("Text_055.ToolTip"))
         '
         'AppOption_HeAdder_Path
         '
         resources.ApplyResources(Me.AppOption_HeAdder_Path, "AppOption_HeAdder_Path")
         Me.AppOption_HeAdder_Path.Name = "AppOption_HeAdder_Path"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_HeAdder_Path, resources.GetString("AppOption_HeAdder_Path.ToolTip"))
         '
         'UI_Tab06_Cat04_SubCat04
         '
@@ -3358,7 +3073,6 @@ Partial Class Frm03_Settings
         Me.UI_Tab06_Cat04_SubCat04.Controls.Add(Me.AppOption_MarioLuigiLPE_Path)
         Me.UI_Tab06_Cat04_SubCat04.Name = "UI_Tab06_Cat04_SubCat04"
         Me.UI_Tab06_Cat04_SubCat04.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab06_Cat04_SubCat04, resources.GetString("UI_Tab06_Cat04_SubCat04.ToolTip"))
         '
         'AppOption_MarioLuigiLPE_SelectPath
         '
@@ -3366,19 +3080,16 @@ Partial Class Frm03_Settings
         Me.AppOption_MarioLuigiLPE_SelectPath.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline
         Me.AppOption_MarioLuigiLPE_SelectPath.Name = "AppOption_MarioLuigiLPE_SelectPath"
         Me.AppOption_MarioLuigiLPE_SelectPath.TabStop = True
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_MarioLuigiLPE_SelectPath, resources.GetString("AppOption_MarioLuigiLPE_SelectPath.ToolTip"))
         '
         'Text_054
         '
         resources.ApplyResources(Me.Text_054, "Text_054")
         Me.Text_054.Name = "Text_054"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Text_054, resources.GetString("Text_054.ToolTip"))
         '
         'AppOption_MarioLuigiLPE_Path
         '
         resources.ApplyResources(Me.AppOption_MarioLuigiLPE_Path, "AppOption_MarioLuigiLPE_Path")
         Me.AppOption_MarioLuigiLPE_Path.Name = "AppOption_MarioLuigiLPE_Path"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_MarioLuigiLPE_Path, resources.GetString("AppOption_MarioLuigiLPE_Path.ToolTip"))
         '
         'UI_Tab06_Cat04_SubCat03
         '
@@ -3389,7 +3100,6 @@ Partial Class Frm03_Settings
         Me.UI_Tab06_Cat04_SubCat03.Controls.Add(Me.AppOption_SnesGFX_Path)
         Me.UI_Tab06_Cat04_SubCat03.Name = "UI_Tab06_Cat04_SubCat03"
         Me.UI_Tab06_Cat04_SubCat03.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab06_Cat04_SubCat03, resources.GetString("UI_Tab06_Cat04_SubCat03.ToolTip"))
         '
         'AppOption_SnesGFX_SelectPath
         '
@@ -3397,19 +3107,16 @@ Partial Class Frm03_Settings
         Me.AppOption_SnesGFX_SelectPath.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline
         Me.AppOption_SnesGFX_SelectPath.Name = "AppOption_SnesGFX_SelectPath"
         Me.AppOption_SnesGFX_SelectPath.TabStop = True
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_SnesGFX_SelectPath, resources.GetString("AppOption_SnesGFX_SelectPath.ToolTip"))
         '
         'Text_053
         '
         resources.ApplyResources(Me.Text_053, "Text_053")
         Me.Text_053.Name = "Text_053"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Text_053, resources.GetString("Text_053.ToolTip"))
         '
         'AppOption_SnesGFX_Path
         '
         resources.ApplyResources(Me.AppOption_SnesGFX_Path, "AppOption_SnesGFX_Path")
         Me.AppOption_SnesGFX_Path.Name = "AppOption_SnesGFX_Path"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_SnesGFX_Path, resources.GetString("AppOption_SnesGFX_Path.ToolTip"))
         '
         'UI_Tab06_Cat04_SubCat02
         '
@@ -3420,7 +3127,6 @@ Partial Class Frm03_Settings
         Me.UI_Tab06_Cat04_SubCat02.Controls.Add(Me.AppOption_RecoverLM_Path)
         Me.UI_Tab06_Cat04_SubCat02.Name = "UI_Tab06_Cat04_SubCat02"
         Me.UI_Tab06_Cat04_SubCat02.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab06_Cat04_SubCat02, resources.GetString("UI_Tab06_Cat04_SubCat02.ToolTip"))
         '
         'AppOption_RecoverLM_SelectPath
         '
@@ -3428,19 +3134,16 @@ Partial Class Frm03_Settings
         Me.AppOption_RecoverLM_SelectPath.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline
         Me.AppOption_RecoverLM_SelectPath.Name = "AppOption_RecoverLM_SelectPath"
         Me.AppOption_RecoverLM_SelectPath.TabStop = True
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_RecoverLM_SelectPath, resources.GetString("AppOption_RecoverLM_SelectPath.ToolTip"))
         '
         'Text_052
         '
         resources.ApplyResources(Me.Text_052, "Text_052")
         Me.Text_052.Name = "Text_052"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Text_052, resources.GetString("Text_052.ToolTip"))
         '
         'AppOption_RecoverLM_Path
         '
         resources.ApplyResources(Me.AppOption_RecoverLM_Path, "AppOption_RecoverLM_Path")
         Me.AppOption_RecoverLM_Path.Name = "AppOption_RecoverLM_Path"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_RecoverLM_Path, resources.GetString("AppOption_RecoverLM_Path.ToolTip"))
         '
         'UI_Tab06_Cat04_SubCat01
         '
@@ -3451,7 +3154,6 @@ Partial Class Frm03_Settings
         Me.UI_Tab06_Cat04_SubCat01.Controls.Add(Me.AppOption_LunarExpand_Path)
         Me.UI_Tab06_Cat04_SubCat01.Name = "UI_Tab06_Cat04_SubCat01"
         Me.UI_Tab06_Cat04_SubCat01.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab06_Cat04_SubCat01, resources.GetString("UI_Tab06_Cat04_SubCat01.ToolTip"))
         '
         'AppOption_LunarExpand_SelectPath
         '
@@ -3459,23 +3161,19 @@ Partial Class Frm03_Settings
         Me.AppOption_LunarExpand_SelectPath.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline
         Me.AppOption_LunarExpand_SelectPath.Name = "AppOption_LunarExpand_SelectPath"
         Me.AppOption_LunarExpand_SelectPath.TabStop = True
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_LunarExpand_SelectPath, resources.GetString("AppOption_LunarExpand_SelectPath.ToolTip"))
         '
         'Text_051
         '
         resources.ApplyResources(Me.Text_051, "Text_051")
         Me.Text_051.Name = "Text_051"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Text_051, resources.GetString("Text_051.ToolTip"))
         '
         'AppOption_LunarExpand_Path
         '
         resources.ApplyResources(Me.AppOption_LunarExpand_Path, "AppOption_LunarExpand_Path")
         Me.AppOption_LunarExpand_Path.Name = "AppOption_LunarExpand_Path"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_LunarExpand_Path, resources.GetString("AppOption_LunarExpand_Path.ToolTip"))
         '
         'UI_Tab06_Tab05_OtherApps2
         '
-        resources.ApplyResources(Me.UI_Tab06_Tab05_OtherApps2, "UI_Tab06_Tab05_OtherApps2")
         Me.UI_Tab06_Tab05_OtherApps2.Controls.Add(Me.UI_Tab06_Cat05_SubCat02)
         Me.UI_Tab06_Tab05_OtherApps2.Controls.Add(Me.UI_Tab06_Cat05_SubCat10)
         Me.UI_Tab06_Tab05_OtherApps2.Controls.Add(Me.UI_Tab06_Cat05_SubCat09)
@@ -3486,8 +3184,8 @@ Partial Class Frm03_Settings
         Me.UI_Tab06_Tab05_OtherApps2.Controls.Add(Me.UI_Tab06_Cat05_SubCat04)
         Me.UI_Tab06_Tab05_OtherApps2.Controls.Add(Me.UI_Tab06_Cat05_SubCat03)
         Me.UI_Tab06_Tab05_OtherApps2.Controls.Add(Me.UI_Tab06_Cat05_SubCat01)
+        resources.ApplyResources(Me.UI_Tab06_Tab05_OtherApps2, "UI_Tab06_Tab05_OtherApps2")
         Me.UI_Tab06_Tab05_OtherApps2.Name = "UI_Tab06_Tab05_OtherApps2"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab06_Tab05_OtherApps2, resources.GetString("UI_Tab06_Tab05_OtherApps2.ToolTip"))
         Me.UI_Tab06_Tab05_OtherApps2.UseVisualStyleBackColor = True
         '
         'UI_Tab06_Cat05_SubCat02
@@ -3502,7 +3200,6 @@ Partial Class Frm03_Settings
         Me.UI_Tab06_Cat05_SubCat02.Controls.Add(Me.AppOption_Pixi_Path)
         Me.UI_Tab06_Cat05_SubCat02.Name = "UI_Tab06_Cat05_SubCat02"
         Me.UI_Tab06_Cat05_SubCat02.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab06_Cat05_SubCat02, resources.GetString("UI_Tab06_Cat05_SubCat02.ToolTip"))
         '
         'AppOption_PixiConfigurator_SelectPath
         '
@@ -3510,19 +3207,16 @@ Partial Class Frm03_Settings
         Me.AppOption_PixiConfigurator_SelectPath.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline
         Me.AppOption_PixiConfigurator_SelectPath.Name = "AppOption_PixiConfigurator_SelectPath"
         Me.AppOption_PixiConfigurator_SelectPath.TabStop = True
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_PixiConfigurator_SelectPath, resources.GetString("AppOption_PixiConfigurator_SelectPath.ToolTip"))
         '
         'Text_064
         '
         resources.ApplyResources(Me.Text_064, "Text_064")
         Me.Text_064.Name = "Text_064"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Text_064, resources.GetString("Text_064.ToolTip"))
         '
         'AppOption_PixiConfigurator_Path
         '
         resources.ApplyResources(Me.AppOption_PixiConfigurator_Path, "AppOption_PixiConfigurator_Path")
         Me.AppOption_PixiConfigurator_Path.Name = "AppOption_PixiConfigurator_Path"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_PixiConfigurator_Path, resources.GetString("AppOption_PixiConfigurator_Path.ToolTip"))
         '
         'AppOption_Pixi_SelectPath
         '
@@ -3530,19 +3224,16 @@ Partial Class Frm03_Settings
         Me.AppOption_Pixi_SelectPath.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline
         Me.AppOption_Pixi_SelectPath.Name = "AppOption_Pixi_SelectPath"
         Me.AppOption_Pixi_SelectPath.TabStop = True
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_Pixi_SelectPath, resources.GetString("AppOption_Pixi_SelectPath.ToolTip"))
         '
         'Text_063
         '
         resources.ApplyResources(Me.Text_063, "Text_063")
         Me.Text_063.Name = "Text_063"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Text_063, resources.GetString("Text_063.ToolTip"))
         '
         'AppOption_Pixi_Path
         '
         resources.ApplyResources(Me.AppOption_Pixi_Path, "AppOption_Pixi_Path")
         Me.AppOption_Pixi_Path.Name = "AppOption_Pixi_Path"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_Pixi_Path, resources.GetString("AppOption_Pixi_Path.ToolTip"))
         '
         'UI_Tab06_Cat05_SubCat10
         '
@@ -3553,7 +3244,6 @@ Partial Class Frm03_Settings
         Me.UI_Tab06_Cat05_SubCat10.Controls.Add(Me.AppOption_PetiteMM_Path)
         Me.UI_Tab06_Cat05_SubCat10.Name = "UI_Tab06_Cat05_SubCat10"
         Me.UI_Tab06_Cat05_SubCat10.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab06_Cat05_SubCat10, resources.GetString("UI_Tab06_Cat05_SubCat10.ToolTip"))
         '
         'AppOption_PetiteMM_SelectPath
         '
@@ -3561,19 +3251,16 @@ Partial Class Frm03_Settings
         Me.AppOption_PetiteMM_SelectPath.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline
         Me.AppOption_PetiteMM_SelectPath.Name = "AppOption_PetiteMM_SelectPath"
         Me.AppOption_PetiteMM_SelectPath.TabStop = True
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_PetiteMM_SelectPath, resources.GetString("AppOption_PetiteMM_SelectPath.ToolTip"))
         '
         'Text_072
         '
         resources.ApplyResources(Me.Text_072, "Text_072")
         Me.Text_072.Name = "Text_072"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Text_072, resources.GetString("Text_072.ToolTip"))
         '
         'AppOption_PetiteMM_Path
         '
         resources.ApplyResources(Me.AppOption_PetiteMM_Path, "AppOption_PetiteMM_Path")
         Me.AppOption_PetiteMM_Path.Name = "AppOption_PetiteMM_Path"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_PetiteMM_Path, resources.GetString("AppOption_PetiteMM_Path.ToolTip"))
         '
         'UI_Tab06_Cat05_SubCat09
         '
@@ -3584,7 +3271,6 @@ Partial Class Frm03_Settings
         Me.UI_Tab06_Cat05_SubCat09.Controls.Add(Me.AppOption_GPS_Path)
         Me.UI_Tab06_Cat05_SubCat09.Name = "UI_Tab06_Cat05_SubCat09"
         Me.UI_Tab06_Cat05_SubCat09.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab06_Cat05_SubCat09, resources.GetString("UI_Tab06_Cat05_SubCat09.ToolTip"))
         '
         'AppOption_GPS_SelectPath
         '
@@ -3592,19 +3278,16 @@ Partial Class Frm03_Settings
         Me.AppOption_GPS_SelectPath.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline
         Me.AppOption_GPS_SelectPath.Name = "AppOption_GPS_SelectPath"
         Me.AppOption_GPS_SelectPath.TabStop = True
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_GPS_SelectPath, resources.GetString("AppOption_GPS_SelectPath.ToolTip"))
         '
         'Text_071
         '
         resources.ApplyResources(Me.Text_071, "Text_071")
         Me.Text_071.Name = "Text_071"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Text_071, resources.GetString("Text_071.ToolTip"))
         '
         'AppOption_GPS_Path
         '
         resources.ApplyResources(Me.AppOption_GPS_Path, "AppOption_GPS_Path")
         Me.AppOption_GPS_Path.Name = "AppOption_GPS_Path"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_GPS_Path, resources.GetString("AppOption_GPS_Path.ToolTip"))
         '
         'UI_Tab06_Cat05_SubCat08
         '
@@ -3615,7 +3298,6 @@ Partial Class Frm03_Settings
         Me.UI_Tab06_Cat05_SubCat08.Controls.Add(Me.AppOption_EffectTool_Path)
         Me.UI_Tab06_Cat05_SubCat08.Name = "UI_Tab06_Cat05_SubCat08"
         Me.UI_Tab06_Cat05_SubCat08.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab06_Cat05_SubCat08, resources.GetString("UI_Tab06_Cat05_SubCat08.ToolTip"))
         '
         'AppOption_EffectTool_SelectPath
         '
@@ -3623,19 +3305,16 @@ Partial Class Frm03_Settings
         Me.AppOption_EffectTool_SelectPath.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline
         Me.AppOption_EffectTool_SelectPath.Name = "AppOption_EffectTool_SelectPath"
         Me.AppOption_EffectTool_SelectPath.TabStop = True
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_EffectTool_SelectPath, resources.GetString("AppOption_EffectTool_SelectPath.ToolTip"))
         '
         'Text_070
         '
         resources.ApplyResources(Me.Text_070, "Text_070")
         Me.Text_070.Name = "Text_070"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Text_070, resources.GetString("Text_070.ToolTip"))
         '
         'AppOption_EffectTool_Path
         '
         resources.ApplyResources(Me.AppOption_EffectTool_Path, "AppOption_EffectTool_Path")
         Me.AppOption_EffectTool_Path.Name = "AppOption_EffectTool_Path"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_EffectTool_Path, resources.GetString("AppOption_EffectTool_Path.ToolTip"))
         '
         'UI_Tab06_Cat05_SubCat07
         '
@@ -3646,7 +3325,6 @@ Partial Class Frm03_Settings
         Me.UI_Tab06_Cat05_SubCat07.Controls.Add(Me.AppOption_SnesColorTool_Path)
         Me.UI_Tab06_Cat05_SubCat07.Name = "UI_Tab06_Cat05_SubCat07"
         Me.UI_Tab06_Cat05_SubCat07.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab06_Cat05_SubCat07, resources.GetString("UI_Tab06_Cat05_SubCat07.ToolTip"))
         '
         'AppOption_SnesColorTool_SelectPath
         '
@@ -3654,19 +3332,16 @@ Partial Class Frm03_Settings
         Me.AppOption_SnesColorTool_SelectPath.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline
         Me.AppOption_SnesColorTool_SelectPath.Name = "AppOption_SnesColorTool_SelectPath"
         Me.AppOption_SnesColorTool_SelectPath.TabStop = True
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_SnesColorTool_SelectPath, resources.GetString("AppOption_SnesColorTool_SelectPath.ToolTip"))
         '
         'Text_069
         '
         resources.ApplyResources(Me.Text_069, "Text_069")
         Me.Text_069.Name = "Text_069"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Text_069, resources.GetString("Text_069.ToolTip"))
         '
         'AppOption_SnesColorTool_Path
         '
         resources.ApplyResources(Me.AppOption_SnesColorTool_Path, "AppOption_SnesColorTool_Path")
         Me.AppOption_SnesColorTool_Path.Name = "AppOption_SnesColorTool_Path"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_SnesColorTool_Path, resources.GetString("AppOption_SnesColorTool_Path.ToolTip"))
         '
         'UI_Tab06_Cat05_SubCat06
         '
@@ -3677,7 +3352,6 @@ Partial Class Frm03_Settings
         Me.UI_Tab06_Cat05_SubCat06.Controls.Add(Me.AppOption_StatusEffects_Path)
         Me.UI_Tab06_Cat05_SubCat06.Name = "UI_Tab06_Cat05_SubCat06"
         Me.UI_Tab06_Cat05_SubCat06.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab06_Cat05_SubCat06, resources.GetString("UI_Tab06_Cat05_SubCat06.ToolTip"))
         '
         'AppOption_StatusEffects_SelectPath
         '
@@ -3685,19 +3359,16 @@ Partial Class Frm03_Settings
         Me.AppOption_StatusEffects_SelectPath.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline
         Me.AppOption_StatusEffects_SelectPath.Name = "AppOption_StatusEffects_SelectPath"
         Me.AppOption_StatusEffects_SelectPath.TabStop = True
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_StatusEffects_SelectPath, resources.GetString("AppOption_StatusEffects_SelectPath.ToolTip"))
         '
         'Text_068
         '
         resources.ApplyResources(Me.Text_068, "Text_068")
         Me.Text_068.Name = "Text_068"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Text_068, resources.GetString("Text_068.ToolTip"))
         '
         'AppOption_StatusEffects_Path
         '
         resources.ApplyResources(Me.AppOption_StatusEffects_Path, "AppOption_StatusEffects_Path")
         Me.AppOption_StatusEffects_Path.Name = "AppOption_StatusEffects_Path"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_StatusEffects_Path, resources.GetString("AppOption_StatusEffects_Path.ToolTip"))
         '
         'UI_Tab06_Cat05_SubCat05
         '
@@ -3708,7 +3379,6 @@ Partial Class Frm03_Settings
         Me.UI_Tab06_Cat05_SubCat05.Controls.Add(Me.AppOption_FloatingIPS_Path)
         Me.UI_Tab06_Cat05_SubCat05.Name = "UI_Tab06_Cat05_SubCat05"
         Me.UI_Tab06_Cat05_SubCat05.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab06_Cat05_SubCat05, resources.GetString("UI_Tab06_Cat05_SubCat05.ToolTip"))
         '
         'AppOption_FloatingIPS_SelectPath
         '
@@ -3716,19 +3386,16 @@ Partial Class Frm03_Settings
         Me.AppOption_FloatingIPS_SelectPath.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline
         Me.AppOption_FloatingIPS_SelectPath.Name = "AppOption_FloatingIPS_SelectPath"
         Me.AppOption_FloatingIPS_SelectPath.TabStop = True
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_FloatingIPS_SelectPath, resources.GetString("AppOption_FloatingIPS_SelectPath.ToolTip"))
         '
         'Text_067
         '
         resources.ApplyResources(Me.Text_067, "Text_067")
         Me.Text_067.Name = "Text_067"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Text_067, resources.GetString("Text_067.ToolTip"))
         '
         'AppOption_FloatingIPS_Path
         '
         resources.ApplyResources(Me.AppOption_FloatingIPS_Path, "AppOption_FloatingIPS_Path")
         Me.AppOption_FloatingIPS_Path.Name = "AppOption_FloatingIPS_Path"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_FloatingIPS_Path, resources.GetString("AppOption_FloatingIPS_Path.ToolTip"))
         '
         'UI_Tab06_Cat05_SubCat04
         '
@@ -3739,7 +3406,6 @@ Partial Class Frm03_Settings
         Me.UI_Tab06_Cat05_SubCat04.Controls.Add(Me.AppOption_SPC700Player_Path)
         Me.UI_Tab06_Cat05_SubCat04.Name = "UI_Tab06_Cat05_SubCat04"
         Me.UI_Tab06_Cat05_SubCat04.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab06_Cat05_SubCat04, resources.GetString("UI_Tab06_Cat05_SubCat04.ToolTip"))
         '
         'AppOption_SPC700Player_SelectPath
         '
@@ -3747,19 +3413,16 @@ Partial Class Frm03_Settings
         Me.AppOption_SPC700Player_SelectPath.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline
         Me.AppOption_SPC700Player_SelectPath.Name = "AppOption_SPC700Player_SelectPath"
         Me.AppOption_SPC700Player_SelectPath.TabStop = True
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_SPC700Player_SelectPath, resources.GetString("AppOption_SPC700Player_SelectPath.ToolTip"))
         '
         'Text_066
         '
         resources.ApplyResources(Me.Text_066, "Text_066")
         Me.Text_066.Name = "Text_066"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Text_066, resources.GetString("Text_066.ToolTip"))
         '
         'AppOption_SPC700Player_Path
         '
         resources.ApplyResources(Me.AppOption_SPC700Player_Path, "AppOption_SPC700Player_Path")
         Me.AppOption_SPC700Player_Path.Name = "AppOption_SPC700Player_Path"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_SPC700Player_Path, resources.GetString("AppOption_SPC700Player_Path.ToolTip"))
         '
         'UI_Tab06_Cat05_SubCat03
         '
@@ -3770,7 +3433,6 @@ Partial Class Frm03_Settings
         Me.UI_Tab06_Cat05_SubCat03.Controls.Add(Me.AppOption_M7Map_Path)
         Me.UI_Tab06_Cat05_SubCat03.Name = "UI_Tab06_Cat05_SubCat03"
         Me.UI_Tab06_Cat05_SubCat03.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab06_Cat05_SubCat03, resources.GetString("UI_Tab06_Cat05_SubCat03.ToolTip"))
         '
         'AppOption_M7Map_SelectPath
         '
@@ -3778,19 +3440,16 @@ Partial Class Frm03_Settings
         Me.AppOption_M7Map_SelectPath.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline
         Me.AppOption_M7Map_SelectPath.Name = "AppOption_M7Map_SelectPath"
         Me.AppOption_M7Map_SelectPath.TabStop = True
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_M7Map_SelectPath, resources.GetString("AppOption_M7Map_SelectPath.ToolTip"))
         '
         'Text_065
         '
         resources.ApplyResources(Me.Text_065, "Text_065")
         Me.Text_065.Name = "Text_065"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Text_065, resources.GetString("Text_065.ToolTip"))
         '
         'AppOption_M7Map_Path
         '
         resources.ApplyResources(Me.AppOption_M7Map_Path, "AppOption_M7Map_Path")
         Me.AppOption_M7Map_Path.Name = "AppOption_M7Map_Path"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_M7Map_Path, resources.GetString("AppOption_M7Map_Path.ToolTip"))
         '
         'UI_Tab06_Cat05_SubCat01
         '
@@ -3801,7 +3460,6 @@ Partial Class Frm03_Settings
         Me.UI_Tab06_Cat05_SubCat01.Controls.Add(Me.AppOption_Blockreator_Path)
         Me.UI_Tab06_Cat05_SubCat01.Name = "UI_Tab06_Cat05_SubCat01"
         Me.UI_Tab06_Cat05_SubCat01.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab06_Cat05_SubCat01, resources.GetString("UI_Tab06_Cat05_SubCat01.ToolTip"))
         '
         'AppOption_Blockreator_SelectPath
         '
@@ -3809,23 +3467,19 @@ Partial Class Frm03_Settings
         Me.AppOption_Blockreator_SelectPath.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline
         Me.AppOption_Blockreator_SelectPath.Name = "AppOption_Blockreator_SelectPath"
         Me.AppOption_Blockreator_SelectPath.TabStop = True
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_Blockreator_SelectPath, resources.GetString("AppOption_Blockreator_SelectPath.ToolTip"))
         '
         'Text_062
         '
         resources.ApplyResources(Me.Text_062, "Text_062")
         Me.Text_062.Name = "Text_062"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Text_062, resources.GetString("Text_062.ToolTip"))
         '
         'AppOption_Blockreator_Path
         '
         resources.ApplyResources(Me.AppOption_Blockreator_Path, "AppOption_Blockreator_Path")
         Me.AppOption_Blockreator_Path.Name = "AppOption_Blockreator_Path"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_Blockreator_Path, resources.GetString("AppOption_Blockreator_Path.ToolTip"))
         '
         'UI_Tab06_Tab06_OtherApps3
         '
-        resources.ApplyResources(Me.UI_Tab06_Tab06_OtherApps3, "UI_Tab06_Tab06_OtherApps3")
         Me.UI_Tab06_Tab06_OtherApps3.Controls.Add(Me.UI_Tab06_Cat06_SubCat10)
         Me.UI_Tab06_Tab06_OtherApps3.Controls.Add(Me.UI_Tab06_Cat06_SubCat09)
         Me.UI_Tab06_Tab06_OtherApps3.Controls.Add(Me.UI_Tab06_Cat06_SubCat08)
@@ -3836,8 +3490,8 @@ Partial Class Frm03_Settings
         Me.UI_Tab06_Tab06_OtherApps3.Controls.Add(Me.UI_Tab06_Cat06_SubCat03)
         Me.UI_Tab06_Tab06_OtherApps3.Controls.Add(Me.UI_Tab06_Cat06_SubCat02)
         Me.UI_Tab06_Tab06_OtherApps3.Controls.Add(Me.UI_Tab06_Cat06_SubCat01)
+        resources.ApplyResources(Me.UI_Tab06_Tab06_OtherApps3, "UI_Tab06_Tab06_OtherApps3")
         Me.UI_Tab06_Tab06_OtherApps3.Name = "UI_Tab06_Tab06_OtherApps3"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab06_Tab06_OtherApps3, resources.GetString("UI_Tab06_Tab06_OtherApps3.ToolTip"))
         Me.UI_Tab06_Tab06_OtherApps3.UseVisualStyleBackColor = True
         '
         'UI_Tab06_Cat06_SubCat10
@@ -3849,7 +3503,6 @@ Partial Class Frm03_Settings
         Me.UI_Tab06_Cat06_SubCat10.Controls.Add(Me.AppOption_GradientTool_Path)
         Me.UI_Tab06_Cat06_SubCat10.Name = "UI_Tab06_Cat06_SubCat10"
         Me.UI_Tab06_Cat06_SubCat10.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab06_Cat06_SubCat10, resources.GetString("UI_Tab06_Cat06_SubCat10.ToolTip"))
         '
         'AppOption_GradientTool_SelectPath
         '
@@ -3857,19 +3510,16 @@ Partial Class Frm03_Settings
         Me.AppOption_GradientTool_SelectPath.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline
         Me.AppOption_GradientTool_SelectPath.Name = "AppOption_GradientTool_SelectPath"
         Me.AppOption_GradientTool_SelectPath.TabStop = True
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_GradientTool_SelectPath, resources.GetString("AppOption_GradientTool_SelectPath.ToolTip"))
         '
         'Text_082
         '
         resources.ApplyResources(Me.Text_082, "Text_082")
         Me.Text_082.Name = "Text_082"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Text_082, resources.GetString("Text_082.ToolTip"))
         '
         'AppOption_GradientTool_Path
         '
         resources.ApplyResources(Me.AppOption_GradientTool_Path, "AppOption_GradientTool_Path")
         Me.AppOption_GradientTool_Path.Name = "AppOption_GradientTool_Path"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_GradientTool_Path, resources.GetString("AppOption_GradientTool_Path.ToolTip"))
         '
         'UI_Tab06_Cat06_SubCat09
         '
@@ -3880,7 +3530,6 @@ Partial Class Frm03_Settings
         Me.UI_Tab06_Cat06_SubCat09.Controls.Add(Me.AppOption_UberASM_Path)
         Me.UI_Tab06_Cat06_SubCat09.Name = "UI_Tab06_Cat06_SubCat09"
         Me.UI_Tab06_Cat06_SubCat09.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab06_Cat06_SubCat09, resources.GetString("UI_Tab06_Cat06_SubCat09.ToolTip"))
         '
         'AppOption_UberASM_SelectPath
         '
@@ -3888,19 +3537,16 @@ Partial Class Frm03_Settings
         Me.AppOption_UberASM_SelectPath.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline
         Me.AppOption_UberASM_SelectPath.Name = "AppOption_UberASM_SelectPath"
         Me.AppOption_UberASM_SelectPath.TabStop = True
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_UberASM_SelectPath, resources.GetString("AppOption_UberASM_SelectPath.ToolTip"))
         '
         'Text_081
         '
         resources.ApplyResources(Me.Text_081, "Text_081")
         Me.Text_081.Name = "Text_081"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Text_081, resources.GetString("Text_081.ToolTip"))
         '
         'AppOption_UberASM_Path
         '
         resources.ApplyResources(Me.AppOption_UberASM_Path, "AppOption_UberASM_Path")
         Me.AppOption_UberASM_Path.Name = "AppOption_UberASM_Path"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_UberASM_Path, resources.GetString("AppOption_UberASM_Path.ToolTip"))
         '
         'UI_Tab06_Cat06_SubCat08
         '
@@ -3911,7 +3557,6 @@ Partial Class Frm03_Settings
         Me.UI_Tab06_Cat06_SubCat08.Controls.Add(Me.AppOption_SMWCustomizer_Path)
         Me.UI_Tab06_Cat06_SubCat08.Name = "UI_Tab06_Cat06_SubCat08"
         Me.UI_Tab06_Cat06_SubCat08.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab06_Cat06_SubCat08, resources.GetString("UI_Tab06_Cat06_SubCat08.ToolTip"))
         '
         'AppOption_SMWCustomizer_SelectPath
         '
@@ -3919,19 +3564,16 @@ Partial Class Frm03_Settings
         Me.AppOption_SMWCustomizer_SelectPath.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline
         Me.AppOption_SMWCustomizer_SelectPath.Name = "AppOption_SMWCustomizer_SelectPath"
         Me.AppOption_SMWCustomizer_SelectPath.TabStop = True
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_SMWCustomizer_SelectPath, resources.GetString("AppOption_SMWCustomizer_SelectPath.ToolTip"))
         '
         'Text_080
         '
         resources.ApplyResources(Me.Text_080, "Text_080")
         Me.Text_080.Name = "Text_080"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Text_080, resources.GetString("Text_080.ToolTip"))
         '
         'AppOption_SMWCustomizer_Path
         '
         resources.ApplyResources(Me.AppOption_SMWCustomizer_Path, "AppOption_SMWCustomizer_Path")
         Me.AppOption_SMWCustomizer_Path.Name = "AppOption_SMWCustomizer_Path"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_SMWCustomizer_Path, resources.GetString("AppOption_SMWCustomizer_Path.ToolTip"))
         '
         'UI_Tab06_Cat06_SubCat07
         '
@@ -3942,7 +3584,6 @@ Partial Class Frm03_Settings
         Me.UI_Tab06_Cat06_SubCat07.Controls.Add(Me.AppOption_YYCHR_Path)
         Me.UI_Tab06_Cat06_SubCat07.Name = "UI_Tab06_Cat06_SubCat07"
         Me.UI_Tab06_Cat06_SubCat07.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab06_Cat06_SubCat07, resources.GetString("UI_Tab06_Cat06_SubCat07.ToolTip"))
         '
         'AppOption_YYCHR_SelectPath
         '
@@ -3950,19 +3591,16 @@ Partial Class Frm03_Settings
         Me.AppOption_YYCHR_SelectPath.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline
         Me.AppOption_YYCHR_SelectPath.Name = "AppOption_YYCHR_SelectPath"
         Me.AppOption_YYCHR_SelectPath.TabStop = True
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_YYCHR_SelectPath, resources.GetString("AppOption_YYCHR_SelectPath.ToolTip"))
         '
         'Text_079
         '
         resources.ApplyResources(Me.Text_079, "Text_079")
         Me.Text_079.Name = "Text_079"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Text_079, resources.GetString("Text_079.ToolTip"))
         '
         'AppOption_YYCHR_Path
         '
         resources.ApplyResources(Me.AppOption_YYCHR_Path, "AppOption_YYCHR_Path")
         Me.AppOption_YYCHR_Path.Name = "AppOption_YYCHR_Path"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_YYCHR_Path, resources.GetString("AppOption_YYCHR_Path.ToolTip"))
         '
         'UI_Tab06_Cat06_SubCat06
         '
@@ -3973,7 +3611,6 @@ Partial Class Frm03_Settings
         Me.UI_Tab06_Cat06_SubCat06.Controls.Add(Me.AppOption_GraphicEditor_Path)
         Me.UI_Tab06_Cat06_SubCat06.Name = "UI_Tab06_Cat06_SubCat06"
         Me.UI_Tab06_Cat06_SubCat06.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab06_Cat06_SubCat06, resources.GetString("UI_Tab06_Cat06_SubCat06.ToolTip"))
         '
         'AppOption_GraphicEditor_SelectPath
         '
@@ -3981,19 +3618,16 @@ Partial Class Frm03_Settings
         Me.AppOption_GraphicEditor_SelectPath.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline
         Me.AppOption_GraphicEditor_SelectPath.Name = "AppOption_GraphicEditor_SelectPath"
         Me.AppOption_GraphicEditor_SelectPath.TabStop = True
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_GraphicEditor_SelectPath, resources.GetString("AppOption_GraphicEditor_SelectPath.ToolTip"))
         '
         'Text_078
         '
         resources.ApplyResources(Me.Text_078, "Text_078")
         Me.Text_078.Name = "Text_078"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Text_078, resources.GetString("Text_078.ToolTip"))
         '
         'AppOption_GraphicEditor_Path
         '
         resources.ApplyResources(Me.AppOption_GraphicEditor_Path, "AppOption_GraphicEditor_Path")
         Me.AppOption_GraphicEditor_Path.Name = "AppOption_GraphicEditor_Path"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_GraphicEditor_Path, resources.GetString("AppOption_GraphicEditor_Path.ToolTip"))
         '
         'UI_Tab06_Cat06_SubCat05
         '
@@ -4004,7 +3638,6 @@ Partial Class Frm03_Settings
         Me.UI_Tab06_Cat06_SubCat05.Controls.Add(Me.AppOption_SpriteGFX_Path)
         Me.UI_Tab06_Cat06_SubCat05.Name = "UI_Tab06_Cat06_SubCat05"
         Me.UI_Tab06_Cat06_SubCat05.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab06_Cat06_SubCat05, resources.GetString("UI_Tab06_Cat06_SubCat05.ToolTip"))
         '
         'AppOption_SpriteGFX_SelectPath
         '
@@ -4012,19 +3645,16 @@ Partial Class Frm03_Settings
         Me.AppOption_SpriteGFX_SelectPath.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline
         Me.AppOption_SpriteGFX_SelectPath.Name = "AppOption_SpriteGFX_SelectPath"
         Me.AppOption_SpriteGFX_SelectPath.TabStop = True
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_SpriteGFX_SelectPath, resources.GetString("AppOption_SpriteGFX_SelectPath.ToolTip"))
         '
         'Text_077
         '
         resources.ApplyResources(Me.Text_077, "Text_077")
         Me.Text_077.Name = "Text_077"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Text_077, resources.GetString("Text_077.ToolTip"))
         '
         'AppOption_SpriteGFX_Path
         '
         resources.ApplyResources(Me.AppOption_SpriteGFX_Path, "AppOption_SpriteGFX_Path")
         Me.AppOption_SpriteGFX_Path.Name = "AppOption_SpriteGFX_Path"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_SpriteGFX_Path, resources.GetString("AppOption_SpriteGFX_Path.ToolTip"))
         '
         'UI_Tab06_Cat06_SubCat04
         '
@@ -4035,7 +3665,6 @@ Partial Class Frm03_Settings
         Me.UI_Tab06_Cat06_SubCat04.Controls.Add(Me.AppOption_MultipleMidwayPoints_Path)
         Me.UI_Tab06_Cat06_SubCat04.Name = "UI_Tab06_Cat06_SubCat04"
         Me.UI_Tab06_Cat06_SubCat04.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab06_Cat06_SubCat04, resources.GetString("UI_Tab06_Cat06_SubCat04.ToolTip"))
         '
         'AppOption_MultipleMidwayPoints_SelectPath
         '
@@ -4043,19 +3672,16 @@ Partial Class Frm03_Settings
         Me.AppOption_MultipleMidwayPoints_SelectPath.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline
         Me.AppOption_MultipleMidwayPoints_SelectPath.Name = "AppOption_MultipleMidwayPoints_SelectPath"
         Me.AppOption_MultipleMidwayPoints_SelectPath.TabStop = True
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_MultipleMidwayPoints_SelectPath, resources.GetString("AppOption_MultipleMidwayPoints_SelectPath.ToolTip"))
         '
         'Text_076
         '
         resources.ApplyResources(Me.Text_076, "Text_076")
         Me.Text_076.Name = "Text_076"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Text_076, resources.GetString("Text_076.ToolTip"))
         '
         'AppOption_MultipleMidwayPoints_Path
         '
         resources.ApplyResources(Me.AppOption_MultipleMidwayPoints_Path, "AppOption_MultipleMidwayPoints_Path")
         Me.AppOption_MultipleMidwayPoints_Path.Name = "AppOption_MultipleMidwayPoints_Path"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_MultipleMidwayPoints_Path, resources.GetString("AppOption_MultipleMidwayPoints_Path.ToolTip"))
         '
         'UI_Tab06_Cat06_SubCat03
         '
@@ -4066,7 +3692,6 @@ Partial Class Frm03_Settings
         Me.UI_Tab06_Cat06_SubCat03.Controls.Add(Me.AppOption_InteractionEditor_Path)
         Me.UI_Tab06_Cat06_SubCat03.Name = "UI_Tab06_Cat06_SubCat03"
         Me.UI_Tab06_Cat06_SubCat03.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab06_Cat06_SubCat03, resources.GetString("UI_Tab06_Cat06_SubCat03.ToolTip"))
         '
         'AppOption_InteractionEditor_SelectPath
         '
@@ -4074,19 +3699,16 @@ Partial Class Frm03_Settings
         Me.AppOption_InteractionEditor_SelectPath.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline
         Me.AppOption_InteractionEditor_SelectPath.Name = "AppOption_InteractionEditor_SelectPath"
         Me.AppOption_InteractionEditor_SelectPath.TabStop = True
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_InteractionEditor_SelectPath, resources.GetString("AppOption_InteractionEditor_SelectPath.ToolTip"))
         '
         'Text_075
         '
         resources.ApplyResources(Me.Text_075, "Text_075")
         Me.Text_075.Name = "Text_075"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Text_075, resources.GetString("Text_075.ToolTip"))
         '
         'AppOption_InteractionEditor_Path
         '
         resources.ApplyResources(Me.AppOption_InteractionEditor_Path, "AppOption_InteractionEditor_Path")
         Me.AppOption_InteractionEditor_Path.Name = "AppOption_InteractionEditor_Path"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_InteractionEditor_Path, resources.GetString("AppOption_InteractionEditor_Path.ToolTip"))
         '
         'UI_Tab06_Cat06_SubCat02
         '
@@ -4097,7 +3719,6 @@ Partial Class Frm03_Settings
         Me.UI_Tab06_Cat06_SubCat02.Controls.Add(Me.AppOption_MarioSE_Path)
         Me.UI_Tab06_Cat06_SubCat02.Name = "UI_Tab06_Cat06_SubCat02"
         Me.UI_Tab06_Cat06_SubCat02.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab06_Cat06_SubCat02, resources.GetString("UI_Tab06_Cat06_SubCat02.ToolTip"))
         '
         'AppOption_MarioSE_SelectPath
         '
@@ -4105,19 +3726,16 @@ Partial Class Frm03_Settings
         Me.AppOption_MarioSE_SelectPath.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline
         Me.AppOption_MarioSE_SelectPath.Name = "AppOption_MarioSE_SelectPath"
         Me.AppOption_MarioSE_SelectPath.TabStop = True
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_MarioSE_SelectPath, resources.GetString("AppOption_MarioSE_SelectPath.ToolTip"))
         '
         'Text_074
         '
         resources.ApplyResources(Me.Text_074, "Text_074")
         Me.Text_074.Name = "Text_074"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Text_074, resources.GetString("Text_074.ToolTip"))
         '
         'AppOption_MarioSE_Path
         '
         resources.ApplyResources(Me.AppOption_MarioSE_Path, "AppOption_MarioSE_Path")
         Me.AppOption_MarioSE_Path.Name = "AppOption_MarioSE_Path"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_MarioSE_Path, resources.GetString("AppOption_MarioSE_Path.ToolTip"))
         '
         'UI_Tab06_Cat06_SubCat01
         '
@@ -4128,7 +3746,6 @@ Partial Class Frm03_Settings
         Me.UI_Tab06_Cat06_SubCat01.Controls.Add(Me.AppOption_Asar_Path)
         Me.UI_Tab06_Cat06_SubCat01.Name = "UI_Tab06_Cat06_SubCat01"
         Me.UI_Tab06_Cat06_SubCat01.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab06_Cat06_SubCat01, resources.GetString("UI_Tab06_Cat06_SubCat01.ToolTip"))
         '
         'AppOption_Asar_SelectPath
         '
@@ -4136,26 +3753,22 @@ Partial Class Frm03_Settings
         Me.AppOption_Asar_SelectPath.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline
         Me.AppOption_Asar_SelectPath.Name = "AppOption_Asar_SelectPath"
         Me.AppOption_Asar_SelectPath.TabStop = True
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_Asar_SelectPath, resources.GetString("AppOption_Asar_SelectPath.ToolTip"))
         '
         'Text_073
         '
         resources.ApplyResources(Me.Text_073, "Text_073")
         Me.Text_073.Name = "Text_073"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Text_073, resources.GetString("Text_073.ToolTip"))
         '
         'AppOption_Asar_Path
         '
         resources.ApplyResources(Me.AppOption_Asar_Path, "AppOption_Asar_Path")
         Me.AppOption_Asar_Path.Name = "AppOption_Asar_Path"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.AppOption_Asar_Path, resources.GetString("AppOption_Asar_Path.ToolTip"))
         '
         'UI_Tab06_Title01
         '
         resources.ApplyResources(Me.UI_Tab06_Title01, "UI_Tab06_Title01")
         Me.UI_Tab06_Title01.ForeColor = System.Drawing.SystemColors.HotTrack
         Me.UI_Tab06_Title01.Name = "UI_Tab06_Title01"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Tab06_Title01, resources.GetString("UI_Tab06_Title01.ToolTip"))
         '
         'Z01_CommandBar_TabControl
         '
@@ -4164,19 +3777,17 @@ Partial Class Frm03_Settings
         Me.Z01_CommandBar_TabControl.Name = "Z01_CommandBar_TabControl"
         Me.Z01_CommandBar_TabControl.SelectedIndex = 0
         Me.Z01_CommandBar_TabControl.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Z01_CommandBar_TabControl, resources.GetString("Z01_CommandBar_TabControl.ToolTip"))
         '
         'Z01_CommandBar_Tab
         '
-        resources.ApplyResources(Me.Z01_CommandBar_Tab, "Z01_CommandBar_Tab")
         Me.Z01_CommandBar_Tab.Controls.Add(Me.UI_Btn_ExperimentalSettings)
         Me.Z01_CommandBar_Tab.Controls.Add(Me.UI_Btn_UpdatesModal)
         Me.Z01_CommandBar_Tab.Controls.Add(Me.UI_Btn_OK)
         Me.Z01_CommandBar_Tab.Controls.Add(Me.UI_Btn_Cancel)
         Me.Z01_CommandBar_Tab.Controls.Add(Me.UI_Btn_SubOptionsMenu)
         Me.Z01_CommandBar_Tab.Controls.Add(Me.DownArrowMenuPos)
+        resources.ApplyResources(Me.Z01_CommandBar_Tab, "Z01_CommandBar_Tab")
         Me.Z01_CommandBar_Tab.Name = "Z01_CommandBar_Tab"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Z01_CommandBar_Tab, resources.GetString("Z01_CommandBar_Tab.ToolTip"))
         Me.Z01_CommandBar_Tab.UseVisualStyleBackColor = True
         '
         'UI_Btn_ExperimentalSettings
@@ -4184,7 +3795,6 @@ Partial Class Frm03_Settings
         resources.ApplyResources(Me.UI_Btn_ExperimentalSettings, "UI_Btn_ExperimentalSettings")
         Me.UI_Btn_ExperimentalSettings.Image = Global.SMW_MultiTool_Launcher.My.Resources.Resources.ExperimentalSettings
         Me.UI_Btn_ExperimentalSettings.Name = "UI_Btn_ExperimentalSettings"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Btn_ExperimentalSettings, resources.GetString("UI_Btn_ExperimentalSettings.ToolTip"))
         Me.UI_Btn_ExperimentalSettings.UseVisualStyleBackColor = True
         '
         'UI_Btn_UpdatesModal
@@ -4192,7 +3802,6 @@ Partial Class Frm03_Settings
         resources.ApplyResources(Me.UI_Btn_UpdatesModal, "UI_Btn_UpdatesModal")
         Me.UI_Btn_UpdatesModal.Image = Global.SMW_MultiTool_Launcher.My.Resources.Resources.UI_UpdateAccessBtn
         Me.UI_Btn_UpdatesModal.Name = "UI_Btn_UpdatesModal"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Btn_UpdatesModal, resources.GetString("UI_Btn_UpdatesModal.ToolTip"))
         Me.UI_Btn_UpdatesModal.UseVisualStyleBackColor = True
         '
         'UI_Btn_OK
@@ -4200,7 +3809,6 @@ Partial Class Frm03_Settings
         resources.ApplyResources(Me.UI_Btn_OK, "UI_Btn_OK")
         Me.UI_Btn_OK.Image = Global.SMW_MultiTool_Launcher.My.Resources.Resources.SettingsOK
         Me.UI_Btn_OK.Name = "UI_Btn_OK"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Btn_OK, resources.GetString("UI_Btn_OK.ToolTip"))
         Me.UI_Btn_OK.UseVisualStyleBackColor = True
         '
         'UI_Btn_Cancel
@@ -4209,7 +3817,6 @@ Partial Class Frm03_Settings
         Me.UI_Btn_Cancel.DialogResult = System.Windows.Forms.DialogResult.Cancel
         Me.UI_Btn_Cancel.Image = Global.SMW_MultiTool_Launcher.My.Resources.Resources.SettingsCancel
         Me.UI_Btn_Cancel.Name = "UI_Btn_Cancel"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Btn_Cancel, resources.GetString("UI_Btn_Cancel.ToolTip"))
         Me.UI_Btn_Cancel.UseVisualStyleBackColor = True
         '
         'UI_Btn_SubOptionsMenu
@@ -4217,7 +3824,6 @@ Partial Class Frm03_Settings
         resources.ApplyResources(Me.UI_Btn_SubOptionsMenu, "UI_Btn_SubOptionsMenu")
         Me.UI_Btn_SubOptionsMenu.Image = Global.SMW_MultiTool_Launcher.My.Resources.Resources.UI_DownArrow
         Me.UI_Btn_SubOptionsMenu.Name = "UI_Btn_SubOptionsMenu"
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.UI_Btn_SubOptionsMenu, resources.GetString("UI_Btn_SubOptionsMenu.ToolTip"))
         Me.UI_Btn_SubOptionsMenu.UseVisualStyleBackColor = True
         '
         'DownArrowMenuPos
@@ -4225,7 +3831,6 @@ Partial Class Frm03_Settings
         resources.ApplyResources(Me.DownArrowMenuPos, "DownArrowMenuPos")
         Me.DownArrowMenuPos.Name = "DownArrowMenuPos"
         Me.DownArrowMenuPos.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.DownArrowMenuPos, resources.GetString("DownArrowMenuPos.ToolTip"))
         '
         'Z99_UIDeco02
         '
@@ -4233,7 +3838,6 @@ Partial Class Frm03_Settings
         Me.Z99_UIDeco02.BackColor = System.Drawing.Color.Transparent
         Me.Z99_UIDeco02.Name = "Z99_UIDeco02"
         Me.Z99_UIDeco02.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Z99_UIDeco02, resources.GetString("Z99_UIDeco02.ToolTip"))
         '
         'Z99_UIDeco01
         '
@@ -4241,71 +3845,67 @@ Partial Class Frm03_Settings
         Me.Z99_UIDeco01.BackColor = System.Drawing.Color.Transparent
         Me.Z99_UIDeco01.Name = "Z99_UIDeco01"
         Me.Z99_UIDeco01.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Z99_UIDeco01, resources.GetString("Z99_UIDeco01.ToolTip"))
         '
         'Z99_UIDeco03
         '
         resources.ApplyResources(Me.Z99_UIDeco03, "Z99_UIDeco03")
         Me.Z99_UIDeco03.Name = "Z99_UIDeco03"
         Me.Z99_UIDeco03.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Z99_UIDeco03, resources.GetString("Z99_UIDeco03.ToolTip"))
         '
         'Z99_UIDeco04
         '
         resources.ApplyResources(Me.Z99_UIDeco04, "Z99_UIDeco04")
         Me.Z99_UIDeco04.Name = "Z99_UIDeco04"
         Me.Z99_UIDeco04.TabStop = False
-        Me.AppNames_HideBtnSettings.SetToolTip(Me.Z99_UIDeco04, resources.GetString("Z99_UIDeco04.ToolTip"))
         '
         'DownArrowMenu
         '
         Me.DownArrowMenu.MenuItems.AddRange(New System.Windows.Forms.MenuItem() {Me.DownArrowMenu_ReloadSettings, Me.DownArrowMenu_Sep01, Me.DownArrowMenu_ImportSettings, Me.DownArrowMenu_ExportSettings, Me.DownArrowMenu_Sep02, Me.DownArrowMenu_ResetSettings, Me.DownArrowMenu_Sep03, Me.DownArrowMenu_HD_ExperimentalSettings})
-        resources.ApplyResources(Me.DownArrowMenu, "DownArrowMenu")
         '
         'DownArrowMenu_ReloadSettings
         '
-        resources.ApplyResources(Me.DownArrowMenu_ReloadSettings, "DownArrowMenu_ReloadSettings")
         Me.DownArrowMenu_Icons.SetImage(Me.DownArrowMenu_ReloadSettings, Global.SMW_MultiTool_Launcher.My.Resources.Resources.SettingsReload)
         Me.DownArrowMenu_ReloadSettings.Index = 0
+        resources.ApplyResources(Me.DownArrowMenu_ReloadSettings, "DownArrowMenu_ReloadSettings")
         '
         'DownArrowMenu_Sep01
         '
-        resources.ApplyResources(Me.DownArrowMenu_Sep01, "DownArrowMenu_Sep01")
         Me.DownArrowMenu_Sep01.Index = 1
+        resources.ApplyResources(Me.DownArrowMenu_Sep01, "DownArrowMenu_Sep01")
         '
         'DownArrowMenu_ImportSettings
         '
-        resources.ApplyResources(Me.DownArrowMenu_ImportSettings, "DownArrowMenu_ImportSettings")
         Me.DownArrowMenu_Icons.SetImage(Me.DownArrowMenu_ImportSettings, Global.SMW_MultiTool_Launcher.My.Resources.Resources.Settings_Import)
         Me.DownArrowMenu_ImportSettings.Index = 2
+        resources.ApplyResources(Me.DownArrowMenu_ImportSettings, "DownArrowMenu_ImportSettings")
         '
         'DownArrowMenu_ExportSettings
         '
-        resources.ApplyResources(Me.DownArrowMenu_ExportSettings, "DownArrowMenu_ExportSettings")
         Me.DownArrowMenu_Icons.SetImage(Me.DownArrowMenu_ExportSettings, Global.SMW_MultiTool_Launcher.My.Resources.Resources.Settings_Export)
         Me.DownArrowMenu_ExportSettings.Index = 3
+        resources.ApplyResources(Me.DownArrowMenu_ExportSettings, "DownArrowMenu_ExportSettings")
         '
         'DownArrowMenu_Sep02
         '
-        resources.ApplyResources(Me.DownArrowMenu_Sep02, "DownArrowMenu_Sep02")
         Me.DownArrowMenu_Sep02.Index = 4
+        resources.ApplyResources(Me.DownArrowMenu_Sep02, "DownArrowMenu_Sep02")
         '
         'DownArrowMenu_ResetSettings
         '
-        resources.ApplyResources(Me.DownArrowMenu_ResetSettings, "DownArrowMenu_ResetSettings")
         Me.DownArrowMenu_Icons.SetImage(Me.DownArrowMenu_ResetSettings, Global.SMW_MultiTool_Launcher.My.Resources.Resources.Settings_Reset)
         Me.DownArrowMenu_ResetSettings.Index = 5
+        resources.ApplyResources(Me.DownArrowMenu_ResetSettings, "DownArrowMenu_ResetSettings")
         '
         'DownArrowMenu_Sep03
         '
-        resources.ApplyResources(Me.DownArrowMenu_Sep03, "DownArrowMenu_Sep03")
         Me.DownArrowMenu_Sep03.Index = 6
+        resources.ApplyResources(Me.DownArrowMenu_Sep03, "DownArrowMenu_Sep03")
         '
         'DownArrowMenu_HD_ExperimentalSettings
         '
-        resources.ApplyResources(Me.DownArrowMenu_HD_ExperimentalSettings, "DownArrowMenu_HD_ExperimentalSettings")
         Me.DownArrowMenu_Icons.SetImage(Me.DownArrowMenu_HD_ExperimentalSettings, Global.SMW_MultiTool_Launcher.My.Resources.Resources.ExperimentalSettings)
         Me.DownArrowMenu_HD_ExperimentalSettings.Index = 7
+        resources.ApplyResources(Me.DownArrowMenu_HD_ExperimentalSettings, "DownArrowMenu_HD_ExperimentalSettings")
         '
         'DownArrowMenu_Icons
         '
@@ -4342,9 +3942,9 @@ Partial Class Frm03_Settings
         'Frm03_Settings
         '
         Me.AcceptButton = Me.UI_Btn_OK
-        resources.ApplyResources(Me, "$this")
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None
         Me.CancelButton = Me.UI_Btn_Cancel
+        resources.ApplyResources(Me, "$this")
         Me.Controls.Add(Me.Z99_UIDeco04)
         Me.Controls.Add(Me.Z99_UIDeco03)
         Me.Controls.Add(Me.Z99_UIDeco01)
@@ -4357,7 +3957,6 @@ Partial Class Frm03_Settings
         Me.Name = "Frm03_Settings"
         Me.ShowInTaskbar = False
         Me.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide
-        Me.AppNames_HideBtnSettings.SetToolTip(Me, resources.GetString("$this.ToolTip"))
         Me.UI_MainSettingsTab.ResumeLayout(False)
         Me.UI_SettingsTab01.ResumeLayout(False)
         Me.UI_SettingsTab01.PerformLayout()

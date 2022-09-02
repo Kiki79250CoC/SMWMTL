@@ -96,6 +96,55 @@ Public Class Frm01_Main
 
         ' Settings load
 
+        ' Enhancements for Windows Classic
+        For Each ImgBx As PictureBox In {Deco1, Deco2, Deco3, Deco4, Deco5}
+            Select Case My.Settings.WIN_CLASSIC_ENHANCEMENTS
+                Case True
+                    Select Case AeroEnabled()
+                        Case False
+                            ImgBx.Visible = False
+
+                            Applications_TabPanel.BackColor = SystemColors.Control()
+                            SubMenu_TabPanel.BackColor = SystemColors.Control()
+
+                    End Select
+
+                Case False
+                    ImgBx.Visible = True
+
+                    Select Case Win_NT_Version
+                        Case "6.0", "6.1"
+#Region "                        Code that applies to Windows Vista & 7 "
+
+                            TabLineDeco.Image = My.Resources.UI_TabMask_7
+                            Deco3.Image = My.Resources.UI_RightMask_7
+                            Deco2.Image = My.Resources.UI_LeftMask_7
+
+#End Region
+
+                        Case "6.2", "6.3"
+#Region "                        Code that applies to Windows 8 and 8.1 "
+
+                            TabLineDeco.Image = My.Resources.UI_TabMask_8
+                            Deco3.Image = My.Resources.UI_RightMask_8
+                            Deco2.Image = My.Resources.UI_LeftMask_8
+
+#End Region
+
+                        Case "10.0"
+#Region "                        Code that applies to Windows 10 and 11 "
+
+                            TabLineDeco.Image = If(Win_BuildNbr >= "21800", My.Resources.UI_TabMask_11, My.Resources.UI_TabMask_10)
+                            Deco3.Image = If(Win_BuildNbr >= "21800", My.Resources.UI_RightMask_11, My.Resources.UI_RightMask_10)
+                            Deco2.Image = If(Win_BuildNbr >= "21800", My.Resources.UI_LeftMask_11, My.Resources.UI_LeftMask_10)
+
+#End Region
+
+                    End Select
+
+            End Select
+        Next
+
         ' Dark mode
         Select Case My.Settings.UI_DARK_MODE
             Case True
@@ -145,48 +194,6 @@ Public Class Frm01_Main
                 End Select
 
         End Select
-
-        ' Enhancements for Windows Classic
-        For Each ImgBx As PictureBox In {Deco1, Deco2, Deco3, Deco4, Deco5}
-            Select Case My.Settings.WIN_CLASSIC_ENHANCEMENTS
-                Case True
-                    ImgBx.Visible = False
-
-                Case False
-                    ImgBx.Visible = True
-
-                    Select Case Win_NT_Version
-                        Case "6.0", "6.1"
-#Region "                        Code that applies to Windows Vista & 7 "
-
-                            TabLineDeco.Image = My.Resources.UI_TabMask_7
-                            Deco3.Image = My.Resources.UI_RightMask_7
-                            Deco2.Image = My.Resources.UI_LeftMask_7
-
-#End Region
-
-                        Case "6.2", "6.3"
-#Region "                        Code that applies to Windows 8 and 8.1 "
-
-                            TabLineDeco.Image = My.Resources.UI_TabMask_8
-                            Deco3.Image = My.Resources.UI_RightMask_8
-                            Deco2.Image = My.Resources.UI_LeftMask_8
-
-#End Region
-
-                        Case "10.0"
-#Region "                        Code that applies to Windows 10 and 11 "
-
-                            TabLineDeco.Image = If(Win_BuildNbr >= "21800", My.Resources.UI_TabMask_11, My.Resources.UI_TabMask_10)
-                            Deco3.Image = If(Win_BuildNbr >= "21800", My.Resources.UI_RightMask_11, My.Resources.UI_RightMask_10)
-                            Deco2.Image = If(Win_BuildNbr >= "21800", My.Resources.UI_LeftMask_11, My.Resources.UI_LeftMask_10)
-
-#End Region
-
-                    End Select
-
-            End Select
-        Next
 
         ' Update search at startup
         Select Case My.Settings.UPDATE_SEARCH_AT_STARTUP
@@ -1763,6 +1770,8 @@ Public Class Frm01_Main
                             Case 58
                                 LM_Option_1.Image = My.Resources.LM_331
                             Case 59
+                                LM_Option_1.Image = My.Resources.LM_340
+                            Case 60
                                 LM_Option_1.Image = My.Resources.LM_NORMAL
                         End Select
 
@@ -1912,6 +1921,8 @@ Public Class Frm01_Main
                             Case 58
                                 LM_Option_2.Image = My.Resources.LM_331
                             Case 59
+                                LM_Option_1.Image = My.Resources.LM_340
+                            Case 60
                                 LM_Option_2.Image = My.Resources.LM_NORMAL
                         End Select
 
@@ -2061,6 +2072,8 @@ Public Class Frm01_Main
                             Case 58
                                 LM_Option_3.Image = My.Resources.LM_331
                             Case 59
+                                LM_Option_1.Image = My.Resources.LM_340
+                            Case 60
                                 LM_Option_3.Image = My.Resources.LM_NORMAL
                         End Select
 

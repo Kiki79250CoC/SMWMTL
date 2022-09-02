@@ -276,86 +276,11 @@
   <data name="ExportSettings_SaveFileDialog.Title" xml:space="preserve">
     <value>Export Settings</value>
   </data>
-  <metadata name="UI_HeaderBorder.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="UI_StatPanel_Icon.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="UI_StatPanel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
   </data>
   <data name="UI_StatPanel.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
-  </data>
-  <data name="&gt;&gt;UI_HeaderBorder.Name" xml:space="preserve">
-    <value>UI_HeaderBorder</value>
-  </data>
-  <data name="&gt;&gt;UI_HeaderBorder.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;UI_HeaderBorder.Parent" xml:space="preserve">
-    <value>UI_StatPanel</value>
-  </data>
-  <data name="&gt;&gt;UI_HeaderBorder.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;UI_StatPanel_Icon.Name" xml:space="preserve">
-    <value>UI_StatPanel_Icon</value>
-  </data>
-  <data name="&gt;&gt;UI_StatPanel_Icon.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;UI_StatPanel_Icon.Parent" xml:space="preserve">
-    <value>UI_StatPanel</value>
-  </data>
-  <data name="&gt;&gt;UI_StatPanel_Icon.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;UI_StatPanel_Description.Name" xml:space="preserve">
-    <value>UI_StatPanel_Description</value>
-  </data>
-  <data name="&gt;&gt;UI_StatPanel_Description.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;UI_StatPanel_Description.Parent" xml:space="preserve">
-    <value>UI_StatPanel</value>
-  </data>
-  <data name="&gt;&gt;UI_StatPanel_Description.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;UI_StatPanel_Title.Name" xml:space="preserve">
-    <value>UI_StatPanel_Title</value>
-  </data>
-  <data name="&gt;&gt;UI_StatPanel_Title.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;UI_StatPanel_Title.Parent" xml:space="preserve">
-    <value>UI_StatPanel</value>
-  </data>
-  <data name="&gt;&gt;UI_StatPanel_Title.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="UI_StatPanel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="UI_StatPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>534, 66</value>
-  </data>
-  <data name="UI_StatPanel.TabIndex" type="System.Int32, mscorlib">
-    <value>74</value>
-  </data>
-  <data name="&gt;&gt;UI_StatPanel.Name" xml:space="preserve">
-    <value>UI_StatPanel</value>
-  </data>
-  <data name="&gt;&gt;UI_StatPanel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;UI_StatPanel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;UI_StatPanel.ZOrder" xml:space="preserve">
-    <value>1</value>
   </data>
   <metadata name="UI_HeaderBorder.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -477,53 +402,29 @@
   <data name="&gt;&gt;UI_StatPanel_Title.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="UI_BtmBar_Panel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left, Right</value>
+  <data name="UI_StatPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
   </data>
-  <data name="&gt;&gt;UI_ButtonsPanel.Name" xml:space="preserve">
-    <value>UI_ButtonsPanel</value>
+  <data name="UI_StatPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>534, 66</value>
   </data>
-  <data name="&gt;&gt;UI_ButtonsPanel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="UI_StatPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>74</value>
   </data>
-  <data name="&gt;&gt;UI_ButtonsPanel.Parent" xml:space="preserve">
-    <value>UI_BtmBar_Panel</value>
+  <data name="&gt;&gt;UI_StatPanel.Name" xml:space="preserve">
+    <value>UI_StatPanel</value>
   </data>
-  <data name="&gt;&gt;UI_ButtonsPanel.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;UI_ButtonsPanel2.Name" xml:space="preserve">
-    <value>UI_ButtonsPanel2</value>
-  </data>
-  <data name="&gt;&gt;UI_ButtonsPanel2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;UI_ButtonsPanel2.Parent" xml:space="preserve">
-    <value>UI_BtmBar_Panel</value>
-  </data>
-  <data name="&gt;&gt;UI_ButtonsPanel2.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="UI_BtmBar_Panel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 143</value>
-  </data>
-  <data name="UI_BtmBar_Panel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>534, 48</value>
-  </data>
-  <data name="UI_BtmBar_Panel.TabIndex" type="System.Int32, mscorlib">
-    <value>75</value>
-  </data>
-  <data name="&gt;&gt;UI_BtmBar_Panel.Name" xml:space="preserve">
-    <value>UI_BtmBar_Panel</value>
-  </data>
-  <data name="&gt;&gt;UI_BtmBar_Panel.Type" xml:space="preserve">
+  <data name="&gt;&gt;UI_StatPanel.Type" xml:space="preserve">
     <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;UI_BtmBar_Panel.Parent" xml:space="preserve">
+  <data name="&gt;&gt;UI_StatPanel.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;UI_BtmBar_Panel.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="&gt;&gt;UI_StatPanel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="UI_BtmBar_Panel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
   </data>
   <data name="UI_ButtonsPanel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Right</value>
@@ -575,6 +476,27 @@
   </data>
   <data name="&gt;&gt;UI_ButtonsPanel2.ZOrder" xml:space="preserve">
     <value>1</value>
+  </data>
+  <data name="UI_BtmBar_Panel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 143</value>
+  </data>
+  <data name="UI_BtmBar_Panel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>534, 48</value>
+  </data>
+  <data name="UI_BtmBar_Panel.TabIndex" type="System.Int32, mscorlib">
+    <value>75</value>
+  </data>
+  <data name="&gt;&gt;UI_BtmBar_Panel.Name" xml:space="preserve">
+    <value>UI_BtmBar_Panel</value>
+  </data>
+  <data name="&gt;&gt;UI_BtmBar_Panel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UI_BtmBar_Panel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;UI_BtmBar_Panel.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>

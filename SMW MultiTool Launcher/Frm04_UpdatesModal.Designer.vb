@@ -56,6 +56,7 @@ Partial Class Frm04_UpdatesModal
         'UI_SearchUpdateBtn
         '
         resources.ApplyResources(Me.UI_SearchUpdateBtn, "UI_SearchUpdateBtn")
+        Me.UI_SearchUpdateBtn.BackColor = System.Drawing.SystemColors.Control
         Me.UI_SearchUpdateBtn.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
         Me.UI_SearchUpdateBtn.FlatAppearance.BorderSize = 0
         Me.UI_SearchUpdateBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray
@@ -87,6 +88,7 @@ Partial Class Frm04_UpdatesModal
         'UI_DownloadUpdateBtn
         '
         resources.ApplyResources(Me.UI_DownloadUpdateBtn, "UI_DownloadUpdateBtn")
+        Me.UI_DownloadUpdateBtn.BackColor = System.Drawing.SystemColors.Control
         Me.UI_DownloadUpdateBtn.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
         Me.UI_DownloadUpdateBtn.FlatAppearance.BorderSize = 0
         Me.UI_DownloadUpdateBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray
@@ -99,6 +101,7 @@ Partial Class Frm04_UpdatesModal
         'UI_InstallUpdateBtn
         '
         resources.ApplyResources(Me.UI_InstallUpdateBtn, "UI_InstallUpdateBtn")
+        Me.UI_InstallUpdateBtn.BackColor = System.Drawing.SystemColors.Control
         Me.UI_InstallUpdateBtn.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
         Me.UI_InstallUpdateBtn.FlatAppearance.BorderSize = 0
         Me.UI_InstallUpdateBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray
