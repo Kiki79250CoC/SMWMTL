@@ -36,7 +36,7 @@ However, there's an exception for the last release of a codebase (like 1.20 and 
 | 2.11 • 2.10-LTS.2  | 16 June 2021       | 13 September 2022   | Support End Soon         |
 | 2.10 • 2.10-LTS.1  | 13 April 2021      | 12 July 2022        | Support Ended            |
 ||
-| 2.07               | 09 March 2021      | 11 March 2025       | Support Ended            |
+| 2.07               | 09 March 2021      | 11 March 2025       | Supported (Last Release) |
 | 2.06               | 09 February 2021   | 12 April 2022       | Support Ended            |
 | 2.05               | 07 January 2021    | 08 March 2022       | Support Ended            |
 | 2.04               | 04 November 2020   | 08 February 2022    | Support Ended            |
