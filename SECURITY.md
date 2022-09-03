@@ -4,7 +4,7 @@ As SMWMTL is not a critical application and never touches at critical Windows fe
 
 Remember that if the problem you wants to report is from .NET Framework itself, I probably can't fix it except by changing the .NET Framework version used, which will leads to end support for Windows Vista and 8 (which don't support .NET Framework versions above 4.6) unplannedly.
 
-<sup>*See [Supported Operating Systems](../Stable/SystemComp.md) for more details about supported operating systems.*</sup>
+<sup>*See [Supported Operating Systems](../Dev/SystemComp.md) for more details about supported operating systems.*</sup>
 
 ## Versions support policy
 
