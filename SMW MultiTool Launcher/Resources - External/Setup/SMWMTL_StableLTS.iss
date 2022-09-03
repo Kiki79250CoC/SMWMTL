@@ -4,8 +4,8 @@
 #define AppDataDirectoryName "SMW MultiTools Launcher LTS"
 #define MyAppExeName "SMWMTL.exe"
 
-#define MyAppVersion "2.10.1220.50"
-#define MyShortAppVersion "2.10-LTS.10"
+#define MyAppVersion "2.10.1220.61"
+#define MyShortAppVersion "2.10-LTS.11"
 
 #define MyAppPublisher "AstragonQC Softwares"
 #define MyAppURL "https://kiki79250.wixsite.com/smwmtl"
@@ -45,7 +45,7 @@ AppCopyright=Copyright © 2018-{#MyDateTimeString} {#MyAppPublisher}
 VersionInfoOriginalFileName=SMWMTL_{#MyShortAppVersion}_win64.exe
 VersionInfoDescription={#MyShortAppName} v{#MyShortAppVersion} Setup
 
-ArchitecturesAllowed=x64
+;ArchitecturesAllowed=x64
 MinVersion=0,6.0.6002
 
 ; Installer Options
@@ -83,6 +83,7 @@ Name: "quicklaunchicon"; Description: "{cm:CreateQuickLaunchIcon}"; GroupDescrip
 [Files]
 Source: "S:\SMWMTL Maintenance\Compilation\LTS\CompExe64\SMWMTL.exe"; DestDir: "{app}"; Flags: ignoreversion
 Source: "S:\SMWMTL Maintenance\Compilation\LTS\x64\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "S:\SMWMTL Maintenance\Compilation\LTS\Common\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]
