@@ -1,9 +1,9 @@
 # Super Mario World MultiTools Launcher (SMWMTL)
-![AppBranding](https://github.com/Kiki79250CoC/SMWMTL/blob/543e5caeecbf7b5290c8885f1ad31d8adfbd69a5/Releases/Images/AppBrand/AppBrandLogo_Montr%C3%A9al.png)
+![AppBranding](https://github.com/Kiki79250CoC/SMWMTL/blob/8699736fe4029cb76815780130a2336fa5f9f6a1/Releases/Images/AppBrand/AppBrandLogo_Montr%C3%A9al.png
 Super Mario World MultiTools Launcher is a small program writted in VisualBasic.NET under Framework 4.6, which allows to create Super Mario World Hacks more easily (if you use your own-dumped ROM) by grouping all tools in one place instead of travel into each folder to find what tool you want to use.
 
 ## Build SMWMTL from source:
-For building SMWMTL from it's source code, you need Visual Studio 2022 (Version 17.2) and the .NET Framework 4.6 targeting package.
+For building SMWMTL from it's source code, you need [Visual Studio 2022](https://visualstudio.microsoft.com/fr/vs/) (Version 17.3) and the .NET Framework 4.6 targeting package.
 
 ## Why SMWMTL ?
 
@@ -16,7 +16,7 @@ The left one is the list of Application that SMWMTL can launch, and the right on
 
 The bottom zone is for some tools like Settings, Report bug form and some other features.
 
-![SMWMTL222](https://github.com/Kiki79250CoC/SMWMTL/blob/5d245031cad1dd715dcc7d047ab184f21fe52851/Releases/Images/SMWMTL222.png)
+![SMWMTL223](https://github.com/Kiki79250CoC/SMWMTL/blob/8699736fe4029cb76815780130a2336fa5f9f6a1/Releases/Images/SMWMTL223.png)
 
 ## System Requirements:
 ### SMWMTL 2.20 and up
@@ -29,7 +29,7 @@ The bottom zone is for some tools like Settings, Report bug form and some other 
 | Disk space              | 128 MB                           | 512 MB                                          |
 | Screen Resolution       | 1366x768 Pixels                  | 1600x900 Pixels                                 |
 
-### SMWMTL 2.00 up to SMWMTL 2.18 (2.10-LTS.x versions included)
+### SMWMTL 1.20 & 2.00 up to SMWMTL 2.18 (2.10-LTS.x versions included)
 
 |                         | Minimal Configuration            | Recommended Configuration                       |
 | ----------------------- | -------------------------------- | ----------------------------------------------- |
