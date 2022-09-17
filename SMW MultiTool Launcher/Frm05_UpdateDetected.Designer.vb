@@ -51,6 +51,7 @@ Partial Class Frm05_UpdateDetected
         'UI_InstallUpdateBtn
         '
         resources.ApplyResources(Me.UI_InstallUpdateBtn, "UI_InstallUpdateBtn")
+        Me.UI_InstallUpdateBtn.BackColor = System.Drawing.SystemColors.Control
         Me.UI_InstallUpdateBtn.Name = "UI_InstallUpdateBtn"
         Me.UI_InstallUpdateBtn.UseVisualStyleBackColor = True
         '
@@ -127,12 +128,14 @@ Partial Class Frm05_UpdateDetected
         'UI_IgnoreVersionUpdateBtn
         '
         resources.ApplyResources(Me.UI_IgnoreVersionUpdateBtn, "UI_IgnoreVersionUpdateBtn")
+        Me.UI_IgnoreVersionUpdateBtn.BackColor = System.Drawing.SystemColors.Control
         Me.UI_IgnoreVersionUpdateBtn.Name = "UI_IgnoreVersionUpdateBtn"
         Me.UI_IgnoreVersionUpdateBtn.UseVisualStyleBackColor = True
         '
         'UI_DeclineUpdateBtn
         '
         resources.ApplyResources(Me.UI_DeclineUpdateBtn, "UI_DeclineUpdateBtn")
+        Me.UI_DeclineUpdateBtn.BackColor = System.Drawing.SystemColors.Control
         Me.UI_DeclineUpdateBtn.Name = "UI_DeclineUpdateBtn"
         Me.UI_DeclineUpdateBtn.UseVisualStyleBackColor = True
         '
