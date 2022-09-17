@@ -47,15 +47,19 @@ Partial Class FrmDlg01_ResetConfirmation
         'OK_Button
         '
         resources.ApplyResources(Me.OK_Button, "OK_Button")
+        Me.OK_Button.BackColor = System.Drawing.SystemColors.Control
         Me.OK_Button.ForeColor = System.Drawing.SystemColors.ControlText
         Me.OK_Button.Name = "OK_Button"
+        Me.OK_Button.UseVisualStyleBackColor = True
         '
         'Cancel_Button
         '
         resources.ApplyResources(Me.Cancel_Button, "Cancel_Button")
+        Me.Cancel_Button.BackColor = System.Drawing.SystemColors.Control
         Me.Cancel_Button.DialogResult = System.Windows.Forms.DialogResult.Cancel
         Me.Cancel_Button.ForeColor = System.Drawing.SystemColors.ControlText
         Me.Cancel_Button.Name = "Cancel_Button"
+        Me.Cancel_Button.UseVisualStyleBackColor = True
         '
         'Text_01
         '
@@ -73,8 +77,10 @@ Partial Class FrmDlg01_ResetConfirmation
         'ExportSettings_Button
         '
         resources.ApplyResources(Me.ExportSettings_Button, "ExportSettings_Button")
+        Me.ExportSettings_Button.BackColor = System.Drawing.SystemColors.Control
         Me.ExportSettings_Button.ForeColor = System.Drawing.SystemColors.ControlText
         Me.ExportSettings_Button.Name = "ExportSettings_Button"
+        Me.ExportSettings_Button.UseVisualStyleBackColor = True
         '
         'ExportSettings_SaveFileDialog
         '

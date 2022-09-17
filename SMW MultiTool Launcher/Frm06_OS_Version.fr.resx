@@ -173,7 +173,7 @@
     <value>Informations Système Avancées</value>
   </data>
   <data name="UI_StatPanel_Description.Text" xml:space="preserve">
-    <value>Voici quelques informations votre ordinateur ainsi que votre système d'exploitation.</value>
+    <value>Voici quelques informations concernant votre ordinateur ainsi que votre système d'exploitation.</value>
   </data>
   <data name="UI_StatPanel_Title.Text" xml:space="preserve">
     <value>Version de l'OS</value>
