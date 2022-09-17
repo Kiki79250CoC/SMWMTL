@@ -119,6 +119,7 @@ Public Class Frm03_Settings
                     Select Case AeroEnabled()
                         Case False
                             ImgBx.Visible = False
+                            AppOption_OpacityValue.BackColor = SystemColors.Control
 
                     End Select
 
