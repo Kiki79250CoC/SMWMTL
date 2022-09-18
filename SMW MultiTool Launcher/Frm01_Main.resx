@@ -5371,7 +5371,7 @@
     <value>SysTray_MenuIcons</value>
   </data>
   <data name="&gt;&gt;SysTray_MenuIcons.Type" xml:space="preserve">
-    <value>wyDay.Controls.VistaMenu, VistaMenu, Version=1.9.1.0, Culture=neutral, PublicKeyToken=fd9c5de33f4a31ac</value>
+    <value>SMWMTLextensions.Controls.VistaMenu, SMWMTLextensions, Version=1.10.0.0, Culture=neutral, PublicKeyToken=dc405ec29ce8ec15</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>Frm01_Main</value>

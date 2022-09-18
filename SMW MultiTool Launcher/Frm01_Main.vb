@@ -104,8 +104,11 @@ Public Class Frm01_Main
                         Case False
                             ImgBx.Visible = False
 
-                            Applications_TabPanel.BackColor = SystemColors.Control()
-                            SubMenu_TabPanel.BackColor = SystemColors.Control()
+                            Applications_TabPanel.BackColor = SystemColors.Control
+                            SubMenu_TabPanel.BackColor = SystemColors.Control
+
+                            TabLineDeco.BackColor = Color.White
+                            UpdateSearchState_Panel.BackColor = SystemColors.Control
 
                     End Select
 

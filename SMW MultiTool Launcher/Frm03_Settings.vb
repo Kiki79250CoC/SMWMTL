@@ -841,10 +841,10 @@ Public Class Frm03_Settings
                 WinverIcon_Preview.Image = My.Resources.Winver_LogoL_Win3xNT4
 
             Case 6
-                WinverIcon_Preview.Image = My.Resources.Winver_LogoL_Win9x2000
+                WinverIcon_Preview.Image = My.Resources.Winver_LogoL_WinME
 
             Case 7
-                WinverIcon_Preview.Image = My.Resources.Winver_LogoL_WinME
+                WinverIcon_Preview.Image = My.Resources.Winver_LogoL_Win9x2000
 
             Case 8
                 WinverIcon_Preview.Image = My.Resources.Winver_LogoL_WinWhistler
