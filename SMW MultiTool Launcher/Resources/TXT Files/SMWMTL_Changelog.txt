@@ -13,6 +13,19 @@
 ──────────────────────────────────────────────────┤ Versions 2.2x - 2.2x.160x.xx ├──────────────────────────────────────────────────
                                                   └──────────────────────────────┘
   ┌─────────────────────────────┐
+──┤ Version 2.24 - 2.24.1600.41 ├───────────────────────────────────────────────────────────────────────────────────────────────────
+  └─────────────────────────────┘
+
+- Bug fixes :
+    - Fixed a bug with Lunar Magic v3.32 image that displays only on Slot 1 button.
+    - Fixed buttons appearance in Update notification pop-up if using Windows Classic.
+    - Fixed a bug that does not apply color adaptation for application opacity slider when WinClassic Enhancements are enabled.
+
+- Modifications :
+    - Repalced Lunar Magic v3.40 assets with v3.32 ones. Tried to preshot this new release, and failed for a second time.
+    - Improved appearance of the SMWMTL_Update module in main window on WinClassic when WinClassic Enhancements are enabled.
+
+  ┌─────────────────────────────┐
 ──┤ Version 2.23 - 2.23.1600.33 ├───────────────────────────────────────────────────────────────────────────────────────────────────
   └─────────────────────────────┘
 

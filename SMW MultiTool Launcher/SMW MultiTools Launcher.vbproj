@@ -417,6 +417,7 @@
     <Content Include="Resources\UI_Elements\Background Images\Window Titlebar\TitleYellow.png" />
     <Content Include="Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_1CTL_Error.png" />
     <None Include="Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_340.png" />
+    <None Include="Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_332.png" />
     <Content Include="Resources\UI_Elements\Icons\Application Column\Other\AppIcon_AddMusicK.png" />
     <Content Include="Resources\UI_Elements\Icons\Application Column\Other\AppIcon_Asar.png" />
     <Content Include="Resources\UI_Elements\Icons\Application Column\Other\AppIcon_Blockreator.png" />

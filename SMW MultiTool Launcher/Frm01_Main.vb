@@ -104,8 +104,11 @@ Public Class Frm01_Main
                         Case False
                             ImgBx.Visible = False
 
-                            Applications_TabPanel.BackColor = SystemColors.Control()
-                            SubMenu_TabPanel.BackColor = SystemColors.Control()
+                            Applications_TabPanel.BackColor = SystemColors.Control
+                            SubMenu_TabPanel.BackColor = SystemColors.Control
+
+                            TabLineDeco.BackColor = Color.White
+                            UpdateSearchState_Panel.BackColor = SystemColors.Control
 
                     End Select
 
@@ -1770,7 +1773,7 @@ Public Class Frm01_Main
                             Case 58
                                 LM_Option_1.Image = My.Resources.LM_331
                             Case 59
-                                LM_Option_1.Image = My.Resources.LM_340
+                                LM_Option_1.Image = My.Resources.LM_332
                             Case 60
                                 LM_Option_1.Image = My.Resources.LM_NORMAL
                         End Select
@@ -1921,7 +1924,7 @@ Public Class Frm01_Main
                             Case 58
                                 LM_Option_2.Image = My.Resources.LM_331
                             Case 59
-                                LM_Option_1.Image = My.Resources.LM_340
+                                LM_Option_2.Image = My.Resources.LM_332
                             Case 60
                                 LM_Option_2.Image = My.Resources.LM_NORMAL
                         End Select
@@ -2072,7 +2075,7 @@ Public Class Frm01_Main
                             Case 58
                                 LM_Option_3.Image = My.Resources.LM_331
                             Case 59
-                                LM_Option_1.Image = My.Resources.LM_340
+                                LM_Option_3.Image = My.Resources.LM_332
                             Case 60
                                 LM_Option_3.Image = My.Resources.LM_NORMAL
                         End Select

@@ -7657,7 +7657,7 @@
     <value>3.31</value>
   </data>
   <data name="AppOption_LMslot3_Version.Items59" xml:space="preserve">
-    <value>3.40</value>
+    <value>3.32</value>
   </data>
   <data name="AppOption_LMslot3_Version.Location" type="System.Drawing.Point, System.Drawing">
     <value>165, 60</value>
@@ -8143,7 +8143,7 @@
     <value>3.31</value>
   </data>
   <data name="AppOption_LMslot1_Version.Items59" xml:space="preserve">
-    <value>3.40</value>
+    <value>3.32</value>
   </data>
   <data name="AppOption_LMslot1_Version.Location" type="System.Drawing.Point, System.Drawing">
     <value>165, 60</value>
@@ -8629,7 +8629,7 @@
     <value>3.31</value>
   </data>
   <data name="AppOption_LMslot2_Version.Items59" xml:space="preserve">
-    <value>3.40</value>
+    <value>3.32</value>
   </data>
   <data name="AppOption_LMslot2_Version.Location" type="System.Drawing.Point, System.Drawing">
     <value>165, 60</value>
