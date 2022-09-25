@@ -244,6 +244,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Frm03_Settings.resx">
       <DependentUpon>Frm03_Settings.vb</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm04_UpdatesModal.fr.resx">
       <DependentUpon>Frm04_UpdatesModal.vb</DependentUpon>
@@ -419,6 +420,7 @@
     <Content Include="Resources\UI_Elements\Background Images\Window Titlebar\TitleRed.png" />
     <Content Include="Resources\UI_Elements\Background Images\Window Titlebar\TitleYellow.png" />
     <Content Include="Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_1CTL_Error.png" />
+    <None Include="Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_332.png" />
     <Content Include="Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_340.png" />
     <Content Include="Resources\UI_Elements\Icons\Application Column\Other\AppIcon_AddMusicK.png" />
     <Content Include="Resources\UI_Elements\Icons\Application Column\Other\AppIcon_Asar.png" />

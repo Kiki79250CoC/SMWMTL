@@ -118,7 +118,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Recherche une chaîne localisée semblable à 1712.00.
+        '''  Recherche une chaîne localisée semblable à 1713.00.
         '''</summary>
         Friend ReadOnly Property APP_VERSION_BUILD() As String
             Get
@@ -127,7 +127,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Recherche une chaîne localisée semblable à 2.20.1712.00-am1bld-04.
+        '''  Recherche une chaîne localisée semblable à 2.20.1713.00-am1bld-05.
         '''</summary>
         Friend ReadOnly Property APP_VERSION_COMPLETE() As String
             Get
@@ -625,7 +625,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Recherche une chaîne localisée semblable à 180922.
+        '''  Recherche une chaîne localisée semblable à 250922.
         '''</summary>
         Friend ReadOnly Property BUILD_DATE_COMBINED() As String
             Get
@@ -634,7 +634,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Recherche une chaîne localisée semblable à 18.
+        '''  Recherche une chaîne localisée semblable à 25.
         '''</summary>
         Friend ReadOnly Property BUILD_DATE_DAY() As String
             Get
@@ -1495,6 +1495,16 @@ Namespace My.Resources
         Friend ReadOnly Property LM_331() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("LM_331", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property LM_332() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("LM_332", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
