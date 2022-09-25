@@ -16,7 +16,7 @@ The left one is the list of Application that SMWMTL can launch, and the right on
 
 The bottom zone is for some tools like Settings, Report bug form and some other features.
 
-![SMWMTL223](https://github.com/Kiki79250CoC/SMWMTL/blob/8699736fe4029cb76815780130a2336fa5f9f6a1/Releases/Images/SMWMTL223.png)
+![SMWMTL224](https://github.com/Kiki79250CoC/SMWMTL/blob/218825c31500ecbfc5bca80448c3f810690012f6/Releases/Images/SMWMTL224.png)
 
 ## System Requirements:
 ### SMWMTL 2.20 and up
