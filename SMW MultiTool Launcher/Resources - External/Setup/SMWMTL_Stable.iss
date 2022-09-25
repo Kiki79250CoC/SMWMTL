@@ -3,8 +3,8 @@
 #define MyShortAppName "SMW MultiTools Launcher"
 #define MyAppExeName "SMWMTL.exe"
 
-#define MyAppVersion "2.23.1600.33"
-#define MyShortAppVersion "2.23"
+#define MyAppVersion "2.24.1600.41"
+#define MyShortAppVersion "2.24"
 
 #define MyAppPublisher "AstragonQC Softwares"
 #define MyAppURL "https://kiki79250.wixsite.com/smwmtl"
