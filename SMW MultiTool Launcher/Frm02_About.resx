@@ -939,6 +939,42 @@
   <metadata name="CopyBuildStringToolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>-1, 5</value>
   </metadata>
+  <data name="EATempLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="EATempLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="EATempLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="EATempLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>474, 228</value>
+  </data>
+  <data name="EATempLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>363, 21</value>
+  </data>
+  <data name="EATempLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="EATempLabel.Text" xml:space="preserve">
+    <value>Product designed and built in Listenbourg &lt;3</value>
+  </data>
+  <data name="EATempLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="&gt;&gt;EATempLabel.Name" xml:space="preserve">
+    <value>EATempLabel</value>
+  </data>
+  <data name="&gt;&gt;EATempLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EATempLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;EATempLabel.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>

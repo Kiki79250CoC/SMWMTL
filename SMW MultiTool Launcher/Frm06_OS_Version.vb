@@ -94,8 +94,11 @@ Public Class Frm06_OS_Version
 
         ' Service Pack
         Select Case Win_NT_Version
-            Case "6.0", "6.1", "6.2"
+            Case "6.0", "6.1"
                 WindowsServicePack_Value.Text = If(WindowsServicePack_Value.Text = Nothing, "RTM", Environment.OSVersion.ServicePack)
+
+            Case "6.2"
+                WindowsServicePack_Value.Text = "RTM"
 
             Case "6.3"
                 WindowsServicePack_Value.Text = If(Win_UpdateRevisionNbr >= 17031, "Update 1", "RTM")

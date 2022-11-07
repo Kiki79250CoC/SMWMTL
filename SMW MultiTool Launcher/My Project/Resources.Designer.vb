@@ -109,7 +109,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Recherche une chaîne localisée semblable à 2.24.
+        '''  Recherche une chaîne localisée semblable à 2.25.
         '''</summary>
         Friend ReadOnly Property APP_VERSION() As String
             Get
@@ -118,7 +118,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Recherche une chaîne localisée semblable à 1600.41.
+        '''  Recherche une chaîne localisée semblable à 1600.53.
         '''</summary>
         Friend ReadOnly Property APP_VERSION_BUILD() As String
             Get
@@ -127,7 +127,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Recherche une chaîne localisée semblable à 2.24.1600.41-rv4bld-01.
+        '''  Recherche une chaîne localisée semblable à 2.25.1600.53-rv5bld-03.
         '''</summary>
         Friend ReadOnly Property APP_VERSION_COMPLETE() As String
             Get
@@ -136,7 +136,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Recherche une chaîne localisée semblable à 02.24.
+        '''  Recherche une chaîne localisée semblable à 02.25.
         '''</summary>
         Friend ReadOnly Property APP_VERSION_WITHZERO() As String
             Get
@@ -625,7 +625,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Recherche une chaîne localisée semblable à 250922.
+        '''  Recherche une chaîne localisée semblable à 071122.
         '''</summary>
         Friend ReadOnly Property BUILD_DATE_COMBINED() As String
             Get
@@ -634,7 +634,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Recherche une chaîne localisée semblable à 25.
+        '''  Recherche une chaîne localisée semblable à 07.
         '''</summary>
         Friend ReadOnly Property BUILD_DATE_DAY() As String
             Get
@@ -643,7 +643,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Recherche une chaîne localisée semblable à 09.
+        '''  Recherche une chaîne localisée semblable à 11.
         '''</summary>
         Friend ReadOnly Property BUILD_DATE_MONTH() As String
             Get
@@ -1505,6 +1505,16 @@ Namespace My.Resources
         Friend ReadOnly Property LM_332() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("LM_332", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property LM_333() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("LM_333", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property

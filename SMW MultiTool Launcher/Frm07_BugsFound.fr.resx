@@ -140,7 +140,7 @@
     <value>320, 85</value>
   </data>
   <data name="Text_1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>611, 143</value>
+    <value>558, 91</value>
   </data>
   <data name="Text_1.Text" xml:space="preserve">
     <value>Pour signaler un problème, vous pouvez m'envoyer un mail à :
@@ -150,10 +150,7 @@ Ou vous pouvez me contacter sur SMWC.net :
 
 Si vous le souhaitez, vous pouvez également me contacter via les boutons en bas de cette fenêtre.
 Je vous recommande d'ouvrir un ticket de bug sur le repo GitHub et expliquer étape par étape comment le reproduire.
-
---
-
-A partir de janvier 2023, si certains liens semblent morts, essayez de remplacer "Kiki79250CoC" par "AstragonQC" dans les liens.</value>
+</value>
   </data>
   <data name="GitHubBtn.Text" xml:space="preserve">
     <value>Repo GitHub</value>
@@ -170,37 +167,37 @@ A partir de janvier 2023, si certains liens semblent morts, essayez de remplacer
 </value>
   </data>
   <data name="UI_BtmBar_Panel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 246</value>
+    <value>0, 197</value>
   </data>
   <data name="UI_BtmBar_Panel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>663, 48</value>
+    <value>609, 48</value>
   </data>
   <data name="UI_ButtonsPanel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>519, 10</value>
+    <value>465, 10</value>
   </data>
   <data name="UI_ButtonsPanel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>503, 30</value>
+    <value>449, 30</value>
   </data>
   <data name="UI_StatPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>663, 66</value>
+    <value>609, 66</value>
   </data>
   <data name="UI_HeaderBorder.Size" type="System.Drawing.Size, System.Drawing">
-    <value>663, 2</value>
+    <value>609, 2</value>
   </data>
   <data name="UI_StatPanel_Description.Size" type="System.Drawing.Size, System.Drawing">
-    <value>593, 13</value>
+    <value>539, 13</value>
   </data>
   <data name="UI_StatPanel_Description.Text" xml:space="preserve">
     <value>Voici quelques instructions si vous souhaitez signaler un bug ou un énorme problème de crash</value>
   </data>
   <data name="UI_StatPanel_Title.Size" type="System.Drawing.Size, System.Drawing">
-    <value>596, 30</value>
+    <value>542, 30</value>
   </data>
   <data name="UI_StatPanel_Title.Text" xml:space="preserve">
     <value>Signaler un Bug / Crash</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>663, 296</value>
+    <value>609, 247</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Signaler un Bug / Crash</value>

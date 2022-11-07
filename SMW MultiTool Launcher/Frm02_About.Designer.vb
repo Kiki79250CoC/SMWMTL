@@ -47,6 +47,7 @@ Partial Class Frm02_About
         Me.UI_AppNameBorder = New System.Windows.Forms.Panel()
         Me.UpdateSysVersion_Label = New System.Windows.Forms.Label()
         Me.CopyBuildStringToolTip = New System.Windows.Forms.ToolTip(Me.components)
+        Me.EATempLabel = New System.Windows.Forms.Label()
         CType(Me.Info_UpdateStatusIcon, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.AppLogo_Image, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.UI_ButtonsPanel.SuspendLayout()
@@ -222,6 +223,12 @@ Partial Class Frm02_About
         Me.UpdateSysVersion_Label.BackColor = System.Drawing.Color.Transparent
         Me.UpdateSysVersion_Label.Name = "UpdateSysVersion_Label"
         '
+        'EATempLabel
+        '
+        resources.ApplyResources(Me.EATempLabel, "EATempLabel")
+        Me.EATempLabel.BackColor = System.Drawing.Color.Transparent
+        Me.EATempLabel.Name = "EATempLabel"
+        '
         'Frm02_About
         '
         Me.AcceptButton = Me.UI_Btn_OK
@@ -237,6 +244,7 @@ Partial Class Frm02_About
         Me.Controls.Add(Me.UI_AppNamePanel)
         Me.Controls.Add(Me.UI_StatPanel)
         Me.Controls.Add(Me.UpdateSysVersion_Label)
+        Me.Controls.Add(Me.EATempLabel)
         Me.DoubleBuffered = True
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
         Me.MaximizeBox = False
@@ -280,4 +288,5 @@ Partial Class Frm02_About
     Friend WithEvents UI_BtmBar_PanelBorder As Panel
     Friend WithEvents UpdateSysVersion_Label As Label
     Friend WithEvents CopyBuildStringToolTip As ToolTip
+    Friend WithEvents EATempLabel As Label
 End Class

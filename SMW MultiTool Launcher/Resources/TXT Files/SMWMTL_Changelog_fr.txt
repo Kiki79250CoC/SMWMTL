@@ -17,6 +17,21 @@
   └─────────────────────────────┘
 
 - Corrections de bugs :
+    - Correction d'un bug de détection de l'OS pouvant affecter l'expérience de SMWMTL sur certains systèmes exécutant Windows 8.
+
+- Modifications :
+    - Ajout du support de Lunar Magic v3.33.
+    - Modification de la gestion des icônes de Lunar Magic pour afficher l'icône par défaut lorsqu'une version plus récente de
+      LM a été configurée depuis une version plus récente de SMWMTL.
+    - Suppression de la notification du changement de pseudo dans la fenêtre de rapport de crash.
+    - "Produit conçu et réalisé au Listenbourg <3"
+    - Mis à jour les numéros de builds de la variante LTS dans la fenêtre "Plus d'informations".
+
+  ┌─────────────────────────────┐
+──┤ Version 2.24 - 2.24.1600.41 ├───────────────────────────────────────────────────────────────────────────────────────────────────
+  └─────────────────────────────┘
+
+- Corrections de bugs :
     - Correction d'un bug avec l'image de Lunar Magic v3.32 qui ne s'affichait que sur le bouton du Slot 1.
     - Correction de l'apparence des boutons sur la pop-up de notification des mises à jour si utilisation de Windows Classic.
     - Correction d'un bug qui n'applique pas l'adaptation de couleur sur le slider de sélection de l'opacité de l'application si
@@ -51,7 +66,7 @@
 ──┤ Version 2.22 - 2.22.1600.21 ├───────────────────────────────────────────────────────────────────────────────────────────────────
   └─────────────────────────────┘
 
-- Correction de bugs :
+- Corrections de bugs :
     - Correction d'un bug critique empêchant SMWMTL d'être démarré sur les systèmes dont la date n'est pas affichée au format
       JJ/MM/AAAA.
 
@@ -63,7 +78,7 @@
 ──┤ Version 2.21 - 2.21.1600.12 ├───────────────────────────────────────────────────────────────────────────────────────────────────
   └─────────────────────────────┘
 
-- Correction de bugs :
+- Corrections de bugs :
     - Fenêtre Principale :
         - Correction d'un bug visuel qui faisait disparaître une partie de la bordure de la section 'Applications' si le nombre de
           colonnes n'est pas à sa valeur par défaut (7).
@@ -385,7 +400,7 @@
 ──┤ Version 2.14 - 2.14.1200.41 ├───────────────────────────────────────────────────────────────────────────────────────────────────
   └─────────────────────────────┘
 
-- Bugs corrigés :
+- Corrections de bugs :
     - Fenêtre de première Configuration de SMWMTL :
         - Correction du bug des boutons transparents avec Windows Classic dans l'OOBE sur Windows XP/Vista/7.
         - Correction des bugs d'affichage des textes durant la configuration personnalisée du logiciel avec Windows Classic sur

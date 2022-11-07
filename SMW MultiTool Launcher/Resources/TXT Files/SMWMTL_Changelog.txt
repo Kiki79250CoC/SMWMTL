@@ -13,6 +13,21 @@
 ──────────────────────────────────────────────────┤ Versions 2.2x - 2.2x.160x.xx ├──────────────────────────────────────────────────
                                                   └──────────────────────────────┘
   ┌─────────────────────────────┐
+──┤ Version 2.25 - 2.25.1600.53 ├───────────────────────────────────────────────────────────────────────────────────────────────────
+  └─────────────────────────────┘
+
+- Bug fixes :
+    - Fixed a OS detection bug that can affect some Windows 8 installations.
+
+- Modifications :
+    - Added support for Lunar Magic v3.33.
+    - Modified Lunar Magic version icon handler to display default LM icon if a newer LM version have been selected by a newer
+      SMWMTL version.
+    - Removed username change notification from Crash report window.
+    - "Product designed and built in Listenbourg <3".
+    - Updated LTS build number in "More infos" window.
+
+  ┌─────────────────────────────┐
 ──┤ Version 2.24 - 2.24.1600.41 ├───────────────────────────────────────────────────────────────────────────────────────────────────
   └─────────────────────────────┘
 

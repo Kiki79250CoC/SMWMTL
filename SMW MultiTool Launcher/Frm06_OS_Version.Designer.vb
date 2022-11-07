@@ -156,74 +156,74 @@ Partial Class Frm06_OS_Version
         '
         'Text5
         '
-        resources.ApplyResources(Me.Text5, "Text5")
         Me.Text5.BackColor = System.Drawing.Color.Transparent
+        resources.ApplyResources(Me.Text5, "Text5")
         Me.Text5.Name = "Text5"
         '
         'Text2
         '
-        resources.ApplyResources(Me.Text2, "Text2")
         Me.Text2.BackColor = System.Drawing.Color.Transparent
+        resources.ApplyResources(Me.Text2, "Text2")
         Me.Text2.Name = "Text2"
         '
         'Text6
         '
-        resources.ApplyResources(Me.Text6, "Text6")
         Me.Text6.BackColor = System.Drawing.Color.Transparent
+        resources.ApplyResources(Me.Text6, "Text6")
         Me.Text6.Name = "Text6"
         '
         'Text7
         '
-        resources.ApplyResources(Me.Text7, "Text7")
         Me.Text7.BackColor = System.Drawing.Color.Transparent
+        resources.ApplyResources(Me.Text7, "Text7")
         Me.Text7.Name = "Text7"
         '
         'Text8
         '
-        resources.ApplyResources(Me.Text8, "Text8")
         Me.Text8.BackColor = System.Drawing.Color.Transparent
+        resources.ApplyResources(Me.Text8, "Text8")
         Me.Text8.Name = "Text8"
         '
         'Text10
         '
-        resources.ApplyResources(Me.Text10, "Text10")
         Me.Text10.BackColor = System.Drawing.Color.Transparent
+        resources.ApplyResources(Me.Text10, "Text10")
         Me.Text10.Name = "Text10"
         '
         'Text9
         '
-        resources.ApplyResources(Me.Text9, "Text9")
         Me.Text9.BackColor = System.Drawing.Color.Transparent
+        resources.ApplyResources(Me.Text9, "Text9")
         Me.Text9.Name = "Text9"
         '
         'Text1
         '
-        resources.ApplyResources(Me.Text1, "Text1")
         Me.Text1.BackColor = System.Drawing.Color.Transparent
+        resources.ApplyResources(Me.Text1, "Text1")
         Me.Text1.Name = "Text1"
         '
         'Text4
         '
-        resources.ApplyResources(Me.Text4, "Text4")
         Me.Text4.BackColor = System.Drawing.Color.Transparent
+        resources.ApplyResources(Me.Text4, "Text4")
         Me.Text4.Name = "Text4"
         '
         'Text3
         '
-        resources.ApplyResources(Me.Text3, "Text3")
         Me.Text3.BackColor = System.Drawing.Color.Transparent
+        resources.ApplyResources(Me.Text3, "Text3")
         Me.Text3.Name = "Text3"
         '
         'Text14
         '
-        resources.ApplyResources(Me.Text14, "Text14")
         Me.Text14.BackColor = System.Drawing.Color.Transparent
+        resources.ApplyResources(Me.Text14, "Text14")
         Me.Text14.Name = "Text14"
         '
         'Text13
         '
-        resources.ApplyResources(Me.Text13, "Text13")
         Me.Text13.BackColor = System.Drawing.Color.Transparent
+        resources.ApplyResources(Me.Text13, "Text13")
         Me.Text13.Name = "Text13"
         '
         'Deco1
@@ -321,9 +321,9 @@ Partial Class Frm06_OS_Version
         '
         'UI_StatPanel_Icon
         '
-        resources.ApplyResources(Me.UI_StatPanel_Icon, "UI_StatPanel_Icon")
         Me.UI_StatPanel_Icon.BackColor = System.Drawing.Color.Transparent
         Me.UI_StatPanel_Icon.Image = Global.SMW_MultiTool_Launcher.My.Resources.Resources.OSversion_Icon
+        resources.ApplyResources(Me.UI_StatPanel_Icon, "UI_StatPanel_Icon")
         Me.UI_StatPanel_Icon.Name = "UI_StatPanel_Icon"
         Me.UI_StatPanel_Icon.TabStop = False
         '

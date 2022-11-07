@@ -27,8 +27,8 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <ApplicationRevision>32</ApplicationRevision>
-    <ApplicationVersion>2.23.1600.32</ApplicationVersion>
+    <ApplicationRevision>53</ApplicationRevision>
+    <ApplicationVersion>2.25.1600.53</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
@@ -326,6 +326,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Frm06_OS_Version.resx">
       <DependentUpon>Frm06_OS_Version.vb</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm02_About.resx">
       <DependentUpon>Frm02_About.vb</DependentUpon>
@@ -418,6 +419,7 @@
     <Content Include="Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_1CTL_Error.png" />
     <None Include="Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_340.png" />
     <None Include="Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_332.png" />
+    <None Include="Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_333.png" />
     <Content Include="Resources\UI_Elements\Icons\Application Column\Other\AppIcon_AddMusicK.png" />
     <Content Include="Resources\UI_Elements\Icons\Application Column\Other\AppIcon_Asar.png" />
     <Content Include="Resources\UI_Elements\Icons\Application Column\Other\AppIcon_Blockreator.png" />

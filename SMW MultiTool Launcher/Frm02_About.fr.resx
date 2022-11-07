@@ -176,4 +176,7 @@
   <data name="UI_Btn_Mentions.Size" type="System.Drawing.Size, System.Drawing">
     <value>110, 24</value>
   </data>
+  <data name="EATempLabel.Text" xml:space="preserve">
+    <value>Produit conçu et réalisé au Listenbourg &lt;3</value>
+  </data>
 </root>
