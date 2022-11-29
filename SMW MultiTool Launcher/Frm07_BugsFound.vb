@@ -1,6 +1,4 @@
 ﻿
-Imports System.Net.WebRequestMethods
-
 Public Class Frm07_BugsFound
 
     Private Sub Frm07_BugsFound_Load(sender As Object, e As EventArgs) Handles MyBase.Load
