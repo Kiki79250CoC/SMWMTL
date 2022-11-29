@@ -117,14 +117,14 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="InformationsTabControl.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="InformationsTabControl.Locked" type="System.Boolean, mscorlib">
     <value>True</value>
-  </metadata>
+  </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="InformationsTabControl.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="LegalNotice_Text02.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -416,7 +416,7 @@ Microsoft Visual Studio 2010 Ultimate
 Build 600.45
 Microsoft Visual Studio 2012 Ultimate
 
-Builds 601.59 -&gt; 601.70 ; 730.00 -&gt; 1220.39 ; 1300.00 -&gt; 1370.00
+Builds 601.59 -&gt; 601.70 ; 730.00 -&gt; 1220.82 ; 1300.00 -&gt; 1370.00
 Microsoft Visual Studio Community 2019
 
 1400.00 -&gt; BUILDN
@@ -551,9 +551,9 @@ Microsoft Visual Studio Community 2022</value>
   <data name="UI_StatPanel.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
-  <metadata name="UI_HeaderBorder.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <data name="UI_HeaderBorder.Locked" type="System.Boolean, mscorlib">
     <value>True</value>
-  </metadata>
+  </data>
   <data name="UI_HeaderBorder.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left, Right</value>
   </data>
@@ -578,9 +578,9 @@ Microsoft Visual Studio Community 2022</value>
   <data name="&gt;&gt;UI_HeaderBorder.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <metadata name="UI_StatPanel_Icon.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <data name="UI_StatPanel_Icon.Locked" type="System.Boolean, mscorlib">
     <value>True</value>
-  </metadata>
+  </data>
   <data name="UI_StatPanel_Icon.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -932,9 +932,9 @@ Microsoft Visual Studio Community 2022</value>
   <data name="&gt;&gt;UI_BtmBar_Panel.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <data name="$this.Localizable" type="System.Boolean, mscorlib">
     <value>True</value>
-  </metadata>
+  </data>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>6, 13</value>
   </data>

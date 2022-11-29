@@ -118,7 +118,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Recherche une chaîne localisée semblable à 1713.00.
+        '''  Recherche une chaîne localisée semblable à 1720.00.
         '''</summary>
         Friend ReadOnly Property APP_VERSION_BUILD() As String
             Get
@@ -127,7 +127,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Recherche une chaîne localisée semblable à 2.20.1713.00-am1bld-05.
+        '''  Recherche une chaîne localisée semblable à 2.20.1720.00-am1bld-06.
         '''</summary>
         Friend ReadOnly Property APP_VERSION_COMPLETE() As String
             Get
@@ -625,7 +625,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Recherche une chaîne localisée semblable à 250922.
+        '''  Recherche une chaîne localisée semblable à 281122.
         '''</summary>
         Friend ReadOnly Property BUILD_DATE_COMBINED() As String
             Get
@@ -634,7 +634,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Recherche une chaîne localisée semblable à 25.
+        '''  Recherche une chaîne localisée semblable à 28.
         '''</summary>
         Friend ReadOnly Property BUILD_DATE_DAY() As String
             Get
@@ -643,7 +643,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Recherche une chaîne localisée semblable à 09.
+        '''  Recherche une chaîne localisée semblable à 11.
         '''</summary>
         Friend ReadOnly Property BUILD_DATE_MONTH() As String
             Get
@@ -1512,6 +1512,16 @@ Namespace My.Resources
         '''<summary>
         '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property LM_333() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("LM_333", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property LM_340() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("LM_340", resourceCulture)
@@ -1625,6 +1635,25 @@ Namespace My.Resources
         Friend ReadOnly Property RELEASE_STATE() As String
             Get
                 Return ResourceManager.GetString("RELEASE_STATE", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Recherche une chaîne localisée semblable à Normal.
+        '''</summary>
+        Friend ReadOnly Property RELEASE_TYPE() As String
+            Get
+                Return ResourceManager.GetString("RELEASE_TYPE", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Recherche une ressource localisée de type System.Drawing.Icon semblable à (Icône).
+        '''</summary>
+        Friend ReadOnly Property ResetConfirmation() As System.Drawing.Icon
+            Get
+                Dim obj As Object = ResourceManager.GetObject("ResetConfirmation", resourceCulture)
+                Return CType(obj,System.Drawing.Icon)
             End Get
         End Property
         

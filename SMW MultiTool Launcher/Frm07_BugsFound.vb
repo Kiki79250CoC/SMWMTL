@@ -1,4 +1,6 @@
 ﻿
+Imports System.Net.WebRequestMethods
+
 Public Class Frm07_BugsFound
 
     Private Sub Frm07_BugsFound_Load(sender As Object, e As EventArgs) Handles MyBase.Load
@@ -78,7 +80,7 @@ Public Class Frm07_BugsFound
 
     ' "Twitter" button
     Private Sub Twitter_Click(sender As Object, e As EventArgs) Handles TwitterBtn.Click
-        Process.Start(If(Year(Now) >= 2023, "https://twitter.com/AstragonQC", "https://twitter.com/Kiki79250CoC"))
+        Process.Start("https://twitter.com/Kiki79250CoC")
     End Sub
 
     ' "YouTube" button
@@ -88,7 +90,7 @@ Public Class Frm07_BugsFound
 
     ' "GitHub Repo" button
     Private Sub GitHubBtn_Click(sender As Object, e As EventArgs) Handles GitHubBtn.Click
-        Process.Start(If(Year(Now) >= 2023, "https://github.com/AstragonQC/SMWMTL", "https://github.com/Kiki79250CoC/SMWMTL"))
+        Process.Start("https://github.com/Kiki79250CoC/SMWMTL")
     End Sub
 
     ' "OK" button

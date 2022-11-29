@@ -10,6 +10,8 @@ Public Class FrmDlg01_ResetConfirmation
 
     Private Sub FrmDlg01_ResetConfirmation_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
+        Icon = My.Resources.ResetConfirmation
+
         ' DarkMode Toggle
         Select Case My.Settings.UI_DARK_MODE
             Case True

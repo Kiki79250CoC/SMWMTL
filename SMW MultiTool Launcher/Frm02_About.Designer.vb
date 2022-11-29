@@ -47,6 +47,7 @@ Partial Class Frm02_About
         Me.UI_AppNameBorder = New System.Windows.Forms.Panel()
         Me.UpdateSysVersion_Label = New System.Windows.Forms.Label()
         Me.CopyBuildStringToolTip = New System.Windows.Forms.ToolTip(Me.components)
+        Me.SMWC_ExcRel = New System.Windows.Forms.Label()
         CType(Me.Info_UpdateStatusIcon, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.AppLogo_Image, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.UI_ButtonsPanel.SuspendLayout()
@@ -222,6 +223,12 @@ Partial Class Frm02_About
         Me.UpdateSysVersion_Label.BackColor = System.Drawing.Color.Transparent
         Me.UpdateSysVersion_Label.Name = "UpdateSysVersion_Label"
         '
+        'SMWC_ExcRel
+        '
+        resources.ApplyResources(Me.SMWC_ExcRel, "SMWC_ExcRel")
+        Me.SMWC_ExcRel.BackColor = System.Drawing.Color.Transparent
+        Me.SMWC_ExcRel.Name = "SMWC_ExcRel"
+        '
         'Frm02_About
         '
         Me.AcceptButton = Me.UI_Btn_OK
@@ -236,6 +243,7 @@ Partial Class Frm02_About
         Me.Controls.Add(Me.UI_AllRightsLabel)
         Me.Controls.Add(Me.UI_AppNamePanel)
         Me.Controls.Add(Me.UI_StatPanel)
+        Me.Controls.Add(Me.SMWC_ExcRel)
         Me.Controls.Add(Me.UpdateSysVersion_Label)
         Me.DoubleBuffered = True
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
@@ -280,4 +288,5 @@ Partial Class Frm02_About
     Friend WithEvents UI_BtmBar_PanelBorder As Panel
     Friend WithEvents UpdateSysVersion_Label As Label
     Friend WithEvents CopyBuildStringToolTip As ToolTip
+    Public WithEvents SMWC_ExcRel As Label
 End Class

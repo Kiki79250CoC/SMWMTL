@@ -934,11 +934,50 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;UpdateSysVersion_Label.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>8</value>
   </data>
   <metadata name="CopyBuildStringToolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>-1, 5</value>
   </metadata>
+  <data name="SMWC_ExcRel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="SMWC_ExcRel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="SMWC_ExcRel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="SMWC_ExcRel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>465, 228</value>
+  </data>
+  <data name="SMWC_ExcRel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>372, 21</value>
+  </data>
+  <data name="SMWC_ExcRel.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="SMWC_ExcRel.Text" xml:space="preserve">
+    <value>SMWCentral Custom Release</value>
+  </data>
+  <data name="SMWC_ExcRel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="SMWC_ExcRel.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;SMWC_ExcRel.Name" xml:space="preserve">
+    <value>SMWC_ExcRel</value>
+  </data>
+  <data name="&gt;&gt;SMWC_ExcRel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SMWC_ExcRel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SMWC_ExcRel.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>

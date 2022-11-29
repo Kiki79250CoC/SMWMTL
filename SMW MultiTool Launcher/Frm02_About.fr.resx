@@ -176,4 +176,7 @@
   <data name="UI_Btn_Mentions.Size" type="System.Drawing.Size, System.Drawing">
     <value>110, 24</value>
   </data>
+  <data name="SMWC_ExcRel.Text" xml:space="preserve">
+    <value>Version personnalisée pour SMWCentral</value>
+  </data>
 </root>

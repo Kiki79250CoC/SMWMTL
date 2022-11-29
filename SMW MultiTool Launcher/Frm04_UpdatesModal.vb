@@ -21,6 +21,18 @@ Public Class Frm04_UpdatesModal
 
     Private Sub Frm04_UpdatesModal_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
+        ' Doing actions according to custom releases
+
+        Select Case My.Resources.RELEASE_TYPE
+            Case "SMWC"
+                Opacity = 0
+                Height = 0
+                Width = 0
+                Close()
+                Throw New UnauthorizedAccessException
+
+        End Select
+
         Icon = My.Resources.AppIcon
 
         ' DarkMode Toggle

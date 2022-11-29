@@ -30,6 +30,18 @@ Public Class Frm06_OS_Version
 
     Private Sub Frm06_OS_Version_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
+        ' Doing actions according to custom releases
+
+        Select Case My.Resources.RELEASE_TYPE
+            Case "SMWC"
+                Opacity = 0
+                Height = 0
+                Width = 0
+                Close()
+                Throw New UnauthorizedAccessException
+
+        End Select
+
         ' Dark Mode
         Select Case My.Settings.UI_DARK_MODE
             Case True
@@ -94,8 +106,11 @@ Public Class Frm06_OS_Version
 
         ' Service Pack
         Select Case Win_NT_Version
-            Case "6.0", "6.1", "6.2"
+            Case "6.0", "6.1"
                 WindowsServicePack_Value.Text = If(WindowsServicePack_Value.Text = Nothing, "RTM", Environment.OSVersion.ServicePack)
+
+            Case "6.2"
+                WindowsServicePack_Value.Text = "RTM"
 
             Case "6.3"
                 WindowsServicePack_Value.Text = If(Win_UpdateRevisionNbr >= 17031, "Update 1", "RTM")

@@ -119,27 +119,27 @@ Public Class Frm01_Main
                         Case "6.0", "6.1"
 #Region "                        Code that applies to Windows Vista & 7 "
 
-                            TabLineDeco.Image = My.Resources.UI_TabMask_7
-                            Deco3.Image = My.Resources.UI_RightMask_7
-                            Deco2.Image = My.Resources.UI_LeftMask_7
+                            TabLineDeco.BackgroundImage = My.Resources.UI_TabMask_7
+                            Deco3.BackgroundImage = My.Resources.UI_RightMask_7
+                            Deco2.BackgroundImage = My.Resources.UI_LeftMask_7
 
 #End Region
 
                         Case "6.2", "6.3"
 #Region "                        Code that applies to Windows 8 and 8.1 "
 
-                            TabLineDeco.Image = My.Resources.UI_TabMask_8
-                            Deco3.Image = My.Resources.UI_RightMask_8
-                            Deco2.Image = My.Resources.UI_LeftMask_8
+                            TabLineDeco.BackgroundImage = My.Resources.UI_TabMask_8
+                            Deco3.BackgroundImage = My.Resources.UI_RightMask_8
+                            Deco2.BackgroundImage = My.Resources.UI_LeftMask_8
 
 #End Region
 
                         Case "10.0"
 #Region "                        Code that applies to Windows 10 and 11 "
 
-                            TabLineDeco.Image = If(Win_BuildNbr >= "21800", My.Resources.UI_TabMask_11, My.Resources.UI_TabMask_10)
-                            Deco3.Image = If(Win_BuildNbr >= "21800", My.Resources.UI_RightMask_11, My.Resources.UI_RightMask_10)
-                            Deco2.Image = If(Win_BuildNbr >= "21800", My.Resources.UI_LeftMask_11, My.Resources.UI_LeftMask_10)
+                            TabLineDeco.BackgroundImage = If(Win_BuildNbr >= "21800", My.Resources.UI_TabMask_11, My.Resources.UI_TabMask_10)
+                            Deco3.BackgroundImage = If(Win_BuildNbr >= "21800", My.Resources.UI_RightMask_11, My.Resources.UI_RightMask_10)
+                            Deco2.BackgroundImage = If(Win_BuildNbr >= "21800", My.Resources.UI_LeftMask_11, My.Resources.UI_LeftMask_10)
 
 #End Region
 
@@ -1775,6 +1775,8 @@ Public Class Frm01_Main
                             Case 59
                                 LM_Option_1.Image = My.Resources.LM_332
                             Case 60
+                                LM_Option_1.Image = My.Resources.LM_333
+                            Case Else
                                 LM_Option_1.Image = My.Resources.LM_NORMAL
                         End Select
 
@@ -1926,6 +1928,8 @@ Public Class Frm01_Main
                             Case 59
                                 LM_Option_2.Image = My.Resources.LM_332
                             Case 60
+                                LM_Option_2.Image = My.Resources.LM_333
+                            Case Else
                                 LM_Option_2.Image = My.Resources.LM_NORMAL
                         End Select
 
@@ -2077,6 +2081,8 @@ Public Class Frm01_Main
                             Case 59
                                 LM_Option_3.Image = My.Resources.LM_332
                             Case 60
+                                LM_Option_3.Image = My.Resources.LM_333
+                            Case Else
                                 LM_Option_3.Image = My.Resources.LM_NORMAL
                         End Select
 
@@ -4343,6 +4349,15 @@ Public Class Frm01_Main
 
             Case False
                 Dim About As New Frm02_About
+
+                Select Case My.Resources.RELEASE_TYPE
+                    Case "SMWC"
+                        ' Displaying Custom Release label in about box
+                        About.SMWC_ExcRel.Visible = True
+
+                    Case Else
+                End Select
+
                 About.ShowDialog()
 
         End Select

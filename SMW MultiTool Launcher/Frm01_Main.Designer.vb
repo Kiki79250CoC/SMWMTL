@@ -1747,7 +1747,7 @@ Partial Class Frm01_Main
         'TabLineDeco
         '
         resources.ApplyResources(Me.TabLineDeco, "TabLineDeco")
-        Me.TabLineDeco.BackColor = System.Drawing.Color.FromArgb(CType(CType(137, Byte), Integer), CType(CType(140, Byte), Integer), CType(CType(149, Byte), Integer))
+        Me.TabLineDeco.BackColor = System.Drawing.Color.Transparent
         Me.TabLineDeco.Name = "TabLineDeco"
         Me.TabLineDeco.TabStop = False
         '

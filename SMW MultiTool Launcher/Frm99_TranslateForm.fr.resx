@@ -535,7 +535,7 @@ SMWMTL va maintenant redémarrer.</value>
     <value>392, 13</value>
   </data>
   <data name="UI03_DWM_Win8.Text" xml:space="preserve">
-    <value>Étendre la couleur d'accentuation des fenêtre dans la zone cliente de l'application</value>
+    <value>Étendre la couleur d'accentuation des fenêtres dans la zone cliente de l'application</value>
   </data>
   <data name="UI03_SettingsIMportSuccessDesc.Size" type="System.Drawing.Size, System.Drawing">
     <value>297, 26</value>
@@ -562,17 +562,17 @@ SMWMTL va maintenant redémarrer.</value>
   <data name="UI03_FormattingCodes.Text" xml:space="preserve">
     <value>Codes de formatage :
 
-"$RS" -&gt; Type de version (par example "Stable")
-"$MV" -&gt; Version majeure (par example "2.10")
-"$BN" -&gt; Numéro de build (par example "1200.00")
-"$CV" -&gt; Version complète (par example "2.10.1200.00-rtmbld-08")
-"$BDD" -&gt; Jour de la date de Build (par example "13")
-"$BDM" -&gt; Mois de la date de Build (par example "04" ("04" pour "Avril"))
-"$BDY" -&gt; Année de la date de Build (par example "2021")
-"$BDV" -&gt; Date de Build format verbal (par example "13 Avril 2021")
-"$BDC" -&gt; Date de Build combinée (par example "130421")
+"$RS" -&gt; Type de version (par exemple "Stable")
+"$MV" -&gt; Version majeure (par exemple "2.10")
+"$BN" -&gt; Numéro de build (par exemple "1200.00")
+"$CV" -&gt; Version complète (par exemple "2.10.1200.00-rtmbld-08")
+"$BDD" -&gt; Jour de la date de Build (par exemple "13")
+"$BDM" -&gt; Mois de la date de Build (par exemple "04" ("04" pour "Avril"))
+"$BDY" -&gt; Année de la date de Build (par exemple "2021")
+"$BDV" -&gt; Date de Build format verbal (par exemple "13 Avril 2021")
+"$BDC" -&gt; Date de Build combinée (par exemple "130421")
 "$ABS" -&gt; Chaîne de version (Celle que vous voyez dans la fenêtre "À propos")
-"$CN" -&gt; Nom de code de la version (par example "Québec")
+"$CN" -&gt; Nom de code de la version (par exemple "Québec")
 
 Vous pouvez écrire ces codes dans la zone de texte personnalisé.
 (Ces codes sont sensible à la casse, donc écrivez-les en MAJUSCULES).</value>

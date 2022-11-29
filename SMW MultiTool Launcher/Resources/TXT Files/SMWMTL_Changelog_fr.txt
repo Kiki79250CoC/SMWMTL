@@ -13,6 +13,35 @@
 ──────────────────────────────────────────────────┤ Versions 2.2x - 2.2x.160x.xx ├──────────────────────────────────────────────────
                                                   └──────────────────────────────┘
   ┌─────────────────────────────┐
+──┤ Version 2.25 - 2.25.1600.53 ├───────────────────────────────────────────────────────────────────────────────────────────────────
+  └─────────────────────────────┘
+
+- Corrections de bugs :
+    - Correction d'un bug de détection de l'OS pouvant affecter l'expérience de SMWMTL sur certains systèmes exécutant Windows 8.
+
+- Modifications :
+    - Ajout du support de Lunar Magic v3.33.
+    - Modification de la gestion des icônes de Lunar Magic pour afficher l'icône par défaut lorsqu'une version plus récente de
+      LM a été configurée depuis une version plus récente de SMWMTL.
+    - Suppression de la notification du changement de pseudo dans la fenêtre de rapport de crash.
+    - "Produit conçu et réalisé au Listenbourg <3"
+    - Mis à jour les numéros de builds de la variante LTS dans la fenêtre "Plus d'informations".
+
+  ┌─────────────────────────────┐
+──┤ Version 2.24 - 2.24.1600.41 ├───────────────────────────────────────────────────────────────────────────────────────────────────
+  └─────────────────────────────┘
+
+- Corrections de bugs :
+    - Correction d'un bug avec l'image de Lunar Magic v3.32 qui ne s'affichait que sur le bouton du Slot 1.
+    - Correction de l'apparence des boutons sur la pop-up de notification des mises à jour si utilisation de Windows Classic.
+    - Correction d'un bug qui n'applique pas l'adaptation de couleur sur le slider de sélection de l'opacité de l'application si
+      les améliorations pour Windows Classic sont activés.
+- Améliorations :
+    - Remplacement des actifs de LM v3.40 par ce de LM v3.32. J'ai essayé de préshot la nouvelle version, et j'ai encore raté.
+    - Amélioration de l'apparence du module de SMWMTL_Update sur la fenêtre principale si les améliorations pour Windows Classic
+      sont activés.
+
+  ┌─────────────────────────────┐
 ──┤ Version 2.23 - 2.23.1600.33 ├───────────────────────────────────────────────────────────────────────────────────────────────────
   └─────────────────────────────┘
 
