@@ -25,10 +25,10 @@
 
  Outils utilisés pour le développement de SMWMTL :
       - Microsoft Visual Studio Community 2022 (IDE)
-      - Notepad++ 8.3.2 (Pour quelques modifications supplémentaires)
+      - Notepad++ 8.4.7 (Pour quelques modifications supplémentaires)
       - Resource Hacker 5.1.8 (Pour les icônes des logiciels tiers)
       - GIMP 2.8.22 (Images et icônes)
-      - VMWare 15.5.7 (Pour des tests sur les différents systèmes d'exploitation)
+      - VMWare 16.1.0 (Pour des tests sur les différents systèmes d'exploitation)
 
  Logiciels précédemment utilisés :
       - Microsoft Visual Basic  2010 Express   (Ancien IDE - Utilisé de la 1.00 à la 2.00 Beta)
@@ -44,14 +44,14 @@
       - Windows Vista Édition Intégrale SP2         (64 bits - Tests)
       - Windows 7 Professionnel SP1                 (64 bits - Tests)
       - Windows 7 Édition Intégrale SP1             (64 bits - Tests (Langue anglaise))
+      - Windows 8 Pro                               (64 bits - Tests)
       - Windows 8.1 Pro w/ Update 1                 (64 bits - Tests)
       - Windows 10 Professionnel 1507               (64 bits - Tests)
       - Windows 10 Professionnel 1909               (64 bits - Tests)
-      - Windows 10 Professionnel 20H2               (64 bits - Tests)
-      - Windows 10 Professionnel 21H2               (64 bits - Tests)
-      - Windows 10 Professionnel 21H2               (64 bits - Tests (Langue anglaise))
-      - Windows 11 Professionnel 21H2               (64 bits - Tests)
-      - Windows 11 Professional I.Preview 22H2      (64 bits - Tests)
+      - Windows 10 Professionnel 22H2               (64 bits - Tests)
+      - Windows 10 Professionnel 22H2               (64 bits - Tests (Langue anglaise))
+      - Windows 11 Professionnel 22H2               (64 bits - Tests)
+      - Windows 11 Professional I.Preview 23H2      (64 bits - Tests)
 
  Améliorations, outils et logiciels tiers :
       - Icônes de Lunar Magic - FuSoYa
