@@ -47,6 +47,7 @@
       - Windows 8 Pro                               (64 bits - Tests)
       - Windows 8.1 Pro w/ Update 1                 (64 bits - Tests)
       - Windows 10 Professionnel 1507               (64 bits - Tests)
+      - Windows 10 Professionnel 1909               (64 bits - Tests)
       - Windows 10 Professionnel 22H2               (64 bits - Tests)
       - Windows 10 Professionnel 22H2               (64 bits - Tests (Langue anglaise))
       - Windows 11 Professionnel 22H2               (64 bits - Tests)
