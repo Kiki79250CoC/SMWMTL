@@ -1711,7 +1711,6 @@ Partial Class Frm01_Main
         '
         resources.ApplyResources(Me.Deco2, "Deco2")
         Me.Deco2.BackColor = System.Drawing.Color.Transparent
-        Me.Deco2.Image = Global.SMW_MultiTool_Launcher.My.Resources.Resources.UI_LeftMask_7
         Me.Deco2.Name = "Deco2"
         Me.Deco2.TabStop = False
         '
@@ -1725,7 +1724,6 @@ Partial Class Frm01_Main
         'Deco3
         '
         Me.Deco3.BackColor = System.Drawing.Color.Transparent
-        Me.Deco3.Image = Global.SMW_MultiTool_Launcher.My.Resources.Resources.UI_RightMask_7
         resources.ApplyResources(Me.Deco3, "Deco3")
         Me.Deco3.Name = "Deco3"
         Me.Deco3.TabStop = False
@@ -1747,7 +1745,8 @@ Partial Class Frm01_Main
         'TabLineDeco
         '
         resources.ApplyResources(Me.TabLineDeco, "TabLineDeco")
-        Me.TabLineDeco.BackColor = System.Drawing.Color.FromArgb(CType(CType(137, Byte), Integer), CType(CType(140, Byte), Integer), CType(CType(149, Byte), Integer))
+        Me.TabLineDeco.BackColor = System.Drawing.Color.Transparent
+        Me.TabLineDeco.BackgroundImage = Global.SMW_MultiTool_Launcher.My.Resources.Resources.UI_TabMask_7
         Me.TabLineDeco.Name = "TabLineDeco"
         Me.TabLineDeco.TabStop = False
         '

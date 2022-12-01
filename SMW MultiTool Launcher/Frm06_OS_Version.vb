@@ -30,6 +30,18 @@ Public Class Frm06_OS_Version
 
     Private Sub Frm06_OS_Version_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
+        ' Doing actions according to custom releases
+
+        Select Case My.Resources.RELEASE_TYPE
+            Case "SMWC"
+                Opacity = 0
+                Height = 0
+                Width = 0
+                Close()
+                Throw New UnauthorizedAccessException
+
+        End Select
+
         ' Dark Mode
         Select Case My.Settings.UI_DARK_MODE
             Case True

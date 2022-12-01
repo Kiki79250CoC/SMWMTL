@@ -45,8 +45,8 @@ Public Class Frm03_Settings
             Case "6.0", "6.1"
 #Region "                Code that applies to Windows Vista and 7 "
 
-                Z99_UIDeco01.Image = My.Resources.UI_RightMask_7
-                Z99_UIDeco02.Image = My.Resources.UI_LeftMask_7
+                Z99_UIDeco01.BackgroundImage = My.Resources.UI_RightMask_7
+                Z99_UIDeco02.BackgroundImage = My.Resources.UI_LeftMask_7
 
                 AppOption_DWMExtension.Text = Frm99_TranslateForm.UI03_DWM_WinVista.Text
 
@@ -65,8 +65,8 @@ Public Class Frm03_Settings
             Case "6.2", "6.3"
 #Region "                Code that applies to Windows 8 and 8.1 "
 
-                Z99_UIDeco01.Image = My.Resources.UI_RightMask_8
-                Z99_UIDeco02.Image = My.Resources.UI_LeftMask_8
+                Z99_UIDeco01.BackgroundImage = My.Resources.UI_RightMask_8
+                Z99_UIDeco02.BackgroundImage = My.Resources.UI_LeftMask_8
 
                 AppOption_DWMExtension.Text = Frm99_TranslateForm.UI03_DWM_Win8.Text
 
@@ -81,15 +81,15 @@ Public Class Frm03_Settings
                 AppOption_DWMExtension.Text = Frm99_TranslateForm.UI03_DWM_Win8.Text
 
                 If Win_BuildNbr >= "21800" Then
-                    Z99_UIDeco01.Image = My.Resources.UI_RightMask_11
-                    Z99_UIDeco02.Image = My.Resources.UI_LeftMask_11
+                    Z99_UIDeco01.BackgroundImage = My.Resources.UI_RightMask_11
+                    Z99_UIDeco02.BackgroundImage = My.Resources.UI_LeftMask_11
 
                     Winver_CurrentOSIcon.Image = My.Resources.Winver_Logo_Win11
                     Taskmgr_CurrentOSIcon.Image = My.Resources.Taskmgr_Icon_Win11
 
                 Else
-                    Z99_UIDeco01.Image = My.Resources.UI_RightMask_10
-                    Z99_UIDeco02.Image = My.Resources.UI_LeftMask_10
+                    Z99_UIDeco01.BackgroundImage = My.Resources.UI_RightMask_10
+                    Z99_UIDeco02.BackgroundImage = My.Resources.UI_LeftMask_10
 
                     Winver_CurrentOSIcon.Image = My.Resources.Winver_Logo_Win10
                     Taskmgr_CurrentOSIcon.Image = My.Resources.Taskmgr_Icon_Win8_10

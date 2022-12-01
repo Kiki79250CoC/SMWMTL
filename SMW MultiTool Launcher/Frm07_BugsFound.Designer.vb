@@ -92,27 +92,28 @@ Partial Class Frm07_BugsFound
         '
         'GitHubBtn
         '
-        resources.ApplyResources(Me.GitHubBtn, "GitHubBtn")
         Me.GitHubBtn.BackColor = System.Drawing.SystemColors.Control
         Me.GitHubBtn.ForeColor = System.Drawing.SystemColors.ControlText
         Me.GitHubBtn.Image = Global.SMW_MultiTool_Launcher.My.Resources.Resources.GitHub_16
+        resources.ApplyResources(Me.GitHubBtn, "GitHubBtn")
         Me.GitHubBtn.Name = "GitHubBtn"
         Me.GitHubBtn.UseVisualStyleBackColor = True
         '
         'YouTubeBtn
         '
-        resources.ApplyResources(Me.YouTubeBtn, "YouTubeBtn")
         Me.YouTubeBtn.BackColor = System.Drawing.SystemColors.Control
         Me.YouTubeBtn.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.YouTubeBtn.Image = Global.SMW_MultiTool_Launcher.My.Resources.Resources.YouTube_16
+        resources.ApplyResources(Me.YouTubeBtn, "YouTubeBtn")
         Me.YouTubeBtn.Name = "YouTubeBtn"
         Me.YouTubeBtn.UseVisualStyleBackColor = True
         '
         'TwitterBtn
         '
-        resources.ApplyResources(Me.TwitterBtn, "TwitterBtn")
         Me.TwitterBtn.BackColor = System.Drawing.SystemColors.Control
         Me.TwitterBtn.ForeColor = System.Drawing.SystemColors.ControlText
         Me.TwitterBtn.Image = Global.SMW_MultiTool_Launcher.My.Resources.Resources.Twitter_16
+        resources.ApplyResources(Me.TwitterBtn, "TwitterBtn")
         Me.TwitterBtn.Name = "TwitterBtn"
         Me.TwitterBtn.UseVisualStyleBackColor = True
         '
@@ -160,9 +161,9 @@ Partial Class Frm07_BugsFound
         '
         'UI_StatPanel_Icon
         '
-        resources.ApplyResources(Me.UI_StatPanel_Icon, "UI_StatPanel_Icon")
         Me.UI_StatPanel_Icon.BackColor = System.Drawing.Color.Transparent
         Me.UI_StatPanel_Icon.Image = Global.SMW_MultiTool_Launcher.My.Resources.Resources.UI_Badge_Error
+        resources.ApplyResources(Me.UI_StatPanel_Icon, "UI_StatPanel_Icon")
         Me.UI_StatPanel_Icon.Name = "UI_StatPanel_Icon"
         Me.UI_StatPanel_Icon.TabStop = False
         '
@@ -181,10 +182,10 @@ Partial Class Frm07_BugsFound
         'Frm07_BugsFound
         '
         Me.AcceptButton = Me.OK_Btn
-        resources.ApplyResources(Me, "$this")
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(219, Byte), Integer), CType(CType(219, Byte), Integer), CType(CType(219, Byte), Integer))
         Me.CancelButton = Me.OK_Btn
+        resources.ApplyResources(Me, "$this")
         Me.Controls.Add(Me.DashSeparatorLabel)
         Me.Controls.Add(Me.UI_BtmBar_Panel)
         Me.Controls.Add(Me.SMWC_ComposeMsg_LinkLabel)

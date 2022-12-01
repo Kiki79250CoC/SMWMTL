@@ -61,16 +61,16 @@ Public Class Frm97_LegacyAbout
                         Case "6.0", "6.1"
 #Region "                        Code that applies to Windows Vista & 7 "
 
-                            Deco3.Image = My.Resources.UI_RightMask_7
-                            Deco4.Image = My.Resources.UI_LeftMask_7
+                            Deco3.BackgroundImage = My.Resources.UI_RightMask_7
+                            Deco4.BackgroundImage = My.Resources.UI_LeftMask_7
 
 #End Region
 
                         Case "6.2", "6.3"
 #Region "                        Code that applies to Windows 8 and 8.1 "
 
-                            Deco3.Image = My.Resources.UI_RightMask_8
-                            Deco4.Image = My.Resources.UI_LeftMask_8
+                            Deco3.BackgroundImage = My.Resources.UI_RightMask_8
+                            Deco4.BackgroundImage = My.Resources.UI_LeftMask_8
 
 #End Region
 
@@ -78,11 +78,11 @@ Public Class Frm97_LegacyAbout
 #Region "                        Code that applies to Windows 10 and 11 "
 
                             If Win_BuildNbr >= "21800" Then
-                                Deco3.Image = My.Resources.UI_RightMask_11
-                                Deco4.Image = My.Resources.UI_LeftMask_11
+                                Deco3.BackgroundImage = My.Resources.UI_RightMask_11
+                                Deco4.BackgroundImage = My.Resources.UI_LeftMask_11
                             Else
-                                Deco3.Image = My.Resources.UI_RightMask_10
-                                Deco4.Image = My.Resources.UI_LeftMask_10
+                                Deco3.BackgroundImage = My.Resources.UI_RightMask_10
+                                Deco4.BackgroundImage = My.Resources.UI_LeftMask_10
                             End If
 
 #End Region

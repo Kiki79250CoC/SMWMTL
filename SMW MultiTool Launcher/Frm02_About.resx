@@ -360,9 +360,6 @@
   <metadata name="AppVersionStringLabel.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="CopyBuildStringToolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>-1, 5</value>
-  </metadata>
   <data name="AppVersionStringLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
   </data>
@@ -384,6 +381,9 @@
   <data name="AppVersionStringLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>
   </data>
+  <metadata name="CopyBuildStringToolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>-1, 5</value>
+  </metadata>
   <data name="AppVersionStringLabel.ToolTip" xml:space="preserve">
     <value>Click to copy build string to clipboard</value>
   </data>
@@ -474,54 +474,6 @@
   <data name="UI_ButtonsPanel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Right</value>
   </data>
-  <data name="&gt;&gt;UI_Separator1.Name" xml:space="preserve">
-    <value>UI_Separator1</value>
-  </data>
-  <data name="&gt;&gt;UI_Separator1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;UI_Separator1.Parent" xml:space="preserve">
-    <value>UI_ButtonsPanel</value>
-  </data>
-  <data name="&gt;&gt;UI_Separator1.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;UI_Btn_Mentions.Name" xml:space="preserve">
-    <value>UI_Btn_Mentions</value>
-  </data>
-  <data name="&gt;&gt;UI_Btn_Mentions.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;UI_Btn_Mentions.Parent" xml:space="preserve">
-    <value>UI_ButtonsPanel</value>
-  </data>
-  <data name="&gt;&gt;UI_Btn_Mentions.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="UI_ButtonsPanel.FlowDirection" type="System.Windows.Forms.FlowDirection, System.Windows.Forms">
-    <value>RightToLeft</value>
-  </data>
-  <data name="UI_ButtonsPanel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>474, 10</value>
-  </data>
-  <data name="UI_ButtonsPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>364, 30</value>
-  </data>
-  <data name="UI_ButtonsPanel.TabIndex" type="System.Int32, mscorlib">
-    <value>29</value>
-  </data>
-  <data name="&gt;&gt;UI_ButtonsPanel.Name" xml:space="preserve">
-    <value>UI_ButtonsPanel</value>
-  </data>
-  <data name="&gt;&gt;UI_ButtonsPanel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;UI_ButtonsPanel.Parent" xml:space="preserve">
-    <value>UI_BtmBar_Panel</value>
-  </data>
-  <data name="&gt;&gt;UI_ButtonsPanel.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
   <data name="UI_Separator1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left</value>
   </data>
@@ -594,10 +546,31 @@
   <data name="&gt;&gt;UI_Btn_Mentions.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
+  <data name="UI_ButtonsPanel.FlowDirection" type="System.Windows.Forms.FlowDirection, System.Windows.Forms">
+    <value>RightToLeft</value>
+  </data>
+  <data name="UI_ButtonsPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>474, 10</value>
+  </data>
+  <data name="UI_ButtonsPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>364, 30</value>
+  </data>
+  <data name="UI_ButtonsPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;UI_ButtonsPanel.Name" xml:space="preserve">
+    <value>UI_ButtonsPanel</value>
+  </data>
+  <data name="&gt;&gt;UI_ButtonsPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UI_ButtonsPanel.Parent" xml:space="preserve">
+    <value>UI_BtmBar_Panel</value>
+  </data>
+  <data name="&gt;&gt;UI_ButtonsPanel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
   <metadata name="UI_BtmBar_Panel.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="UI_BtmBar_PanelBorder.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <data name="UI_BtmBar_Panel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
@@ -605,51 +578,6 @@
   </data>
   <data name="UI_BtmBar_Panel.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
-  </data>
-  <data name="&gt;&gt;UI_BtmBar_PanelBorder.Name" xml:space="preserve">
-    <value>UI_BtmBar_PanelBorder</value>
-  </data>
-  <data name="&gt;&gt;UI_BtmBar_PanelBorder.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;UI_BtmBar_PanelBorder.Parent" xml:space="preserve">
-    <value>UI_BtmBar_Panel</value>
-  </data>
-  <data name="&gt;&gt;UI_BtmBar_PanelBorder.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;UI_UpdateStatusPanel.Name" xml:space="preserve">
-    <value>UI_UpdateStatusPanel</value>
-  </data>
-  <data name="&gt;&gt;UI_UpdateStatusPanel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;UI_UpdateStatusPanel.Parent" xml:space="preserve">
-    <value>UI_BtmBar_Panel</value>
-  </data>
-  <data name="&gt;&gt;UI_UpdateStatusPanel.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="UI_BtmBar_Panel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 260</value>
-  </data>
-  <data name="UI_BtmBar_Panel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>849, 49</value>
-  </data>
-  <data name="UI_BtmBar_Panel.TabIndex" type="System.Int32, mscorlib">
-    <value>30</value>
-  </data>
-  <data name="&gt;&gt;UI_BtmBar_Panel.Name" xml:space="preserve">
-    <value>UI_BtmBar_Panel</value>
-  </data>
-  <data name="&gt;&gt;UI_BtmBar_Panel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;UI_BtmBar_Panel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;UI_BtmBar_Panel.ZOrder" xml:space="preserve">
-    <value>3</value>
   </data>
   <metadata name="UI_BtmBar_PanelBorder.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -680,42 +608,6 @@
   </data>
   <data name="UI_UpdateStatusPanel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
-  </data>
-  <data name="&gt;&gt;UI_Btn_GoToUpdateModal.Name" xml:space="preserve">
-    <value>UI_Btn_GoToUpdateModal</value>
-  </data>
-  <data name="&gt;&gt;UI_Btn_GoToUpdateModal.Type" xml:space="preserve">
-    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;UI_Btn_GoToUpdateModal.Parent" xml:space="preserve">
-    <value>UI_UpdateStatusPanel</value>
-  </data>
-  <data name="&gt;&gt;UI_Btn_GoToUpdateModal.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="UI_UpdateStatusPanel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>36, 10</value>
-  </data>
-  <data name="UI_UpdateStatusPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>432, 30</value>
-  </data>
-  <data name="UI_UpdateStatusPanel.TabIndex" type="System.Int32, mscorlib">
-    <value>30</value>
-  </data>
-  <data name="UI_UpdateStatusPanel.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;UI_UpdateStatusPanel.Name" xml:space="preserve">
-    <value>UI_UpdateStatusPanel</value>
-  </data>
-  <data name="&gt;&gt;UI_UpdateStatusPanel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;UI_UpdateStatusPanel.Parent" xml:space="preserve">
-    <value>UI_BtmBar_Panel</value>
-  </data>
-  <data name="&gt;&gt;UI_UpdateStatusPanel.ZOrder" xml:space="preserve">
-    <value>3</value>
   </data>
   <data name="UI_Btn_GoToUpdateModal.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -753,10 +645,52 @@
   <data name="&gt;&gt;UI_Btn_GoToUpdateModal.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="UI_UpdateStatusPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 10</value>
+  </data>
+  <data name="UI_UpdateStatusPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>432, 30</value>
+  </data>
+  <data name="UI_UpdateStatusPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="UI_UpdateStatusPanel.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;UI_UpdateStatusPanel.Name" xml:space="preserve">
+    <value>UI_UpdateStatusPanel</value>
+  </data>
+  <data name="&gt;&gt;UI_UpdateStatusPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UI_UpdateStatusPanel.Parent" xml:space="preserve">
+    <value>UI_BtmBar_Panel</value>
+  </data>
+  <data name="&gt;&gt;UI_UpdateStatusPanel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="UI_BtmBar_Panel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 260</value>
+  </data>
+  <data name="UI_BtmBar_Panel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>849, 49</value>
+  </data>
+  <data name="UI_BtmBar_Panel.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;UI_BtmBar_Panel.Name" xml:space="preserve">
+    <value>UI_BtmBar_Panel</value>
+  </data>
+  <data name="&gt;&gt;UI_BtmBar_Panel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UI_BtmBar_Panel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;UI_BtmBar_Panel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
   <metadata name="UI_StatPanel.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="UI_HeaderBorder.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <data name="UI_StatPanel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
@@ -764,6 +698,21 @@
   </data>
   <data name="UI_StatPanel.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
+  </data>
+  <metadata name="UI_HeaderBorder.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="UI_HeaderBorder.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <data name="UI_HeaderBorder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 28</value>
+  </data>
+  <data name="UI_HeaderBorder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>849, 2</value>
+  </data>
+  <data name="UI_HeaderBorder.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
   </data>
   <data name="&gt;&gt;UI_HeaderBorder.Name" xml:space="preserve">
     <value>UI_HeaderBorder</value>
@@ -798,37 +747,7 @@
   <data name="&gt;&gt;UI_StatPanel.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
-  <metadata name="UI_HeaderBorder.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="UI_HeaderBorder.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left, Right</value>
-  </data>
-  <data name="UI_HeaderBorder.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 28</value>
-  </data>
-  <data name="UI_HeaderBorder.Size" type="System.Drawing.Size, System.Drawing">
-    <value>849, 2</value>
-  </data>
-  <data name="UI_HeaderBorder.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;UI_HeaderBorder.Name" xml:space="preserve">
-    <value>UI_HeaderBorder</value>
-  </data>
-  <data name="&gt;&gt;UI_HeaderBorder.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;UI_HeaderBorder.Parent" xml:space="preserve">
-    <value>UI_StatPanel</value>
-  </data>
-  <data name="&gt;&gt;UI_HeaderBorder.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <metadata name="UI_AppNamePanel.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="UI_AppNameBorder.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <data name="UI_AppNamePanel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
@@ -836,6 +755,21 @@
   </data>
   <data name="UI_AppNamePanel.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
+  </data>
+  <metadata name="UI_AppNameBorder.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="UI_AppNameBorder.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <data name="UI_AppNameBorder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 115</value>
+  </data>
+  <data name="UI_AppNameBorder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>849, 2</value>
+  </data>
+  <data name="UI_AppNameBorder.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
   </data>
   <data name="&gt;&gt;UI_AppNameBorder.Name" xml:space="preserve">
     <value>UI_AppNameBorder</value>
@@ -869,33 +803,6 @@
   </data>
   <data name="&gt;&gt;UI_AppNamePanel.ZOrder" xml:space="preserve">
     <value>5</value>
-  </data>
-  <metadata name="UI_AppNameBorder.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="UI_AppNameBorder.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left, Right</value>
-  </data>
-  <data name="UI_AppNameBorder.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 115</value>
-  </data>
-  <data name="UI_AppNameBorder.Size" type="System.Drawing.Size, System.Drawing">
-    <value>849, 2</value>
-  </data>
-  <data name="UI_AppNameBorder.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;UI_AppNameBorder.Name" xml:space="preserve">
-    <value>UI_AppNameBorder</value>
-  </data>
-  <data name="&gt;&gt;UI_AppNameBorder.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;UI_AppNameBorder.Parent" xml:space="preserve">
-    <value>UI_AppNamePanel</value>
-  </data>
-  <data name="&gt;&gt;UI_AppNameBorder.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="UpdateSysVersion_Label.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Right</value>
@@ -934,46 +841,46 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;UpdateSysVersion_Label.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>8</value>
   </data>
-  <metadata name="CopyBuildStringToolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>-1, 5</value>
-  </metadata>
-  <data name="EATempLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="SMWC_ExcRel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Right</value>
   </data>
-  <data name="EATempLabel.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="SMWC_ExcRel.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 12pt</value>
   </data>
-  <data name="EATempLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="SMWC_ExcRel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="EATempLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>474, 228</value>
+  <data name="SMWC_ExcRel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>465, 228</value>
   </data>
-  <data name="EATempLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>363, 21</value>
+  <data name="SMWC_ExcRel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>372, 21</value>
   </data>
-  <data name="EATempLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>35</value>
+  <data name="SMWC_ExcRel.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
   </data>
-  <data name="EATempLabel.Text" xml:space="preserve">
-    <value>Product designed and built in Listenbourg &lt;3</value>
+  <data name="SMWC_ExcRel.Text" xml:space="preserve">
+    <value>SMWCentral Custom Release</value>
   </data>
-  <data name="EATempLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+  <data name="SMWC_ExcRel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>TopRight</value>
   </data>
-  <data name="&gt;&gt;EATempLabel.Name" xml:space="preserve">
-    <value>EATempLabel</value>
+  <data name="SMWC_ExcRel.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
-  <data name="&gt;&gt;EATempLabel.Type" xml:space="preserve">
+  <data name="&gt;&gt;SMWC_ExcRel.Name" xml:space="preserve">
+    <value>SMWC_ExcRel</value>
+  </data>
+  <data name="&gt;&gt;SMWC_ExcRel.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;EATempLabel.Parent" xml:space="preserve">
+  <data name="&gt;&gt;SMWC_ExcRel.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;EATempLabel.ZOrder" xml:space="preserve">
-    <value>8</value>
+  <data name="&gt;&gt;SMWC_ExcRel.ZOrder" xml:space="preserve">
+    <value>7</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>

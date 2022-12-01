@@ -1270,34 +1270,6 @@
   <data name="UI_Btn_Cancel.Text" xml:space="preserve">
     <value>Annuler</value>
   </data>
-  <data name="Z99_UIDeco02.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAAQAAAA4CAYAAADaSVmoAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAACwwAAAsMAT9AIsgAAAAGYktHRAD/AP8A/6C9p5MAAAAHdElNRQfkCh4BKhoovJRc
-        AAAAHWlUWHRDb21tZW50AAAAAABDcmVhdGVkIHdpdGggR0lNUGQuZQcAAAE1SURBVDhPfdJJTsMwFAbg
-        dwFYcIvEmUPSNE3SqqAy3AyJbfdtJsehwBVgwU3KOeCFBf5rJHbWJ+vN9PC4/br3XXptmulNv/CCcGfC
-        rWfADcMzwsZ16IBw7TDUtYY1w4iwEoLUHmBpQmk7NCAUDBJhwdAj5D8AdUwgT8E1QHincHF2TlEQavh4
-        e6fP41FD4UU0NL2GMrgk1QJUYUJjJwHilMZ+0FDGMxMyBqVhEU0/APLQiJEFCSmE2VQHpk392ADPgJnL
-        0P4HmTMBNPcXREgK55GJgKEDsD0a6hbAcnm3MPW5Zex2btkkd3sTdhoWtkX9CQibtw9QuMIAn7PUELQI
-        +RwQytgn2eAVJgHJFiqt0pCGDnqpMj6HHiGPGaD9qohISYBlxTAArFYBjQpirK98OjxNsKVvz5OBeF1A
-        K94AAAAASUVORK5CYII=
-</value>
-  </data>
-  <data name="Z99_UIDeco01.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAAQAAAA4CAYAAADaSVmoAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAACwwAAAsMAT9AIsgAAAAGYktHRAD/AP8A/6C9p5MAAAAHdElNRQfkCh4BKg4yZkAh
-        AAAAHWlUWHRDb21tZW50AAAAAABDcmVhdGVkIHdpdGggR0lNUGQuZQcAAAG+SURBVDhPZdJdkpNAFAXg
-        swF90FUE6G4aCCFACCHJOOPPwqzydd5n8gfEUbfgWKUrGdcxHkJ3gvrAy1eX27f7XHzQCm+VwLftFh8/
-        3T6f4auF94Sbv8BXuJYDeOdLvCF8sXBDuBIeHixcK4mVR9hseujKK8LRwloIlK6L9t7ASkrMh7AUEjPH
-        Q2OhIuSE2sLCk8gIBwslIT2BmcNCfQb2SB0xBIXUlRd4/eIlXvELfN3Dr8cf+Pn9Eb+fnswvKkAuAzTb
-        gwEdYeZHaHcWgjEKPcZxX/cw7yCMcTw0PcyCGLNwcoH8BAmh7SHl/1nQVRhIeEKqBz1iFRLHaC1EMsSk
-        m8MeG4rgVHUBTyNm1QVcjYkg7AxEzj8QExKvA3O5yf/gI2Gf1r5H4iiCT9j3MO3AkWg2ux4yvngyEszW
-        vHpOmI4G2RaeIDio7+57mHNherjrYcGVypwRDhYq7mnmOkzfwDJQyIU7gEgjVzxlY5quYkapuQ5nmIaM
-        QaHemjnWObMd+6h3ZtJ1wShjjWZv7rIqYxQJ1+FgYcGKNCSY6y+rCEUeoK0tLEPMC0JjYa1Rlj6Ore1x
-        pVAtFR4+d3D7/AeY+Ejm67j0/wAAAABJRU5ErkJggg==
-</value>
-  </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Paramètres de SMW MultiTools Launcher</value>
   </data>

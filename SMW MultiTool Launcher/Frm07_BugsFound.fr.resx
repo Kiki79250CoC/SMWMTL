@@ -155,17 +155,6 @@ Je vous recommande d'ouvrir un ticket de bug sur le repo GitHub et expliquer ét
   <data name="GitHubBtn.Text" xml:space="preserve">
     <value>Repo GitHub</value>
   </data>
-  <data name="YouTubeBtn.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAACwwAAAsMAT9AIsgAAAAGYktHRAAAAAAAAPlDu38AAAAHdElNRQflAR4SDSsBS9me
-        AAAA4UlEQVQ4T2MYHOCcsJAHEDcAcT8QzwLihUC8DIhXQjGIDRIDyYHUgNR6wDSnAvF/MnEqyICjaIKk
-        4KMgA16gCYLxNRvr/+dERTDE0fALkAE/0ATB+N3aNf+/Xbv6/2501P9zIpjyUPwDZMA/NEEwBhkAA19O
-        n/5/w9kJQw0Q/yNowO/Xr/8/qan+f0FaCkMNEIMNwOqF1/Pn/X/W1vb/gpwchhwSBnsBayASEYAgDA5E
-        iqMxBU2QFJwCS41OQFwNxH1APAOIFwDxEiBeAcWgpAwSmwnEIDX1QOwG1jzAgIEBAHrQcXELmC+iAAAA
-        AElFTkSuQmCC
-</value>
-  </data>
   <data name="UI_BtmBar_Panel.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 197</value>
   </data>
