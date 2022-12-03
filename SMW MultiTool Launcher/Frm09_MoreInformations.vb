@@ -44,7 +44,7 @@ Public Class Frm09_MoreInformations
                     Panels.BackColor = Color.FromArgb(25, 25, 25)
                 Next
 
-                For Each Title As Label In {LegalNotice_Text01, OtherCredits_Text01}
+                For Each Title As Label In {LegalNotice_Text01, LegalNotice_Text03, OtherCredits_Text01}
                     Title.ForeColor = Color.White
                 Next
 

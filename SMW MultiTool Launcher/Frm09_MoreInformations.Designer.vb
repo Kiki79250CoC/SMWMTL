@@ -25,6 +25,8 @@ Partial Class Frm09_MoreInformations
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Frm09_MoreInformations))
         Me.InformationsTabControl = New System.Windows.Forms.TabControl()
         Me.UI_Tab01_LegalNotice = New System.Windows.Forms.TabPage()
+        Me.LegalNotice_Text04 = New System.Windows.Forms.Label()
+        Me.LegalNotice_Text03 = New System.Windows.Forms.Label()
         Me.LegalNotice_Text02 = New System.Windows.Forms.Label()
         Me.LegalNotice_Text01 = New System.Windows.Forms.Label()
         Me.UI_Tab02_License = New System.Windows.Forms.TabPage()
@@ -78,11 +80,24 @@ Partial Class Frm09_MoreInformations
         '
         'UI_Tab01_LegalNotice
         '
+        resources.ApplyResources(Me.UI_Tab01_LegalNotice, "UI_Tab01_LegalNotice")
         Me.UI_Tab01_LegalNotice.BackColor = System.Drawing.Color.FromArgb(CType(CType(219, Byte), Integer), CType(CType(219, Byte), Integer), CType(CType(219, Byte), Integer))
+        Me.UI_Tab01_LegalNotice.Controls.Add(Me.LegalNotice_Text04)
+        Me.UI_Tab01_LegalNotice.Controls.Add(Me.LegalNotice_Text03)
         Me.UI_Tab01_LegalNotice.Controls.Add(Me.LegalNotice_Text02)
         Me.UI_Tab01_LegalNotice.Controls.Add(Me.LegalNotice_Text01)
-        resources.ApplyResources(Me.UI_Tab01_LegalNotice, "UI_Tab01_LegalNotice")
         Me.UI_Tab01_LegalNotice.Name = "UI_Tab01_LegalNotice"
+        '
+        'LegalNotice_Text04
+        '
+        resources.ApplyResources(Me.LegalNotice_Text04, "LegalNotice_Text04")
+        Me.LegalNotice_Text04.Name = "LegalNotice_Text04"
+        '
+        'LegalNotice_Text03
+        '
+        resources.ApplyResources(Me.LegalNotice_Text03, "LegalNotice_Text03")
+        Me.LegalNotice_Text03.ForeColor = System.Drawing.SystemColors.HotTrack
+        Me.LegalNotice_Text03.Name = "LegalNotice_Text03"
         '
         'LegalNotice_Text02
         '
@@ -97,9 +112,9 @@ Partial Class Frm09_MoreInformations
         '
         'UI_Tab02_License
         '
+        resources.ApplyResources(Me.UI_Tab02_License, "UI_Tab02_License")
         Me.UI_Tab02_License.BackColor = System.Drawing.Color.FromArgb(CType(CType(219, Byte), Integer), CType(CType(219, Byte), Integer), CType(CType(219, Byte), Integer))
         Me.UI_Tab02_License.Controls.Add(Me.UI_LicensePanel)
-        resources.ApplyResources(Me.UI_Tab02_License, "UI_Tab02_License")
         Me.UI_Tab02_License.Name = "UI_Tab02_License"
         '
         'UI_LicensePanel
@@ -112,17 +127,17 @@ Partial Class Frm09_MoreInformations
         '
         'Licence_TextBox
         '
+        resources.ApplyResources(Me.Licence_TextBox, "Licence_TextBox")
         Me.Licence_TextBox.BackColor = System.Drawing.Color.FromArgb(CType(CType(230, Byte), Integer), CType(CType(230, Byte), Integer), CType(CType(230, Byte), Integer))
         Me.Licence_TextBox.BorderStyle = System.Windows.Forms.BorderStyle.None
-        resources.ApplyResources(Me.Licence_TextBox, "Licence_TextBox")
         Me.Licence_TextBox.Name = "Licence_TextBox"
         Me.Licence_TextBox.ReadOnly = True
         '
         'UI_Tab03_Changelog
         '
+        resources.ApplyResources(Me.UI_Tab03_Changelog, "UI_Tab03_Changelog")
         Me.UI_Tab03_Changelog.BackColor = System.Drawing.Color.FromArgb(CType(CType(219, Byte), Integer), CType(CType(219, Byte), Integer), CType(CType(219, Byte), Integer))
         Me.UI_Tab03_Changelog.Controls.Add(Me.UI_ChangelogPanel)
-        resources.ApplyResources(Me.UI_Tab03_Changelog, "UI_Tab03_Changelog")
         Me.UI_Tab03_Changelog.Name = "UI_Tab03_Changelog"
         '
         'UI_ChangelogPanel
@@ -135,20 +150,20 @@ Partial Class Frm09_MoreInformations
         '
         'Changelog_TextBox
         '
+        resources.ApplyResources(Me.Changelog_TextBox, "Changelog_TextBox")
         Me.Changelog_TextBox.BackColor = System.Drawing.Color.FromArgb(CType(CType(230, Byte), Integer), CType(CType(230, Byte), Integer), CType(CType(230, Byte), Integer))
         Me.Changelog_TextBox.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.Changelog_TextBox.DetectUrls = False
-        resources.ApplyResources(Me.Changelog_TextBox, "Changelog_TextBox")
         Me.Changelog_TextBox.Name = "Changelog_TextBox"
         Me.Changelog_TextBox.ReadOnly = True
         '
         'UI_Tab04_OtherCredits
         '
+        resources.ApplyResources(Me.UI_Tab04_OtherCredits, "UI_Tab04_OtherCredits")
         Me.UI_Tab04_OtherCredits.BackColor = System.Drawing.Color.FromArgb(CType(CType(219, Byte), Integer), CType(CType(219, Byte), Integer), CType(CType(219, Byte), Integer))
         Me.UI_Tab04_OtherCredits.Controls.Add(Me.Developement_Tool_GroupBox_Text)
         Me.UI_Tab04_OtherCredits.Controls.Add(Me.Developement_Tool_GroupBox_Pic)
         Me.UI_Tab04_OtherCredits.Controls.Add(Me.OtherCredits_Text01)
-        resources.ApplyResources(Me.UI_Tab04_OtherCredits, "UI_Tab04_OtherCredits")
         Me.UI_Tab04_OtherCredits.Name = "UI_Tab04_OtherCredits"
         '
         'Developement_Tool_GroupBox_Text
@@ -158,8 +173,8 @@ Partial Class Frm09_MoreInformations
         '
         'Developement_Tool_GroupBox_Pic
         '
-        Me.Developement_Tool_GroupBox_Pic.Image = Global.SMW_MultiTool_Launcher.My.Resources.Resources.VSLogo
         resources.ApplyResources(Me.Developement_Tool_GroupBox_Pic, "Developement_Tool_GroupBox_Pic")
+        Me.Developement_Tool_GroupBox_Pic.Image = Global.SMW_MultiTool_Launcher.My.Resources.Resources.VSLogo
         Me.Developement_Tool_GroupBox_Pic.Name = "Developement_Tool_GroupBox_Pic"
         Me.Developement_Tool_GroupBox_Pic.TabStop = False
         '
@@ -188,9 +203,9 @@ Partial Class Frm09_MoreInformations
         '
         'UI_StatPanel_Icon
         '
+        resources.ApplyResources(Me.UI_StatPanel_Icon, "UI_StatPanel_Icon")
         Me.UI_StatPanel_Icon.BackColor = System.Drawing.Color.Transparent
         Me.UI_StatPanel_Icon.Image = Global.SMW_MultiTool_Launcher.My.Resources.Resources.MoreInformations_Icon
-        resources.ApplyResources(Me.UI_StatPanel_Icon, "UI_StatPanel_Icon")
         Me.UI_StatPanel_Icon.Name = "UI_StatPanel_Icon"
         Me.UI_StatPanel_Icon.TabStop = False
         '
@@ -224,9 +239,9 @@ Partial Class Frm09_MoreInformations
         '
         'CloseBtn
         '
+        resources.ApplyResources(Me.CloseBtn, "CloseBtn")
         Me.CloseBtn.DialogResult = System.Windows.Forms.DialogResult.Cancel
         Me.CloseBtn.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        resources.ApplyResources(Me.CloseBtn, "CloseBtn")
         Me.CloseBtn.Name = "CloseBtn"
         Me.CloseBtn.UseVisualStyleBackColor = True
         '
@@ -322,4 +337,6 @@ Partial Class Frm09_MoreInformations
     Friend WithEvents UI_OtherCreditsBtn As Button
     Friend WithEvents UI_ChangelogPanel As Panel
     Friend WithEvents OtherCredits_Text01 As Label
+    Friend WithEvents LegalNotice_Text04 As Label
+    Friend WithEvents LegalNotice_Text03 As Label
 End Class

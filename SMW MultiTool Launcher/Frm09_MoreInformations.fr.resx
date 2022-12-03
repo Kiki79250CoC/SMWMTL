@@ -118,11 +118,27 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="LegalNotice_Text04.Size" type="System.Drawing.Size, System.Drawing">
+    <value>764, 65</value>
+  </data>
+  <data name="LegalNotice_Text04.Text" xml:space="preserve">
+    <value>Cette version de SMWMTL est une version personnalisée qui vise à se conformer à certaines restrictions imposées par certains sites, qui n'autorisent
+pas certaines caractéristiques de la version normale pour certaines raisons (telles que la sécurité des utilisateurs), et déconseillent donc activement son utilisation.
+
+C'est donc dans cette optique que certaines fonctionnalités du programme sont désactivées et l'accès à celles-ci a été volontairement restreint afin de répondre
+à leurs attentes, ce qui permet de considérer le programme comme sûr et fiable.</value>
+  </data>
+  <data name="LegalNotice_Text03.Size" type="System.Drawing.Size, System.Drawing">
+    <value>437, 21</value>
+  </data>
+  <data name="LegalNotice_Text03.Text" xml:space="preserve">
+    <value>Informations importantes concernant cette build de SMWMTL</value>
+  </data>
   <data name="LegalNotice_Text02.Size" type="System.Drawing.Size, System.Drawing">
     <value>778, 143</value>
   </data>
   <data name="LegalNotice_Text02.Text" xml:space="preserve">
-    <value>Cette application que vous utilisez actuellement est une propriété de $Author$.
+    <value>Cette application que vous utilisez actuellement est une propriété de $Author$ (Kylian Nicouleaud).
 
 Super Mario World™ fait partie de la franchise Super Mario™ qui appartient à Nintendo®
 CE LOGICIEL N'EST NI APPROUVÉ NI LIÉ À NINTENDO ET L'AUTEUR N'EST PAS UN AFFILIÉ À ELLES.
@@ -139,12 +155,6 @@ Les logos et icônes Windows font partie de «Microsoft® Windows™ Operating S
   </data>
   <data name="LegalNotice_Text01.Text" xml:space="preserve">
     <value>Mentions légales</value>
-  </data>
-  <data name="OOBE_Music_GroupBox_Text.Size" type="System.Drawing.Size, System.Drawing">
-    <value>170, 78</value>
-  </data>
-  <data name="OtherCredits_Text02.Size" type="System.Drawing.Size, System.Drawing">
-    <value>245, 21</value>
   </data>
   <data name="OtherCredits_Text01.Size" type="System.Drawing.Size, System.Drawing">
     <value>184, 21</value>
