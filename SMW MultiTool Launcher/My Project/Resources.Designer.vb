@@ -1639,7 +1639,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Recherche une chaîne localisée semblable à SMWC.
+        '''  Recherche une chaîne localisée semblable à Normal.
         '''</summary>
         Friend ReadOnly Property RELEASE_TYPE() As String
             Get
