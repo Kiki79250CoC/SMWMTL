@@ -161,6 +161,20 @@ Public Class Frm02_About
     ' "Legal Notice" Button
     Private Sub UI_Btn_Mentions_Click(sender As Object, e As EventArgs) Handles UI_Btn_Mentions.Click
         Dim f As New Frm09_MoreInformations()
+
+        Select Case My.Resources.RELEASE_TYPE
+            Case "SMWC"
+
+                With f
+
+                    .LegalNotice_Text03.Visible = True
+                    .LegalNotice_Text04.Visible = True
+
+                End With
+
+            Case Else
+        End Select
+
         f.ShowDialog()
     End Sub
 
