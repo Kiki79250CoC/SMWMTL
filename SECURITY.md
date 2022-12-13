@@ -18,14 +18,16 @@ However, there's an exception for the last release of a codebase (like 1.20 and 
 
 | Version            | Release Date       | End of Support date | Support state            |
 | ------------------ | ------------------ | ------------------- | ------------------------ |
-| 2.25               | 07 November 2022   | -                   | Supported                |
+| 2.26               | 13 December 2022   | -                   | Supported                |
+| 2.25               | 07 November 2022   | 09 January 2024     | Supported                |
 | 2.24               | 25 September 2022  | 12 December 2023    | Supported                |
 | 2.23               | 04 September 2022  | 14 November 2023    | Supported                |
 | 2.22               | 02 July 2022       | 10 October 2023     | Supported                |
 | 2.21               | 15 May 2022        | 08 August 2023      | Supported                |
 | 2.20               | 10 May 2022        | 08 August 2023      | Supported                |
 ||
-|        2.10-LTS.13 | 07 November 2022   | -                   | Supported                |
+|        2.10-LTS.14 | 13 December 2022   | -                   | Supported                |
+|        2.10-LTS.13 | 07 November 2022   | 09 January 2024     | Supported                |
 |        2.10-LTS.12 | 25 September 2022  | 12 December 2023    | Supported                |
 |        2.10-LTS.11 | 04 September 2022  | 14 November 2023    | Supported                |
 |        2.10-LTS.10 | 02 July 2022       | 10 October 2023     | Supported                |

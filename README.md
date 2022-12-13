@@ -3,7 +3,10 @@
 Super Mario World MultiTools Launcher is a small program writted in VisualBasic.NET under Framework 4.6, which allows to create Super Mario World Hacks more easily (if you use your own-dumped ROM) by grouping all tools in one place instead of travel into each folder to find what tool you want to use.
 
 ## Build SMWMTL from source:
-For building SMWMTL from it's source code, you need [Visual Studio 2022](https://visualstudio.microsoft.com/fr/vs/) (Version 17.3) and the .NET Framework 4.6 targeting package.
+For building SMWMTL from it's source code, you need [Visual Studio 2022](https://visualstudio.microsoft.com/fr/vs/) (Version 17.4) and the .NET Framework 4.6 targeting package.
+
+## Custom build marker:
+Since SMWMTL v2.26 (v2.30 build 1720), a custom build marker has been added to run some code if a build is planned to be published somewhere in order to comply with the requirements the destination website have in place. At this time, there's only one custom build property, which is for SMWCentral. To compile a custom build, change the "RELEASE_TYPE" key from "Normal" to "SMWC".
 
 ## Why SMWMTL ?
 
@@ -16,7 +19,7 @@ The left one is the list of Application that SMWMTL can launch, and the right on
 
 The bottom zone is for some tools like Settings, Report bug form and some other features.
 
-![SMWMTL224](https://github.com/Kiki79250CoC/SMWMTL/blob/90960766bb21fc9fe5b0aa97719987a7c4facd17/Releases/Images/SMWMTL225.png)
+![SMWMTL226](https://github.com/Kiki79250CoC/SMWMTL/blob/cf44014a7635ffe47b7f9d6bf5f3163ec58f2d2e/Releases/Images/SMWMTL226.png)
 
 ## System Requirements:
 ### SMWMTL 2.20 and up
