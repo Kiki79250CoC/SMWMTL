@@ -45,7 +45,7 @@ AppCopyright=Copyright © 2018-{#MyDateTimeString} {#MyAppPublisher}
 VersionInfoOriginalFileName=SMWMTL_{#MyShortAppVersion}_win64.exe
 VersionInfoDescription={#MyShortAppName} v{#MyShortAppVersion} Setup
 
-;ArchitecturesAllowed=x64
+ArchitecturesAllowed=x64
 MinVersion=0,6.0.6002
 
 ; Installer Options
