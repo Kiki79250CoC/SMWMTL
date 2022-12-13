@@ -4,8 +4,8 @@
 #define AppDataDirectoryName "SMW MultiTools Launcher LTS"
 #define MyAppExeName "SMWMTL.exe"
 
-#define MyAppVersion "2.10.1220.82"
-#define MyShortAppVersion "2.10-LTS.13"
+#define MyAppVersion "2.10.1220.93"
+#define MyShortAppVersion "2.10-LTS.14"
 
 #define MyAppPublisher "AstragonQC Softwares"
 #define MyAppURL "https://kiki79250.wixsite.com/smwmtl"
@@ -45,7 +45,7 @@ AppCopyright=Copyright © 2018-{#MyDateTimeString} {#MyAppPublisher}
 VersionInfoOriginalFileName=SMWMTL_{#MyShortAppVersion}_win64.exe
 VersionInfoDescription={#MyShortAppName} v{#MyShortAppVersion} Setup
 
-ArchitecturesAllowed=x64
+;ArchitecturesAllowed=x64
 MinVersion=0,6.0.6002
 
 ; Installer Options
