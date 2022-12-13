@@ -10,8 +10,25 @@
                 Version changelog
 
                                                   ┌──────────────────────────────┐
-──────────────────────────────────────────────────┤ Versions 2.2x - 2.2x.160x.xx ├──────────────────────────────────────────────────
+──────────────────────────────────────────────────┤ Versions 2.2x - 2.2x.16xx.xx ├──────────────────────────────────────────────────
                                                   └──────────────────────────────┘
+  ┌─────────────────────────────┐
+──┤ Version 2.26 - 2.26.1610.68 ├───────────────────────────────────────────────────────────────────────────────────────────────────
+  └─────────────────────────────┘
+
+- Fixes :
+    - Fixed some translations issues.
+    - Fixed a graphical bug in Settings and Legacy about pages in the bottom section of the UI.
+
+- Optimisations :
+    - Removed residual elements that have stayed since pre-release builds, freeing up some space.
+
+- Modifications :
+    - Updated tested OSes list and program versions in License file.
+    - Modified SMWMTL in order to make a SMWC-compilant custom build :
+        - Disabled SMWMTL_Update, as networking access are not allowed.
+        - Disabled a bunch of options that are considerated "useless".
+
   ┌─────────────────────────────┐
 ──┤ Version 2.25 - 2.25.1600.53 ├───────────────────────────────────────────────────────────────────────────────────────────────────
   └─────────────────────────────┘

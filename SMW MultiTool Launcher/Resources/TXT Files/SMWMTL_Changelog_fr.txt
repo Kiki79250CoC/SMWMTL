@@ -10,8 +10,26 @@
                 Journal des modifications
 
                                                   ┌──────────────────────────────┐
-──────────────────────────────────────────────────┤ Versions 2.2x - 2.2x.160x.xx ├──────────────────────────────────────────────────
+──────────────────────────────────────────────────┤ Versions 2.2x - 2.2x.16xx.xx ├──────────────────────────────────────────────────
                                                   └──────────────────────────────┘
+  ┌─────────────────────────────┐
+──┤ Version 2.26 - 2.26.1610.68 ├───────────────────────────────────────────────────────────────────────────────────────────────────
+  └─────────────────────────────┘
+
+- Corrections :
+    - Corrections de quelques erreurs de traduction.
+    - Correction d'un bug graphique en bas de la fenêtre des Paramètres et de la boîte à propos héritée.
+
+- Optimisations :
+    - Suppression d'éléments résiduels qui demeuraient depuis les versions de pré-production, libérant un peu d'espace.
+
+- Modifications :
+    - Mis à jour la liste des OS utilisés pour les tests dans le fichier de Licence.
+    - Modifications d'une partie de l'architecture de sorte à faire une version de SMWMTL qui convient aux attentes de SMWC :
+        - Désactivé SMWMTL_Update ainsi que toutes les fonctionnalités liées de près ou de loin au réseau, ces choses n'étant pas
+          acceptées.
+        - Désactivé certaines fonctionnalités considérées comme "inutiles".
+
   ┌─────────────────────────────┐
 ──┤ Version 2.25 - 2.25.1600.53 ├───────────────────────────────────────────────────────────────────────────────────────────────────
   └─────────────────────────────┘

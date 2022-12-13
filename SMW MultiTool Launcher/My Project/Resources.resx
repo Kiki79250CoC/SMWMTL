@@ -263,7 +263,7 @@
     <value>..\Resources\UI_Elements\Icons\Update System\UpdateModal\UI_Icon_DownloadUpdate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="APP_VERSION_COMPLETE" xml:space="preserve">
-    <value>2.26.1610.63-SMWC_LockWorks-03</value>
+    <value>2.26.1610.68-rv6bld-08</value>
   </data>
   <data name="Shortcut_Default_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Default_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -428,7 +428,7 @@
     <value>..\Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_1CTL_Error.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="APP_VERSION_BUILD" xml:space="preserve">
-    <value>1610.63</value>
+    <value>1610.68</value>
     <comment>UPDATE ASSEMBLY VERSION NUMBER INFO !!!</comment>
   </data>
   <data name="AppIcon_Smallhacker" type="System.Resources.ResXFileRef, System.Windows.Forms">
@@ -477,7 +477,7 @@
     <value>..\Resources\UI_Elements\Settings Previews\Task Manager Icon\SMWMTL\Light\Taskmgr_Icon_LPurple32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="RELEASE_STATE" xml:space="preserve">
-    <value>SMWC Lock works dev</value>
+    <value>Stable</value>
   </data>
   <data name="LM_141" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_141.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -660,7 +660,7 @@
     <value>..\Resources\UI_Elements\Icons\Bottom Bar\Winver\Winver_Logo_Win11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="BUILD_DATE_DAY" xml:space="preserve">
-    <value>03</value>
+    <value>12</value>
   </data>
   <data name="UpdateLogo_Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\UI_Elements\UI_GraphicAssets\UpdateNotification_Modal\UpdateLogo_Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -1055,7 +1055,7 @@
     <value>..\Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="BUILD_DATE_COMBINED" xml:space="preserve">
-    <value>031222</value>
+    <value>121222</value>
   </data>
   <data name="TitleRed" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\UI_Elements\Background Images\Window Titlebar\TitleRed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -1305,7 +1305,7 @@
   </data>
   <data name="RELEASE_TYPE" xml:space="preserve">
     <value>Normal</value>
-    <comment>Normal = Classic release ; SMWC = SMWC-Compliant release</comment>
+    <comment>Toggle switch / Normal ; SMWC</comment>
   </data>
   <data name="ResetConfirmation" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\UI_Elements\Icons\Settings\ResetConfirmation.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

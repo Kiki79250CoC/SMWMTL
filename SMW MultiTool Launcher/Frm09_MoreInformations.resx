@@ -364,7 +364,7 @@ Microsoft Visual Studio 2010 Ultimate
 Build 600.45
 Microsoft Visual Studio 2012 Ultimate
 
-Builds 601.59 -&gt; 601.70 ; 730.00 -&gt; 1220.82 ; 1300.00 -&gt; 1370.00
+Builds 601.59 -&gt; 601.70 ; 730.00 -&gt; 1220.93 ; 1300.00 -&gt; 1370.00
 Microsoft Visual Studio Community 2019
 
 1400.00 -&gt; BUILDN
@@ -1014,16 +1014,16 @@ their expectations, which allows the program to be considered as safe and reliab
   <data name="&gt;&gt;CloseBtn.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <metadata name="InformationsTabControl.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <data name="InformationsTabControl.Locked" type="System.Boolean, mscorlib">
     <value>True</value>
-  </metadata>
-  <metadata name="UI_HeaderBorder.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  </data>
+  <data name="UI_HeaderBorder.Locked" type="System.Boolean, mscorlib">
     <value>True</value>
-  </metadata>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  </data>
+  <data name="$this.Localizable" type="System.Boolean, mscorlib">
     <value>True</value>
-  </metadata>
-  <metadata name="UI_StatPanel_Icon.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  </data>
+  <data name="UI_StatPanel_Icon.Locked" type="System.Boolean, mscorlib">
     <value>True</value>
-  </metadata>
+  </data>
 </root>

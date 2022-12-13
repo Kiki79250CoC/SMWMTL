@@ -118,7 +118,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Recherche une chaîne localisée semblable à 1610.63.
+        '''  Recherche une chaîne localisée semblable à 1610.68.
         '''</summary>
         Friend ReadOnly Property APP_VERSION_BUILD() As String
             Get
@@ -127,7 +127,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Recherche une chaîne localisée semblable à 2.26.1610.63-SMWC_LockWorks-03.
+        '''  Recherche une chaîne localisée semblable à 2.26.1610.68-rv6bld-08.
         '''</summary>
         Friend ReadOnly Property APP_VERSION_COMPLETE() As String
             Get
@@ -625,7 +625,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Recherche une chaîne localisée semblable à 031222.
+        '''  Recherche une chaîne localisée semblable à 121222.
         '''</summary>
         Friend ReadOnly Property BUILD_DATE_COMBINED() As String
             Get
@@ -634,7 +634,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Recherche une chaîne localisée semblable à 03.
+        '''  Recherche une chaîne localisée semblable à 12.
         '''</summary>
         Friend ReadOnly Property BUILD_DATE_DAY() As String
             Get
@@ -1630,7 +1630,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Recherche une chaîne localisée semblable à SMWC Lock works dev.
+        '''  Recherche une chaîne localisée semblable à Stable.
         '''</summary>
         Friend ReadOnly Property RELEASE_STATE() As String
             Get
