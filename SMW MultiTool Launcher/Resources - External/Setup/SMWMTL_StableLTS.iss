@@ -93,3 +93,11 @@ Name: "{userappdata}\Microsoft\Internet Explorer\Quick Launch\{#MyShortAppName}"
 
 [Run]
 Filename: "{app}\{#MyAppExeName}"; Description: "{cm:LaunchProgram,{#StringChange(MyAppName, '&', '&&')}}"; Flags: nowait postinstall
+
+[Code]
+function InitializeSetup: Boolean;
+begin
+  Result := IsDotNetInstalled(net46, 0); //Returns True if .NET Framework version 4.6 is installed, or a compatible version such as 4.8
+  if not Result then
+    SuppressibleMsgBox(FmtMessage(SetupMessage(msgWinVersionTooLowError), ['.NET Framework', '4.6']), mbCriticalError, MB_OK, IDOK);
+end;
