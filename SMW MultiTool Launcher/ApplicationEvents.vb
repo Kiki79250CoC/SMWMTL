@@ -1,5 +1,6 @@
 ﻿
 Imports Microsoft.VisualBasic.ApplicationServices
+Imports System.Environment
 
 Namespace My
 
@@ -13,8 +14,21 @@ Namespace My
 
         Private Sub App_JumpStart(sender As Object, e As StartupEventArgs) Handles Me.Startup
 
+            ' Migrates "AstragonQC_Softwares" settings folder to "AstragonQC_Software"
+            Dim LocalAppData As String = GetFolderPath(SpecialFolder.LocalApplicationData)
+
+            If IO.Directory.Exists($"{LocalAppData}\AstragonQC_Softwares") Then
+                MsgBox("bite")
+
+
+
+
+
+
+            End If
+
             ' Block Windows XP execution, even with HEX-Operating system number hack
-            If Environment.OSVersion.Version.Major < 6 Then
+            If OSVersion.Version.Major < 6 Then
 
                 MsgBox($"{Frm99_TranslateForm.UI00_UnsupportedOS.Text} {Application.Info.AssemblyName}.", MsgBoxStyle.Critical, Application.Info.AssemblyName)
                 End

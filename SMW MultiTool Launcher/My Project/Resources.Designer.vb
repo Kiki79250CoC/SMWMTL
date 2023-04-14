@@ -91,7 +91,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Recherche une chaîne localisée semblable à •••Kiki79250••• // AstragonQC.
+        '''  Recherche une chaîne localisée semblable à AstragonQC Software.
         '''</summary>
         Friend ReadOnly Property APP_AUTHOR() As String
             Get
@@ -118,7 +118,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Recherche une chaîne localisée semblable à 1720.00.
+        '''  Recherche une chaîne localisée semblable à 1721.00.
         '''</summary>
         Friend ReadOnly Property APP_VERSION_BUILD() As String
             Get
@@ -127,7 +127,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Recherche une chaîne localisée semblable à 2.20.1720.00-am1bld-06.
+        '''  Recherche une chaîne localisée semblable à 2.20.1721.00-am1bld-07.
         '''</summary>
         Friend ReadOnly Property APP_VERSION_COMPLETE() As String
             Get
@@ -625,7 +625,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Recherche une chaîne localisée semblable à 281122.
+        '''  Recherche une chaîne localisée semblable à 110423.
         '''</summary>
         Friend ReadOnly Property BUILD_DATE_COMBINED() As String
             Get
@@ -634,7 +634,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Recherche une chaîne localisée semblable à 28.
+        '''  Recherche une chaîne localisée semblable à 11.
         '''</summary>
         Friend ReadOnly Property BUILD_DATE_DAY() As String
             Get
@@ -643,7 +643,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Recherche une chaîne localisée semblable à 11.
+        '''  Recherche une chaîne localisée semblable à 04.
         '''</summary>
         Friend ReadOnly Property BUILD_DATE_MONTH() As String
             Get
@@ -652,7 +652,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Recherche une chaîne localisée semblable à 2022.
+        '''  Recherche une chaîne localisée semblable à 2023.
         '''</summary>
         Friend ReadOnly Property BUILD_DATE_YEAR() As String
             Get
