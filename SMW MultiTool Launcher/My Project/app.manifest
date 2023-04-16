@@ -2,8 +2,8 @@
 <asmv1:assembly manifestVersion="1.0" xmlns="urn:schemas-microsoft-com:asm.v1" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
 	<assemblyIdentity
-		version="2.26.1610.68"
 		name="SMW MultiTools Launcher"
+		version="2.27.1610.72"
 	/>
 
 	<trustInfo xmlns="urn:schemas-microsoft-com:asm.v2">

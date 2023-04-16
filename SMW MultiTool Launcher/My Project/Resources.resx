@@ -263,7 +263,7 @@
     <value>..\Resources\UI_Elements\Icons\Update System\UpdateModal\UI_Icon_DownloadUpdate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="APP_VERSION_COMPLETE" xml:space="preserve">
-    <value>2.26.1610.68-rv6bld-08</value>
+    <value>2.27.1610.72-rv7bld-02</value>
   </data>
   <data name="Shortcut_Default_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Default_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -332,7 +332,7 @@
     <value>..\Resources\UI_Elements\Icons\Application Column\Other\AppIcon_HeAdder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="APP_VERSION_WITHZERO" xml:space="preserve">
-    <value>02.26</value>
+    <value>02.27</value>
   </data>
   <data name="APP_CODENAME" xml:space="preserve">
     <value>Montréal</value>
@@ -428,7 +428,7 @@
     <value>..\Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_1CTL_Error.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="APP_VERSION_BUILD" xml:space="preserve">
-    <value>1610.68</value>
+    <value>1610.72</value>
     <comment>UPDATE ASSEMBLY VERSION NUMBER INFO !!!</comment>
   </data>
   <data name="AppIcon_Smallhacker" type="System.Resources.ResXFileRef, System.Windows.Forms">
@@ -645,7 +645,7 @@
     <value>..\Resources\UI_Elements\Settings Previews\Windows Version Icon\Winver_LogoL_Win1x2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="BUILD_DATE_YEAR" xml:space="preserve">
-    <value>2022</value>
+    <value>2023</value>
   </data>
   <data name="SysIconModifyG64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Placeholders\SysIconModifyG64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -660,7 +660,7 @@
     <value>..\Resources\UI_Elements\Icons\Bottom Bar\Winver\Winver_Logo_Win11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="BUILD_DATE_DAY" xml:space="preserve">
-    <value>12</value>
+    <value>16</value>
   </data>
   <data name="UpdateLogo_Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\UI_Elements\UI_GraphicAssets\UpdateNotification_Modal\UpdateLogo_Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -849,7 +849,7 @@
     <value>..\Resources\UI_Elements\UI_GraphicAssets\UI_WindowMasks\Win_11\UI_RightMask_11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="BUILD_DATE_MONTH" xml:space="preserve">
-    <value>12</value>
+    <value>04</value>
   </data>
   <data name="Shortcut_Icon_Asar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Icon_Asar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -982,7 +982,7 @@
     <value>..\Resources\UI_Elements\Icons\Shortcuts Column\Shortcut_Icon_Blockreator.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="APP_VERSION" xml:space="preserve">
-    <value>2.26</value>
+    <value>2.27</value>
     <comment>MEMO :</comment>
   </data>
   <data name="Run" type="System.Resources.ResXFileRef, System.Windows.Forms">
@@ -1055,7 +1055,7 @@
     <value>..\Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="BUILD_DATE_COMBINED" xml:space="preserve">
-    <value>121222</value>
+    <value>160423</value>
   </data>
   <data name="TitleRed" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\UI_Elements\Background Images\Window Titlebar\TitleRed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

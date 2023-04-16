@@ -134,7 +134,7 @@ Public Class Frm03_Settings
             Case True
                 Select Case AeroEnabled()
                     Case True
-                        Dim side As New Side With {.Left = 9, .Right = 9, .Top = 29, .Bottom = If(Win_NT_Version = "6.0", 11, 9)}
+                        Dim side As New Side With {.Left = 9, .Right = 9, .Top = 29, .Bottom = 9}
                         Dim result As Integer = DwmExtendFrameIntoClientArea(Handle, side)
 
                         BackColor = Color.Black

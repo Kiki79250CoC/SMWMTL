@@ -25,10 +25,10 @@
 
  Outils utilisés pour le développement de SMWMTL :
       - Microsoft Visual Studio Community 2022 (IDE)
-      - Notepad++ 8.4.7 (Pour quelques modifications supplémentaires)
+      - Notepad++ 8.5.1 (Pour quelques modifications supplémentaires)
       - Resource Hacker 5.1.8 (Pour les icônes des logiciels tiers)
       - GIMP 2.8.22 (Images et icônes)
-      - VMWare 16.1.0 (Pour des tests sur les différents systèmes d'exploitation)
+      - VMWare Workstation 16.1.0 (Pour des tests sur les différents systèmes d'exploitation)
 
  Logiciels précédemment utilisés :
       - Microsoft Visual Basic  2010 Express   (Ancien IDE - Utilisé de la 1.00 à la 2.00 Beta)
@@ -51,7 +51,7 @@
       - Windows 10 Professionnel 22H2               (64 bits - Tests)
       - Windows 10 Professionnel 22H2               (64 bits - Tests (Langue anglaise))
       - Windows 11 Professionnel 22H2               (64 bits - Tests)
-      - Windows 11 Professional I.Preview 23H2      (64 bits - Tests)
+      - Windows 11 Professional I.Preview (Canary)  (64 bits - Tests)
 
  Améliorations, outils et logiciels tiers :
       - Icônes de Lunar Magic - FuSoYa
@@ -100,7 +100,7 @@
   └─────────────────┘
 
  Super Mario World MultiTools Launcher est un petit programme pour accéder à tout le piratage SMW requis en un clic et rapidement.
- Il s'agit d'un programme Windows développé en Visual Basic.NET sur .NET Framework 4.6 et est doté d'une interface intuitive, avec
+ Il s'agit d'un programme Windows développé en Visual Basic .NET sur .NET Framework 4.6 et est doté d'une interface intuitive, avec
  quelques fonctionnalités supplémentaires, comme un sélecteur multi-versions pour certains programmes, et une intégration complète
  avec un exécutable personnalisé et une sélection d'architecture.
 
