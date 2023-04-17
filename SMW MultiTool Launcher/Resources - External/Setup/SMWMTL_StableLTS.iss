@@ -4,8 +4,8 @@
 #define AppDataDirectoryName "SMW MultiTools Launcher LTS"
 #define MyAppExeName "SMWMTL.exe"
 
-#define MyAppVersion "2.10.1220.93"
-#define MyShortAppVersion "2.10-LTS.14"
+#define MyAppVersion "2.10.1221.101"
+#define MyShortAppVersion "2.10-LTS.15"
 
 #define MyAppPublisher "AstragonQC Softwares"
 #define MyAppURL "https://kiki79250.wixsite.com/smwmtl"
@@ -93,11 +93,3 @@ Name: "{userappdata}\Microsoft\Internet Explorer\Quick Launch\{#MyShortAppName}"
 
 [Run]
 Filename: "{app}\{#MyAppExeName}"; Description: "{cm:LaunchProgram,{#StringChange(MyAppName, '&', '&&')}}"; Flags: nowait postinstall
-
-[Code]
-function InitializeSetup: Boolean;
-begin
-  Result := IsDotNetInstalled(net46, 0); //Returns True if .NET Framework version 4.6 is installed, or a compatible version such as 4.8
-  if not Result then
-    SuppressibleMsgBox(FmtMessage(SetupMessage(msgWinVersionTooLowError), ['.NET Framework', '4.6']), mbCriticalError, MB_OK, IDOK);
-end;

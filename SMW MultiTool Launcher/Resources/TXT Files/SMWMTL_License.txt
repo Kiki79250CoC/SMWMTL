@@ -25,10 +25,10 @@
 
  Used Tools for SMWMTL developement :
       - Microsoft Visual Studio Community 2022 (IDE)
-      - Notepad++ 8.3.2 (For some extra edits)
-      - Resource Hacker 5.1.8 (For 3rd-Party softwares icons)
+      - Notepad++ 8.5.1 (For some extra edits)
+      - Resource Hacker 5.1.8 (For 3rd-Party software icons)
       - GIMP 2.8.22 (Images and icons)
-      - VMWare 15.5.7 (For testing in various Operating Systems)
+      - VMWare Workstation 16.1.0 (For testing in various Operating Systems)
 
  Previously used softwares :
       - Microsoft Visual Basic  2010 Express   (Former IDE - Used from 1.00 up to 2.00 Beta)
@@ -44,14 +44,14 @@
       - Windows Vista Ultimate SP2                  (64-bit - Tests)
       - Windows 7 Professional SP1                  (64-bit - Tests)
       - Windows 7 Ultimate SP1                      (64-bit - Tests (English Language))
+      - Windows 8 Pro                               (64-bit - Tests)
       - Windows 8.1 Pro w/ Update 1                 (64-bit - Tests)
       - Windows 10 Professional 1507                (64-bit - Tests)
       - Windows 10 Professional 1909                (64-bit - Tests)
-      - Windows 10 Professional 20H2                (64-bit - Tests)
-      - Windows 10 Professional 21H2                (64-bit - Tests)
-      - Windows 10 Professional 21H2                (64-bit - Tests (English Language))
-      - Windows 11 Professional 21H2                (64-bit - Tests)
-      - Windows 11 Professional I.Preview 22H2      (64-bit - Tests)
+      - Windows 10 Professional 22H2                (64-bit - Tests)
+      - Windows 10 Professional 22H2                (64-bit - Tests (English Language))
+      - Windows 11 Professional 22H2                (64-bit - Tests)
+      - Windows 11 Professional I.Preview (Canary)  (64-bit - Tests)
 
  Third-Party Enhancements, Tools and Softwares :
       - Icons of Lunar Magic - FuSoYa
@@ -100,7 +100,7 @@
   └─────────────────┘
 
  Super Mario World MultiTools Launcher is a small program to access all required SMW hacking in one click and quickly. It's a
- Windows program developed in Visual Basic.NET on .NET Framework 4.0.3 and have a intuivite interface, with some extras features,
+ Windows program developed in Visual Basic .NET on .NET Framework 4.6 and have a intuivite interface, with some extras features,
  like a multi-version selector for some programs, and a complete integration with custom executable and architecture selection.
 
  The project was first started in December 2018, and has been worked on and improved at various times over the past 3 years.

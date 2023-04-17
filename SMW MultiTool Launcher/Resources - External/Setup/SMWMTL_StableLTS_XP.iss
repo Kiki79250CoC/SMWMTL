@@ -5,8 +5,8 @@
 #define AppDataDirectoryName "SMW MultiTools Launcher LTS"
 #define MyAppExeName "SMWMTL.exe"
 
-#define MyAppVersion "2.10.1220.93"
-#define MyShortAppVersion "2.10-LTS.14"
+#define MyAppVersion "2.10.1221.101"
+#define MyShortAppVersion "2.10-LTS.15"
 
 #define MyAppPublisher "AstragonQC Softwares"
 #define MyAppURL "https://kiki79250.wixsite.com/smwmtl"
