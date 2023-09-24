@@ -3,10 +3,10 @@
 #define MyShortAppName "SMW MultiTools Launcher"
 #define MyAppExeName "SMWMTL.exe"
 
-#define MyAppVersion "2.27.1610.72"
-#define MyShortAppVersion "2.27"
+#define MyAppVersion "2.28.1610.81"
+#define MyShortAppVersion "2.28"
 
-#define MyAppPublisher "AstragonQC Softwares"
+#define MyAppPublisher "AstragonQC Software"
 #define MyAppURL "https://kiki79250.wixsite.com/smwmtl"
 
 #define MyDateTimeString GetDateTimeString('yyyy', '', '')
