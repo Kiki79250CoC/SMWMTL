@@ -109,7 +109,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Recherche une chaîne localisée semblable à 2.27.
+        '''  Recherche une chaîne localisée semblable à 2.28.
         '''</summary>
         Friend ReadOnly Property APP_VERSION() As String
             Get
@@ -118,7 +118,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Recherche une chaîne localisée semblable à 1610.72.
+        '''  Recherche une chaîne localisée semblable à 1610.81.
         '''</summary>
         Friend ReadOnly Property APP_VERSION_BUILD() As String
             Get
@@ -127,7 +127,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Recherche une chaîne localisée semblable à 2.27.1610.72-rv7bld-02.
+        '''  Recherche une chaîne localisée semblable à 2.28.1610.81-rv8bld-01.
         '''</summary>
         Friend ReadOnly Property APP_VERSION_COMPLETE() As String
             Get
@@ -136,7 +136,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Recherche une chaîne localisée semblable à 02.27.
+        '''  Recherche une chaîne localisée semblable à 02.28.
         '''</summary>
         Friend ReadOnly Property APP_VERSION_WITHZERO() As String
             Get
@@ -625,7 +625,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Recherche une chaîne localisée semblable à 160423.
+        '''  Recherche une chaîne localisée semblable à 240923.
         '''</summary>
         Friend ReadOnly Property BUILD_DATE_COMBINED() As String
             Get
@@ -634,7 +634,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Recherche une chaîne localisée semblable à 16.
+        '''  Recherche une chaîne localisée semblable à 24.
         '''</summary>
         Friend ReadOnly Property BUILD_DATE_DAY() As String
             Get
@@ -643,7 +643,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Recherche une chaîne localisée semblable à 04.
+        '''  Recherche une chaîne localisée semblable à 09.
         '''</summary>
         Friend ReadOnly Property BUILD_DATE_MONTH() As String
             Get

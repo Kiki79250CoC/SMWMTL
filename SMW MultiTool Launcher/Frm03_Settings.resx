@@ -4120,7 +4120,7 @@
     <value>Level Music Utility</value>
   </data>
   <data name="AppOption_Shortcut4_Icon.Items11" xml:space="preserve">
-    <value>Organ BRR</value>
+    <value>BRR Player</value>
   </data>
   <data name="AppOption_Shortcut4_Icon.Items12" xml:space="preserve">
     <value>Blockreator</value>
@@ -4576,7 +4576,7 @@
     <value>Level Music Utility</value>
   </data>
   <data name="AppOption_Shortcut6_Icon.Items11" xml:space="preserve">
-    <value>Organ BRR</value>
+    <value>BRR Player</value>
   </data>
   <data name="AppOption_Shortcut6_Icon.Items12" xml:space="preserve">
     <value>Blockreator</value>
@@ -4912,7 +4912,7 @@
     <value>Level Music Utility</value>
   </data>
   <data name="AppOption_Shortcut3_Icon.Items11" xml:space="preserve">
-    <value>Organ BRR</value>
+    <value>BRR Player</value>
   </data>
   <data name="AppOption_Shortcut3_Icon.Items12" xml:space="preserve">
     <value>Blockreator</value>
@@ -5497,7 +5497,7 @@
     <value>Level Music Utility</value>
   </data>
   <data name="AppOption_Shortcut5_Icon.Items11" xml:space="preserve">
-    <value>Organ BRR</value>
+    <value>BRR Player</value>
   </data>
   <data name="AppOption_Shortcut5_Icon.Items12" xml:space="preserve">
     <value>Blockreator</value>
@@ -5794,7 +5794,7 @@
     <value>Level Music Utility</value>
   </data>
   <data name="AppOption_Shortcut2_Icon.Items11" xml:space="preserve">
-    <value>Organ BRR</value>
+    <value>BRR Player</value>
   </data>
   <data name="AppOption_Shortcut2_Icon.Items12" xml:space="preserve">
     <value>Blockreator</value>
@@ -6187,7 +6187,7 @@
     <value>Level Music Utility</value>
   </data>
   <data name="AppOption_Shortcut1_Icon.Items11" xml:space="preserve">
-    <value>Organ BRR</value>
+    <value>BRR Player</value>
   </data>
   <data name="AppOption_Shortcut1_Icon.Items12" xml:space="preserve">
     <value>Blockreator</value>
@@ -7662,6 +7662,9 @@
   <data name="AppOption_LMslot3_Version.Items60" xml:space="preserve">
     <value>3.33</value>
   </data>
+  <data name="AppOption_LMslot3_Version.Items61" xml:space="preserve">
+    <value>3.40</value>
+  </data>
   <data name="AppOption_LMslot3_Version.Location" type="System.Drawing.Point, System.Drawing">
     <value>165, 60</value>
   </data>
@@ -8151,6 +8154,9 @@
   <data name="AppOption_LMslot1_Version.Items60" xml:space="preserve">
     <value>3.33</value>
   </data>
+  <data name="AppOption_LMslot1_Version.Items61" xml:space="preserve">
+    <value>3.40</value>
+  </data>
   <data name="AppOption_LMslot1_Version.Location" type="System.Drawing.Point, System.Drawing">
     <value>165, 60</value>
   </data>
@@ -8639,6 +8645,9 @@
   </data>
   <data name="AppOption_LMslot2_Version.Items60" xml:space="preserve">
     <value>3.33</value>
+  </data>
+  <data name="AppOption_LMslot2_Version.Items61" xml:space="preserve">
+    <value>3.40</value>
   </data>
   <data name="AppOption_LMslot2_Version.Location" type="System.Drawing.Point, System.Drawing">
     <value>165, 60</value>
