@@ -25,7 +25,7 @@
 
  Used Tools for SMWMTL developement :
       - Microsoft Visual Studio Community 2022 (IDE)
-      - Notepad++ 8.5.1 (For some extra edits)
+      - Notepad++ 8.5.7 (For some extra edits)
       - Resource Hacker 5.1.8 (For 3rd-Party software icons)
       - GIMP 2.8.22 (Images and icons)
       - VMWare Workstation 16.1.0 (For testing in various Operating Systems)

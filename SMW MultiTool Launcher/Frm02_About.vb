@@ -32,7 +32,7 @@ Public Class Frm02_About
         ' | Line 5 (UpdateSysVersion_Label)  | SMWMTL_Update version <UpdateSysVer>
         ' +----------------------------------+---------------------------------------------------------------------------------
 
-        AppVersion_Label.Text = $"Version {My.Resources.APP_VERSION} • Build {My.Resources.APP_VERSION_BUILD} ({My.Resources.APP_VERSION}.{My.Resources.APP_VERSION_BUILD}{If(My.Settings.IS_PRERELEASE = True, $" ({My.Resources.APP_VERSION_COMPLETE.Replace($"{My.Resources.APP_VERSION}.{My.Resources.APP_VERSION_BUILD}-", "")})", "")})"
+        AppVersion_Label.Text = $"Version {My.Resources.APP_VERSION} • Build {My.Resources.APP_VERSION_BUILD} ({My.Resources.APP_VERSION.Replace("s", "")}.{My.Resources.APP_VERSION_BUILD}{If(My.Settings.IS_PRERELEASE = True, $" ({My.Resources.APP_VERSION_COMPLETE.Replace($"{My.Resources.APP_VERSION}.{My.Resources.APP_VERSION_BUILD}-", "")})", "")})"
 
         AppCompil_Label.Text += $" {CultureInfo.CurrentCulture.TextInfo.ToTitleCase(CompileDate.ToString(If(My.Computer.Info.InstalledUICulture.ToString().Contains("fr"), "dd MMMM yyyy", "MMMM dd, yyyy"), CultureInfo.CreateSpecificCulture(If(My.Computer.Info.InstalledUICulture.ToString().Contains("fr"), "fr-FR", "en-US"))))}"
 
