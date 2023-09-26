@@ -18,23 +18,26 @@ However, there's an exception for the last release of a codebase (like 1.20 and 
 
 | Version            | Release Date       | End of Support date | Support state            |
 | ------------------ | ------------------ | ------------------- | ------------------------ |
-| 2.27               | 16 April 2023      | -                   | Supported                |
+| 2.28               | 24 September 2023  | -                   | Supported                |
+| 2.27               | 16 April 2023      | 12 November 2024    | Supported                |
 | 2.26               | 13 December 2022   | 14 May 2024         | Supported                |
 | 2.25               | 07 November 2022   | 09 January 2024     | Supported                |
 | 2.24               | 25 September 2022  | 12 December 2023    | Supported                |
 | 2.23               | 04 September 2022  | 14 November 2023    | Supported                |
 | 2.22               | 02 July 2022       | 10 October 2023     | Supported                |
-| 2.21               | 15 May 2022        | 08 August 2023      | Supported                |
-| 2.20               | 10 May 2022        | 08 August 2023      | Supported                |
+| 2.21               | 15 May 2022        | 08 August 2023      | Support Ended            |
+| 2.20               | 10 May 2022        | 08 August 2023      | Support Ended            |
 ||
-|        2.10-LTS.14 | 13 December 2022   | -                   | Supported                |
+|        2.10-LTS.16 | 24 September 2023  | -                   | Supported                |
+|        2.10-LTS.15 | 16 April 2023      | 12 November 2024    | Supported                |
+|        2.10-LTS.14 | 13 December 2022   | 14 May 2024         | Supported                |
 |        2.10-LTS.13 | 07 November 2022   | 09 January 2024     | Supported                |
 |        2.10-LTS.12 | 25 September 2022  | 12 December 2023    | Supported                |
 |        2.10-LTS.11 | 04 September 2022  | 14 November 2023    | Supported                |
 |        2.10-LTS.10 | 02 July 2022       | 10 October 2023     | Supported                |
-|        2.10-LTS.9  | 10 May 2022        | 08 August 2023      | Supported                |
-| 2.18 • 2.10-LTS.8  | 21 April 2022      | 13 June 2023        | Supported                |
-| 2.17 • 2.10-LTS.7  | 08 March 2022      | 09 May 2023         | Supported                |
+|        2.10-LTS.9  | 10 May 2022        | 08 August 2023      | Support Ended            |
+| 2.18 • 2.10-LTS.8  | 21 April 2022      | 13 June 2023        | Support Ended            |
+| 2.17 • 2.10-LTS.7  | 08 March 2022      | 09 May 2023         | Support Ended            |
 | 2.16               | 15 January 2022    | 11 April 2023       | Support Ended            |
 | 2.15 • 2.10-LTS.6  | 11 January 2022    | 11 April 2023       | Support Ended            |
 | 2.14 • 2.10-LTS.5  | 10 November 2021   | 14 February 2023    | Support Ended            |

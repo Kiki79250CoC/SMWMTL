@@ -1,9 +1,9 @@
 # Super Mario World MultiTools Launcher (SMWMTL)
-<img align="left" src="https://github.com/Kiki79250CoC/SMWMTL/blob/8699736fe4029cb76815780130a2336fa5f9f6a1/Releases/Images/AppBrand/AppBrandLogo_Montr%C3%A9al.png" alt="">
+![Image](./Releases/Images/AppBrand/AppBrandLogo_Montr%C3%A9al.png)
 Super Mario World MultiTools Launcher is a small program writted in Visual Basic .NET under Framework 4.6, which allows to create Super Mario World Hacks more easily (if you use your own-dumped ROM) by grouping all tools in one place instead of travel into each folder to find what tool you want to use.
 
 ## Build SMWMTL from source:
-For building SMWMTL from it's source code, you need [Visual Studio 2022](https://visualstudio.microsoft.com/fr/vs/) (Version 17.5) and the .NET Framework 4.6 targeting package.
+For building SMWMTL from it's source code, you need [Visual Studio 2022](https://visualstudio.microsoft.com/fr/vs/) (Version 17.6) and the .NET Framework 4.6 targeting package.
 
 ## Custom build marker:
 Since SMWMTL v2.26 (v2.30 build 1720), a custom build marker has been added to run some code if a build is planned to be published somewhere in order to comply with the requirements the destination website have in place. At this time, there's only one custom build property, which is for SMWCentral. To compile a custom build, change the "RELEASE_TYPE" key from "Normal" to "SMWC".
@@ -19,28 +19,28 @@ The left one is the list of Application that SMWMTL can launch, and the right on
 
 The bottom zone is for some tools like Settings, Report bug form and some other features.
 
-<img align="left" src="https://github.com/Kiki79250CoC/SMWMTL/blob/9b79c27f5b62212d6b28a5d4e81acf41234a4d46/Releases/Images/SMWMTL227.png" alt="">
+![Image](./Releases/Images/SMWMTL228.png)
 
 ## System Requirements:
 ### SMWMTL 2.20 and up
 
-|                         | Minimal Configuration            | Recommended Configuration                       |
-| ----------------------- | -------------------------------- | ----------------------------------------------- |
-| Operating System        | Windows Vista SP2 (x64)          | Windows 7 SP1 (x64)                             |
-| .NET Framework Version  | Version 4.6                      | Version 4.8                                     |
-| System Memory           | 128 MB                           | 256 MB                                          |
-| Disk space              | 128 MB                           | 512 MB                                          |
-| Screen Resolution       | 1366x768 Pixels                  | 1600x900 Pixels                                 |
+|                               | Minimal Configuration            | Recommended Configuration                       |
+| ----------------------------- | -------------------------------- | ----------------------------------------------- |
+| **Operating System :**        | Windows Vista SP2 (x64)          | Windows 7 SP1 (x64)                             |
+| **.NET Framework Version :**  | Version 4.6                      | Version 4.8                                     |
+| **System Memory :**           | 128 MB                           | 256 MB                                          |
+| **Disk space :**              | 128 MB                           | 512 MB                                          |
+| **Screen Resolution :**       | 1366x768 Pixels                  | 1600x900 Pixels                                 |
 
 ### SMWMTL 1.20 & 2.00 up to SMWMTL 2.18 (2.10-LTS.x versions included)
 
-|                         | Minimal Configuration            | Recommended Configuration                       |
-| ----------------------- | -------------------------------- | ----------------------------------------------- |
-| Operating System        | Windows XP (SP3) / XP x64 (SP2)  | Windows Vista (SP2) / Windows 7 (SP1) (all x64) |
-| .NET Framework Version  | Version 4.0.30319                | Version 4.5                                     |
-| System Memory           | 128 MB                           | 256 MB                                          |
-| Disk space              | 128 MB                           | 512 MB                                          |
-| Screen Resolution       | 1366x768 Pixels                  | 1600x900 Pixels                                 |
+|                               | Minimal Configuration            | Recommended Configuration                       |
+| ----------------------------- | -------------------------------- | ----------------------------------------------- |
+| **Operating System :**        | Windows XP (SP3) / XP x64 (SP2)  | Windows Vista (SP2) / Windows 7 (SP1) (all x64) |
+| **.NET Framework Version :**  | Version 4.0.30319                | Version 4.5                                     |
+| **System Memory :**           | 128 MB                           | 256 MB                                          |
+| **Disk space :**              | 128 MB                           | 512 MB                                          |
+| **Screen Resolution :**       | 1366x768 Pixels                  | 1600x900 Pixels                                 |
 
 🗣️ **SMWMTL is available for French (France) and English (United States) languages.**
 
