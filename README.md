@@ -36,7 +36,7 @@ The bottom zone is for some tools like Settings, Report bug form and some other 
 
 |                               | Minimal Configuration            | Recommended Configuration                       |
 | ----------------------------- | -------------------------------- | ----------------------------------------------- |
-| **Operating System :**        | Windows XP (SP3) / XP x64 (SP2)  | Windows Vista (SP2) / Windows 7 (SP1) (all x64) |
+| **Operating System :**        | Windows XP (SP3)<br>Windows XP x64 (SP2)  | Windows Vista x64 (SP2)<br>Windows 7 x64 (SP1) |
 | **.NET Framework Version :**  | Version 4.0.30319                | Version 4.5                                     |
 | **System Memory :**           | 128 MB                           | 256 MB                                          |
 | **Disk space :**              | 128 MB                           | 512 MB                                          |
