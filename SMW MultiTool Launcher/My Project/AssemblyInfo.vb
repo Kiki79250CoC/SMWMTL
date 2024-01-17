@@ -12,7 +12,7 @@ Imports System.Runtime.InteropServices
 <Assembly: AssemblyDescription("A Super Mario World hacking multi tools launcher.")>
 <Assembly: AssemblyCompany("AstragonQC Software")>
 <Assembly: AssemblyProduct("Super Mario World MultiTools Launcher for Super Mario World Hacking.")>
-<Assembly: AssemblyCopyright("Copyright © 2018-2023 AstragonQC Software")>
+<Assembly: AssemblyCopyright("Copyright © 2018-2024 AstragonQC Software")>
 <Assembly: AssemblyTrademark("AstragonQC Software")>
 
 <Assembly: ComVisible(False)>
@@ -32,6 +32,6 @@ Imports System.Runtime.InteropServices
 ' <Assembly: AssemblyVersion("1.0.*")> 
 
 <Assembly: AssemblyVersion("1.1.0.0")>
-<Assembly: AssemblyFileVersion("2.20.1722.00")>
+<Assembly: AssemblyFileVersion("2.20.1750.00")>
 
 <Assembly: NeutralResourcesLanguage("en-US")>

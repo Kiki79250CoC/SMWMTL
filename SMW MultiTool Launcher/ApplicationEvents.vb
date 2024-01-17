@@ -6,6 +6,8 @@ Namespace My
 
     Partial Friend Class MyApplication
 
+        Private ReadOnly AppVersion As FileVersionInfo = FileVersionInfo.GetVersionInfo(Reflection.Assembly.GetExecutingAssembly().Location)
+
         Private Function GetFileVersionInfo(filename As String) As Version
             Return Version.Parse(FileVersionInfo.GetVersionInfo(filename).FileVersion)
         End Function
@@ -13,6 +15,9 @@ Namespace My
         ' ---------------------------------------------------------------------------------------------------------------------
 
         Private Sub App_JumpStart(sender As Object, e As StartupEventArgs) Handles Me.Startup
+
+
+
 
             ' Migrates "AstragonQC_Softwares" settings folder to "AstragonQC_Software"
             Dim LocalAppData As String = GetFolderPath(SpecialFolder.LocalApplicationData)
@@ -28,6 +33,9 @@ Namespace My
             End If
 
             ' Block Windows XP execution, even with HEX-Operating system number hack
+
+            MsgBox($"{AppVersion.ProductMajorPart}.{AppVersion.ProductMinorPart}")
+
             If OSVersion.Version.Major < 6 Then
 
                 MsgBox($"{Frm99_TranslateForm.UI00_UnsupportedOS.Text} {Application.Info.AssemblyName}.", MsgBoxStyle.Critical, Application.Info.AssemblyName)

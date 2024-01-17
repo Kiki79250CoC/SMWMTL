@@ -475,7 +475,7 @@ Partial Class Frm03_Settings
         Me.DownArrowMenu_ResetSettings = New System.Windows.Forms.MenuItem()
         Me.DownArrowMenu_Sep03 = New System.Windows.Forms.MenuItem()
         Me.DownArrowMenu_HD_ExperimentalSettings = New System.Windows.Forms.MenuItem()
-        Me.DownArrowMenu_Icons = New SMWMTLextensions.Controls.VistaMenu(Me.components)
+        Me.DownArrowMenu_Icons = New SMWMTLextensions.ControlExtensions.NativeMenuIcon(Me.components)
         Me.AppNames_HideBtnSettings = New System.Windows.Forms.ToolTip(Me.components)
         Me.ExportSettings_SaveFileDialog = New System.Windows.Forms.SaveFileDialog()
         Me.ImportSettings_OpenFileDialog = New System.Windows.Forms.OpenFileDialog()
@@ -4227,7 +4227,7 @@ Partial Class Frm03_Settings
     Friend WithEvents DownArrowMenu_ImportSettings As MenuItem
     Friend WithEvents DownArrowMenu_ExportSettings As MenuItem
     Friend WithEvents DownArrowMenu_ResetSettings As MenuItem
-    Friend WithEvents DownArrowMenu_Icons As SMWMTLextensions.Controls.VistaMenu
+    Friend WithEvents DownArrowMenu_Icons As SMWMTLextensions.ControlExtensions.NativeMenuIcon
     Friend WithEvents AboutButtonIcon As PictureBox
     Friend WithEvents AppOption_DisplayAboutButton As CheckBox
     Friend WithEvents Shell32AboutIcon As PictureBox
