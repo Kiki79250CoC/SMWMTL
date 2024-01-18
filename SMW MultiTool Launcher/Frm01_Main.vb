@@ -8,12 +8,18 @@ Public Class Frm01_Main
     ' Detect DWM activation
     <Runtime.InteropServices.DllImport("dwmapi.dll")> Private Shared Function DwmIsCompositionEnabled(ByRef enabled As Boolean) As Integer
     End Function
+
     Public Function AeroEnabled() As Boolean
         If Environment.OSVersion.Version.Major < 6 Then Return False
         Dim Enabled As Boolean
         DwmIsCompositionEnabled(Enabled)
         Return Enabled
     End Function
+
+    Public Enum DWM_WindowAttribute
+        DWMWA_USE_IMMERSIVE_DARK_MODE = 20
+        DWMWA_SYSTEMBACKDROP_TYPE = 38
+    End Enum
 
     ' Border extension
     <Runtime.InteropServices.StructLayout(Runtime.InteropServices.LayoutKind.Sequential)> Public Structure Side
@@ -22,7 +28,11 @@ Public Class Frm01_Main
         Public Top As Integer
         Public Bottom As Integer
     End Structure
+
     <Runtime.InteropServices.DllImport("dwmapi.dll")> Public Shared Function DwmExtendFrameIntoClientArea(hWnd As IntPtr, ByRef pMarinset As Side) As Integer
+    End Function
+
+    <Runtime.InteropServices.DllImport("dwmapi.dll")> Public Shared Function DwmSetWindowAttribute(hwnd As IntPtr, dwAttribute As DWM_WindowAttribute, ByRef pvAttribute As Integer, cbAttribute As Integer) As Integer
     End Function
 
     ' Shell32-based About box
@@ -234,6 +244,8 @@ Public Class Frm01_Main
                     Case True
                         Dim side As New Side With {.Left = 13, .Right = 13, .Top = 33, .Bottom = If(Win_NT_Version = "6.0", 56, 54)}
                         Dim result As Integer = DwmExtendFrameIntoClientArea(Handle, side)
+
+                        DwmSetWindowAttribute(Handle, DWM_WindowAttribute.DWMWA_SYSTEMBACKDROP_TYPE, 3, Runtime.InteropServices.Marshal.SizeOf(Of Integer)())
 
                         BackColor = Color.Black
 
