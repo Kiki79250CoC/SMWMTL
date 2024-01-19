@@ -1,12 +1,60 @@
 ﻿
 Imports Microsoft.VisualBasic.ApplicationServices
+Imports SMWMTLextensions.Dialogs
 Imports System.Environment
+Imports System.IO
+Imports System.Threading
+Imports System.Globalization
+
+Public Class ApplicationInfo
+
+    Public Shared ReadOnly ExecutableLocation As String = My.Application.Info.DirectoryPath
+    Public Shared ReadOnly ExecutablePath As String = Path.GetFileName(Application.ExecutablePath)
+    Public Shared ReadOnly AppDataFolder As String = GetFolderPath(SpecialFolder.LocalApplicationData)
+
+    Public Shared ReadOnly AppVersion As FileVersionInfo = FileVersionInfo.GetVersionInfo(Reflection.Assembly.GetExecutingAssembly().Location)
+    Public Shared ReadOnly CompileDate As Date = New FileInfo(Reflection.Assembly.GetExecutingAssembly().Location).LastWriteTime
+
+End Class
+
+Public Class SystemInterop
+
+    <Runtime.InteropServices.DllImport("kernel32.dll")>
+    Public Shared Function GetUserDefaultUILanguage() As UShort
+    End Function
+
+    <Runtime.InteropServices.StructLayout(Runtime.InteropServices.LayoutKind.Sequential)> Public Structure Side
+        Public Left As Integer
+        Public Right As Integer
+        Public Top As Integer
+        Public Bottom As Integer
+    End Structure
+    <Runtime.InteropServices.DllImport("dwmapi.dll")>
+    Public Shared Function DwmExtendFrameIntoClientArea(hWnd As IntPtr, ByRef pMarinset As Side) As Integer
+    End Function
+
+    Public Enum DWM_WindowAttribute
+        UseImmersiveMode = 20
+        SystemBackdropType = 38
+    End Enum
+    <Runtime.InteropServices.DllImport("dwmapi.dll")>
+    Public Shared Function DwmSetWindowAttribute(hwnd As IntPtr, dwAttribute As DWM_WindowAttribute, ByRef pvAttribute As Integer, cbAttribute As Integer) As Integer
+    End Function
+
+End Class
 
 Namespace My
+#Region "    Debug flag"
+    Public Module Common
+#If DEBUG Then
+        Public IsDebug As Boolean = True
+#Else
+    Public IsDebug As Boolean = False
+#End If
+    End Module
+#End Region
 
     Partial Friend Class MyApplication
-
-        Private ReadOnly AppVersion As FileVersionInfo = FileVersionInfo.GetVersionInfo(Reflection.Assembly.GetExecutingAssembly().Location)
 
         Private Function GetFileVersionInfo(filename As String) As Version
             Return Version.Parse(FileVersionInfo.GetVersionInfo(filename).FileVersion)
@@ -16,25 +64,70 @@ Namespace My
 
         Private Sub App_JumpStart(sender As Object, e As StartupEventArgs) Handles Me.Startup
 
+            Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo(SystemInterop.GetUserDefaultUILanguage())
 
-
-
-            ' Migrates "AstragonQC_Softwares" settings folder to "AstragonQC_Software"
-            Dim LocalAppData As String = GetFolderPath(SpecialFolder.LocalApplicationData)
-
-            If IO.Directory.Exists($"{LocalAppData}\AstragonQC_Softwares") Then
-                MsgBox("bite")
-
-
-
-
-
+            ' Block all Windows versions below Vista SP2 (and XP if HexHack)
+            If Not New Version(6, 0, 6002).CompareTo(New Version(OSVersion.Version.Major, OSVersion.Version.Minor, OSVersion.Version.Build)) Then
+                MsgBox($"{Frm99_TranslateForm.UI00_UnsupportedOS.Text} {Application.Info.AssemblyName}.", MsgBoxStyle.Critical, Application.Info.AssemblyName)
+                End
 
             End If
 
-            ' Block Windows XP execution, even with HEX-Operating system number hack
+            ' Migrates "AstragonQC_Softwares" settings folder to "AstragonQC_Software" (if 2.2x installed)
+            Dim OldDir = $"{ApplicationInfo.AppDataFolder}\AstragonQC_Softwares"
+            If Directory.Exists(OldDir) Then
+                If Not File.Exists($"{OldDir}\Settings_Migrated_LAVALrel230") Then
+                    If Not File.Exists($"{OldDir}\Settings_Migration_Declined_LAVALrel230") Then
 
-            MsgBox($"{AppVersion.ProductMajorPart}.{AppVersion.ProductMinorPart}")
+                        Dim MigrateBtn = New TaskDialogButton("MigrateDBtn", Resources.Strings.TaskDialog_SettignsMigration_AcceptBtnText) With {.Default = True}
+                        Dim DeclineBtn = New TaskDialogButton("DeclineMBtn", Resources.Strings.TaskDialog_SettignsMigration_DeclineBtnText)
+                        Using TaskDlg As New TaskDialog
+                            AddHandler MigrateBtn.Click,
+                            Sub()
+                                TaskDlg.Close()
+                                'File.Create($"{ApplicationInfo.AppDataFolder}\AstragonQC_Softwares\Settings_Migrated_LAVALrel230")
+
+                            End Sub
+                            AddHandler DeclineBtn.Click,
+                            Sub()
+                                TaskDlg.Close(TaskDialogResult.No)
+                                'File.Create($"{ApplicationInfo.AppDataFolder}\AstragonQC_Softwares\Settings_Migration_Declined_LAVALrel230")
+                            End Sub
+
+                            TaskDlg.Caption = $"{Application.Info.AssemblyName} · {Resources.Strings.TaskDialog_SettignsMigration_Title}"
+                            TaskDlg.InstructionText = String.Format(Resources.Strings.TaskDialog_SettignsMigration_InstructionText, Application.Info.AssemblyName, $"{ApplicationInfo.AppVersion.ProductMajorPart}.{ApplicationInfo.AppVersion.ProductMinorPart}")
+                            TaskDlg.Text = String.Format(Resources.Strings.TaskDialog_SettignsMigration_Text, Application.Info.AssemblyName)
+                            TaskDlg.FooterText = String.Format(Resources.Strings.TaskDialog_SettignsMigration_FooterText, Application.Info.AssemblyName)
+
+                            TaskDlg.Icon = TaskDialogStandardIcon.DefaultIcon_Information
+                            TaskDlg.FooterIcon = TaskDialogStandardIcon.DefaultIcon_Information
+
+                            TaskDlg.Controls.Add(MigrateBtn)
+                            TaskDlg.Controls.Add(DeclineBtn)
+
+                            TaskDlg.Cancelable = False
+                            TaskDlg.OwnerWindowHandle = Frm01_Main.Handle
+                            TaskDlg.Show()
+                        End Using
+
+
+
+
+
+
+
+
+                    End If
+
+
+
+
+
+                End If
+
+            End If
+
+
 
             If OSVersion.Version.Major < 6 Then
 
@@ -43,10 +136,10 @@ Namespace My
 
             End If
 
-            ' Block execution if "Application.exe.config" file is missing
-            Select Case IO.File.Exists($"{IO.Path.GetFileName(Windows.Forms.Application.ExecutablePath)}.config")
+            ' Block execution if "SMWMTL.exe.config" file is missing
+            Select Case File.Exists($"{ApplicationInfo.ExecutablePath}.config")
                 Case False
-                    MsgBox($"{Frm99_TranslateForm.UI00_ConfigFileMissing.Text.Replace("$SFL", $"{IO.Path.GetFileName(Windows.Forms.Application.ExecutablePath)}.config")}", MsgBoxStyle.Critical, Application.Info.AssemblyName)
+                    MsgBox($"{Frm99_TranslateForm.UI00_ConfigFileMissing.Text.Replace("$SFL", $"{Path.GetFileName(Windows.Forms.Application.ExecutablePath)}.config")}", MsgBoxStyle.Critical, Application.Info.AssemblyName)
                     End
 
             End Select
@@ -62,7 +155,7 @@ Namespace My
 
                     Try
 
-                        IO.File.Delete($"{Application.Info.DirectoryPath}\UpdatePkg.exe")
+                        File.Delete($"{Application.Info.DirectoryPath}\UpdatePkg.exe")
 
                     Catch ex As Exception
 
@@ -194,7 +287,7 @@ Namespace My
             ' Update - "UpdatePkg.exe" file handling
             Select Case IO.File.Exists($"{Application.Info.DirectoryPath}\UpdatePkg.exe")
                 Case True
-                    Select Case GetFileVersionInfo($"{Application.Info.DirectoryPath}\UpdatePkg.exe").ToString
+                    Select Case GetFileVersionInfo($"{ApplicationInfo.ExecutableLocation}\UpdatePkg.exe").ToString
                         Case Is <= $"{Resources.APP_VERSION}.{Resources.APP_VERSION_BUILD}"
                             Try
 
@@ -263,6 +356,15 @@ Namespace My
             End Select
 
         End Sub
+        Public Sub TaskDialog_Opened(sender As Object, e As EventArgs)
+
+            Dim taskDialog = TryCast(sender, TaskDialog)
+            taskDialog.Icon = taskDialog.Icon
+            taskDialog.FooterIcon = taskDialog.FooterIcon
+
+        End Sub
+
+
         Private Sub App_UnhandledException(sender As Object, e As UnhandledExceptionEventArgs) Handles Me.UnhandledException
 
             e.ExitApplication = False
