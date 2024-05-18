@@ -55,7 +55,7 @@ However, there's an exception for the last release of a codebase (like 1.20 and 
 | 2.01               | 02 September 2020  | 09 November 2021    | Support Ended            |
 | 2.00               | 11 June 2020       | 12 October 2021     | Support Ended            |
 ||
-| 1.20               | 11 October 2019    | 10 October 2023     | Supported (Last Release) |
+| 1.20               | 11 October 2019    | 10 October 2023     | Support Ended            |
 | 1.10               | 01 July 2019       | 05 March 2021       | Support Ended            |
 | 1.00               | 28 December 2018   | 05 March 2021       | Support Ended            |
 
