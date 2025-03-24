@@ -122,14 +122,13 @@
     <value>491, 26</value>
   </data>
   <data name="UI00_ConfigFileMissing.Text" xml:space="preserve">
-    <value>Le fichier "$SFL" est manquant dans le dossier du programme.
-Veuillez vérifier si le fichier est bien présent, ou rendez-vous sur le site pour obtenir une copie du fichier.</value>
+    <value />
   </data>
   <data name="UI00_UnsupportedOS.Size" type="System.Drawing.Size, System.Drawing">
     <value>263, 13</value>
   </data>
   <data name="UI00_UnsupportedOS.Text" xml:space="preserve">
-    <value>Le système d'exploitation actuel n'est pas supporté par</value>
+    <value />
   </data>
   <data name="UI01_LegacyUpdatePopupText01.Size" type="System.Drawing.Size, System.Drawing">
     <value>330, 13</value>

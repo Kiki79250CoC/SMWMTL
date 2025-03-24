@@ -7,12 +7,14 @@ Public Class Frm98_IndevFeatures
 
         ' Experimental Settings
         ExSet_DarkModeHomeUpdateBar.Checked = My.Settings.EX_SET_DARKMODE_HOMEUPDATEBAR
+        ExSet_W10AeroGlass.Checked = My.Settings.EX_W10_AERO
 
     End Sub
     Private Sub ValidateBtn_Click(sender As Object, e As EventArgs) Handles ValidateBtn.Click
 
         ' Save Settings
         My.Settings.EX_SET_DARKMODE_HOMEUPDATEBAR = ExSet_DarkModeHomeUpdateBar.Checked
+        My.Settings.EX_W10_AERO = ExSet_W10AeroGlass.Checked
 
         Close()
 

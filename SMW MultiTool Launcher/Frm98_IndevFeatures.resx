@@ -121,20 +121,50 @@
   <data name="ExperimentalSettingsGroup.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
   </data>
+  <data name="ExSet_W10AeroGlass.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="ExSet_W10AeroGlass.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="ExSet_W10AeroGlass.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 42</value>
+  </data>
+  <data name="ExSet_W10AeroGlass.Size" type="System.Drawing.Size, System.Drawing">
+    <value>373, 17</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ExSet_W10AeroGlass.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="ExSet_W10AeroGlass.Text" xml:space="preserve">
+    <value>Enable Windows 10 DWM AeroGlass</value>
+  </data>
+  <data name="&gt;&gt;ExSet_W10AeroGlass.Name" xml:space="preserve">
+    <value>ExSet_W10AeroGlass</value>
+  </data>
+  <data name="&gt;&gt;ExSet_W10AeroGlass.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ExSet_W10AeroGlass.Parent" xml:space="preserve">
+    <value>ExperimentalSettingsGroup</value>
+  </data>
+  <data name="&gt;&gt;ExSet_W10AeroGlass.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="ExSet_DarkModeHomeUpdateBar.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
   </data>
   <data name="ExSet_DarkModeHomeUpdateBar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="ExSet_DarkModeHomeUpdateBar.Location" type="System.Drawing.Point, System.Drawing">
     <value>9, 19</value>
   </data>
   <data name="ExSet_DarkModeHomeUpdateBar.Size" type="System.Drawing.Size, System.Drawing">
     <value>373, 17</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="ExSet_DarkModeHomeUpdateBar.TabIndex" type="System.Int32, mscorlib">
     <value>36</value>
   </data>
@@ -151,7 +181,7 @@
     <value>ExperimentalSettingsGroup</value>
   </data>
   <data name="&gt;&gt;ExSet_DarkModeHomeUpdateBar.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="ExperimentalSettingsGroup.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 12</value>

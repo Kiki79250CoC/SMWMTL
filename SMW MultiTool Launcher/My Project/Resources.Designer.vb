@@ -118,6 +118,24 @@ Namespace My.Resources
         End Property
         
         '''<summary>
+        '''  Recherche une chaîne localisée semblable à am2.
+        '''</summary>
+        Friend ReadOnly Property APP_VERSION_BRANCH() As String
+            Get
+                Return ResourceManager.GetString("APP_VERSION_BRANCH", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Recherche une chaîne localisée semblable à 11.
+        '''</summary>
+        Friend ReadOnly Property APP_VERSION_BRANCH_RN() As String
+            Get
+                Return ResourceManager.GetString("APP_VERSION_BRANCH_RN", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
         '''  Recherche une chaîne localisée semblable à 1750.00.
         '''</summary>
         Friend ReadOnly Property APP_VERSION_BUILD() As String
@@ -2890,6 +2908,15 @@ Namespace My.Resources
             Get
                 Dim obj As Object = ResourceManager.GetObject("Twitter_16", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Recherche une chaîne localisée semblable à ~.
+        '''</summary>
+        Friend ReadOnly Property UBR_REVISION() As String
+            Get
+                Return ResourceManager.GetString("UBR_REVISION", resourceCulture)
             End Get
         End Property
         

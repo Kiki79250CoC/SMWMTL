@@ -164,6 +164,7 @@
       <DependentUpon>Frm01_Main.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Functions\OSInteract.vb" />
     <Compile Include="My Project\Resources.Designer.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -192,6 +193,12 @@
     </Compile>
     <Compile Include="Frm98_IndevFeatures.vb">
       <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Functions\OSBehavior.vb" />
+    <Compile Include="Lang\Strings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Strings.resx</DependentUpon>
     </Compile>
     <Compile Include="Y_Recover_LM_GUI.Designer.vb">
       <DependentUpon>Y_Recover_LM_GUI.vb</DependentUpon>
@@ -310,6 +317,12 @@
     <EmbeddedResource Include="Frm98_IndevFeatures.resx">
       <DependentUpon>Frm98_IndevFeatures.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Lang\Strings.fr.resx" />
+    <EmbeddedResource Include="Lang\Strings.resx">
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Strings.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="Y_Recover_LM_GUI.fr.resx">
       <DependentUpon>Y_Recover_LM_GUI.vb</DependentUpon>
     </EmbeddedResource>
@@ -343,6 +356,7 @@
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
     </None>
+    <None Include="My Project\DataSources\SMW_MultiTool_Launcher.My.Resources.Strings.datasource" />
     <None Include="My Project\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <CustomToolNamespace>My</CustomToolNamespace>

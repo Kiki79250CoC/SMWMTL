@@ -578,5 +578,8 @@
     <Setting Name="EX_SET_DARKMODE_HOMEUPDATEBAR" Type="System.Boolean" Scope="User">
       <Value Profile="(Default)">False</Value>
     </Setting>
+    <Setting Name="EX_W10_AERO" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

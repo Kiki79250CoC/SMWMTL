@@ -14673,6 +14673,9 @@
   <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>30</value>
   </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>96, 96</value>
+  </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>554, 582</value>
   </data>
@@ -14740,7 +14743,7 @@
     <value>DownArrowMenu_Icons</value>
   </data>
   <data name="&gt;&gt;DownArrowMenu_Icons.Type" xml:space="preserve">
-    <value>SMWMTLextensions.Controls.VistaMenu, SMWMTLextensions, Version=1.10.0.0, Culture=neutral, PublicKeyToken=dc405ec29ce8ec15</value>
+    <value>SMWMTLextensions.ControlExtensions.NativeMenuIcon, SMWMTLextensions, Version=1.1.0.0, Culture=neutral, PublicKeyToken=dc405ec29ce8ec15</value>
   </data>
   <data name="&gt;&gt;AppNames_HideBtnSettings.Name" xml:space="preserve">
     <value>AppNames_HideBtnSettings</value>

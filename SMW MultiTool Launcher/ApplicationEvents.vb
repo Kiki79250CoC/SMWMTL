@@ -1,43 +1,49 @@
 ﻿
-Imports Microsoft.VisualBasic.ApplicationServices
-Imports SMWMTLextensions.Dialogs
 Imports System.Environment
 Imports System.IO
-Imports System.Threading
-Imports System.Globalization
+Imports System.Runtime.InteropServices
+Imports Microsoft.VisualBasic.ApplicationServices
+Imports SMWMTLextensions.Dialogs
 
 Public Class ApplicationInfo
 
     Public Shared ReadOnly ExecutableLocation As String = My.Application.Info.DirectoryPath
     Public Shared ReadOnly ExecutablePath As String = Path.GetFileName(Application.ExecutablePath)
     Public Shared ReadOnly AppDataFolder As String = GetFolderPath(SpecialFolder.LocalApplicationData)
+    Public Shared ReadOnly ConfigFile As String = Configuration.ConfigurationManager.OpenExeConfiguration(Configuration.ConfigurationUserLevel.PerUserRoamingAndLocal).FilePath
 
-    Public Shared ReadOnly AppVersion As FileVersionInfo = FileVersionInfo.GetVersionInfo(Reflection.Assembly.GetExecutingAssembly().Location)
-    Public Shared ReadOnly CompileDate As Date = New FileInfo(Reflection.Assembly.GetExecutingAssembly().Location).LastWriteTime
+    Public Shared ReadOnly AppInfo As FileVersionInfo = FileVersionInfo.GetVersionInfo(Reflection.Assembly.GetExecutingAssembly().Location)
+    Public Shared ReadOnly AppVersion As New Version(AppInfo.ProductMajorPart, AppInfo.ProductMinorPart, AppInfo.ProductBuildPart, AppInfo.ProductPrivatePart)
+
+    Public Shared ReadOnly AppVerMM As String = $"{AppVersion.Major}.{AppVersion.Minor}"
+    Public Shared ReadOnly AppVerBR As String = $"{AppVersion.Build}.{AppVersion.Revision:00}"
+
+    Public Shared ReadOnly CompileDate As Date = OSInteract.PELinkerTimestamp(Reflection.Assembly.GetExecutingAssembly().Location)
 
 End Class
 
 Public Class SystemInterop
 
-    <Runtime.InteropServices.DllImport("kernel32.dll")>
-    Public Shared Function GetUserDefaultUILanguage() As UShort
-    End Function
+    Public Shared ReadOnly CltOSV As New Version(OSVersion.Version.Major, OSVersion.Version.Minor, OSVersion.Version.Build)
 
-    <Runtime.InteropServices.StructLayout(Runtime.InteropServices.LayoutKind.Sequential)> Public Structure Side
+    ' AeroGlass (Windows Vista, 7, 8, 8.1)
+    <StructLayout(LayoutKind.Sequential)> Public Structure Side
         Public Left As Integer
         Public Right As Integer
         Public Top As Integer
         Public Bottom As Integer
     End Structure
-    <Runtime.InteropServices.DllImport("dwmapi.dll")>
+    <DllImport("dwmapi.dll")>
     Public Shared Function DwmExtendFrameIntoClientArea(hWnd As IntPtr, ByRef pMarinset As Side) As Integer
     End Function
 
+    ' Mica/Acrylic (Windows 10 1803+/11)
     Public Enum DWM_WindowAttribute
         UseImmersiveMode = 20
         SystemBackdropType = 38
+        BorderColor = 34
     End Enum
-    <Runtime.InteropServices.DllImport("dwmapi.dll")>
+    <DllImport("dwmapi.dll")>
     Public Shared Function DwmSetWindowAttribute(hwnd As IntPtr, dwAttribute As DWM_WindowAttribute, ByRef pvAttribute As Integer, cbAttribute As Integer) As Integer
     End Function
 
@@ -56,97 +62,85 @@ Namespace My
 
     Partial Friend Class MyApplication
 
-        Private Function GetFileVersionInfo(filename As String) As Version
-            Return Version.Parse(FileVersionInfo.GetVersionInfo(filename).FileVersion)
-        End Function
-
-        ' ---------------------------------------------------------------------------------------------------------------------
-
         Private Sub App_JumpStart(sender As Object, e As StartupEventArgs) Handles Me.Startup
 
-            Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo(SystemInterop.GetUserDefaultUILanguage())
+            ' Block all Windows versions below Vista SP2 (and XP if HexHack/OCA)
+            If Not OSBehavior.IsOSSupported Then
+                Try
+                    Dim SupportedOSList = New TaskDialogButton("SupportedOSList", Resources.Strings.Msg_TD_UnsupportedOS_BtnSupportedOS)
+                    Dim SeeLTSVersions = New TaskDialogButton("SeeLTSVersions", Resources.Strings.Msg_TD_UnsupportedOS_BtnSeeLTS)
+                    Dim CloseBtn = New TaskDialogButton("CloseBtn", Resources.Strings.App_GText_Close) With {.Default = True}
 
-            ' Block all Windows versions below Vista SP2 (and XP if HexHack)
-            If Not New Version(6, 0, 6002).CompareTo(New Version(OSVersion.Version.Major, OSVersion.Version.Minor, OSVersion.Version.Build)) Then
-                MsgBox($"{Frm99_TranslateForm.UI00_UnsupportedOS.Text} {Application.Info.AssemblyName}.", MsgBoxStyle.Critical, Application.Info.AssemblyName)
+                    Using TaskDlg As New TaskDialog
+                        AddHandler SupportedOSList.Click,
+                        Sub()
+                            TaskDlg.Close()
+                            Process.Start("https://github.com/Kiki79250CoC/SMWMTL/blob/Dev/SystemComp.md")
+                        End Sub
+                        AddHandler SeeLTSVersions.Click,
+                        Sub()
+                            TaskDlg.Close()
+                            Process.Start("https://github.com/Kiki79250CoC/SMWMTL/releases?q=%222.10-LTS%22&expanded=true")
+                        End Sub
+                        AddHandler CloseBtn.Click,
+                        Sub()
+                            TaskDlg.Close()
+                        End Sub
+
+                        TaskDlg.Caption = $"{Application.Info.AssemblyName} · {Resources.Strings.App_GText_ErrorF}"
+                        TaskDlg.InstructionText = Resources.Strings.Msg_TD_UnsupportedOS_InstructionText
+                        TaskDlg.Icon = TaskDialogStandardIcon.DefaultIcon_Error
+                        TaskDlg.Text = String.Format(Resources.Strings.Msg_TD_UnsupportedOS_Text, Application.Info.AssemblyName)
+
+                        TaskDlg.Controls.Add(SupportedOSList)
+                        TaskDlg.Controls.Add(SeeLTSVersions)
+                        TaskDlg.Controls.Add(CloseBtn)
+
+                        TaskDlg.OwnerWindowHandle = Frm01_Main.Handle
+                        TaskDlg.Show()
+                    End Using
+                Catch ex As Exception
+                    MsgBox(String.Format(Resources.Strings.Msg_TD_UnsupportedOS_Text, Application.Info.AssemblyName), MsgBoxStyle.Critical, Application.Info.AssemblyName)
+                End Try
                 End
-
-            End If
-
-            ' Migrates "AstragonQC_Softwares" settings folder to "AstragonQC_Software" (if 2.2x installed)
-            Dim OldDir = $"{ApplicationInfo.AppDataFolder}\AstragonQC_Softwares"
-            If Directory.Exists(OldDir) Then
-                If Not File.Exists($"{OldDir}\Settings_Migrated_LAVALrel230") Then
-                    If Not File.Exists($"{OldDir}\Settings_Migration_Declined_LAVALrel230") Then
-
-                        Dim MigrateBtn = New TaskDialogButton("MigrateDBtn", Resources.Strings.TaskDialog_SettignsMigration_AcceptBtnText) With {.Default = True}
-                        Dim DeclineBtn = New TaskDialogButton("DeclineMBtn", Resources.Strings.TaskDialog_SettignsMigration_DeclineBtnText)
-                        Using TaskDlg As New TaskDialog
-                            AddHandler MigrateBtn.Click,
-                            Sub()
-                                TaskDlg.Close()
-                                'File.Create($"{ApplicationInfo.AppDataFolder}\AstragonQC_Softwares\Settings_Migrated_LAVALrel230")
-
-                            End Sub
-                            AddHandler DeclineBtn.Click,
-                            Sub()
-                                TaskDlg.Close(TaskDialogResult.No)
-                                'File.Create($"{ApplicationInfo.AppDataFolder}\AstragonQC_Softwares\Settings_Migration_Declined_LAVALrel230")
-                            End Sub
-
-                            TaskDlg.Caption = $"{Application.Info.AssemblyName} · {Resources.Strings.TaskDialog_SettignsMigration_Title}"
-                            TaskDlg.InstructionText = String.Format(Resources.Strings.TaskDialog_SettignsMigration_InstructionText, Application.Info.AssemblyName, $"{ApplicationInfo.AppVersion.ProductMajorPart}.{ApplicationInfo.AppVersion.ProductMinorPart}")
-                            TaskDlg.Text = String.Format(Resources.Strings.TaskDialog_SettignsMigration_Text, Application.Info.AssemblyName)
-                            TaskDlg.FooterText = String.Format(Resources.Strings.TaskDialog_SettignsMigration_FooterText, Application.Info.AssemblyName)
-
-                            TaskDlg.Icon = TaskDialogStandardIcon.DefaultIcon_Information
-                            TaskDlg.FooterIcon = TaskDialogStandardIcon.DefaultIcon_Information
-
-                            TaskDlg.Controls.Add(MigrateBtn)
-                            TaskDlg.Controls.Add(DeclineBtn)
-
-                            TaskDlg.Cancelable = False
-                            TaskDlg.OwnerWindowHandle = Frm01_Main.Handle
-                            TaskDlg.Show()
-                        End Using
-
-
-
-
-
-
-
-
-                    End If
-
-
-
-
-
-                End If
-
-            End If
-
-
-
-            If OSVersion.Version.Major < 6 Then
-
-                MsgBox($"{Frm99_TranslateForm.UI00_UnsupportedOS.Text} {Application.Info.AssemblyName}.", MsgBoxStyle.Critical, Application.Info.AssemblyName)
-                End
-
             End If
 
             ' Block execution if "SMWMTL.exe.config" file is missing
-            Select Case File.Exists($"{ApplicationInfo.ExecutablePath}.config")
-                Case False
-                    MsgBox($"{Frm99_TranslateForm.UI00_ConfigFileMissing.Text.Replace("$SFL", $"{Path.GetFileName(Windows.Forms.Application.ExecutablePath)}.config")}", MsgBoxStyle.Critical, Application.Info.AssemblyName)
-                    End
+            If Not File.Exists($"{ApplicationInfo.ExecutablePath}.config") Then
+                Using TaskDlg As New TaskDialog
+                    TaskDlg.Caption = $"{Application.Info.AssemblyName} · {Resources.Strings.App_GText_ErrorC}"
+                    TaskDlg.InstructionText = Resources.Strings.Msg_TD_ConfigFile_Missing_InstructionText
+                    TaskDlg.Icon = TaskDialogStandardIcon.DefaultIcon_Error
+                    TaskDlg.Text = String.Format(Resources.Strings.Msg_TD_ConfigFile_Missing_Text, $"{Path.GetFileName(Windows.Forms.Application.ExecutablePath)}.config")
+                    TaskDlg.OwnerWindowHandle = Frm01_Main.Handle
+                    TaskDlg.Show()
+                End Using
+                End
+            End If
 
-            End Select
+            ' Migrates "AstragonQC_Softwares" settings folder to "AstragonQC_Software" (if 2.2x installed)
+            Dim OldDir = $"{ApplicationInfo.AppDataFolder}\AstragonQC_Softwares\SMWMTL.exe_StrongName_r5fdzx4hx5s3ws3oxg5rca4llvs4yb2p\1.1.0.0"
+
+            If Directory.Exists(OldDir) AndAlso Not File.Exists($"{OldDir}\.Migrated") Then
+
+                If File.Exists(ApplicationInfo.ConfigFile) Then
+                    File.Delete(ApplicationInfo.ConfigFile)
+                End If
+
+                File.Copy($"{OldDir}\user.config", ApplicationInfo.ConfigFile)
+                File.Create($"{OldDir}\.Migrated")
+
+            End If
+
+
+
+
+
+
 
             ' -----------------------------------------------------------------------------------------------------------------
 
-            ' Code that applies on Custom SMWMTL releases
+            ' Code that applies on Custom SMWMTL releases -- TO BE REMOVED
 
             Select Case Resources.RELEASE_TYPE
                 Case "SMWC"
@@ -285,13 +279,13 @@ Namespace My
             ' -----------------------------------------------------------------------------------------------------------------
 
             ' Update - "UpdatePkg.exe" file handling
-            Select Case IO.File.Exists($"{Application.Info.DirectoryPath}\UpdatePkg.exe")
+            Select Case File.Exists($"{Application.Info.DirectoryPath}\UpdatePkg.exe")
                 Case True
-                    Select Case GetFileVersionInfo($"{ApplicationInfo.ExecutableLocation}\UpdatePkg.exe").ToString
+                    Select Case Version.Parse(FileVersionInfo.GetVersionInfo($"{ApplicationInfo.ExecutableLocation}\UpdatePkg.exe").FileVersion).ToString
                         Case Is <= $"{Resources.APP_VERSION}.{Resources.APP_VERSION_BUILD}"
                             Try
 
-                                IO.File.Delete($"{Application.Info.DirectoryPath}\UpdatePkg.exe")
+                                File.Delete($"{Application.Info.DirectoryPath}\UpdatePkg.exe")
 
                             Catch ex As Exception
 
@@ -318,11 +312,13 @@ Namespace My
             End Select
 
             ' Set current version number
-            Settings.EXECUTABLE_CURRENT_VERSION = $"{Resources.APP_VERSION}.{Resources.APP_VERSION_BUILD}"
+            Settings.EXECUTABLE_CURRENT_VERSION = ApplicationInfo.AppVersion.ToString
 
             ' Settings refresh
-            Settings.Save()
-            Settings.Reload()
+            With Settings
+                .Save()
+                .Reload()
+            End With
 
             ' Updates module v3
             ' -----------------------------------------------------------------------------------------------------------------
@@ -356,20 +352,53 @@ Namespace My
             End Select
 
         End Sub
-        Public Sub TaskDialog_Opened(sender As Object, e As EventArgs)
 
+        Public Sub TaskDialog_Opened(sender As Object, e As EventArgs)
             Dim taskDialog = TryCast(sender, TaskDialog)
-            taskDialog.Icon = taskDialog.Icon
-            taskDialog.FooterIcon = taskDialog.FooterIcon
+            'taskDialog.Icon = taskDialog.Icon
+            'taskDialog.FooterIcon = taskDialog.FooterIcon
+
+            With taskDialog
+                .Icon = .Icon
+                .FooterIcon = .FooterIcon
+            End With
+
+
 
         End Sub
 
-
         Private Sub App_UnhandledException(sender As Object, e As UnhandledExceptionEventArgs) Handles Me.UnhandledException
-
             e.ExitApplication = False
-            MsgBox(e.Exception.Message.ToString(), MsgBoxStyle.Critical, Application.Info.AssemblyName)
 
+            'Dim CopyBtn = New TaskDialogButton("CopyBtn", Resources.Strings.Msg_TD_GeneralException_BtnCopy)
+            'Dim OKBtn = New TaskDialogButton("OKBtn", Resources.Strings.App_GText_OK) With {.Default = True}
+            'Using TaskDlg As New TaskDialog
+            '    TaskDlg.Caption = $"{Application.Info.AssemblyName} · {Resources.Strings.Msg_TD_GeneralException_Title}"
+            '    TaskDlg.InstructionText = Resources.Strings.Msg_TD_GeneralException_Title
+            '    TaskDlg.Icon = TaskDialogStandardIcon.DefaultIcon_Error
+
+            '    TaskDlg.Text = String.Format(Resources.Strings.Msg_TD_GeneralException_Text, e.Exception.Message)
+
+            '    AddHandler CopyBtn.Click,
+            '    Sub()
+            '        TaskDlg.Close()
+            '        Clipboard.SetText($"SMWMTL · Generated Exception report{vbCrLf}-----------------------------------{vbCrLf + vbCrLf}ERROR {e.Exception.HResult}{vbCrLf + vbCrLf}{e.Exception.Message}{vbCrLf + vbCrLf}{e.Exception.StackTrace}")
+            '    End Sub
+            '    TaskDlg.Controls.Add(CopyBtn)
+
+            '    AddHandler OKBtn.Click,
+            '    Sub()
+            '        TaskDlg.Close()
+            '    End Sub
+            '    TaskDlg.Controls.Add(OKBtn)
+
+            '    TaskDlg.DetailsExpandedLabel = Resources.Strings.Msg_TD_GeneralException_SeeDetailsText
+            '    TaskDlg.DetailsExpandedText = String.Format(Resources.Strings.Msg_TD_GeneralException_ExpandedText + vbCrLf, e.Exception.StackTrace)
+            '    TaskDlg.ExpansionMode = TaskDialogExpandedDetailsLocation.ExpandFooter
+
+            '    TaskDlg.OwnerWindowHandle = Frm01_Main.Handle
+            '    TaskDlg.Show()
+            'End Using
         End Sub
 
     End Class

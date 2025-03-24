@@ -3,7 +3,8 @@
 
 	<assemblyIdentity
 		name="SMW MultiTools Launcher"
-		version="2.20.1750.00"
+		version="2.20.1756.00"
+		processorArchitecture="amd64"
 	/>
 
 	<trustInfo xmlns="urn:schemas-microsoft-com:asm.v2">
@@ -27,6 +28,8 @@
 	<application xmlns="urn:schemas-microsoft-com:asm.v3">
 		<windowsSettings>
 			<dpiAware xmlns="http://schemas.microsoft.com/SMI/2005/WindowsSettings">false</dpiAware>
+	   <!-- <dpiAware xmlns="http://schemas.microsoft.com/SMI/2005/WindowsSettings">true/pm</dpiAware>
+			<dpiAwareness xmlns="http://schemas.microsoft.com/SMI/2016/WindowsSettings">PerMonitorV2</dpiAwareness> -->
 			<longPathAware xmlns="http://schemas.microsoft.com/SMI/2016/WindowsSettings">true</longPathAware>
 		</windowsSettings>
 	</application>

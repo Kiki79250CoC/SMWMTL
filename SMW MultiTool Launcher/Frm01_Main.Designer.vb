@@ -1235,6 +1235,7 @@ Partial Class Frm01_Main
         'FlowLayoutPanel2
         '
         resources.ApplyResources(Me.FlowLayoutPanel2, "FlowLayoutPanel2")
+        Me.FlowLayoutPanel2.Controls.Add(Me.UnusedBtn13)
         Me.FlowLayoutPanel2.Controls.Add(Me.LM_Button)
         Me.FlowLayoutPanel2.Controls.Add(Me.LE_Button)
         Me.FlowLayoutPanel2.Controls.Add(Me.RLM_Button)
@@ -1281,7 +1282,6 @@ Partial Class Frm01_Main
         Me.FlowLayoutPanel2.Controls.Add(Me.UnusedBtn10)
         Me.FlowLayoutPanel2.Controls.Add(Me.UnusedBtn11)
         Me.FlowLayoutPanel2.Controls.Add(Me.UnusedBtn12)
-        Me.FlowLayoutPanel2.Controls.Add(Me.UnusedBtn13)
         Me.FlowLayoutPanel2.Controls.Add(Me.UnusedBtn14)
         Me.FlowLayoutPanel2.Controls.Add(Me.UnusedBtn15)
         Me.FlowLayoutPanel2.Controls.Add(Me.UnusedBtn16)

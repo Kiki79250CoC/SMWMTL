@@ -5,9 +5,6 @@ Imports System.Net
 Public Class Frm02_About
 #Region "        Values "
 
-    ' Software Compilation date
-    ReadOnly CompileDate As New DateTime(My.Resources.BUILD_DATE_YEAR, My.Resources.BUILD_DATE_MONTH, My.Resources.BUILD_DATE_DAY)
-
     ' Required WebBrowsers for UpdateSearch.
     Private UpdateWC1 As WebClient ' Step 1
     Private UpdateWC2 As WebClient ' Step 2 - Download Version String (A.BB.CCCC.DD)
@@ -19,34 +16,25 @@ Public Class Frm02_About
 
     Private Sub Frm02_About_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
-        Icon = My.Resources.AppIcon
-
-        Text += $" {Frm01_Main.WindowTitle}"
+        Icon = If(My.Settings.HIDE_ICON = True, If(My.Settings.BLANK_ICON = True, My.Resources.Blank16x16, Nothing), My.Resources.AppIcon)
+        Text = If(My.Settings.HIDE_TITLE = True, Nothing, $"{My.Resources.Strings.UI_Frm02_FrmTitle} {Frm01_Main.WindowTitle}")
 
         ' Showing values string for Version, Build, etc.
-        ' +----------------------------------+---------------------------------------------------------------------------------
-        ' | Line 1 (AppVersion_Label)        | Version A.BB • Build CCCC.DD (A.BB.CCCC.DD).
+        ' +----------------------------------+-------------------------------------------------------------------------------------------
+        ' | Line 1 (AppVersion_Label)        | Version A.BB · Build CCCC.DD (A.BB.CCCC.DD · JJJJJJ · SMWMTL_Update v<UpdateSysVer>)
         ' | Line 2 (AppCombil_Label)         | Compiled on EE FFFF GGGG.
-        ' | Line 3 (AppVersionStringLabel)   | SMWMTL_<Codename>_A.BB.CCCC.DD-<BuildDevStateInfo>_x64_HHHHHH
+        ' | Line 3 (AppVersionStringLabel)   | SMWMTL_<Codename>_A.BB.CCCC.DD-<BuildDevStateInfo>_<Arch>_HHHHHH-TTTT
         ' | Line 4 (AppCopyrightLabel)       | Copyright © 2014-20II <Author>
-        ' | Line 5 (UpdateSysVersion_Label)  | SMWMTL_Update version <UpdateSysVer>
-        ' +----------------------------------+---------------------------------------------------------------------------------
+        ' +----------------------------------+-------------------------------------------------------------------------------------------
 
-        AppVersion_Label.Text = $"Version {My.Resources.APP_VERSION} • Build {My.Resources.APP_VERSION_BUILD} ({My.Resources.APP_VERSION.Replace("s", "")}.{My.Resources.APP_VERSION_BUILD}{If(My.Settings.IS_PRERELEASE = True, $" ({My.Resources.APP_VERSION_COMPLETE.Replace($"{My.Resources.APP_VERSION}.{My.Resources.APP_VERSION_BUILD}-", "")})", "")})"
+        AppVersion_Label.Text = $"{My.Resources.Strings.UI_Frm02_VersionStr_Version} {ApplicationInfo.AppVerMM}{If(My.Resources.RELEASE_TYPE = "Normal", Nothing, "s")} · {My.Resources.Strings.UI_Frm02_VersionStr_Build} {ApplicationInfo.AppVerBR}{If(My.Settings.IS_PRERELEASE Or My.Resources.IS_LTS = "True" Or (Not My.Resources.RELEASE_TYPE = "Normal"), $" ({If(My.Settings.IS_PRERELEASE, $"{My.Resources.APP_VERSION_BRANCH}{If(My.IsDebug, "chk", "rel")}.{My.Resources.APP_VERSION_BRANCH_RN}", Nothing)}{If(My.Settings.IS_PRERELEASE And My.Resources.IS_LTS = "True", " · ", Nothing)}{If(My.Resources.IS_LTS = "True", $"Update Base Release v{My.Resources.UBR_REVISION}", Nothing)}{If(My.Resources.IS_LTS = "True" And (Not My.Resources.RELEASE_TYPE = "Normal"), " · ", Nothing)}{If(Not My.Resources.RELEASE_TYPE = "Normal", $"{"Custom build for "}{My.Resources.RELEASE_TYPE}", Nothing)})", Nothing)}{If(My.Settings.SHOW_UPDATE_SYSTEM_INFOS_ON_ABOUT_SCREEN, $" · SMWMTL_Update v{My.Resources.UPDATE_ENGINE_VERSION}", Nothing)}"
+        AppCompil_Label.Text = $"{My.Resources.Strings.UI_Frm02_CompStr_Compiled} {CultureInfo.CurrentCulture.TextInfo.ToTitleCase(ApplicationInfo.CompileDate.ToString(My.Resources.Strings.App_Const_CompDate_Frm, CultureInfo.CreateSpecificCulture(My.Resources.Strings.App_Const_CompDate_Lng)))}"
 
-        AppCompil_Label.Text += $" {CultureInfo.CurrentCulture.TextInfo.ToTitleCase(CompileDate.ToString(If(My.Computer.Info.InstalledUICulture.ToString().Contains("fr"), "dd MMMM yyyy", "MMMM dd, yyyy"), CultureInfo.CreateSpecificCulture(If(My.Computer.Info.InstalledUICulture.ToString().Contains("fr"), "fr-FR", "en-US"))))}"
+        AppVersionStringLabel.Text = $"{My.Application.Info.AssemblyName}_{My.Resources.APP_CODENAME}_{ApplicationInfo.AppVerMM}.{ApplicationInfo.AppVerBR}-{My.Resources.APP_VERSION_BRANCH}{If(My.IsDebug, "chk", "rel")}.{My.Resources.APP_VERSION_BRANCH_RN}_{My.Resources.RELEASE_TYPE}_UA{My.Resources.UPDATE_ENGINE_VERSION}_{Environment.GetEnvironmentVariable("PROCESSOR_ARCHITECTURE").ToLower}_{ApplicationInfo.CompileDate:yyMMdd-HHmm}"
 
-        AppVersionStringLabel.Text = $"{My.Application.Info.AssemblyName}_{My.Resources.APP_CODENAME}_{My.Resources.APP_VERSION_COMPLETE}_x{If(Environment.Is64BitProcess = True, "64", "86")}_{My.Resources.BUILD_DATE_COMBINED}"
+        AppCopyrightLabel.Text += $"2014-{If(Year(Now) > ApplicationInfo.CompileDate.Date.ToString("yyyy"), Year(Now), ApplicationInfo.CompileDate.Date.ToString("yyyy"))} {My.Application.Info.CompanyName}"
 
-        AppCopyrightLabel.Text = $"Copyright © 2014-{If(Year(Now) > My.Resources.BUILD_DATE_YEAR, Year(Now), My.Resources.BUILD_DATE_YEAR)} {My.Resources.APP_AUTHOR}"
-
-        With UpdateSysVersion_Label
-            .Visible = My.Settings.SHOW_UPDATE_SYSTEM_INFOS_ON_ABOUT_SCREEN
-            .Text += $" {My.Resources.UPDATE_ENGINE_VERSION}"
-
-        End With
-
-        ' ---------------------------------------------------------------------------------------------------------------------
+        ' -------------------------------------------------------------------------------------------------------------------------------
 
         ' Settings load
 
@@ -57,8 +45,6 @@ Public Class Frm02_About
                 BackColor = Color.FromArgb(36, 36, 36)
                 UI_StatPanel.BackColor = Color.FromArgb(25, 25, 25)
                 UI_BtmBar_Panel.BackColor = Color.FromArgb(25, 25, 25)
-                UI_HeaderBorder.BackgroundImage = My.Resources.UI_BorderLineBottom
-                UI_BtmBar_PanelBorder.BackgroundImage = My.Resources.UI_BottomBar
 
                 UI_Separator1.Image = My.Resources.UI_ButtonSeparator
                 With UI_Btn_GoToUpdateModal
@@ -69,29 +55,25 @@ Public Class Frm02_About
 
         End Select
 
-        ' Detecting LTS variant of SMWMTL for about picture.
-        If My.Resources.IS_LTS = "True" Then
-            AppLogo_Image.Image = My.Resources.About_LogoLTS
+        If Environment.OSVersion.Version.Build >= 10240 Then
+            SystemInterop.DwmSetWindowAttribute(Handle, SystemInterop.DWM_WindowAttribute.SystemBackdropType, 2, Runtime.InteropServices.Marshal.SizeOf(Of Integer)())
+            SystemInterop.DwmSetWindowAttribute(Handle, SystemInterop.DWM_WindowAttribute.UseImmersiveMode, If(My.Settings.UI_DARK_MODE, 1, 0), Runtime.InteropServices.Marshal.SizeOf(Of Integer)())
+
         End If
 
-        ' Hiding the title and the window icon
-        Select Case My.Settings.HIDE_TITLE
-            Case True
-                Text = Nothing
+        ' Detecting LTS variant of SMWMTL for about picture.
+        AppLogo_Image.Image = If(My.Resources.IS_LTS = "True", My.Resources.About_LogoLTS, My.Resources.About_Logo)
 
-        End Select
-        Select Case My.Settings.HIDE_ICON
-            Case True
-                Select Case My.Settings.BLANK_ICON
-                    Case True
-                        Icon = My.Resources.Blank16x16
 
-                    Case False
-                        ShowIcon = False
 
-                End Select
 
-        End Select
+
+
+
+
+
+
+
 
         ' Window opacity
         Select Case My.Settings.APP_OPACITY_TOGGLE
@@ -103,9 +85,6 @@ Public Class Frm02_About
                 End Select
 
         End Select
-
-        ' Display of the button for the old "About SMWMTL" dialog box
-        UI_Btn_LegacyAbout.Visible = My.Settings.SHOW_LEGACYABOUTBTN
 
         ' Hiding version string
         Select Case My.Settings.SHOW_APP_VERSION_STRING

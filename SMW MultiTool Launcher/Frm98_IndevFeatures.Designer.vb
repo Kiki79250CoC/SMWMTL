@@ -27,12 +27,14 @@ Partial Class Frm98_IndevFeatures
         Me.ExSet_DarkModeHomeUpdateBar = New System.Windows.Forms.CheckBox()
         Me.ValidateBtn = New System.Windows.Forms.Button()
         Me.CancelBtn = New System.Windows.Forms.Button()
+        Me.ExSet_W10AeroGlass = New System.Windows.Forms.CheckBox()
         Me.ExperimentalSettingsGroup.SuspendLayout()
         Me.SuspendLayout()
         '
         'ExperimentalSettingsGroup
         '
         resources.ApplyResources(Me.ExperimentalSettingsGroup, "ExperimentalSettingsGroup")
+        Me.ExperimentalSettingsGroup.Controls.Add(Me.ExSet_W10AeroGlass)
         Me.ExperimentalSettingsGroup.Controls.Add(Me.ExSet_DarkModeHomeUpdateBar)
         Me.ExperimentalSettingsGroup.Name = "ExperimentalSettingsGroup"
         Me.ExperimentalSettingsGroup.TabStop = False
@@ -56,6 +58,12 @@ Partial Class Frm98_IndevFeatures
         Me.CancelBtn.Name = "CancelBtn"
         Me.CancelBtn.UseVisualStyleBackColor = True
         '
+        'ExSet_W10AeroGlass
+        '
+        resources.ApplyResources(Me.ExSet_W10AeroGlass, "ExSet_W10AeroGlass")
+        Me.ExSet_W10AeroGlass.Name = "ExSet_W10AeroGlass"
+        Me.ExSet_W10AeroGlass.UseVisualStyleBackColor = True
+        '
         'Frm98_IndevFeatures
         '
         Me.AcceptButton = Me.ValidateBtn
@@ -78,4 +86,5 @@ Partial Class Frm98_IndevFeatures
     Friend WithEvents ExSet_DarkModeHomeUpdateBar As CheckBox
     Friend WithEvents ValidateBtn As Button
     Friend WithEvents CancelBtn As Button
+    Friend WithEvents ExSet_W10AeroGlass As CheckBox
 End Class

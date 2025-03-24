@@ -156,6 +156,9 @@ Les logos et icônes Windows font partie de «Microsoft® Windows™ Operating S
   <data name="LegalNotice_Text01.Text" xml:space="preserve">
     <value>Mentions légales</value>
   </data>
+  <data name="Developement_Tool_GroupBox_Text.Size" type="System.Drawing.Size, System.Drawing">
+    <value>323, 182</value>
+  </data>
   <data name="OtherCredits_Text01.Size" type="System.Drawing.Size, System.Drawing">
     <value>184, 21</value>
   </data>

@@ -123,7 +123,7 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="SNESGFX_Button.Location" type="System.Drawing.Point, System.Drawing">
-    <value>146, 2</value>
+    <value>150, 2</value>
   </data>
   <data name="SNESGFX_Button.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
@@ -148,13 +148,13 @@
     <value>FlowLayoutPanel2</value>
   </data>
   <data name="&gt;&gt;SNESGFX_Button.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="SNESColorTool_Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="SNESColorTool_Button.Location" type="System.Drawing.Point, System.Drawing">
-    <value>50, 102</value>
+    <value>98, 102</value>
   </data>
   <data name="SNESColorTool_Button.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
@@ -178,7 +178,7 @@
     <value>FlowLayoutPanel2</value>
   </data>
   <data name="&gt;&gt;SNESColorTool_Button.ZOrder" xml:space="preserve">
-    <value>17</value>
+    <value>18</value>
   </data>
   <data name="InterEdit_Button.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6.75pt</value>
@@ -187,7 +187,7 @@
     <value>NoControl</value>
   </data>
   <data name="InterEdit_Button.Location" type="System.Drawing.Point, System.Drawing">
-    <value>50, 152</value>
+    <value>98, 152</value>
   </data>
   <data name="InterEdit_Button.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
@@ -214,7 +214,7 @@
     <value>FlowLayoutPanel2</value>
   </data>
   <data name="&gt;&gt;InterEdit_Button.ZOrder" xml:space="preserve">
-    <value>25</value>
+    <value>26</value>
   </data>
   <data name="MarioStartE_Button.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6.75pt</value>
@@ -223,7 +223,7 @@
     <value>NoControl</value>
   </data>
   <data name="MarioStartE_Button.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 152</value>
+    <value>50, 152</value>
   </data>
   <data name="MarioStartE_Button.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
@@ -247,7 +247,7 @@
     <value>FlowLayoutPanel2</value>
   </data>
   <data name="&gt;&gt;MarioStartE_Button.ZOrder" xml:space="preserve">
-    <value>24</value>
+    <value>25</value>
   </data>
   <data name="EFFTOOL_Button.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6.75pt</value>
@@ -256,7 +256,7 @@
     <value>NoControl</value>
   </data>
   <data name="EFFTOOL_Button.Location" type="System.Drawing.Point, System.Drawing">
-    <value>98, 102</value>
+    <value>146, 102</value>
   </data>
   <data name="EFFTOOL_Button.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
@@ -283,7 +283,7 @@
     <value>FlowLayoutPanel2</value>
   </data>
   <data name="&gt;&gt;EFFTOOL_Button.ZOrder" xml:space="preserve">
-    <value>18</value>
+    <value>19</value>
   </data>
   <data name="Blockreator_Button.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6.75pt</value>
@@ -292,7 +292,7 @@
     <value>NoControl</value>
   </data>
   <data name="Blockreator_Button.Location" type="System.Drawing.Point, System.Drawing">
-    <value>146, 52</value>
+    <value>194, 52</value>
   </data>
   <data name="Blockreator_Button.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
@@ -319,13 +319,13 @@
     <value>FlowLayoutPanel2</value>
   </data>
   <data name="&gt;&gt;Blockreator_Button.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>12</value>
   </data>
   <data name="STAEFF_Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="STAEFF_Button.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 102</value>
+    <value>50, 102</value>
   </data>
   <data name="STAEFF_Button.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
@@ -349,7 +349,7 @@
     <value>FlowLayoutPanel2</value>
   </data>
   <data name="&gt;&gt;STAEFF_Button.ZOrder" xml:space="preserve">
-    <value>16</value>
+    <value>17</value>
   </data>
   <data name="HeAdder_Button.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6.75pt</value>
@@ -358,7 +358,7 @@
     <value>NoControl</value>
   </data>
   <data name="HeAdder_Button.Location" type="System.Drawing.Point, System.Drawing">
-    <value>242, 2</value>
+    <value>246, 2</value>
   </data>
   <data name="HeAdder_Button.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
@@ -385,7 +385,7 @@
     <value>FlowLayoutPanel2</value>
   </data>
   <data name="&gt;&gt;HeAdder_Button.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="MarioLPE_Button.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6.75pt</value>
@@ -394,7 +394,7 @@
     <value>NoControl</value>
   </data>
   <data name="MarioLPE_Button.Location" type="System.Drawing.Point, System.Drawing">
-    <value>194, 2</value>
+    <value>198, 2</value>
   </data>
   <data name="MarioLPE_Button.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
@@ -421,7 +421,7 @@
     <value>FlowLayoutPanel2</value>
   </data>
   <data name="&gt;&gt;MarioLPE_Button.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="RLM_Button.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6.75pt</value>
@@ -430,7 +430,7 @@
     <value>NoControl</value>
   </data>
   <data name="RLM_Button.Location" type="System.Drawing.Point, System.Drawing">
-    <value>98, 2</value>
+    <value>102, 2</value>
   </data>
   <data name="RLM_Button.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
@@ -457,7 +457,7 @@
     <value>FlowLayoutPanel2</value>
   </data>
   <data name="&gt;&gt;RLM_Button.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="MMP_Button.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6.75pt</value>
@@ -466,7 +466,7 @@
     <value>NoControl</value>
   </data>
   <data name="MMP_Button.Location" type="System.Drawing.Point, System.Drawing">
-    <value>98, 152</value>
+    <value>146, 152</value>
   </data>
   <data name="MMP_Button.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
@@ -493,10 +493,10 @@
     <value>FlowLayoutPanel2</value>
   </data>
   <data name="&gt;&gt;MMP_Button.ZOrder" xml:space="preserve">
-    <value>26</value>
+    <value>27</value>
   </data>
   <data name="YYCHR_Button.Location" type="System.Drawing.Point, System.Drawing">
-    <value>242, 152</value>
+    <value>290, 152</value>
   </data>
   <data name="YYCHR_Button.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
@@ -517,13 +517,13 @@
     <value>FlowLayoutPanel2</value>
   </data>
   <data name="&gt;&gt;YYCHR_Button.ZOrder" xml:space="preserve">
-    <value>29</value>
+    <value>30</value>
   </data>
   <data name="MML_Edit_Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="MML_Edit_Button.Location" type="System.Drawing.Point, System.Drawing">
-    <value>338, 2</value>
+    <value>2, 52</value>
   </data>
   <data name="MML_Edit_Button.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
@@ -547,13 +547,13 @@
     <value>FlowLayoutPanel2</value>
   </data>
   <data name="&gt;&gt;MML_Edit_Button.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>8</value>
   </data>
   <data name="PMM_Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="PMM_Button.Location" type="System.Drawing.Point, System.Drawing">
-    <value>194, 102</value>
+    <value>242, 102</value>
   </data>
   <data name="PMM_Button.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
@@ -577,13 +577,13 @@
     <value>FlowLayoutPanel2</value>
   </data>
   <data name="&gt;&gt;PMM_Button.ZOrder" xml:space="preserve">
-    <value>20</value>
+    <value>21</value>
   </data>
   <data name="GraphEdit_Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="GraphEdit_Button.Location" type="System.Drawing.Point, System.Drawing">
-    <value>194, 152</value>
+    <value>242, 152</value>
   </data>
   <data name="GraphEdit_Button.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
@@ -607,7 +607,7 @@
     <value>FlowLayoutPanel2</value>
   </data>
   <data name="&gt;&gt;GraphEdit_Button.ZOrder" xml:space="preserve">
-    <value>28</value>
+    <value>29</value>
   </data>
   <data name="GradTool_Button.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6.75pt</value>
@@ -616,7 +616,7 @@
     <value>NoControl</value>
   </data>
   <data name="GradTool_Button.Location" type="System.Drawing.Point, System.Drawing">
-    <value>50, 202</value>
+    <value>98, 202</value>
   </data>
   <data name="GradTool_Button.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
@@ -643,7 +643,7 @@
     <value>FlowLayoutPanel2</value>
   </data>
   <data name="&gt;&gt;GradTool_Button.ZOrder" xml:space="preserve">
-    <value>33</value>
+    <value>34</value>
   </data>
   <data name="GPS_Button.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6.75pt</value>
@@ -652,7 +652,7 @@
     <value>NoControl</value>
   </data>
   <data name="GPS_Button.Location" type="System.Drawing.Point, System.Drawing">
-    <value>146, 102</value>
+    <value>194, 102</value>
   </data>
   <data name="GPS_Button.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
@@ -679,7 +679,7 @@
     <value>FlowLayoutPanel2</value>
   </data>
   <data name="&gt;&gt;GPS_Button.ZOrder" xml:space="preserve">
-    <value>19</value>
+    <value>20</value>
   </data>
   <data name="M7MAP_Button.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6.75pt</value>
@@ -688,7 +688,7 @@
     <value>NoControl</value>
   </data>
   <data name="M7MAP_Button.Location" type="System.Drawing.Point, System.Drawing">
-    <value>242, 52</value>
+    <value>290, 52</value>
   </data>
   <data name="M7MAP_Button.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
@@ -715,7 +715,7 @@
     <value>FlowLayoutPanel2</value>
   </data>
   <data name="&gt;&gt;M7MAP_Button.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>14</value>
   </data>
   <data name="HDMA_GR_Button.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6.75pt</value>
@@ -724,7 +724,7 @@
     <value>NoControl</value>
   </data>
   <data name="HDMA_GR_Button.Location" type="System.Drawing.Point, System.Drawing">
-    <value>290, 2</value>
+    <value>294, 2</value>
   </data>
   <data name="HDMA_GR_Button.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
@@ -751,7 +751,7 @@
     <value>FlowLayoutPanel2</value>
   </data>
   <data name="&gt;&gt;HDMA_GR_Button.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="SprGFXCrea_Button.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6.75pt</value>
@@ -760,7 +760,7 @@
     <value>NoControl</value>
   </data>
   <data name="SprGFXCrea_Button.Location" type="System.Drawing.Point, System.Drawing">
-    <value>146, 152</value>
+    <value>194, 152</value>
   </data>
   <data name="SprGFXCrea_Button.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
@@ -787,7 +787,7 @@
     <value>FlowLayoutPanel2</value>
   </data>
   <data name="&gt;&gt;SprGFXCrea_Button.ZOrder" xml:space="preserve">
-    <value>27</value>
+    <value>28</value>
   </data>
   <data name="AMK_Option_3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -1171,7 +1171,7 @@
     <value>NoControl</value>
   </data>
   <data name="BRRPlayer_Button.Location" type="System.Drawing.Point, System.Drawing">
-    <value>98, 52</value>
+    <value>146, 52</value>
   </data>
   <data name="BRRPlayer_Button.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
@@ -1195,10 +1195,10 @@
     <value>FlowLayoutPanel2</value>
   </data>
   <data name="&gt;&gt;BRRPlayer_Button.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>11</value>
   </data>
   <data name="UberASM_Button.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 202</value>
+    <value>50, 202</value>
   </data>
   <data name="UberASM_Button.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
@@ -1222,13 +1222,13 @@
     <value>FlowLayoutPanel2</value>
   </data>
   <data name="&gt;&gt;UberASM_Button.ZOrder" xml:space="preserve">
-    <value>32</value>
+    <value>33</value>
   </data>
   <data name="SMWCust_Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="SMWCust_Button.Location" type="System.Drawing.Point, System.Drawing">
-    <value>290, 152</value>
+    <value>338, 152</value>
   </data>
   <data name="SMWCust_Button.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
@@ -1252,7 +1252,7 @@
     <value>FlowLayoutPanel2</value>
   </data>
   <data name="&gt;&gt;SMWCust_Button.ZOrder" xml:space="preserve">
-    <value>30</value>
+    <value>31</value>
   </data>
   <data name="PIXI_Button.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6.75pt</value>
@@ -1261,7 +1261,7 @@
     <value>NoControl</value>
   </data>
   <data name="PIXI_Button.Location" type="System.Drawing.Point, System.Drawing">
-    <value>194, 52</value>
+    <value>242, 52</value>
   </data>
   <data name="PIXI_Button.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
@@ -1288,7 +1288,7 @@
     <value>FlowLayoutPanel2</value>
   </data>
   <data name="&gt;&gt;PIXI_Button.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>13</value>
   </data>
   <data name="SMHACKER_Button.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6.75pt</value>
@@ -1297,7 +1297,7 @@
     <value>NoControl</value>
   </data>
   <data name="SMHACKER_Button.Location" type="System.Drawing.Point, System.Drawing">
-    <value>338, 152</value>
+    <value>2, 202</value>
   </data>
   <data name="SMHACKER_Button.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
@@ -1324,13 +1324,13 @@
     <value>FlowLayoutPanel2</value>
   </data>
   <data name="&gt;&gt;SMHACKER_Button.ZOrder" xml:space="preserve">
-    <value>31</value>
+    <value>32</value>
   </data>
   <data name="LvlMusicUtil_Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="LvlMusicUtil_Button.Location" type="System.Drawing.Point, System.Drawing">
-    <value>50, 52</value>
+    <value>98, 52</value>
   </data>
   <data name="LvlMusicUtil_Button.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
@@ -1354,7 +1354,7 @@
     <value>FlowLayoutPanel2</value>
   </data>
   <data name="&gt;&gt;LvlMusicUtil_Button.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>10</value>
   </data>
   <data name="Asar_Button.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6.75pt</value>
@@ -1363,7 +1363,7 @@
     <value>NoControl</value>
   </data>
   <data name="Asar_Button.Location" type="System.Drawing.Point, System.Drawing">
-    <value>242, 102</value>
+    <value>290, 102</value>
   </data>
   <data name="Asar_Button.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
@@ -1387,13 +1387,13 @@
     <value>FlowLayoutPanel2</value>
   </data>
   <data name="&gt;&gt;Asar_Button.ZOrder" xml:space="preserve">
-    <value>21</value>
+    <value>22</value>
   </data>
   <data name="FLIPS_Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="FLIPS_Button.Location" type="System.Drawing.Point, System.Drawing">
-    <value>338, 52</value>
+    <value>2, 102</value>
   </data>
   <data name="FLIPS_Button.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
@@ -1417,13 +1417,13 @@
     <value>FlowLayoutPanel2</value>
   </data>
   <data name="&gt;&gt;FLIPS_Button.ZOrder" xml:space="preserve">
-    <value>15</value>
+    <value>16</value>
   </data>
   <data name="SPC700_Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="SPC700_Button.Location" type="System.Drawing.Point, System.Drawing">
-    <value>290, 52</value>
+    <value>338, 52</value>
   </data>
   <data name="SPC700_Button.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
@@ -1447,13 +1447,13 @@
     <value>FlowLayoutPanel2</value>
   </data>
   <data name="&gt;&gt;SPC700_Button.ZOrder" xml:space="preserve">
-    <value>14</value>
+    <value>15</value>
   </data>
   <data name="AMK_Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="AMK_Button.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 52</value>
+    <value>50, 52</value>
   </data>
   <data name="AMK_Button.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
@@ -1477,7 +1477,7 @@
     <value>FlowLayoutPanel2</value>
   </data>
   <data name="&gt;&gt;AMK_Button.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>9</value>
   </data>
   <data name="PIXI_Option_2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -1843,7 +1843,7 @@
     <value>NoControl</value>
   </data>
   <data name="Snes9x_Button.Location" type="System.Drawing.Point, System.Drawing">
-    <value>290, 102</value>
+    <value>338, 102</value>
   </data>
   <data name="Snes9x_Button.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
@@ -1867,13 +1867,13 @@
     <value>FlowLayoutPanel2</value>
   </data>
   <data name="&gt;&gt;Snes9x_Button.ZOrder" xml:space="preserve">
-    <value>22</value>
+    <value>23</value>
   </data>
   <data name="LE_Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="LE_Button.Location" type="System.Drawing.Point, System.Drawing">
-    <value>50, 2</value>
+    <value>54, 2</value>
   </data>
   <data name="LE_Button.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
@@ -1897,13 +1897,13 @@
     <value>FlowLayoutPanel2</value>
   </data>
   <data name="&gt;&gt;LE_Button.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="LM_Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="LM_Button.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 2</value>
+    <value>6, 2</value>
   </data>
   <data name="LM_Button.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
@@ -1930,7 +1930,7 @@
     <value>FlowLayoutPanel2</value>
   </data>
   <data name="&gt;&gt;LM_Button.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="LM_Option_1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -2298,6 +2298,21 @@
   <data name="SubMenu_TabControl.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
   </data>
+  <data name="SubMenu_TabPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="SubMenu_TabPage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="SubMenu_TabPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>206, 289</value>
+  </data>
+  <data name="SubMenu_TabPage.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="SubMenu_TabPage.Text" xml:space="preserve">
+    <value>Version</value>
+  </data>
   <data name="&gt;&gt;SubMenu_TabPage.Name" xml:space="preserve">
     <value>SubMenu_TabPage</value>
   </data>
@@ -2342,33 +2357,6 @@
   </data>
   <data name="&gt;&gt;SubMenu_TabControl.ZOrder" xml:space="preserve">
     <value>13</value>
-  </data>
-  <data name="SubMenu_TabPage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 22</value>
-  </data>
-  <data name="SubMenu_TabPage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="SubMenu_TabPage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>206, 289</value>
-  </data>
-  <data name="SubMenu_TabPage.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="SubMenu_TabPage.Text" xml:space="preserve">
-    <value>Version</value>
-  </data>
-  <data name="&gt;&gt;SubMenu_TabPage.Name" xml:space="preserve">
-    <value>SubMenu_TabPage</value>
-  </data>
-  <data name="&gt;&gt;SubMenu_TabPage.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;SubMenu_TabPage.Parent" xml:space="preserve">
-    <value>SubMenu_TabControl</value>
-  </data>
-  <data name="&gt;&gt;SubMenu_TabPage.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="Shortcut_GradientLine.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -2982,126 +2970,6 @@
   <data name="&gt;&gt;Shortcut_PlaceHolder6.ZOrder" xml:space="preserve">
     <value>15</value>
   </data>
-  <data name="&gt;&gt;SubMenu_PlaceHolder03.Name" xml:space="preserve">
-    <value>SubMenu_PlaceHolder03</value>
-  </data>
-  <data name="&gt;&gt;SubMenu_PlaceHolder03.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;SubMenu_PlaceHolder03.Parent" xml:space="preserve">
-    <value>FlowLayoutPanel1</value>
-  </data>
-  <data name="&gt;&gt;SubMenu_PlaceHolder03.ZOrder" xml:space="preserve">
-    <value>20</value>
-  </data>
-  <data name="&gt;&gt;SubMenu_PlaceHolder04.Name" xml:space="preserve">
-    <value>SubMenu_PlaceHolder04</value>
-  </data>
-  <data name="&gt;&gt;SubMenu_PlaceHolder04.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;SubMenu_PlaceHolder04.Parent" xml:space="preserve">
-    <value>FlowLayoutPanel1</value>
-  </data>
-  <data name="&gt;&gt;SubMenu_PlaceHolder04.ZOrder" xml:space="preserve">
-    <value>21</value>
-  </data>
-  <data name="&gt;&gt;SubMenu_PlaceHolder07.Name" xml:space="preserve">
-    <value>SubMenu_PlaceHolder07</value>
-  </data>
-  <data name="&gt;&gt;SubMenu_PlaceHolder07.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;SubMenu_PlaceHolder07.Parent" xml:space="preserve">
-    <value>FlowLayoutPanel1</value>
-  </data>
-  <data name="&gt;&gt;SubMenu_PlaceHolder07.ZOrder" xml:space="preserve">
-    <value>24</value>
-  </data>
-  <data name="&gt;&gt;SubMenu_PlaceHolder08.Name" xml:space="preserve">
-    <value>SubMenu_PlaceHolder08</value>
-  </data>
-  <data name="&gt;&gt;SubMenu_PlaceHolder08.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;SubMenu_PlaceHolder08.Parent" xml:space="preserve">
-    <value>FlowLayoutPanel1</value>
-  </data>
-  <data name="&gt;&gt;SubMenu_PlaceHolder08.ZOrder" xml:space="preserve">
-    <value>25</value>
-  </data>
-  <data name="&gt;&gt;SubMenu_PlaceHolder11.Name" xml:space="preserve">
-    <value>SubMenu_PlaceHolder11</value>
-  </data>
-  <data name="&gt;&gt;SubMenu_PlaceHolder11.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;SubMenu_PlaceHolder11.Parent" xml:space="preserve">
-    <value>FlowLayoutPanel1</value>
-  </data>
-  <data name="&gt;&gt;SubMenu_PlaceHolder11.ZOrder" xml:space="preserve">
-    <value>28</value>
-  </data>
-  <data name="&gt;&gt;SubMenu_PlaceHolder12.Name" xml:space="preserve">
-    <value>SubMenu_PlaceHolder12</value>
-  </data>
-  <data name="&gt;&gt;SubMenu_PlaceHolder12.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;SubMenu_PlaceHolder12.Parent" xml:space="preserve">
-    <value>FlowLayoutPanel1</value>
-  </data>
-  <data name="&gt;&gt;SubMenu_PlaceHolder12.ZOrder" xml:space="preserve">
-    <value>29</value>
-  </data>
-  <data name="&gt;&gt;SubMenu_PlaceHolder15.Name" xml:space="preserve">
-    <value>SubMenu_PlaceHolder15</value>
-  </data>
-  <data name="&gt;&gt;SubMenu_PlaceHolder15.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;SubMenu_PlaceHolder15.Parent" xml:space="preserve">
-    <value>FlowLayoutPanel1</value>
-  </data>
-  <data name="&gt;&gt;SubMenu_PlaceHolder15.ZOrder" xml:space="preserve">
-    <value>32</value>
-  </data>
-  <data name="&gt;&gt;SubMenu_PlaceHolder16.Name" xml:space="preserve">
-    <value>SubMenu_PlaceHolder16</value>
-  </data>
-  <data name="&gt;&gt;SubMenu_PlaceHolder16.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;SubMenu_PlaceHolder16.Parent" xml:space="preserve">
-    <value>FlowLayoutPanel1</value>
-  </data>
-  <data name="&gt;&gt;SubMenu_PlaceHolder16.ZOrder" xml:space="preserve">
-    <value>33</value>
-  </data>
-  <data name="FlowLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 72</value>
-  </data>
-  <data name="FlowLayoutPanel1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="FlowLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>192, 172</value>
-  </data>
-  <data name="FlowLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;FlowLayoutPanel1.Name" xml:space="preserve">
-    <value>FlowLayoutPanel1</value>
-  </data>
-  <data name="&gt;&gt;FlowLayoutPanel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;FlowLayoutPanel1.Parent" xml:space="preserve">
-    <value>SubMenu_TabPanel</value>
-  </data>
-  <data name="&gt;&gt;FlowLayoutPanel1.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
   <data name="SubMenu_PlaceHolder03.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
@@ -3366,83 +3234,35 @@
   <data name="&gt;&gt;SubMenu_PlaceHolder16.ZOrder" xml:space="preserve">
     <value>33</value>
   </data>
-  <metadata name="UpdateSearchState_PanelTopBar.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
+  <data name="FlowLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 72</value>
+  </data>
+  <data name="FlowLayoutPanel1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="FlowLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 172</value>
+  </data>
+  <data name="FlowLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;FlowLayoutPanel1.Name" xml:space="preserve">
+    <value>FlowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;FlowLayoutPanel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FlowLayoutPanel1.Parent" xml:space="preserve">
+    <value>SubMenu_TabPanel</value>
+  </data>
+  <data name="&gt;&gt;FlowLayoutPanel1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
   <data name="UpdateSearchState_Panel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
   </data>
   <data name="UpdateSearchState_Panel.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
-  </data>
-  <data name="&gt;&gt;UI_Btn_GoToUpdateModal.Name" xml:space="preserve">
-    <value>UI_Btn_GoToUpdateModal</value>
-  </data>
-  <data name="&gt;&gt;UI_Btn_GoToUpdateModal.Type" xml:space="preserve">
-    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;UI_Btn_GoToUpdateModal.Parent" xml:space="preserve">
-    <value>UpdateSearchState_Panel</value>
-  </data>
-  <data name="&gt;&gt;UI_Btn_GoToUpdateModal.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;UpdateSearchState_PanelTopBar.Name" xml:space="preserve">
-    <value>UpdateSearchState_PanelTopBar</value>
-  </data>
-  <data name="&gt;&gt;UpdateSearchState_PanelTopBar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;UpdateSearchState_PanelTopBar.Parent" xml:space="preserve">
-    <value>UpdateSearchState_Panel</value>
-  </data>
-  <data name="&gt;&gt;UpdateSearchState_PanelTopBar.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;UpdateSearchState_Pic.Name" xml:space="preserve">
-    <value>UpdateSearchState_Pic</value>
-  </data>
-  <data name="&gt;&gt;UpdateSearchState_Pic.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;UpdateSearchState_Pic.Parent" xml:space="preserve">
-    <value>UpdateSearchState_Panel</value>
-  </data>
-  <data name="&gt;&gt;UpdateSearchState_Pic.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;UpdateSearchState_Label.Name" xml:space="preserve">
-    <value>UpdateSearchState_Label</value>
-  </data>
-  <data name="&gt;&gt;UpdateSearchState_Label.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;UpdateSearchState_Label.Parent" xml:space="preserve">
-    <value>UpdateSearchState_Panel</value>
-  </data>
-  <data name="&gt;&gt;UpdateSearchState_Label.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="UpdateSearchState_Panel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 325</value>
-  </data>
-  <data name="UpdateSearchState_Panel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>613, 32</value>
-  </data>
-  <data name="UpdateSearchState_Panel.TabIndex" type="System.Int32, mscorlib">
-    <value>84</value>
-  </data>
-  <data name="&gt;&gt;UpdateSearchState_Panel.Name" xml:space="preserve">
-    <value>UpdateSearchState_Panel</value>
-  </data>
-  <data name="&gt;&gt;UpdateSearchState_Panel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;UpdateSearchState_Panel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;UpdateSearchState_Panel.ZOrder" xml:space="preserve">
-    <value>3</value>
   </data>
   <data name="UI_Btn_GoToUpdateModal.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
@@ -3567,8 +3387,44 @@
   <data name="&gt;&gt;UpdateSearchState_Label.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
+  <data name="UpdateSearchState_Panel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 325</value>
+  </data>
+  <data name="UpdateSearchState_Panel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>613, 32</value>
+  </data>
+  <data name="UpdateSearchState_Panel.TabIndex" type="System.Int32, mscorlib">
+    <value>84</value>
+  </data>
+  <data name="&gt;&gt;UpdateSearchState_Panel.Name" xml:space="preserve">
+    <value>UpdateSearchState_Panel</value>
+  </data>
+  <data name="&gt;&gt;UpdateSearchState_Panel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UpdateSearchState_Panel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;UpdateSearchState_Panel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
   <data name="Applications_TabControl.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
+  </data>
+  <data name="Applicaton_TabPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="Applicaton_TabPage.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="Applicaton_TabPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>398, 289</value>
+  </data>
+  <data name="Applicaton_TabPage.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Applicaton_TabPage.Text" xml:space="preserve">
+    <value>AppTab</value>
   </data>
   <data name="&gt;&gt;Applicaton_TabPage.Name" xml:space="preserve">
     <value>Applicaton_TabPage</value>
@@ -3608,33 +3464,6 @@
   </data>
   <data name="&gt;&gt;Applications_TabControl.ZOrder" xml:space="preserve">
     <value>12</value>
-  </data>
-  <data name="Applicaton_TabPage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 22</value>
-  </data>
-  <data name="Applicaton_TabPage.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="Applicaton_TabPage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>398, 289</value>
-  </data>
-  <data name="Applicaton_TabPage.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="Applicaton_TabPage.Text" xml:space="preserve">
-    <value>AppTab</value>
-  </data>
-  <data name="&gt;&gt;Applicaton_TabPage.Name" xml:space="preserve">
-    <value>Applicaton_TabPage</value>
-  </data>
-  <data name="&gt;&gt;Applicaton_TabPage.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Applicaton_TabPage.Parent" xml:space="preserve">
-    <value>Applications_TabControl</value>
-  </data>
-  <data name="&gt;&gt;Applicaton_TabPage.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="ApplicationText.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -3780,161 +3609,20 @@
   <data name="FlowLayoutPanel2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
   </data>
-  <data name="&gt;&gt;Bsnes_Button.Name" xml:space="preserve">
-    <value>Bsnes_Button</value>
+  <data name="UnusedBtn13.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
-  <data name="&gt;&gt;Bsnes_Button.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="UnusedBtn13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 2</value>
   </data>
-  <data name="&gt;&gt;Bsnes_Button.Parent" xml:space="preserve">
-    <value>FlowLayoutPanel2</value>
+  <data name="UnusedBtn13.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
   </data>
-  <data name="&gt;&gt;Bsnes_Button.ZOrder" xml:space="preserve">
-    <value>23</value>
+  <data name="UnusedBtn13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 37</value>
   </data>
-  <data name="&gt;&gt;UnusedBtn01.Name" xml:space="preserve">
-    <value>UnusedBtn01</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn01.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn01.Parent" xml:space="preserve">
-    <value>FlowLayoutPanel2</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn01.ZOrder" xml:space="preserve">
-    <value>34</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn02.Name" xml:space="preserve">
-    <value>UnusedBtn02</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn02.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn02.Parent" xml:space="preserve">
-    <value>FlowLayoutPanel2</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn02.ZOrder" xml:space="preserve">
-    <value>35</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn03.Name" xml:space="preserve">
-    <value>UnusedBtn03</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn03.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn03.Parent" xml:space="preserve">
-    <value>FlowLayoutPanel2</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn03.ZOrder" xml:space="preserve">
-    <value>36</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn04.Name" xml:space="preserve">
-    <value>UnusedBtn04</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn04.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn04.Parent" xml:space="preserve">
-    <value>FlowLayoutPanel2</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn04.ZOrder" xml:space="preserve">
-    <value>37</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn05.Name" xml:space="preserve">
-    <value>UnusedBtn05</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn05.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn05.Parent" xml:space="preserve">
-    <value>FlowLayoutPanel2</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn05.ZOrder" xml:space="preserve">
-    <value>38</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn06.Name" xml:space="preserve">
-    <value>UnusedBtn06</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn06.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn06.Parent" xml:space="preserve">
-    <value>FlowLayoutPanel2</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn06.ZOrder" xml:space="preserve">
-    <value>39</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn07.Name" xml:space="preserve">
-    <value>UnusedBtn07</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn07.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn07.Parent" xml:space="preserve">
-    <value>FlowLayoutPanel2</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn07.ZOrder" xml:space="preserve">
-    <value>40</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn08.Name" xml:space="preserve">
-    <value>UnusedBtn08</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn08.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn08.Parent" xml:space="preserve">
-    <value>FlowLayoutPanel2</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn08.ZOrder" xml:space="preserve">
-    <value>41</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn09.Name" xml:space="preserve">
-    <value>UnusedBtn09</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn09.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn09.Parent" xml:space="preserve">
-    <value>FlowLayoutPanel2</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn09.ZOrder" xml:space="preserve">
-    <value>42</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn10.Name" xml:space="preserve">
-    <value>UnusedBtn10</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn10.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn10.Parent" xml:space="preserve">
-    <value>FlowLayoutPanel2</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn10.ZOrder" xml:space="preserve">
-    <value>43</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn11.Name" xml:space="preserve">
-    <value>UnusedBtn11</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn11.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn11.Parent" xml:space="preserve">
-    <value>FlowLayoutPanel2</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn11.ZOrder" xml:space="preserve">
-    <value>44</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn12.Name" xml:space="preserve">
-    <value>UnusedBtn12</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn12.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn12.Parent" xml:space="preserve">
-    <value>FlowLayoutPanel2</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn12.ZOrder" xml:space="preserve">
-    <value>45</value>
+  <data name="UnusedBtn13.TabIndex" type="System.Int32, mscorlib">
+    <value>58</value>
   </data>
   <data name="&gt;&gt;UnusedBtn13.Name" xml:space="preserve">
     <value>UnusedBtn13</value>
@@ -3946,361 +3634,13 @@
     <value>FlowLayoutPanel2</value>
   </data>
   <data name="&gt;&gt;UnusedBtn13.ZOrder" xml:space="preserve">
-    <value>46</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn14.Name" xml:space="preserve">
-    <value>UnusedBtn14</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn14.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn14.Parent" xml:space="preserve">
-    <value>FlowLayoutPanel2</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn14.ZOrder" xml:space="preserve">
-    <value>47</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn15.Name" xml:space="preserve">
-    <value>UnusedBtn15</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn15.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn15.Parent" xml:space="preserve">
-    <value>FlowLayoutPanel2</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn15.ZOrder" xml:space="preserve">
-    <value>48</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn16.Name" xml:space="preserve">
-    <value>UnusedBtn16</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn16.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn16.Parent" xml:space="preserve">
-    <value>FlowLayoutPanel2</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn16.ZOrder" xml:space="preserve">
-    <value>49</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn17.Name" xml:space="preserve">
-    <value>UnusedBtn17</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn17.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn17.Parent" xml:space="preserve">
-    <value>FlowLayoutPanel2</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn17.ZOrder" xml:space="preserve">
-    <value>50</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn18.Name" xml:space="preserve">
-    <value>UnusedBtn18</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn18.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn18.Parent" xml:space="preserve">
-    <value>FlowLayoutPanel2</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn18.ZOrder" xml:space="preserve">
-    <value>51</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn19.Name" xml:space="preserve">
-    <value>UnusedBtn19</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn19.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn19.Parent" xml:space="preserve">
-    <value>FlowLayoutPanel2</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn19.ZOrder" xml:space="preserve">
-    <value>52</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn20.Name" xml:space="preserve">
-    <value>UnusedBtn20</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn20.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn20.Parent" xml:space="preserve">
-    <value>FlowLayoutPanel2</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn20.ZOrder" xml:space="preserve">
-    <value>53</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn21.Name" xml:space="preserve">
-    <value>UnusedBtn21</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn21.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn21.Parent" xml:space="preserve">
-    <value>FlowLayoutPanel2</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn21.ZOrder" xml:space="preserve">
-    <value>54</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn22.Name" xml:space="preserve">
-    <value>UnusedBtn22</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn22.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn22.Parent" xml:space="preserve">
-    <value>FlowLayoutPanel2</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn22.ZOrder" xml:space="preserve">
-    <value>55</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn23.Name" xml:space="preserve">
-    <value>UnusedBtn23</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn23.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn23.Parent" xml:space="preserve">
-    <value>FlowLayoutPanel2</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn23.ZOrder" xml:space="preserve">
-    <value>56</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn24.Name" xml:space="preserve">
-    <value>UnusedBtn24</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn24.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn24.Parent" xml:space="preserve">
-    <value>FlowLayoutPanel2</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn24.ZOrder" xml:space="preserve">
-    <value>57</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn25.Name" xml:space="preserve">
-    <value>UnusedBtn25</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn25.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn25.Parent" xml:space="preserve">
-    <value>FlowLayoutPanel2</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn25.ZOrder" xml:space="preserve">
-    <value>58</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn26.Name" xml:space="preserve">
-    <value>UnusedBtn26</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn26.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn26.Parent" xml:space="preserve">
-    <value>FlowLayoutPanel2</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn26.ZOrder" xml:space="preserve">
-    <value>59</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn27.Name" xml:space="preserve">
-    <value>UnusedBtn27</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn27.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn27.Parent" xml:space="preserve">
-    <value>FlowLayoutPanel2</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn27.ZOrder" xml:space="preserve">
-    <value>60</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn28.Name" xml:space="preserve">
-    <value>UnusedBtn28</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn28.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn28.Parent" xml:space="preserve">
-    <value>FlowLayoutPanel2</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn28.ZOrder" xml:space="preserve">
-    <value>61</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn29.Name" xml:space="preserve">
-    <value>UnusedBtn29</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn29.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn29.Parent" xml:space="preserve">
-    <value>FlowLayoutPanel2</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn29.ZOrder" xml:space="preserve">
-    <value>62</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn30.Name" xml:space="preserve">
-    <value>UnusedBtn30</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn30.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn30.Parent" xml:space="preserve">
-    <value>FlowLayoutPanel2</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn30.ZOrder" xml:space="preserve">
-    <value>63</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn31.Name" xml:space="preserve">
-    <value>UnusedBtn31</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn31.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn31.Parent" xml:space="preserve">
-    <value>FlowLayoutPanel2</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn31.ZOrder" xml:space="preserve">
-    <value>64</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn32.Name" xml:space="preserve">
-    <value>UnusedBtn32</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn32.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn32.Parent" xml:space="preserve">
-    <value>FlowLayoutPanel2</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn32.ZOrder" xml:space="preserve">
-    <value>65</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn33.Name" xml:space="preserve">
-    <value>UnusedBtn33</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn33.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn33.Parent" xml:space="preserve">
-    <value>FlowLayoutPanel2</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn33.ZOrder" xml:space="preserve">
-    <value>66</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn34.Name" xml:space="preserve">
-    <value>UnusedBtn34</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn34.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn34.Parent" xml:space="preserve">
-    <value>FlowLayoutPanel2</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn34.ZOrder" xml:space="preserve">
-    <value>67</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn35.Name" xml:space="preserve">
-    <value>UnusedBtn35</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn35.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn35.Parent" xml:space="preserve">
-    <value>FlowLayoutPanel2</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn35.ZOrder" xml:space="preserve">
-    <value>68</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn36.Name" xml:space="preserve">
-    <value>UnusedBtn36</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn36.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn36.Parent" xml:space="preserve">
-    <value>FlowLayoutPanel2</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn36.ZOrder" xml:space="preserve">
-    <value>69</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn37.Name" xml:space="preserve">
-    <value>UnusedBtn37</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn37.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn37.Parent" xml:space="preserve">
-    <value>FlowLayoutPanel2</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn37.ZOrder" xml:space="preserve">
-    <value>70</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn38.Name" xml:space="preserve">
-    <value>UnusedBtn38</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn38.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn38.Parent" xml:space="preserve">
-    <value>FlowLayoutPanel2</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn38.ZOrder" xml:space="preserve">
-    <value>71</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn39.Name" xml:space="preserve">
-    <value>UnusedBtn39</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn39.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn39.Parent" xml:space="preserve">
-    <value>FlowLayoutPanel2</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn39.ZOrder" xml:space="preserve">
-    <value>72</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn40.Name" xml:space="preserve">
-    <value>UnusedBtn40</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn40.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn40.Parent" xml:space="preserve">
-    <value>FlowLayoutPanel2</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn40.ZOrder" xml:space="preserve">
-    <value>73</value>
-  </data>
-  <data name="FlowLayoutPanel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 33</value>
-  </data>
-  <data name="FlowLayoutPanel2.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="FlowLayoutPanel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>384, 250</value>
-  </data>
-  <data name="FlowLayoutPanel2.TabIndex" type="System.Int32, mscorlib">
-    <value>95</value>
-  </data>
-  <data name="&gt;&gt;FlowLayoutPanel2.Name" xml:space="preserve">
-    <value>FlowLayoutPanel2</value>
-  </data>
-  <data name="&gt;&gt;FlowLayoutPanel2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;FlowLayoutPanel2.Parent" xml:space="preserve">
-    <value>Applications_TabPanel</value>
-  </data>
-  <data name="&gt;&gt;FlowLayoutPanel2.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>0</value>
   </data>
   <data name="Bsnes_Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="Bsnes_Button.Location" type="System.Drawing.Point, System.Drawing">
-    <value>338, 102</value>
+    <value>2, 152</value>
   </data>
   <data name="Bsnes_Button.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
@@ -4327,13 +3667,13 @@
     <value>FlowLayoutPanel2</value>
   </data>
   <data name="&gt;&gt;Bsnes_Button.ZOrder" xml:space="preserve">
-    <value>23</value>
+    <value>24</value>
   </data>
   <data name="UnusedBtn01.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
   <data name="UnusedBtn01.Location" type="System.Drawing.Point, System.Drawing">
-    <value>98, 202</value>
+    <value>146, 202</value>
   </data>
   <data name="UnusedBtn01.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
@@ -4354,13 +3694,13 @@
     <value>FlowLayoutPanel2</value>
   </data>
   <data name="&gt;&gt;UnusedBtn01.ZOrder" xml:space="preserve">
-    <value>34</value>
+    <value>35</value>
   </data>
   <data name="UnusedBtn02.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
   <data name="UnusedBtn02.Location" type="System.Drawing.Point, System.Drawing">
-    <value>146, 202</value>
+    <value>194, 202</value>
   </data>
   <data name="UnusedBtn02.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
@@ -4381,13 +3721,13 @@
     <value>FlowLayoutPanel2</value>
   </data>
   <data name="&gt;&gt;UnusedBtn02.ZOrder" xml:space="preserve">
-    <value>35</value>
+    <value>36</value>
   </data>
   <data name="UnusedBtn03.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
   <data name="UnusedBtn03.Location" type="System.Drawing.Point, System.Drawing">
-    <value>194, 202</value>
+    <value>242, 202</value>
   </data>
   <data name="UnusedBtn03.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
@@ -4408,13 +3748,13 @@
     <value>FlowLayoutPanel2</value>
   </data>
   <data name="&gt;&gt;UnusedBtn03.ZOrder" xml:space="preserve">
-    <value>36</value>
+    <value>37</value>
   </data>
   <data name="UnusedBtn04.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
   <data name="UnusedBtn04.Location" type="System.Drawing.Point, System.Drawing">
-    <value>242, 202</value>
+    <value>290, 202</value>
   </data>
   <data name="UnusedBtn04.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
@@ -4435,13 +3775,13 @@
     <value>FlowLayoutPanel2</value>
   </data>
   <data name="&gt;&gt;UnusedBtn04.ZOrder" xml:space="preserve">
-    <value>37</value>
+    <value>38</value>
   </data>
   <data name="UnusedBtn05.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
   <data name="UnusedBtn05.Location" type="System.Drawing.Point, System.Drawing">
-    <value>290, 202</value>
+    <value>338, 202</value>
   </data>
   <data name="UnusedBtn05.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
@@ -4462,13 +3802,13 @@
     <value>FlowLayoutPanel2</value>
   </data>
   <data name="&gt;&gt;UnusedBtn05.ZOrder" xml:space="preserve">
-    <value>38</value>
+    <value>39</value>
   </data>
   <data name="UnusedBtn06.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
   <data name="UnusedBtn06.Location" type="System.Drawing.Point, System.Drawing">
-    <value>338, 202</value>
+    <value>2, 252</value>
   </data>
   <data name="UnusedBtn06.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
@@ -4489,13 +3829,13 @@
     <value>FlowLayoutPanel2</value>
   </data>
   <data name="&gt;&gt;UnusedBtn06.ZOrder" xml:space="preserve">
-    <value>39</value>
+    <value>40</value>
   </data>
   <data name="UnusedBtn07.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
   <data name="UnusedBtn07.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 252</value>
+    <value>50, 252</value>
   </data>
   <data name="UnusedBtn07.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
@@ -4516,13 +3856,13 @@
     <value>FlowLayoutPanel2</value>
   </data>
   <data name="&gt;&gt;UnusedBtn07.ZOrder" xml:space="preserve">
-    <value>40</value>
+    <value>41</value>
   </data>
   <data name="UnusedBtn08.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
   <data name="UnusedBtn08.Location" type="System.Drawing.Point, System.Drawing">
-    <value>50, 252</value>
+    <value>98, 252</value>
   </data>
   <data name="UnusedBtn08.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
@@ -4543,13 +3883,13 @@
     <value>FlowLayoutPanel2</value>
   </data>
   <data name="&gt;&gt;UnusedBtn08.ZOrder" xml:space="preserve">
-    <value>41</value>
+    <value>42</value>
   </data>
   <data name="UnusedBtn09.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
   <data name="UnusedBtn09.Location" type="System.Drawing.Point, System.Drawing">
-    <value>98, 252</value>
+    <value>146, 252</value>
   </data>
   <data name="UnusedBtn09.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
@@ -4570,13 +3910,13 @@
     <value>FlowLayoutPanel2</value>
   </data>
   <data name="&gt;&gt;UnusedBtn09.ZOrder" xml:space="preserve">
-    <value>42</value>
+    <value>43</value>
   </data>
   <data name="UnusedBtn10.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
   <data name="UnusedBtn10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>146, 252</value>
+    <value>194, 252</value>
   </data>
   <data name="UnusedBtn10.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
@@ -4597,13 +3937,13 @@
     <value>FlowLayoutPanel2</value>
   </data>
   <data name="&gt;&gt;UnusedBtn10.ZOrder" xml:space="preserve">
-    <value>43</value>
+    <value>44</value>
   </data>
   <data name="UnusedBtn11.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
   <data name="UnusedBtn11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>194, 252</value>
+    <value>242, 252</value>
   </data>
   <data name="UnusedBtn11.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
@@ -4624,13 +3964,13 @@
     <value>FlowLayoutPanel2</value>
   </data>
   <data name="&gt;&gt;UnusedBtn11.ZOrder" xml:space="preserve">
-    <value>44</value>
+    <value>45</value>
   </data>
   <data name="UnusedBtn12.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
   <data name="UnusedBtn12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>242, 252</value>
+    <value>290, 252</value>
   </data>
   <data name="UnusedBtn12.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
@@ -4651,33 +3991,6 @@
     <value>FlowLayoutPanel2</value>
   </data>
   <data name="&gt;&gt;UnusedBtn12.ZOrder" xml:space="preserve">
-    <value>45</value>
-  </data>
-  <data name="UnusedBtn13.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="UnusedBtn13.Location" type="System.Drawing.Point, System.Drawing">
-    <value>290, 252</value>
-  </data>
-  <data name="UnusedBtn13.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
-  </data>
-  <data name="UnusedBtn13.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 46</value>
-  </data>
-  <data name="UnusedBtn13.TabIndex" type="System.Int32, mscorlib">
-    <value>58</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn13.Name" xml:space="preserve">
-    <value>UnusedBtn13</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn13.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn13.Parent" xml:space="preserve">
-    <value>FlowLayoutPanel2</value>
-  </data>
-  <data name="&gt;&gt;UnusedBtn13.ZOrder" xml:space="preserve">
     <value>46</value>
   </data>
   <data name="UnusedBtn14.Enabled" type="System.Boolean, mscorlib">
@@ -5424,8 +4737,47 @@
   <data name="&gt;&gt;UnusedBtn40.ZOrder" xml:space="preserve">
     <value>73</value>
   </data>
+  <data name="FlowLayoutPanel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 33</value>
+  </data>
+  <data name="FlowLayoutPanel2.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="FlowLayoutPanel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>384, 250</value>
+  </data>
+  <data name="FlowLayoutPanel2.TabIndex" type="System.Int32, mscorlib">
+    <value>95</value>
+  </data>
+  <data name="&gt;&gt;FlowLayoutPanel2.Name" xml:space="preserve">
+    <value>FlowLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;FlowLayoutPanel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FlowLayoutPanel2.Parent" xml:space="preserve">
+    <value>Applications_TabPanel</value>
+  </data>
+  <data name="&gt;&gt;FlowLayoutPanel2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
   <data name="TabControl3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left, Right</value>
+  </data>
+  <data name="TabPage4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="TabPage4.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="TabPage4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>609, 27</value>
+  </data>
+  <data name="TabPage4.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="TabPage4.Text" xml:space="preserve">
+    <value>TabPage4</value>
   </data>
   <data name="&gt;&gt;TabPage4.Name" xml:space="preserve">
     <value>TabPage4</value>
@@ -5466,140 +4818,11 @@
   <data name="&gt;&gt;TabControl3.ZOrder" xml:space="preserve">
     <value>14</value>
   </data>
-  <data name="TabPage4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 22</value>
-  </data>
-  <data name="TabPage4.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="TabPage4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>609, 27</value>
-  </data>
-  <data name="TabPage4.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="TabPage4.Text" xml:space="preserve">
-    <value>TabPage4</value>
-  </data>
-  <data name="&gt;&gt;TabPage4.Name" xml:space="preserve">
-    <value>TabPage4</value>
-  </data>
-  <data name="&gt;&gt;TabPage4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TabPage4.Parent" xml:space="preserve">
-    <value>TabControl3</value>
-  </data>
-  <data name="&gt;&gt;TabPage4.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <metadata name="BottomBar_Container.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="BtmBar_MenuRetractBtnCbx.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="BtmBar_Separator_1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="BtmBar_Separator_2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="BtmBar_Separator_3.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="BtmBar_Separator_4.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <data name="BottomBar_Container.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left, Right</value>
-  </data>
-  <data name="&gt;&gt;BtmBar_MenuRetractBtnCbx.Name" xml:space="preserve">
-    <value>BtmBar_MenuRetractBtnCbx</value>
-  </data>
-  <data name="&gt;&gt;BtmBar_MenuRetractBtnCbx.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;BtmBar_MenuRetractBtnCbx.Parent" xml:space="preserve">
-    <value>BottomBar_Container</value>
-  </data>
-  <data name="&gt;&gt;BtmBar_MenuRetractBtnCbx.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;BtmBar_Separator_1.Name" xml:space="preserve">
-    <value>BtmBar_Separator_1</value>
-  </data>
-  <data name="&gt;&gt;BtmBar_Separator_1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;BtmBar_Separator_1.Parent" xml:space="preserve">
-    <value>BottomBar_Container</value>
-  </data>
-  <data name="&gt;&gt;BtmBar_Separator_1.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;BtmBar_Separator_2.Name" xml:space="preserve">
-    <value>BtmBar_Separator_2</value>
-  </data>
-  <data name="&gt;&gt;BtmBar_Separator_2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;BtmBar_Separator_2.Parent" xml:space="preserve">
-    <value>BottomBar_Container</value>
-  </data>
-  <data name="&gt;&gt;BtmBar_Separator_2.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;BtmBar_Separator_3.Name" xml:space="preserve">
-    <value>BtmBar_Separator_3</value>
-  </data>
-  <data name="&gt;&gt;BtmBar_Separator_3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;BtmBar_Separator_3.Parent" xml:space="preserve">
-    <value>BottomBar_Container</value>
-  </data>
-  <data name="&gt;&gt;BtmBar_Separator_3.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;BtmBar_Separator_4.Name" xml:space="preserve">
-    <value>BtmBar_Separator_4</value>
-  </data>
-  <data name="&gt;&gt;BtmBar_Separator_4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;BtmBar_Separator_4.Parent" xml:space="preserve">
-    <value>BottomBar_Container</value>
-  </data>
-  <data name="&gt;&gt;BtmBar_Separator_4.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="BottomBar_Container.FlowDirection" type="System.Windows.Forms.FlowDirection, System.Windows.Forms">
-    <value>RightToLeft</value>
-  </data>
-  <data name="BottomBar_Container.Location" type="System.Drawing.Point, System.Drawing">
-    <value>58, 366</value>
-  </data>
-  <data name="BottomBar_Container.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="BottomBar_Container.Size" type="System.Drawing.Size, System.Drawing">
-    <value>570, 37</value>
-  </data>
-  <data name="BottomBar_Container.TabIndex" type="System.Int32, mscorlib">
-    <value>97</value>
-  </data>
-  <data name="&gt;&gt;BottomBar_Container.Name" xml:space="preserve">
-    <value>BottomBar_Container</value>
-  </data>
-  <data name="&gt;&gt;BottomBar_Container.Type" xml:space="preserve">
-    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;BottomBar_Container.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;BottomBar_Container.ZOrder" xml:space="preserve">
-    <value>4</value>
   </data>
   <metadata name="BtmBar_MenuRetractBtnCbx.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -5774,6 +4997,33 @@
   </data>
   <data name="&gt;&gt;BtmBar_Separator_4.ZOrder" xml:space="preserve">
     <value>9</value>
+  </data>
+  <data name="BottomBar_Container.FlowDirection" type="System.Windows.Forms.FlowDirection, System.Windows.Forms">
+    <value>RightToLeft</value>
+  </data>
+  <data name="BottomBar_Container.Location" type="System.Drawing.Point, System.Drawing">
+    <value>58, 366</value>
+  </data>
+  <data name="BottomBar_Container.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="BottomBar_Container.Size" type="System.Drawing.Size, System.Drawing">
+    <value>570, 37</value>
+  </data>
+  <data name="BottomBar_Container.TabIndex" type="System.Int32, mscorlib">
+    <value>97</value>
+  </data>
+  <data name="&gt;&gt;BottomBar_Container.Name" xml:space="preserve">
+    <value>BottomBar_Container</value>
+  </data>
+  <data name="&gt;&gt;BottomBar_Container.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BottomBar_Container.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BottomBar_Container.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
   <data name="Deco2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
@@ -6118,7 +5368,7 @@
     <value>SysTray_MenuIcons</value>
   </data>
   <data name="&gt;&gt;SysTray_MenuIcons.Type" xml:space="preserve">
-    <value>SMWMTLextensions.Controls.VistaMenu, SMWMTLextensions, Version=1.10.0.0, Culture=neutral, PublicKeyToken=dc405ec29ce8ec15</value>
+    <value>SMWMTLextensions.ControlExtensions.NativeMenuIcon, SMWMTLextensions, Version=1.1.0.0, Culture=neutral, PublicKeyToken=dc405ec29ce8ec15</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>Frm01_Main</value>

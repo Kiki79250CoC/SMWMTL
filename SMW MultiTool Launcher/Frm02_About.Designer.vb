@@ -37,25 +37,21 @@ Partial Class Frm02_About
         Me.UI_ButtonsPanel = New System.Windows.Forms.FlowLayoutPanel()
         Me.UI_Separator1 = New System.Windows.Forms.PictureBox()
         Me.UI_Btn_Mentions = New System.Windows.Forms.Button()
-        Me.UI_BtmBar_Panel = New System.Windows.Forms.Panel()
-        Me.UI_BtmBar_PanelBorder = New System.Windows.Forms.Panel()
         Me.UI_UpdateStatusPanel = New System.Windows.Forms.FlowLayoutPanel()
         Me.UI_Btn_GoToUpdateModal = New System.Windows.Forms.LinkLabel()
-        Me.UI_StatPanel = New System.Windows.Forms.Panel()
-        Me.UI_HeaderBorder = New System.Windows.Forms.Panel()
-        Me.UI_AppNamePanel = New System.Windows.Forms.Panel()
-        Me.UI_AppNameBorder = New System.Windows.Forms.Panel()
-        Me.UpdateSysVersion_Label = New System.Windows.Forms.Label()
         Me.CopyBuildStringToolTip = New System.Windows.Forms.ToolTip(Me.components)
         Me.SMWC_ExcRel = New System.Windows.Forms.Label()
+        Me.UI_StatPanel = New SMWMTLextensions.AstraUI.AstraUI_BorderedDockPanel()
+        Me.UI_AppNamePanel = New SMWMTLextensions.AstraUI.AstraUI_BorderedDockPanel()
+        Me.UI_BtmBar_Panel = New SMWMTLextensions.AstraUI.AstraUI_BorderedDockPanel()
         CType(Me.Info_UpdateStatusIcon, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.AppLogo_Image, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.UI_ButtonsPanel.SuspendLayout()
         CType(Me.UI_Separator1, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.UI_BtmBar_Panel.SuspendLayout()
         Me.UI_UpdateStatusPanel.SuspendLayout()
         Me.UI_StatPanel.SuspendLayout()
         Me.UI_AppNamePanel.SuspendLayout()
+        Me.UI_BtmBar_Panel.SuspendLayout()
         Me.SuspendLayout()
         '
         'UI_Btn_OK
@@ -84,7 +80,6 @@ Partial Class Frm02_About
         '
         resources.ApplyResources(Me.AppLogo_Image, "AppLogo_Image")
         Me.AppLogo_Image.BackColor = System.Drawing.Color.Transparent
-        Me.AppLogo_Image.Image = Global.SMW_MultiTool_Launcher.My.Resources.Resources.About_Logo
         Me.AppLogo_Image.Name = "AppLogo_Image"
         Me.AppLogo_Image.TabStop = False
         '
@@ -117,9 +112,11 @@ Partial Class Frm02_About
         '
         resources.ApplyResources(Me.UI_Btn_LegacyAbout, "UI_Btn_LegacyAbout")
         Me.UI_Btn_LegacyAbout.BackColor = System.Drawing.SystemColors.Control
+        Me.UI_Btn_LegacyAbout.DataBindings.Add(New System.Windows.Forms.Binding("Visible", Global.SMW_MultiTool_Launcher.My.MySettings.Default, "SHOW_LEGACYABOUTBTN", True, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged))
         Me.UI_Btn_LegacyAbout.ForeColor = System.Drawing.SystemColors.ControlText
         Me.UI_Btn_LegacyAbout.Name = "UI_Btn_LegacyAbout"
         Me.UI_Btn_LegacyAbout.UseVisualStyleBackColor = True
+        Me.UI_Btn_LegacyAbout.Visible = Global.SMW_MultiTool_Launcher.My.MySettings.Default.SHOW_LEGACYABOUTBTN
         '
         'UI_AllRightsLabel
         '
@@ -153,23 +150,6 @@ Partial Class Frm02_About
         Me.UI_Btn_Mentions.Name = "UI_Btn_Mentions"
         Me.UI_Btn_Mentions.UseVisualStyleBackColor = True
         '
-        'UI_BtmBar_Panel
-        '
-        resources.ApplyResources(Me.UI_BtmBar_Panel, "UI_BtmBar_Panel")
-        Me.UI_BtmBar_Panel.BackColor = System.Drawing.Color.FromArgb(CType(CType(230, Byte), Integer), CType(CType(230, Byte), Integer), CType(CType(230, Byte), Integer))
-        Me.UI_BtmBar_Panel.Controls.Add(Me.UI_BtmBar_PanelBorder)
-        Me.UI_BtmBar_Panel.Controls.Add(Me.Info_UpdateStatusIcon)
-        Me.UI_BtmBar_Panel.Controls.Add(Me.UI_ButtonsPanel)
-        Me.UI_BtmBar_Panel.Controls.Add(Me.UI_UpdateStatusPanel)
-        Me.UI_BtmBar_Panel.Name = "UI_BtmBar_Panel"
-        '
-        'UI_BtmBar_PanelBorder
-        '
-        resources.ApplyResources(Me.UI_BtmBar_PanelBorder, "UI_BtmBar_PanelBorder")
-        Me.UI_BtmBar_PanelBorder.BackColor = System.Drawing.Color.Transparent
-        Me.UI_BtmBar_PanelBorder.BackgroundImage = Global.SMW_MultiTool_Launcher.My.Resources.Resources.UI_BottomBarLight
-        Me.UI_BtmBar_PanelBorder.Name = "UI_BtmBar_PanelBorder"
-        '
         'UI_UpdateStatusPanel
         '
         resources.ApplyResources(Me.UI_UpdateStatusPanel, "UI_UpdateStatusPanel")
@@ -187,47 +167,43 @@ Partial Class Frm02_About
         Me.UI_Btn_GoToUpdateModal.TabStop = True
         Me.UI_Btn_GoToUpdateModal.VisitedLinkColor = System.Drawing.Color.RoyalBlue
         '
-        'UI_StatPanel
-        '
-        resources.ApplyResources(Me.UI_StatPanel, "UI_StatPanel")
-        Me.UI_StatPanel.BackColor = System.Drawing.Color.Transparent
-        Me.UI_StatPanel.Controls.Add(Me.UI_HeaderBorder)
-        Me.UI_StatPanel.Controls.Add(Me.AppVersionStringLabel)
-        Me.UI_StatPanel.Name = "UI_StatPanel"
-        '
-        'UI_HeaderBorder
-        '
-        resources.ApplyResources(Me.UI_HeaderBorder, "UI_HeaderBorder")
-        Me.UI_HeaderBorder.BackgroundImage = Global.SMW_MultiTool_Launcher.My.Resources.Resources.UI_BorderLineBottomLight
-        Me.UI_HeaderBorder.Name = "UI_HeaderBorder"
-        '
-        'UI_AppNamePanel
-        '
-        resources.ApplyResources(Me.UI_AppNamePanel, "UI_AppNamePanel")
-        Me.UI_AppNamePanel.BackColor = System.Drawing.Color.FromArgb(CType(CType(230, Byte), Integer), CType(CType(230, Byte), Integer), CType(CType(230, Byte), Integer))
-        Me.UI_AppNamePanel.BackgroundImage = Global.SMW_MultiTool_Launcher.My.Resources.Resources.About_WindowBack
-        Me.UI_AppNamePanel.Controls.Add(Me.UI_AppNameBorder)
-        Me.UI_AppNamePanel.Controls.Add(Me.AppLogo_Image)
-        Me.UI_AppNamePanel.Name = "UI_AppNamePanel"
-        '
-        'UI_AppNameBorder
-        '
-        resources.ApplyResources(Me.UI_AppNameBorder, "UI_AppNameBorder")
-        Me.UI_AppNameBorder.BackColor = System.Drawing.Color.Transparent
-        Me.UI_AppNameBorder.BackgroundImage = Global.SMW_MultiTool_Launcher.My.Resources.Resources.UI_BorderLineBottom
-        Me.UI_AppNameBorder.Name = "UI_AppNameBorder"
-        '
-        'UpdateSysVersion_Label
-        '
-        resources.ApplyResources(Me.UpdateSysVersion_Label, "UpdateSysVersion_Label")
-        Me.UpdateSysVersion_Label.BackColor = System.Drawing.Color.Transparent
-        Me.UpdateSysVersion_Label.Name = "UpdateSysVersion_Label"
-        '
         'SMWC_ExcRel
         '
         resources.ApplyResources(Me.SMWC_ExcRel, "SMWC_ExcRel")
         Me.SMWC_ExcRel.BackColor = System.Drawing.Color.Transparent
         Me.SMWC_ExcRel.Name = "SMWC_ExcRel"
+        '
+        'UI_StatPanel
+        '
+        Me.UI_StatPanel.BackColor = System.Drawing.Color.FromArgb(CType(CType(230, Byte), Integer), CType(CType(230, Byte), Integer), CType(CType(230, Byte), Integer))
+        Me.UI_StatPanel.BorderAtBottom = True
+        Me.UI_StatPanel.Controls.Add(Me.AppVersionStringLabel)
+        Me.UI_StatPanel.DarkMode = Global.SMW_MultiTool_Launcher.My.MySettings.Default.UI_DARK_MODE
+        Me.UI_StatPanel.DataBindings.Add(New System.Windows.Forms.Binding("DarkMode", Global.SMW_MultiTool_Launcher.My.MySettings.Default, "UI_DARK_MODE", True, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged))
+        resources.ApplyResources(Me.UI_StatPanel, "UI_StatPanel")
+        Me.UI_StatPanel.Name = "UI_StatPanel"
+        '
+        'UI_AppNamePanel
+        '
+        Me.UI_AppNamePanel.BackColor = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
+        Me.UI_AppNamePanel.BackgroundImage = Global.SMW_MultiTool_Launcher.My.Resources.Resources.About_WindowBack
+        resources.ApplyResources(Me.UI_AppNamePanel, "UI_AppNamePanel")
+        Me.UI_AppNamePanel.BorderAtBottom = True
+        Me.UI_AppNamePanel.Controls.Add(Me.AppLogo_Image)
+        Me.UI_AppNamePanel.DarkMode = True
+        Me.UI_AppNamePanel.Name = "UI_AppNamePanel"
+        Me.UI_AppNamePanel.OptimizeForImage = True
+        '
+        'UI_BtmBar_Panel
+        '
+        Me.UI_BtmBar_Panel.BackColor = System.Drawing.Color.FromArgb(CType(CType(230, Byte), Integer), CType(CType(230, Byte), Integer), CType(CType(230, Byte), Integer))
+        Me.UI_BtmBar_Panel.Controls.Add(Me.UI_ButtonsPanel)
+        Me.UI_BtmBar_Panel.Controls.Add(Me.UI_UpdateStatusPanel)
+        Me.UI_BtmBar_Panel.Controls.Add(Me.Info_UpdateStatusIcon)
+        Me.UI_BtmBar_Panel.DarkMode = Global.SMW_MultiTool_Launcher.My.MySettings.Default.UI_DARK_MODE
+        Me.UI_BtmBar_Panel.DataBindings.Add(New System.Windows.Forms.Binding("DarkMode", Global.SMW_MultiTool_Launcher.My.MySettings.Default, "UI_DARK_MODE", True, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged))
+        resources.ApplyResources(Me.UI_BtmBar_Panel, "UI_BtmBar_Panel")
+        Me.UI_BtmBar_Panel.Name = "UI_BtmBar_Panel"
         '
         'Frm02_About
         '
@@ -236,15 +212,14 @@ Partial Class Frm02_About
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(219, Byte), Integer), CType(CType(219, Byte), Integer), CType(CType(219, Byte), Integer))
         Me.CancelButton = Me.UI_Btn_OK
+        Me.Controls.Add(Me.UI_BtmBar_Panel)
+        Me.Controls.Add(Me.UI_AppNamePanel)
+        Me.Controls.Add(Me.UI_StatPanel)
         Me.Controls.Add(Me.AppCopyrightLabel)
         Me.Controls.Add(Me.AppVersion_Label)
         Me.Controls.Add(Me.AppCompil_Label)
-        Me.Controls.Add(Me.UI_BtmBar_Panel)
         Me.Controls.Add(Me.UI_AllRightsLabel)
-        Me.Controls.Add(Me.UI_AppNamePanel)
-        Me.Controls.Add(Me.UI_StatPanel)
         Me.Controls.Add(Me.SMWC_ExcRel)
-        Me.Controls.Add(Me.UpdateSysVersion_Label)
         Me.DoubleBuffered = True
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
         Me.MaximizeBox = False
@@ -256,11 +231,11 @@ Partial Class Frm02_About
         CType(Me.AppLogo_Image, System.ComponentModel.ISupportInitialize).EndInit()
         Me.UI_ButtonsPanel.ResumeLayout(False)
         CType(Me.UI_Separator1, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.UI_BtmBar_Panel.ResumeLayout(False)
         Me.UI_UpdateStatusPanel.ResumeLayout(False)
         Me.UI_UpdateStatusPanel.PerformLayout()
         Me.UI_StatPanel.ResumeLayout(False)
         Me.UI_AppNamePanel.ResumeLayout(False)
+        Me.UI_BtmBar_Panel.ResumeLayout(False)
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -278,15 +253,11 @@ Partial Class Frm02_About
     Friend WithEvents UI_ButtonsPanel As FlowLayoutPanel
     Friend WithEvents UI_Btn_Mentions As Button
     Friend WithEvents UI_Separator1 As PictureBox
-    Friend WithEvents UI_BtmBar_Panel As Panel
     Friend WithEvents UI_UpdateStatusPanel As FlowLayoutPanel
-    Friend WithEvents UI_StatPanel As Panel
-    Friend WithEvents UI_HeaderBorder As Panel
-    Friend WithEvents UI_AppNamePanel As Panel
-    Friend WithEvents UI_AppNameBorder As Panel
     Friend WithEvents UI_Btn_GoToUpdateModal As LinkLabel
-    Friend WithEvents UI_BtmBar_PanelBorder As Panel
-    Friend WithEvents UpdateSysVersion_Label As Label
     Friend WithEvents CopyBuildStringToolTip As ToolTip
     Public WithEvents SMWC_ExcRel As Label
+    Friend WithEvents UI_StatPanel As SMWMTLextensions.AstraUI.AstraUI_BorderedDockPanel
+    Friend WithEvents UI_AppNamePanel As SMWMTLextensions.AstraUI.AstraUI_BorderedDockPanel
+    Friend WithEvents UI_BtmBar_Panel As SMWMTLextensions.AstraUI.AstraUI_BorderedDockPanel
 End Class

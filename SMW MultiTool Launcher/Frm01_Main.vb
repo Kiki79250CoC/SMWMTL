@@ -3,6 +3,13 @@ Imports System.Globalization
 Imports System.Net
 
 Public Class Frm01_Main
+
+    Friend Sub EnableBlur()
+
+
+
+    End Sub
+
 #Region "        DWMAPI + Shell32 API "
 
     ' Detect DWM activation
@@ -71,6 +78,8 @@ Public Class Frm01_Main
 #End Region
 
     Private Sub Frm01_Main_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+        'MsgBox($"{AppEnvironmentVariables.ApplicationMainFont.Name}")
 
         ' Set Icons for window and tray icon
         Icon = My.Resources.AppIcon
@@ -158,6 +167,8 @@ Public Class Frm01_Main
             End Select
         Next
 
+        DwmSetWindowAttribute(Handle, DWM_WindowAttribute.DWMWA_USE_IMMERSIVE_DARK_MODE, If(My.Settings.UI_DARK_MODE, 1, 0), Runtime.InteropServices.Marshal.SizeOf(Of Integer)())
+
         ' Dark mode
         Select Case My.Settings.UI_DARK_MODE
             Case True
@@ -242,10 +253,27 @@ Public Class Frm01_Main
             Case True
                 Select Case AeroEnabled()
                     Case True
-                        Dim side As New Side With {.Left = 13, .Right = 13, .Top = 33, .Bottom = If(Win_NT_Version = "6.0", 56, 54)}
-                        Dim result As Integer = DwmExtendFrameIntoClientArea(Handle, side)
 
-                        DwmSetWindowAttribute(Handle, DWM_WindowAttribute.DWMWA_SYSTEMBACKDROP_TYPE, 3, Runtime.InteropServices.Marshal.SizeOf(Of Integer)())
+                        If Win_BuildNbr >= 10240 AndAlso Win_BuildNbr <= 23600 AndAlso My.Settings.EX_W10_AERO = True Then
+
+                            'Dim accent = New SystemInterop.AccentPolicy With {.AccentState = SystemInterop.AccentState.ACCENT_ENABLE_BLURBEHIND}
+                            'Dim accentStructSize = Runtime.InteropServices.Marshal.SizeOf(accent)
+                            'Dim accentPtr = Runtime.InteropServices.Marshal.AllocHGlobal(accentStructSize)
+
+                            'Runtime.InteropServices.Marshal.StructureToPtr(accent, accentPtr, False)
+
+                            'Dim data = New SystemInterop.WindowCompositionAttributeData With {.Attribute = SystemInterop.WindowCompositionAttribute.WCA_ACCENT_POLICY, .SizeOfData = accentStructSize, .Data = accentPtr}
+
+                            'SystemInterop.SetWindowCompositionAttribute(Handle, data)
+                            'Runtime.InteropServices.Marshal.FreeHGlobal(accentPtr)
+
+                        Else
+
+                            Dim result As Integer = DwmExtendFrameIntoClientArea(Handle, New Side With {.Left = 13, .Right = 13, .Top = 33, .Bottom = 54})
+
+                            DwmSetWindowAttribute(Handle, DWM_WindowAttribute.DWMWA_SYSTEMBACKDROP_TYPE, 2, Runtime.InteropServices.Marshal.SizeOf(Of Integer)())
+
+                        End If
 
                         BackColor = Color.Black
 
@@ -256,7 +284,7 @@ Public Class Frm01_Main
                     Case True
                         Select Case My.Settings.EX_SET_DARKMODE_HOMEUPDATEBAR
                             Case True
-                                BackColor = Color.FromArgb(25, 25, 25)
+                                'BackColor = Color.FromArgb(25, 25, 25)
 
                         End Select
                 End Select
@@ -297,17 +325,19 @@ Public Class Frm01_Main
                     Case 2
                         Text = $"{If(My.Settings.HIDE_TITLE = True, Nothing, WindowTitle)}{If(My.Settings.CUSTOM_TITLE_TEXT = Nothing, Nothing, $"{PersonalizedTextSpacing}{My.Settings.CUSTOM_TITLE_TEXT}")}"
 
-                        Text = Text.Replace("$RS", My.Resources.RELEASE_STATE)
-                        Text = Text.Replace("$MV", My.Resources.APP_VERSION)
-                        Text = Text.Replace("$CV", My.Resources.APP_VERSION_COMPLETE)
-                        Text = Text.Replace("$BN", My.Resources.APP_VERSION_BUILD)
-                        Text = Text.Replace("$BDD", My.Resources.BUILD_DATE_DAY)
-                        Text = Text.Replace("$BDM", My.Resources.BUILD_DATE_MONTH)
-                        Text = Text.Replace("$BDY", My.Resources.BUILD_DATE_YEAR)
-                        Text = Text.Replace("$BDV", CultureInfo.CurrentCulture.TextInfo.ToTitleCase(CompileDate.ToString(If(My.Computer.Info.InstalledUICulture.ToString().Contains("fr"), "dd MMMM yyyy", "MMMM dd, yyyy"), CultureInfo.CreateSpecificCulture(If(My.Computer.Info.InstalledUICulture.ToString().Contains("fr"), "fr-FR", "en-US")))))
-                        Text = Text.Replace("$BDC", My.Resources.BUILD_DATE_COMBINED)
-                        Text = Text.Replace("$ABS", $"{My.Application.Info.AssemblyName}_{My.Resources.APP_CODENAME}_{My.Resources.APP_VERSION_COMPLETE}_x{If(Environment.Is64BitProcess = True, "64", "86")}_{My.Resources.BUILD_DATE_COMBINED}")
-                        Text = Text.Replace("$CN", My.Resources.APP_CODENAME)
+                        With Text
+                            .Replace("$RS", My.Resources.RELEASE_STATE)
+                            .Replace("$MV", My.Resources.APP_VERSION)
+                            .Replace("$CV", My.Resources.APP_VERSION_COMPLETE)
+                            .Replace("$BN", My.Resources.APP_VERSION_BUILD)
+                            .Replace("$BDD", My.Resources.BUILD_DATE_DAY)
+                            .Replace("$BDM", My.Resources.BUILD_DATE_MONTH)
+                            .Replace("$BDY", My.Resources.BUILD_DATE_YEAR)
+                            .Replace("$BDV", CultureInfo.CurrentCulture.TextInfo.ToTitleCase(CompileDate.ToString(If(My.Computer.Info.InstalledUICulture.ToString().Contains("fr"), "dd MMMM yyyy", "MMMM dd, yyyy"), CultureInfo.CreateSpecificCulture(If(My.Computer.Info.InstalledUICulture.ToString().Contains("fr"), "fr-FR", "en-US")))))
+                            .Replace("$BDC", My.Resources.BUILD_DATE_COMBINED)
+                            .Replace("$ABS", $"{My.Application.Info.AssemblyName}_{My.Resources.APP_CODENAME}_{My.Resources.APP_VERSION_COMPLETE}_x{If(Environment.Is64BitProcess = True, "64", "86")}_{My.Resources.BUILD_DATE_COMBINED}")
+                            .Replace("$CN", My.Resources.APP_CODENAME)
+                        End With
 
                 End Select
 

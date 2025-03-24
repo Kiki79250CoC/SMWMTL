@@ -117,30 +117,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="AppCompil_Label.Text" xml:space="preserve">
-    <value>Compilé le</value>
-  </data>
-  <data name="AppVersionStringLabel.ToolTip" xml:space="preserve">
-    <value>Cliquez pour copier la chaîne de version dans le presse-papiers</value>
-  </data>
-  <data name="UI_Btn_LegacyAbout.Text" xml:space="preserve">
-    <value>À propos (Ancien - 2.0x)</value>
-  </data>
-  <data name="UI_AllRightsLabel.Text" xml:space="preserve">
-    <value>Tous droits réservés.</value>
-  </data>
-  <data name="UI_Btn_Mentions.Text" xml:space="preserve">
-    <value>Mentions Légales</value>
-  </data>
-  <data name="UI_Btn_GoToUpdateModal.Text" xml:space="preserve">
-    <value>Voir les détails...</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>À propos de</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="AppCompil_Label.Size" type="System.Drawing.Size, System.Drawing">
-    <value>84, 21</value>
+  <data name="Info_UpdateStatusIcon.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 14</value>
   </data>
   <data name="Info_UpdateStatus.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 7</value>
@@ -149,11 +128,38 @@
   <data name="Info_UpdateStatus.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 7, 0, 8</value>
   </data>
-  <data name="Info_UpdateStatusIcon.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 14</value>
+  <data name="AppCompil_Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 21</value>
+  </data>
+  <data name="AppCompil_Label.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="AppVersionStringLabel.ToolTip" xml:space="preserve">
+    <value>Cliquez pour copier la chaîne de version dans le presse-papiers</value>
+  </data>
+  <data name="UI_Btn_LegacyAbout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 3</value>
+  </data>
+  <data name="UI_Btn_LegacyAbout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 24</value>
+  </data>
+  <data name="UI_Btn_LegacyAbout.Text" xml:space="preserve">
+    <value>À propos (Ancien - 2.0x)</value>
   </data>
   <data name="UI_AllRightsLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>114, 15</value>
+  </data>
+  <data name="UI_AllRightsLabel.Text" xml:space="preserve">
+    <value>Tous droits réservés.</value>
+  </data>
+  <data name="UI_Btn_Mentions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 3</value>
+  </data>
+  <data name="UI_Btn_Mentions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 24</value>
+  </data>
+  <data name="UI_Btn_Mentions.Text" xml:space="preserve">
+    <value>Mentions Légales</value>
   </data>
   <data name="UI_Btn_GoToUpdateModal.Location" type="System.Drawing.Point, System.Drawing">
     <value>98, 7</value>
@@ -164,19 +170,13 @@
   <data name="UI_Btn_GoToUpdateModal.Size" type="System.Drawing.Size, System.Drawing">
     <value>91, 15</value>
   </data>
-  <data name="UI_Btn_LegacyAbout.Location" type="System.Drawing.Point, System.Drawing">
-    <value>24, 3</value>
-  </data>
-  <data name="UI_Btn_LegacyAbout.Size" type="System.Drawing.Size, System.Drawing">
-    <value>138, 24</value>
-  </data>
-  <data name="UI_Btn_Mentions.Location" type="System.Drawing.Point, System.Drawing">
-    <value>167, 3</value>
-  </data>
-  <data name="UI_Btn_Mentions.Size" type="System.Drawing.Size, System.Drawing">
-    <value>110, 24</value>
+  <data name="UI_Btn_GoToUpdateModal.Text" xml:space="preserve">
+    <value>Voir les détails...</value>
   </data>
   <data name="SMWC_ExcRel.Text" xml:space="preserve">
     <value>Version personnalisée pour SMWCentral</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>À propos de</value>
   </data>
 </root>

@@ -3942,9 +3942,9 @@ Partial Class Frm03_Settings
         'Frm03_Settings
         '
         Me.AcceptButton = Me.UI_Btn_OK
-        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None
-        Me.CancelButton = Me.UI_Btn_Cancel
         resources.ApplyResources(Me, "$this")
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi
+        Me.CancelButton = Me.UI_Btn_Cancel
         Me.Controls.Add(Me.Z99_UIDeco04)
         Me.Controls.Add(Me.Z99_UIDeco03)
         Me.Controls.Add(Me.Z99_UIDeco01)
