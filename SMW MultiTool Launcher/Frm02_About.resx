@@ -544,7 +544,7 @@
     <value>RightToLeft</value>
   </data>
   <data name="UI_ButtonsPanel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>478, 5</value>
+    <value>478, 6</value>
   </data>
   <data name="UI_ButtonsPanel.Size" type="System.Drawing.Size, System.Drawing">
     <value>364, 30</value>
@@ -604,7 +604,7 @@
     <value>1</value>
   </data>
   <data name="UI_UpdateStatusPanel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>40, 5</value>
+    <value>40, 6</value>
   </data>
   <data name="UI_UpdateStatusPanel.Size" type="System.Drawing.Size, System.Drawing">
     <value>432, 30</value>

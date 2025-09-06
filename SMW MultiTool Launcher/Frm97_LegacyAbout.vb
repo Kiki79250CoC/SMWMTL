@@ -141,7 +141,7 @@ Public Class Frm97_LegacyAbout
         End Select
 
         ' Replacing values
-        AboutText.Text = AboutText.Text.Replace("BUILDN", My.Resources.APP_VERSION_BUILD).Replace("COMPLETEVER", $"{My.Resources.APP_VERSION}.{My.Resources.APP_VERSION_BUILD}").Replace("SVER", My.Resources.APP_VERSION).Replace("STATE", My.Resources.RELEASE_STATE).Replace("ACD", $"{CultureInfo.CurrentCulture.TextInfo.ToTitleCase(CompileDate.ToString(If(My.Computer.Info.InstalledUICulture.ToString().Contains("fr"), "dd MMMM yyyy", "MMMM dd, yyyy"), CultureInfo.CreateSpecificCulture(If(My.Computer.Info.InstalledUICulture.ToString().Contains("fr"), "fr-FR", "en-US"))))}").Replace("ACYEAR", If(Year_in_Digits >= DisplayYear, Year_in_Digits, DisplayYear)).Replace("ATHR", My.Resources.APP_AUTHOR).Trim()
+        AboutText.Text = AboutText.Text.Replace("BUILDN", ApplicationInfo.AppVerBR).Replace("COMPLETEVER", ApplicationInfo.AppVersion.ToString).Replace("SVER", ApplicationInfo.AppVerDisplay).Replace("STATE", My.Resources.RELEASE_STATE).Replace("ACD", CultureInfo.CurrentCulture.TextInfo.ToTitleCase(ApplicationInfo.CompileDate.ToString(My.Resources.Strings.App_Const_CompDate_Frm, CultureInfo.CreateSpecificCulture(My.Resources.Strings.App_Const_CompDate_Lng)))).Replace("ACYEAR", If(Year(Now) > ApplicationInfo.CompileDate.Date.ToString("yyyy"), Year(Now), ApplicationInfo.CompileDate.Date.ToString("yyyy"))).Replace("ATHR", My.Application.Info.CompanyName).Trim()
 
     End Sub
 

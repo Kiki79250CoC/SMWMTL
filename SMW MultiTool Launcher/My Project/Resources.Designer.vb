@@ -100,6 +100,15 @@ Namespace My.Resources
         End Property
         
         '''<summary>
+        '''  Recherche une chaîne localisée semblable à Kylian Nicouleaud.
+        '''</summary>
+        Friend ReadOnly Property APP_AUTHOR_NAME() As String
+            Get
+                Return ResourceManager.GetString("APP_AUTHOR_NAME", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
         '''  Recherche une chaîne localisée semblable à Laval.
         '''</summary>
         Friend ReadOnly Property APP_CODENAME() As String
@@ -127,7 +136,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Recherche une chaîne localisée semblable à 11.
+        '''  Recherche une chaîne localisée semblable à 12.
         '''</summary>
         Friend ReadOnly Property APP_VERSION_BRANCH_RN() As String
             Get
@@ -2917,6 +2926,15 @@ Namespace My.Resources
         Friend ReadOnly Property UBR_REVISION() As String
             Get
                 Return ResourceManager.GetString("UBR_REVISION", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Recherche une chaîne localisée semblable à 0.
+        '''</summary>
+        Friend ReadOnly Property UBR_REVISION_OFFSET() As String
+            Get
+                Return ResourceManager.GetString("UBR_REVISION_OFFSET", resourceCulture)
             End Get
         End Property
         

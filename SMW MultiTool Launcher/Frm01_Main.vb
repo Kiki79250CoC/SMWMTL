@@ -92,7 +92,7 @@ Public Class Frm01_Main
                 Beta.Visible = True
                 Beta2.Visible = True
 
-                Beta.Text = $"{My.Application.Info.AssemblyName} Codename {My.Resources.APP_CODENAME} Build {My.Resources.APP_VERSION_BUILD}"
+                Beta.Text = $"{My.Application.Info.AssemblyName} Codename {My.Resources.APP_CODENAME} Build {ApplicationInfo.AppVerBR}"
                 Beta2.Text = $"{My.Resources.RELEASE_STATE} • {Frm99_TranslateForm.UI01_ForTestingPurposes.Text}"
 
                 If My.Resources.RELEASE_STATE.Contains("Alpha") Then

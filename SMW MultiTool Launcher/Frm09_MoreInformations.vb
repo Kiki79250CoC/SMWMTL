@@ -20,35 +20,31 @@ Public Class Frm09_MoreInformations
 
     Private Sub Frm09_MoreInformations_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
+        LoadLocalization()
+
         Icon = My.Resources.AppIcon
 
         Select Case My.Settings.UI_DARK_MODE
             Case True
                 ForeColor = Color.White
                 BackColor = Color.FromArgb(36, 36, 36)
-                UI_StatPanel.BackColor = Color.FromArgb(25, 25, 25)
-                UI_BtmBar_Panel.BackColor = Color.FromArgb(25, 25, 25)
-                UI_HeaderBorder.BackgroundImage = My.Resources.UI_BorderLineBottom
-                UI_BtmBar_Panel.BackgroundImage = My.Resources.UI_BottomBar
 
-                For Each Tabs As TabPage In {UI_Tab01_LegalNotice, UI_Tab02_License, UI_Tab03_Changelog, UI_Tab04_OtherCredits}
-                    Tabs.BackColor = Color.FromArgb(36, 36, 36)
+                For Each UIElement In {UI_StatPanel, UI_BtmBar_Panel, UI_LegalNoticeTabControl, UI_LicensePanel, UI_ChangelogPanel, UI_Legal_CustomBuildWrn, UI_OtherCredits_DevTools}
+                    UIElement.DarkMode = True
+                Next
+
+                For Each Tabs As TabPage In {UI_Tab_LegalNotice, UI_Tab_LicenseApp, UI_Tab_Changelog, UI_Tab_OtherCredits}
+                    Tabs.BackColor = Color.FromArgb(47, 47, 47)
+                Next
+
+                For Each Panels As Panel In {UI_LicensePanel, UI_ChangelogPanel, UI_OtherCredits_DevTools}
+                    Panels.BackColor = Color.FromArgb(25, 25, 25)
                 Next
 
                 For Each TxtBx As RichTextBox In {Licence_TextBox, Changelog_TextBox}
                     TxtBx.BackColor = Color.FromArgb(25, 25, 25)
                     TxtBx.ForeColor = Color.White
                 Next
-
-                For Each Panels As Panel In {UI_LicensePanel, UI_ChangelogPanel}
-                    Panels.BackColor = Color.FromArgb(25, 25, 25)
-                Next
-
-                For Each Title As Label In {LegalNotice_Text01, OtherCredits_Text01}
-                    Title.ForeColor = Color.White
-                Next
-
-                Developement_Tool_GroupBox_Pic.Image = My.Resources.VSLogo_Dark
 
         End Select
 
@@ -82,53 +78,82 @@ Public Class Frm09_MoreInformations
 
         End Select
 
-        ' Dynamic values
-        Select Case My.Computer.Info.InstalledUICulture.ToString.Contains("fr")
-            Case True
-                Licence_TextBox.Text = My.Resources.SMWMTL_License_fr.Replace("$version", $"{My.Resources.APP_VERSION} (Build {My.Resources.APP_VERSION_BUILD}{If(My.Settings.IS_PRERELEASE = True, $" • {My.Resources.RELEASE_STATE}", "")})").Replace("$Author", My.Resources.APP_AUTHOR).Replace("$Year", $"{If(Year(Now) > My.Resources.BUILD_DATE_YEAR, Year(Now), My.Resources.BUILD_DATE_YEAR)}").Replace("$CompileDate", $"{CultureInfo.CurrentCulture.TextInfo.ToTitleCase(CompileDate.ToString(If(My.Computer.Info.InstalledUICulture.ToString().Contains("fr"), "dd MMMM yyyy", "MMMM dd, yyyy"), CultureInfo.CreateSpecificCulture(If(My.Computer.Info.InstalledUICulture.ToString().Contains("fr"), "fr-FR", "en-US"))))}")
-                Changelog_TextBox.Text = If(My.Resources.IS_LTS = "True", My.Resources.SMWMTL_Changelog_LTS_fr, My.Resources.SMWMTL_Changelog_fr)
+        ' Icon list for left Tabs
+        Dim UI_LegalNoticeTabIconList As New ImageList
+        UI_LegalNoticeTabControl.ImageList = UI_LegalNoticeTabIconList
 
-            Case False
-                Licence_TextBox.Text = My.Resources.SMWMTL_License.Replace("$version", $"{My.Resources.APP_VERSION} (Build {My.Resources.APP_VERSION_BUILD}{If(My.Settings.IS_PRERELEASE = True, $" • {My.Resources.RELEASE_STATE}", "")})").Replace("$Author", My.Resources.APP_AUTHOR).Replace("$Year", $"{If(Year(Now) > My.Resources.BUILD_DATE_YEAR, Year(Now), My.Resources.BUILD_DATE_YEAR)}").Replace("$CompileDate", $"{CultureInfo.CurrentCulture.TextInfo.ToTitleCase(CompileDate.ToString(If(My.Computer.Info.InstalledUICulture.ToString().Contains("fr"), "dd MMMM yyyy", "MMMM dd, yyyy"), CultureInfo.CreateSpecificCulture(If(My.Computer.Info.InstalledUICulture.ToString().Contains("fr"), "fr-FR", "en-US"))))}")
-                Changelog_TextBox.Text = If(My.Resources.IS_LTS = "True", My.Resources.SMWMTL_Changelog_LTS, My.Resources.SMWMTL_Changelog)
+        UI_LegalNoticeTabIconList.Images.Add(If(My.Settings.UI_DARK_MODE, My.Resources.SysIconModifyW, My.Resources.SysIconModify))
+        UI_Tab_LegalNotice.ImageIndex = 0
+
+        UI_LegalNoticeTabIconList.Images.Add(If(My.Settings.UI_DARK_MODE, My.Resources.SysIconModifyW, My.Resources.SysIconModify))
+        UI_Tab_LicenseApp.ImageIndex = 1
+
+        UI_LegalNoticeTabIconList.Images.Add(If(My.Settings.UI_DARK_MODE, My.Resources.SysIconModifyW, My.Resources.SysIconModify))
+        UI_Tab_Changelog.ImageIndex = 2
+
+        UI_LegalNoticeTabIconList.Images.Add(If(My.Settings.UI_DARK_MODE, My.Resources.SysIconModifyW, My.Resources.SysIconModify))
+        UI_Tab_OtherCredits.ImageIndex = 3
+
+        ' Dynamic values
+        Select Case My.Resources.Strings.App_Const_CompDate_Lng
+            Case "fr-FR"
+                Licence_TextBox.Text = My.Resources.SMWMTL_License_fr.Replace("$version", $"{ApplicationInfo.AppVerDisplay} (Build {ApplicationInfo.AppVerBR}{If(AppCompFlags.IsDebug, $" • {ApplicationInfo.BranchName}", "")})").Replace("$Author", My.Application.Info.CompanyName).Replace("$Year", $"{If(Year(Now) > ApplicationInfo.CompileDate.Date.ToString("yyyy"), Year(Now), ApplicationInfo.CompileDate.Date.ToString("yyyy"))}").Replace("$CompileDate", $"{CultureInfo.CurrentCulture.TextInfo.ToTitleCase(ApplicationInfo.CompileDate.ToString(My.Resources.Strings.App_Const_CompDate_Frm, CultureInfo.CreateSpecificCulture(My.Resources.Strings.App_Const_CompDate_Lng)))}")
+                Changelog_TextBox.Text = If(AppCompFlags.IsLTS, My.Resources.SMWMTL_Changelog_LTS_fr, My.Resources.SMWMTL_Changelog_fr)
+
+            Case Else
+                Licence_TextBox.Text = My.Resources.SMWMTL_License.Replace("$version", $"{ApplicationInfo.AppVerDisplay} (Build {ApplicationInfo.AppVerBR}{If(AppCompFlags.IsDebug, $" • {ApplicationInfo.BranchName}", "")})").Replace("$Author", My.Application.Info.CompanyName).Replace("$Year", $"{If(Year(Now) > ApplicationInfo.CompileDate.Date.ToString("yyyy"), Year(Now), ApplicationInfo.CompileDate.Date.ToString("yyyy"))}").Replace("$CompileDate", $"{CultureInfo.CurrentCulture.TextInfo.ToTitleCase(ApplicationInfo.CompileDate.ToString(My.Resources.Strings.App_Const_CompDate_Frm, CultureInfo.CreateSpecificCulture(My.Resources.Strings.App_Const_CompDate_Lng)))}")
+                Changelog_TextBox.Text = If(AppCompFlags.IsLTS = "True", My.Resources.SMWMTL_Changelog_LTS, My.Resources.SMWMTL_Changelog)
 
         End Select
 
-        LegalNotice_Text02.Text = LegalNotice_Text02.Text.Replace("$Author$", My.Resources.APP_AUTHOR)
+        LegalNoticeText_Description.Text = LegalNoticeText_Description.Text.Replace("$Author$", My.Application.Info.CompanyName)
+        Developement_Tool_GroupBox_Text.Text = Developement_Tool_GroupBox_Text.Text.Replace("BUILDN", ApplicationInfo.AppVerBR).Trim()
 
-        Developement_Tool_GroupBox_Text.Text = Developement_Tool_GroupBox_Text.Text.Replace("BUILDN", My.Resources.APP_VERSION_BUILD).Trim()
+        ' Non-Zero SKU ID
+        UI_Legal_CustomBuildWrn.Visible = Not AppCompFlags.AppSKUID = 1
 
     End Sub
 
-    ' Bottom bar buttons
+    ' Zoom
+    Protected Overrides Sub OnMouseWheel(e As MouseEventArgs)
 
-    ' "Legal notice" button
-    Private Sub UI_LegalNoticeBtn_Click(sender As Object, e As EventArgs) Handles UI_LegalNoticeBtn.Click
-        InformationsTabControl.SelectedIndex = 0
-        UI_StatPanel_Title.Text = UI_LegalNoticeBtn.Text
-    End Sub
-
-    ' "SMWMTL License" button
-    Private Sub UI_AppLicenseBtn_Click(sender As Object, e As EventArgs) Handles UI_AppLicenseBtn.Click
-        InformationsTabControl.SelectedIndex = 1
-        UI_StatPanel_Title.Text = UI_AppLicenseBtn.Text
-    End Sub
-
-    ' "SMWMTL changelog" button
-    Private Sub UI_AppChangelogBtn_Click(sender As Object, e As EventArgs) Handles UI_AppChangelogBtn.Click
-        InformationsTabControl.SelectedIndex = 2
-        UI_StatPanel_Title.Text = UI_AppChangelogBtn.Text
-    End Sub
-
-    ' "Other credits" button
-    Private Sub UI_OtherCreditsBtn_Click(sender As Object, e As EventArgs) Handles UI_OtherCreditsBtn.Click
-        InformationsTabControl.SelectedIndex = 3
-        UI_StatPanel_Title.Text = UI_OtherCreditsBtn.Text
     End Sub
 
     ' "Close" button
     Private Sub CloseBtn_Click(sender As Object, e As EventArgs) Handles CloseBtn.Click
         Close()
+    End Sub
+
+    ' Localization
+    Private Sub LoadLocalization()
+        Text = My.Resources.Strings_Frm09.FrmTitle
+
+        UI_StatPanel_Title.Text = My.Resources.Strings_Frm09.StatPanel_Title
+        UI_StatPanel_Description.Text = String.Format(My.Resources.Strings_Frm09.StatPanel_Description, My.Application.Info.AssemblyName)
+
+        UI_Tab_LegalNotice.Text = My.Resources.Strings_Frm09.UI_Tab_LegalNotice
+        UI_Tab_LicenseApp.Text = String.Format(My.Resources.Strings_Frm09.UI_Tab_LicenseApp, My.Application.Info.AssemblyName)
+        UI_Tab_Changelog.Text = My.Resources.Strings_Frm09.UI_Tab_Changelog
+        UI_Tab_OtherCredits.Text = My.Resources.Strings_Frm09.UI_Tab_OtherCredits
+
+        LegalNotice_CustomBuildWarn_Title.Text = String.Format(My.Resources.Strings_Frm09.LegalNotice_CustomBuildWarn_Title, My.Application.Info.AssemblyName)
+        LegalNotice_CustomBuildWarn_Description.Text = String.Format(My.Resources.Strings_Frm09.LegalNotice_CustomBuildWarn_Description, My.Application.Info.AssemblyName)
+
+        LegalNoticeText_Title.Text = My.Resources.Strings_Frm09.LegalNoticeText_Title
+        LegalNoticeText_Description.Text = String.Format(My.Resources.Strings_Frm09.LegalNoticeText_Description, My.Application.Info.CompanyName, My.Resources.APP_AUTHOR_NAME)
+
+
+
+
+
+
+
+
+
+
+
+        CloseBtn.Text = My.Resources.Strings.App_GText_Close
+
     End Sub
 
     ' Page end
