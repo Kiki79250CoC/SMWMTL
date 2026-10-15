@@ -3,7 +3,7 @@ Imports System.Resources
 Imports System.Runtime.InteropServices
 
 <Assembly: AssemblyTitle("SMW MultiTools Launcher")>
-<Assembly: AssemblyFileVersion("2.20.1764.00")>
+<Assembly: AssemblyFileVersion("2.20.1770.00")>
 
 <Assembly: AssemblyDescription("A Super Mario World hacking multi tools launcher.")>
 <Assembly: AssemblyCompany("AstragonQC Software")>
