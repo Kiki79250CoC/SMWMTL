@@ -34,35 +34,4 @@ Public Class OSBehavior
 
     End Function
 
-
-
-    <AttributeUsage(AttributeTargets.All, AllowMultiple:=True, Inherited:=True)>
-    Public Class CustomLabelAttribute
-        Inherits Attribute
-
-        Public Sub New()
-        End Sub
-
-        Public Property Value() As String
-
-    End Class
-
-    Public Shared Function GetBranchName(OutputInLowercase As Boolean)
-
-        ' This function charges to retrieve the branch name from the Assembly
-        ' Attributes then returns it as a String.
-
-        Dim BranchName As String = "default"
-
-        'Dim a = Assembly.GetEntryAssembly().GetCustomAttribute < ConfigurationLocationAttribute > ().ConfigurationLocation
-
-
-
-
-
-
-        Return If(OutputInLowercase, BranchName.ToLower, BranchName)
-
-    End Function
-
 End Class

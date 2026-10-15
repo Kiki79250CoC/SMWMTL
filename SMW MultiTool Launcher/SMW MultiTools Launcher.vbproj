@@ -59,9 +59,6 @@
   <PropertyGroup>
     <SignManifests>false</SignManifests>
   </PropertyGroup>
-  <PropertyGroup>
-    <BranchName>$([System.IO.File]::ReadAllText('.git\HEAD').Replace('ref: refs/heads/', '').Trim())</BranchName>
-  </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Vanilla_Debug|x64'">
     <DebugSymbols>true</DebugSymbols>
     <DefineDebug>true</DefineDebug>
@@ -71,7 +68,7 @@
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
     <DebugType>full</DebugType>
     <PlatformTarget>x64</PlatformTarget>
-    <DefineConstants>SKU=0,ISLTS=False</DefineConstants>
+    <DefineConstants>SKU=0,ISLTS=False"</DefineConstants>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Vanilla_Release|x64'">
     <DefineTrace>true</DefineTrace>
@@ -81,7 +78,7 @@
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
     <DebugType>pdbonly</DebugType>
     <PlatformTarget>x64</PlatformTarget>
-    <DefineConstants>SKU=0,ISLTS=False</DefineConstants>
+    <DefineConstants>SKU=0,ISLTS=False"</DefineConstants>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'SMWC_Debug|x64'">
     <DebugSymbols>true</DebugSymbols>
@@ -92,7 +89,7 @@
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
     <DebugType>full</DebugType>
     <PlatformTarget>x64</PlatformTarget>
-    <DefineConstants>SKU=1,ISLTS=False</DefineConstants>
+    <DefineConstants>SKU=1,ISLTS=False"</DefineConstants>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'SMWC_Release|x64'">
     <DefineTrace>true</DefineTrace>
@@ -102,7 +99,7 @@
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
     <DebugType>pdbonly</DebugType>
     <PlatformTarget>x64</PlatformTarget>
-    <DefineConstants>SKU=1,ISLTS=False</DefineConstants>
+    <DefineConstants>SKU=1,ISLTS=False"</DefineConstants>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'LTS_Debug|x64'">
     <DebugSymbols>true</DebugSymbols>
@@ -113,7 +110,7 @@
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
     <DebugType>full</DebugType>
     <PlatformTarget>x64</PlatformTarget>
-    <DefineConstants>SKU=0,ISLTS=True</DefineConstants>
+    <DefineConstants>SKU=0,ISLTS=True"</DefineConstants>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'LTS_Release|x64'">
     <DefineTrace>true</DefineTrace>
@@ -123,7 +120,7 @@
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
     <DebugType>pdbonly</DebugType>
     <PlatformTarget>x64</PlatformTarget>
-    <DefineConstants>SKU=0,ISLTS=True</DefineConstants>
+    <DefineConstants>SKU=0,ISLTS=True"</DefineConstants>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.VisualBasic.Compatibility" />
@@ -398,6 +395,8 @@
   <ItemGroup>
     <None Include="app.config" />
     <None Include="AstragonQC_SigningWatermark.pfx" />
+    <None Include="Consts\GitBranch" />
+    <None Include="Consts\GitCHash" />
     <None Include="My Project\app.manifest" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
@@ -481,8 +480,8 @@
     <Content Include="Resources\UI_Elements\Background Images\Window Titlebar\TitleRed.png" />
     <Content Include="Resources\UI_Elements\Background Images\Window Titlebar\TitleYellow.png" />
     <Content Include="Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_1CTL_Error.png" />
-    <None Include="Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_332.png" />
-    <None Include="Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_333.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_332.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_333.png" />
     <Content Include="Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_340.png" />
     <Content Include="Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_350.png" />
     <Content Include="Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_351.png" />
@@ -655,17 +654,17 @@
     <Content Include="Resources\UI_Elements\Windows Versions Assets\LightUI\Winver_banner_WinSvr2022B.png" />
     <Content Include="Resources\UI_Elements\Windows Versions Assets\LightUI\Winver_banner_WinUnknownB.png" />
     <Content Include="Resources\UI_Elements\Windows Versions Assets\LightUI\Winver_banner_WinVistaB.png" />
-    <None Include="Resources\AppBrand\About_Logo.png" />
-    <None Include="Resources\AppBrand\About_LogoLTS.png" />
+    <Content Include="Resources\AppBrand\About_Logo.png" />
+    <Content Include="Resources\AppBrand\About_LogoLTS.png" />
     <Content Include="Resources\AppBrand\Blank16x16.ico" />
     <Content Include="Resources\AppBrand\Kiki79250CoC.png" />
     <Content Include="Resources\AppBrand\Logo210.png" />
-    <None Include="Resources\TXT Files\SMWMTL_Changelog.txt" />
-    <None Include="Resources\TXT Files\SMWMTL_Changelog_fr.txt" />
-    <None Include="Resources\TXT Files\SMWMTL_Changelog_LTS.txt" />
-    <None Include="Resources\TXT Files\SMWMTL_Changelog_LTS_fr.txt" />
+    <Content Include="Resources\TXT Files\SMWMTL_Changelog.txt" />
+    <Content Include="Resources\TXT Files\SMWMTL_Changelog_fr.txt" />
+    <Content Include="Resources\TXT Files\SMWMTL_Changelog_LTS.txt" />
+    <Content Include="Resources\TXT Files\SMWMTL_Changelog_LTS_fr.txt" />
     <Content Include="Resources\TXT Files\SMWMTL_License.txt" />
-    <None Include="Resources\TXT Files\SMWMTL_License_fr.txt" />
+    <Content Include="Resources\TXT Files\SMWMTL_License_fr.txt" />
     <Content Include="Resources\UI_Elements\Background Images\AboutWindow\About_WindowBack.png" />
     <Content Include="Resources\UI_Elements\Background Images\UpdateSystem\UpdateBackBleu.png" />
     <Content Include="Resources\UI_Elements\Background Images\UpdateSystem\UpdateBackJaune.png" />
@@ -851,33 +850,9 @@
     <Content Include="Resources\UI_Elements\UI_GraphicAssets\UI_WindowMasks\Win_8.x\UI_RightMask_8.png" />
     <Content Include="Resources\UI_Elements\UI_GraphicAssets\UI_WindowMasks\Win_8.x\UI_TabMask_8.png" />
   </ItemGroup>
-  <ItemGroup>
-    <AssemblyAttribute Include="AppComp.GitInfo">
-      <GitBranchName>"$(BranchName)"</GitBranchName>
-    </AssemblyAttribute>
-  </ItemGroup>
-  <ItemGroup>
-    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
-      <Visible>False</Visible>
-      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
-      <Install>false</Install>
-    </BootstrapperPackage>
-    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
-      <Visible>False</Visible>
-      <ProductName>.NET Framework 3.5 SP1</ProductName>
-      <Install>false</Install>
-    </BootstrapperPackage>
-  </ItemGroup>
-  <ItemGroup />
-  <ItemGroup>
-    <WCFMetadata Include="Connected Services\" />
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
-       Other similar extension points exist, see Microsoft.Common.targets.
-  <Target Name="BeforeBuild">
-  </Target>
-  <Target Name="AfterBuild">
-  </Target>
-  -->
+  <PropertyGroup>
+    <PreBuildEvent>copy "$(ProjectDir)..\.git\HEAD" "$(ProjectDir)Consts\GitBranch"
+copy "$(ProjectDir)..\.git\ORIG_HEAD" "$(ProjectDir)Consts\GitCHash"</PreBuildEvent>
+  </PropertyGroup>
 </Project>

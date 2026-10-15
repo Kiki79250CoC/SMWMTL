@@ -35,7 +35,8 @@ Namespace AppCompFlags
 #End If
 #End Region
 
-        Public ReadOnly GitBranch As String = OSBehavior.GetBranchName(False)
+        Public ReadOnly GitBranch As String = My.Resources.GitBranch.Replace("ref: refs/heads/", "").Trim().ToLower
+        Public ReadOnly CommitHash As String = My.Resources.GitCHash.ToLower
 
     End Module
 

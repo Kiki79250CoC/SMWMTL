@@ -768,6 +768,26 @@ Namespace My.Resources
         End Property
         
         '''<summary>
+        '''  Recherche une chaîne localisée semblable à ref: refs/heads/Dev
+        '''.
+        '''</summary>
+        Friend ReadOnly Property GitBranch() As String
+            Get
+                Return ResourceManager.GetString("GitBranch", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Recherche une chaîne localisée semblable à 4bbdf120f3c03346836a461ced4898b85c7451bb
+        '''.
+        '''</summary>
+        Friend ReadOnly Property GitCHash() As String
+            Get
+                Return ResourceManager.GetString("GitCHash", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
         '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
         '''</summary>
         Friend ReadOnly Property GitHub_16() As System.Drawing.Bitmap
@@ -2200,7 +2220,7 @@ Namespace My.Resources
         '''                d8P&apos;    `Y8 `88.       .888&apos;  `888.    `888.     .8&apos;  `88.       .888&apos; 8&apos;   888   `8 `888&apos;        
         '''                Y88bo.       888b     d&apos;888    `888.   .8888.   .8&apos;    888b     d&apos;888       888       888         
         '''                 `&quot;Y8888o.   8 Y88. .P  888     `888  .8&apos;`888. .8&apos;     8 Y88. .P  888       888       888         
-        '''                     `&quot;Y88b  8  `888&apos;   888    [le reste de la chaîne a été tronqué]&quot;;.
+        '''                     `&quot;Y88b  8  `888&apos;   888      `8 [le reste de la chaîne a été tronqué]&quot;;.
         '''</summary>
         Friend ReadOnly Property SMWMTL_Changelog() As String
             Get
@@ -2214,7 +2234,7 @@ Namespace My.Resources
         '''                d8P&apos;    `Y8 `88.       .888&apos;  `888.    `888.     .8&apos;  `88.       .888&apos; 8&apos;   888   `8 `888&apos;        
         '''                Y88bo.       888b     d&apos;888    `888.   .8888.   .8&apos;    888b     d&apos;888       888       888         
         '''                 `&quot;Y8888o.   8 Y88. .P  888     `888  .8&apos;`888. .8&apos;     8 Y88. .P  888       888       888         
-        '''                     `&quot;Y88b  8  `888&apos;   888    [le reste de la chaîne a été tronqué]&quot;;.
+        '''                     `&quot;Y88b  8  `888&apos;   888      `8 [le reste de la chaîne a été tronqué]&quot;;.
         '''</summary>
         Friend ReadOnly Property SMWMTL_Changelog_fr() As String
             Get
@@ -2228,7 +2248,7 @@ Namespace My.Resources
         '''                d8P&apos;    `Y8 `88.       .888&apos;  `888.    `888.     .8&apos;  `88.       .888&apos; 8&apos;   888   `8 `888&apos;        
         '''                Y88bo.       888b     d&apos;888    `888.   .8888.   .8&apos;    888b     d&apos;888       888       888         
         '''                 `&quot;Y8888o.   8 Y88. .P  888     `888  .8&apos;`888. .8&apos;     8 Y88. .P  888       888       888         
-        '''                     `&quot;Y88b  8  `888&apos;   888    [le reste de la chaîne a été tronqué]&quot;;.
+        '''                     `&quot;Y88b  8  `888&apos;   888      `8 [le reste de la chaîne a été tronqué]&quot;;.
         '''</summary>
         Friend ReadOnly Property SMWMTL_Changelog_LTS() As String
             Get
@@ -2242,7 +2262,7 @@ Namespace My.Resources
         '''                d8P&apos;    `Y8 `88.       .888&apos;  `888.    `888.     .8&apos;  `88.       .888&apos; 8&apos;   888   `8 `888&apos;        
         '''                Y88bo.       888b     d&apos;888    `888.   .8888.   .8&apos;    888b     d&apos;888       888       888         
         '''                 `&quot;Y8888o.   8 Y88. .P  888     `888  .8&apos;`888. .8&apos;     8 Y88. .P  888       888       888         
-        '''                     `&quot;Y88b  8  `888&apos;   888    [le reste de la chaîne a été tronqué]&quot;;.
+        '''                     `&quot;Y88b  8  `888&apos;   888      `8 [le reste de la chaîne a été tronqué]&quot;;.
         '''</summary>
         Friend ReadOnly Property SMWMTL_Changelog_LTS_fr() As String
             Get
@@ -2267,7 +2287,8 @@ Namespace My.Resources
         '''
         ''' 1. Credits
         ''' 2. Introduction
-        ''' 3. L [le reste de la chaîne a été tronqué]&quot;;.
+        ''' 3. Legal notice
+        ''' 4.  [le reste de la chaîne a été tronqué]&quot;;.
         '''</summary>
         Friend ReadOnly Property SMWMTL_License() As String
             Get
@@ -2292,7 +2313,8 @@ Namespace My.Resources
         '''
         ''' 1. Crédits
         ''' 2. Introduction
-        ''' 3. Me [le reste de la chaîne a été tronqué]&quot;;.
+        ''' 3. Mentions légales
+        '''  [le reste de la chaîne a été tronqué]&quot;;.
         '''</summary>
         Friend ReadOnly Property SMWMTL_License_fr() As String
             Get
