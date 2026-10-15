@@ -3,9 +3,6 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
-# OS junk files
-thumbs.db
-
 # User-specific files
 *.rsuser
 *.suo
@@ -364,3 +361,7 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# OS junk files
+[Tt]humbs.db
+
