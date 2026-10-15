@@ -111,7 +111,7 @@ Partial Class Frm01_Main
         Me.Shortcut_PlaceHolder4 = New System.Windows.Forms.Button()
         Me.Shortcut_PlaceHolder5 = New System.Windows.Forms.Button()
         Me.Shortcut_PlaceHolder6 = New System.Windows.Forms.Button()
-        Me.FlowLayoutPanel1 = New System.Windows.Forms.FlowLayoutPanel()
+        Me.SubMenu_LayoutPanel = New System.Windows.Forms.FlowLayoutPanel()
         Me.SubMenu_PlaceHolder03 = New System.Windows.Forms.Button()
         Me.SubMenu_PlaceHolder04 = New System.Windows.Forms.Button()
         Me.SubMenu_PlaceHolder07 = New System.Windows.Forms.Button()
@@ -131,7 +131,6 @@ Partial Class Frm01_Main
         Me.Application_Gradient1 = New System.Windows.Forms.PictureBox()
         Me.Beta = New System.Windows.Forms.Label()
         Me.Beta2 = New System.Windows.Forms.Label()
-        Me.FlowLayoutPanel2 = New System.Windows.Forms.FlowLayoutPanel()
         Me.Bsnes_Button = New System.Windows.Forms.Button()
         Me.UnusedBtn01 = New System.Windows.Forms.Button()
         Me.UnusedBtn02 = New System.Windows.Forms.Button()
@@ -145,7 +144,6 @@ Partial Class Frm01_Main
         Me.UnusedBtn10 = New System.Windows.Forms.Button()
         Me.UnusedBtn11 = New System.Windows.Forms.Button()
         Me.UnusedBtn12 = New System.Windows.Forms.Button()
-        Me.UnusedBtn13 = New System.Windows.Forms.Button()
         Me.UnusedBtn14 = New System.Windows.Forms.Button()
         Me.UnusedBtn15 = New System.Windows.Forms.Button()
         Me.UnusedBtn16 = New System.Windows.Forms.Button()
@@ -201,16 +199,17 @@ Partial Class Frm01_Main
         Me.SysTray_MenuIcons = New SMWMTLextensions.ControlExtensions.NativeMenuIcon(Me.components)
         Me.Applications_TabPanel = New System.Windows.Forms.Panel()
         Me.SubMenu_TabPanel = New System.Windows.Forms.Panel()
+        Me.Applications_LayoutPanel = New System.Windows.Forms.FlowLayoutPanel()
+        Me.UnusedBtn13 = New System.Windows.Forms.Button()
         Me.SubMenu_TabControl.SuspendLayout()
         CType(Me.Shortcut_GradientLine, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.SubMenu_Gradient2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.SubMenu_Gradient1, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.FlowLayoutPanel1.SuspendLayout()
+        Me.SubMenu_LayoutPanel.SuspendLayout()
         Me.UpdateSearchState_Panel.SuspendLayout()
         CType(Me.UpdateSearchState_Pic, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Applications_TabControl.SuspendLayout()
         CType(Me.Application_Gradient1, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.FlowLayoutPanel2.SuspendLayout()
         Me.TabControl3.SuspendLayout()
         Me.BottomBar_Container.SuspendLayout()
         CType(Me.BtmBar_Separator_1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -227,6 +226,7 @@ Partial Class Frm01_Main
         CType(Me.SysTray_MenuIcons, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Applications_TabPanel.SuspendLayout()
         Me.SubMenu_TabPanel.SuspendLayout()
+        Me.Applications_LayoutPanel.SuspendLayout()
         Me.SuspendLayout()
         '
         'SNESGFX_Button
@@ -1043,44 +1043,44 @@ Partial Class Frm01_Main
         Me.Shortcut_PlaceHolder6.Name = "Shortcut_PlaceHolder6"
         Me.Shortcut_PlaceHolder6.UseVisualStyleBackColor = True
         '
-        'FlowLayoutPanel1
+        'SubMenu_LayoutPanel
         '
-        Me.FlowLayoutPanel1.Controls.Add(Me.LM_Option_1)
-        Me.FlowLayoutPanel1.Controls.Add(Me.LM_Option_2)
-        Me.FlowLayoutPanel1.Controls.Add(Me.LM_Option_3)
-        Me.FlowLayoutPanel1.Controls.Add(Me.AMK_Option_1)
-        Me.FlowLayoutPanel1.Controls.Add(Me.AMK_Option_2)
-        Me.FlowLayoutPanel1.Controls.Add(Me.AMK_Option_3)
-        Me.FlowLayoutPanel1.Controls.Add(Me.PIXI_Option_1)
-        Me.FlowLayoutPanel1.Controls.Add(Me.PIXI_Option_2)
-        Me.FlowLayoutPanel1.Controls.Add(Me.SMWCust_Option_1)
-        Me.FlowLayoutPanel1.Controls.Add(Me.SMWCust_Option_2)
-        Me.FlowLayoutPanel1.Controls.Add(Me.SH_Option_1)
-        Me.FlowLayoutPanel1.Controls.Add(Me.SH_Option_2)
-        Me.FlowLayoutPanel1.Controls.Add(Me.SH_Option_3)
-        Me.FlowLayoutPanel1.Controls.Add(Me.SH_Option_4)
-        Me.FlowLayoutPanel1.Controls.Add(Me.SH_Option_5)
-        Me.FlowLayoutPanel1.Controls.Add(Me.SH_Option_6)
-        Me.FlowLayoutPanel1.Controls.Add(Me.SH_Option_7)
-        Me.FlowLayoutPanel1.Controls.Add(Me.SH_Option_8)
-        Me.FlowLayoutPanel1.Controls.Add(Me.SubMenu_PlaceHolder01)
-        Me.FlowLayoutPanel1.Controls.Add(Me.SubMenu_PlaceHolder02)
-        Me.FlowLayoutPanel1.Controls.Add(Me.SubMenu_PlaceHolder03)
-        Me.FlowLayoutPanel1.Controls.Add(Me.SubMenu_PlaceHolder04)
-        Me.FlowLayoutPanel1.Controls.Add(Me.SubMenu_PlaceHolder05)
-        Me.FlowLayoutPanel1.Controls.Add(Me.SubMenu_PlaceHolder06)
-        Me.FlowLayoutPanel1.Controls.Add(Me.SubMenu_PlaceHolder07)
-        Me.FlowLayoutPanel1.Controls.Add(Me.SubMenu_PlaceHolder08)
-        Me.FlowLayoutPanel1.Controls.Add(Me.SubMenu_PlaceHolder09)
-        Me.FlowLayoutPanel1.Controls.Add(Me.SubMenu_PlaceHolder10)
-        Me.FlowLayoutPanel1.Controls.Add(Me.SubMenu_PlaceHolder11)
-        Me.FlowLayoutPanel1.Controls.Add(Me.SubMenu_PlaceHolder12)
-        Me.FlowLayoutPanel1.Controls.Add(Me.SubMenu_PlaceHolder13)
-        Me.FlowLayoutPanel1.Controls.Add(Me.SubMenu_PlaceHolder14)
-        Me.FlowLayoutPanel1.Controls.Add(Me.SubMenu_PlaceHolder15)
-        Me.FlowLayoutPanel1.Controls.Add(Me.SubMenu_PlaceHolder16)
-        resources.ApplyResources(Me.FlowLayoutPanel1, "FlowLayoutPanel1")
-        Me.FlowLayoutPanel1.Name = "FlowLayoutPanel1"
+        Me.SubMenu_LayoutPanel.Controls.Add(Me.LM_Option_1)
+        Me.SubMenu_LayoutPanel.Controls.Add(Me.LM_Option_2)
+        Me.SubMenu_LayoutPanel.Controls.Add(Me.LM_Option_3)
+        Me.SubMenu_LayoutPanel.Controls.Add(Me.AMK_Option_1)
+        Me.SubMenu_LayoutPanel.Controls.Add(Me.AMK_Option_2)
+        Me.SubMenu_LayoutPanel.Controls.Add(Me.AMK_Option_3)
+        Me.SubMenu_LayoutPanel.Controls.Add(Me.PIXI_Option_1)
+        Me.SubMenu_LayoutPanel.Controls.Add(Me.PIXI_Option_2)
+        Me.SubMenu_LayoutPanel.Controls.Add(Me.SMWCust_Option_1)
+        Me.SubMenu_LayoutPanel.Controls.Add(Me.SMWCust_Option_2)
+        Me.SubMenu_LayoutPanel.Controls.Add(Me.SH_Option_1)
+        Me.SubMenu_LayoutPanel.Controls.Add(Me.SH_Option_2)
+        Me.SubMenu_LayoutPanel.Controls.Add(Me.SH_Option_3)
+        Me.SubMenu_LayoutPanel.Controls.Add(Me.SH_Option_4)
+        Me.SubMenu_LayoutPanel.Controls.Add(Me.SH_Option_5)
+        Me.SubMenu_LayoutPanel.Controls.Add(Me.SH_Option_6)
+        Me.SubMenu_LayoutPanel.Controls.Add(Me.SH_Option_7)
+        Me.SubMenu_LayoutPanel.Controls.Add(Me.SH_Option_8)
+        Me.SubMenu_LayoutPanel.Controls.Add(Me.SubMenu_PlaceHolder01)
+        Me.SubMenu_LayoutPanel.Controls.Add(Me.SubMenu_PlaceHolder02)
+        Me.SubMenu_LayoutPanel.Controls.Add(Me.SubMenu_PlaceHolder03)
+        Me.SubMenu_LayoutPanel.Controls.Add(Me.SubMenu_PlaceHolder04)
+        Me.SubMenu_LayoutPanel.Controls.Add(Me.SubMenu_PlaceHolder05)
+        Me.SubMenu_LayoutPanel.Controls.Add(Me.SubMenu_PlaceHolder06)
+        Me.SubMenu_LayoutPanel.Controls.Add(Me.SubMenu_PlaceHolder07)
+        Me.SubMenu_LayoutPanel.Controls.Add(Me.SubMenu_PlaceHolder08)
+        Me.SubMenu_LayoutPanel.Controls.Add(Me.SubMenu_PlaceHolder09)
+        Me.SubMenu_LayoutPanel.Controls.Add(Me.SubMenu_PlaceHolder10)
+        Me.SubMenu_LayoutPanel.Controls.Add(Me.SubMenu_PlaceHolder11)
+        Me.SubMenu_LayoutPanel.Controls.Add(Me.SubMenu_PlaceHolder12)
+        Me.SubMenu_LayoutPanel.Controls.Add(Me.SubMenu_PlaceHolder13)
+        Me.SubMenu_LayoutPanel.Controls.Add(Me.SubMenu_PlaceHolder14)
+        Me.SubMenu_LayoutPanel.Controls.Add(Me.SubMenu_PlaceHolder15)
+        Me.SubMenu_LayoutPanel.Controls.Add(Me.SubMenu_PlaceHolder16)
+        resources.ApplyResources(Me.SubMenu_LayoutPanel, "SubMenu_LayoutPanel")
+        Me.SubMenu_LayoutPanel.Name = "SubMenu_LayoutPanel"
         '
         'SubMenu_PlaceHolder03
         '
@@ -1232,86 +1232,6 @@ Partial Class Frm01_Main
         Me.Beta2.ForeColor = System.Drawing.Color.Red
         Me.Beta2.Name = "Beta2"
         '
-        'FlowLayoutPanel2
-        '
-        resources.ApplyResources(Me.FlowLayoutPanel2, "FlowLayoutPanel2")
-        Me.FlowLayoutPanel2.Controls.Add(Me.UnusedBtn13)
-        Me.FlowLayoutPanel2.Controls.Add(Me.LM_Button)
-        Me.FlowLayoutPanel2.Controls.Add(Me.LE_Button)
-        Me.FlowLayoutPanel2.Controls.Add(Me.RLM_Button)
-        Me.FlowLayoutPanel2.Controls.Add(Me.SNESGFX_Button)
-        Me.FlowLayoutPanel2.Controls.Add(Me.MarioLPE_Button)
-        Me.FlowLayoutPanel2.Controls.Add(Me.HeAdder_Button)
-        Me.FlowLayoutPanel2.Controls.Add(Me.HDMA_GR_Button)
-        Me.FlowLayoutPanel2.Controls.Add(Me.MML_Edit_Button)
-        Me.FlowLayoutPanel2.Controls.Add(Me.AMK_Button)
-        Me.FlowLayoutPanel2.Controls.Add(Me.LvlMusicUtil_Button)
-        Me.FlowLayoutPanel2.Controls.Add(Me.BRRPlayer_Button)
-        Me.FlowLayoutPanel2.Controls.Add(Me.Blockreator_Button)
-        Me.FlowLayoutPanel2.Controls.Add(Me.PIXI_Button)
-        Me.FlowLayoutPanel2.Controls.Add(Me.M7MAP_Button)
-        Me.FlowLayoutPanel2.Controls.Add(Me.SPC700_Button)
-        Me.FlowLayoutPanel2.Controls.Add(Me.FLIPS_Button)
-        Me.FlowLayoutPanel2.Controls.Add(Me.STAEFF_Button)
-        Me.FlowLayoutPanel2.Controls.Add(Me.SNESColorTool_Button)
-        Me.FlowLayoutPanel2.Controls.Add(Me.EFFTOOL_Button)
-        Me.FlowLayoutPanel2.Controls.Add(Me.GPS_Button)
-        Me.FlowLayoutPanel2.Controls.Add(Me.PMM_Button)
-        Me.FlowLayoutPanel2.Controls.Add(Me.Asar_Button)
-        Me.FlowLayoutPanel2.Controls.Add(Me.Snes9x_Button)
-        Me.FlowLayoutPanel2.Controls.Add(Me.Bsnes_Button)
-        Me.FlowLayoutPanel2.Controls.Add(Me.MarioStartE_Button)
-        Me.FlowLayoutPanel2.Controls.Add(Me.InterEdit_Button)
-        Me.FlowLayoutPanel2.Controls.Add(Me.MMP_Button)
-        Me.FlowLayoutPanel2.Controls.Add(Me.SprGFXCrea_Button)
-        Me.FlowLayoutPanel2.Controls.Add(Me.GraphEdit_Button)
-        Me.FlowLayoutPanel2.Controls.Add(Me.YYCHR_Button)
-        Me.FlowLayoutPanel2.Controls.Add(Me.SMWCust_Button)
-        Me.FlowLayoutPanel2.Controls.Add(Me.SMHACKER_Button)
-        Me.FlowLayoutPanel2.Controls.Add(Me.UberASM_Button)
-        Me.FlowLayoutPanel2.Controls.Add(Me.GradTool_Button)
-        Me.FlowLayoutPanel2.Controls.Add(Me.UnusedBtn01)
-        Me.FlowLayoutPanel2.Controls.Add(Me.UnusedBtn02)
-        Me.FlowLayoutPanel2.Controls.Add(Me.UnusedBtn03)
-        Me.FlowLayoutPanel2.Controls.Add(Me.UnusedBtn04)
-        Me.FlowLayoutPanel2.Controls.Add(Me.UnusedBtn05)
-        Me.FlowLayoutPanel2.Controls.Add(Me.UnusedBtn06)
-        Me.FlowLayoutPanel2.Controls.Add(Me.UnusedBtn07)
-        Me.FlowLayoutPanel2.Controls.Add(Me.UnusedBtn08)
-        Me.FlowLayoutPanel2.Controls.Add(Me.UnusedBtn09)
-        Me.FlowLayoutPanel2.Controls.Add(Me.UnusedBtn10)
-        Me.FlowLayoutPanel2.Controls.Add(Me.UnusedBtn11)
-        Me.FlowLayoutPanel2.Controls.Add(Me.UnusedBtn12)
-        Me.FlowLayoutPanel2.Controls.Add(Me.UnusedBtn14)
-        Me.FlowLayoutPanel2.Controls.Add(Me.UnusedBtn15)
-        Me.FlowLayoutPanel2.Controls.Add(Me.UnusedBtn16)
-        Me.FlowLayoutPanel2.Controls.Add(Me.UnusedBtn17)
-        Me.FlowLayoutPanel2.Controls.Add(Me.UnusedBtn18)
-        Me.FlowLayoutPanel2.Controls.Add(Me.UnusedBtn19)
-        Me.FlowLayoutPanel2.Controls.Add(Me.UnusedBtn20)
-        Me.FlowLayoutPanel2.Controls.Add(Me.UnusedBtn21)
-        Me.FlowLayoutPanel2.Controls.Add(Me.UnusedBtn22)
-        Me.FlowLayoutPanel2.Controls.Add(Me.UnusedBtn23)
-        Me.FlowLayoutPanel2.Controls.Add(Me.UnusedBtn24)
-        Me.FlowLayoutPanel2.Controls.Add(Me.UnusedBtn25)
-        Me.FlowLayoutPanel2.Controls.Add(Me.UnusedBtn26)
-        Me.FlowLayoutPanel2.Controls.Add(Me.UnusedBtn27)
-        Me.FlowLayoutPanel2.Controls.Add(Me.UnusedBtn28)
-        Me.FlowLayoutPanel2.Controls.Add(Me.UnusedBtn29)
-        Me.FlowLayoutPanel2.Controls.Add(Me.UnusedBtn30)
-        Me.FlowLayoutPanel2.Controls.Add(Me.UnusedBtn31)
-        Me.FlowLayoutPanel2.Controls.Add(Me.UnusedBtn32)
-        Me.FlowLayoutPanel2.Controls.Add(Me.UnusedBtn33)
-        Me.FlowLayoutPanel2.Controls.Add(Me.UnusedBtn34)
-        Me.FlowLayoutPanel2.Controls.Add(Me.UnusedBtn35)
-        Me.FlowLayoutPanel2.Controls.Add(Me.UnusedBtn36)
-        Me.FlowLayoutPanel2.Controls.Add(Me.UnusedBtn37)
-        Me.FlowLayoutPanel2.Controls.Add(Me.UnusedBtn38)
-        Me.FlowLayoutPanel2.Controls.Add(Me.UnusedBtn39)
-        Me.FlowLayoutPanel2.Controls.Add(Me.UnusedBtn40)
-        Me.FlowLayoutPanel2.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.FlowLayoutPanel2.Name = "FlowLayoutPanel2"
-        '
         'Bsnes_Button
         '
         Me.Bsnes_Button.BackColor = System.Drawing.SystemColors.Control
@@ -1417,14 +1337,6 @@ Partial Class Frm01_Main
         Me.UnusedBtn12.FlatAppearance.BorderColor = System.Drawing.Color.White
         Me.UnusedBtn12.Name = "UnusedBtn12"
         Me.UnusedBtn12.UseVisualStyleBackColor = True
-        '
-        'UnusedBtn13
-        '
-        Me.UnusedBtn13.BackColor = System.Drawing.SystemColors.Control
-        resources.ApplyResources(Me.UnusedBtn13, "UnusedBtn13")
-        Me.UnusedBtn13.FlatAppearance.BorderColor = System.Drawing.Color.White
-        Me.UnusedBtn13.Name = "UnusedBtn13"
-        Me.UnusedBtn13.UseVisualStyleBackColor = True
         '
         'UnusedBtn14
         '
@@ -1818,9 +1730,9 @@ Partial Class Frm01_Main
         '
         resources.ApplyResources(Me.Applications_TabPanel, "Applications_TabPanel")
         Me.Applications_TabPanel.BackColor = System.Drawing.SystemColors.Window
+        Me.Applications_TabPanel.Controls.Add(Me.Applications_LayoutPanel)
         Me.Applications_TabPanel.Controls.Add(Me.ApplicationText)
         Me.Applications_TabPanel.Controls.Add(Me.Application_Gradient1)
-        Me.Applications_TabPanel.Controls.Add(Me.FlowLayoutPanel2)
         Me.Applications_TabPanel.Controls.Add(Me.Beta)
         Me.Applications_TabPanel.Controls.Add(Me.Beta2)
         Me.Applications_TabPanel.Name = "Applications_TabPanel"
@@ -1831,7 +1743,7 @@ Partial Class Frm01_Main
         Me.SubMenu_TabPanel.BackColor = System.Drawing.SystemColors.Window
         Me.SubMenu_TabPanel.Controls.Add(Me.Shortcut_GradientLine)
         Me.SubMenu_TabPanel.Controls.Add(Me.SubMenu_AppTitle)
-        Me.SubMenu_TabPanel.Controls.Add(Me.FlowLayoutPanel1)
+        Me.SubMenu_TabPanel.Controls.Add(Me.SubMenu_LayoutPanel)
         Me.SubMenu_TabPanel.Controls.Add(Me.SubMenu_Gradient2)
         Me.SubMenu_TabPanel.Controls.Add(Me.SubMenu_Gradient1)
         Me.SubMenu_TabPanel.Controls.Add(Me.Shortcut_1)
@@ -1850,6 +1762,93 @@ Partial Class Frm01_Main
         Me.SubMenu_TabPanel.Controls.Add(Me.Shortcut_PlaceHolder3)
         Me.SubMenu_TabPanel.Controls.Add(Me.OptionsText)
         Me.SubMenu_TabPanel.Name = "SubMenu_TabPanel"
+        '
+        'Applications_LayoutPanel
+        '
+        resources.ApplyResources(Me.Applications_LayoutPanel, "Applications_LayoutPanel")
+        Me.Applications_LayoutPanel.Controls.Add(Me.LM_Button)
+        Me.Applications_LayoutPanel.Controls.Add(Me.LE_Button)
+        Me.Applications_LayoutPanel.Controls.Add(Me.RLM_Button)
+        Me.Applications_LayoutPanel.Controls.Add(Me.SNESGFX_Button)
+        Me.Applications_LayoutPanel.Controls.Add(Me.MarioLPE_Button)
+        Me.Applications_LayoutPanel.Controls.Add(Me.HeAdder_Button)
+        Me.Applications_LayoutPanel.Controls.Add(Me.HDMA_GR_Button)
+        Me.Applications_LayoutPanel.Controls.Add(Me.MML_Edit_Button)
+        Me.Applications_LayoutPanel.Controls.Add(Me.AMK_Button)
+        Me.Applications_LayoutPanel.Controls.Add(Me.LvlMusicUtil_Button)
+        Me.Applications_LayoutPanel.Controls.Add(Me.BRRPlayer_Button)
+        Me.Applications_LayoutPanel.Controls.Add(Me.Blockreator_Button)
+        Me.Applications_LayoutPanel.Controls.Add(Me.PIXI_Button)
+        Me.Applications_LayoutPanel.Controls.Add(Me.M7MAP_Button)
+        Me.Applications_LayoutPanel.Controls.Add(Me.SPC700_Button)
+        Me.Applications_LayoutPanel.Controls.Add(Me.FLIPS_Button)
+        Me.Applications_LayoutPanel.Controls.Add(Me.STAEFF_Button)
+        Me.Applications_LayoutPanel.Controls.Add(Me.SNESColorTool_Button)
+        Me.Applications_LayoutPanel.Controls.Add(Me.EFFTOOL_Button)
+        Me.Applications_LayoutPanel.Controls.Add(Me.GPS_Button)
+        Me.Applications_LayoutPanel.Controls.Add(Me.PMM_Button)
+        Me.Applications_LayoutPanel.Controls.Add(Me.Asar_Button)
+        Me.Applications_LayoutPanel.Controls.Add(Me.Snes9x_Button)
+        Me.Applications_LayoutPanel.Controls.Add(Me.Bsnes_Button)
+        Me.Applications_LayoutPanel.Controls.Add(Me.MarioStartE_Button)
+        Me.Applications_LayoutPanel.Controls.Add(Me.InterEdit_Button)
+        Me.Applications_LayoutPanel.Controls.Add(Me.MMP_Button)
+        Me.Applications_LayoutPanel.Controls.Add(Me.SprGFXCrea_Button)
+        Me.Applications_LayoutPanel.Controls.Add(Me.GraphEdit_Button)
+        Me.Applications_LayoutPanel.Controls.Add(Me.YYCHR_Button)
+        Me.Applications_LayoutPanel.Controls.Add(Me.SMWCust_Button)
+        Me.Applications_LayoutPanel.Controls.Add(Me.SMHACKER_Button)
+        Me.Applications_LayoutPanel.Controls.Add(Me.UberASM_Button)
+        Me.Applications_LayoutPanel.Controls.Add(Me.GradTool_Button)
+        Me.Applications_LayoutPanel.Controls.Add(Me.UnusedBtn01)
+        Me.Applications_LayoutPanel.Controls.Add(Me.UnusedBtn02)
+        Me.Applications_LayoutPanel.Controls.Add(Me.UnusedBtn03)
+        Me.Applications_LayoutPanel.Controls.Add(Me.UnusedBtn04)
+        Me.Applications_LayoutPanel.Controls.Add(Me.UnusedBtn05)
+        Me.Applications_LayoutPanel.Controls.Add(Me.UnusedBtn06)
+        Me.Applications_LayoutPanel.Controls.Add(Me.UnusedBtn40)
+        Me.Applications_LayoutPanel.Controls.Add(Me.UnusedBtn39)
+        Me.Applications_LayoutPanel.Controls.Add(Me.UnusedBtn38)
+        Me.Applications_LayoutPanel.Controls.Add(Me.UnusedBtn37)
+        Me.Applications_LayoutPanel.Controls.Add(Me.UnusedBtn36)
+        Me.Applications_LayoutPanel.Controls.Add(Me.UnusedBtn35)
+        Me.Applications_LayoutPanel.Controls.Add(Me.UnusedBtn34)
+        Me.Applications_LayoutPanel.Controls.Add(Me.UnusedBtn33)
+        Me.Applications_LayoutPanel.Controls.Add(Me.UnusedBtn32)
+        Me.Applications_LayoutPanel.Controls.Add(Me.UnusedBtn31)
+        Me.Applications_LayoutPanel.Controls.Add(Me.UnusedBtn30)
+        Me.Applications_LayoutPanel.Controls.Add(Me.UnusedBtn29)
+        Me.Applications_LayoutPanel.Controls.Add(Me.UnusedBtn28)
+        Me.Applications_LayoutPanel.Controls.Add(Me.UnusedBtn27)
+        Me.Applications_LayoutPanel.Controls.Add(Me.UnusedBtn26)
+        Me.Applications_LayoutPanel.Controls.Add(Me.UnusedBtn25)
+        Me.Applications_LayoutPanel.Controls.Add(Me.UnusedBtn24)
+        Me.Applications_LayoutPanel.Controls.Add(Me.UnusedBtn23)
+        Me.Applications_LayoutPanel.Controls.Add(Me.UnusedBtn22)
+        Me.Applications_LayoutPanel.Controls.Add(Me.UnusedBtn21)
+        Me.Applications_LayoutPanel.Controls.Add(Me.UnusedBtn20)
+        Me.Applications_LayoutPanel.Controls.Add(Me.UnusedBtn19)
+        Me.Applications_LayoutPanel.Controls.Add(Me.UnusedBtn18)
+        Me.Applications_LayoutPanel.Controls.Add(Me.UnusedBtn17)
+        Me.Applications_LayoutPanel.Controls.Add(Me.UnusedBtn16)
+        Me.Applications_LayoutPanel.Controls.Add(Me.UnusedBtn15)
+        Me.Applications_LayoutPanel.Controls.Add(Me.UnusedBtn14)
+        Me.Applications_LayoutPanel.Controls.Add(Me.UnusedBtn12)
+        Me.Applications_LayoutPanel.Controls.Add(Me.UnusedBtn11)
+        Me.Applications_LayoutPanel.Controls.Add(Me.UnusedBtn10)
+        Me.Applications_LayoutPanel.Controls.Add(Me.UnusedBtn09)
+        Me.Applications_LayoutPanel.Controls.Add(Me.UnusedBtn08)
+        Me.Applications_LayoutPanel.Controls.Add(Me.UnusedBtn07)
+        Me.Applications_LayoutPanel.Controls.Add(Me.UnusedBtn13)
+        Me.Applications_LayoutPanel.Name = "Applications_LayoutPanel"
+        '
+        'UnusedBtn13
+        '
+        Me.UnusedBtn13.BackColor = System.Drawing.SystemColors.Control
+        resources.ApplyResources(Me.UnusedBtn13, "UnusedBtn13")
+        Me.UnusedBtn13.FlatAppearance.BorderColor = System.Drawing.Color.White
+        Me.UnusedBtn13.Name = "UnusedBtn13"
+        Me.UnusedBtn13.UseVisualStyleBackColor = True
         '
         'Frm01_Main
         '
@@ -1879,12 +1878,11 @@ Partial Class Frm01_Main
         CType(Me.Shortcut_GradientLine, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.SubMenu_Gradient2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.SubMenu_Gradient1, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.FlowLayoutPanel1.ResumeLayout(False)
+        Me.SubMenu_LayoutPanel.ResumeLayout(False)
         Me.UpdateSearchState_Panel.ResumeLayout(False)
         CType(Me.UpdateSearchState_Pic, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Applications_TabControl.ResumeLayout(False)
         CType(Me.Application_Gradient1, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.FlowLayoutPanel2.ResumeLayout(False)
         Me.TabControl3.ResumeLayout(False)
         Me.BottomBar_Container.ResumeLayout(False)
         CType(Me.BtmBar_Separator_1, System.ComponentModel.ISupportInitialize).EndInit()
@@ -1903,6 +1901,7 @@ Partial Class Frm01_Main
         Me.Applications_TabPanel.PerformLayout()
         Me.SubMenu_TabPanel.ResumeLayout(False)
         Me.SubMenu_TabPanel.PerformLayout()
+        Me.Applications_LayoutPanel.ResumeLayout(False)
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -2017,7 +2016,7 @@ Partial Class Frm01_Main
     Friend WithEvents Shortcut_PlaceHolder4 As Button
     Friend WithEvents Shortcut_PlaceHolder5 As Button
     Friend WithEvents Shortcut_PlaceHolder6 As Button
-    Friend WithEvents FlowLayoutPanel1 As FlowLayoutPanel
+    Friend WithEvents SubMenu_LayoutPanel As FlowLayoutPanel
     Friend WithEvents SH_Option_8 As Button
     Friend WithEvents SH_Option_7 As Button
     Friend WithEvents SH_Option_6 As Button
@@ -2030,7 +2029,6 @@ Partial Class Frm01_Main
     Friend WithEvents BtmBar_Separator_2 As PictureBox
     Friend WithEvents BtmBar_Separator_3 As PictureBox
     Friend WithEvents BtmBar_Separator_4 As PictureBox
-    Friend WithEvents FlowLayoutPanel2 As FlowLayoutPanel
     Friend WithEvents BtmBar_MenuRetractBtnCbx As CheckBox
     Friend WithEvents UpdateSearchState_PanelTopBar As Panel
     Friend WithEvents UI_Btn_GoToUpdateModal As LinkLabel
@@ -2045,7 +2043,6 @@ Partial Class Frm01_Main
     Friend WithEvents UnusedBtn10 As Button
     Friend WithEvents UnusedBtn11 As Button
     Friend WithEvents UnusedBtn12 As Button
-    Friend WithEvents UnusedBtn13 As Button
     Friend WithEvents UnusedBtn14 As Button
     Friend WithEvents UnusedBtn15 As Button
     Friend WithEvents UnusedBtn16 As Button
@@ -2084,4 +2081,6 @@ Partial Class Frm01_Main
     Friend WithEvents UnusedBtn40 As Button
     Friend WithEvents Applications_TabPanel As Panel
     Friend WithEvents SubMenu_TabPanel As Panel
+    Friend WithEvents Applications_LayoutPanel As FlowLayoutPanel
+    Friend WithEvents UnusedBtn13 As Button
 End Class

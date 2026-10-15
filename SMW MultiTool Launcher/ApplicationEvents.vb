@@ -5,6 +5,42 @@ Imports System.Runtime.InteropServices
 Imports Microsoft.VisualBasic.ApplicationServices
 Imports SMWMTLextensions.Dialogs
 
+Namespace AppCompFlags
+
+    Public Module AppConsts
+
+        ' These compilation constants can be modified in the Project Settings > Compilation > Advanced (at the very bottom)
+
+#Region "        Debug Flag"
+#If DEBUG Then
+        Public ReadOnly IsDebug As Boolean = True
+#Else
+        Public ReadOnly IsDebug As Boolean = False
+#End If
+#End Region
+#Region "        Application SKU"
+#If SKU = 0 Then
+        Public ReadOnly AppSKU As String = "Vanilla"
+        Public ReadOnly AppSKUID As Short = 0
+#ElseIf SKU = 1 Then
+        Public ReadOnly AppSKU As String = "SMWC"
+        Public ReadOnly AppSKUID As Short = 1
+#End If
+#End Region
+#Region "        LTS Flag"
+#If ISLTS Then
+        Public ReadOnly IsLTS As Boolean = True
+#Else
+        Public ReadOnly IsLTS As Boolean = False
+#End If
+#End Region
+
+        Public ReadOnly GitBranch As String = OSBehavior.GetBranchName(False)
+
+    End Module
+
+End Namespace
+
 Public Class ApplicationInfo
 
     Public Shared ReadOnly ExecutableLocation As String = My.Application.Info.DirectoryPath
@@ -15,10 +51,16 @@ Public Class ApplicationInfo
     Public Shared ReadOnly AppInfo As FileVersionInfo = FileVersionInfo.GetVersionInfo(Reflection.Assembly.GetExecutingAssembly().Location)
     Public Shared ReadOnly AppVersion As New Version(AppInfo.ProductMajorPart, AppInfo.ProductMinorPart, AppInfo.ProductBuildPart, AppInfo.ProductPrivatePart)
 
-    Public Shared ReadOnly AppVerMM As String = $"{AppVersion.Major}.{AppVersion.Minor}"
-    Public Shared ReadOnly AppVerBR As String = $"{AppVersion.Build}.{AppVersion.Revision:00}"
+    Public Shared ReadOnly AppVerMM As String = $"{AppVersion.Major}.{AppVersion.Minor:00}"
+    Public Shared ReadOnly AppVerBR As String = $"{AppVersion.Build:0000}.{AppVersion.Revision:00}"
+
+    Public Shared ReadOnly AppVerDisplay As String = $"{If(AppCompFlags.IsLTS, $"{AppVersion.Major}.{AppVersion.Minor}-LTS.{My.Resources.UBR_REVISION_OFFSET + 1:00}", AppVerMM)}{If(AppCompFlags.AppSKUID = 1, "s", Nothing)}"
 
     Public Shared ReadOnly CompileDate As Date = OSInteract.PELinkerTimestamp(Reflection.Assembly.GetExecutingAssembly().Location)
+
+    Public Shared ReadOnly BranchName As String = $"{AppCompFlags.AppSKU.ToLower}-{AppCompFlags.GitBranch}"
+
+    Public Shared ReadOnly BuildString As String = $"{My.Application.Info.AssemblyName}_{My.Resources.APP_CODENAME}.{AppVerMM}.{AppVerBR}.{BranchName}{If(AppCompFlags.IsLTS, $".ubr{If(My.Resources.UBR_REVISION = "~", $"{AppVerMM}", My.Resources.UBR_REVISION)}", Nothing)}.{GetEnvironmentVariable("PROCESSOR_ARCHITECTURE").ToLower}.{If(AppCompFlags.IsDebug, "chk", "rel")}.{CompileDate:yyMMdd-HHmm}"
 
 End Class
 
@@ -37,7 +79,7 @@ Public Class SystemInterop
     Public Shared Function DwmExtendFrameIntoClientArea(hWnd As IntPtr, ByRef pMarinset As Side) As Integer
     End Function
 
-    ' Mica/Acrylic (Windows 10 1803+/11)
+    ' Mica (Windows 10 21030+/11)
     Public Enum DWM_WindowAttribute
         UseImmersiveMode = 20
         SystemBackdropType = 38
@@ -50,16 +92,6 @@ Public Class SystemInterop
 End Class
 
 Namespace My
-#Region "    Debug flag"
-    Public Module Common
-#If DEBUG Then
-        Public IsDebug As Boolean = True
-#Else
-    Public IsDebug As Boolean = False
-#End If
-    End Module
-#End Region
-
     Partial Friend Class MyApplication
 
         Private Sub App_JumpStart(sender As Object, e As StartupEventArgs) Handles Me.Startup

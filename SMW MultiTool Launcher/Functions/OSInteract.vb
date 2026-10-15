@@ -3,7 +3,7 @@ Imports System.IO
 
 Public Class OSInteract
 
-    Public Shared Function PELinkerTimestamp(Path As String) As Date
+    Public Shared Function PELinkerTimestamp(Path As String, Optional Timezone As String = Nothing) As Date
         Dim FileB(2047) As Byte
         Dim FileS As Stream = Nothing
         Try
@@ -12,7 +12,10 @@ Public Class OSInteract
         Finally
             If FileS IsNot Nothing Then FileS.Close()
         End Try
-        Return New DateTime(1970, 1, 1, 0, 0, 0).AddSeconds(BitConverter.ToInt32(FileB, BitConverter.ToInt32(FileB, 60) + 8)).AddHours(TimeZone.CurrentTimeZone.GetUtcOffset(New DateTime(1970, 1, 1, 0, 0, 0)).Hours)
+
+        Dim Timestamp As Long = BitConverter.ToInt32(FileB, BitConverter.ToInt32(FileB, 60) + 8)
+
+        Return TimeZoneInfo.ConvertTimeFromUtc(New DateTime(1970, 1, 1, 0, 0, 0).AddSeconds(Timestamp), TimeZoneInfo.FindSystemTimeZoneById(If(Timezone, TimeZoneInfo.Local.Id)))
     End Function
 
 End Class

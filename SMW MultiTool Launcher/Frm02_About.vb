@@ -1,6 +1,7 @@
 ﻿
 Imports System.Globalization
 Imports System.Net
+Imports System.Reflection
 
 Public Class Frm02_About
 #Region "        Values "
@@ -23,14 +24,14 @@ Public Class Frm02_About
         ' +----------------------------------+-------------------------------------------------------------------------------------------
         ' | Line 1 (AppVersion_Label)        | Version A.BB · Build CCCC.DD (A.BB.CCCC.DD · JJJJJJ · SMWMTL_Update v<UpdateSysVer>)
         ' | Line 2 (AppCombil_Label)         | Compiled on EE FFFF GGGG.
-        ' | Line 3 (AppVersionStringLabel)   | SMWMTL_<Codename>_A.BB.CCCC.DD-<BuildDevStateInfo>_<Arch>_HHHHHH-TTTT
+        ' | Line 3 (AppVersionStringLabel)   | SMWMTL_<Codename>_A.BB.CCCC.DD_<BuildDevStateInfo>_<Arch>_<Debug>_HHHHHH-TTTT
         ' | Line 4 (AppCopyrightLabel)       | Copyright © 2014-20II <Author>
         ' +----------------------------------+-------------------------------------------------------------------------------------------
 
-        AppVersion_Label.Text = $"{My.Resources.Strings.UI_Frm02_VersionStr_Version} {ApplicationInfo.AppVerMM}{If(My.Resources.RELEASE_TYPE = "Normal", Nothing, "s")} · {My.Resources.Strings.UI_Frm02_VersionStr_Build} {ApplicationInfo.AppVerBR}{If(My.Settings.IS_PRERELEASE Or My.Resources.IS_LTS = "True" Or (Not My.Resources.RELEASE_TYPE = "Normal"), $" ({If(My.Settings.IS_PRERELEASE, $"{My.Resources.APP_VERSION_BRANCH}{If(My.IsDebug, "chk", "rel")}.{My.Resources.APP_VERSION_BRANCH_RN}", Nothing)}{If(My.Settings.IS_PRERELEASE And My.Resources.IS_LTS = "True", " · ", Nothing)}{If(My.Resources.IS_LTS = "True", $"Update Base Release v{My.Resources.UBR_REVISION}", Nothing)}{If(My.Resources.IS_LTS = "True" And (Not My.Resources.RELEASE_TYPE = "Normal"), " · ", Nothing)}{If(Not My.Resources.RELEASE_TYPE = "Normal", $"{"Custom build for "}{My.Resources.RELEASE_TYPE}", Nothing)})", Nothing)}{If(My.Settings.SHOW_UPDATE_SYSTEM_INFOS_ON_ABOUT_SCREEN, $" · SMWMTL_Update v{My.Resources.UPDATE_ENGINE_VERSION}", Nothing)}"
+        AppVersion_Label.Text = $"{My.Resources.Strings.UI_Frm02_VersionStr_Version} {ApplicationInfo.AppVerDisplay} · {My.Resources.Strings.UI_Frm02_VersionStr_Build} {ApplicationInfo.AppVerBR}{If(My.Settings.IS_PRERELEASE Or My.Resources.IS_LTS = "True" Or (Not My.Resources.RELEASE_TYPE = "Normal"), $" ({If(My.Settings.IS_PRERELEASE, $"{ApplicationInfo.BranchName}", Nothing)}{If(My.Settings.IS_PRERELEASE And My.Resources.IS_LTS = "True", " · ", Nothing)}{If(My.Resources.IS_LTS = "True", $"Update Base Release v{My.Resources.UBR_REVISION}", Nothing)}{If(My.Resources.IS_LTS = "True" And (Not My.Resources.RELEASE_TYPE = "Normal"), " · ", Nothing)}{If(Not My.Resources.RELEASE_TYPE = "Normal", $"{"Custom build for "}{My.Resources.RELEASE_TYPE}", Nothing)})", Nothing)}{If(My.Settings.SHOW_UPDATE_SYSTEM_INFOS_ON_ABOUT_SCREEN, $" · SMWMTL_Update v{My.Resources.UPDATE_ENGINE_VERSION}", Nothing)}"
         AppCompil_Label.Text = $"{My.Resources.Strings.UI_Frm02_CompStr_Compiled} {CultureInfo.CurrentCulture.TextInfo.ToTitleCase(ApplicationInfo.CompileDate.ToString(My.Resources.Strings.App_Const_CompDate_Frm, CultureInfo.CreateSpecificCulture(My.Resources.Strings.App_Const_CompDate_Lng)))}"
 
-        AppVersionStringLabel.Text = $"{My.Application.Info.AssemblyName}_{My.Resources.APP_CODENAME}_{ApplicationInfo.AppVerMM}.{ApplicationInfo.AppVerBR}-{My.Resources.APP_VERSION_BRANCH}{If(My.IsDebug, "chk", "rel")}.{My.Resources.APP_VERSION_BRANCH_RN}_{My.Resources.RELEASE_TYPE}_UA{My.Resources.UPDATE_ENGINE_VERSION}_{Environment.GetEnvironmentVariable("PROCESSOR_ARCHITECTURE").ToLower}_{ApplicationInfo.CompileDate:yyMMdd-HHmm}"
+        AppVersionStringLabel.Text = ApplicationInfo.BuildString
 
         AppCopyrightLabel.Text += $"2014-{If(Year(Now) > ApplicationInfo.CompileDate.Date.ToString("yyyy"), Year(Now), ApplicationInfo.CompileDate.Date.ToString("yyyy"))} {My.Application.Info.CompanyName}"
 
@@ -62,7 +63,7 @@ Public Class Frm02_About
         End If
 
         ' Detecting LTS variant of SMWMTL for about picture.
-        AppLogo_Image.Image = If(My.Resources.IS_LTS = "True", My.Resources.About_LogoLTS, My.Resources.About_Logo)
+        AppLogo_Image.Image = If(AppCompFlags.IsLTS, My.Resources.About_LogoLTS, My.Resources.About_Logo)
 
 
 
@@ -146,8 +147,8 @@ Public Class Frm02_About
 
                 With f
 
-                    .LegalNotice_Text03.Visible = True
-                    .LegalNotice_Text04.Visible = True
+                    .LegalNotice_CustomBuildWarn_Title.Visible = True
+                    .LegalNotice_CustomBuildWarn_Description.Visible = True
 
                 End With
 

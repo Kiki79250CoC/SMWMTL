@@ -1,4 +1,6 @@
 ﻿
+Imports System.Reflection
+
 Public Class ClientOSInfo
     Public Shared ReadOnly KVer As Version = Version.Parse(FileVersionInfo.GetVersionInfo($"{Environment.SystemDirectory}\NTOSKrnl.exe").ProductVersion)
     Public Shared ReadOnly HALVer As Version = Version.Parse(FileVersionInfo.GetVersionInfo($"{Environment.SystemDirectory}\HAL.dll").ProductVersion)
@@ -29,6 +31,37 @@ Public Class OSBehavior
         Dim WinLogonVerChk As Boolean = RequiredOSVersion.CompareTo(ClientOSInfo.WLVer)
 
         Return CltOSVerChk AndAlso KVerChk AndAlso HALVerChk AndAlso W32kVerChk AndAlso WinLogonVerChk
+
+    End Function
+
+
+
+    <AttributeUsage(AttributeTargets.All, AllowMultiple:=True, Inherited:=True)>
+    Public Class CustomLabelAttribute
+        Inherits Attribute
+
+        Public Sub New()
+        End Sub
+
+        Public Property Value() As String
+
+    End Class
+
+    Public Shared Function GetBranchName(OutputInLowercase As Boolean)
+
+        ' This function charges to retrieve the branch name from the Assembly
+        ' Attributes then returns it as a String.
+
+        Dim BranchName As String = "default"
+
+        'Dim a = Assembly.GetEntryAssembly().GetCustomAttribute < ConfigurationLocationAttribute > ().ConfigurationLocation
+
+
+
+
+
+
+        Return If(OutputInLowercase, BranchName.ToLower, BranchName)
 
     End Function
 
