@@ -484,6 +484,8 @@
     <None Include="Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_332.png" />
     <None Include="Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_333.png" />
     <Content Include="Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_340.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_350.png" />
+    <Content Include="Resources\UI_Elements\Icons\Application Column\Lunar Magic\LM_351.png" />
     <Content Include="Resources\UI_Elements\Icons\Application Column\Other\AppIcon_AddMusicK.png" />
     <Content Include="Resources\UI_Elements\Icons\Application Column\Other\AppIcon_Asar.png" />
     <Content Include="Resources\UI_Elements\Icons\Application Column\Other\AppIcon_Blockreator.png" />
